@@ -100,6 +100,27 @@ Or in a browser, for a quick eyeball check:
 http://127.0.0.1:8000/sparql?query=SELECT * WHERE { ?s ?p ?o } LIMIT 10
 ```
 
+## Testing
+
+```bash
+pip install -r requirements-dev.txt
+python3 -m pytest tests/ -v
+```
+
+Tests never touch `knowledge/assertions/` — each test gets a `KnowledgeGraphStore` backed by a
+fresh scratch directory (pytest's `tmp_path` fixture), so they're isolated and don't require any
+real data to be loaded.
+
+- `tests/test_store.py` — unit tests on `KnowledgeGraphStore` (upload, reload-from-disk, re-upload
+  replacing only that file's triples, bad Turtle raising).
+- `tests/test_resolvers.py` — unit tests on `get_concerts`, using synthetic `.ttl` fixtures that
+  exercise the real predicate variants found in the data (`cmo:has-venue` vs `cmo:takes-place-at`,
+  `cmo:has-programme` vs `cmo:hasProgramme`), plus the not-yet-populated `cmo:contains-music-by`
+  composer path.
+- `tests/test_api.py` — integration tests against the actual HTTP endpoints via FastAPI's
+  `TestClient`, with `app.main.store` monkeypatched to a scratch-backed store so nothing depends on
+  or mutates real data.
+
 ## How to use this from a frontend
 
 There's no REST resource model here (no `/entities`, `/nodes`, etc.) — the only way to read data
