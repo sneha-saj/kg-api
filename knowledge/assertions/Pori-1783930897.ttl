@@ -1,0 +1,275 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:aarne-pelkonen a foaf:Person ;
+    foaf:familyName "Pelkonen" ;
+    foaf:firstName "Aarne" ;
+    cmo:known-as-a cmk:baritone ;
+    cmo:sings-in cmk:hallituskatu-1a-20261217T1830 .
+
+cmk:aittakarinkatu-10 a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Aittakarinkatu 10, 26100 Rauma" .
+
+cmk:aittakarinkatu-10-20261002T1830 a mo:Performance ;
+    cmo:has-programme cmk:pori-sinfonietta-menopaal ;
+    schema:name "Rauma: Pori Sinfonietta menopääl!" ;
+    schema:organizer cmk:sinfonietta-pori ;
+    schema:startDate "2026-10-02T18:30:00"^^xsd:dateTime .
+
+cmk:arttu-kataja a foaf:Person ;
+    foaf:familyName "Kataja" ;
+    foaf:firstName "Arttu" ;
+    cmo:known-as-a cmk:bass-baritone ;
+    cmo:sings-in cmk:hallituskatu-1a-20261029T1830 .
+
+cmk:artturi-aalto a foaf:Person ;
+    foaf:familyName "Aalto" ;
+    foaf:firstName "Artturi" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:yrjonkatu-17-20261105T1830 .
+
+cmk:christian-kluxen a foaf:Person ;
+    foaf:familyName "Kluxen" ;
+    foaf:firstName "Christian" ;
+    cmo:conducts-in cmk:yrjonkatu-17-20261015T1830 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:erica-back a foaf:Person ;
+    foaf:familyName "Back" ;
+    foaf:firstName "Erica" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:hallituskatu-1a-20261029T1830 .
+
+cmk:erkki-lasonpalo a foaf:Person ;
+    foaf:familyName "Lasonpalo" ;
+    foaf:firstName "Erkki" ;
+    cmo:conducts-in cmk:yrjonkatu-17-20261105T1830 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:hallituskatu-1a a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Hallituskatu 1a, 28100 Pori" .
+
+cmk:hanna-vahtikari a foaf:Person ;
+    foaf:familyName "Vahtikari" ;
+    foaf:firstName "Hanna" ;
+    cmo:known-as-a cmk:narrator ;
+    cmo:narrates-in cmk:yrjonkatu-17-20261112T1800 .
+
+cmk:henrik-sandas a foaf:Person ;
+    foaf:familyName "Sandås" ;
+    foaf:firstName "Henrik" ;
+    cmo:known-as-a cmk:bandoneon-player ;
+    cmo:plays-in cmk:yrjonkatu-17-20260903T2000 .
+
+cmk:keskuskatu-28 a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Keskuskatu 28, 38700 Kankaanpää" .
+
+cmk:keskuskatu-28-20261001T1830 a mo:Performance ;
+    cmo:has-programme cmk:pori-sinfonietta-menopaal ;
+    schema:name "Kankaanpää: Pori Sinfonietta menopääl!" ;
+    schema:organizer cmk:sinfonietta-pori ;
+    schema:startDate "2026-10-01T18:30:00"^^xsd:dateTime .
+
+cmk:laura-vanttinen a foaf:Person ;
+    foaf:familyName "Vänttinen" ;
+    foaf:firstName "Laura" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:yrjonkatu-17-20260917T1830 .
+
+cmk:marzi-nyman a foaf:Person ;
+    foaf:familyName "Nyman" ;
+    foaf:firstName "Marzi" ;
+    cmo:known-as-a cmk:guitarist ;
+    cmo:plays-in cmk:yrjonkatu-17-20261112T1800 .
+
+cmk:pepe-willberg a foaf:Person ;
+    foaf:familyName "Willberg" ;
+    foaf:firstName "Pepe" ;
+    cmo:known-as-a cmk:baritone ;
+    cmo:sings-in cmk:yrjonkatu-17-20261127T1830 .
+
+cmk:pori-quartet a foaf:Person,
+        cmo:ensemble-identity ;
+    foaf:familyName "Quartet" ;
+    foaf:firstName "Pori" ;
+    cmo:known-as-a cmk:quartet ;
+    cmo:plays-in cmk:yrjonkatu-17-20260917T1830 .
+
+cmk:sueye-park a foaf:Person ;
+    foaf:familyName "Park" ;
+    foaf:firstName "Sueye" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:yrjonkatu-17-20261015T1830 .
+
+cmk:teemu-honkanen a foaf:Person ;
+    foaf:familyName "Honkanen" ;
+    foaf:firstName "Teemu" ;
+    cmo:conducts-in cmk:hallituskatu-1a-20261029T1830 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:yrjonkatu-17 a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Yrjönkatu 17, 28100 Pori" .
+
+cmk:yrjonkatu-17-20260815T1800 a mo:Performance ;
+    cmo:has-programme cmk:rakastu-musiikkiin ;
+    schema:name "Pori Sinfonietta Taiteiden yössä" ;
+    schema:organizer cmk:sinfonietta-pori ;
+    schema:startDate "2026-08-15T18:00:00"^^xsd:dateTime .
+
+cmk:yrjonkatu-17-20260911T1900 a mo:Performance ;
+    cmo:has-programme cmk:die-walkure-1-naytos ;
+    schema:name "Sataooppera & Pori Sinfonietta: Die Walküre, 1. näytös" ;
+    schema:organizer cmk:sinfonietta-pori ;
+    schema:startDate "2026-09-11T19:00:00"^^xsd:dateTime .
+
+cmk:yrjonkatu-17-20260924T1830 a mo:Performance ;
+    cmo:has-programme cmk:nuoret-solistit ;
+    schema:name "Nuoret solistit" ;
+    schema:organizer cmk:sinfonietta-pori ;
+    schema:startDate "2026-09-24T18:30:00"^^xsd:dateTime .
+
+cmk:yrjonkatu-17-20260930T1830 a mo:Performance ;
+    cmo:has-programme cmk:pori-sinfonietta-menopaal ;
+    schema:name "Pori Sinfonietta menopääl!" ;
+    schema:organizer cmk:sinfonietta-pori ;
+    schema:startDate "2026-09-30T18:30:00"^^xsd:dateTime .
+
+cmk:yrjonkatu-17-20261008T1830 a mo:Performance ;
+    cmo:has-programme cmk:bach-prokofjev ;
+    schema:name "Kamari 2026: Bach & Prokofjev" ;
+    schema:organizer cmk:sinfonietta-pori ;
+    schema:startDate "2026-10-08T18:30:00"^^xsd:dateTime .
+
+cmk:yrjonkatu-17-20261210T1730 a mo:Performance ;
+    cmo:has-programme cmk:lumiukko ;
+    schema:name "Elokuvakonsertti: Lumiukko" ;
+    schema:organizer cmk:sinfonietta-pori ;
+    schema:startDate "2026-12-10T17:30:00"^^xsd:dateTime .
+
+cmk:yrjonkatu-17-20261210T1900 a mo:Performance ;
+    cmo:has-programme cmk:lumiukko ;
+    schema:name "Elokuvakonsertti: Lumiukko" ;
+    schema:organizer cmk:sinfonietta-pori ;
+    schema:startDate "2026-12-10T19:00:00"^^xsd:dateTime .
+
+cmk:aalto-rokokoo a cmo:Programme ;
+    rdfs:label "Aalto & Rokokoo" .
+
+cmk:avain-hukassa a cmo:Programme ;
+    rdfs:label "Avain hukassa" .
+
+cmk:bach-prokofjev a cmo:Programme ;
+    rdfs:label "Bach & Prokofjev" .
+
+cmk:bandoneon-player a cmo:musical-identity .
+
+cmk:bass-baritone a cmo:musical-identity .
+
+cmk:cellist a cmo:musical-identity .
+
+cmk:die-walkure-1-naytos a cmo:Programme ;
+    rdfs:label "Die Walküre, 1. näytös" .
+
+cmk:durufle-requiem a cmo:Programme ;
+    rdfs:label "Duruflé: Requiem" .
+
+cmk:enkeleita-ja-demoneita a cmo:Programme ;
+    rdfs:label "Enkeleitä ja demoneita" .
+
+cmk:guitarist a cmo:musical-identity .
+
+cmk:hallituskatu-1a-20261217T1830 a mo:Performance ;
+    cmo:has-programme cmk:joulukonsertti ;
+    schema:name "Joulukonsertti" ;
+    schema:organizer cmk:sinfonietta-pori ;
+    schema:startDate "2026-12-17T18:30:00"^^xsd:dateTime .
+
+cmk:joulukonsertti a cmo:Programme ;
+    rdfs:label "Joulukonsertti" .
+
+cmk:narrator a cmo:musical-identity .
+
+cmk:nuoret-solistit a cmo:Programme ;
+    rdfs:label "Nuoret solistit" .
+
+cmk:pepe-willberg-80 a cmo:Programme ;
+    rdfs:label "Pepe Willberg 80 – Elämältä kaiken sain" .
+
+cmk:pianist a cmo:musical-identity .
+
+cmk:quartet a cmo:ensemble-identity .
+
+cmk:rakastu-musiikkiin a cmo:Programme ;
+    rdfs:label "Rakastu musiikkiin" .
+
+cmk:schu-steps-foote-prints a cmo:Programme ;
+    rdfs:label "Schu-Steps & Foote-prints" .
+
+cmk:soprano a cmo:musical-identity .
+
+cmk:violinist a cmo:musical-identity .
+
+cmk:voitokas-viulisti a cmo:Programme ;
+    rdfs:label "Voitokas viulisti" .
+
+cmk:yrjonkatu-17-20260903T2000 a mo:Performance ;
+    cmo:has-programme cmk:enkeleita-ja-demoneita ;
+    schema:name "Enkeleitä ja demoneita" ;
+    schema:organizer cmk:sinfonietta-pori ;
+    schema:startDate "2026-09-03T20:00:00"^^xsd:dateTime .
+
+cmk:yrjonkatu-17-20261127T1830 a mo:Performance ;
+    cmo:has-programme cmk:pepe-willberg-80 ;
+    schema:name "Pepe Willberg 80 – Elämältä kaiken sain" ;
+    schema:organizer cmk:sinfonietta-pori ;
+    schema:startDate "2026-11-27T18:30:00"^^xsd:dateTime .
+
+cmk:baritone a cmo:musical-identity .
+
+cmk:lumiukko a cmo:Programme ;
+    rdfs:label "Lumiukko" .
+
+cmk:yrjonkatu-17-20260917T1830 a mo:Performance ;
+    cmo:has-programme cmk:schu-steps-foote-prints ;
+    schema:name "Kamari 2026: Schu-Steps & Foote-prints" ;
+    schema:organizer cmk:sinfonietta-pori ;
+    schema:startDate "2026-09-17T18:30:00"^^xsd:dateTime .
+
+cmk:yrjonkatu-17-20261015T1830 a mo:Performance ;
+    cmo:has-programme cmk:voitokas-viulisti ;
+    schema:name "Voitokas viulisti" ;
+    schema:organizer cmk:sinfonietta-pori ;
+    schema:startDate "2026-10-15T18:30:00"^^xsd:dateTime .
+
+cmk:yrjonkatu-17-20261105T1830 a mo:Performance ;
+    cmo:has-programme cmk:aalto-rokokoo ;
+    schema:name "Aalto & Rokokoo" ;
+    schema:organizer cmk:sinfonietta-pori ;
+    schema:startDate "2026-11-05T18:30:00"^^xsd:dateTime .
+
+cmk:yrjonkatu-17-20261112T1800 a mo:Performance ;
+    cmo:has-programme cmk:avain-hukassa ;
+    schema:name "Koko perheen konsertti: Avain hukassa" ;
+    schema:organizer cmk:sinfonietta-pori ;
+    schema:startDate "2026-11-12T18:00:00"^^xsd:dateTime .
+
+cmk:conductor a cmo:musical-identity .
+
+cmk:hallituskatu-1a-20261029T1830 a mo:Performance ;
+    cmo:has-programme cmk:durufle-requiem ;
+    schema:name "Duruflé: Requiem" ;
+    schema:organizer cmk:sinfonietta-pori ;
+    schema:startDate "2026-10-29T18:30:00"^^xsd:dateTime .
+
+cmk:pori-sinfonietta-menopaal a cmo:Programme ;
+    rdfs:label "Pori Sinfonietta menopääl!" .
+

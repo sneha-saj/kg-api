@@ -1,0 +1,151 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:auringonnousu a cmo:Programme .
+
+cmk:avajaiskonsertti-legendat a cmo:Programme .
+
+cmk:erkki-lasonpalo a foaf:Person ;
+    foaf:familyName "Lasonpalo" ;
+    foaf:firstName "Erkki" ;
+    cmo:conducts-in cmk:heinaveden-kirkossa-20230630T0000 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:game-music-collective a cmo:Programme .
+
+cmk:heinaveden-kirkossa a cmo:Venue .
+
+cmk:heinaveden-kirkossa-20230702T1700 a mo:Performance ;
+    schema:name "Su 2.7.2023 klo 17 Päätöskonsertti Heinäveden kirkossa" ;
+    schema:organizer cmk:sinfoniavivo ;
+    schema:startDate "2023-07-02T17:00:00"^^xsd:dateTime .
+
+cmk:heinaveden-musiikkipaivat a cmo:Programme .
+
+cmk:kokkolan-kampushalli a cmo:Venue .
+
+cmk:kokkolan-kampushalli-20240107T0000 a mo:Performance ;
+    schema:name "Nuorta iloa 7.1.2024" ;
+    schema:organizer cmk:sinfoniavivo ;
+    schema:startDate "2024-01-07T00:00:00"^^xsd:dateTime .
+
+cmk:loviisan-kirkko a cmo:Venue .
+
+cmk:loviisan-kirkko-20250913T0000 a mo:Performance ;
+    schema:name "Loviisan Sibeliuspäivät: Auringonnousu" ;
+    schema:organizer cmk:sinfoniavivo ;
+    schema:startDate "2025-09-13T00:00:00"^^xsd:dateTime .
+
+cmk:mikkeli-mikaeli a cmo:Venue .
+
+cmk:mikkeli-mikaeli-20240804T0000 a mo:Performance ;
+    schema:name "Game Music Collective, featuring Sinfoniaorkesteri Vivo" ;
+    schema:organizer cmk:sinfoniavivo ;
+    schema:startDate "2024-08-04T00:00:00"^^xsd:dateTime .
+
+cmk:mikkeli-mikaeli-20240806T0000 a mo:Performance ;
+    schema:name "Nuorta voimaa -konsertti Mikkelissä" ;
+    schema:organizer cmk:sinfoniavivo ;
+    schema:startDate "2024-08-06T00:00:00"^^xsd:dateTime .
+
+cmk:mikkelin-mikaeli a cmo:Venue .
+
+cmk:mikkelin-mikaeli-20230928T0000 a mo:Performance ;
+    schema:name "Yhteistyössä Mikkelin kaupunginorkesterin kanssa:" ;
+    schema:organizer cmk:sinfoniavivo ;
+    schema:startDate "2023-09-28T00:00:00"^^xsd:dateTime .
+
+cmk:mikkelin-mikaeli-martti-talvela-sali a cmo:Venue .
+
+cmk:mikkelin-mikaeli-martti-talvela-sali-20250802T0000 a mo:Performance ;
+    schema:name "Mikkelin musiikkijuhlat: Avajaiskonsertti Legendat" ;
+    schema:organizer cmk:sinfoniavivo ;
+    schema:startDate "2025-08-02T00:00:00"^^xsd:dateTime .
+
+cmk:mikkelin-mikaeli-martti-talvela-sali-20250804T0000 a mo:Performance ;
+    schema:name "Mikkelin musiikkijuhlat: Romeo ja Julia" ;
+    schema:organizer cmk:sinfoniavivo ;
+    schema:startDate "2025-08-04T00:00:00"^^xsd:dateTime .
+
+cmk:nuorta-iloa a cmo:Programme .
+
+cmk:nuorta-voimaa-konsertti-lahdessa a cmo:Programme .
+
+cmk:nuorta-voimaa-konsertti-mikkelissa a cmo:Programme .
+
+cmk:paatoskonsertti-heinaveden-kirkossa a cmo:Programme .
+
+cmk:planeetat a cmo:Programme .
+
+cmk:promenadisali-pori a cmo:Venue .
+
+cmk:promenadisali-pori-20241114T0000 a mo:Performance ;
+    schema:name "Tulevaisuuden paloa: Nuorten sinfoniaorkesteri Vivo yhteistyössä Pori Sinfoniettan kanssa" ;
+    schema:organizer cmk:sinfoniavivo ;
+    schema:startDate "2024-11-14T00:00:00"^^xsd:dateTime .
+
+cmk:romantiikan-kirjoa a cmo:Programme .
+
+cmk:romantiikan-kirjoa-20221109T0000 a mo:Performance ;
+    schema:name "Romantiikan kirjoa 9.11.2022" ;
+    schema:organizer cmk:sinfoniavivo ;
+    schema:startDate "2022-11-09T00:00:00"^^xsd:dateTime .
+
+cmk:romeo-ja-julia a cmo:Programme .
+
+cmk:schaumansali-pietarsaari a cmo:Venue .
+
+cmk:schaumansali-pietarsaari-20261121T0000 a mo:Performance ;
+    schema:name "Young & Immortal – Rusk-festivaalien päätöskonsertti" ;
+    schema:organizer cmk:sinfoniavivo ;
+    schema:startDate "2026-11-21T00:00:00"^^xsd:dateTime .
+
+cmk:seinajoki-sali a cmo:Venue .
+
+cmk:seinajoki-sali-20251009T0000 a mo:Performance ;
+    schema:name "Yhteistyössä Seinäjoen Kaupunginorkesterin kanssa: Suurta nuoruutta" ;
+    schema:organizer cmk:sinfoniavivo ;
+    schema:startDate "2025-10-09T00:00:00"^^xsd:dateTime .
+
+cmk:sibelius-talo-lahti a cmo:Venue .
+
+cmk:sibelius-talo-lahti-20260521T0000 a mo:Performance ;
+    schema:name "Yhteistyössä Sinfonia Lahden kanssa: Planeetat" ;
+    schema:organizer cmk:sinfoniavivo ;
+    schema:startDate "2026-05-21T00:00:00"^^xsd:dateTime .
+
+cmk:sibeliustalo-lahti a cmo:Venue .
+
+cmk:sibeliustalo-lahti-20240807T0000 a mo:Performance ;
+    schema:name "Nuorta voimaa -konsertti Lahdessa" ;
+    schema:organizer cmk:sinfoniavivo ;
+    schema:startDate "2024-08-07T00:00:00"^^xsd:dateTime .
+
+cmk:sinfoniaorkesteri-vivo-40-vuotta-alkuvoimaa-juhlakonsertti a cmo:Programme .
+
+cmk:suurta-nuoruutta a cmo:Programme .
+
+cmk:tampere-talo a cmo:Venue .
+
+cmk:tampere-talo-20260919T0000 a mo:Performance ;
+    schema:name "Sinfoniaorkesteri Vivo 40 vuotta – Alkuvoimaa-juhlakonsertti" ;
+    schema:organizer cmk:sinfoniavivo ;
+    schema:startDate "2026-09-19T00:00:00"^^xsd:dateTime .
+
+cmk:tulevaisuuden-paloa a cmo:Programme .
+
+cmk:yhteistyossa-mikkelin-kaupunginorkesterin-kanssa a cmo:Programme .
+
+cmk:young--immortal-rusk-festivaalien-paatoskonsertti a cmo:Programme .
+
+cmk:conductor a cmo:musical-identity .
+
+cmk:heinaveden-kirkossa-20230630T0000 a mo:Performance ;
+    schema:name "KESÄ 2023: Heinäveden musiikkipäivät, johtajana Erkki Lasonpalo" ;
+    schema:organizer cmk:sinfoniavivo ;
+    schema:startDate "2023-06-30T00:00:00"^^xsd:dateTime .
+

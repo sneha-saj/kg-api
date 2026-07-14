@@ -1,0 +1,406 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:airi-saloniemi a foaf:Person ;
+    foaf:familyName "Saloniemi" ;
+    foaf:firstName "Airi" ;
+    cmo:conducts-in cmk:jarvenpaan-kirkko-20260825T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:alexis-fletcher a foaf:Person ;
+    foaf:familyName "Fletcher" ;
+    foaf:firstName "Alexis" ;
+    cmo:known-as-a cmk:choreographer ;
+    cmo:performs-in cmk:black-box-musiikkitalo-20260912T1900 .
+
+cmk:alfredo-bernardini a foaf:Person ;
+    foaf:familyName "Bernardini" ;
+    foaf:firstName "Alfredo" ;
+    cmo:conducts-in cmk:temppeliaukion-kirkko-20260720T1900 ;
+    cmo:known-as-a cmk:conductor,
+        cmk:oboist .
+
+cmk:antonia-atarah a foaf:Person ;
+    foaf:familyName "Atarah" ;
+    foaf:firstName "Antonia" ;
+    cmo:known-as-a cmk:singer ;
+    cmo:sings-in cmk:black-box-musiikkitalo-20260911T1900,
+        cmk:black-box-musiikkitalo-20260912T1900 .
+
+cmk:black-box-musiikkitalo a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Black Box, Musiikkitalo" .
+
+cmk:debi-wong a foaf:Person ;
+    foaf:familyName "Wong" ;
+    foaf:firstName "Debi" ;
+    cmo:known-as-a cmk:singer ;
+    cmo:sings-in cmk:black-box-musiikkitalo-20260911T1900,
+        cmk:black-box-musiikkitalo-20260912T1900 .
+
+cmk:elina-rantamaki a foaf:Person ;
+    foaf:familyName "Rantamäki" ;
+    foaf:firstName "Elina" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:jarvenpaan-kirkko-20260825T1900 .
+
+cmk:ensemble-nylandia a foaf:Group ;
+    rdfs:label "Ensemble Nylandia" ;
+    cmo:known-as-a cmk:ensemble ;
+    cmo:performs-in cmk:hameen-linna-20261022T1900,
+        cmk:hameen-linna-20261118T1900,
+        cmk:myyrmaen-kirkko-20261201T1900,
+        cmk:paavalinkirkko-20261117T1900,
+        cmk:paavalinkirkko-20261205T1900,
+        cmk:porvoon-tuomiokirkko-20261028T1900,
+        cmk:vantaan-pyhan-laurin-kirkko-20261203T1900 .
+
+cmk:hannakaisa-nyronen a foaf:Person ;
+    foaf:familyName "Nyrönen" ;
+    foaf:firstName "Hannakaisa" ;
+    cmo:known-as-a cmk:alto ;
+    cmo:sings-in cmk:myyrmaen-kirkko-20261201T1900,
+        cmk:paavalinkirkko-20261205T1900,
+        cmk:vantaan-pyhan-laurin-kirkko-20261203T1900 .
+
+cmk:helsinki-20260911T1900 a mo:Performance ;
+    schema:name "Censored Opera Festival" ;
+    schema:organizer cmk:ensemblenylandia ;
+    schema:startDate "2026-09-11T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.ensemblenylandia.info/calendar/2026/9/censored-opera-festival-helsinki"^^xsd:anyURI .
+
+cmk:isabella-shaw a foaf:Person ;
+    foaf:familyName "Shaw" ;
+    foaf:firstName "Isabella" ;
+    cmo:known-as-a cmk:singer ;
+    cmo:sings-in cmk:black-box-musiikkitalo-20260911T1900,
+        cmk:black-box-musiikkitalo-20260912T1900 .
+
+cmk:jarvenpaan-kirkko a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Järvenpään kirkko" .
+
+cmk:johanna-isokoski a foaf:Person ;
+    foaf:familyName "Isokoski" ;
+    foaf:firstName "Johanna" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:myyrmaen-kirkko-20261201T1900,
+        cmk:paavalinkirkko-20261205T1900,
+        cmk:vantaan-pyhan-laurin-kirkko-20261203T1900 .
+
+cmk:jussi-salonen a foaf:Person ;
+    foaf:familyName "Salonen" ;
+    foaf:firstName "Jussi" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:myyrmaen-kirkko-20261201T1900,
+        cmk:paavalinkirkko-20261205T1900,
+        cmk:vantaan-pyhan-laurin-kirkko-20261203T1900 .
+
+cmk:katariina-heikkila a foaf:Person ;
+    foaf:familyName "Heikkilä" ;
+    foaf:firstName "Katariina" ;
+    cmo:known-as-a cmk:mezzo-soprano ;
+    cmo:sings-in cmk:jarvenpaan-kirkko-20260825T1900 .
+
+cmk:kuopio a cmo:Venue ;
+    rdfs:label "Kuopio" .
+
+cmk:kuopio-20260715T1100 a mo:Performance ;
+    cmo:performs-in-programme cmk:barokkikuopio-festivaali ;
+    schema:name "BarokkiKuopio-festivaali" ;
+    schema:organizer cmk:ensemblenylandia ;
+    schema:startDate "2026-07-15T11:00:00"^^xsd:dateTime ;
+    schema:url "https://www.ensemblenylandia.info/calendar/2026/7/15-20/barokkikuopio-festivaali"^^xsd:anyURI .
+
+cmk:mari-annika-heikkila a foaf:Person ;
+    foaf:familyName "Heikkilä" ;
+    foaf:firstName "Mari-Annika" ;
+    cmo:known-as-a cmk:choir-trainer ;
+    cmo:performs-in cmk:myyrmaen-kirkko-20261201T1900,
+        cmk:paavalinkirkko-20261205T1900,
+        cmk:vantaan-pyhan-laurin-kirkko-20261203T1900 .
+
+cmk:matias-hakkinen a foaf:Person ;
+    foaf:familyName "Häkkinen" ;
+    foaf:firstName "Matias" ;
+    cmo:conducts-in cmk:black-box-musiikkitalo-20260911T1900,
+        cmk:black-box-musiikkitalo-20260912T1900,
+        cmk:hameen-linna-20261022T1900,
+        cmk:hameen-linna-20261118T1900,
+        cmk:myyrmaen-kirkko-20261201T1900,
+        cmk:paavalinkirkko-20261020T1900,
+        cmk:paavalinkirkko-20261117T1900,
+        cmk:paavalinkirkko-20261205T1900,
+        cmk:porvoon-tuomiokirkko-20261028T1900,
+        cmk:vantaan-pyhan-laurin-kirkko-20261203T1900 ;
+    cmo:known-as-a cmk:conductor,
+        cmk:harpsichordist ;
+    cmo:plays-in cmk:pyhan-laurin-kirkko-20260809T1830 .
+
+cmk:olga-spyropoulou a foaf:Person ;
+    foaf:familyName "Spyropoulou" ;
+    foaf:firstName "Olga" ;
+    cmo:known-as-a cmk:director ;
+    cmo:performs-in cmk:black-box-musiikkitalo-20260911T1900,
+        cmk:black-box-musiikkitalo-20260912T1900 .
+
+cmk:pannuhalli-tanssin-talo-kaapelitehdas a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Pannuhalli, Tanssin talo, Kaapelitehdas" .
+
+cmk:pannuhalli-tanssin-talo-kaapelitehdas-20260918T1900 a mo:Performance ;
+    cmo:performs-in-programme cmk:orpheus-in-underworld ;
+    schema:name "Orpheus in UNDERWORLD" ;
+    schema:organizer cmk:ensemblenylandia ;
+    schema:startDate "2026-09-18T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.ensemblenylandia.info/calendar/2026/9/18/orpheus-in-underworld"^^xsd:anyURI .
+
+cmk:pannuhalli-tanssin-talo-kaapelitehdas-20260919T1900 a mo:Performance ;
+    cmo:performs-in-programme cmk:orpheus-in-underworld ;
+    schema:name "Orpheus in UNDERWORLD" ;
+    schema:organizer cmk:ensemblenylandia ;
+    schema:startDate "2026-09-19T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.ensemblenylandia.info/calendar/2026/9/19/orpheus-in-underworld"^^xsd:anyURI .
+
+cmk:pyhan-laurin-kirkko a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Pyhän Laurin kirkko" .
+
+cmk:rachel-fenlon a foaf:Person ;
+    foaf:familyName "Fenlon" ;
+    foaf:firstName "Rachel" ;
+    cmo:known-as-a cmk:singer ;
+    cmo:sings-in cmk:black-box-musiikkitalo-20260911T1900,
+        cmk:black-box-musiikkitalo-20260912T1900 .
+
+cmk:risto-nordell a foaf:Person ;
+    foaf:familyName "Nordell" ;
+    foaf:firstName "Risto" ;
+    cmo:known-as-a cmk:presenter ;
+    cmo:performs-in cmk:temppeliaukion-kirkko-20260720T1900 .
+
+cmk:teiya-kasahara a foaf:Person ;
+    foaf:familyName "Kasahara" ;
+    foaf:firstName "Teiya" ;
+    cmo:known-as-a cmk:singer ;
+    cmo:sings-in cmk:black-box-musiikkitalo-20260911T1900,
+        cmk:black-box-musiikkitalo-20260912T1900 .
+
+cmk:temppeliaukion-kirkko a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Temppeliaukion kirkko" .
+
+cmk:terje-kukk a foaf:Person ;
+    foaf:familyName "Kukk" ;
+    foaf:firstName "Terje" ;
+    cmo:known-as-a cmk:choir-trainer ;
+    cmo:performs-in cmk:myyrmaen-kirkko-20261201T1900,
+        cmk:paavalinkirkko-20261205T1900,
+        cmk:vantaan-pyhan-laurin-kirkko-20261203T1900 .
+
+cmk:tikkurilan-seurakunnan-kamarikuoro a foaf:Group ;
+    rdfs:label "Tikkurilan seurakunnan kamarikuoro" ;
+    cmo:performs-in cmk:myyrmaen-kirkko-20261201T1900,
+        cmk:paavalinkirkko-20261205T1900,
+        cmk:vantaan-pyhan-laurin-kirkko-20261203T1900 .
+
+cmk:tuuli-lindeberg a foaf:Person ;
+    foaf:familyName "Lindeberg" ;
+    foaf:firstName "Tuuli" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:pyhan-laurin-kirkko-20260809T1830 .
+
+cmk:veikko-vallinoja a foaf:Person ;
+    foaf:familyName "Vallinoja" ;
+    foaf:firstName "Veikko" ;
+    cmo:known-as-a cmk:bass ;
+    cmo:sings-in cmk:myyrmaen-kirkko-20261201T1900,
+        cmk:paavalinkirkko-20261205T1900,
+        cmk:vantaan-pyhan-laurin-kirkko-20261203T1900 .
+
+cmk:vox-gaudiosa a foaf:Group ;
+    rdfs:label "Vox-Gaudiosa" ;
+    cmo:performs-in cmk:myyrmaen-kirkko-20261201T1900,
+        cmk:paavalinkirkko-20261205T1900,
+        cmk:vantaan-pyhan-laurin-kirkko-20261203T1900 .
+
+cmk:alto a cmo:musical-identity .
+
+cmk:barokkikuopio-festivaali a cmo:Programme ;
+    rdfs:label "BarokkiKuopio-festivaali" .
+
+cmk:bass a cmo:musical-identity .
+
+cmk:brq-haahumua a cmo:Programme ;
+    rdfs:label "BRQ: Häähumua" .
+
+cmk:choreographer a cmo:musical-identity .
+
+cmk:director a cmo:musical-identity .
+
+cmk:ensemble a cmo:ensemble-identity,
+        cmo:musical-identity .
+
+cmk:eubo-alfredo-bernardini-tunteiden-virrassa a cmo:Programme ;
+    rdfs:label "EUBO & Alfredo Bernardini: Tunteiden virrassa - Matka Euroopan halki" .
+
+cmk:harpsichordist a cmo:musical-identity .
+
+cmk:kausikonsertti-1-bach-universum a cmo:Programme ;
+    rdfs:label "Kausikonsertti 1: Bach-universum" .
+
+cmk:mezzo-soprano a cmo:musical-identity .
+
+cmk:myyrmaen-kirkko a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Myyrmäen kirkko" .
+
+cmk:oboist a cmo:musical-identity .
+
+cmk:paavalinkirkko-20261020T1900 a mo:Performance ;
+    cmo:performs-in-programme cmk:kausikonsertti-1-bach-universum ;
+    schema:name "Kausikonsertti 1: Bach-universum" ;
+    schema:organizer cmk:ensemblenylandia ;
+    schema:startDate "2026-10-20T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.ensemblenylandia.info/calendar/2026/10/20/bach-universum-paavalinkirkossa"^^xsd:anyURI .
+
+cmk:porvoon-tuomiokirkko a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Porvoon tuomiokirkko" .
+
+cmk:presenter a cmo:musical-identity .
+
+cmk:tenor a cmo:musical-identity .
+
+cmk:vantaan-pyhan-laurin-kirkko a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Vantaan Pyhän Laurin kirkko" .
+
+cmk:vivaldi a cmo:Programme ;
+    rdfs:label "Vivaldi!" .
+
+cmk:bach-universum a cmo:Programme ;
+    rdfs:label "Bach-universum" .
+
+cmk:choir-trainer a cmo:musical-identity .
+
+cmk:hameen-linna a cmo:Venue ;
+    rdfs:label "Hämeen linna" .
+
+cmk:hameen-linna-20261022T1900 a mo:Performance ;
+    cmo:has-programme cmk:bach-universum ;
+    cmo:has-venue cmk:hameen-linna ;
+    schema:name "Musiikkia linnassa: Bach-universum" ;
+    schema:organizer cmk:ensemblenylandia ;
+    schema:startDate "2026-10-22T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.ensemblenylandia.info/calendar/2026/10/22/bach-universum-musiikkia-linnassa"^^xsd:anyURI .
+
+cmk:hameen-linna-20261118T1900 a mo:Performance ;
+    cmo:has-programme cmk:soittajien-suosikit ;
+    cmo:has-venue cmk:hameen-linna ;
+    schema:name "Musiikkia linnassa: Soittajien suosikit" ;
+    schema:organizer cmk:ensemblenylandia ;
+    schema:startDate "2026-11-18T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.ensemblenylandia.info/calendar/2026/11/soittajien-suosikit-paavalinkirkossa-2apky"^^xsd:anyURI .
+
+cmk:la-doriclea-inter-acts a cmo:Programme ;
+    rdfs:label "La Doriclea: Inter-Acts" .
+
+cmk:orpheus-in-underworld a cmo:Programme ;
+    rdfs:label "Orpheus in UNDERWORLD" .
+
+cmk:paavalinkirkko a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Paavalinkirkko" .
+
+cmk:paavalinkirkko-20261117T1900 a mo:Performance ;
+    cmo:has-programme cmk:soittajien-suosikit ;
+    cmo:has-venue cmk:paavalinkirkko ;
+    schema:name "Kausikonsertti 2: Soittajien suosikit" ;
+    schema:organizer cmk:ensemblenylandia ;
+    schema:startDate "2026-11-17T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.ensemblenylandia.info/calendar/2026/11/soittajien-suosikit-paavalinkirkossa"^^xsd:anyURI .
+
+cmk:porvoon-tuomiokirkko-20261028T1900 a mo:Performance ;
+    cmo:has-programme cmk:bach-universum ;
+    cmo:has-venue cmk:porvoon-tuomiokirkko ;
+    schema:name "Bach-universum" ;
+    schema:organizer cmk:ensemblenylandia ;
+    schema:startDate "2026-10-28T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.ensemblenylandia.info/calendar/2026/10/28/bach-universum-porvoon-tuomiokirkossa"^^xsd:anyURI .
+
+cmk:pyhan-laurin-kirkko-20260809T1830 a mo:Performance ;
+    cmo:performs-in-programme cmk:brq-haahumua ;
+    schema:name "BRQ: Häähumua" ;
+    schema:organizer cmk:ensemblenylandia ;
+    schema:startDate "2026-08-09T18:30:00"^^xsd:dateTime ;
+    schema:url "https://www.ensemblenylandia.info/calendar/2026/8/9/brq"^^xsd:anyURI .
+
+cmk:soittajien-suosikit a cmo:Programme ;
+    rdfs:label "Soittajien suosikit" .
+
+cmk:temppeliaukion-kirkko-20260720T1900 a mo:Performance ;
+    cmo:performs-in-programme cmk:eubo-alfredo-bernardini-tunteiden-virrassa ;
+    schema:name "EUBO & Alfredo Bernardini: Tunteiden virrassa - Matka Euroopan halki" ;
+    schema:organizer cmk:ensemblenylandia ;
+    schema:startDate "2026-07-20T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.ensemblenylandia.info/calendar/2026/7/20/eubo-rock-church"^^xsd:anyURI .
+
+cmk:conductor a cmo:musical-identity .
+
+cmk:jarvenpaan-kirkko-20260825T1900 a mo:Performance ;
+    cmo:performs-in-programme cmk:vivaldi ;
+    schema:name "Vivaldi!" ;
+    schema:organizer cmk:ensemblenylandia ;
+    schema:startDate "2026-08-25T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.ensemblenylandia.info/calendar/2026/25/8/vivaldi"^^xsd:anyURI .
+
+cmk:jouluoratorio-kantaatit-1-3 a cmo:Programme ;
+    rdfs:label "J. S. Bachin Jouluoratorio, kantaatit 1–3" .
+
+cmk:soprano a cmo:musical-identity .
+
+cmk:singer a cmo:musical-identity .
+
+cmk:black-box-musiikkitalo-20260911T1900 a mo:Performance ;
+    cmo:performs-in-programme cmk:la-doriclea-inter-acts ;
+    schema:name "La Doriclea: Inter-Acts" ;
+    schema:organizer cmk:ensemblenylandia ;
+    schema:startDate "2026-09-11T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.ensemblenylandia.info/calendar/2026/9/11/la-doriclea-inter-acts"^^xsd:anyURI .
+
+cmk:black-box-musiikkitalo-20260912T1900 a mo:Performance ;
+    cmo:performs-in-programme cmk:la-doriclea-inter-acts ;
+    schema:name "La Doriclea: Inter-Acts" ;
+    schema:organizer cmk:ensemblenylandia ;
+    schema:startDate "2026-09-12T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.ensemblenylandia.info/calendar/2026/9/12/la-doriclea-inter-acts"^^xsd:anyURI .
+
+cmk:myyrmaen-kirkko-20261201T1900 a mo:Performance ;
+    cmo:has-programme cmk:jouluoratorio-kantaatit-1-3 ;
+    cmo:has-venue cmk:myyrmaen-kirkko ;
+    schema:name "J. S. Bachin Jouluoratorio Myyrmäen kirkossa, kantaatit 1–3" ;
+    schema:organizer cmk:ensemblenylandia ;
+    schema:startDate "2026-12-01T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.ensemblenylandia.info/calendar/2026/12/1/jouluoratorio-myyrmaen-kirkko"^^xsd:anyURI .
+
+cmk:paavalinkirkko-20261205T1900 a mo:Performance ;
+    cmo:has-programme cmk:jouluoratorio-kantaatit-1-3 ;
+    cmo:has-venue cmk:paavalinkirkko ;
+    schema:name "J. S. Bachin Jouluoratorio Paavalinkirkossa, kantaatit 1–3" ;
+    schema:organizer cmk:ensemblenylandia ;
+    schema:startDate "2026-12-05T19:00:00"^^xsd:dateTime .
+
+cmk:vantaan-pyhan-laurin-kirkko-20261203T1900 a mo:Performance ;
+    cmo:has-programme cmk:jouluoratorio-kantaatit-1-3 ;
+    cmo:has-venue cmk:vantaan-pyhan-laurin-kirkko ;
+    schema:name "J. S. Bachin Jouluoratorio Pyhän Laurin kirkossa, kantaatit 1–3" ;
+    schema:organizer cmk:ensemblenylandia ;
+    schema:startDate "2026-12-03T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.ensemblenylandia.info/calendar/2026/12/3/jouluoratorio-pyhan-laurin-kirkko"^^xsd:anyURI .
+

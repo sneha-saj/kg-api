@@ -1,0 +1,489 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:25-vuotisjuhlakonsertti-sinfoninen-club-for-five a cmo:Programme ;
+    rdfs:label "25-vuotisjuhlakonsertti: Sinfoninen Club for Five" .
+
+cmk:ako-kiiski a foaf:Person ;
+    foaf:familyName "Kiiski" ;
+    foaf:firstName "Ako" ;
+    cmo:conducts-in cmk:musiikkitalo-20261107T1800,
+        cmk:tikkurilan-tori-20250515T0000 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:christmas-cracker a cmo:Programme ;
+    rdfs:label "Christmas Cracker" .
+
+cmk:eero-lehtimaki a foaf:Person ;
+    foaf:familyName "Lehtimäki" ;
+    foaf:firstName "Eero" ;
+    cmo:conducts-in cmk:musiikkitalo-20260321T1600,
+        cmk:musiikkitalo-20260321T1900 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:hannu-pekka-bjorkman a foaf:Person ;
+    foaf:familyName "Björkman" ;
+    foaf:firstName "Hannu-Pekka" ;
+    cmo:known-as-a cmo:actor ;
+    cmo:performs-in cmk:musiikkitalo-20251108T0000 .
+
+cmk:ilta-sirkus-finlandiassa-samuli-edelmann-mikael-persbrandt a cmo:Programme ;
+    rdfs:label "Ilta Sirkus Finlandiassa - Samuli Edelmann & Mikael Persbrandt" .
+
+cmk:interstellar-live a cmo:Programme ;
+    rdfs:label "Interstellar Live" .
+
+cmk:janna a foaf:Person ;
+    foaf:familyName "" ;
+    foaf:firstName "Janna" ;
+    cmo:known-as-a cmo:vocalist ;
+    cmo:sings-in cmk:kulttuuritalo-martinus-20251018T0000 .
+
+cmk:janna-samuli-edelmann-merkityksia a cmo:Programme ;
+    rdfs:label "JANNA & Samuli Edelmann: Merkityksiä" .
+
+cmk:jorma-panula a foaf:Person ;
+    foaf:familyName "Panula" ;
+    foaf:firstName "Jorma" ;
+    cmo:conducts-in cmk:temppeliaukion-kirkko-20250809T0000 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:jorma-panula-95v-var-det-en-drom a cmo:Programme ;
+    rdfs:label "Jorma Panula 95v Var det en dröm" .
+
+cmk:jos-rakastat-kaj-chydeniuksen-lauluja a cmo:Programme ;
+    rdfs:label "Jos rakastat - Kaj Chydeniuksen lauluja" .
+
+cmk:juha-tapio a foaf:Person ;
+    foaf:familyName "Tapio" ;
+    foaf:firstName "Juha" ;
+    cmo:known-as-a cmo:vocalist ;
+    cmo:sings-in cmk:tikkurilan-tori-20250515T0000 .
+
+cmk:jukka-perko a foaf:Person ;
+    foaf:familyName "Perko" ;
+    foaf:firstName "Jukka" ;
+    cmo:known-as-a cmo:saxophonist ;
+    cmo:plays-in cmk:musiikkitalo-20251108T0000,
+        cmk:sirkus-finlandia-20250929T0000 .
+
+cmk:jussi-chydenius a foaf:Person ;
+    foaf:familyName "Chydenius" ;
+    foaf:firstName "Jussi" ;
+    cmo:known-as-a cmo:musician ;
+    cmo:performs-in cmk:musiikkitalo-20251011T0000,
+        cmk:musiikkitalo-20260214T1900,
+        cmk:tampere-talo-20250920T0000 .
+
+cmk:kahden-valon-valissa-runoja-rakkaudesta-ja-kaipuusta a cmo:Programme ;
+    rdfs:label "Kahden valon välissä - runoja rakkaudesta ja kaipuusta" .
+
+cmk:kalevauva-fi-9-5-vuotta-sinfoninen-juhlakonsertti a cmo:Programme ;
+    rdfs:label "Kalevauva.fi 9½ vuotta - sinfoninen juhlakonsertti" .
+
+cmk:kulttuuritalo-martinus a cmo:Venue .
+
+cmk:kuusijarven-luontokonsertit a cmo:Programme ;
+    rdfs:label "Kuusijärven luontokonsertit" .
+
+cmk:kuusijarvi a cmo:Venue .
+
+cmk:lauri-porra a foaf:Person ;
+    foaf:familyName "Porra" ;
+    foaf:firstName "Lauri" ;
+    cmo:known-as-a cmo:musician ;
+    cmo:performs-in cmk:kuusijarvi-20250831T1900 .
+
+cmk:leri-leskinen a foaf:Person ;
+    foaf:familyName "Leskinen" ;
+    foaf:firstName "Leri" ;
+    cmo:known-as-a cmo:musician ;
+    cmo:plays-in cmk:sirkus-finlandia-20250929T0000 .
+
+cmk:logomo a cmo:Venue .
+
+cmk:lumiukko-elokuvakonsertti a cmo:Programme ;
+    rdfs:label "Lumiukko-elokuvakonsertti" .
+
+cmk:maria-ylipaa a foaf:Person ;
+    foaf:familyName "Ylipää" ;
+    foaf:firstName "Maria" ;
+    cmo:known-as-a cmo:vocalist ;
+    cmo:sings-in cmk:musiikkitalo-20251216T0000 .
+
+cmk:matti-mikkola a foaf:Person ;
+    foaf:familyName "Mikkola" ;
+    foaf:firstName "Matti" ;
+    cmo:conducts-in cmk:logomo-20250829T0000 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:matti-paatelma a foaf:Person ;
+    foaf:familyName "Paatelma" ;
+    foaf:firstName "Matti" ;
+    cmo:known-as-a cmo:musician ;
+    cmo:plays-in cmk:sirkus-finlandia-20250929T0000 .
+
+cmk:mikael-persbrandt a foaf:Person ;
+    foaf:familyName "Persbrandt" ;
+    foaf:firstName "Mikael" ;
+    cmo:known-as-a cmo:actor ;
+    cmo:performs-in cmk:sirkus-finlandia-20250929T0000 .
+
+cmk:mikael-saari a foaf:Person ;
+    foaf:familyName "Saari" ;
+    foaf:firstName "Mikael" ;
+    cmo:known-as-a cmo:vocalist ;
+    cmo:sings-in cmk:musiikkitalo-20261107T1800 .
+
+cmk:mikko-franck a foaf:Person ;
+    foaf:familyName "Franck" ;
+    foaf:firstName "Mikko" ;
+    cmo:conducts-in cmk:musiikkitalo-20260411T1500,
+        cmk:musiikkitalo-20260411T1900 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:mikko-joensuu a foaf:Person ;
+    foaf:familyName "Joensuu" ;
+    foaf:firstName "Mikko" ;
+    cmo:known-as-a cmo:musician ;
+    cmo:performs-in cmk:kuusijarvi-20250830T1900 .
+
+cmk:musiikkitalo a cmo:ConcertHall .
+
+cmk:musiikkitalo-20250510T0000 a mo:Performance ;
+    schema:name "Rajaton sings Bee Gees - and beyond" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2025-05-10T00:00:00"^^xsd:dateTime .
+
+cmk:myrskyluodolta-napapiirille a cmo:Programme ;
+    rdfs:label "Myrskyluodolta Napapiirille" .
+
+cmk:nick-davies a foaf:Person ;
+    foaf:familyName "Davies" ;
+    foaf:firstName "Nick" ;
+    cmo:conducts-in cmk:musiikkitalo-20251004T0000,
+        cmk:musiikkitalo-20251213T0000,
+        cmk:musiikkitalo-20251216T0000,
+        cmk:musiikkitalo-20260124T0000,
+        cmk:musiikkitalo-20260509T1900,
+        cmk:musiikkitalo-20261219T1300,
+        cmk:musiikkitalo-20261219T1500,
+        cmk:musiikkitalo-20261219T1700,
+        cmk:tampere-talo-20251227T0000 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:nightwish-yesterwynde-orchestral a cmo:Programme ;
+    rdfs:label "Nightwish Yesterwynde Orchestral" .
+
+cmk:olavinlinna a cmo:Venue .
+
+cmk:oona-airola a foaf:Person ;
+    foaf:familyName "Airola" ;
+    foaf:firstName "Oona" ;
+    cmo:known-as-a cmo:vocalist ;
+    cmo:sings-in cmk:musiikkitalo-20251011T0000,
+        cmk:musiikkitalo-20260214T1900,
+        cmk:musiikkitalo-20261107T1800,
+        cmk:tampere-talo-20250920T0000 .
+
+cmk:pepe-saimaa a cmo:Programme ;
+    rdfs:label "Pepe & Saimaa" .
+
+cmk:pepe-willberg a foaf:Person ;
+    foaf:familyName "Willberg" ;
+    foaf:firstName "Pepe" ;
+    cmo:known-as-a cmo:vocalist ;
+    cmo:performs-in cmk:olavinlinna-20260821T1900 .
+
+cmk:pepe-willberg-80-elamalta-kaiken-sain a cmo:Programme ;
+    rdfs:label "Pepe Willberg 80 - Elämältä kaiken sain" .
+
+cmk:rajaton-sings-bee-gees-and-beyond a cmo:Programme ;
+    rdfs:label "Rajaton sings Bee Gees - and beyond" .
+
+cmk:rajaton-suomen-kaikkien-aikojen-euroviisut a cmo:Programme ;
+    rdfs:label "Rajaton - Suomen kaikkien aikojen euroviisut" .
+
+cmk:risto-kupiainen a foaf:Person ;
+    foaf:familyName "Kupiainen" ;
+    foaf:firstName "Risto" ;
+    cmo:conducts-in cmk:kulttuuritalo-martinus-20250913T0000 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:roger-sayer a foaf:Person ;
+    foaf:familyName "Sayer" ;
+    foaf:firstName "Roger" ;
+    cmo:known-as-a cmo:organist ;
+    cmo:plays-in cmk:musiikkitalo-20260926T1400,
+        cmk:musiikkitalo-20260926T1930 .
+
+cmk:samuli-edelmann a foaf:Person ;
+    foaf:familyName "Edelmann" ;
+    foaf:firstName "Samuli" ;
+    cmo:known-as-a cmo:vocalist ;
+    cmo:sings-in cmk:kulttuuritalo-martinus-20251018T0000,
+        cmk:sirkus-finlandia-20250929T0000 .
+
+cmk:satu-simola a foaf:Person ;
+    foaf:familyName "Simola" ;
+    foaf:firstName "Satu" ;
+    cmo:conducts-in cmk:musiikkitalo-20260314T1900 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:sirkus-finlandia a cmo:Venue .
+
+cmk:superheroes a cmo:Programme ;
+    rdfs:label "Superheroes" .
+
+cmk:tampere-talo a cmo:ConcertHall .
+
+cmk:temppeliaukion-kirkko a cmo:Venue .
+
+cmk:the-music-of-star-wars a cmo:Programme ;
+    rdfs:label "The Music of Star Wars" .
+
+cmk:tikkurilan-tori a cmo:Venue .
+
+cmk:timo-vuorensola a foaf:Person ;
+    foaf:familyName "Vuorensola" ;
+    foaf:firstName "Timo" ;
+    cmo:known-as-a cmo:presenter ;
+    cmo:narrates-in cmk:tampere-talo-20251227T0000 .
+
+cmk:tomas-djupsjobacka a foaf:Person ;
+    foaf:familyName "Djupsjöbacka" ;
+    foaf:firstName "Tomas" ;
+    cmo:conducts-in cmk:musiikkitalo-20251011T0000,
+        cmk:musiikkitalo-20260214T1900,
+        cmk:tampere-talo-20250920T0000 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:tommi-suutarinen a foaf:Person ;
+    foaf:familyName "Suutarinen" ;
+    foaf:firstName "Tommi" ;
+    cmo:conducts-in cmk:tampere-talo-20251231T0000 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:valter-soosalu a foaf:Person ;
+    foaf:familyName "Soosalu" ;
+    foaf:firstName "Valter" ;
+    cmo:conducts-in cmk:logomo-20250829T0000,
+        cmk:musiikkitalo-20250906T0000,
+        cmk:musiikkitalo-20261010T1800,
+        cmk:musiikkitalo-20261212T1800 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:vantaan-paivan-konsertti a cmo:Programme ;
+    rdfs:label "Vantaan päivän konsertti" .
+
+cmk:viimeinen-rodeo-jaahyvaiskonsertti a cmo:Programme ;
+    rdfs:label "Viimeinen RODEO - jäähyväiskonsertti" .
+
+cmk:ville-rusanen a foaf:Person ;
+    foaf:familyName "Rusanen" ;
+    foaf:firstName "Ville" ;
+    cmo:known-as-a cmo:vocalist ;
+    cmo:sings-in cmk:musiikkitalo-20251216T0000 .
+
+cmk:von-hertzen-brothers-25v-somewhere-in-the-middle a cmo:Programme ;
+    rdfs:label "Von Hertzen Brothers 25v. - Somewhere in the Middle" .
+
+cmk:yona-sininen-joulu a cmo:Programme ;
+    rdfs:label "Yona - Sininen joulu" .
+
+cmk:yona-x-saimaa-solovey a cmo:Programme ;
+    rdfs:label "Yona X Saimaa: Solovey" .
+
+cmo:ensemble a cmo:ensemble-identity .
+
+cmk:kulttuuritalo-martinus-20250913T0000 a mo:Performance ;
+    schema:name "Kalevauva.fi 9½ vuotta - sinfoninen juhlakonsertti" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2025-09-13T00:00:00"^^xsd:dateTime .
+
+cmk:kuusijarvi-20250830T1900 a mo:Performance ;
+    schema:name "Kuusijärven luontokonsertit" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2025-08-30T19:00:00"^^xsd:dateTime .
+
+cmk:kuusijarvi-20250831T1900 a mo:Performance ;
+    schema:name "Kuusijärven luontokonsertit" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2025-08-31T19:00:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20250906T0000 a mo:Performance ;
+    schema:name "Yona X Saimaa: Solovey" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2025-09-06T00:00:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20251004T0000 a mo:Performance ;
+    schema:name "25-vuotisjuhlakonsertti: Sinfoninen Club for Five" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2025-10-04T00:00:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20251213T0000 a mo:Performance ;
+    schema:name "Lumiukko-elokuvakonsertti" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2025-12-13T00:00:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20260124T0000 a mo:Performance ;
+    schema:name "Superheroes" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2026-01-24T00:00:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20260314T1900 a mo:Performance ;
+    schema:name "Pepe Willberg 80 - Elämältä kaiken sain" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2026-03-14T19:00:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20260321T1600 a mo:Performance ;
+    schema:name "Nightwish Yesterwynde Orchestral" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2026-03-21T16:00:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20260321T1900 a mo:Performance ;
+    schema:name "Nightwish Yesterwynde Orchestral" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2026-03-21T19:00:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20260411T1500 a mo:Performance ;
+    schema:name "Viimeinen RODEO - jäähyväiskonsertti" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2026-04-11T15:00:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20260411T1900 a mo:Performance ;
+    schema:name "Viimeinen RODEO - jäähyväiskonsertti" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2026-04-11T19:00:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20260509T1900 a mo:Performance ;
+    schema:name "Rajaton - Suomen kaikkien aikojen euroviisut" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2026-05-09T19:00:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20260926T1400 a mo:Performance ;
+    schema:name "Interstellar Live" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2026-09-26T14:00:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20260926T1930 a mo:Performance ;
+    schema:name "Interstellar Live" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2026-09-26T19:30:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20261010T1800 a mo:Performance ;
+    schema:name "Von Hertzen Brothers 25v. - Somewhere in the Middle" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2026-10-10T18:00:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20261212T1800 a mo:Performance ;
+    schema:name "Yona - Sininen joulu" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2026-12-12T18:00:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20261219T1300 a mo:Performance ;
+    schema:name "Lumiukko-elokuvakonsertti" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2026-12-19T13:00:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20261219T1500 a mo:Performance ;
+    schema:name "Lumiukko-elokuvakonsertti" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2026-12-19T15:00:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20261219T1700 a mo:Performance ;
+    schema:name "Lumiukko-elokuvakonsertti" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2026-12-19T17:00:00"^^xsd:dateTime .
+
+cmk:olavinlinna-20260821T1900 a mo:Performance ;
+    schema:name "Pepe & Saimaa" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2026-08-21T19:00:00"^^xsd:dateTime .
+
+cmk:tampere-talo-20251231T0000 a mo:Performance ;
+    schema:name "Pepe & Saimaa" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2025-12-31T00:00:00"^^xsd:dateTime .
+
+cmk:temppeliaukion-kirkko-20250809T0000 a mo:Performance ;
+    schema:name "Jorma Panula 95v Var det en dröm" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2025-08-09T00:00:00"^^xsd:dateTime .
+
+cmo:organist a cmo:musical-identity .
+
+cmo:presenter a cmo:musical-identity .
+
+cmo:saxophonist a cmo:musical-identity .
+
+cmk:kulttuuritalo-martinus-20251018T0000 a mo:Performance ;
+    schema:name "JANNA & Samuli Edelmann: Merkityksiä" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2025-10-18T00:00:00"^^xsd:dateTime .
+
+cmk:logomo-20250829T0000 a mo:Performance ;
+    schema:name "Yona X Saimaa: Solovey" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2025-08-29T00:00:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20251108T0000 a mo:Performance ;
+    schema:name "Kahden valon välissä - runoja rakkaudesta ja kaipuusta" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2025-11-08T00:00:00"^^xsd:dateTime .
+
+cmk:tampere-talo-20251227T0000 a mo:Performance ;
+    schema:name "The Music of Star Wars" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2025-12-27T00:00:00"^^xsd:dateTime .
+
+cmk:tikkurilan-tori-20250515T0000 a mo:Performance ;
+    schema:name "Vantaan päivän konsertti" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2025-05-15T00:00:00"^^xsd:dateTime .
+
+cmo:actor a cmo:musical-identity .
+
+cmk:musiikkitalo-20251011T0000 a mo:Performance ;
+    schema:name "Jos rakastat - Kaj Chydeniuksen lauluja" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2025-10-11T00:00:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20251216T0000 a mo:Performance ;
+    schema:name "Christmas Cracker" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2025-12-16T00:00:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20260214T1900 a mo:Performance ;
+    schema:name "Jos rakastat - Kaj Chydeniuksen lauluja" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2026-02-14T19:00:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20261107T1800 a mo:Performance ;
+    schema:name "Myrskyluodolta Napapiirille" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2026-11-07T18:00:00"^^xsd:dateTime .
+
+cmk:tampere-talo-20250920T0000 a mo:Performance ;
+    schema:name "Jos rakastat - Kaj Chydeniuksen lauluja" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2025-09-20T00:00:00"^^xsd:dateTime .
+
+cmk:sirkus-finlandia-20250929T0000 a mo:Performance ;
+    schema:name "Ilta Sirkus Finlandiassa - Samuli Edelmann & Mikael Persbrandt" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2025-09-29T00:00:00"^^xsd:dateTime .
+
+cmo:musician a cmo:musical-identity .
+
+cmo:vocalist a cmo:musical-identity .
+
+cmo:conductor a cmo:musical-identity .
+
+cmk:viihdeorkesteri a cmo:ensemble-identity .
+

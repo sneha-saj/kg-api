@@ -1,0 +1,789 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:400-years-of-the-house-of-nobility-en-saga a cmo:Programme ;
+    rdfs:label "400 Years of the House of Nobility: En saga" .
+
+cmk:ach-so a cmo:Programme .
+
+cmk:aleksi-barriere a foaf:Person ;
+    foaf:familyName "Barrière" ;
+    foaf:firstName "Aleksi" ;
+    cmo:known-as-a cmk:stage-director ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20261004T1800 .
+
+cmk:alexei-lubimov a foaf:Person ;
+    foaf:familyName "Lubimov" ;
+    foaf:firstName "Alexei" ;
+    cmo:known-as-a cmk:fortepiano ;
+    cmo:plays-in cmk:temppeliaukio-church-20180120T1500 .
+
+cmk:alla-guerra-damor a cmo:Programme ;
+    rdfs:label "Alla guerra d'amor" .
+
+cmk:almi-hall a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Almi Hall, Helsinki" .
+
+cmk:anna-orasmaa a foaf:Person ;
+    foaf:familyName "Orasmaa" ;
+    foaf:firstName "Anna" ;
+    cmo:known-as-a cmk:harpsichordist ;
+    cmo:plays-in cmk:pentinkulma-sali-kerava-20180303T1300 .
+
+cmk:anthony-marini a foaf:Person ;
+    foaf:familyName "Marini" ;
+    foaf:firstName "Anthony" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:olari-church-20260723T2000 .
+
+cmk:antonia-ortner a foaf:Person ;
+    foaf:familyName "Ortner" ;
+    foaf:firstName "Antonia" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20261004T1800,
+        cmk:musiikkitalo-hall-paavo-20261002T1830 .
+
+cmk:antti-tikkanen a foaf:Person ;
+    foaf:familyName "Tikkanen" ;
+    foaf:firstName "Antti" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:house-of-nobility-20260917T1900,
+        cmk:house-of-nobility-20261025T1800 .
+
+cmk:aria-borealis-final a cmo:Programme ;
+    rdfs:label "Aria Borealis (FINAL)" .
+
+cmk:aria-borealis-semifinal a cmo:Programme ;
+    rdfs:label "Aria Borealis (SEMIFINAL)" .
+
+cmk:art-factory a cmo:Venue .
+
+cmk:arttu-kataja a foaf:Person ;
+    foaf:familyName "Kataja" ;
+    foaf:firstName "Arttu" ;
+    cmo:known-as-a cmk:bass ;
+    cmo:sings-in cmk:cathedral-tampere-20180325T1800 .
+
+cmk:bo-carpelan-100-carte-blanche a cmo:Programme ;
+    rdfs:label "Bo Carpelan 100: Carte blanche" .
+
+cmk:cathedral-espoo a cmo:Venue .
+
+cmk:cathedral-helsinki a cmo:Venue .
+
+cmk:cathedral-tampere a cmo:Venue .
+
+cmk:childrens-baroque a cmo:Programme .
+
+cmk:church-of-st-lawrence a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Church of St. Lawrence, Vantaa" .
+
+cmk:church-of-st-lawrence-vantaa a cmo:Venue ;
+    rdfs:label "Church of St. Lawrence, Vantaa" .
+
+cmk:dancing-queen a cmo:Programme .
+
+cmk:earth-water-air-fire a cmo:Programme ;
+    rdfs:label "Earth, water, air, fire" .
+
+cmk:eero-palviainen a foaf:Person ;
+    foaf:familyName "Palviainen" ;
+    foaf:firstName "Eero" ;
+    cmo:known-as-a cmk:lutenist ;
+    cmo:plays-in cmk:musiikkitalo-patio-20260718T1700 .
+
+cmk:ensemble a cmo:ensemble-identity,
+        cmo:musical-identity .
+
+cmk:erica-back a foaf:Person ;
+    foaf:familyName "Back" ;
+    foaf:firstName "Erica" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:almi-hall-20261008T1830,
+        cmk:almi-hall-20261009T1830,
+        cmk:almi-hall-20261010T1430 .
+
+cmk:essi-lind-vallinoja a foaf:Person ;
+    foaf:familyName "Lind-Vallinoja" ;
+    foaf:firstName "Essi" ;
+    cmo:known-as-a cmk:alto ;
+    cmo:sings-in cmk:house-of-nobility-helsinki-20261212T1800,
+        cmk:jarvenpaa-talo-20261209T1900 .
+
+cmk:finnish-baroque-orchestra a foaf:Group,
+        cmo:ensemble-identity,
+        cmo:musical-identity ;
+    rdfs:label "Finnish Baroque Orchestra" ;
+    cmo:performs-in cmk:almi-hall-20261008T1830,
+        cmk:almi-hall-20261009T1830,
+        cmk:almi-hall-20261010T1430,
+        cmk:church-of-st-lawrence-20260811T1830,
+        cmk:church-of-st-lawrence-vantaa-20261122T1900,
+        cmk:hattula-church-20261120T1900,
+        cmk:house-of-nobility-20261025T1800,
+        cmk:house-of-nobility-helsinki-20261212T1800,
+        cmk:jarvenpaa-talo-20261209T1900,
+        cmk:kajaani-church-20261118T1900,
+        cmk:kirkkonummi-church-20261121T1900,
+        cmk:musiikkitalo-concert-hall-20261004T1800,
+        cmk:musiikkitalo-hall-paavo-20261002T1830,
+        cmk:olari-church-20260723T2000,
+        cmk:varkaus-main-church-20261117T1900 .
+
+cmk:hanna-haapamaki a foaf:Person ;
+    foaf:familyName "Haapamäki" ;
+    foaf:firstName "Hanna" ;
+    cmo:known-as-a cmk:recorder-traverso ;
+    cmo:plays-in cmk:pentinkulma-sali-kerava-20180303T1300,
+        cmk:st-henrys-church-pyhtaa-20180608T1900 .
+
+cmk:hanna-pakkala a foaf:Person ;
+    foaf:familyName "Pakkala" ;
+    foaf:firstName "Hanna" ;
+    cmo:known-as-a cmk:violist ;
+    cmo:plays-in cmk:house-of-nobility-20260917T1900 .
+
+cmk:hannu-norjanen a foaf:Person ;
+    foaf:familyName "Norjanen" ;
+    foaf:firstName "Hannu" ;
+    cmo:conducts-in cmk:cathedral-espoo-20180322T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:hattula-church a cmo:Venue ;
+    rdfs:label "Hattula Church" .
+
+cmk:heikki-liimola a foaf:Person ;
+    foaf:familyName "Liimola" ;
+    foaf:firstName "Heikki" ;
+    cmo:conducts-in cmk:cathedral-tampere-20180325T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:helsinki-chamber-choir a cmo:ensemble-identity ;
+    rdfs:label "Helsinki Chamber Choir" ;
+    cmo:performs-in cmk:church-of-st-lawrence-vantaa-20261122T1900,
+        cmk:hattula-church-20261120T1900,
+        cmk:house-of-nobility-helsinki-20261212T1800,
+        cmk:jarvenpaa-talo-20261209T1900,
+        cmk:kajaani-church-20261118T1900,
+        cmk:kirkkonummi-church-20261121T1900,
+        cmk:varkaus-main-church-20261117T1900 .
+
+cmk:house-of-nobility a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "House of Nobility, Helsinki" .
+
+cmk:house-of-nobility-helsinki a cmo:Venue ;
+    rdfs:label "House of Nobility, Helsinki" .
+
+cmk:ilkka-eronen a foaf:Person ;
+    foaf:familyName "Eronen" ;
+    foaf:firstName "Ilkka" ;
+    cmo:known-as-a cmk:traverso-player ;
+    cmo:plays-in cmk:olari-church-20260723T2000 .
+
+cmk:irma-niskanen a foaf:Person ;
+    foaf:familyName "Niskanen" ;
+    foaf:firstName "Irma" ;
+    cmo:conducts-in cmk:musiikkitalo-concert-hall-20261004T1800 ;
+    cmo:known-as-a cmk:conductor,
+        cmk:violinist ;
+    cmo:plays-in cmk:house-of-nobility-20260917T1900,
+        cmk:house-of-nobility-helsinki-20261212T1800,
+        cmk:jarvenpaa-talo-20261209T1900,
+        cmk:musiikkitalo-patio-20260718T1700 .
+
+cmk:jakob-bloch-jespersen a foaf:Person ;
+    foaf:familyName "Bloch Jespersen" ;
+    foaf:firstName "Jakob" ;
+    cmo:known-as-a cmk:bass-baritone ;
+    cmo:sings-in cmk:almi-hall-20261008T1830,
+        cmk:almi-hall-20261009T1830,
+        cmk:almi-hall-20261010T1430,
+        cmk:church-of-st-lawrence-20260811T1830,
+        cmk:musiikkitalo-patio-20260718T1700 .
+
+cmk:jani-sunnarborg a foaf:Person ;
+    foaf:familyName "Sunnarborg" ;
+    foaf:firstName "Jani" ;
+    cmo:known-as-a cmk:bassoonist ;
+    cmo:plays-in cmk:olari-church-20260723T2000 .
+
+cmk:jarvenpaa-church a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Järvenpää Church, Järvenpää" .
+
+cmk:jarvenpaa-talo a cmo:Venue ;
+    rdfs:label "Järvenpää-talo" .
+
+cmk:jere-martikainen a foaf:Person ;
+    foaf:familyName "Martikainen" ;
+    foaf:firstName "Jere" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:cathedral-espoo-20180322T1900 .
+
+cmk:josefine-mindus a foaf:Person ;
+    foaf:familyName "Mindus" ;
+    foaf:firstName "Josefine" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20261004T1800,
+        cmk:musiikkitalo-hall-paavo-20261002T1830 .
+
+cmk:juha-kotilainen a foaf:Person ;
+    foaf:familyName "Kotilainen" ;
+    foaf:firstName "Juha" ;
+    cmo:known-as-a cmk:bass ;
+    cmo:sings-in cmk:cathedral-tampere-20180325T1800 .
+
+cmk:juha-pekka-mitjonen a foaf:Person ;
+    foaf:familyName "Mitjonen" ;
+    foaf:firstName "Juha-Pekka" ;
+    cmo:known-as-a cmk:bass ;
+    cmo:sings-in cmk:prinzregententheater-munich-20180311T2000 .
+
+cmk:juhana-kotilainen a foaf:Person ;
+    foaf:familyName "Kotilainen" ;
+    foaf:firstName "Juhana" ;
+    cmo:known-as-a cmk:bass ;
+    cmo:sings-in cmk:house-of-nobility-helsinki-20261212T1800,
+        cmk:jarvenpaa-talo-20261209T1900 .
+
+cmk:juho-punkeri a foaf:Person ;
+    foaf:familyName "Punkeri" ;
+    foaf:firstName "Juho" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:st-henrys-church-pyhtaa-20180608T1900 .
+
+cmk:jukka-jokitalo a foaf:Person ;
+    foaf:familyName "Jokitalo" ;
+    foaf:firstName "Jukka" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:prinzregententheater-munich-20180311T2000 .
+
+cmk:jussi-seppanen a foaf:Person ;
+    foaf:familyName "Seppänen" ;
+    foaf:firstName "Jussi" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:house-of-nobility-20260917T1900 .
+
+cmk:justin-doyle a foaf:Person ;
+    foaf:familyName "Doyle" ;
+    foaf:firstName "Justin" ;
+    cmo:known-as-a cmk:choir-master ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20261004T1800 .
+
+cmk:jyrki-korhonen a foaf:Person ;
+    foaf:familyName "Korhonen" ;
+    foaf:firstName "Jyrki" ;
+    cmo:known-as-a cmk:bass ;
+    cmo:sings-in cmk:cathedral-espoo-20180322T1900 .
+
+cmk:kajaani-church a cmo:Venue ;
+    rdfs:label "Kajaani Church" .
+
+cmk:kajsa-dahlback a foaf:Person ;
+    foaf:familyName "Dahlbäck" ;
+    foaf:firstName "Kajsa" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:prinzregententheater-munich-20180311T2000 .
+
+cmk:kanneltalo a cmo:Venue .
+
+cmk:katariina-heikkila a foaf:Person ;
+    foaf:familyName "Heikkilä" ;
+    foaf:firstName "Katariina" ;
+    cmo:known-as-a cmk:alto ;
+    cmo:sings-in cmk:prinzregententheater-munich-20180311T2000 .
+
+cmk:kirkkonummi-church a cmo:Venue ;
+    rdfs:label "Kirkkonummi Church" .
+
+cmk:linnea-sundfaer-casserly a foaf:Person ;
+    foaf:familyName "Sundfaer Casserly" ;
+    foaf:firstName "Linnéa" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:house-of-nobility-helsinki-20261212T1800,
+        cmk:jarvenpaa-talo-20261209T1900 .
+
+cmk:lorenzo-coppola a foaf:Person ;
+    foaf:familyName "Coppola" ;
+    foaf:firstName "Lorenzo" ;
+    cmo:known-as-a cmk:clarinetist ;
+    cmo:plays-in cmk:house-of-nobility-20260917T1900 .
+
+cmk:lotta-pylkas a foaf:Person ;
+    foaf:familyName "Pylkäs" ;
+    foaf:firstName "Lotta" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:almi-hall-20261008T1830,
+        cmk:almi-hall-20261009T1830,
+        cmk:almi-hall-20261010T1430 .
+
+cmk:lucas-zuehl a foaf:Person ;
+    foaf:familyName "Zuehl" ;
+    foaf:firstName "Lucas" ;
+    cmo:known-as-a cmk:bass-baritone ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20261004T1800,
+        cmk:musiikkitalo-hall-paavo-20261002T1830 .
+
+cmk:lucija-ercegovac a foaf:Person ;
+    foaf:familyName "Ercegovac" ;
+    foaf:firstName "Lucija" ;
+    cmo:known-as-a cmk:mezzo-soprano ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20261004T1800,
+        cmk:musiikkitalo-hall-paavo-20261002T1830 .
+
+cmk:maija-rautasuo a foaf:Person ;
+    foaf:familyName "Rautasuo" ;
+    foaf:firstName "Maija" ;
+    cmo:known-as-a cmk:coloratura-soprano ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20261004T1800,
+        cmk:musiikkitalo-hall-paavo-20261002T1830 .
+
+cmk:mari-aschehoug a foaf:Person ;
+    foaf:familyName "Aschehoug" ;
+    foaf:firstName "Mari" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20261004T1800,
+        cmk:musiikkitalo-hall-paavo-20261002T1830 .
+
+cmk:marianna-henriksson a foaf:Person ;
+    foaf:familyName "Henriksson" ;
+    foaf:firstName "Marianna" ;
+    cmo:conducts-in cmk:almi-hall-20261008T1830,
+        cmk:almi-hall-20261009T1830,
+        cmk:almi-hall-20261010T1430 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:markus-pelli a foaf:Person ;
+    foaf:familyName "Pelli" ;
+    foaf:firstName "Markus" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:pentinkulma-sali-kerava-20180303T1300 .
+
+cmk:martin-hohler a foaf:Person ;
+    foaf:familyName "Höhler" ;
+    foaf:firstName "Martin" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20261004T1800,
+        cmk:musiikkitalo-hall-paavo-20261002T1830 .
+
+cmk:mats-lillhannus a foaf:Person ;
+    foaf:familyName "Lillhannus" ;
+    foaf:firstName "Mats" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:house-of-nobility-helsinki-20261212T1800,
+        cmk:jarvenpaa-talo-20261209T1900 .
+
+cmk:musiikkitalo-concert-hall a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Musiikkitalo (concert hall), Helsinki" .
+
+cmk:musiikkitalo-hall-paavo a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Musiikkitalo (Hall Paavo), Helsinki" .
+
+cmk:musiikkitalo-patio a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Musiikkitalo (patio), Helsinki" .
+
+cmk:niall-chorell a foaf:Person ;
+    foaf:familyName "Chorell" ;
+    foaf:firstName "Niall" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:cathedral-espoo-20180322T1900 .
+
+cmk:niilo-erkkila a foaf:Person ;
+    foaf:familyName "Erkkilä" ;
+    foaf:firstName "Niilo" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:house-of-nobility-helsinki-20261212T1800,
+        cmk:jarvenpaa-talo-20261209T1900 .
+
+cmk:nils-schweckendiek a foaf:Person ;
+    foaf:familyName "Schweckendiek" ;
+    foaf:firstName "Nils" ;
+    cmo:conducts-in cmk:church-of-st-lawrence-vantaa-20261122T1900,
+        cmk:hattula-church-20261120T1900,
+        cmk:house-of-nobility-helsinki-20261212T1800,
+        cmk:jarvenpaa-talo-20261209T1900,
+        cmk:kajaani-church-20261118T1900,
+        cmk:kirkkonummi-church-20261121T1900,
+        cmk:varkaus-main-church-20261117T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:olari-church a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Olari Church, Espoo" .
+
+cmk:olga-heikkila a foaf:Person ;
+    foaf:familyName "Heikkilä" ;
+    foaf:firstName "Olga" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:prinzregententheater-munich-20180311T2000 .
+
+cmk:olga-pashchenko a foaf:Person ;
+    foaf:familyName "Pashchenko" ;
+    foaf:firstName "Olga" ;
+    cmo:known-as-a cmk:fortepiano ;
+    cmo:plays-in cmk:temppeliaukio-church-20180120T1500 .
+
+cmk:on-the-battlefield-of-love a cmo:Programme ;
+    rdfs:label "On the Battlefield of Love" .
+
+cmk:pauliina-fred a foaf:Person ;
+    foaf:familyName "Fred" ;
+    foaf:firstName "Pauliina" ;
+    cmo:known-as-a cmk:flutist,
+        cmk:traverso ;
+    cmo:plays-in cmk:house-of-nobility-20260917T1900,
+        cmk:st-henrys-church-pyhtaa-20180608T1900 .
+
+cmk:pentinkulma-sali-kerava a cmo:Venue .
+
+cmk:petri-ainali a foaf:Person ;
+    foaf:familyName "Ainali" ;
+    foaf:firstName "Petri" ;
+    cmo:known-as-a cmk:double-bassist ;
+    cmo:plays-in cmk:house-of-nobility-20260917T1900 .
+
+cmk:prinzregententheater-munich a cmo:Venue .
+
+cmk:riku-laurikka a foaf:Person ;
+    foaf:familyName "Laurikka" ;
+    foaf:firstName "Riku" ;
+    cmo:conducts-in cmk:church-of-st-lawrence-vantaa-20261122T1900,
+        cmk:hattula-church-20261120T1900,
+        cmk:kajaani-church-20261118T1900,
+        cmk:kirkkonummi-church-20261121T1900,
+        cmk:varkaus-main-church-20261117T1900 ;
+    cmo:known-as-a cmk:choirmaster .
+
+cmk:sampo-haapaniemi a foaf:Person ;
+    foaf:familyName "Haapaniemi" ;
+    foaf:firstName "Sampo" ;
+    cmo:known-as-a cmk:bass ;
+    cmo:sings-in cmk:cathedral-espoo-20180322T1900 .
+
+cmk:sofia-majanen a foaf:Person ;
+    foaf:familyName "Majanen" ;
+    foaf:firstName "Sofia" ;
+    cmo:known-as-a cmk:alto ;
+    cmo:sings-in cmk:house-of-nobility-helsinki-20261212T1800,
+        cmk:jarvenpaa-talo-20261209T1900 .
+
+cmk:soulmaidens a cmo:Programme ;
+    rdfs:label "Soulmaidens" .
+
+cmk:st-henrys-church-pyhtaa a cmo:Venue .
+
+cmk:st-john-passion a cmo:Programme .
+
+cmk:suomalainen-barokkiorkesteri a foaf:Group,
+        cmo:musical-identity ;
+    rdfs:label "Suomalainen barokkiorkesteri" ;
+    cmo:performs-in cmk:jarvenpaa-church-20260811T1900,
+        cmk:musiikkitalo-patio-20260530T1700 .
+
+cmk:susanne-langner a foaf:Person ;
+    foaf:familyName "Langner" ;
+    foaf:firstName "Susanne" ;
+    cmo:known-as-a cmk:alto ;
+    cmo:sings-in cmk:turku-cathedral-20180210T1900 .
+
+cmk:suvi-vayrynen a foaf:Person ;
+    foaf:familyName "Väyrynen" ;
+    foaf:firstName "Suvi" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:cathedral-tampere-20180325T1800 .
+
+cmk:taavi-oramo a foaf:Person ;
+    foaf:familyName "Oramo" ;
+    foaf:firstName "Taavi" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:cathedral-tampere-20180325T1800 .
+
+cmk:temppeliaukio-church a cmo:Venue .
+
+cmk:teppo-lampela a foaf:Person ;
+    foaf:familyName "Lampela" ;
+    foaf:firstName "Teppo" ;
+    cmo:known-as-a cmk:alto ;
+    cmo:sings-in cmk:cathedral-espoo-20180322T1900 .
+
+cmk:the-heart-of-the-baroque a cmo:Programme ;
+    rdfs:label "The Heart of the Baroque" .
+
+cmk:tiina-penttinen a foaf:Person ;
+    foaf:familyName "Penttinen" ;
+    foaf:firstName "Tiina" ;
+    cmo:known-as-a cmk:alto ;
+    cmo:sings-in cmk:cathedral-tampere-20180325T1800 .
+
+cmk:topi-lehtipuu a foaf:Person ;
+    foaf:familyName "Lehtipuu" ;
+    foaf:firstName "Topi" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:cathedral-tampere-20180325T1800 .
+
+cmk:turku-cathedral a cmo:Venue .
+
+cmk:tuuli-lindeberg a foaf:Person ;
+    foaf:familyName "Lindeberg" ;
+    foaf:firstName "Tuuli" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:almi-hall-20261008T1830,
+        cmk:almi-hall-20261009T1830,
+        cmk:almi-hall-20261010T1430,
+        cmk:cathedral-espoo-20180322T1900 .
+
+cmk:urjala-church a cmo:Venue .
+
+cmk:varkaus-main-church a cmo:Venue ;
+    rdfs:label "Varkaus Main Church" .
+
+cmk:vergnugte-ruh-beliebte-seelenlust a cmo:Programme .
+
+cmk:virgile-pellerin a foaf:Person ;
+    foaf:familyName "Pellerin" ;
+    foaf:firstName "Virgile" ;
+    cmo:known-as-a cmk:countertenor ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20261004T1800,
+        cmk:musiikkitalo-hall-paavo-20261002T1830 .
+
+cmk:zeitgeist a cmo:Programme .
+
+cmk:bassoonist a cmo:musical-identity .
+
+cmk:choir-master a cmo:musical-identity .
+
+cmk:choirmaster a cmo:musical-identity .
+
+cmk:clarinetist a cmo:musical-identity .
+
+cmk:coloratura-soprano a cmo:musical-identity .
+
+cmk:countertenor a cmo:musical-identity .
+
+cmk:double-bassist a cmo:musical-identity .
+
+cmk:flutist a cmo:musical-identity .
+
+cmk:harpsichordist a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:jarvenpaa-church-20260811T1900 a mo:Performance ;
+    schema:name "The Heart of the Baroque" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2026-08-11T19:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/the-heart-of-the-baroque/"^^xsd:anyURI .
+
+cmk:lutenist a cmo:musical-identity .
+
+cmk:mezzo-soprano a cmo:musical-identity .
+
+cmk:musiikkitalo-patio-20260530T1700 a mo:Performance ;
+    schema:name "The Heart of the Baroque" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2026-05-30T17:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/the-heart-of-the-baroque/"^^xsd:anyURI .
+
+cmk:recorder-traverso a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:stage-director a cmo:musical-identity .
+
+cmk:traverso a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:traverso-player a cmo:musical-identity .
+
+cmk:turku-cathedral-20180210T1900 a mo:Performance ;
+    schema:name "Vergnügte Ruh, beliebte Seelenlust" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2018-02-10T19:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/earlier-years/"^^xsd:anyURI .
+
+cmk:violist a cmo:musical-identity .
+
+cmk:bass-baritone a cmo:musical-identity .
+
+cmk:cellist a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:church-of-st-lawrence-20260811T1830 a mo:Performance ;
+    schema:name "Alla guerra d'amor" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2026-08-11T18:30:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/alla-guerra-damor/"^^xsd:anyURI .
+
+cmk:fortepiano a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:from-christmas-night-to-celebration a cmo:Programme ;
+    rdfs:label "From Christmas Night to Celebration" .
+
+cmk:house-of-nobility-20261025T1800 a mo:Performance ;
+    schema:name "Bo Carpelan 100: Carte blanche" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2026-10-25T18:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/bo-carpelan-100-carte-blanche/"^^xsd:anyURI .
+
+cmk:temppeliaukio-church-20180120T1500 a mo:Performance ;
+    schema:name "Zeitgeist" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2018-01-20T15:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/earlier-years/"^^xsd:anyURI .
+
+cmk:musiikkitalo-patio-20260718T1700 a mo:Performance ;
+    schema:name "On the Battlefield of Love" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2026-07-18T17:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/on-the-battlefield-of-love/"^^xsd:anyURI .
+
+cmk:pentinkulma-sali-kerava-20180303T1300 a mo:Performance ;
+    schema:name "Children's baroque" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2018-03-03T13:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/earlier-years/"^^xsd:anyURI .
+
+cmk:st-henrys-church-pyhtaa-20180608T1900 a mo:Performance ;
+    schema:name "Ach so!" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2018-06-08T19:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/earlier-years/"^^xsd:anyURI .
+
+cmk:violinist a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:church-of-st-lawrence-vantaa-20261122T1900 a mo:Performance ;
+    cmo:has-programme cmk:requiem ;
+    schema:name "Requiem" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2026-11-22T19:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/requiem/"^^xsd:anyURI .
+
+cmk:hattula-church-20261120T1900 a mo:Performance ;
+    cmo:has-programme cmk:requiem ;
+    schema:name "Requiem" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2026-11-20T19:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/requiem/"^^xsd:anyURI .
+
+cmk:kajaani-church-20261118T1900 a mo:Performance ;
+    cmo:has-programme cmk:requiem ;
+    schema:name "Requiem" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2026-11-18T19:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/requiem/"^^xsd:anyURI .
+
+cmk:kirkkonummi-church-20261121T1900 a mo:Performance ;
+    cmo:has-programme cmk:requiem ;
+    schema:name "Requiem" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2026-11-21T19:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/requiem/"^^xsd:anyURI .
+
+cmk:olari-church-20260723T2000 a mo:Performance ;
+    schema:name "Earth, water, air, fire" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2026-07-23T20:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/earth-wind-water-and-fire/"^^xsd:anyURI .
+
+cmk:varkaus-main-church-20261117T1900 a mo:Performance ;
+    cmo:has-programme cmk:requiem ;
+    schema:name "Requiem" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2026-11-17T19:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/requiem/"^^xsd:anyURI .
+
+cmk:conductor a cmo:musical-identity .
+
+cmk:prinzregententheater-munich-20180311T2000 a mo:Performance ;
+    schema:name "Dancing Queen" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2018-03-11T20:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/earlier-years/"^^xsd:anyURI .
+
+cmk:requiem a cmo:Programme ;
+    rdfs:label "Requiem" .
+
+cmk:almi-hall-20261008T1830 a mo:Performance ;
+    schema:name "Soulmaidens" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2026-10-08T18:30:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/soulmaidens/"^^xsd:anyURI .
+
+cmk:almi-hall-20261009T1830 a mo:Performance ;
+    schema:name "Soulmaidens" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2026-10-09T18:30:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/soulmaidens/"^^xsd:anyURI .
+
+cmk:almi-hall-20261010T1430 a mo:Performance ;
+    schema:name "Soulmaidens" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2026-10-10T14:30:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/soulmaidens/"^^xsd:anyURI .
+
+cmk:alto a cmo:musical-identity .
+
+cmk:bass a cmo:musical-identity .
+
+cmk:cathedral-espoo-20180322T1900 a mo:Performance ;
+    schema:name "St. John Passion" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2018-03-22T19:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/earlier-years/"^^xsd:anyURI .
+
+cmk:cathedral-tampere-20180325T1800 a mo:Performance ;
+    schema:name "St. John Passion" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2018-03-25T18:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/earlier-years/"^^xsd:anyURI .
+
+cmk:house-of-nobility-20260917T1900 a mo:Performance ;
+    schema:name "400 Years of the House of Nobility: En saga" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2026-09-17T19:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/400-years-of-the-house-of-nobility-en-saga/"^^xsd:anyURI .
+
+cmk:musiikkitalo-hall-paavo-20261002T1830 a mo:Performance ;
+    schema:name "Aria Borealis (SEMIFINAL)" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2026-10-02T18:30:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/aria-borealis_semifinal/"^^xsd:anyURI .
+
+cmk:tenor a cmo:musical-identity .
+
+cmk:house-of-nobility-helsinki-20261212T1800 a mo:Performance ;
+    cmo:has-programme cmk:from-christmas-night-to-celebration ;
+    schema:name "From Christmas Night to Celebration" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2026-12-12T18:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/from-christmas-night-to-celebration/"^^xsd:anyURI .
+
+cmk:jarvenpaa-talo-20261209T1900 a mo:Performance ;
+    cmo:has-programme cmk:from-christmas-night-to-celebration ;
+    schema:name "From Christmas Night to Celebration" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2026-12-09T19:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/from-christmas-night-to-celebration/"^^xsd:anyURI .
+
+cmk:soprano a cmo:musical-identity .
+
+cmk:musiikkitalo-concert-hall-20261004T1800 a mo:Performance ;
+    schema:name "Aria Borealis (FINAL)" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2026-10-04T18:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/aria-borealis_final/"^^xsd:anyURI .
+
+cmk:fibo a foaf:Organization,
+        schema:Organization .
+

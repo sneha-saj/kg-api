@@ -1,0 +1,681 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:1952 a schema:CreativeWork .
+
+cmk:aku-sorensen a foaf:Person ;
+    foaf:familyName "Sorensen" ;
+    foaf:firstName "Aku" ;
+    cmo:conducts-in cmk:turku-concert-hall-20260924T1830,
+        cmk:turku-concert-hall-20260925T1800,
+        cmk:turku-concert-hall-20261001T1830,
+        cmk:turku-concert-hall-20261002T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:alexander-pozdniakovas a foaf:Person ;
+    foaf:familyName "Pozdniakovas" ;
+    foaf:firstName "Alexander" ;
+    cmo:known-as-a cmk:violist,
+        cmo:violist ;
+    cmo:plays-in cmk:music-centre-fuuga-ateljee-20261028T1800,
+        cmk:music-centre-fuuga-ateljee-20261029T1800,
+        cmk:musiikkitalo-fuuga-ateljee-20261208T1800 .
+
+cmk:andreas-anthopoulos a foaf:Person ;
+    foaf:familyName "Anthopoulos" ;
+    foaf:firstName "Andreas" ;
+    cmo:known-as-a cmk:bassoonist ;
+    cmo:plays-in cmk:music-centre-fuuga-ateljee-20261028T1800,
+        cmk:music-centre-fuuga-ateljee-20261029T1800 .
+
+cmk:anna-westerlund a foaf:Person ;
+    foaf:familyName "Westerlund" ;
+    foaf:firstName "Anna" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:music-centre-fuuga-ateljee-20261028T1800,
+        cmk:music-centre-fuuga-ateljee-20261029T1800,
+        cmk:turku-concert-hall-20260910T1830,
+        cmk:turku-concert-hall-20260911T1800 .
+
+cmk:annika-sinisalo a foaf:Person ;
+    foaf:familyName "Sinisalo" ;
+    foaf:firstName "Annika" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:music-centre-fuuga-ateljee-20261028T1800,
+        cmk:music-centre-fuuga-ateljee-20261029T1800,
+        cmk:turku-concert-hall-20260910T1830,
+        cmk:turku-concert-hall-20260911T1800 .
+
+cmk:anthony-gabriele a foaf:Person ;
+    foaf:familyName "Gabriele" ;
+    foaf:firstName "Anthony" ;
+    cmo:conducts-in cmk:music-centre-fuuga-20261215T1830,
+        cmk:music-centre-fuuga-20261216T1830,
+        cmk:music-centre-fuuga-20261217T1830 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:celebration a schema:CreativeWork .
+
+cmk:choir a cmo:ensemble-identity,
+        cmo:musical-identity .
+
+cmk:chorus-cathedralis-aboensis a cmo:ensemble-identity ;
+    rdfs:label "Chorus Cathedralis Aboensis" ;
+    cmo:performs-in cmk:turku-concert-hall-20261007T1830,
+        cmk:turku-concert-hall-20261008T1830,
+        cmk:turku-concert-hall-20261009T1800 .
+
+cmk:city-of-turku-independence-day-gala-concert-2026 a cmo:Programme .
+
+cmk:dain-song a foaf:Person ;
+    foaf:familyName "Song" ;
+    foaf:firstName "Dain" ;
+    cmo:known-as-a cmo:flutist ;
+    cmo:plays-in cmk:music-centre-fuuga-20261126T1830,
+        cmk:music-centre-fuuga-20261127T1800,
+        cmk:musiikkitalo-fuuga-ateljee-20261208T1800 .
+
+cmk:eelis-malmivirta a foaf:Person ;
+    foaf:familyName "Malmivirta" ;
+    foaf:firstName "Eelis" ;
+    cmo:known-as-a cmo:hornist ;
+    cmo:plays-in cmk:musiikkitalo-fuuga-ateljee-20261208T1800 .
+
+cmk:emilia-hoving a foaf:Person ;
+    foaf:familyName "Hoving" ;
+    foaf:firstName "Emilia" ;
+    cmo:conducts-in cmk:music-centre-fuuga-20261206T1200,
+        cmk:music-centre-fuuga-20261206T1500 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:ensemble a cmo:musical-identity .
+
+cmk:etienne-boudreault a foaf:Person ;
+    foaf:familyName "Boudreault" ;
+    foaf:firstName "Etienne" ;
+    cmo:known-as-a cmo:bassoonist ;
+    cmo:plays-in cmk:music-centre-fuuga-20261126T1830,
+        cmk:music-centre-fuuga-20261127T1800 .
+
+cmk:finnish-music-day a cmo:Programme .
+
+cmk:gabriel-slesinger a foaf:Person ;
+    foaf:familyName "Slesinger" ;
+    foaf:firstName "Gabriel" ;
+    cmo:known-as-a cmk:trumpeter ;
+    cmo:plays-in cmk:music-centre-fuuga-ateljee-20261028T1800,
+        cmk:music-centre-fuuga-ateljee-20261029T1800 .
+
+cmk:gilbert-varga a foaf:Person ;
+    foaf:familyName "Varga" ;
+    foaf:firstName "Gilbert" ;
+    cmo:conducts-in cmk:music-centre-fuuga-20261126T1830,
+        cmk:music-centre-fuuga-20261127T1800 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:hannes-kaukoranta a foaf:Person ;
+    foaf:familyName "Kaukoranta" ;
+    foaf:firstName "Hannes" ;
+    cmo:known-as-a cmo:hornist ;
+    cmo:plays-in cmk:music-centre-fuuga-20261126T1830,
+        cmk:music-centre-fuuga-20261127T1800 .
+
+cmk:henna-jamsa a foaf:Person ;
+    foaf:familyName "Jämsä" ;
+    foaf:firstName "Henna" ;
+    cmo:known-as-a cmk:clarinetist ;
+    cmo:plays-in cmk:music-centre-fuuga-ateljee-20261028T1800,
+        cmk:music-centre-fuuga-ateljee-20261029T1800 .
+
+cmk:john-storgards a foaf:Person ;
+    foaf:familyName "Storgårds" ;
+    foaf:firstName "John" ;
+    cmo:conducts-in cmk:music-centre-fuuga-20261112T1830,
+        cmk:music-centre-fuuga-20261113T1800,
+        cmk:music-centre-fuuga-20261114T1400,
+        cmk:turku-concert-hall-20260903T1830,
+        cmk:turku-concert-hall-20260904T1800,
+        cmk:turku-concert-hall-20261007T1830,
+        cmk:turku-concert-hall-20261008T1830,
+        cmk:turku-concert-hall-20261009T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:jun-saotome a foaf:Person ;
+    foaf:familyName "Saotome" ;
+    foaf:firstName "Jun" ;
+    cmo:known-as-a cmo:oboist ;
+    cmo:plays-in cmk:musiikkitalo-fuuga-ateljee-20261208T1800 .
+
+cmk:jussi-littunen a foaf:Person ;
+    foaf:familyName "Littunen" ;
+    foaf:firstName "Jussi" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:music-centre-fuuga-ateljee-20261028T1800,
+        cmk:music-centre-fuuga-ateljee-20261029T1800 .
+
+cmk:karita-mattila a foaf:Person ;
+    foaf:familyName "Mattila" ;
+    foaf:firstName "Karita" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:music-centre-fuuga-20261112T1830,
+        cmk:music-centre-fuuga-20261113T1800,
+        cmk:music-centre-fuuga-20261114T1400 .
+
+cmk:kevin-john-edusei a foaf:Person ;
+    foaf:familyName "Edusei" ;
+    foaf:firstName "Kevin John" ;
+    cmo:conducts-in cmk:music-centre-fuuga-20261119T1830,
+        cmk:music-centre-fuuga-20261120T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:larimatti-punelpuro a foaf:Person ;
+    foaf:familyName "Punelpuro" ;
+    foaf:firstName "Larimatti" ;
+    cmo:known-as-a cmo:cellist ;
+    cmo:plays-in cmk:musiikkitalo-fuuga-ateljee-20261208T1800 .
+
+cmk:malin-broman a foaf:Person ;
+    foaf:familyName "Broman" ;
+    foaf:firstName "Malin" ;
+    cmo:known-as-a cmk:violinist,
+        cmk:violist ;
+    cmo:plays-in cmk:turku-concert-hall-20260917T1830 .
+
+cmk:marco-bottet a foaf:Person ;
+    foaf:familyName "Bottet" ;
+    foaf:firstName "Marco" ;
+    cmo:known-as-a cmo:bassoonist ;
+    cmo:plays-in cmk:musiikkitalo-fuuga-ateljee-20261208T1800 .
+
+cmk:marjaana-holva a foaf:Person ;
+    foaf:familyName "Holva" ;
+    foaf:firstName "Marjaana" ;
+    cmo:known-as-a cmo:violinist ;
+    cmo:plays-in cmk:musiikkitalo-fuuga-ateljee-20261208T1800 .
+
+cmk:matti-koponen a foaf:Person ;
+    foaf:familyName "Koponen" ;
+    foaf:firstName "Matti" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:turku-concert-hall-20260910T1830,
+        cmk:turku-concert-hall-20260911T1800 .
+
+cmk:maximilian-hornung a foaf:Person ;
+    foaf:familyName "Hornung" ;
+    foaf:firstName "Maximilian" ;
+    cmo:known-as-a cmo:cellist ;
+    cmo:plays-in cmk:music-centre-fuuga-20261126T1830,
+        cmk:music-centre-fuuga-20261127T1800 .
+
+cmk:meeri-pulakka a foaf:Person ;
+    foaf:familyName "Pulakka" ;
+    foaf:firstName "Meeri" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:music-centre-fuuga-ateljee-20261028T1800,
+        cmk:music-centre-fuuga-ateljee-20261029T1800 .
+
+cmk:mesmerizing-harmony a cmo:Programme .
+
+cmk:mieskuoro-laulun-ystavat a foaf:Group,
+        cmo:ensemble-identity ;
+    cmo:performs-in cmk:turku-concert-hall-20260910T1830,
+        cmk:turku-concert-hall-20260911T1800 .
+
+cmk:mikael-kemppainen a foaf:Person ;
+    foaf:familyName "Kemppainen" ;
+    foaf:firstName "Mikael" ;
+    cmo:known-as-a cmo:pianist ;
+    cmo:plays-in cmk:music-centre-fuuga-20261126T1830,
+        cmk:music-centre-fuuga-20261127T1800 .
+
+cmk:mikko-kouki a foaf:Person ;
+    foaf:familyName "Kouki" ;
+    foaf:firstName "Mikko" ;
+    cmo:known-as-a cmk:narrator ;
+    cmo:narrates-in cmk:music-centre-fuuga-ateljee-20261028T1800,
+        cmk:music-centre-fuuga-ateljee-20261029T1800 .
+
+cmk:minami-yoshida a foaf:Person ;
+    foaf:familyName "Yoshida" ;
+    foaf:firstName "Minami" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:music-centre-fuuga-20261119T1830,
+        cmk:music-centre-fuuga-20261120T1800 .
+
+cmk:music-centre-fuuga a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Music Centre Fuuga" .
+
+cmk:music-centre-fuuga-ateljee a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Music Centre Fuuga, Ateljee" .
+
+cmk:musiikkitalo-fuuga-ateljee a cmo:ConcertHall,
+        cmo:Venue .
+
+cmk:nevio-ciancaglini a foaf:Person ;
+    foaf:familyName "Ciancaglini" ;
+    foaf:firstName "Nevio" ;
+    cmo:known-as-a cmo:clarinetist ;
+    cmo:plays-in cmk:music-centre-fuuga-20261126T1830,
+        cmk:music-centre-fuuga-20261127T1800,
+        cmk:musiikkitalo-fuuga-ateljee-20261208T1800 .
+
+cmk:nikke-isomottonen a foaf:Person ;
+    foaf:familyName "Isomöttönen" ;
+    foaf:firstName "Nikke" ;
+    cmo:known-as-a cmk:choir-leader ;
+    cmo:performs-in cmk:turku-concert-hall-20260910T1830,
+        cmk:turku-concert-hall-20260911T1800 .
+
+cmk:nn-trumpet a foaf:Person ;
+    foaf:familyName "Unknown" ;
+    foaf:firstName "NN" ;
+    cmo:known-as-a cmk:trumpeter ;
+    cmo:plays-in cmk:music-centre-fuuga-ateljee-20261028T1800,
+        cmk:music-centre-fuuga-ateljee-20261029T1800 .
+
+cmk:open-orchestra a schema:CreativeWork .
+
+cmk:paavo-hyokki a foaf:Person ;
+    foaf:familyName "Hyökki" ;
+    foaf:firstName "Paavo" ;
+    cmo:conducts-in cmk:turku-concert-hall-20261007T1830,
+        cmk:turku-concert-hall-20261008T1830,
+        cmk:turku-concert-hall-20261009T1800 ;
+    cmo:known-as-a cmk:choirmaster .
+
+cmk:philip-zuckerman a foaf:Person ;
+    foaf:familyName "Zuckerman" ;
+    foaf:firstName "Philip" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:turku-concert-hall-20260910T1830,
+        cmk:turku-concert-hall-20260911T1800 .
+
+cmk:pierre-laurent-aimard a foaf:Person ;
+    foaf:familyName "Aimard" ;
+    foaf:firstName "Pierre-Laurent" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:turku-concert-hall-20260903T1830,
+        cmk:turku-concert-hall-20260904T1800 .
+
+cmk:ramona-wolin-takala a foaf:Person ;
+    foaf:familyName "Wolin-Takala" ;
+    foaf:firstName "Ramona" ;
+    cmo:known-as-a cmo:violist ;
+    cmo:plays-in cmk:musiikkitalo-fuuga-ateljee-20261208T1800 .
+
+cmk:restless-oceans a schema:CreativeWork .
+
+cmk:rick-stotijn a foaf:Person ;
+    foaf:familyName "Stotijn" ;
+    foaf:firstName "Rick" ;
+    cmo:known-as-a cmk:double-bassist ;
+    cmo:plays-in cmk:turku-concert-hall-20260917T1830 .
+
+cmk:sonja-herranen a foaf:Person ;
+    foaf:familyName "Herranen" ;
+    foaf:firstName "Sonja" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:turku-concert-hall-20261007T1830,
+        cmk:turku-concert-hall-20261008T1830,
+        cmk:turku-concert-hall-20261009T1800 .
+
+cmk:stefan-geiger a foaf:Person ;
+    foaf:familyName "Geiger" ;
+    foaf:firstName "Stefan" ;
+    cmo:conducts-in cmk:music-centre-fuuga-20261215T1830,
+        cmk:music-centre-fuuga-20261216T1830,
+        cmk:music-centre-fuuga-20261217T1830 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:susanna-laine a foaf:Person ;
+    foaf:familyName "Laine" ;
+    foaf:firstName "Susanna" ;
+    cmo:known-as-a cmk:host ;
+    cmo:narrates-in cmk:turku-concert-hall-20260924T1830,
+        cmk:turku-concert-hall-20260925T1800,
+        cmk:turku-concert-hall-20261001T1830,
+        cmk:turku-concert-hall-20261002T1800 .
+
+cmk:susanna-suorttanen a foaf:Person ;
+    foaf:familyName "Suorttanen" ;
+    foaf:firstName "Susanna" ;
+    cmo:known-as-a cmo:violinist ;
+    cmo:plays-in cmk:musiikkitalo-fuuga-ateljee-20261208T1800 .
+
+cmk:takuya-takashima a foaf:Person ;
+    foaf:familyName "Takashima" ;
+    foaf:firstName "Takuya" ;
+    cmo:known-as-a cmo:oboist ;
+    cmo:plays-in cmk:music-centre-fuuga-20261126T1830,
+        cmk:music-centre-fuuga-20261127T1800 .
+
+cmk:tanja-nisonen a foaf:Person ;
+    foaf:familyName "Nisonen" ;
+    foaf:firstName "Tanja" ;
+    cmo:known-as-a cmk:hornist ;
+    cmo:plays-in cmk:music-centre-fuuga-ateljee-20261028T1800,
+        cmk:music-centre-fuuga-ateljee-20261029T1800 .
+
+cmk:timo-ollila a foaf:Person ;
+    foaf:familyName "Ollila" ;
+    foaf:firstName "Timo" ;
+    cmo:known-as-a cmk:visual-designer ;
+    cmo:performs-in cmk:turku-concert-hall-20260924T1830,
+        cmk:turku-concert-hall-20260925T1800,
+        cmk:turku-concert-hall-20261001T1830,
+        cmk:turku-concert-hall-20261002T1800 .
+
+cmk:timo-ruuskanen a foaf:Person ;
+    foaf:familyName "Ruuskanen" ;
+    foaf:firstName "Timo" ;
+    cmo:known-as-a cmk:host ;
+    cmo:narrates-in cmk:turku-concert-hall-20260910T1830,
+        cmk:turku-concert-hall-20260911T1800 .
+
+cmk:tpo-in-cinema-home-alone a cmo:Programme .
+
+cmk:tuija-knihtila a foaf:Person ;
+    foaf:familyName "Knihtilä" ;
+    foaf:firstName "Tuija" ;
+    cmo:known-as-a cmk:alto ;
+    cmo:sings-in cmk:turku-concert-hall-20261007T1830,
+        cmk:turku-concert-hall-20261008T1830,
+        cmk:turku-concert-hall-20261009T1800 .
+
+cmk:tuomas-katajala a foaf:Person ;
+    foaf:familyName "Katajala" ;
+    foaf:firstName "Tuomas" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:turku-concert-hall-20261007T1830,
+        cmk:turku-concert-hall-20261008T1830,
+        cmk:turku-concert-hall-20261009T1800 .
+
+cmk:tuomas-pursio a foaf:Person ;
+    foaf:familyName "Pursio" ;
+    foaf:firstName "Tuomas" ;
+    cmo:known-as-a cmk:bass ;
+    cmo:sings-in cmk:turku-concert-hall-20261007T1830,
+        cmk:turku-concert-hall-20261008T1830,
+        cmk:turku-concert-hall-20261009T1800 .
+
+cmk:turku-concert-hall a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Turku Concert Hall" .
+
+cmk:turku-philharmonic-orchestra a foaf:Group,
+        cmo:ensemble-identity ;
+    cmo:performs-in cmk:music-centre-fuuga-20261126T1830,
+        cmk:music-centre-fuuga-20261127T1800,
+        cmk:music-centre-fuuga-20261206T1200,
+        cmk:music-centre-fuuga-20261206T1500,
+        cmk:music-centre-fuuga-20261215T1830,
+        cmk:music-centre-fuuga-20261216T1830,
+        cmk:music-centre-fuuga-20261217T1830,
+        cmk:turku-concert-hall-20260903T1830,
+        cmk:turku-concert-hall-20260904T1800,
+        cmk:turku-concert-hall-20260910T1830,
+        cmk:turku-concert-hall-20260911T1800,
+        cmk:turku-concert-hall-20260917T1830,
+        cmk:turku-concert-hall-20260924T1830,
+        cmk:turku-concert-hall-20260925T1800,
+        cmk:turku-concert-hall-20261001T1830,
+        cmk:turku-concert-hall-20261002T1800 .
+
+cmk:tuukka-vasama a foaf:Person ;
+    foaf:familyName "Vasama" ;
+    foaf:firstName "Tuukka" ;
+    cmo:known-as-a cmk:host ;
+    cmo:narrates-in cmk:turku-concert-hall-20260910T1830,
+        cmk:turku-concert-hall-20260911T1800 .
+
+cmk:alto a cmo:musical-identity .
+
+cmk:bass a cmo:musical-identity .
+
+cmk:bassoonist a cmo:musical-identity .
+
+cmk:cellist a cmo:musical-identity .
+
+cmk:choir-leader a cmo:musical-identity .
+
+cmk:choirmaster a cmo:musical-identity .
+
+cmk:clarinetist a cmo:musical-identity .
+
+cmk:double-bassist a cmo:musical-identity .
+
+cmk:hornist a cmo:musical-identity .
+
+cmk:narrator a cmo:musical-identity .
+
+cmk:tenor a cmo:musical-identity .
+
+cmk:visual-designer a cmo:musical-identity .
+
+cmo:clarinetist a cmo:musical-identity .
+
+cmo:flutist a cmo:musical-identity .
+
+cmo:pianist a cmo:musical-identity .
+
+cmk:embracing-sound a cmo:Programme ;
+    rdfs:label "Sold out: Embracing Sound" .
+
+cmk:fanfare-for-fuuga-ateljee-opening-concert a cmo:Programme ;
+    rdfs:label "Fanfare for Fuuga – Ateljee Opening Concert" .
+
+cmk:music-centre-fuuga-20261112T1830 a mo:Performance ;
+    cmo:performs-in cmk:opening-concert ;
+    schema:name "Sold Out: Opening Concert" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-11-12T18:30:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/opening-concert/?esitysaika=0"^^xsd:anyURI .
+
+cmk:music-centre-fuuga-20261113T1800 a mo:Performance ;
+    cmo:performs-in cmk:opening-concert ;
+    schema:name "Sold Out: Opening Concert" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-11-13T18:00:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/opening-concert/?esitysaika=1"^^xsd:anyURI .
+
+cmk:music-centre-fuuga-20261114T1400 a mo:Performance ;
+    cmo:performs-in cmk:opening-concert ;
+    schema:name "Sold Out: Opening Concert" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-11-14T14:00:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/opening-concert/?esitysaika=2"^^xsd:anyURI .
+
+cmk:music-centre-fuuga-20261119T1830 a mo:Performance ;
+    cmo:performs-in cmk:embracing-sound ;
+    schema:name "Sold out: Embracing Sound" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-11-19T18:30:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/embracing-sound/?esitysaika=0"^^xsd:anyURI .
+
+cmk:music-centre-fuuga-20261120T1800 a mo:Performance ;
+    cmo:performs-in cmk:embracing-sound ;
+    schema:name "Sold out: Embracing Sound" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-11-20T18:00:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/embracing-sound/?esitysaika=1"^^xsd:anyURI .
+
+cmk:music-centre-fuuga-20261206T1200 a mo:Performance ;
+    schema:name "City of Turku Independence Day Gala Concert 2026" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-12-06T12:00:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/city-of-turku-independence-day-gala-concert-2026/?esitysaika=0"^^xsd:anyURI .
+
+cmk:music-centre-fuuga-20261206T1500 a mo:Performance ;
+    schema:name "City of Turku Independence Day Gala Concert 2026" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-12-06T15:00:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/city-of-turku-independence-day-gala-concert-2026/?esitysaika=1"^^xsd:anyURI .
+
+cmk:pianist a cmo:musical-identity .
+
+cmk:trumpeter a cmo:musical-identity .
+
+cmk:violist a cmo:musical-identity .
+
+cmo:bassoonist a cmo:musical-identity .
+
+cmo:cellist a cmo:musical-identity .
+
+cmo:hornist a cmo:musical-identity .
+
+cmo:oboist a cmo:musical-identity .
+
+cmo:violinist a cmo:musical-identity .
+
+cmo:violist a cmo:musical-identity .
+
+cmk:conductor a cmo:musical-identity .
+
+cmk:host a cmo:musical-identity .
+
+cmk:music-centre-fuuga-20261215T1830 a mo:Performance ;
+    schema:name "TPO in Cinema: Home Alone" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-12-15T18:30:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/tpo-in-cinema-home-alone/?esitysaika=0"^^xsd:anyURI .
+
+cmk:music-centre-fuuga-20261216T1830 a mo:Performance ;
+    schema:name "TPO in Cinema: Home Alone" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-12-16T18:30:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/tpo-in-cinema-home-alone/?esitysaika=1"^^xsd:anyURI .
+
+cmk:music-centre-fuuga-20261217T1830 a mo:Performance ;
+    schema:name "TPO in Cinema: Home Alone" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-12-17T18:30:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/tpo-in-cinema-home-alone/?esitysaika=2"^^xsd:anyURI .
+
+cmk:ode-to-joy a cmo:Programme ;
+    rdfs:label "Ode to Joy" .
+
+cmk:opening-concert a cmo:Programme ;
+    rdfs:label "Sold Out: Opening Concert" .
+
+cmk:soprano a cmo:musical-identity .
+
+cmk:turku-concert-hall-20260903T1830 a mo:Performance ;
+    schema:name "Celebration!" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-09-03T18:30:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/celebration/?esitysaika=0"^^xsd:anyURI .
+
+cmk:turku-concert-hall-20260904T1800 a mo:Performance ;
+    schema:name "Celebration!" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-09-04T18:00:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/celebration/?esitysaika=1"^^xsd:anyURI .
+
+cmk:turku-concert-hall-20260917T1830 a mo:Performance ;
+    schema:name "Restless Oceans" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-09-17T18:30:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/restless-oceans/?esitysaika=0"^^xsd:anyURI .
+
+cmk:turku-concert-hall-20260924T1830 a mo:Performance ;
+    schema:name "Open Orchestra" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-09-24T18:30:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/open-orchestra/?esitysaika=0"^^xsd:anyURI .
+
+cmk:turku-concert-hall-20260925T1800 a mo:Performance ;
+    schema:name "Open Orchestra" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-09-25T18:00:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/open-orchestra/?esitysaika=1"^^xsd:anyURI .
+
+cmk:turku-concert-hall-20261001T1830 a mo:Performance ;
+    schema:name "Open Orchestra" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-10-01T18:30:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/open-orchestra/?esitysaika=2"^^xsd:anyURI .
+
+cmk:turku-concert-hall-20261002T1800 a mo:Performance ;
+    schema:name "Open Orchestra" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-10-02T18:00:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/open-orchestra/?esitysaika=3"^^xsd:anyURI .
+
+cmo:conductor a cmo:musical-identity .
+
+cmk:violinist a cmo:musical-identity .
+
+cmk:turku-concert-hall-20261007T1830 a mo:Performance ;
+    cmo:performs-in cmk:ode-to-joy ;
+    schema:name "Ode to Joy" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-10-07T18:30:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/ode-to-joy/?esitysaika=0"^^xsd:anyURI .
+
+cmk:turku-concert-hall-20261008T1830 a mo:Performance ;
+    cmo:performs-in cmk:ode-to-joy ;
+    schema:name "Ode to Joy" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-10-08T18:30:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/ode-to-joy/?esitysaika=1"^^xsd:anyURI .
+
+cmk:turku-concert-hall-20261009T1800 a mo:Performance ;
+    cmo:performs-in cmk:ode-to-joy ;
+    schema:name "Ode to Joy" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-10-09T18:00:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/ode-to-joy/?esitysaika=2"^^xsd:anyURI .
+
+cmk:music-centre-fuuga-20261126T1830 a mo:Performance ;
+    schema:name "Mesmerizing Harmony" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-11-26T18:30:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/4170/?esitysaika=0"^^xsd:anyURI .
+
+cmk:music-centre-fuuga-20261127T1800 a mo:Performance ;
+    schema:name "Mesmerizing Harmony" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-11-27T18:00:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/4170/?esitysaika=1"^^xsd:anyURI .
+
+cmk:turku-concert-hall-20260910T1830 a mo:Performance ;
+    schema:name "1952" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-09-10T18:30:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/3655/?esitysaika=0"^^xsd:anyURI .
+
+cmk:turku-concert-hall-20260911T1800 a mo:Performance ;
+    schema:name "1952" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-09-11T18:00:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/3655/?esitysaika=1"^^xsd:anyURI .
+
+cmk:musiikkitalo-fuuga-ateljee-20261208T1800 a mo:Performance ;
+    schema:name "Finnish Music Day" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-12-08T18:00:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/finnish-music-day/?esitysaika=0"^^xsd:anyURI .
+
+cmk:music-centre-fuuga-ateljee-20261028T1800 a mo:Performance ;
+    cmo:performs-in cmk:fanfare-for-fuuga-ateljee-opening-concert ;
+    schema:name "Fanfare for Fuuga – Ateljee Opening Concert" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-10-28T18:00:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/fanfare-for-fuuga-ateljee-opening-concert/?esitysaika=0"^^xsd:anyURI .
+
+cmk:music-centre-fuuga-ateljee-20261029T1800 a mo:Performance ;
+    cmo:performs-in cmk:fanfare-for-fuuga-ateljee-opening-concert ;
+    schema:name "Fanfare for Fuuga – Ateljee Opening Concert" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-10-29T18:00:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/fanfare-for-fuuga-ateljee-opening-concert/?esitysaika=1"^^xsd:anyURI .
+
+cmk:tfo a schema:Organization .
+

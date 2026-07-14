@@ -1,0 +1,177 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:annemarie-astrom a foaf:Person ;
+    foaf:familyName "Åström" ;
+    foaf:firstName "Annemarie" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:bio-forum-20260801T1400 .
+
+cmk:bio-forum a cmo:Venue ;
+    rdfs:label "Bio Forum" .
+
+cmk:chappe-taiteentalo-meren-aarella a cmo:Venue ;
+    rdfs:label "Chappe – taiteentalo meren äärellä" .
+
+cmk:hanna-hujanen a foaf:Person ;
+    foaf:familyName "Hujanen" ;
+    foaf:firstName "Hanna" ;
+    cmo:known-as-a cmk:clarinetist ;
+    cmo:plays-in cmk:chappe-taiteentalo-meren-aarella-20260731T1400 .
+
+cmk:jan-erik-gustafsson a foaf:Person ;
+    foaf:familyName "Gustafsson" ;
+    foaf:firstName "Jan-Erik" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:tammisaaren-kirkko-20260731T1900 .
+
+cmk:jan-soderblom a foaf:Person ;
+    foaf:familyName "Söderblom" ;
+    foaf:firstName "Jan" ;
+    cmo:conducts-in cmk:tammisaaren-kirkko-20260731T1900 ;
+    cmo:known-as-a cmk:conductor,
+        cmk:violinist ;
+    cmo:performs-in cmk:tammisaaren-kirkko-20260730T1600 ;
+    cmo:plays-in cmk:bio-forum-20260802T1400,
+        cmk:chappe-taiteentalo-meren-aarella-20260802T1300 .
+
+cmk:johanna-almark a foaf:Person ;
+    foaf:familyName "Almark" ;
+    foaf:firstName "Johanna" ;
+    cmo:conducts-in cmk:tammisaaren-kirkko-20260730T1900 ;
+    cmo:known-as-a cmk:composer,
+        cmk:conductor,
+        cmk:soprano,
+        cmk:violinist ;
+    cmo:performs-in cmk:tammisaaren-kirkko-20260730T1600 ;
+    cmo:sings-in cmk:tammisaaren-kirkko-20260730T1900 .
+
+cmk:maja-mannila a foaf:Person ;
+    foaf:familyName "Mannila" ;
+    foaf:firstName "Maja" ;
+    cmo:known-as-a cmk:pianist,
+        cmk:singer ;
+    cmo:performs-in cmk:tammisaaren-kirkko-20260730T1600 ;
+    cmo:plays-in cmk:tammisaaren-kirkko-20260730T1900 ;
+    cmo:sings-in cmk:tammisaaren-kirkko-20260730T1900 .
+
+cmk:saara-kurki a foaf:Person ;
+    foaf:familyName "Kurki" ;
+    foaf:firstName "Saara" ;
+    cmo:known-as-a cmk:violist ;
+    cmo:plays-in cmk:chappe-taiteentalo-meren-aarella-20260731T1400 .
+
+cmk:tammisaaren-kirkko a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Tammisaaren kirkko" .
+
+cmk:tammisaaren-vierasvenesatama a cmo:Venue ;
+    rdfs:label "Tammisaaren vierasvenesatama" .
+
+cmk:tammisaaren-vierasvenesatama-20260730T2100 a mo:Performance ;
+    cmo:has-programme cmk:jatkot-laiturilla ;
+    schema:name "Jatkot laiturilla" ;
+    schema:organizer cmk:finnchamber ;
+    schema:startDate "2026-07-30T21:00:00"^^xsd:dateTime .
+
+cmk:tatu-kauppinen a foaf:Person ;
+    foaf:familyName "Kauppinen" ;
+    foaf:firstName "Tatu" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:chappe-taiteentalo-meren-aarella-20260801T1200 .
+
+cmk:bio-forum-20260801T1400 a mo:Performance ;
+    cmo:has-programme cmk:myrskyluodon-maija ;
+    schema:name "Myrskyluodon Maija" ;
+    schema:organizer cmk:finnchamber ;
+    schema:startDate "2026-08-01T14:00:00"^^xsd:dateTime .
+
+cmk:bio-forum-20260802T1400 a mo:Performance ;
+    cmo:has-programme cmk:myrskyluodon-maija ;
+    schema:name "Myrskyluodon Maija" ;
+    schema:organizer cmk:finnchamber ;
+    schema:startDate "2026-08-02T14:00:00"^^xsd:dateTime .
+
+cmk:chappe-taiteentalo-meren-aarella-20260801T1200 a mo:Performance ;
+    cmo:has-programme cmk:soolo-ohjelma-tatu-kauppinen ;
+    schema:name "Soolo-ohjelma Chappessa - Tatu Kauppinen" ;
+    schema:organizer cmk:finnchamber ;
+    schema:startDate "2026-08-01T12:00:00"^^xsd:dateTime .
+
+cmk:chappe-taiteentalo-meren-aarella-20260802T1300 a mo:Performance ;
+    cmo:has-programme cmk:soolo-ohjelma-jan-soderblom ;
+    schema:name "Soolo-ohjelma Chappessa - Jan Söderblom" ;
+    schema:organizer cmk:finnchamber ;
+    schema:startDate "2026-08-02T13:00:00"^^xsd:dateTime .
+
+cmk:clarinetist a cmo:musical-identity .
+
+cmk:composer a cmo:musical-identity .
+
+cmk:duo-ohjelma-chappessa a cmo:Programme ;
+    rdfs:label "Duo-ohjelma Chappessa" .
+
+cmk:hommage-a-lasse a cmo:Programme ;
+    rdfs:label "Hommage à Lasse / Lasse Mårtensonin musiikkia" .
+
+cmk:jatkot-laiturilla a cmo:Programme ;
+    rdfs:label "Jatkot laiturilla - Lasse Mårtensonin musiikkia" .
+
+cmk:makupaloja-festivaalin-ohjelmasta a cmo:Programme ;
+    rdfs:label "Makupaloja festivaalin ohjelmasta" .
+
+cmk:mendelssohn-kuusisto-debussy a cmo:Programme ;
+    rdfs:label "Mendelssohn, Kuusisto, Debussy" .
+
+cmk:pianist a cmo:musical-identity .
+
+cmk:singer a cmo:musical-identity .
+
+cmk:soolo-ohjelma-jan-soderblom a cmo:Programme ;
+    rdfs:label "Soolo-ohjelma Chappessa - Jan Söderblom" .
+
+cmk:soolo-ohjelma-tatu-kauppinen a cmo:Programme ;
+    rdfs:label "Soolo-ohjelma Chappessa - Tatu Kauppinen" .
+
+cmk:soprano a cmo:musical-identity .
+
+cmk:violist a cmo:musical-identity .
+
+cmk:cellist a cmo:musical-identity .
+
+cmk:chappe-taiteentalo-meren-aarella-20260731T1400 a mo:Performance ;
+    cmo:has-programme cmk:duo-ohjelma-chappessa ;
+    schema:name "Duo-ohjelma Chappessa" ;
+    schema:organizer cmk:finnchamber ;
+    schema:startDate "2026-07-31T14:00:00"^^xsd:dateTime .
+
+cmk:conductor a cmo:musical-identity .
+
+cmk:myrskyluodon-maija a cmo:Programme ;
+    rdfs:label "Myrskyluodon Maija" .
+
+cmk:tammisaaren-kirkko-20260731T1900 a mo:Performance ;
+    cmo:has-programme cmk:mendelssohn-kuusisto-debussy ;
+    schema:name "Mendelssohn, Kuusisto, Debussy" ;
+    schema:organizer cmk:finnchamber ;
+    schema:startDate "2026-07-31T19:00:00"^^xsd:dateTime .
+
+cmk:tammisaaren-kirkko-20260730T1600 a mo:Performance ;
+    cmo:has-programme cmk:makupaloja-festivaalin-ohjelmasta ;
+    schema:name "Makupaloja festivaalin ohjelmasta" ;
+    schema:organizer cmk:finnchamber ;
+    schema:startDate "2026-07-30T16:00:00"^^xsd:dateTime .
+
+cmk:violinist a cmo:musical-identity .
+
+cmk:tammisaaren-kirkko-20260730T1900 a mo:Performance ;
+    cmo:has-programme cmk:hommage-a-lasse ;
+    schema:name "Hommage à Lasse" ;
+    schema:organizer cmk:finnchamber ;
+    schema:startDate "2026-07-30T19:00:00"^^xsd:dateTime .
+

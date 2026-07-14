@@ -1,0 +1,438 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:aarne-pelkonen a foaf:Person ;
+    foaf:familyName "Pelkonen" ;
+    foaf:firstName "Aarne" ;
+    cmo:known-as-a cmo:singer ;
+    cmo:sings-in cmk:sibelius-hall-20261030T1300,
+        cmk:sibelius-hall-20261030T1830 .
+
+cmk:ako-kiiski a foaf:Person ;
+    foaf:familyName "Kiiski" ;
+    foaf:firstName "Ako" ;
+    cmo:conducts-in cmk:sibelius-hall-20261030T1300,
+        cmk:sibelius-hall-20261030T1830 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:andreas-brantelid a foaf:Person ;
+    foaf:familyName "Brantelid" ;
+    foaf:firstName "Andreas" ;
+    cmo:known-as-a cmo:cellist ;
+    cmo:plays-in cmk:sibelius-hall-20261008T1830 .
+
+cmk:andrid-poca a foaf:Person ;
+    foaf:familyName "Poca" ;
+    foaf:firstName "Andrid" ;
+    cmo:conducts-in cmk:sibelius-hall-20261008T1830 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:anton-mejias a foaf:Person ;
+    foaf:familyName "Mejias" ;
+    foaf:firstName "Anton" ;
+    cmo:known-as-a cmo:pianist ;
+    cmo:plays-in cmk:sibelius-hall-20260917T1830 .
+
+cmk:atte-kilpinen a foaf:Person ;
+    foaf:familyName "Kilpinen" ;
+    foaf:firstName "Atte" ;
+    cmo:known-as-a cmo:choreographer,
+        cmo:dancer ;
+    cmo:performs-in cmk:sibelius-hall-20261001T1830 .
+
+cmk:barbara-dragan a foaf:Person ;
+    foaf:familyName "Dragan" ;
+    foaf:firstName "Barbara" ;
+    cmo:conducts-in cmk:sibelius-hall-20261015T1830 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:carmen-atte-kilpinen a cmo:Programme .
+
+cmk:dominante-murtosointu a foaf:Person ;
+    foaf:familyName "Murtosointu" ;
+    foaf:firstName "Dominante &" ;
+    cmo:known-as-a cmo:ensemble ;
+    cmo:performs-in cmk:sibelius-hall-20260829T1700 .
+
+cmk:eeva-kontu a foaf:Person ;
+    foaf:familyName "Kontu" ;
+    foaf:firstName "Eeva" ;
+    cmo:conducts-in cmk:sibelius-hall-20261209T1830,
+        cmk:sibelius-hall-20261210T1300,
+        cmk:sibelius-hall-20261210T1830 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:emilia-hoving a foaf:Person ;
+    foaf:familyName "Hoving" ;
+    foaf:firstName "Emilia" ;
+    cmo:conducts-in cmk:sibelius-hall-20261126T1830 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:gabriel-kivivuori-sereno a foaf:Person ;
+    foaf:familyName "Kivivuori-Sereno" ;
+    foaf:firstName "Gabriel" ;
+    cmo:known-as-a cmo:baritone ;
+    cmo:sings-in cmk:sibelius-hall-20260829T1700 .
+
+cmk:hannu-lintu a foaf:Person ;
+    foaf:familyName "Lintu" ;
+    foaf:firstName "Hannu" ;
+    cmo:conducts-in cmk:sibelius-hall-20260827T1830,
+        cmk:sibelius-hall-20260828T1830,
+        cmk:sibelius-hall-20260829T1700,
+        cmk:sibelius-hall-20260917T1830,
+        cmk:sibelius-hall-20270903T1830,
+        cmk:sibelius-hall-20270904T1700,
+        cmk:turku-concert-hall-20260821T1800 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:heroic-cello a cmo:Programme .
+
+cmk:iloa-string-quartet a foaf:Person ;
+    foaf:familyName "Quartet" ;
+    foaf:firstName "ILOA String" ;
+    cmo:known-as-a cmo:ensemble ;
+    cmo:performs-in cmk:sibelius-hall-20260829T1430 .
+
+cmk:independence-day-concert a cmo:Programme .
+
+cmk:inmo-yang a foaf:Person ;
+    foaf:familyName "Yang" ;
+    foaf:firstName "Inmo" ;
+    cmo:known-as-a cmo:violinist ;
+    cmo:plays-in cmk:sibelius-hall-20260827T1830,
+        cmk:sibelius-hall-20260828T1530 .
+
+cmk:iris-candelaria a foaf:Person ;
+    foaf:familyName "Candelaria" ;
+    foaf:firstName "Iris" ;
+    cmo:known-as-a cmo:soprano ;
+    cmo:sings-in cmk:sibelius-hall-20261206T1500,
+        cmk:verkatehdas-vanaja-sali-hameenlinna-20261208T1900 .
+
+cmk:javier-perianes a foaf:Person ;
+    foaf:familyName "Perianes" ;
+    foaf:firstName "Javier" ;
+    cmo:known-as-a cmo:pianist ;
+    cmo:plays-in cmk:sibelius-hall-20261126T1830 .
+
+cmk:jean-sibelius-day-gala-concert a cmo:Programme .
+
+cmk:johanna-iivanainen a foaf:Person ;
+    foaf:familyName "Iivanainen" ;
+    foaf:firstName "Johanna" ;
+    cmo:known-as-a cmo:singer ;
+    cmo:sings-in cmk:sibelius-hall-20261030T1300,
+        cmk:sibelius-hall-20261030T1830 .
+
+cmk:jukka-untamala a foaf:Person ;
+    foaf:familyName "Untamala" ;
+    foaf:firstName "Jukka" ;
+    cmo:conducts-in cmk:sibelius-hall-20261206T1500,
+        cmk:verkatehdas-vanaja-sali-hameenlinna-20261208T1900 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:kirill-gerstein a foaf:Person ;
+    foaf:familyName "Gerstein" ;
+    foaf:firstName "Kirill" ;
+    cmo:known-as-a cmo:pianist ;
+    cmo:plays-in cmk:sibelius-hall-20260828T1830 .
+
+cmk:lahti-symphony-orchestra-x-rajaton-a-legend-for-25-years a cmo:Programme .
+
+cmk:laila-olavi-unforgettable a cmo:Programme .
+
+cmk:laura-voutilainen a foaf:Person ;
+    foaf:familyName "Voutilainen" ;
+    foaf:firstName "Laura" ;
+    cmo:known-as-a cmo:singer ;
+    cmo:sings-in cmk:sibelius-hall-20261209T1830,
+        cmk:sibelius-hall-20261210T1300,
+        cmk:sibelius-hall-20261210T1830 .
+
+cmk:lilja-haatainen a foaf:Person ;
+    foaf:familyName "Haatainen" ;
+    foaf:firstName "Lilja" ;
+    cmo:known-as-a cmo:violinist ;
+    cmo:plays-in cmk:sibelius-hall-20270903T1830 .
+
+cmk:matilda-lloyd a foaf:Person ;
+    foaf:familyName "Lloyd" ;
+    foaf:firstName "Matilda" ;
+    cmo:known-as-a cmo:trumpeter ;
+    cmo:plays-in cmk:sibelius-hall-20261015T1830 .
+
+cmk:mihails-culpajevs a foaf:Person ;
+    foaf:familyName "Čulpajevs" ;
+    foaf:firstName "Mihails" ;
+    cmo:known-as-a cmo:tenor ;
+    cmo:sings-in cmk:sibelius-hall-20260829T1700 .
+
+cmk:mikael-loponen a foaf:Person ;
+    foaf:familyName "Loponen" ;
+    foaf:firstName "Mikael" ;
+    cmo:conducts-in cmk:sibelius-hall-20261112T1830 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:olga-heikkila a foaf:Person ;
+    foaf:familyName "Heikkilä" ;
+    foaf:firstName "Olga" ;
+    cmo:known-as-a cmo:soprano ;
+    cmo:sings-in cmk:sibelius-hall-20260829T1700 .
+
+cmk:opening-concert-symphonie-fantastique a cmo:Programme .
+
+cmk:ossi-tanner a foaf:Person ;
+    foaf:familyName "Tanner" ;
+    foaf:firstName "Ossi" ;
+    cmo:known-as-a cmo:pianist ;
+    cmo:plays-in cmk:sibelius-hall-20260828T1530 .
+
+cmk:parisian-dreams a cmo:Programme .
+
+cmk:petrus-kahkonen a foaf:Person ;
+    foaf:familyName "Kähkönen" ;
+    foaf:firstName "Petrus" ;
+    cmo:known-as-a cmo:singer ;
+    cmo:sings-in cmk:sibelius-hall-20261209T1830,
+        cmk:sibelius-hall-20261210T1300,
+        cmk:sibelius-hall-20261210T1830 .
+
+cmk:rajaton-vocal-ensemble a foaf:Person ;
+    foaf:familyName "Vocal Ensemble" ;
+    foaf:firstName "Rajaton" ;
+    cmo:known-as-a cmo:ensemble ;
+    cmo:performs-in cmk:sibelius-hall-20260911T1300,
+        cmk:sibelius-hall-20260911T1830 .
+
+cmk:rumon-gamba a foaf:Person ;
+    foaf:familyName "Gamba" ;
+    foaf:firstName "Rumon" ;
+    cmo:conducts-in cmk:sibelius-hall-20260911T1300,
+        cmk:sibelius-hall-20260911T1830,
+        cmk:sibelius-hall-20261001T1830 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:senja-rummukainen a foaf:Person ;
+    foaf:familyName "Rummukainen" ;
+    foaf:firstName "Senja" ;
+    cmo:known-as-a cmo:cellist ;
+    cmo:plays-in cmk:sibelius-hall-20270904T1700 .
+
+cmk:shostakovich-encrypyted a cmo:Programme .
+
+cmk:sibelius-festival-2026-chamber-music-concert-1 a cmo:Programme .
+
+cmk:sibelius-festival-2026-chamber-music-concert-2 a cmo:Programme .
+
+cmk:sibelius-festival-2026-final-concert a cmo:Programme .
+
+cmk:sibelius-festival-2026-opening-concert a cmo:Programme .
+
+cmk:sibelius-festival-2026-symphony-concert a cmo:Programme .
+
+cmk:sibelius-festival-2027-final-concert a cmo:Programme .
+
+cmk:sibelius-festival-2027-symphony-concert a cmo:Programme .
+
+cmk:sibelius-hall a cmo:ConcertHall,
+        cmo:Venue .
+
+cmk:sinfonia-lahti-hannu-lintu-sibelius-in-turku a cmo:Programme .
+
+cmk:swinging-christmas-christmas-concert a cmo:Programme .
+
+cmk:tami-pohjola a foaf:Person ;
+    foaf:familyName "Pohjola" ;
+    foaf:firstName "Tami" ;
+    cmo:known-as-a cmo:violinist ;
+    cmo:plays-in cmk:sibelius-hall-20261112T1830 .
+
+cmk:the-magic-of-the-trumpet a cmo:Programme .
+
+cmk:turku-concert-hall a cmo:ConcertHall,
+        cmo:Venue .
+
+cmk:tuuli-takala a foaf:Person ;
+    foaf:familyName "Takala" ;
+    foaf:firstName "Tuuli" ;
+    cmo:known-as-a cmo:soprano ;
+    cmo:sings-in cmk:sibelius-hall-20270904T1700 .
+
+cmk:verkatehdas-vanaja-sali-hameenlinna a cmo:ConcertHall,
+        cmo:Venue .
+
+cmk:yl-male-voice-choir a foaf:Person ;
+    foaf:familyName "Choir" ;
+    foaf:firstName "YL Male Voice" ;
+    cmo:known-as-a cmo:ensemble ;
+    cmo:performs-in cmk:sibelius-hall-20260828T1830 .
+
+cmk:sibelius-hall-20260829T1430 a mo:Performance ;
+    schema:name "SIBELIUS FESTIVAL 2026: CHAMBER MUSIC CONCERT" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-08-29T14:30:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/sibelius-festival/concerts/"^^xsd:anyURI .
+
+cmk:turku-concert-hall-20260821T1800 a mo:Performance ;
+    schema:name "SINFONIA LAHTI & HANNU LINTU: SIBELIUS IN TURKU" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-08-21T18:00:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/concerts/"^^xsd:anyURI .
+
+cmo:baritone a cmo:musical-identity .
+
+cmo:choreographer a cmo:musical-identity .
+
+cmo:dancer a cmo:musical-identity .
+
+cmo:tenor a cmo:musical-identity .
+
+cmo:trumpeter a cmo:musical-identity .
+
+cmk:sibelius-hall-20260827T1830 a mo:Performance ;
+    schema:name "SIBELIUS-FESTIVAALI 2026: OPENING CONCERT" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-08-27T18:30:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/sibelius-festival/concerts/"^^xsd:anyURI .
+
+cmk:sibelius-hall-20260828T1530 a mo:Performance ;
+    schema:name "SIBELIUS FESTIVAL 2026: CHAMBER MUSIC CONCERT" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-08-28T15:30:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/sibelius-festival/concerts/"^^xsd:anyURI .
+
+cmk:sibelius-hall-20260911T1300 a mo:Performance ;
+    schema:name "LAHTI SYMPHONY ORCHESTRA X RAJATON – A LEGEND FOR 25 YEARS" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-09-11T13:00:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/concerts/page/2/"^^xsd:anyURI .
+
+cmk:sibelius-hall-20260911T1830 a mo:Performance ;
+    schema:name "LAHTI SYMPHONY ORCHESTRA X RAJATON – A LEGEND FOR 25 YEARS" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-09-11T18:30:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/concerts/page/2/"^^xsd:anyURI .
+
+cmk:sibelius-hall-20260917T1830 a mo:Performance ;
+    schema:name "OPENING CONCERT: SYMPHONIE FANTASTIQUE" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-09-17T18:30:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/concerts/page/2/"^^xsd:anyURI .
+
+cmk:sibelius-hall-20261001T1830 a mo:Performance ;
+    schema:name "CARMEN & ATTE KILPINEN" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-10-01T18:30:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/concerts/page/2/"^^xsd:anyURI .
+
+cmk:sibelius-hall-20261008T1830 a mo:Performance ;
+    schema:name "HEROIC CELLO" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-10-08T18:30:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/concerts/page/2/"^^xsd:anyURI .
+
+cmk:sibelius-hall-20261015T1830 a mo:Performance ;
+    schema:name "THE MAGIC OF THE TRUMPET" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-10-15T18:30:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/concerts/page/2/"^^xsd:anyURI .
+
+cmk:sibelius-hall-20261112T1830 a mo:Performance ;
+    schema:name "SHOSTAKOVICH ENCRYPYTED" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-11-12T18:30:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/concerts/page/3/"^^xsd:anyURI .
+
+cmk:sibelius-hall-20261126T1830 a mo:Performance ;
+    schema:name "PARISIAN DREAMS" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-11-26T18:30:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/concerts/page/3/"^^xsd:anyURI .
+
+cmk:sibelius-hall-20261206T1500 a mo:Performance ;
+    schema:name "INDEPENDENCE DAY CONCERT" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-12-06T15:00:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/concerts/page/3/"^^xsd:anyURI .
+
+cmk:sibelius-hall-20270903T1830 a mo:Performance ;
+    schema:name "SIBELIUS FESTIVAL 2027: SYMPHONY CONCERT" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2027-09-03T18:30:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/concerts/page/6/"^^xsd:anyURI .
+
+cmk:verkatehdas-vanaja-sali-hameenlinna-20261208T1900 a mo:Performance ;
+    schema:name "JEAN SIBELIUS DAY GALA CONCERT" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-12-08T19:00:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/concerts/page/3/"^^xsd:anyURI .
+
+cmo:cellist a cmo:musical-identity .
+
+cmk:sibelius-hall-20260828T1830 a mo:Performance ;
+    schema:name "SIBELIUS FESTIVAL 2026: SYMPHONY CONCERT" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-08-28T18:30:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/sibelius-festival/concerts/"^^xsd:anyURI .
+
+cmk:sibelius-hall-20261030T1300 a mo:Performance ;
+    schema:name "LAILA & OLAVI: UNFORGETTABLE" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-10-30T13:00:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/concerts/page/2/"^^xsd:anyURI .
+
+cmk:sibelius-hall-20261030T1830 a mo:Performance ;
+    schema:name "LAILA & OLAVI: UNFORGETTABLE" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-10-30T18:30:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/concerts/page/2/"^^xsd:anyURI .
+
+cmk:sibelius-hall-20261209T1830 a mo:Performance ;
+    schema:name "SWINGING CHRISTMAS – Christmas Concert" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-12-09T18:30:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/concerts/page/3/"^^xsd:anyURI .
+
+cmk:sibelius-hall-20261210T1300 a mo:Performance ;
+    schema:name "SWINGING CHRISTMAS – Christmas Concert" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-12-10T13:00:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/concerts/page/3/"^^xsd:anyURI .
+
+cmk:sibelius-hall-20261210T1830 a mo:Performance ;
+    schema:name "SWINGING CHRISTMAS – Christmas Concert" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-12-10T18:30:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/concerts/page/3/"^^xsd:anyURI .
+
+cmk:sibelius-hall-20270904T1700 a mo:Performance ;
+    schema:name "SIBELIUS FESTIVAL 2027: FINAL CONCERT" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2027-09-04T17:00:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/concerts/page/6/"^^xsd:anyURI .
+
+cmo:soprano a cmo:musical-identity .
+
+cmo:violinist a cmo:musical-identity .
+
+cmo:ensemble a cmo:musical-identity .
+
+cmo:pianist a cmo:musical-identity .
+
+cmo:singer a cmo:musical-identity .
+
+cmk:sibelius-hall-20260829T1700 a mo:Performance ;
+    schema:name "SIBELIUS FESTIVAL 2026: FINAL CONCERT" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-08-29T17:00:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/sibelius-festival/concerts/"^^xsd:anyURI .
+
+cmo:conductor a cmo:musical-identity .
+
+cmk:sinfonialahti a schema:Organization .
+

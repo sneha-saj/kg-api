@@ -1,0 +1,4354 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:aapo-haekkinen a foaf:Person ;
+    foaf:familyName "Häkkinen" ;
+    foaf:firstName "Aapo" ;
+    cmo:conducts-in cmk:hangzhou-west-lake-university-20231225T1930,
+        cmk:musiikkitalo-20231217T1600,
+        cmk:musiikkitalo-20231231T1900,
+        cmk:shanghai-daning-theatre-20231223T1930,
+        cmk:theater-an-der-wien-20231218T1900 ;
+    cmo:known-as-a cmk:conductor,
+        cmk:harpsichordist ;
+    cmo:plays-in cmk:hangzhou-west-lake-university-20231225T1930,
+        cmk:musiikkitalo-20231231T1900,
+        cmk:shanghai-daning-theatre-20231223T1930 .
+
+cmk:aapo-hakkinen a foaf:Person ;
+    foaf:familyName "Häkkinen",
+        "Häkkinen"^^xsd:string ;
+    foaf:firstName "Aapo",
+        "Aapo"^^xsd:string ;
+    cmo:conducts-in cmk:alexander-theatre-20230922T0000,
+        cmk:allerheiligen-hofkirche-munich-20250416T1930,
+        cmk:brucknerhaus-linz-20240324T1800,
+        cmk:buda-castle-haydneum-festival-budapest-20231110T1930,
+        cmk:burghof-lorrach-20250417T2000,
+        cmk:cathedrale-de-lausanne-20201106T2000,
+        cmk:chapelle-de-la-trinite-lyon-20250415T2000,
+        cmk:chekhov-festival-moscow-20211130T1900,
+        cmk:church-of-the-holy-cross-rauma-20201217T1900,
+        cmk:church-of-the-holy-cross-rauma-20260209T1900,
+        cmk:dance-house-helsinki-erkko-hall-20230316T0000,
+        cmk:days-of-early-music-vac-20210710T2000,
+        cmk:eglise-st-francois-lausanne-20211112T2000,
+        cmk:elbphilharmonie-hamburg-20210529T2000,
+        cmk:estonia-concert-hall-tallinn-20220409T1900,
+        cmk:finnish-national-opera-almi-hall-20200610T0000,
+        cmk:finnish-national-opera-and-ballet-almi-hall-20210302T0000,
+        cmk:finnish-national-opera-and-ballet-almi-hall-20210319T0000,
+        cmk:klosterkirche-maulbronn-20260619T2000,
+        cmk:kulturpalast-dresden-20210527T1930,
+        cmk:kulturpalast-dresden-20230604T1930,
+        cmk:le-carre-sainte-maxime-20231028T2030,
+        cmk:liszt-academy-budapest-20251020T1930,
+        cmk:live-stream-bach-vivaldi-20210307T1600,
+        cmk:monikkosali-klaukkala-20211006T1900,
+        cmk:mupa-budapest-20201116T1900,
+        cmk:mupa-budapest-20210524T1900,
+        cmk:mupa-budapest-20221117T1900,
+        cmk:musiikkitalo-20201025T0000,
+        cmk:musiikkitalo-20201025T1600,
+        cmk:musiikkitalo-20210601T1900,
+        cmk:musiikkitalo-20210611T2030,
+        cmk:musiikkitalo-20250418T1800,
+        cmk:musiikkitalo-20251018T1900,
+        cmk:musiikkitalo-20251221T1600,
+        cmk:musiikkitalo-20260208T1600,
+        cmk:musiikkitalo-20260301T0000,
+        cmk:musiikkitalo-20260303T0000,
+        cmk:musiikkitalo-20260329T1600,
+        cmk:musiikkitalo-20261222T1900,
+        cmk:musiikkitalo-concert-hall-20220410T1600,
+        cmk:musiikkitalo-concert-hall-20221016T1600,
+        cmk:musiikkitalo-concert-hall-20221113T1900,
+        cmk:musiikkitalo-concert-hall-20230528T0000,
+        cmk:musiikkitalo-helsinki-music-centre-concert-hall-20211231T0000,
+        cmk:old-church-helsinki-20201218T0000,
+        cmk:rudolfinum-dvorak-hall-20260521T2000,
+        cmk:st-johns-church-helsinki-20211106T1800,
+        cmk:st-lawrence-church-janakkala-20210704T1800,
+        cmk:st-lawrence-church-vantaa-20210808T1900,
+        cmk:st-pauls-church-helsinki-20200912T1900,
+        cmk:tampere-talo-20231018T1900,
+        cmk:temppeliaukio-church-20240323T1900,
+        cmk:temppeliaukio-church-20260519T1900,
+        cmk:theater-an-der-wien-20261220T1900,
+        cmk:tonhalle-dusseldorf-20210530T2000,
+        cmk:tonhalle-dusseldorf-20230602T2000,
+        cmk:turku-city-theatre-20250204T1900,
+        cmk:vaasa-city-hall-20211014T1900 ;
+    cmo:known-as-a cmk:conductor,
+        cmk:fortepianist,
+        cmk:harpsichordist,
+        cmk:organist,
+        cmo:conductor,
+        cmo:harpsichordist ;
+    cmo:performs-in cmk:church-of-the-holy-cross-rauma-20251213T1900,
+        cmk:live-stream-schubert-20210212T1900,
+        cmk:webinar-tempo-rubato-20210502T1500 ;
+    cmo:plays-in cmk:allerheiligen-hofkirche-residenz-munchen-20220414T2000,
+        cmk:altes-rathaus-regensburg-20220507T1930,
+        cmk:bach-haydn-hassler-20210925T1900,
+        cmk:church-of-the-holy-cross-20220505T1900,
+        cmk:church-of-the-holy-cross-rauma-20200920T1800,
+        cmk:church-of-the-holy-cross-rauma-20210924T1900,
+        cmk:church-of-the-holy-cross-rauma-20230311T1900,
+        cmk:church-of-the-holy-cross-rauma-20231021T1900,
+        cmk:church-of-the-holy-cross-rauma-20240406T1900,
+        cmk:church-of-the-holy-cross-rauma-20240701T1900,
+        cmk:church-of-the-holy-cross-rauma-20250125T1900,
+        cmk:church-of-the-holy-cross-rauma-20260401T1900,
+        cmk:days-of-early-music-vac-20210710T2000,
+        cmk:espoo-cathedral-20200702T2100,
+        cmk:espoo-cathedral-20210701T2100,
+        cmk:festival-de-musica-antigua-de-gijon-20200712T2100,
+        cmk:festival-de-musica-antigua-de-peniscola-20220731T2230,
+        cmk:festival-mahler-jihlava-20200622T1900,
+        cmk:janakkala-20200628T1800,
+        cmk:janakkala-20220701T2000,
+        cmk:keltainen-talo-janakkala-20200919T2000,
+        cmk:klosterkirche-maulbronn-20260619T2000,
+        cmk:monikkosali-klaukkala-20211006T1900,
+        cmk:musiikkitalo-20231022T1600,
+        cmk:musiikkitalo-20251231T1800,
+        cmk:musiikkitalo-20261018T1600,
+        cmk:musiikkitalo-camerata-20240407T1600,
+        cmk:musiikkitalo-camerata-20250126T1600,
+        cmk:musiikkitalo-concert-hall-20220508T1800,
+        cmk:musiikkitalo-organo-hall-20230312T1600,
+        cmk:namest-nad-oslavou-20200614T1930,
+        cmk:namestnad-oslavou-20210613T1930,
+        cmk:orangerieschloss-sanssouci-potsdam-20260628T2100,
+        cmk:paulinum-leipzig-20260621T1500,
+        cmk:povoa-de-varzim-music-festival-20200710T2145,
+        cmk:povoa-de-varzim-music-festival-20210714T2100,
+        cmk:saint-petersburg-early-music-festival-20200927T1900,
+        cmk:sankt-olofs-kyrka-falkoping-20200813T1900,
+        cmk:st-lawrence-church-janakkala-20200919T1800,
+        cmk:st-lawrence-church-janakkala-20210704T1800,
+        cmk:st-lawrence-church-janakkala-20230702T1800,
+        cmk:st-lawrence-church-vantaa-20200806T1900,
+        cmk:st-lawrence-church-vantaa-20210808T1900,
+        cmk:st-petersburg-early-music-festival-20211018T0000,
+        cmk:stor-sarvlaks-manor-courtyard-20260626T1900,
+        cmk:tarinmaa-janakkala-20240630T1800,
+        cmk:tbilisi-baroque-festival-20221127T1930,
+        cmk:varna-summer-international-music-festival-20220914T1900 .
+
+cmk:aapo-häkkinen a foaf:Person ;
+    foaf:familyName "Häkkinen" ;
+    foaf:firstName "Aapo" ;
+    cmo:conducts-in cmk:concertgebouw-amsterdam-20241116T1300,
+        cmk:kulturzentrum-herne-20241117T1900,
+        cmk:musiikkitalo-concert-hall-20241110T0000,
+        cmk:teatro-mayor-bogota-20241129T0000 ;
+    cmo:known-as-a cmk:conductor,
+        cmk:harpsichordist,
+        cmk:organist ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20241231T1800,
+        cmk:old-church-20240921T1900 .
+
+cmk:aarne-pelkonen a foaf:Person ;
+    foaf:familyName "Pelkonen" ;
+    foaf:firstName "Aarne" ;
+    cmo:known-as-a cmk:bass ;
+    cmo:sings-in cmk:st-pauls-church-helsinki-20200912T1900 .
+
+cmk:aco-biscevic a foaf:Person ;
+    foaf:familyName "Bišćević" ;
+    foaf:firstName "Aco" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:musiikkitalo-20231217T1600,
+        cmk:theater-an-der-wien-20231218T1900 .
+
+cmk:adriána-kalafszky a foaf:Person ;
+    foaf:familyName "Kalafszky" ;
+    foaf:firstName "Adriána" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20241222T1600 .
+
+cmk:agnes-kovacs a foaf:Person ;
+    foaf:familyName "Kovács" ;
+    foaf:firstName "Agnes",
+        "Ágnes" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:buda-castle-haydneum-festival-budapest-20231110T1930,
+        cmk:days-of-early-music-vac-20210710T2000,
+        cmk:estonia-concert-hall-tallinn-20220409T1900,
+        cmk:musiikkitalo-20250928T1600,
+        cmk:musiikkitalo-concert-hall-20220410T1600 .
+
+cmk:aida-hadzajlik a foaf:Person ;
+    foaf:familyName "Hadzajlik" ;
+    foaf:firstName "Aida" ;
+    cmo:known-as-a cmk:violist ;
+    cmo:plays-in cmk:sibelius-academy-concert-hall-20261122T1600 .
+
+cmk:aino-peltomaa a foaf:Person ;
+    foaf:familyName "Peltomaa" ;
+    foaf:firstName "Aino" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:church-of-the-holy-cross-rauma-20231210T1800 .
+
+cmk:alberto-sousa a foaf:Person ;
+    foaf:familyName "Sousa" ;
+    foaf:firstName "Alberto" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20230129T1600 .
+
+cmk:alex-mastichiadis a foaf:Person ;
+    foaf:familyName "Mastichiadis"^^xsd:string ;
+    foaf:firstName "Alex"^^xsd:string ;
+    cmo:known-as-a cmk:organist ;
+    cmo:plays-in cmk:church-of-the-holy-cross-rauma-20260607T1800 .
+
+cmk:alexander-aigner a foaf:Person ;
+    foaf:familyName "Aigner" ;
+    foaf:firstName "Alexander" ;
+    cmo:known-as-a cmk:baritone,
+        cmo:baritone ;
+    cmo:sings-in cmk:elbphilharmonie-hamburg-20210529T2000,
+        cmk:kulturpalast-dresden-20210527T1930,
+        cmk:mupa-budapest-20210524T1900,
+        cmk:musiikkitalo-20201025T0000,
+        cmk:musiikkitalo-20210601T1900,
+        cmk:tonhalle-dusseldorf-20210530T2000 .
+
+cmk:alexander-bonus a foaf:Person ;
+    foaf:familyName "Bonus" ;
+    foaf:firstName "Alexander" ;
+    cmo:known-as-a cmo:lecturer ;
+    cmo:performs-in cmk:webinar-tempo-rubato-20210502T1500 .
+
+cmk:alexis-kossenko a foaf:Person ;
+    foaf:familyName "Kossenko" ;
+    foaf:firstName "Alexis" ;
+    cmo:conducts-in cmk:finlandia-hall-20211121T1600 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:allerheiligen-hofkirche-munich a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Allerheiligen Hofkirche, Munich" .
+
+cmk:allerheiligen-hofkirche-residenz-munchen a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Allerheiligen Hofkirche, Residenz München" .
+
+cmk:altes-rathaus-regensburg a cmo:Venue ;
+    rdfs:label "Altes Rathaus, Regensburg" .
+
+cmk:ana-vieira-leite a foaf:Person ;
+    foaf:familyName "Vieira Leite" ;
+    foaf:firstName "Ana" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:allerheiligen-hofkirche-munich-20250416T1930,
+        cmk:burghof-lorrach-20250417T2000,
+        cmk:chapelle-de-la-trinite-lyon-20250415T2000,
+        cmk:musiikkitalo-20250418T1800,
+        cmk:musiikkitalo-concert-hall-20230129T1600 .
+
+cmk:andre-lislevand a foaf:Person ;
+    foaf:familyName "Lislevand" ;
+    foaf:firstName "André" ;
+    cmo:known-as-a cmk:viola-da-gambist ;
+    cmo:plays-in cmk:st-lawrence-church-janakkala-20230701T1800 .
+
+cmk:andreas-wolf a foaf:Person ;
+    foaf:familyName "Wolf" ;
+    foaf:firstName "Andreas" ;
+    cmo:known-as-a cmk:bass ;
+    cmo:sings-in cmk:eglise-st-francois-lausanne-20211112T2000,
+        cmk:st-johns-church-helsinki-20211106T1800 .
+
+cmk:andres-mustonen a foaf:Person ;
+    foaf:familyName "Mustonen" ;
+    foaf:firstName "Andres" ;
+    cmo:conducts-in cmk:church-of-the-holy-cross-rauma-20220919T1900,
+        cmk:musiikkitalo-camerata-hall-20220918T1600,
+        cmk:mustpeade-maja-tallinn-20230202T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:andrew-staples a foaf:Person ;
+    foaf:familyName "Staples" ;
+    foaf:firstName "Andrew" ;
+    cmo:known-as-a cmk:tenor,
+        cmo:tenor ;
+    cmo:sings-in cmk:elbphilharmonie-hamburg-20210529T2000,
+        cmk:kulturpalast-dresden-20210527T1930,
+        cmk:mupa-budapest-20201116T1900,
+        cmk:mupa-budapest-20210524T1900,
+        cmk:musiikkitalo-20201025T0000,
+        cmk:musiikkitalo-20201025T1600,
+        cmk:musiikkitalo-20210601T1900,
+        cmk:tonhalle-dusseldorf-20210530T2000 .
+
+cmk:anete-viluma a foaf:Person ;
+    foaf:familyName "Viļuma"^^xsd:string ;
+    foaf:firstName "Anete"^^xsd:string ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-20260419T1600 .
+
+cmk:anna-dennis a foaf:Person ;
+    foaf:familyName "Dennis" ;
+    foaf:firstName "Anna" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:orangerieschloss-sanssouci-potsdam-20260628T2100,
+        cmk:stor-sarvlaks-manor-courtyard-20260626T1900 .
+
+cmk:anna-lucia-richter a foaf:Person ;
+    foaf:familyName "Richter" ;
+    foaf:firstName "Anna Lucia" ;
+    cmo:known-as-a cmk:mezzo-soprano ;
+    cmo:sings-in cmk:concertgebouw-amsterdam-20241116T1300,
+        cmk:kulturzentrum-herne-20241117T1900,
+        cmk:musiikkitalo-concert-hall-20241110T0000 .
+
+cmk:anna-maaria-oramo a foaf:Person ;
+    foaf:familyName "Oramo" ;
+    foaf:firstName "Anna-Maaria" ;
+    cmo:known-as-a cmk:alto,
+        cmk:ensemble-member,
+        cmk:soprano ;
+    cmo:sings-in cmk:balder-hall-20220427T1900,
+        cmk:old-church-helsinki-20200510T1600,
+        cmk:stor-sarvlaks-manor-20240627T1900,
+        cmk:tarinmaa-janakkala-20240628T2000 .
+
+cmk:anna-westerlund a foaf:Person ;
+    foaf:familyName "Westerlund" ;
+    foaf:firstName "Anna" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:sibelius-academy-concert-hall-20241029T1900 .
+
+cmk:anne-freitag a foaf:Person ;
+    foaf:familyName "Freitag"^^xsd:string,
+        "Freitag" ;
+    foaf:firstName "Anne"^^xsd:string,
+        "Anne" ;
+    cmo:known-as-a cmk:traverso-player ;
+    cmo:performs-in cmk:church-of-the-holy-cross-rauma-20210130T1900 ;
+    cmo:plays-in cmk:live-stream-music-from-the-17th-century-england-20210130T2100,
+        cmk:musiikkitalo-20210131T1600 .
+
+cmk:arnaud-gluck a foaf:Person ;
+    foaf:familyName "Gluck" ;
+    foaf:firstName "Arnaud" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-20261222T1900,
+        cmk:theater-an-der-wien-20261220T1900 .
+
+cmk:arnold-schoenberg-chor a cmo:ensemble-identity ;
+    rdfs:label "Arnold Schoenberg Chor",
+        "Arnold Schoenberg Chor"^^xsd:string ;
+    cmo:performs-in cmk:elbphilharmonie-hamburg-20210529T2000,
+        cmk:kulturpalast-dresden-20210527T1930,
+        cmk:mupa-budapest-20210524T1900,
+        cmk:musiikkitalo-20210601T1900,
+        cmk:musiikkitalo-20260301T0000,
+        cmk:musiikkitalo-20260303T0000,
+        cmk:theater-an-der-wien-20261220T1900,
+        cmk:tonhalle-dusseldorf-20210530T2000 .
+
+cmk:artavazd-sargsyan a foaf:Person ;
+    foaf:familyName "Sargsyan" ;
+    foaf:firstName "Artavazd" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:musiikkitalo-20211003T0000 .
+
+cmk:artis-muiznieks a foaf:Person ;
+    foaf:familyName "Muižnieks"^^xsd:string ;
+    foaf:firstName "Artis"^^xsd:string ;
+    cmo:known-as-a cmk:baritone ;
+    cmo:sings-in cmk:musiikkitalo-20260419T1600 .
+
+cmk:arttu-kataja a foaf:Person ;
+    foaf:familyName "Kataja" ;
+    foaf:firstName "Arttu" ;
+    cmo:known-as-a cmk:baritone,
+        cmk:bass ;
+    cmo:sings-in cmk:mupa-budapest-20221117T1900,
+        cmk:musiikkitalo-concert-hall-20221113T1900,
+        cmk:musiikkitalo-helsinki-music-centre-concert-hall-20211231T0000 .
+
+cmk:ashley-riches a foaf:Person ;
+    foaf:familyName "Riches" ;
+    foaf:firstName "Ashley" ;
+    cmo:known-as-a cmk:baritone ;
+    cmo:sings-in cmk:musiikkitalo-20211003T0000 .
+
+cmk:atte-kilpelainen a foaf:Person ;
+    foaf:familyName "Kilpeläinen" ;
+    foaf:firstName "Atte" ;
+    cmo:known-as-a cmk:violist ;
+    cmo:plays-in cmk:sibelius-academy-concert-hall-20261122T1600 .
+
+cmk:atte-kilpeläinen a foaf:Person ;
+    foaf:familyName "Kilpeläinen" ;
+    foaf:firstName "Atte" ;
+    cmo:known-as-a cmk:violist ;
+    cmo:plays-in cmk:sibelius-academy-concert-hall-20241029T1900 .
+
+cmk:audi-jugendchorakademie a foaf:Person,
+        cmo:ensemble-identity ;
+    rdfs:label "Audi Jugendchorakademie"^^xsd:string ;
+    foaf:familyName "Jugendchorakademie" ;
+    foaf:firstName "Audi" ;
+    cmo:known-as-a cmk:ensemble ;
+    cmo:performs-in cmk:musiikkitalo-20260329T1600,
+        cmk:musiikkitalo-concert-hall-20221016T1600 .
+
+cmk:auditorio-de-zaragoza a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Auditorio de Zaragoza" .
+
+cmk:auditorio-victor-villegas-murcia a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Auditorio Victor Villegas, Murcia" .
+
+cmk:bach a cmo:Programme ;
+    rdfs:label "Bach" .
+
+cmk:bach-and-the-art-of-fugue a cmo:Programme .
+
+cmk:bach-charpentier a cmo:Programme .
+
+cmk:bach-couperin-de-grigny-raison a cmo:Programme .
+
+cmk:bach-die-kunst-der-fuge a schema:CreativeWork ;
+    schema:name "Bach: Die Kunst der Fuge" .
+
+cmk:bach-handel-rebel a cmo:Programme ;
+    rdfs:label "Bach, Handel, Rebel" .
+
+cmk:bach-haydn-hassler a cmo:Programme .
+
+cmk:bach-mass-in-b-minor a cmo:Programme ;
+    rdfs:label "Bach: Mass in B Minor" .
+
+cmk:bach-scarlatti a cmo:Programme ;
+    rdfs:label "Bach, Scarlatti" .
+
+cmk:bach-telemann-veracini a cmo:Programme ;
+    rdfs:label "Bach, Telemann, Veracini" .
+
+cmk:bach-vivaldi a cmo:Programme ;
+    rdfs:label "Bach, Vivaldi" .
+
+cmk:balder-hall a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Balder Hall" .
+
+cmk:baptiste-romain a foaf:Person ;
+    foaf:familyName "Romain",
+        "Romain"^^xsd:string ;
+    foaf:firstName "Baptiste",
+        "Baptiste"^^xsd:string ;
+    cmo:conducts-in cmk:church-of-the-holy-cross-rauma-20210331T1900,
+        cmk:musiikkitalo-20210402T1800 ;
+    cmo:known-as-a cmk:conductor,
+        cmk:fidel-player ;
+    cmo:plays-in cmk:church-of-the-holy-cross-rauma-20210331T1900,
+        cmk:musiikkitalo-20210402T1800,
+        cmk:stor-sarvlaks-manor-20240627T1900,
+        cmk:tarinmaa-janakkala-20240628T2000 .
+
+cmk:baroque-opera-gala a cmo:Programme .
+
+cmk:benedikt-kristjansson a foaf:Person ;
+    foaf:familyName "Kristjánsson" ;
+    foaf:firstName "Benedikt" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:musiikkitalo-20230926T1900 .
+
+cmk:benjamin-alard a foaf:Person ;
+    foaf:familyName "Alard" ;
+    foaf:firstName "Benjamin" ;
+    cmo:known-as-a cmk:harpsichordist,
+        cmk:organist ;
+    cmo:plays-in cmk:espoo-cathedral-20210701T2100,
+        cmk:st-lawrence-church-janakkala-20210704T1800 .
+
+cmk:benjamin-bruns a foaf:Person ;
+    foaf:familyName "Bruns" ;
+    foaf:firstName "Benjamin" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:liszt-academy-budapest-20251020T1930,
+        cmk:musiikkitalo-20251018T1900 .
+
+cmk:benjamin-glaubitz a foaf:Person ;
+    foaf:familyName "Glaubitz" ;
+    foaf:firstName "Benjamin" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:buda-castle-haydneum-festival-budapest-20231110T1930,
+        cmk:eglise-st-francois-lausanne-20211112T2000,
+        cmk:st-johns-church-helsinki-20211106T1800 .
+
+cmk:benno-schachtner a foaf:Person ;
+    foaf:familyName "Schachtner" ;
+    foaf:firstName "Benno" ;
+    cmo:known-as-a cmk:countertenor ;
+    cmo:sings-in cmk:days-of-early-music-vac-20210710T2000,
+        cmk:musiikkitalo-camerata-hall-20220227T1600,
+        cmk:st-johns-church-helsinki-20211106T1800 .
+
+cmk:benoît-toïgo a foaf:Person ;
+    foaf:familyName "Toïgo" ;
+    foaf:firstName "Benoît" ;
+    cmo:known-as-a cmk:recorder-player ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20241231T2000 .
+
+cmk:berit-norbakken a foaf:Person ;
+    foaf:familyName "Norbakken",
+        "Norbakken"^^xsd:string ;
+    foaf:firstName "Berit",
+        "Berit"^^xsd:string ;
+    cmo:known-as-a cmk:soprano,
+        cmo:soprano ;
+    cmo:sings-in cmk:musiikkitalo-20210207T1600,
+        cmk:musiikkitalo-20210509T1600 .
+
+cmk:bernhard-berchtold a foaf:Person ;
+    foaf:familyName "Berchtold" ;
+    foaf:firstName "Bernhard" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20241222T1600 .
+
+cmk:boris-begelman a foaf:Person ;
+    foaf:familyName "Begelman" ;
+    foaf:firstName "Boris" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:old-church-20240921T1900 .
+
+cmk:brucknerhaus-linz a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Brucknerhaus, Linz" .
+
+cmk:burghof-lorrach a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Burghof Lörrach" .
+
+cmk:buxtehude-frescobaldi-tunder-victoria a cmo:Programme ;
+    rdfs:label "Buxtehude, Frescobaldi, Tunder, Victoria" .
+
+cmk:c-ph-e-bach-st-matthew-passion a cmo:Programme .
+
+cmk:caccini-the-isle-of-alcina a cmo:Programme ;
+    rdfs:label "Caccini: The Isle of Alcina" .
+
+cmk:cancelled-bach-kirchoff-reincken a cmo:Programme .
+
+cmk:cancelled-bach-reincken a cmo:Programme .
+
+cmk:cancelled-la-reveuse a cmo:Programme .
+
+cmk:carmela-osato a foaf:Person ;
+    foaf:familyName "Osato" ;
+    foaf:firstName "Carmela" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:stor-sarvlaks-manor-20250627T1900 .
+
+cmk:carolina-figueiredo a foaf:Person ;
+    foaf:familyName "Figueiredo" ;
+    foaf:firstName "Carolina" ;
+    cmo:known-as-a cmk:alto ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20230129T1600 .
+
+cmk:carolyn-sampson a foaf:Person ;
+    foaf:familyName "Sampson" ;
+    foaf:firstName "Carolyn" ;
+    cmo:known-as-a cmk:soprano,
+        cmo:soprano ;
+    cmo:sings-in cmk:elbphilharmonie-hamburg-20210529T2000,
+        cmk:kulturpalast-dresden-20210527T1930,
+        cmk:kulturpalast-dresden-20230604T1930,
+        cmk:mupa-budapest-20201116T1900,
+        cmk:mupa-budapest-20210524T1900,
+        cmk:musiikkitalo-20201025T0000,
+        cmk:musiikkitalo-20201025T1600,
+        cmk:musiikkitalo-20210601T1900,
+        cmk:musiikkitalo-concert-hall-20230528T0000,
+        cmk:tonhalle-dusseldorf-20210530T2000,
+        cmk:tonhalle-dusseldorf-20230602T2000 .
+
+cmk:cartellieri-rubezahl a cmo:Programme ;
+    rdfs:label "Cartellieri: Rübezahl" .
+
+cmk:cartellieri-ryba-stabat-mater a cmo:Programme .
+
+cmk:cathedrale-de-lausanne a cmo:Venue ;
+    rdfs:label "Cathédrale de Lausanne" .
+
+cmk:cecilia-bernardini a foaf:Person ;
+    foaf:familyName "Bernardini" ;
+    foaf:firstName "Cecilia" ;
+    cmo:conducts-in cmk:musiikkitalo-20231126T1600,
+        cmk:musiikkitalo-20260920T1600 ;
+    cmo:known-as-a cmk:conductor,
+        cmk:violinist ;
+    cmo:plays-in cmk:musiikkitalo-20231126T1600 .
+
+cmk:chamber-music-in-candlelight a cmo:Programme .
+
+cmk:chantal-santon-jeffery a foaf:Person ;
+    foaf:familyName "Santon Jeffery" ;
+    foaf:firstName "Chantal" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:finlandia-hall-20211121T1600 .
+
+cmk:chapelle-de-la-trinite-lyon a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Chapelle de la Trinité, Lyon" .
+
+cmk:choir a cmo:ensemble-identity .
+
+cmk:christmas-concert a cmo:Programme ;
+    rdfs:label "Christmas Concert" .
+
+cmk:christmas-concert-haydn a cmo:Programme ;
+    rdfs:label "Christmas Concert" .
+
+cmk:christmas-concert-rauma a cmo:Programme ;
+    rdfs:label "Christmas Concert" .
+
+cmk:church-of-the-holy-cross a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Church of the Holy Cross" .
+
+cmk:church-of-the-holy-cross-rauma-20250914T1800 a mo:Performance ;
+    cmo:performs-in cmk:la-mandorle ;
+    schema:name "Handel & Bononcini in London" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-09-14T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/handel-bononcini-in-london/"^^xsd:anyURI .
+
+cmk:clement-debieuvre a foaf:Person ;
+    foaf:familyName "Debieuvre" ;
+    foaf:firstName "Clément" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:finlandia-hall-20211121T1600 .
+
+cmk:collegium-musicum-riga a cmo:ensemble-identity ;
+    rdfs:label "Collegium Musicum Riga"^^xsd:string ;
+    cmo:performs-in cmk:musiikkitalo-20260419T1600 .
+
+cmk:concertgebouw-amsterdam a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Concertgebouw, Amsterdam" .
+
+cmk:cornelius-uhle a foaf:Person ;
+    foaf:familyName "Uhle"^^xsd:string,
+        "Uhle" ;
+    foaf:firstName "Cornelius"^^xsd:string,
+        "Cornelius" ;
+    cmo:known-as-a cmk:baritone,
+        cmk:bass,
+        cmk:soprano,
+        cmo:bass ;
+    cmo:sings-in cmk:cathedrale-de-lausanne-20201106T2000,
+        cmk:eglise-st-francois-lausanne-20211112T2000,
+        cmk:elbphilharmonie-hamburg-20210529T2000,
+        cmk:kulturpalast-dresden-20210527T1930,
+        cmk:kulturpalast-dresden-20230604T1930,
+        cmk:mupa-budapest-20201116T1900,
+        cmk:mupa-budapest-20210524T1900,
+        cmk:musiikkitalo-20201025T0000,
+        cmk:musiikkitalo-20201025T1600,
+        cmk:musiikkitalo-20210601T1900,
+        cmk:musiikkitalo-20251221T1600,
+        cmk:musiikkitalo-20260301T0000,
+        cmk:musiikkitalo-20260303T0000,
+        cmk:musiikkitalo-concert-hall-20230528T0000,
+        cmk:old-church-20240921T1900,
+        cmk:rudolfinum-dvorak-hall-20260521T2000,
+        cmk:st-johns-church-helsinki-20211106T1800,
+        cmk:temppeliaukio-church-20260519T1900,
+        cmk:tonhalle-dusseldorf-20210530T2000,
+        cmk:tonhalle-dusseldorf-20230602T2000 .
+
+cmk:couperin-la-guerre-marais a schema:CreativeWork ;
+    schema:name "Couperin, La Guerre, Marais" .
+
+cmk:cristina-esclapez a foaf:Person ;
+    foaf:familyName "Esclapez",
+        "Esclapez"^^xsd:string ;
+    foaf:firstName "Cristina",
+        "Cristina"^^xsd:string ;
+    cmo:known-as-a cmk:fortepianist,
+        cmo:fortepianist ;
+    cmo:plays-in cmk:musiikkitalo-20210207T1600,
+        cmk:musiikkitalo-20210509T1600,
+        cmk:online-20220108T1900 .
+
+cmk:croatian-baroque-ensemble a foaf:Group,
+        cmo:ensemble-identity ;
+    rdfs:label "Croatian Baroque Ensemble"^^xsd:string,
+        "Croatian Baroque Ensemble" ;
+    cmo:performs-in cmk:church-of-the-holy-cross-rauma-20220701T1900,
+        cmk:church-of-the-holy-cross-rauma-20260209T1900,
+        cmk:janakkala-20220702T1800,
+        cmk:musiikkitalo-20260208T1600 .
+
+cmk:dance-company a cmo:ensemble-identity .
+
+cmk:dance-house-helsinki-erkko-hall a cmo:Venue ;
+    rdfs:label "Dance House Helsinki, Erkko Hall" .
+
+cmk:david-witczak a foaf:Person ;
+    foaf:familyName "Witczak" ;
+    foaf:firstName "David" ;
+    cmo:known-as-a cmk:baritone ;
+    cmo:sings-in cmk:finlandia-hall-20211121T1600 .
+
+cmk:days-of-early-music-vac a cmo:Venue .
+
+cmk:delirio-amoroso a cmo:Programme ;
+    rdfs:label "Delirio Amoroso" .
+
+cmk:dmitry-sinkovsky a foaf:Person ;
+    foaf:familyName "Sinkovsky",
+        "Sinkovsky"^^xsd:string ;
+    foaf:firstName "Dmitry",
+        "Dmitry"^^xsd:string ;
+    cmo:conducts-in cmk:altes-rathaus-regensburg-20220507T1930,
+        cmk:auditorio-victor-villegas-murcia-20211215T2000,
+        cmk:church-of-the-holy-cross-20220505T1900,
+        cmk:church-of-the-holy-cross-rauma-20211208T1900,
+        cmk:concertgebouw-amsterdam-20240120T1415,
+        cmk:live-stream-bach-vivaldi-20210307T1600,
+        cmk:musiikkitalo-20210307T1600,
+        cmk:musiikkitalo-20240121T1600,
+        cmk:musiikkitalo-concert-hall-20220508T1800,
+        cmk:old-church-20211209T1900,
+        cmk:rioja-forum-logrono-20211210T2030,
+        cmk:teatro-auditorio-jose-luis-perales-cuenca-20211214T2030 ;
+    cmo:known-as-a cmk:conductor,
+        cmk:countertenor,
+        cmk:violinist ;
+    cmo:plays-in cmk:altes-rathaus-regensburg-20220507T1930,
+        cmk:auditorio-victor-villegas-murcia-20211215T2000,
+        cmk:church-of-the-holy-cross-20220505T1900,
+        cmk:concertgebouw-amsterdam-20240120T1415,
+        cmk:live-stream-bach-vivaldi-20210307T1600,
+        cmk:musiikkitalo-20210307T1600,
+        cmk:musiikkitalo-20240121T1600,
+        cmk:musiikkitalo-concert-hall-20220508T1800 .
+
+cmk:domen-marincic a foaf:Person ;
+    foaf:familyName "Marinčič",
+        "Marinčič"^^xsd:string ;
+    foaf:firstName "Domen",
+        "Domen"^^xsd:string ;
+    cmo:conducts-in cmk:musiikkitalo-camerata-20240512T1600,
+        cmk:musiikkitalo-concert-hall-20221211T1600 ;
+    cmo:known-as-a cmk:conductor,
+        cmk:viola-da-gamba-player,
+        cmk:viola-da-gambist,
+        cmo:lecturer ;
+    cmo:performs-in cmk:church-of-the-holy-cross-rauma-20210130T1900,
+        cmk:webinar-tempo-rubato-20210502T1500 ;
+    cmo:plays-in cmk:live-stream-music-from-the-17th-century-england-20210130T2100,
+        cmk:musiikkitalo-20210131T1600,
+        cmk:stor-sarvlaks-manor-20260625T1900 .
+
+cmk:donat-toth a foaf:Person ;
+    foaf:familyName "Tóth" ;
+    foaf:firstName "Donát" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:mupa-budapest-20221117T1900,
+        cmk:musiikkitalo-concert-hall-20221113T1900 .
+
+cmk:dora-asterstad a foaf:Person ;
+    foaf:familyName "Asterstad" ;
+    foaf:firstName "Dora" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:st-lawrence-church-vantaa-20200806T1900 .
+
+cmk:duben-collection-becker-buxtehude-ritter a schema:CreativeWork ;
+    schema:name "Düben Collection – Becker, Buxtehude, Ritter" .
+
+cmk:eero-palviainen a foaf:Person ;
+    foaf:familyName "Palviainen" ;
+    foaf:firstName "Eero" ;
+    cmo:known-as-a cmk:lutenist,
+        cmo:lutenist ;
+    cmo:plays-in cmk:church-of-the-holy-cross-rauma-20210515T1900,
+        cmk:church-of-the-holy-cross-rauma-20211106T2000,
+        cmk:espoo-cathedral-20200702T2100 .
+
+cmk:elbphilharmonie-hamburg a cmo:Venue .
+
+cmk:elina-simkus a foaf:Person ;
+    foaf:familyName "Šimkus"^^xsd:string ;
+    foaf:firstName "Elīna"^^xsd:string ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-20260419T1600 .
+
+cmk:elina-strom a foaf:Person ;
+    foaf:familyName "Ström" ;
+    foaf:firstName "Elina" ;
+    cmo:known-as-a cmk:costume-designer ;
+    cmo:performs-in cmk:mupa-budapest-20221117T1900,
+        cmk:musiikkitalo-concert-hall-20221113T1900 .
+
+cmk:elisabeth-breuer a foaf:Person ;
+    foaf:familyName "Breuer"^^xsd:string,
+        "Breuer" ;
+    foaf:firstName "Elisabeth"^^xsd:string,
+        "Elisabeth" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:eglise-st-francois-lausanne-20211112T2000,
+        cmk:liszt-academy-budapest-20251020T1930,
+        cmk:musiikkitalo-20251018T1900,
+        cmk:musiikkitalo-20260301T0000,
+        cmk:musiikkitalo-20260303T0000,
+        cmk:musiikkitalo-20260329T1600,
+        cmk:st-johns-church-helsinki-20211106T1800 .
+
+cmk:ella-smith a foaf:Person ;
+    foaf:familyName "Smith" ;
+    foaf:firstName "Ella" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20241222T1600 .
+
+cmk:emanuela-de-rosa a foaf:Person ;
+    foaf:familyName "de Rosa" ;
+    foaf:firstName "Emanuela" ;
+    cmo:known-as-a cmk:mezzo-soprano,
+        cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-20251231T2000,
+        cmk:musiikkitalo-concert-hall-20230129T1600 .
+
+cmk:ensemble-floridante a cmo:ensemble-identity ;
+    rdfs:label "Ensemble Floridante" ;
+    cmo:performs-in cmk:church-of-the-holy-cross-rauma-20231210T1800 .
+
+cmk:ensemble-identity a cmo:ensemble-identity .
+
+cmk:ensemble-regence-sonore a cmo:ensemble-identity ;
+    cmo:performs-in cmk:musiikkitalo-20250323T1600 .
+
+cmk:erazem-grafenauer a foaf:Person ;
+    foaf:familyName "Grafenauer" ;
+    foaf:firstName "Erazem" ;
+    cmo:known-as-a cmk:theorbist ;
+    cmo:plays-in cmk:old-church-20240921T1900 .
+
+cmk:erica-back a foaf:Person ;
+    foaf:familyName "Back" ;
+    foaf:firstName "Erica" ;
+    cmo:known-as-a cmk:mezzo-soprano ;
+    cmo:sings-in cmk:national-opera-almi-hall-20240201T1900 .
+
+cmk:erich-hobarth a foaf:Person ;
+    foaf:familyName "Höbarth" ;
+    foaf:firstName "Erich" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:church-of-the-holy-cross-rauma-20240701T1900,
+        cmk:sibelius-academy-concert-hall-20261122T1600,
+        cmk:tarinmaa-janakkala-20240630T1800 .
+
+cmk:erich-höbarth a foaf:Person ;
+    foaf:familyName "Höbarth" ;
+    foaf:firstName "Erich" ;
+    cmo:conducts-in cmk:old-church-20241026T1900 ;
+    cmo:known-as-a cmk:conductor,
+        cmk:violinist ;
+    cmo:plays-in cmk:sibelius-academy-concert-hall-20241029T1900 .
+
+cmk:erika-baikoff a foaf:Person ;
+    foaf:familyName "Baikoff" ;
+    foaf:firstName "Erika" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-20231217T1600,
+        cmk:musiikkitalo-20261222T1900,
+        cmk:theater-an-der-wien-20231218T1900,
+        cmk:theater-an-der-wien-20261220T1900 .
+
+cmk:erwin-ortner a foaf:Person ;
+    foaf:familyName "Ortner" ;
+    foaf:firstName "Erwin" ;
+    cmo:conducts-in cmk:kulturpalast-dresden-20230604T1930,
+        cmk:musiikkitalo-20201025T0000,
+        cmk:musiikkitalo-concert-hall-20230528T0000,
+        cmk:tonhalle-dusseldorf-20230602T2000 ;
+    cmo:known-as-a cmk:chorus-master,
+        cmk:conductor,
+        cmo:chorus-master ;
+    cmo:performs-in cmk:elbphilharmonie-hamburg-20210529T2000,
+        cmk:kulturpalast-dresden-20210527T1930,
+        cmk:mupa-budapest-20210524T1900,
+        cmk:musiikkitalo-20210601T1900,
+        cmk:tonhalle-dusseldorf-20210530T2000 .
+
+cmk:espoo-cathedral a cmo:ConcertHall,
+        cmo:Venue .
+
+cmk:estonia-concert-hall-tallinn a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Estonia Concert Hall, Tallinn" .
+
+cmk:eszter-balogh a foaf:Person ;
+    foaf:familyName "Balogh" ;
+    foaf:firstName "Eszter" ;
+    cmo:known-as-a cmk:alto ;
+    cmo:sings-in cmk:buda-castle-haydneum-festival-budapest-20231110T1930 .
+
+cmk:eva-alkula a foaf:Person ;
+    foaf:familyName "Alkula" ;
+    foaf:firstName "Eva" ;
+    cmo:known-as-a cmk:kantele-player ;
+    cmo:plays-in cmk:janakkala-20200628T1800,
+        cmk:janakkala-20220702T2000 .
+
+cmk:evolène-kiener a foaf:Person ;
+    foaf:familyName "Kiener" ;
+    foaf:firstName "Evolène" ;
+    cmo:known-as-a cmk:recorder-player ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20241231T2000 .
+
+cmk:federico-fiorio a foaf:Person ;
+    foaf:familyName "Fiorio" ;
+    foaf:firstName "Federico" ;
+    cmo:known-as-a cmk:countertenor ;
+    cmo:sings-in cmk:brucknerhaus-linz-20240324T1800,
+        cmk:temppeliaukio-church-20240323T1900 .
+
+cmk:festival-de-musica-antigua-de-gijon a cmo:Venue .
+
+cmk:festival-de-musica-antigua-de-peniscola a cmo:Venue ;
+    rdfs:label "Festival de Música Antigua de Peñíscola" .
+
+cmk:festival-mahler-jihlava a cmo:Venue ;
+    rdfs:label "Festival Mahler Jihlava" .
+
+cmk:finnish-national-opera-almi-hall a cmo:ConcertHall .
+
+cmk:finnish-national-opera-and-ballet-almi-hall a cmo:Venue ;
+    rdfs:label "Finnish National Opera and Ballet, Almi hall" .
+
+cmk:forqueray a schema:CreativeWork ;
+    schema:name "Forqueray" .
+
+cmk:franck-emmanuel-comte a foaf:Person ;
+    foaf:familyName "Comte" ;
+    foaf:firstName "Franck-Emmanuel" ;
+    cmo:conducts-in cmk:musiikkitalo-20250222T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:frank-skog a foaf:Person ;
+    foaf:familyName "Skog" ;
+    foaf:firstName "Frank" ;
+    cmo:known-as-a cmk:narrator ;
+    cmo:narrates-in cmk:musiikkitalo-concert-hall-20221016T1600 .
+
+cmk:gabor-eszenyi a foaf:Person ;
+    foaf:familyName "Eszenyi" ;
+    foaf:firstName "Gábor" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:mupa-budapest-20221117T1900,
+        cmk:musiikkitalo-concert-hall-20221113T1900 .
+
+cmk:gabriel-gramesc a foaf:Person ;
+    foaf:familyName "Grămesc" ;
+    foaf:firstName "Gabriel" ;
+    cmo:known-as-a cmk:oboist ;
+    cmo:plays-in cmk:musiikkitalo-20260208T1600 .
+
+cmk:galuppi-la-caduta-di-adamo a cmo:Programme ;
+    rdfs:label "Galuppi: La Caduta di Adamo" .
+
+cmk:georgian-sinfonietta a cmo:ensemble-identity ;
+    cmo:performs-in cmk:church-of-the-holy-cross-rauma-20230422T1900,
+        cmk:church-of-the-holy-cross-rauma-20250416T1800,
+        cmk:musiikkitalo-camerata-hall-20230423T1600 .
+
+cmk:georgian-sinfonietta-programme a schema:CreativeWork ;
+    schema:name "Georgian Sinfonietta" .
+
+cmk:giorgi-kerelashvili a foaf:Person ;
+    foaf:familyName "Kerelashvili" ;
+    foaf:firstName "Giorgi" ;
+    cmo:conducts-in cmk:church-of-the-holy-cross-rauma-20230422T1900,
+        cmk:musiikkitalo-camerata-hall-20230423T1600 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:giuseppina-bridelli a foaf:Person ;
+    foaf:familyName "Bridelli" ;
+    foaf:firstName "Giuseppina" ;
+    cmo:known-as-a cmk:mezzo-soprano,
+        cmk:mezzosoprano ;
+    cmo:sings-in cmk:musiikkitalo-helsinki-music-centre-concert-hall-20211231T0000,
+        cmk:vaasa-city-hall-20211014T1900 .
+
+cmk:graciela-gibelli a foaf:Person ;
+    foaf:familyName "Gibelli" ;
+    foaf:firstName "Graciela" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:old-church-20250518T1600 .
+
+cmk:gwendoline-blondeel a foaf:Person ;
+    foaf:familyName "Blondeel" ;
+    foaf:firstName "Gwendoline" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-20230926T1900 .
+
+cmk:gyorgy-vashegyi a foaf:Person ;
+    foaf:familyName "Vashegyi"^^xsd:string,
+        "Vashegyi" ;
+    foaf:firstName "György"^^xsd:string,
+        "György" ;
+    cmo:conducts-in cmk:musiikkitalo-20230926T1900,
+        cmk:musiikkitalo-20250928T1600,
+        cmk:rudolfinum-dvorak-hall-20260521T2000 ;
+    cmo:known-as-a cmk:chorusmaster,
+        cmk:conductor .
+
+cmk:györgy-vashegyi a foaf:Person ;
+    foaf:familyName "Vashegyi" ;
+    foaf:firstName "György" ;
+    cmo:conducts-in cmk:musiikkitalo-concert-hall-20241222T1600 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:hamlet a cmo:Programme ;
+    rdfs:label "Hamlet" .
+
+cmk:hana-blazikova a foaf:Person ;
+    foaf:familyName "Blažíková" ;
+    foaf:firstName "Hana" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:church-of-the-holy-cross-rauma-20201217T1900,
+        cmk:old-church-helsinki-20201218T0000 .
+
+cmk:handel-bononcini-in-london a cmo:Programme ;
+    rdfs:label "Handel & Bononcini in London" .
+
+cmk:handel-vivaldi a cmo:Programme .
+
+cmk:hangzhou-west-lake-university a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Hangzhou West Lake University" .
+
+cmk:hanna-pakkala a foaf:Person ;
+    foaf:familyName "Pakkala" ;
+    foaf:firstName "Hanna" ;
+    cmo:known-as-a cmk:violist ;
+    cmo:plays-in cmk:musiikkitalo-20250323T1600,
+        cmk:st-lawrence-church-vantaa-20200806T1900 .
+
+cmk:hanna-rantala a foaf:Person ;
+    foaf:familyName "Rantala" ;
+    foaf:firstName "Hanna" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:alexander-theatre-20230922T0000 .
+
+cmk:hasnaa-bennani a foaf:Person ;
+    foaf:familyName "Bennani" ;
+    foaf:firstName "Hasnaa" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:finlandia-hall-20211121T1600 .
+
+cmk:haydn-lisola-disabitata a cmo:Programme .
+
+cmk:heidi-peltoniemi a foaf:Person ;
+    foaf:familyName "Peltoniemi" ;
+    foaf:firstName "Heidi" ;
+    cmo:known-as-a cmk:cellist,
+        cmk:viola-da-gamba-player,
+        cmk:viola-da-gambist,
+        cmk:vocalist ;
+    cmo:performs-in cmk:church-of-the-holy-cross-rauma-20251213T1900 ;
+    cmo:plays-in cmk:church-of-the-holy-cross-rauma-20210924T1900,
+        cmk:espoo-cathedral-20200702T2100,
+        cmk:st-lawrence-church-vantaa-20200806T1900 .
+
+cmk:helena-bregar a foaf:Person ;
+    foaf:familyName "Bregar" ;
+    foaf:firstName "Helena" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:stor-sarvlaks-manor-20260625T1900 .
+
+cmk:helsingin-barokkiorkesteri a cmo:ensemble-identity ;
+    cmo:performs-in cmk:turku-city-theatre-20250204T1900 .
+
+cmk:helsinki-baroque-orchestra-ensemble a mo:MusicGroup,
+        cmo:ensemble-identity ;
+    rdfs:label "Helsinki Baroque Orchestra Ensemble" .
+
+cmk:hortus-musicus a foaf:Person ;
+    foaf:familyName "Musicus" ;
+    foaf:firstName "Hortus" ;
+    cmo:known-as-a cmk:ensemble ;
+    cmo:performs-in cmk:mustpeade-maja-tallinn-20230202T1900 .
+
+cmk:hortus-musicus-estonia a cmo:ensemble-identity ;
+    rdfs:label "Hortus Musicus (Estonia)" ;
+    cmo:performs-in cmk:church-of-the-holy-cross-rauma-20220919T1900,
+        cmk:musiikkitalo-camerata-hall-20220918T1600 .
+
+cmk:hugo-hymas a foaf:Person ;
+    foaf:familyName "Hymas" ;
+    foaf:firstName "Hugo" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:cathedrale-de-lausanne-20201106T2000,
+        cmk:musiikkitalo-20201025T1600,
+        cmk:musiikkitalo-helsinki-music-centre-concert-hall-20211231T0000,
+        cmk:st-pauls-church-helsinki-20200912T1900,
+        cmk:vaasa-city-hall-20211014T1900 .
+
+cmk:hume-couperin-marais a cmo:Programme .
+
+cmk:improvisational-organ-concert a cmo:Programme ;
+    rdfs:label "Improvisational Organ Concert" .
+
+cmk:ina-kancheva a foaf:Person ;
+    foaf:familyName "Kancheva" ;
+    foaf:firstName "Ina" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:hangzhou-west-lake-university-20231225T1930,
+        cmk:musiikkitalo-20231231T1900,
+        cmk:shanghai-daning-theatre-20231223T1930 .
+
+cmk:inja-stanovic a foaf:Person ;
+    foaf:familyName "Stanović" ;
+    foaf:firstName "Inja" ;
+    cmo:known-as-a cmo:lecturer ;
+    cmo:performs-in cmk:webinar-tempo-rubato-20210502T1500 .
+
+cmk:isabella-shaw a foaf:Person ;
+    foaf:familyName "Shaw" ;
+    foaf:firstName "Isabella" ;
+    cmo:known-as-a cmk:mezzo-soprano ;
+    cmo:sings-in cmk:national-opera-almi-hall-20240201T1900 .
+
+cmk:italian-baroque a cmo:Programme ;
+    rdfs:label "Italian Baroque" .
+
+cmk:ivana-lazar a foaf:Person ;
+    foaf:familyName "Lazar" ;
+    foaf:firstName "Ivana" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-20231217T1600,
+        cmk:theater-an-der-wien-20231218T1900 .
+
+cmk:janakkala-20260626T0000 a mo:Performance ;
+    schema:location cmk:janakkala ;
+    schema:name "Janakkala Baroque 2026" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-06-26T00:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/janakkala-baroque-2026/"^^xsd:anyURI .
+
+cmk:janakkala-baroque-2024 a cmo:Programme ;
+    rdfs:label "Janakkala Baroque 2024" .
+
+cmk:janakkala-baroque-2025 a cmo:Programme ;
+    rdfs:label "Janakkala Baroque 2025" .
+
+cmk:jani-sunnarborg a foaf:Person ;
+    foaf:familyName "Sunnarborg" ;
+    foaf:firstName "Jani" ;
+    cmo:known-as-a cmk:bassoonist,
+        cmk:dancer ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20241231T1800 ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20221016T1600 .
+
+cmk:jay-bernfeld a foaf:Person ;
+    foaf:familyName "Bernfeld" ;
+    foaf:firstName "Jay" ;
+    cmo:conducts-in cmk:musiikkitalo-20211003T0000 ;
+    cmo:known-as-a cmk:conductor,
+        cmk:viola-da-gambist ;
+    cmo:plays-in cmk:church-of-the-holy-cross-rauma-20210924T1900 .
+
+cmk:jed-wentz a foaf:Person ;
+    foaf:familyName "Wentz" ;
+    foaf:firstName "Jed" ;
+    cmo:known-as-a cmo:lecturer ;
+    cmo:performs-in cmk:webinar-tempo-rubato-20210502T1500 .
+
+cmk:jehanne-amzal a foaf:Person ;
+    foaf:familyName "Amzal" ;
+    foaf:firstName "Jehanne" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:finlandia-hall-20211121T1600 .
+
+cmk:jennifer-gleinig a foaf:Person ;
+    foaf:familyName "Gleinig" ;
+    foaf:firstName "Jennifer" ;
+    cmo:known-as-a cmk:mezzo-soprano ;
+    cmo:sings-in cmk:musiikkitalo-20201025T1600 .
+
+cmk:joana-seara a foaf:Person ;
+    foaf:familyName "Seara" ;
+    foaf:firstName "Joana" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20230129T1600 .
+
+cmk:johann-sebastian-bach-klosterkonzerte-maulbronn a cmo:Programme .
+
+cmk:johanna-falkinger a foaf:Person ;
+    foaf:familyName "Falkinger" ;
+    foaf:firstName "Johanna" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-20251221T1600 .
+
+cmk:johannes-weisser a foaf:Person ;
+    foaf:familyName "Weisser" ;
+    foaf:firstName "Johannes" ;
+    cmo:known-as-a cmk:baritone,
+        cmk:bass,
+        cmk:soprano,
+        cmo:baritone ;
+    cmo:sings-in cmk:elbphilharmonie-hamburg-20210529T2000,
+        cmk:kulturpalast-dresden-20210527T1930,
+        cmk:kulturpalast-dresden-20230604T1930,
+        cmk:liszt-academy-budapest-20251020T1930,
+        cmk:mupa-budapest-20201116T1900,
+        cmk:mupa-budapest-20210524T1900,
+        cmk:mupa-budapest-20221117T1900,
+        cmk:musiikkitalo-20201025T0000,
+        cmk:musiikkitalo-20201025T1600,
+        cmk:musiikkitalo-20210601T1900,
+        cmk:musiikkitalo-20251018T1900,
+        cmk:musiikkitalo-concert-hall-20221113T1900,
+        cmk:musiikkitalo-concert-hall-20230528T0000,
+        cmk:tonhalle-dusseldorf-20210530T2000,
+        cmk:tonhalle-dusseldorf-20230602T2000 .
+
+cmk:jonas-muller a foaf:Person ;
+    foaf:familyName "Müller"^^xsd:string ;
+    foaf:firstName "Jonas"^^xsd:string ;
+    cmo:known-as-a cmk:bass ;
+    cmo:sings-in cmk:musiikkitalo-20260329T1600 .
+
+cmk:joona-huotari a foaf:Person ;
+    foaf:familyName "Huotari" ;
+    foaf:firstName "Joona" ;
+    cmo:known-as-a cmk:costume-designer ;
+    cmo:performs-in cmk:alexander-theatre-20230922T0000 .
+
+cmk:jorma-uotinen a foaf:Person ;
+    foaf:familyName "Uotinen" ;
+    foaf:firstName "Jorma" ;
+    cmo:known-as-a cmk:dancer ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20241231T1800 .
+
+cmk:josipa-bilic a foaf:Person ;
+    foaf:familyName "Bilić"^^xsd:string,
+        "Bilić" ;
+    foaf:firstName "Josipa"^^xsd:string,
+        "Josipa" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:church-of-the-holy-cross-rauma-20260209T1900,
+        cmk:musiikkitalo-20260208T1600 .
+
+cmk:juho-punkeri a foaf:Person ;
+    foaf:familyName "Punkeri",
+        "Punkeri"^^xsd:string ;
+    foaf:firstName "Juho",
+        "Juho"^^xsd:string ;
+    cmo:known-as-a cmk:conductor,
+        cmk:ensemble-member,
+        cmk:tenor ;
+    cmo:performs-in cmk:church-of-the-holy-cross-rauma-20210331T1900,
+        cmk:musiikkitalo-20210402T1800 ;
+    cmo:sings-in cmk:alexander-theatre-20230922T0000,
+        cmk:national-opera-almi-hall-20240201T1900,
+        cmk:old-church-helsinki-20200510T1600 .
+
+cmk:jukka-rautasalo a foaf:Person ;
+    foaf:familyName "Rautasalo" ;
+    foaf:firstName "Jukka" ;
+    cmo:known-as-a cmk:viola-darco-player ;
+    cmo:plays-in cmk:stor-sarvlaks-manor-20240627T1900,
+        cmk:tarinmaa-janakkala-20240628T2000 .
+
+cmk:julia-dokter a foaf:Person ;
+    foaf:familyName "Dokter" ;
+    foaf:firstName "Julia" ;
+    cmo:known-as-a cmo:lecturer ;
+    cmo:performs-in cmk:webinar-tempo-rubato-20210502T1500 .
+
+cmk:julia-lezhneva a foaf:Person ;
+    foaf:familyName "Lezhneva" ;
+    foaf:firstName "Julia" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-20261222T1900,
+        cmk:theater-an-der-wien-20261220T1900 .
+
+cmk:julian-orlishausen a foaf:Person ;
+    foaf:familyName "Orlishausen" ;
+    foaf:firstName "Julian" ;
+    cmo:known-as-a cmk:bass ;
+    cmo:sings-in cmk:buda-castle-haydneum-festival-budapest-20231110T1930 .
+
+cmk:julien-martin a foaf:Person ;
+    foaf:familyName "Martin" ;
+    foaf:firstName "Julien" ;
+    cmo:known-as-a cmk:recorder-player ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20241231T2000 .
+
+cmk:jussi-seppanen a foaf:Person ;
+    foaf:familyName "Seppänen" ;
+    foaf:firstName "Jussi" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:musiikkitalo-20250323T1600 .
+
+cmk:kaisa-suninen a foaf:Person ;
+    foaf:familyName "Suninen" ;
+    foaf:firstName "Kaisa" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:sibelius-academy-concert-hall-20261122T1600 .
+
+cmk:kajsa-dahlback a foaf:Person ;
+    foaf:familyName "Dahlbäck" ;
+    foaf:firstName "Kajsa" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:church-of-the-holy-cross-rauma-20240310T1800,
+        cmk:espoo-cathedral-20200702T2100,
+        cmk:glasperlenspiel-festival-tartu-20230709T1900,
+        cmk:monikkosali-klaukkala-20230416T1500,
+        cmk:musiikkitalo-helsinki-music-centre-concert-hall-20211231T0000,
+        cmk:st-lawrence-church-janakkala-20230630T2000,
+        cmk:st-pauls-church-helsinki-20200912T1900,
+        cmk:vaasa-city-hall-20211014T1900,
+        cmk:viljandi-early-music-festival-20230708T1900 .
+
+cmk:kajsa-dahlbaeck a foaf:Person ;
+    foaf:familyName "Dahlbäck" ;
+    foaf:firstName "Kajsa" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:vaasa-church-20240309T1900 .
+
+cmk:kari-ikonen a foaf:Person ;
+    foaf:familyName "Ikonen" ;
+    foaf:firstName "Kari" ;
+    cmo:known-as-a cmk:moog-player ;
+    cmo:plays-in cmk:musiikkitalo-20251231T1800 .
+
+cmk:karla-schrodi a foaf:Person ;
+    foaf:familyName "Schrodi"^^xsd:string ;
+    foaf:firstName "Karla"^^xsd:string ;
+    cmo:known-as-a cmk:alto ;
+    cmo:sings-in cmk:musiikkitalo-20260329T1600 .
+
+cmk:kateryna-kasper a foaf:Person ;
+    foaf:familyName "Kasper" ;
+    foaf:firstName "Kateryna" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-20260920T1600 .
+
+cmk:keltainen-talo-janakkala a cmo:Venue .
+
+cmk:klosterkirche-maulbronn a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Klosterkirche"^^xsd:string .
+
+cmk:kreeta-maria-kentala a foaf:Person ;
+    foaf:familyName "Kentala" ;
+    foaf:firstName "Kreeta-Maria" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:orangerieschloss-sanssouci-potsdam-20260628T2100,
+        cmk:stor-sarvlaks-manor-courtyard-20260626T1900 .
+
+cmk:kresimir-strazanac a foaf:Person ;
+    foaf:familyName "Stražanac" ;
+    foaf:firstName "Krešimir" ;
+    cmo:known-as-a cmk:bass ;
+    cmo:sings-in cmk:mupa-budapest-20221117T1900,
+        cmk:musiikkitalo-concert-hall-20221113T1900 .
+
+cmk:kristen-witmer a foaf:Person ;
+    foaf:familyName "Witmer" ;
+    foaf:firstName "Kristen" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-20201025T1600 .
+
+cmk:kristian-lindroos a foaf:Person ;
+    foaf:familyName "Lindroos" ;
+    foaf:firstName "Kristian" ;
+    cmo:known-as-a cmk:baritone ;
+    cmo:sings-in cmk:vaasa-city-hall-20211014T1900 .
+
+cmk:kristian-saarinen a foaf:Person ;
+    foaf:familyName "Saarinen" ;
+    foaf:firstName "Kristian" ;
+    cmo:known-as-a cmk:organist ;
+    cmo:plays-in cmk:tarinmaa-janakkala-20240629T1800 .
+
+cmk:kristiina-helin a foaf:Person ;
+    foaf:familyName "Helin" ;
+    foaf:firstName "Kristiina" ;
+    cmo:known-as-a cmk:choreographer ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20241231T1800 .
+
+cmk:kulttuuriosuuskunta-uulu a foaf:Group,
+        cmo:ensemble-identity ;
+    rdfs:label "Kulttuuriosuuskunta Uulu" ;
+    cmo:performs-in cmk:janakkala-20200628T1800 .
+
+cmk:kulturpalast-dresden a cmo:Venue ;
+    rdfs:label "Kulturpalast, Dresden" .
+
+cmk:kulturzentrum-herne a cmo:Venue ;
+    rdfs:label "Kulturzentrum Herne" .
+
+cmk:latvian-radio-choir a foaf:Group ;
+    rdfs:label "Latvian Radio Choir" ;
+    cmo:performs-in cmk:musiikkitalo-20251221T1600 .
+
+cmk:laura-granero a foaf:Person ;
+    foaf:familyName "Granero" ;
+    foaf:firstName "Laura" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:musiikkitalo-camerata-hall-20230212T1600 .
+
+cmk:laura-vadjon a foaf:Person ;
+    foaf:familyName "Vadjon" ;
+    foaf:firstName "Laura" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:janakkala-20220703T1800,
+        cmk:musiikkitalo-20260208T1600,
+        cmk:old-church-20240921T1900 .
+
+cmk:lauren-armishaw a foaf:Person ;
+    foaf:familyName "Armishaw" ;
+    foaf:firstName "Lauren" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-20201025T1600 .
+
+cmk:le-concert-de-lhostel-dieu a cmo:ensemble-identity ;
+    cmo:performs-in cmk:musiikkitalo-20250222T1900 .
+
+cmk:le-miroir-de-musique a foaf:Group,
+        cmo:ensemble-identity ;
+    rdfs:label "Le Miroir de Musique" ;
+    cmo:performs-in cmk:church-of-the-holy-cross-rauma-20210331T1900,
+        cmk:musiikkitalo-20210402T1800 .
+
+cmk:leila-schayegh a foaf:Person ;
+    foaf:familyName "Schayegh" ;
+    foaf:firstName "Leila" ;
+    cmo:conducts-in cmk:musiikkitalo-20251111T1900,
+        cmk:tbilisi-baroque-festival-20251109T1930 ;
+    cmo:known-as-a cmk:conductor,
+        cmk:violinist ;
+    cmo:plays-in cmk:musiikkitalo-20251111T1900,
+        cmk:tbilisi-baroque-festival-20251109T1930 .
+
+cmk:leipzig-1725 a cmo:Programme ;
+    rdfs:label "Leipzig 1725" .
+
+cmk:liebestod-monteverdi-purcell-wagner a cmo:Programme .
+
+cmk:liliya-gaysina a foaf:Person ;
+    foaf:familyName "Gaysina" ;
+    foaf:firstName "Liliya" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:altes-rathaus-regensburg-20220507T1930,
+        cmk:church-of-the-holy-cross-20220505T1900,
+        cmk:musiikkitalo-concert-hall-20220508T1800 .
+
+cmk:lina-leon a foaf:Person ;
+    foaf:familyName "León" ;
+    foaf:firstName "Lina" ;
+    cmo:known-as-a cmk:flautist ;
+    cmo:plays-in cmk:musiikkitalo-20251231T2000 .
+
+cmk:liszt-academy-budapest a cmo:Venue ;
+    rdfs:label "Liszt Academy, Budapest" .
+
+cmk:lorant-najbauer a foaf:Person ;
+    foaf:familyName "Najbauer" ;
+    foaf:firstName "Lóránt" ;
+    cmo:known-as-a cmk:baritone ;
+    cmo:sings-in cmk:days-of-early-music-vac-20210710T2000,
+        cmk:estonia-concert-hall-tallinn-20220409T1900,
+        cmk:musiikkitalo-concert-hall-20220410T1600 .
+
+cmk:lorenzo-coppola a foaf:Person ;
+    foaf:familyName "Coppola",
+        "Coppola"^^xsd:string ;
+    foaf:firstName "Lorenzo",
+        "Lorenzo"^^xsd:string ;
+    cmo:known-as-a cmk:clarinetist,
+        cmo:clarinetist ;
+    cmo:plays-in cmk:musiikkitalo-20210207T1600,
+        cmk:musiikkitalo-20210509T1600,
+        cmk:online-20220108T1900 .
+
+cmk:luis-rodrigues a foaf:Person ;
+    foaf:familyName "Rodrigues" ;
+    foaf:firstName "Luís" ;
+    cmo:known-as-a cmk:bass ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20230129T1600 .
+
+cmk:lydia-teuscher a foaf:Person ;
+    foaf:familyName "Teuscher"^^xsd:string,
+        "Teuscher" ;
+    foaf:firstName "Lydia"^^xsd:string,
+        "Lydia" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:mupa-budapest-20221117T1900,
+        cmk:musiikkitalo-concert-hall-20221113T1900,
+        cmk:rudolfinum-dvorak-hall-20260521T2000,
+        cmk:temppeliaukio-church-20260519T1900 .
+
+cmk:mahan-esfahani a foaf:Person ;
+    foaf:familyName "Esfahani" ;
+    foaf:firstName "Mahan" ;
+    cmo:known-as-a cmk:harpsichordist ;
+    cmo:plays-in cmk:musiikkitalo-20261018T1600 .
+
+cmk:maiju-vaahtoluoto a foaf:Person ;
+    foaf:familyName "Vaahtoluoto" ;
+    foaf:firstName "Maiju" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:alexander-theatre-20230922T0000 .
+
+cmk:marcel-beekman a foaf:Person ;
+    foaf:familyName "Beekman" ;
+    foaf:firstName "Marcel" ;
+    cmo:known-as-a cmk:soprano,
+        cmk:tenor ;
+    cmo:sings-in cmk:kulturpalast-dresden-20230604T1930,
+        cmk:musiikkitalo-20251221T1600,
+        cmk:musiikkitalo-concert-hall-20230528T0000,
+        cmk:tonhalle-dusseldorf-20230602T2000 .
+
+cmk:marcell-krokovay a foaf:Person ;
+    foaf:familyName "Krokovay" ;
+    foaf:firstName "Marcell" ;
+    cmo:known-as-a cmk:bass,
+        cmk:soprano,
+        cmo:bass ;
+    cmo:sings-in cmk:elbphilharmonie-hamburg-20210529T2000,
+        cmk:kulturpalast-dresden-20210527T1930,
+        cmk:kulturpalast-dresden-20230604T1930,
+        cmk:mupa-budapest-20210524T1900,
+        cmk:musiikkitalo-20201025T0000,
+        cmk:musiikkitalo-20210601T1900,
+        cmk:musiikkitalo-concert-hall-20230528T0000,
+        cmk:tonhalle-dusseldorf-20210530T2000,
+        cmk:tonhalle-dusseldorf-20230602T2000 .
+
+cmk:marcello-rosiello a foaf:Person ;
+    foaf:familyName "Rosiello" ;
+    foaf:firstName "Marcello" ;
+    cmo:known-as-a cmk:bass ;
+    cmo:sings-in cmk:musiikkitalo-20251231T2000,
+        cmk:musiikkitalo-concert-hall-20230129T1600 .
+
+cmk:marcos-magalhaes a foaf:Person ;
+    foaf:familyName "Magalhães" ;
+    foaf:firstName "Marcos" ;
+    cmo:conducts-in cmk:musiikkitalo-20201231T1900,
+        cmk:musiikkitalo-20251231T2000,
+        cmk:musiikkitalo-concert-hall-20221231T1900,
+        cmk:musiikkitalo-concert-hall-20230129T1600,
+        cmk:teatro-thalia-lisbon-20210106T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:mare-nostrum-musica-baltica-mediterranea a cmo:Programme ;
+    rdfs:label "Mare nostrum – Musica Baltica & Mediterranea" .
+
+cmk:mari-eriksmoen a foaf:Person ;
+    foaf:familyName "Eriksmoen" ;
+    foaf:firstName "Mari" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:concertgebouw-amsterdam-20241116T1300,
+        cmk:kulturzentrum-herne-20241117T1900,
+        cmk:musiikkitalo-concert-hall-20241110T0000 .
+
+cmk:maria-kubizek a foaf:Person ;
+    foaf:familyName "Kubizek" ;
+    foaf:firstName "Maria" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:musiikkitalo-20250323T1600 .
+
+cmk:maria-valdmaa a foaf:Person ;
+    foaf:familyName "Valdmaa" ;
+    foaf:firstName "Maria" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:mustpeade-maja-tallinn-20230202T1900 .
+
+cmk:marianna-henriksson a foaf:Person ;
+    foaf:familyName "Henriksson" ;
+    foaf:firstName "Marianna" ;
+    cmo:conducts-in cmk:national-opera-almi-hall-20240201T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:marianne-beate-kielland a foaf:Person ;
+    foaf:familyName "Kielland" ;
+    foaf:firstName "Marianne Beate" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-20261222T1900,
+        cmk:theater-an-der-wien-20261220T1900 .
+
+cmk:marie-seidler a foaf:Person ;
+    foaf:familyName "Seidler"^^xsd:string,
+        "Seidler" ;
+    foaf:firstName "Marie"^^xsd:string,
+        "Marie" ;
+    cmo:known-as-a cmk:alto,
+        cmk:mezzo-soprano,
+        cmk:soprano ;
+    cmo:sings-in cmk:eglise-st-francois-lausanne-20211112T2000,
+        cmk:kulturpalast-dresden-20230604T1930,
+        cmk:musiikkitalo-20251221T1600,
+        cmk:musiikkitalo-20260301T0000,
+        cmk:musiikkitalo-20260303T0000,
+        cmk:musiikkitalo-concert-hall-20230528T0000,
+        cmk:rudolfinum-dvorak-hall-20260521T2000,
+        cmk:temppeliaukio-church-20260519T1900,
+        cmk:tonhalle-dusseldorf-20230602T2000 .
+
+cmk:mariette-reefman a foaf:Person ;
+    foaf:familyName "Reefman" ;
+    foaf:firstName "Mariette" ;
+    cmo:known-as-a cmk:violist ;
+    cmo:plays-in cmk:sibelius-academy-concert-hall-20241029T1900 .
+
+cmk:marika-holtta a foaf:Person ;
+    foaf:familyName "Hölttä" ;
+    foaf:firstName "Marika" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:alexander-theatre-20230922T0000 .
+
+cmk:marine-lafdal-franc a foaf:Person ;
+    foaf:familyName "Lafdal-Franc" ;
+    foaf:firstName "Marine" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:finlandia-hall-20211121T1600 .
+
+cmk:marine-sablonnière a foaf:Person ;
+    foaf:familyName "Sablonnière" ;
+    foaf:firstName "Marine" ;
+    cmo:known-as-a cmk:recorder-player ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20241231T2000 .
+
+cmk:mario-hossen a foaf:Person ;
+    foaf:familyName "Hossen" ;
+    foaf:firstName "Mario" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:varna-summer-international-music-festival-20220914T1900 .
+
+cmk:maris-kupcs a foaf:Person ;
+    foaf:familyName "Kupčs"^^xsd:string ;
+    foaf:firstName "Māris"^^xsd:string ;
+    cmo:conducts-in cmk:musiikkitalo-20260419T1600 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:markku-luolajan-mikkola a foaf:Person ;
+    foaf:familyName "Luolajan-Mikkola" ;
+    foaf:firstName "Markku" ;
+    cmo:known-as-a cmk:viola-da-gambist ;
+    cmo:plays-in cmk:church-of-the-holy-cross-rauma-20230311T1900,
+        cmk:musiikkitalo-organo-hall-20230312T1600 .
+
+cmk:mats-lillhannus a foaf:Person ;
+    foaf:familyName "Lillhannus",
+        "Lillhannus"^^xsd:string ;
+    foaf:firstName "Mats",
+        "Mats"^^xsd:string ;
+    cmo:known-as-a cmk:conductor,
+        cmk:ensemble-member,
+        cmk:tenor ;
+    cmo:performs-in cmk:church-of-the-holy-cross-rauma-20210331T1900,
+        cmk:musiikkitalo-20210402T1800 ;
+    cmo:sings-in cmk:old-church-helsinki-20200510T1600,
+        cmk:stor-sarvlaks-manor-20240627T1900,
+        cmk:tarinmaa-janakkala-20240628T2000 .
+
+cmk:matthias-liener a foaf:Person ;
+    foaf:familyName "Liener" ;
+    foaf:firstName "Matthias" ;
+    cmo:known-as-a cmk:baritone ;
+    cmo:sings-in cmk:liszt-academy-budapest-20251020T1930,
+        cmk:musiikkitalo-20251018T1900 .
+
+cmk:menno-van-delft a foaf:Person ;
+    foaf:familyName "van Delft" ;
+    foaf:firstName "Menno" ;
+    cmo:known-as-a cmk:harpsichordist ;
+    cmo:plays-in cmk:stor-sarvlaks-manor-20250626T1900 .
+
+cmk:mika-haaranen a foaf:Person ;
+    foaf:familyName "Haaranen" ;
+    foaf:firstName "Mika" ;
+    cmo:known-as-a cmk:lighting-designer ;
+    cmo:performs-in cmk:mupa-budapest-20221117T1900,
+        cmk:musiikkitalo-concert-hall-20221113T1900 .
+
+cmk:mikaela-commondt a foaf:Person ;
+    foaf:familyName "Commondt" ;
+    foaf:firstName "Mikaela" ;
+    cmo:conducts-in cmk:church-of-the-holy-cross-rauma-20221215T1900 ;
+    cmo:known-as-a cmk:choir-director .
+
+cmk:mikko-perkola a foaf:Person ;
+    foaf:familyName "Perkola" ;
+    foaf:firstName "Mikko" ;
+    cmo:known-as-a cmk:viola-da-gamba-player ;
+    cmo:plays-in cmk:musiikkitalo-20251231T1800 .
+
+cmk:minna-kangas a foaf:Person ;
+    foaf:familyName "Kangas" ;
+    foaf:firstName "Minna" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:musiikkitalo-20250323T1600 .
+
+cmk:mojca-jerman a foaf:Person ;
+    foaf:familyName "Jerman"^^xsd:string ;
+    foaf:firstName "Mojca"^^xsd:string ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:church-of-the-holy-cross-rauma-20260607T1800 .
+
+cmk:monica-groop a foaf:Person ;
+    foaf:familyName "Groop" ;
+    foaf:firstName "Monica" ;
+    cmo:known-as-a cmk:mezzo-soprano ;
+    cmo:sings-in cmk:church-of-the-holy-cross-rauma-20221215T1900,
+        cmk:st-pauls-church-helsinki-20200912T1900 .
+
+cmk:monikkosali-klaukkala a cmo:Venue ;
+    rdfs:label "Monikkosali, Klaukkala" .
+
+cmk:monta-martinsone a foaf:Person ;
+    foaf:familyName "Martinsone"^^xsd:string ;
+    foaf:firstName "Monta"^^xsd:string ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-20260419T1600 .
+
+cmk:morten-grove-frandsen a foaf:Person ;
+    foaf:familyName "Frandsen" ;
+    foaf:firstName "Morten Grove" ;
+    cmo:known-as-a cmk:countertenor ;
+    cmo:sings-in cmk:orangerieschloss-sanssouci-potsdam-20260628T2100,
+        cmk:stor-sarvlaks-manor-courtyard-20260626T1900 .
+
+cmk:mozart-idomeneo a cmo:Programme ;
+    rdfs:label "Mozart: Idomeneo" .
+
+cmk:mupa-budapest a cmo:Venue ;
+    rdfs:label "MÜPA, Budapest",
+        "Müpa Budapest" .
+
+cmk:musiikkitalo-20210925T1900 a mo:Performance ;
+    schema:name "Bach, Haydn, Hässler" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-09-25T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-haydn-hassler/"^^xsd:anyURI .
+
+cmk:musiikkitalo-camerata a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Musiikkitalo, Camerata" .
+
+cmk:musiikkitalo-camerata-hall a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Musiikkitalo, Camerata Hall" .
+
+cmk:musiikkitalo-concert-hall a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Musiikkitalo, Concert Hall" .
+
+cmk:musiikkitalo-helsinki-music-centre-concert-hall a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Musiikkitalo (Helsinki Music Centre), Concert Hall" .
+
+cmk:musiikkitalo-organo-hall a cmo:ConcertHall ;
+    rdfs:label "Musiikkitalo, Organo Hall" .
+
+cmk:mustpeade-maja-tallinn a cmo:Venue ;
+    rdfs:label "Mustpeade maja, Tallinn" .
+
+cmk:márton-komáromi a foaf:Person ;
+    foaf:familyName "Komáromi" ;
+    foaf:firstName "Márton" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20241222T1600 .
+
+cmk:namest-nad-oslavou a cmo:Venue .
+
+cmk:namestnad-oslavou a cmo:Venue .
+
+cmk:national-opera-almi-hall a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "National Opera, Almi Hall" .
+
+cmk:nazhar-kozhukar a foaf:Person ;
+    foaf:familyName "Kozhukar" ;
+    foaf:firstName "Nazhar" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:st-lawrence-church-janakkala-20230701T1800 .
+
+cmk:new-years-concert-alla-napoletana a cmo:Programme ;
+    rdfs:label "New Year's Concert: Alla Napoletana" .
+
+cmk:new-years-concert-bach-improvisations a cmo:Programme ;
+    rdfs:label "New Year's Concert: Bach & Improvisations" .
+
+cmk:new-years-concerts a cmo:Programme ;
+    rdfs:label "New Year's Concerts" .
+
+cmk:nico-van-der-meel a foaf:Person ;
+    foaf:familyName "van der Meel" ;
+    foaf:firstName "Nico" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:eglise-st-francois-lausanne-20211112T2000,
+        cmk:st-johns-church-helsinki-20211106T1800 .
+
+cmk:nikolina-hrkac a foaf:Person ;
+    foaf:familyName "Hrkać" ;
+    foaf:firstName "Nikolina" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:church-of-the-holy-cross-rauma-20220701T1900,
+        cmk:janakkala-20220702T1800 .
+
+cmk:no-210-wettstreit-der-instrumente a cmo:Programme .
+
+cmk:nocturnalia-ensemble a cmo:Programme .
+
+cmk:nuria-rial a foaf:Person ;
+    foaf:familyName "Rial",
+        "Rial"^^xsd:string ;
+    foaf:firstName "Núria",
+        "Núria"^^xsd:string ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:chekhov-festival-moscow-20211130T1900,
+        cmk:dance-house-helsinki-erkko-hall-20230316T0000,
+        cmk:finnish-national-opera-almi-hall-20200610T0000,
+        cmk:finnish-national-opera-and-ballet-almi-hall-20210302T0000,
+        cmk:finnish-national-opera-and-ballet-almi-hall-20210319T0000,
+        cmk:le-carre-sainte-maxime-20231028T2030,
+        cmk:tampere-talo-20231018T1900,
+        cmk:turku-city-theatre-20250204T1900 .
+
+cmk:núria-rial a foaf:Person ;
+    foaf:familyName "Rial" ;
+    foaf:firstName "Núria" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:teatro-mayor-bogota-20241129T0000 .
+
+cmk:old-church-helsinki a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Old Church, Helsinki" .
+
+cmk:olivier-fortin a foaf:Person ;
+    foaf:familyName "Fortin" ;
+    foaf:firstName "Olivier" ;
+    cmo:known-as-a cmk:harpsichordist ;
+    cmo:plays-in cmk:auditorio-de-zaragoza-20220530T1930,
+        cmk:festival-mahler-jihlava-20220601T1800 .
+
+cmk:online a cmo:Venue ;
+    rdfs:label "Online" .
+
+cmk:orchestra a cmo:ensemble-identity .
+
+cmk:pablo-tejedor-gutierrez a foaf:Person ;
+    foaf:familyName "Tejedor-Gutiérrez"^^xsd:string ;
+    foaf:firstName "Pablo"^^xsd:string ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:church-of-the-holy-cross-rauma-20260607T1800 .
+
+cmk:parupalli-phalgun a foaf:Person ;
+    foaf:familyName "Phalgun" ;
+    foaf:firstName "Parupalli" ;
+    cmo:known-as-a cmk:percussionist ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20221231T1900 .
+
+cmk:patrick-grahl a foaf:Person ;
+    foaf:familyName "Grahl"^^xsd:string,
+        "Grahl" ;
+    foaf:firstName "Patrick"^^xsd:string,
+        "Patrick" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:mupa-budapest-20221117T1900,
+        cmk:musiikkitalo-20260301T0000,
+        cmk:musiikkitalo-20260303T0000,
+        cmk:musiikkitalo-concert-hall-20221113T1900,
+        cmk:rudolfinum-dvorak-hall-20260521T2000,
+        cmk:temppeliaukio-church-20260519T1900 .
+
+cmk:pauliina-fred a foaf:Person ;
+    foaf:familyName "Fred" ;
+    foaf:firstName "Pauliina" ;
+    cmo:known-as-a cmk:flautist,
+        cmk:flutist,
+        cmk:traverso-player,
+        cmk:vocalist ;
+    cmo:performs-in cmk:church-of-the-holy-cross-rauma-20251213T1900 ;
+    cmo:plays-in cmk:church-of-the-holy-cross-rauma-20231021T1900,
+        cmk:keltainen-talo-janakkala-20200919T2000,
+        cmk:musiikkitalo-20231022T1600,
+        cmk:musiikkitalo-20250323T1600 .
+
+cmk:paulinum-leipzig a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Paulinum – Aula und Universitätskirche St. Pauli"^^xsd:string .
+
+cmk:pavao-masic a foaf:Person ;
+    foaf:familyName "Mašić" ;
+    foaf:firstName "Pavao" ;
+    cmo:known-as-a cmk:organist ;
+    cmo:plays-in cmk:church-of-the-holy-cross-rauma-20220701T1900,
+        cmk:janakkala-20220702T1800,
+        cmk:janakkala-20220703T1800 .
+
+cmk:peter-barany a foaf:Person ;
+    foaf:familyName "Bárány" ;
+    foaf:firstName "Péter" ;
+    cmo:known-as-a cmk:countertenor ;
+    cmo:sings-in cmk:estonia-concert-hall-tallinn-20220409T1900,
+        cmk:musiikkitalo-concert-hall-20220410T1600 .
+
+cmk:peter-magyar a foaf:Person ;
+    foaf:familyName "Magyar" ;
+    foaf:firstName "Péter" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:mupa-budapest-20221117T1900,
+        cmk:musiikkitalo-concert-hall-20221113T1900 .
+
+cmk:philippe-estephe a foaf:Person ;
+    foaf:familyName "Estèphe" ;
+    foaf:firstName "Philippe" ;
+    cmo:known-as-a cmk:baritone ;
+    cmo:sings-in cmk:musiikkitalo-20230926T1900 .
+
+cmk:pierre-hantai a foaf:Person ;
+    foaf:familyName "Hantaï"^^xsd:string,
+        "Hantaï" ;
+    foaf:firstName "Pierre"^^xsd:string,
+        "Pierre" ;
+    cmo:known-as-a cmk:harpsichordist ;
+    cmo:plays-in cmk:festival-de-musica-antigua-de-gijon-20200712T2100,
+        cmk:paulinum-leipzig-20260621T1500,
+        cmk:povoa-de-varzim-music-festival-20200710T2145,
+        cmk:povoa-de-varzim-music-festival-20210714T2100,
+        cmk:saint-petersburg-early-music-festival-20200927T1900,
+        cmk:st-petersburg-early-music-festival-20211018T0000 .
+
+cmk:pippa-reid-foster a foaf:Person ;
+    foaf:familyName "Reid-Foster" ;
+    foaf:firstName "Pippa" ;
+    cmo:known-as-a cmk:harpist ;
+    cmo:plays-in cmk:janakkala-20200628T1800,
+        cmk:janakkala-20220702T2000 .
+
+cmk:povoa-de-varzim-music-festival a cmo:Venue .
+
+cmk:purcell-choir-budapest a schema:Organization ;
+    rdfs:label "Purcell Choir Budapest" ;
+    cmo:performs-in cmk:estonia-concert-hall-tallinn-20220409T1900,
+        cmk:musiikkitalo-concert-hall-20220410T1600 .
+
+cmk:purcell-the-fairy-queen a cmo:Programme ;
+    rdfs:label "Purcell: The Fairy Queen" .
+
+cmk:rachel-redmond a foaf:Person ;
+    foaf:familyName "Redmond" ;
+    foaf:firstName "Rachel" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-20211003T0000 .
+
+cmk:rameau-marais-forqueray a cmo:Programme ;
+    rdfs:label "Rameau, Marais, Forqueray" .
+
+cmk:reeta-tuoresmaki a foaf:Person ;
+    foaf:familyName "Tuoresmäki" ;
+    foaf:firstName "Reeta" ;
+    cmo:known-as-a cmk:set-designer ;
+    cmo:performs-in cmk:alexander-theatre-20230922T0000 .
+
+cmk:reinoud-van-mechelen a foaf:Person ;
+    foaf:familyName "Van Mechelen" ;
+    foaf:firstName "Reinoud" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:musiikkitalo-20230926T1900 .
+
+cmk:reka-szilvay a foaf:Person ;
+    foaf:familyName "Szilvay" ;
+    foaf:firstName "Réka" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:sibelius-academy-concert-hall-20261122T1600,
+        cmk:varna-summer-international-music-festival-20220914T1900 .
+
+cmk:rinat-shaham a foaf:Person ;
+    foaf:familyName "Shaham" ;
+    foaf:firstName "Rinat" ;
+    cmo:known-as-a cmk:mezzosoprano ;
+    cmo:sings-in cmk:musiikkitalo-20211003T0000 .
+
+cmk:rita-filipe a foaf:Person ;
+    foaf:familyName "Filipe" ;
+    foaf:firstName "Rita" ;
+    cmo:known-as-a cmk:alto ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20230129T1600 .
+
+cmk:roberta-mameli a foaf:Person ;
+    foaf:familyName "Mameli" ;
+    foaf:firstName "Roberta" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-20250222T1900 .
+
+cmk:romina-lischka a foaf:Person ;
+    foaf:familyName "Lischka" ;
+    foaf:firstName "Romina" ;
+    cmo:known-as-a cmk:violist-da-gamba ;
+    cmo:plays-in cmk:old-church-20240921T1900 .
+
+cmk:rudolf-lutz a foaf:Person ;
+    foaf:familyName "Lutz" ;
+    foaf:firstName "Rudolf" ;
+    cmo:known-as-a cmk:organist ;
+    cmo:plays-in cmk:janakkala-20200628T1800 .
+
+cmk:rudolfinum-dvorak-hall a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Rudolfinum – Dvořák Hall"^^xsd:string .
+
+cmk:ryba-stabat-mater a cmo:Programme .
+
+cmk:réka-szilvay a foaf:Person ;
+    foaf:familyName "Szilvay" ;
+    foaf:firstName "Réka" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:sibelius-academy-concert-hall-20241029T1900 .
+
+cmk:saale-fischer a foaf:Person ;
+    foaf:familyName "Fischer" ;
+    foaf:firstName "Saale" ;
+    cmo:known-as-a cmk:harpsichordist ;
+    cmo:plays-in cmk:st-lawrence-church-janakkala-20230701T1800 .
+
+cmk:saara-kukko a foaf:Person ;
+    foaf:familyName "Kukko"^^xsd:string,
+        "Kukko" ;
+    foaf:firstName "Saara"^^xsd:string,
+        "Saara" ;
+    cmo:conducts-in cmk:church-of-the-holy-cross-rauma-20221215T1900 ;
+    cmo:known-as-a cmk:choir-director,
+        cmk:mezzo-soprano,
+        cmk:vocalist ;
+    cmo:performs-in cmk:church-of-the-holy-cross-rauma-20251213T1900 ;
+    cmo:sings-in cmk:church-of-the-holy-cross-rauma-20250416T1800,
+        cmk:church-of-the-holy-cross-rauma-20260401T1900 .
+
+cmk:sabine-devieilhe a foaf:Person ;
+    foaf:familyName "Devieilhe" ;
+    foaf:firstName "Sabine" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-20230926T1900 .
+
+cmk:saint-petersburg-early-music-festival a cmo:Venue .
+
+cmk:sam-chapman a foaf:Person ;
+    foaf:familyName "Chapman" ;
+    foaf:firstName "Sam" ;
+    cmo:known-as-a cmk:archlutenist ;
+    cmo:plays-in cmk:stor-sarvlaks-manor-20260625T1900 .
+
+cmk:sampo-pyhala a foaf:Person ;
+    foaf:familyName "Pyhälä" ;
+    foaf:firstName "Sampo" ;
+    cmo:known-as-a cmk:visualisation-artist ;
+    cmo:performs-in cmk:mupa-budapest-20221117T1900,
+        cmk:musiikkitalo-concert-hall-20221113T1900 .
+
+cmk:sankt-olofs-kyrka-falkoping a cmo:ConcertHall .
+
+cmk:sara-mingardo a foaf:Person ;
+    foaf:familyName "Mingardo" ;
+    foaf:firstName "Sara" ;
+    cmo:known-as-a cmk:alto ;
+    cmo:sings-in cmk:stor-sarvlaks-manor-20250627T1900 .
+
+cmk:satish-kumar a foaf:Person ;
+    foaf:familyName "Kumar" ;
+    foaf:firstName "Satish" ;
+    cmo:known-as-a cmk:mridangam-player ;
+    cmo:plays-in cmk:musiikkitalo-20201231T1900,
+        cmk:teatro-thalia-lisbon-20210106T1900 .
+
+cmk:savonlinna-opera-festival a cmo:Venue ;
+    rdfs:label "Savonlinna Opera Festival" .
+
+cmk:savonlinna-opera-festival-20250729T1900 a mo:Performance ;
+    schema:name "Purcell: The Fairy Queen" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-07-29T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/purcell-the-fairy-queen/"^^xsd:anyURI .
+
+cmk:schubert-schonberg a cmo:Programme ;
+    rdfs:label "Schubert, Schönberg" .
+
+cmk:schumann-genoveva a cmo:Programme,
+        schema:CreativeWork ;
+    rdfs:label "Schumann: Genoveva" ;
+    schema:name "Schumann: Genoveva" .
+
+cmk:schumann-liszt-sibelius a cmo:Programme .
+
+cmk:schumann-requiem-cello-concerto a cmo:Programme .
+
+cmk:sebastian-bausch a foaf:Person ;
+    foaf:familyName "Bausch" ;
+    foaf:firstName "Sebastian" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:musiikkitalo-camerata-hall-20230212T1600 .
+
+cmk:shanghai-daning-theatre a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Shanghai Daning Theatre" .
+
+cmk:shashank-subramanyam a foaf:Person ;
+    foaf:familyName "Subramanyam" ;
+    foaf:firstName "Shashank" ;
+    cmo:known-as-a cmk:flutist ;
+    cmo:plays-in cmk:musiikkitalo-20201231T1900,
+        cmk:musiikkitalo-concert-hall-20221231T1900,
+        cmk:teatro-thalia-lisbon-20210106T1900 .
+
+cmk:sietze-de-vries a foaf:Person ;
+    foaf:familyName "de Vries" ;
+    foaf:firstName "Sietze" ;
+    cmo:known-as-a cmk:organist ;
+    cmo:plays-in cmk:musiikkitalo-20250304T1900 .
+
+cmk:siobhan-stagg a foaf:Person ;
+    foaf:familyName "Stagg" ;
+    foaf:firstName "Siobhan" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:concertgebouw-amsterdam-20241116T1300,
+        cmk:kulturzentrum-herne-20241117T1900,
+        cmk:musiikkitalo-concert-hall-20241110T0000 .
+
+cmk:sirkka-liisa-kaakinen-pilch a foaf:Person ;
+    foaf:familyName "Kaakinen-Pilch" ;
+    foaf:firstName "Sirkka-Liisa" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:musiikkitalo-20201122T1600 .
+
+cmk:skip-sempé a foaf:Person ;
+    foaf:familyName "Sempé" ;
+    foaf:firstName "Skip" ;
+    cmo:conducts-in cmk:musiikkitalo-concert-hall-20241231T2000 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:sonja-runje a foaf:Person ;
+    foaf:familyName "Runje" ;
+    foaf:firstName "Sonja" ;
+    cmo:known-as-a cmk:alto,
+        cmk:mezzosoprano,
+        cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-20211003T0000,
+        cmk:musiikkitalo-20231217T1600,
+        cmk:musiikkitalo-20261222T1900,
+        cmk:theater-an-der-wien-20231218T1900,
+        cmk:theater-an-der-wien-20261220T1900 .
+
+cmk:sophie-harmsen a foaf:Person ;
+    foaf:familyName "Harmsen" ;
+    foaf:firstName "Sophie" ;
+    cmo:known-as-a cmk:mezzo-soprano ;
+    cmo:sings-in cmk:musiikkitalo-20201025T1600 .
+
+cmk:sophie-junker a foaf:Person ;
+    foaf:familyName "Junker" ;
+    foaf:firstName "Sophie" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-20201025T1600 .
+
+cmk:spira-ensemble a cmo:ensemble-identity ;
+    rdfs:label "Spira Ensemble" ;
+    cmo:performs-in cmk:musiikkitalo-20261222T1900 .
+
+cmk:st-lawrence-church-janakkala a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "St Lawrence Church Janakkala",
+        "St Lawrence Church, Janakkala" .
+
+cmk:st-lawrence-church-vantaa a cmo:ConcertHall,
+        cmo:Venue .
+
+cmk:st-pauls-church-helsinki a cmo:ConcertHall .
+
+cmk:stabat-mater a cmo:Programme ;
+    rdfs:label "Stabat Mater" .
+
+cmk:stabat-mater-bach-byrd-vivaldi a cmo:Programme .
+
+cmk:steven-isserlis a foaf:Person ;
+    foaf:familyName "Isserlis"^^xsd:string ;
+    foaf:firstName "Steven"^^xsd:string ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:musiikkitalo-20260301T0000,
+        cmk:musiikkitalo-20260303T0000 .
+
+cmk:sweelinck-scheidemann-bach-turk a cmo:Programme ;
+    rdfs:label "Sweelinck, Scheidemann, Bach, Türk" .
+
+cmk:szilard-szilagyi a foaf:Person ;
+    foaf:familyName "Szilágyi" ;
+    foaf:firstName "Szilárd" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:mupa-budapest-20221117T1900,
+        cmk:musiikkitalo-concert-hall-20221113T1900 .
+
+cmk:szilveszter-szélpál a foaf:Person ;
+    foaf:familyName "Szélpál" ;
+    foaf:firstName "Szilveszter" ;
+    cmo:known-as-a cmk:baritone ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20241222T1600 .
+
+cmk:taavi-oramo a foaf:Person ;
+    foaf:familyName "Oramo" ;
+    foaf:firstName "Taavi" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:stor-sarvlaks-manor-20240627T1900,
+        cmk:tarinmaa-janakkala-20240628T2000 .
+
+cmk:tarinmaa-janakkala a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Tarinmaa, Janakkala" .
+
+cmk:tarinmaa-turenki-tervakoski-20250627T2000 a mo:Performance ;
+    cmo:performs-in cmk:helsinki-baroque-orchestra,
+        cmk:orfeo-futuro,
+        cmk:utopia-chamber-choir ;
+    schema:name "Janakkala Baroque 2025" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-06-27T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/janakkala-baroque-2025/"^^xsd:anyURI .
+
+cmk:tarja-nyberg a foaf:Person ;
+    foaf:familyName "Nyberg" ;
+    foaf:firstName "Tarja" ;
+    cmo:known-as-a cmk:vocalist ;
+    cmo:performs-in cmk:church-of-the-holy-cross-rauma-20251213T1900 .
+
+cmk:tassis-christoyannis a foaf:Person ;
+    foaf:familyName "Christoyannis" ;
+    foaf:firstName "Tassis" ;
+    cmo:known-as-a cmk:baritone ;
+    cmo:sings-in cmk:musiikkitalo-20230926T1900 .
+
+cmk:tatu-kauppinen a foaf:Person ;
+    foaf:familyName "Kauppinen" ;
+    foaf:firstName "Tatu" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:sibelius-academy-concert-hall-20241029T1900 .
+
+cmk:tbilisi-baroque-festival a cmo:Venue ;
+    rdfs:label "Tbilisi Baroque Festival" .
+
+cmk:teatro-mayor-bogota a cmo:Venue ;
+    rdfs:label "Teatro Mayor, Bogotá" .
+
+cmk:teatro-thalia-lisbon a cmo:Venue ;
+    rdfs:label "Teatro Thalia, Lisbon" .
+
+cmk:tempo-rubato-colloquium a cmo:Programme .
+
+cmk:temppeliaukio-church a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Temppeliaukio Church"^^xsd:string,
+        "Temppeliaukio Church" .
+
+cmk:teppo-lampela a foaf:Person ;
+    foaf:familyName "Lampela"^^xsd:string ;
+    foaf:firstName "Teppo"^^xsd:string ;
+    cmo:known-as-a cmk:conductor ;
+    cmo:performs-in cmk:church-of-the-holy-cross-rauma-20210331T1900,
+        cmk:musiikkitalo-20210402T1800 .
+
+cmk:tero-saarinen a foaf:Person ;
+    foaf:familyName "Saarinen" ;
+    foaf:firstName "Tero" ;
+    cmo:known-as-a cmk:choreographer ;
+    cmo:performs-in cmk:finnish-national-opera-almi-hall-20200610T0000 .
+
+cmk:tero-saarinen-company a foaf:Group,
+        cmo:ensemble-identity ;
+    rdfs:label "Tero Saarinen Company" ;
+    cmo:performs-in cmk:finnish-national-opera-almi-hall-20200610T0000 .
+
+cmk:terry-wey a foaf:Person ;
+    foaf:familyName "Wey",
+        "Wey"^^xsd:string ;
+    foaf:firstName "Terry",
+        "Terry"^^xsd:string ;
+    cmo:known-as-a cmk:countertenor ;
+    cmo:sings-in cmk:brucknerhaus-linz-20240324T1800,
+        cmk:live-stream-music-from-the-17th-century-england-20210130T2100,
+        cmk:temppeliaukio-church-20240323T1900 .
+
+cmk:thomas-dolie a foaf:Person ;
+    foaf:familyName "Dolié" ;
+    foaf:firstName "Thomas" ;
+    cmo:known-as-a cmk:baritone ;
+    cmo:sings-in cmk:musiikkitalo-20230926T1900 .
+
+cmk:tomas-djupsjobacka a foaf:Person ;
+    foaf:familyName "Djupsjöbacka" ;
+    foaf:firstName "Tomas" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:sibelius-academy-concert-hall-20261122T1600 .
+
+cmk:tomaz-sevsek a foaf:Person ;
+    foaf:familyName "Sevšek",
+        "Sevšek"^^xsd:string ;
+    foaf:firstName "Tomaž",
+        "Tomaž"^^xsd:string ;
+    cmo:known-as-a cmk:harpsichordist ;
+    cmo:performs-in cmk:church-of-the-holy-cross-rauma-20210130T1900 ;
+    cmo:plays-in cmk:live-stream-music-from-the-17th-century-england-20210130T2100,
+        cmk:musiikkitalo-20210131T1600,
+        cmk:stor-sarvlaks-manor-20260625T1900 .
+
+cmk:tonhalle-dusseldorf a cmo:Venue ;
+    rdfs:label "Tonhalle, Düsseldorf" .
+
+cmk:topi-lehtipuu a foaf:Person ;
+    foaf:familyName "Lehtipuu",
+        "Lehtipuu"^^xsd:string ;
+    foaf:firstName "Topi",
+        "Topi"^^xsd:string ;
+    cmo:known-as-a cmk:soprano,
+        cmk:tenor ;
+    cmo:sings-in cmk:chekhov-festival-moscow-20211130T1900,
+        cmk:dance-house-helsinki-erkko-hall-20230316T0000,
+        cmk:finnish-national-opera-almi-hall-20200610T0000,
+        cmk:finnish-national-opera-and-ballet-almi-hall-20210302T0000,
+        cmk:finnish-national-opera-and-ballet-almi-hall-20210319T0000,
+        cmk:le-carre-sainte-maxime-20231028T2030,
+        cmk:tampere-talo-20231018T1900,
+        cmk:teatro-mayor-bogota-20241129T0000,
+        cmk:turku-city-theatre-20250204T1900 .
+
+cmk:tuija-hakkila a foaf:Person ;
+    foaf:familyName "Hakkila" ;
+    foaf:firstName "Tuija" ;
+    cmo:known-as-a cmk:fortepianist ;
+    cmo:plays-in cmk:musiikkitalo-20201122T1600 .
+
+cmk:tuomas-katajala a foaf:Person ;
+    foaf:familyName "Katajala"^^xsd:string,
+        "Katajala" ;
+    foaf:firstName "Tuomas"^^xsd:string,
+        "Tuomas" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:concertgebouw-amsterdam-20241116T1300,
+        cmk:kulturzentrum-herne-20241117T1900,
+        cmk:musiikkitalo-20260329T1600,
+        cmk:musiikkitalo-concert-hall-20241110T0000,
+        cmk:rudolfinum-dvorak-hall-20260521T2000,
+        cmk:temppeliaukio-church-20260519T1900 .
+
+cmk:tuomo-suni a foaf:Person ;
+    foaf:familyName "Suni"^^xsd:string ;
+    foaf:firstName "Tuomo"^^xsd:string ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:paulinum-leipzig-20260621T1500 .
+
+cmk:turku-1825 a cmo:Programme ;
+    rdfs:label "Turku 1825" .
+
+cmk:turku-city-theatre a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Turku City Theatre" .
+
+cmk:turku-conservatory-chamber-choir a cmo:ensemble-identity ;
+    rdfs:label "Turku Conservatory Chamber Choir" ;
+    cmo:performs-in cmk:musiikkitalo-20261222T1900 .
+
+cmk:tuuli-lindeberg a foaf:Person ;
+    foaf:familyName "Lindeberg",
+        "Lindeberg"^^xsd:string ;
+    foaf:firstName "Tuuli",
+        "Tuuli"^^xsd:string ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:performs-in cmk:church-of-the-holy-cross-rauma-20210331T1900,
+        cmk:musiikkitalo-20210402T1800 ;
+    cmo:sings-in cmk:alexander-theatre-20230922T0000,
+        cmk:balder-hall-20220427T1900,
+        cmk:church-of-the-holy-cross-rauma-20241214T1900,
+        cmk:musiikkitalo-concert-hall-20230129T1600,
+        cmk:national-opera-almi-hall-20240201T1900,
+        cmk:old-church-helsinki-20200510T1600,
+        cmk:st-pauls-church-helsinki-20200912T1900,
+        cmk:stor-sarvlaks-manor-20240627T1900,
+        cmk:tarinmaa-janakkala-20240628T2000 .
+
+cmk:ulrike-hofbauer a foaf:Person ;
+    foaf:familyName "Hofbauer" ;
+    foaf:firstName "Ulrike" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-camerata-20240512T1600 .
+
+cmk:vaasa-church a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Vaasa church" .
+
+cmk:vaasa-city-hall a cmo:Venue .
+
+cmk:valentina-inzko-fink a foaf:Person ;
+    foaf:familyName "Inzko Fink" ;
+    foaf:firstName "Valentina" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:liszt-academy-budapest-20251020T1930,
+        cmk:musiikkitalo-20251018T1900 .
+
+cmk:varna-summer-international-music-festival a cmo:Venue ;
+    rdfs:label "Varna Summer International Music Festival" .
+
+cmk:vesselina-kasarova a foaf:Person ;
+    foaf:familyName "Kasarova" ;
+    foaf:firstName "Vesselina" ;
+    cmo:known-as-a cmk:mezzo-soprano,
+        cmo:mezzo-soprano ;
+    cmo:sings-in cmk:elbphilharmonie-hamburg-20210529T2000,
+        cmk:kulturpalast-dresden-20210527T1930,
+        cmk:mupa-budapest-20201116T1900,
+        cmk:mupa-budapest-20210524T1900,
+        cmk:musiikkitalo-20201025T0000,
+        cmk:musiikkitalo-20210601T1900,
+        cmk:tonhalle-dusseldorf-20210530T2000 .
+
+cmk:ville-saukkonen a foaf:Person ;
+    foaf:familyName "Saukkonen" ;
+    foaf:firstName "Ville" ;
+    cmo:known-as-a cmk:director ;
+    cmo:performs-in cmk:alexander-theatre-20230922T0000 .
+
+cmk:vilma-jaa a foaf:Person ;
+    foaf:familyName "Jää" ;
+    foaf:firstName "Vilma" ;
+    cmo:known-as-a cmk:vocalist ;
+    cmo:sings-in cmk:musiikkitalo-20251231T1800 .
+
+cmk:vilppu-kiljunen a foaf:Person ;
+    foaf:familyName "Kiljunen" ;
+    foaf:firstName "Vilppu" ;
+    cmo:known-as-a cmk:stage-director ;
+    cmo:performs-in cmk:mupa-budapest-20221117T1900,
+        cmk:musiikkitalo-concert-hall-20221113T1900 .
+
+cmk:viola-thurnay a foaf:Person ;
+    foaf:familyName "Thurnay" ;
+    foaf:firstName "Viola" ;
+    cmo:known-as-a cmk:alto ;
+    cmo:sings-in cmk:musiikkitalo-20250928T1600 .
+
+cmk:vittorio-ghielmi a foaf:Person ;
+    foaf:familyName "Ghielmi" ;
+    foaf:firstName "Vittorio" ;
+    cmo:conducts-in cmk:old-church-20250518T1600 ;
+    cmo:known-as-a cmk:conductor,
+        cmk:viola-da-gamba-player ;
+    cmo:plays-in cmk:old-church-20250518T1600 .
+
+cmk:vivaldi a cmo:Programme ;
+    rdfs:label "Vivaldi" .
+
+cmk:vivaldi-mozart-sibelius a cmo:Programme ;
+    rdfs:label "Vivaldi, Mozart, Sibelius" .
+
+cmk:vox-armonia a foaf:Group,
+        cmo:ensemble-identity ;
+    rdfs:label "Vox Armonia"^^xsd:string,
+        "Vox Armonia" ;
+    cmo:performs-in cmk:church-of-the-holy-cross-rauma-20251213T1900,
+        cmk:church-of-the-holy-cross-rauma-20260401T1900 .
+
+cmk:vox-armonia-quartet a cmo:ensemble-identity ;
+    cmo:performs-in cmk:church-of-the-holy-cross-rauma-20250125T1900 .
+
+cmk:wiebke-weidanz a foaf:Person ;
+    foaf:familyName "Weidanz" ;
+    foaf:firstName "Wiebke" ;
+    cmo:known-as-a cmk:fortepianist ;
+    cmo:plays-in cmk:musiikkitalo-camerata-hall-20220227T1600 .
+
+cmk:wranitzky-kapelle a foaf:Group,
+        cmo:ensemble-identity,
+        schema:Organization ;
+    rdfs:label "Wranitzky Kapelle" ;
+    cmo:performs-in cmk:janakkala-20200628T1800,
+        cmk:musiikkitalo-camerata-hall-20220320T1600 .
+
+cmk:yavor-genov a foaf:Person ;
+    foaf:familyName "Genov" ;
+    foaf:firstName "Yavor" ;
+    cmo:known-as-a cmk:lutenist ;
+    cmo:plays-in cmk:janakkala-20220701T2000 .
+
+cmk:yorck-felix-speer a foaf:Person ;
+    foaf:familyName "Speer" ;
+    foaf:firstName "Yorck Felix" ;
+    cmo:known-as-a cmk:bass,
+        cmk:soprano,
+        cmo:bass ;
+    cmo:sings-in cmk:elbphilharmonie-hamburg-20210529T2000,
+        cmk:kulturpalast-dresden-20210527T1930,
+        cmk:kulturpalast-dresden-20230604T1930,
+        cmk:mupa-budapest-20201116T1900,
+        cmk:mupa-budapest-20210524T1900,
+        cmk:musiikkitalo-20201025T0000,
+        cmk:musiikkitalo-20210601T1900,
+        cmk:musiikkitalo-concert-hall-20230528T0000,
+        cmk:tonhalle-dusseldorf-20210530T2000,
+        cmk:tonhalle-dusseldorf-20230602T2000 .
+
+cmk:zacharias-galaviz a foaf:Person ;
+    foaf:familyName "Galaviz" ;
+    foaf:firstName "Zacharias" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:kulturpalast-dresden-20230604T1930,
+        cmk:musiikkitalo-concert-hall-20230528T0000,
+        cmk:tonhalle-dusseldorf-20230602T2000 .
+
+cmk:zefira-valova a foaf:Person ;
+    foaf:familyName "Valova"^^xsd:string,
+        "Valova" ;
+    foaf:firstName "Zefira"^^xsd:string,
+        "Zefira" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:janakkala-20220701T2000,
+        cmk:live-stream-schubert-20210212T1900,
+        cmk:paulinum-leipzig-20260621T1500,
+        cmk:st-lawrence-church-vantaa-20200806T1900 .
+
+cmk:zoltan-megyesi a foaf:Person ;
+    foaf:familyName "Megyesi" ;
+    foaf:firstName "Zoltán" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:days-of-early-music-vac-20210710T2000,
+        cmk:estonia-concert-hall-tallinn-20220409T1900,
+        cmk:musiikkitalo-20250928T1600,
+        cmk:musiikkitalo-concert-hall-20220410T1600 .
+
+cmk:zoltan-melkovics a foaf:Person ;
+    foaf:familyName "Melkovics" ;
+    foaf:firstName "Zoltán" ;
+    cmo:known-as-a cmk:baritone ;
+    cmo:sings-in cmk:musiikkitalo-20250928T1600 .
+
+cmk:zurcher-sing-akademie a cmo:ensemble-identity ;
+    rdfs:label "Zürcher Sing-Akademie" .
+
+cmo:ensemble a cmo:ensemble-identity .
+
+cmk:alexander-theatre a cmo:Venue .
+
+cmk:archlutenist a cmo:musical-identity .
+
+cmk:bach-kirchoff a cmo:Programme ;
+    rdfs:label "Bach, Kirchoff" .
+
+cmk:bach-linike-telemann a cmo:Programme ;
+    rdfs:label "Bach, Linike, Telemann",
+        "CANCELLED Bach, Linike, Telemann" .
+
+cmk:bach-reincken a mo:MusicalWork,
+        cmo:Programme ;
+    rdfs:label "Bach, Reincken" .
+
+cmk:baroque-and-folk-music-in-the-park a cmo:Programme ;
+    rdfs:label "Baroque and Folk Music in the Park" .
+
+cmk:bassoonist a cmo:musical-identity .
+
+cmk:belle-epoque a cmo:Programme ;
+    rdfs:label "Belle Époque" .
+
+cmk:brandenburg-concertos a cmo:Programme ;
+    rdfs:label "Brandenburg Concertos" .
+
+cmk:buda-castle-haydneum-festival-budapest a cmo:Venue .
+
+cmk:cancelled-bach a cmo:Programme ;
+    rdfs:label "CANCELLED Bach" .
+
+cmk:cancelled-new-years-concert a cmo:Programme ;
+    rdfs:label "CANCELLED New Year's Concert" .
+
+cmk:carl-philipp-emanuel-bach a cmo:Programme ;
+    rdfs:label "Carl Philipp Emanuel Bach" .
+
+cmk:chekhov-festival-moscow a cmo:Venue ;
+    rdfs:label "Chekhov Festival, Moscow" .
+
+cmk:chorus-master a cmo:musical-identity .
+
+cmk:chorusmaster a cmo:musical-identity .
+
+cmk:christmas-concert-bach-bassani-mazzocchi a cmo:Programme ;
+    rdfs:label "Christmas Concert: Bach, Bassani, Mazzocchi" .
+
+cmk:christmas-concert-gilles a cmo:Programme ;
+    rdfs:label "Christmas Concert: Gilles" .
+
+cmk:church-of-the-holy-cross-rauma-20210515T1900 a mo:Performance ;
+    schema:name "CANCELLED Weiss" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-05-15T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/weiss/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma-20211106T2000 a mo:Performance ;
+    cmo:has-programme cmk:weiss ;
+    schema:location cmk:church-of-the-holy-cross-rauma ;
+    schema:name "Weiss" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-11-06T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/weiss-2/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma-20211208T1900 a mo:Performance ;
+    cmo:has-programme cmk:bach-brandenburg-concertos ;
+    schema:location cmk:church-of-the-holy-cross-rauma ;
+    schema:name "Bach: Brandenburg Concertos" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-12-08T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/7185/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma-20240310T1800 a mo:Performance ;
+    cmo:has-programme cmk:musica-baltica-e-mediterranea ;
+    schema:name "Musica Baltica e Mediterranea" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-03-10T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/duben-collection-4/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma-20240406T1900 a mo:Performance ;
+    cmo:has-programme cmk:bach-kunst-der-fuge ;
+    schema:name "Bach: Kunst der Fuge" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-04-06T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-kunst-der-fuge-2/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma-20241214T1900 a mo:Performance ;
+    schema:name "Christmas Concert" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-12-14T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/christmas-concert-11/"^^xsd:anyURI .
+
+cmk:clarinetist a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:colin-de-blamont-two-operas-for-louis-xv a cmo:Programme ;
+    rdfs:label "Colin de Blamont: Two Operas for Louis XV" .
+
+cmk:director a cmo:musical-identity .
+
+cmk:eglise-st-francois-lausanne a cmo:Venue ;
+    rdfs:label "Eglise St-François, Lausanne" .
+
+cmk:fidel-player a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:finlandia-hall a cmo:Venue ;
+    rdfs:label "Finlandia Hall" .
+
+cmk:glasperlenspiel-festival-tartu a cmo:Venue .
+
+cmk:harpist a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:haydn-missa-cellensis a cmo:Programme ;
+    rdfs:label "Haydn: Missa Cellensis" .
+
+cmk:haydn-mozart-schubert a cmo:Programme ;
+    rdfs:label "Haydn, Mozart, Schubert" .
+
+cmk:helsinki-baroque-orchestra-25-years a cmo:Programme ;
+    rdfs:label "Helsinki Baroque Orchestra 25 Years!" .
+
+cmk:il-suonar-parlante a cmo:ensemble-identity ;
+    rdfs:label "Il Suonar Parlante" .
+
+cmk:in-eine-bessre-welt-entruckt a cmo:Programme ;
+    rdfs:label "…in eine bessre Welt entrückt" .
+
+cmk:janakkala a cmo:Venue ;
+    rdfs:label "Janakkala" .
+
+cmk:janakkala-baroque-2020 a mo:MusicalWork ;
+    rdfs:label "Janakkala Baroque 2020" .
+
+cmk:kantele-player a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:la-mandorle a cmo:ensemble-identity ;
+    rdfs:label "La Mandorle" .
+
+cmk:le-carre-sainte-maxime a cmo:Venue .
+
+cmk:les-bohemes-galantes a cmo:Programme ;
+    rdfs:label "Les Bohèmes galantes" .
+
+cmk:lighting-designer a cmo:musical-identity .
+
+cmk:live-stream-haydn-mozart-schubert-schumann a cmo:Programme ;
+    rdfs:label "LIVE STREAM: Haydn, Mozart, Schubert, Schumann" .
+
+cmk:mad-songs a cmo:Programme ;
+    rdfs:label "Mad Songs" .
+
+cmk:mendelssohn-spohr-dvorak a cmo:Programme ;
+    rdfs:label "Mendelssohn, Spohr, Dvořák" .
+
+cmk:mittsommernachtstraum a cmo:Programme ;
+    rdfs:label "Mittsommernachtstraum" .
+
+cmk:monteverdi a cmo:Programme ;
+    rdfs:label "Monteverdi" .
+
+cmk:moog-player a cmo:musical-identity .
+
+cmk:mridangam-player a cmo:instrumentalist-identity .
+
+cmk:musica-baltica-e-mediterranea a cmo:Programme ;
+    rdfs:label "Musica Baltica e Mediterranea" .
+
+cmk:musiikkitalo-20250304T1900 a mo:Performance ;
+    schema:name "Improvisational Organ Concert" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-03-04T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/improvisational-organ-concert/"^^xsd:anyURI .
+
+cmk:musiikkitalo-camerata-20240407T1600 a mo:Performance ;
+    cmo:has-programme cmk:bach-kunst-der-fuge ;
+    schema:name "Bach: Kunst der Fuge" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-04-07T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-kunst-der-fuge/"^^xsd:anyURI .
+
+cmk:musiikkitalo-camerata-20250126T1600 a mo:Performance ;
+    schema:name "Bach, Scarlatti" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-01-26T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-scarlatti/"^^xsd:anyURI .
+
+cmk:musiikkitalo-camerata-hall-20220320T1600 a mo:Performance ;
+    cmo:has-programme cmk:les-bohemes-galantes ;
+    schema:name "Les Bohèmes galantes" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-03-20T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/les-bohemes-galantes/"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20221211T1600 a mo:Performance ;
+    cmo:has-programme cmk:christmas-concert-gilles ;
+    schema:name "Christmas Concert: Gilles" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-12-11T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/christmas-concert-4/"^^xsd:anyURI .
+
+cmk:narrator a cmo:musical-identity .
+
+cmk:new-years-concert a cmo:Programme ;
+    rdfs:label "New Year's Concert",
+        "New Year's Concert - Les Indes Galantes" .
+
+cmk:oboist a cmo:musical-identity .
+
+cmk:old-church a cmo:Venue ;
+    rdfs:label "Old Church" .
+
+cmk:old-church-20211209T1900 a mo:Performance ;
+    cmo:has-programme cmk:bach-brandenburg-concertos ;
+    schema:location cmk:old-church ;
+    schema:name "Bach: Brandenburg Concertos" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-12-09T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/christmas-concert-3/"^^xsd:anyURI .
+
+cmk:old-church-20241026T1900 a mo:Performance ;
+    schema:name "Vivaldi, Mozart, Sibelius" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-10-26T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/vivaldi-mozart-sibelius/"^^xsd:anyURI .
+
+cmk:orangerieschloss-sanssouci-potsdam a cmo:Venue ;
+    rdfs:label "Orangerieschloss Sanssouci, Potsdam" .
+
+cmk:orfeo-orchestra a foaf:Group,
+        cmo:ensemble-identity ;
+    rdfs:label "Orfeo Orchestra" ;
+    cmo:performs-in cmk:musiikkitalo-20230926T1900 .
+
+cmk:percussionist a cmo:musical-identity .
+
+cmk:pergolesi-lo-frate-nnamorato a cmo:Programme ;
+    rdfs:label "Pergolesi: Lo frate 'nnamorato" .
+
+cmk:piae-cantiones a cmo:Programme ;
+    rdfs:label "Piae Cantiones" .
+
+cmk:queen-christina-400-years a cmo:Programme ;
+    rdfs:label "Queen Christina 400 Years" .
+
+cmk:rameau-les-boreades a cmo:Programme ;
+    rdfs:label "Rameau: Les Boréades" .
+
+cmk:rioja-forum-logrono a cmo:Venue ;
+    rdfs:label "Rioja Forum, Logroño" .
+
+cmk:rioja-forum-logrono-20211210T2030 a mo:Performance ;
+    cmo:has-programme cmk:bach-brandenburg-concertos ;
+    schema:location cmk:rioja-forum-logrono ;
+    schema:name "Bach: Brandenburg Concertos" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-12-10T20:30:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-brandenburg-concertos-2/"^^xsd:anyURI .
+
+cmk:roman-de-la-rose a cmo:Programme ;
+    rdfs:label "Roman de la Rose" .
+
+cmk:saarinen-monteverdi-third-practice a mo:MusicalWork,
+        schema:CreativeWork ;
+    rdfs:label "Saarinen – Monteverdi: Third Practice" ;
+    schema:name "Saarinen–Monteverdi: Third Practice" .
+
+cmk:schutz-scheidt a cmo:Programme ;
+    rdfs:label "Schütz, Scheidt" .
+
+cmk:seicento-italiano-ferrari-merula-monteverdi a cmo:Programme ;
+    rdfs:label "\"Seicento italiano\": Ferrari, Merula, Monteverdi" .
+
+cmk:set-designer a cmo:musical-identity .
+
+cmk:sibelius-academy-concert-hall a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Sibelius Academy, Concert Hall" .
+
+cmk:st-johns-church-helsinki a cmo:Venue ;
+    rdfs:label "St John's Church, Helsinki" .
+
+cmk:st-lawrence-church-janakkala-20230702T1800 a mo:Performance ;
+    schema:name "Bach: Die Kunst der Fuge" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-07-02T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/janakkala-baroque-2023/"^^xsd:anyURI .
+
+cmk:st-petersburg-early-music-festival a cmo:Venue ;
+    rdfs:label "St Petersburg Early Music Festival" .
+
+cmk:stage-director a cmo:musical-identity .
+
+cmk:stor-sarvlaks-manor a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Stor-Sarvlaks Manor" .
+
+cmk:stor-sarvlaks-manor-20240628T1900 a mo:Performance ;
+    cmo:has-programme cmk:music-from-queen-christinas-sweden-and-italy ;
+    schema:name "Music from Queen Christina's Sweden and Italy" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-06-28T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/music-from-queen-christinas-sweden-and-italy/"^^xsd:anyURI .
+
+cmk:stor-sarvlaks-manor-20250626T1900 a mo:Performance ;
+    schema:name "Sweelinck, Scheidemann, Bach, Türk" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-06-26T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/sweelinck-scheidemann-bach-turk/"^^xsd:anyURI .
+
+cmk:stor-sarvlaks-manor-courtyard a cmo:Venue ;
+    rdfs:label "Stor-Sarvlaks Manor courtyard" .
+
+cmk:string-sextets a cmo:Programme ;
+    rdfs:label "String Sextets" .
+
+cmk:tampere-talo a cmo:Venue .
+
+cmk:tbilisi-baroque-festival-20221127T1930 a mo:Performance ;
+    cmo:has-programme cmk:bach-kirchoff-reincken ;
+    schema:name "Bach, Kirchoff, Reincken" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-11-27T19:30:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-kirchoff-reincken-10/"^^xsd:anyURI .
+
+cmk:teatro-auditorio-jose-luis-perales-cuenca a cmo:Venue ;
+    rdfs:label "Teatro Auditorio José Luis Perales, Cuenca" .
+
+cmk:teatro-auditorio-jose-luis-perales-cuenca-20211214T2030 a mo:Performance ;
+    cmo:has-programme cmk:bach-brandenburg-concertos ;
+    schema:location cmk:teatro-auditorio-jose-luis-perales-cuenca ;
+    schema:name "Bach: Brandenburg Concertos" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-12-14T20:30:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-brandenburg-concertos-3/"^^xsd:anyURI .
+
+cmk:theater-an-der-wien a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Theater an der Wien",
+        "Theater and der Wien" .
+
+cmk:theorbist a cmo:instrumentalist-identity .
+
+cmk:utopia-chamber-choir a cmo:ensemble-identity ;
+    rdfs:label "Utopia Chamber Choir" .
+
+cmk:viljandi-early-music-festival a cmo:Venue .
+
+cmk:viola-darco-player a cmo:instrumentalist-identity .
+
+cmk:violist-da-gamba a cmo:instrumentalist-identity .
+
+cmk:visualisation-artist a cmo:musical-identity .
+
+cmk:vivaldi-ottone-in-villa a cmo:Programme ;
+    rdfs:label "Vivaldi: Ottone in villa" .
+
+cmk:weiss a cmo:Programme ;
+    rdfs:label "Weiss" .
+
+cmo:chorus-master a cmo:musical-identity .
+
+cmo:clarinetist a cmo:musical-identity .
+
+cmo:conductor a cmo:musical-identity .
+
+cmo:fortepianist a cmo:musical-identity .
+
+cmo:harpsichordist a cmo:musical-identity .
+
+cmo:lutenist a cmo:musical-identity .
+
+cmo:mezzo-soprano a cmo:musical-identity .
+
+cmo:tenor a cmo:musical-identity .
+
+cmk:allerheiligen-hofkirche-munich-20250416T1930 a mo:Performance ;
+    schema:name "Buxtehude, Frescobaldi, Tunder, Victoria" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-04-16T19:30:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/buxtehude-frescobaldi-tunder-victoria-3/"^^xsd:anyURI .
+
+cmk:allerheiligen-hofkirche-residenz-munchen-20220414T2000 a mo:Performance ;
+    cmo:has-programme cmk:bach-kirchoff-reincken ;
+    schema:name "Bach, Kirchoff, Reincken" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-04-14T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-kirchoff-reincken-8/"^^xsd:anyURI .
+
+cmk:auditorio-de-zaragoza-20220530T1930 a mo:Performance ;
+    cmo:has-programme cmk:bach-kirchoff-reincken ;
+    schema:name "Bach, Kirchoff, Reincken" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-05-30T19:30:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-kirchoff-reincken-6/"^^xsd:anyURI .
+
+cmk:bach-benda-lithander-mozart a cmo:Programme ;
+    rdfs:label "Bach, Benda, Lithander, Mozart" .
+
+cmk:bach-handel-pergolesi a cmo:Programme ;
+    rdfs:label "Bach, Handel, Pergolesi" .
+
+cmk:bach-kunst-der-fuge a cmo:Programme ;
+    rdfs:label "Bach: Kunst der Fuge" .
+
+cmk:bach-st-matthew-passion a cmo:Programme ;
+    rdfs:label "Bach: St Matthew Passion" .
+
+cmk:balder-hall-20220427T1900 a mo:Performance ;
+    cmo:has-programme cmk:roman-de-la-rose ;
+    schema:name "Roman de la Rose" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-04-27T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/roman-de-la-rose/"^^xsd:anyURI .
+
+cmk:burghof-lorrach-20250417T2000 a mo:Performance ;
+    schema:name "Buxtehude, Frescobaldi, Tunder, Victoria" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-04-17T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/buxtehude-frescobaldi-tunder-victoria-2/"^^xsd:anyURI .
+
+cmk:c-p-e-bach-sonatas-for-violin-and-harpsichord a cmo:Programme ;
+    rdfs:label "C. P. E. Bach: Sonatas for violin and harpsichord" .
+
+cmk:chapelle-de-la-trinite-lyon-20250415T2000 a mo:Performance ;
+    schema:name "Buxtehude, Frescobaldi, Tunder, Victoria" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-04-15T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/buxtehude-frescobaldi-tunder-victoria/"^^xsd:anyURI .
+
+cmk:choir-director a cmo:musical-identity .
+
+cmk:choreographer a cmo:musical-identity .
+
+cmk:church-of-the-holy-cross-rauma-20200920T1800 a mo:Performance ;
+    schema:name "Bach and the Art of Fugue" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-09-20T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/beethoven-donizetti-mozart-schumann/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma-20220919T1900 a mo:Performance ;
+    cmo:has-programme cmk:hortus-musicus-50-years ;
+    schema:name "Hortus Musicus 50 Years!" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-09-19T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/hortus-musicus-50-years-2/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma-20230311T1900 a mo:Performance ;
+    schema:name "Forqueray" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-03-11T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/forqueray-2/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma-20230422T1900 a mo:Performance ;
+    schema:name "Georgian Sinfonietta" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-04-22T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/georgian-sinfonietta-2/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma-20231021T1900 a mo:Performance ;
+    cmo:has-programme cmk:bach-benda-lithander-mozart ;
+    cmo:takes-place-at cmk:church-of-the-holy-cross-rauma ;
+    schema:name "Bach, Benda, Lithander, Mozart" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-10-21T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-benda-lithander-mozart-2/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma-20231210T1800 a mo:Performance ;
+    schema:name "Christmas Concert" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-12-10T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/christmas-concert-6/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma-20240701T1900 a mo:Performance ;
+    cmo:has-programme cmk:c-p-e-bach-sonatas-for-violin-and-harpsichord ;
+    schema:name "C. P. E. Bach: Sonatas for violin and harpsichord" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-07-01T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/c-p-e-bach-sonatas-for-violin-and-harpsichord/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma-20250125T1900 a mo:Performance ;
+    schema:name "Bach, Scarlatti" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-01-25T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-scarlatti-2/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma-20250416T1800 a mo:Performance ;
+    schema:name "Vivaldi" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-04-16T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/vivaldi/"^^xsd:anyURI .
+
+cmk:costume-designer a cmo:musical-identity .
+
+cmk:dancer a cmo:musical-identity .
+
+cmk:duben-collection a cmo:Programme,
+        schema:CreativeWork ;
+    rdfs:label "Düben Collection" ;
+    schema:name "Düben Collection" .
+
+cmk:ensemble a cmo:ensemble-identity,
+        cmo:musical-identity .
+
+cmk:espoo-cathedral-20210701T2100 a mo:Performance ;
+    schema:name "Bach, Reincken" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-07-01T21:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-reincken-6/"^^xsd:anyURI .
+
+cmk:festival-de-musica-antigua-de-peniscola-20220731T2230 a mo:Performance ;
+    cmo:has-programme cmk:bach-kirchoff-reincken ;
+    schema:name "Bach, Kirchoff, Reincken" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-07-31T22:30:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-kirchoff-reincken-9/"^^xsd:anyURI .
+
+cmk:festival-mahler-jihlava-20200622T1900 a mo:Performance ;
+    cmo:performs-in-programme cmk:bach-kirchoff-reincken ;
+    schema:name "CANCELLED Bach, Kirchoff, Reincken" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-06-22T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-kirchoff-reincken/"^^xsd:anyURI .
+
+cmk:festival-mahler-jihlava-20220601T1800 a mo:Performance ;
+    cmo:has-programme cmk:bach-kirchoff-reincken ;
+    schema:name "Bach, Kirchoff, Reincken" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-06-01T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-kirchoff-reincken-7/"^^xsd:anyURI .
+
+cmk:flautist a cmo:musical-identity .
+
+cmk:flutist a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:glasperlenspiel-festival-tartu-20230709T1900 a mo:Performance ;
+    cmo:has-programme cmk:duben-collection ;
+    cmo:takes-place-at cmk:glasperlenspiel-festival-tartu ;
+    schema:name "Düben Collection" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-07-09T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/duben-collection-3/"^^xsd:anyURI .
+
+cmk:graun-bach-pasticcio-passion a cmo:Programme ;
+    rdfs:label "Graun/Bach: Pasticcio Passion" .
+
+cmk:hortus-musicus-50-years a cmo:Programme ;
+    rdfs:label "Hortus Musicus 50 Years!" .
+
+cmk:janakkala-20220702T2000 a mo:Performance ;
+    cmo:has-programme cmk:janakkala-baroque-2022 ;
+    schema:name "Janakkala Baroque 2022 - Folk Music Evening" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-07-02T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/janakkala-baroque/"^^xsd:anyURI .
+
+cmk:janakkala-20220703T1800 a mo:Performance ;
+    cmo:has-programme cmk:janakkala-baroque-2022 ;
+    schema:name "Janakkala Baroque 2022 - Fantasticus" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-07-03T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/janakkala-baroque/"^^xsd:anyURI .
+
+cmk:keltainen-talo-janakkala-20200919T2000 a mo:Performance ;
+    schema:name "Chamber Music in Candlelight" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-09-19T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/chamber-music-in-candlelight/"^^xsd:anyURI .
+
+cmk:live-stream-schubert-20210212T1900 a mo:Performance ;
+    schema:name "LIVE STREAM: Schubert"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-02-12T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/live-stream-zefira-valova-aapo-hakkinen/"^^xsd:anyURI .
+
+cmk:lutenist a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:monikkosali-klaukkala-20211006T1900 a mo:Performance ;
+    schema:name "Bach, Kirchoff, Reincken" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-10-06T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-kirchoff-reincken-5/"^^xsd:anyURI .
+
+cmk:monikkosali-klaukkala-20230416T1500 a mo:Performance ;
+    schema:name "Düben Collection" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-04-16T15:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/duben-collection/"^^xsd:anyURI .
+
+cmk:music-from-queen-christinas-sweden-and-italy a cmo:Programme ;
+    rdfs:label "Music from Queen Christina's Sweden and Italy" .
+
+cmk:musiikkitalo-20201122T1600 a mo:Performance ;
+    schema:name "Bach, Telemann, Veracini" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-11-22T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-2/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20210611T2030 a mo:Performance ;
+    schema:name "STREAM: Schumann, Liszt, Sibelius" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-06-11T20:30:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/stream-schumann-liszt-sibelius/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20231022T1600 a mo:Performance ;
+    cmo:has-programme cmk:bach-benda-lithander-mozart ;
+    cmo:takes-place-at cmk:musiikkitalo ;
+    schema:name "Bach, Benda, Lithander, Mozart" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-10-22T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-benda-lithander-mozart/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20250418T1800 a mo:Performance ;
+    cmo:performs-in cmk:helsinki-baroque-orchestra ;
+    schema:name "Stabat Mater" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-04-18T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/stabat-mater-5/"^^xsd:anyURI .
+
+cmk:musiikkitalo-camerata-hall-20220227T1600 a mo:Performance ;
+    cmo:has-programme cmk:in-eine-bessre-welt-entruckt ;
+    schema:name "…in eine bessre Welt entrückt" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-02-27T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/in-eine-bessre-welt-entruckt/"^^xsd:anyURI .
+
+cmk:musiikkitalo-camerata-hall-20220918T1600 a mo:Performance ;
+    cmo:has-programme cmk:hortus-musicus-50-years ;
+    schema:name "Hortus Musicus 50 Years!" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-09-18T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/hortus-musicus-50-years/"^^xsd:anyURI .
+
+cmk:musiikkitalo-camerata-hall-20230212T1600 a mo:Performance ;
+    cmo:has-programme cmk:belle-epoque ;
+    schema:name "Belle Époque" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-02-12T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/belle-epoque/"^^xsd:anyURI .
+
+cmk:musiikkitalo-camerata-hall-20230423T1600 a mo:Performance ;
+    schema:name "Georgian Sinfonietta" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-04-23T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/georgian-sinfonietta/"^^xsd:anyURI .
+
+cmk:musiikkitalo-organo-hall-20230312T1600 a mo:Performance ;
+    schema:name "Forqueray" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-03-12T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/forqueray/"^^xsd:anyURI .
+
+cmk:namest-nad-oslavou-20200614T1930 a mo:Performance ;
+    cmo:performs-in-programme cmk:bach-reincken ;
+    schema:name "CANCELLED Bach, Reincken" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-06-14T19:30:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-reincken/"^^xsd:anyURI .
+
+cmk:namestnad-oslavou-20210613T1930 a mo:Performance ;
+    schema:name "CANCELLED Bach, Reincken" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-06-13T19:30:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-reincken-5/"^^xsd:anyURI .
+
+cmk:online-20220108T1900 a mo:Performance ;
+    cmo:has-programme cmk:live-stream-haydn-mozart-schubert-schumann ;
+    schema:name "LIVE STREAM: Haydn, Mozart, Schubert, Schumann" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-01-08T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/stream-concert-haydn-mozart-schubert-schumann/"^^xsd:anyURI .
+
+cmk:orfeo-futuro a cmo:ensemble-identity ;
+    rdfs:label "Orfeo Futuro" .
+
+cmk:pianist a cmo:musical-identity .
+
+cmk:povoa-de-varzim-music-festival-20210714T2100 a mo:Performance ;
+    schema:name "Bach" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-07-14T21:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/povoa-de-varzim-music-festival/"^^xsd:anyURI .
+
+cmk:sankt-olofs-kyrka-falkoping-20200813T1900 a mo:Performance ;
+    schema:name "CANCELLED Bach, Reincken" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-08-13T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-reincken-4/"^^xsd:anyURI .
+
+cmk:schubert-alfonso-und-estrella a cmo:Programme ;
+    rdfs:label "Schubert: Alfonso und Estrella" .
+
+cmk:st-lawrence-church-janakkala-20200919T1800 a mo:Performance ;
+    schema:name "Bach and the Art of Fugue" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-09-19T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-and-the-art-of-the-fugue/"^^xsd:anyURI .
+
+cmk:st-lawrence-church-janakkala-20230630T2000 a mo:Performance ;
+    schema:name "Düben Collection – Becker, Buxtehude, Ritter" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-06-30T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/janakkala-baroque-2023/"^^xsd:anyURI .
+
+cmk:st-lawrence-church-vantaa-20210808T1900 a mo:Performance ;
+    schema:name "Bach, Kirchoff, Reincken" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-08-08T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-kirchoff-reincken-4/"^^xsd:anyURI .
+
+cmk:st-petersburg-early-music-festival-20211018T0000 a mo:Performance ;
+    cmo:has-programme cmk:cancelled-bach ;
+    schema:location cmk:st-petersburg-early-music-festival ;
+    schema:name "CANCELLED Bach" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-10-18T00:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-3/"^^xsd:anyURI .
+
+cmk:stor-sarvlaks-manor-20250627T1900 a mo:Performance ;
+    cmo:performs-in cmk:orfeo-futuro ;
+    schema:name "Italian Baroque" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-06-27T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/italian-baroque/"^^xsd:anyURI .
+
+cmk:tarinmaa-janakkala-20240629T1800 a mo:Performance ;
+    cmo:has-programme cmk:music-from-queen-christinas-sweden-and-italy ;
+    schema:name "Music from Queen Christina's Sweden and Italy" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-06-29T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/janakkala-baroque-2024/"^^xsd:anyURI .
+
+cmk:tarinmaa-janakkala-20240630T1800 a mo:Performance ;
+    cmo:has-programme cmk:c-p-e-bach-sonatas-for-violin-and-harpsichord ;
+    schema:name "C. P. E. Bach: Sonatas for violin and harpsichord" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-06-30T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/janakkala-baroque-2024/"^^xsd:anyURI .
+
+cmk:traverso-player a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:vaasa-church-20240309T1900 a mo:Performance ;
+    schema:name "Musica Baltica e Mediterranea" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-03-09T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/musica-baltica-e-mediterranea/"^^xsd:anyURI .
+
+cmk:viljandi-early-music-festival-20230708T1900 a mo:Performance ;
+    cmo:has-programme cmk:duben-collection ;
+    cmo:takes-place-at cmk:viljandi-early-music-festival ;
+    schema:name "Düben Collection" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-07-08T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/duben-collection-2/"^^xsd:anyURI .
+
+cmk:vivaldi-juditha-triumphans a cmo:Programme ;
+    rdfs:label "Vivaldi: Juditha triumphans" .
+
+cmo:baritone a cmo:musical-identity .
+
+cmo:soprano a cmo:musical-identity .
+
+cmk:auditorio-victor-villegas-murcia-20211215T2000 a mo:Performance ;
+    cmo:has-programme cmk:bach-brandenburg-concertos ;
+    schema:name "Bach: Brandenburg Concertos" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-12-15T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-brandenburg-concertos-4/"^^xsd:anyURI .
+
+cmk:bach-handel-vivaldi a cmo:Programme ;
+    rdfs:label "Bach, Handel, Vivaldi" .
+
+cmk:chekhov-festival-moscow-20211130T1900 a mo:Performance ;
+    cmo:has-programme cmk:monteverdi ;
+    schema:location cmk:chekhov-festival-moscow ;
+    schema:name "Monteverdi" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-11-30T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/third-practice/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Church of the Holy Cross, Rauma"^^xsd:string,
+        "Church of the Holy Cross, Rauma" .
+
+cmk:church-of-the-holy-cross-rauma-20201217T1900 a mo:Performance ;
+    schema:name "LIVE STREAM Christmas Concert" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-12-17T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/christmas-concert-2/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma-20210130T1900 a mo:Performance ;
+    schema:name "CANCELLED Bach, Linike, Telemann" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-01-30T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-linike-telemann-3/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma-20210924T1900 a mo:Performance ;
+    schema:name "Hume, Couperin, Marais" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-09-24T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/hume-couperin-marais/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma-20220701T1900 a mo:Performance ;
+    cmo:has-programme cmk:seicento-italiano-ferrari-merula-monteverdi ;
+    schema:name "\"Seicento italiano\": Ferrari, Merula, Monteverdi" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-07-01T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/seicento-italiano-castello-marini-merula/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma-20221215T1900 a mo:Performance ;
+    cmo:has-programme cmk:christmas-concert-bach-bassani-mazzocchi ;
+    schema:name "Christmas Concert: Bach, Bassani, Mazzocchi" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-12-15T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-bassani-mazzocchi/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma-20260209T1900 a mo:Performance ;
+    schema:name "Handel – Vivaldi"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-02-09T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/handel-vivaldi/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma-20260401T1900 a mo:Performance ;
+    schema:name "Stabat Mater – Bach, Byrd, Vivaldi"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-04-01T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/stabat-mater-bach-byrd-vivaldi/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma-20260607T1800 a mo:Performance ;
+    schema:name "Nocturnalia Ensemble"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-06-07T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/nocturnalia-ensemble/"^^xsd:anyURI .
+
+cmk:concertgebouw-amsterdam-20240120T1415 a mo:Performance ;
+    schema:name "Bach, Handel, Rebel" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-01-20T14:15:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-handel-rebel/"^^xsd:anyURI .
+
+cmk:ensemble-member a cmo:musical-identity .
+
+cmk:festival-de-musica-antigua-de-gijon-20200712T2100 a mo:Performance ;
+    schema:name "CANCELLED Bach, Reincken" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-07-12T21:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-reincken-3/"^^xsd:anyURI .
+
+cmk:janakkala-20220701T2000 a mo:Performance ;
+    cmo:has-programme cmk:janakkala-baroque-2022 ;
+    schema:name "Janakkala Baroque 2022 - Opening Concert" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-07-01T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/janakkala-baroque/"^^xsd:anyURI .
+
+cmk:janakkala-20220702T1800 a mo:Performance ;
+    cmo:has-programme cmk:janakkala-baroque-2022 ;
+    schema:name "Janakkala Baroque 2022 - Seicento Italiano" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-07-02T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/janakkala-baroque/"^^xsd:anyURI .
+
+cmk:klosterkirche-maulbronn-20260619T2000 a mo:Performance ;
+    schema:name "Johann Sebastian Bach: Klosterkonzerte Maulbronn"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-06-19T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/johann-sebastian-bach/"^^xsd:anyURI .
+
+cmk:mezzosoprano a cmo:musical-identity .
+
+cmk:musiikkitalo-20210131T1600 a mo:Performance ;
+    cmo:has-programme cmk:bach-linike-telemann ;
+    schema:name "CANCELLED Bach, Linike, Telemann"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-01-31T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-linike-telemann-2/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20210207T1600 a mo:Performance ;
+    cmo:has-programme cmk:haydn-mozart-schubert ;
+    schema:name "POSTPONED Haydn, Mozart, Schubert"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-02-07T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/haydn-mozart-schubert/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20210307T1600 a mo:Performance ;
+    cmo:has-programme cmk:brandenburg-concertos ;
+    schema:name "POSTPONED Brandenburg Concertos"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-03-07T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-brandenburg-concertos/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20210509T1600 a mo:Performance ;
+    schema:name "CANCELLED Haydn, Mozart, Schubert" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-05-09T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/haydn-mozart-schubert-2/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20231126T1600 a mo:Performance ;
+    cmo:has-programme cmk:mendelssohn-spohr-dvorak ;
+    cmo:takes-place-at cmk:musiikkitalo ;
+    schema:name "Mendelssohn, Spohr, Dvořák" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-11-26T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/mendelssohn-spohr-dvorak/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20240121T1600 a mo:Performance ;
+    schema:name "Bach, Handel, Rebel" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-01-21T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-handel-rebel-2/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20250222T1900 a mo:Performance ;
+    schema:name "Hamlet" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-02-22T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/hamlet/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20251111T1900 a mo:Performance ;
+    schema:name "Bach" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-11-11T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-4/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20260920T1600 a mo:Performance ;
+    cmo:has-programme cmk:queen-christina-400-years ;
+    schema:location cmk:musiikkitalo ;
+    schema:name "Queen Christina 400 Years" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-09-20T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/queen-christina-400-years/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20261018T1600 a mo:Performance ;
+    cmo:has-programme cmk:carl-philipp-emanuel-bach ;
+    schema:location cmk:musiikkitalo ;
+    schema:name "Carl Philipp Emanuel Bach" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-10-18T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/carl-philipp-emanuel-bach/"^^xsd:anyURI .
+
+cmk:musiikkitalo-camerata-20240512T1600 a mo:Performance ;
+    cmo:has-programme cmk:piae-cantiones ;
+    schema:name "Piae Cantiones" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-05-12T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/piae-cantiones/"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20221231T1900 a mo:Performance ;
+    cmo:has-programme cmk:new-years-concert ;
+    schema:name "New Year's Concert" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-12-31T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/new-years-concert-5/"^^xsd:anyURI .
+
+cmk:mustpeade-maja-tallinn-20230202T1900 a mo:Performance ;
+    cmo:has-programme cmk:schutz-scheidt ;
+    schema:name "Schütz, Scheidt" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-02-02T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/schutz-scheidt/"^^xsd:anyURI .
+
+cmk:old-church-20250518T1600 a mo:Performance ;
+    cmo:performs-in cmk:helsinki-baroque-orchestra,
+        cmk:il-suonar-parlante ;
+    schema:name "Rameau, Marais, Forqueray" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-05-18T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/rameau-marais-forqueray/"^^xsd:anyURI .
+
+cmk:old-church-helsinki-20201218T0000 a mo:Performance ;
+    schema:name "CANCELLED Christmas Concert" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-12-18T00:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/christmas-concert/"^^xsd:anyURI .
+
+cmk:povoa-de-varzim-music-festival-20200710T2145 a mo:Performance ;
+    schema:name "CANCELLED Bach, Reincken" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-07-10T21:45:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-reincken-2/"^^xsd:anyURI .
+
+cmk:purcell-choir a foaf:Group,
+        cmo:ensemble-identity ;
+    rdfs:label "Purcell Choir"^^xsd:string,
+        "Purcell Choir" ;
+    cmo:performs-in cmk:buda-castle-haydneum-festival-budapest-20231110T1930,
+        cmk:musiikkitalo-20230926T1900,
+        cmk:rudolfinum-dvorak-hall-20260521T2000,
+        cmk:temppeliaukio-church-20260519T1900 .
+
+cmk:saint-petersburg-early-music-festival-20200927T1900 a mo:Performance ;
+    schema:name "CANCELLED Bach" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-09-27T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach/"^^xsd:anyURI .
+
+cmk:st-lawrence-church-janakkala-20210704T1800 a mo:Performance ;
+    schema:name "J.S. Bach, Kirchoff, Reincken" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-07-04T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/janakkala-baroque-2021/"^^xsd:anyURI .
+
+cmk:st-lawrence-church-janakkala-20230701T1800 a mo:Performance ;
+    schema:name "Couperin, La Guerre, Marais" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-07-01T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/janakkala-baroque-2023/"^^xsd:anyURI .
+
+cmk:tbilisi-baroque-festival-20251109T1930 a mo:Performance ;
+    schema:name "Bach" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-11-09T19:30:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-7/"^^xsd:anyURI .
+
+cmk:teatro-mayor-bogota-20241129T0000 a mo:Performance ;
+    schema:name "Third Practice" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-11-29T00:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/third-practice-4/"^^xsd:anyURI .
+
+cmo:bass a cmo:musical-identity .
+
+cmk:brucknerhaus-linz-20240324T1800 a mo:Performance ;
+    cmo:has-programme cmk:bach-handel-pergolesi ;
+    schema:name "Bach, Handel, Pergolesi" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-03-24T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-handel-pergolesi-2/"^^xsd:anyURI .
+
+cmk:cathedrale-de-lausanne-20201106T2000 a mo:Performance ;
+    schema:name "CANCELLED Bach: St Matthew Passion" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-11-06T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/j-s-bach-st-matthew-passion/"^^xsd:anyURI .
+
+cmk:dance-house-helsinki-erkko-hall-20230316T0000 a mo:Performance ;
+    schema:name "Saarinen–Monteverdi: Third Practice" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-03-16T00:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/saarinen-monteverdi-third-practice/"^^xsd:anyURI .
+
+cmk:espoo-cathedral-20200702T2100 a mo:Performance ;
+    schema:name "CANCELLED La Rêveuse" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-07-02T21:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/haaveilija-la-reveuse/"^^xsd:anyURI .
+
+cmk:finnish-national-opera-and-ballet-almi-hall-20210302T0000 a mo:Performance ;
+    cmo:has-programme cmk:third-practice ;
+    schema:name "CANCELLED Third Practice"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-03-02T00:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/tero-saarinen-claudio-monteverdi-third-practice-4/"^^xsd:anyURI .
+
+cmk:finnish-national-opera-and-ballet-almi-hall-20210319T0000 a mo:Performance ;
+    cmo:has-programme cmk:third-practice ;
+    schema:name "STREAM: Third Practice"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-03-19T00:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/stream-third-practice/"^^xsd:anyURI .
+
+cmk:fortepianist a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:hangzhou-west-lake-university-20231225T1930 a mo:Performance ;
+    schema:name "Bach, Vivaldi" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-12-25T19:30:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-vivaldi-2/"^^xsd:anyURI .
+
+cmk:janakkala-baroque-2022 a cmo:Programme ;
+    rdfs:label "Janakkala Baroque 2022" .
+
+cmk:le-carre-sainte-maxime-20231028T2030 a mo:Performance ;
+    cmo:has-programme cmk:third-practice ;
+    cmo:takes-place-at cmk:le-carre-sainte-maxime ;
+    schema:name "Third Practice" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-10-28T20:30:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/third-practice-3/"^^xsd:anyURI .
+
+cmk:live-stream-bach-vivaldi-20210307T1600 a mo:Performance ;
+    schema:name "LIVE STREAM: Bach, Vivaldi"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-03-07T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/live-stream-bach-vivaldi/"^^xsd:anyURI .
+
+cmk:live-stream-music-from-the-17th-century-england-20210130T2100 a mo:Performance ;
+    schema:name "LIVE STREAM: Music from the 17th Century England"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-01-30T21:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/live-stream-music-from-the-17th-century-england/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20201231T1900 a mo:Performance ;
+    schema:name "CANCELLED New Year's Concerts" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-12-31T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/new-years-concerts/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20231231T1900 a mo:Performance ;
+    schema:name "New Year's Concert" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-12-31T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/new-years-concert-6/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20251231T1800 a mo:Performance ;
+    schema:name "New Year's Concert: Bach & Improvisations" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-12-31T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/new-years-concert-bach-improvisations/"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20221016T1600 a mo:Performance ;
+    cmo:has-programme cmk:helsinki-baroque-orchestra-25-years ;
+    schema:name "Helsinki Baroque Orchestra 25 Years!" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-10-16T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/helsinki-baroque-orchestra-25-years/"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20241231T1800 a mo:Performance ;
+    schema:name "BACH: DIE KUNST DER FUGE" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-12-31T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/new-years-concerts-2/"^^xsd:anyURI .
+
+cmk:recorder-player a cmo:instrumentalist-identity .
+
+cmk:shanghai-daning-theatre-20231223T1930 a mo:Performance ;
+    schema:name "Bach, Vivaldi" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-12-23T19:30:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-vivaldi/"^^xsd:anyURI .
+
+cmk:stor-sarvlaks-manor-20260625T1900 a mo:Performance ;
+    cmo:has-programme cmk:mad-songs ;
+    schema:location cmk:stor-sarvlaks-manor ;
+    schema:name "Mad Songs" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-06-25T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/mad-songs/"^^xsd:anyURI .
+
+cmk:tampere-talo-20231018T1900 a mo:Performance ;
+    cmo:has-programme cmk:third-practice ;
+    cmo:takes-place-at cmk:tampere-talo ;
+    schema:name "Third Practice" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-10-18T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/third-practice-2/"^^xsd:anyURI .
+
+cmk:teatro-thalia-lisbon-20210106T1900 a mo:Performance ;
+    schema:name "LIVE STREAM: New Year's Concert" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-01-06T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/new-years-concert-2/"^^xsd:anyURI .
+
+cmk:temppeliaukio-church-20240323T1900 a mo:Performance ;
+    cmo:has-programme cmk:bach-handel-pergolesi ;
+    schema:name "Bach, Handel, Pergolesi" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-03-23T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-handel-pergolesi/"^^xsd:anyURI .
+
+cmk:third-practice a cmo:Programme ;
+    rdfs:label "Third Practice" .
+
+cmk:turku-city-theatre-20250204T1900 a mo:Performance ;
+    schema:name "Third Practice" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-02-04T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/third-practice-5/"^^xsd:anyURI .
+
+cmk:varna-summer-international-music-festival-20220914T1900 a mo:Performance ;
+    cmo:has-programme cmk:bach-kirchoff ;
+    schema:name "Bach, Kirchoff" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-09-14T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-kirchoff/"^^xsd:anyURI .
+
+cmk:viola-da-gamba-player a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:altes-rathaus-regensburg-20220507T1930 a mo:Performance ;
+    cmo:has-programme cmk:bach-handel-vivaldi ;
+    schema:name "Bach, Handel, Vivaldi" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-05-07T19:30:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-handel-vivaldi-2/"^^xsd:anyURI .
+
+cmk:bach-brandenburg-concertos a cmo:Programme ;
+    rdfs:label "Bach: Brandenburg Concertos" .
+
+cmk:church-of-the-holy-cross-20220505T1900 a mo:Performance ;
+    cmo:has-programme cmk:bach-handel-vivaldi ;
+    schema:name "Bach, Handel, Vivaldi" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-05-05T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-handel-vivaldi/"^^xsd:anyURI .
+
+cmk:concertgebouw-amsterdam-20241116T1300 a mo:Performance ;
+    schema:name "Mozart: Idomeneo" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-11-16T13:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/mozart-idomeneo-2/"^^xsd:anyURI .
+
+cmk:helsinki-baroque-orchestra a foaf:Group,
+        cmo:ensemble-identity,
+        cmo:musical-identity,
+        schema:Organization ;
+    rdfs:label "Helsinki Baroque Orchestra",
+        "Helsinki Baroque Orchestra"^^xsd:string ;
+    foaf:name "Helsinki Baroque Orchestra" ;
+    cmo:performs-in cmk:alexander-theatre-20230922T0000,
+        cmk:allerheiligen-hofkirche-residenz-munchen-20220414T2000,
+        cmk:altes-rathaus-regensburg-20220507T1930,
+        cmk:auditorio-de-zaragoza-20220530T1930,
+        cmk:auditorio-victor-villegas-murcia-20211215T2000,
+        cmk:brucknerhaus-linz-20240324T1800,
+        cmk:buda-castle-haydneum-festival-budapest-20231110T1930,
+        cmk:cathedrale-de-lausanne-20201106T2000,
+        cmk:church-of-the-holy-cross-20220505T1900,
+        cmk:church-of-the-holy-cross-rauma-20200920T1800,
+        cmk:church-of-the-holy-cross-rauma-20201217T1900,
+        cmk:concertgebouw-amsterdam-20240120T1415,
+        cmk:dance-house-helsinki-erkko-hall-20230316T0000,
+        cmk:elbphilharmonie-hamburg-20210529T2000,
+        cmk:estonia-concert-hall-tallinn-20220409T1900,
+        cmk:festival-de-musica-antigua-de-gijon-20200712T2100,
+        cmk:festival-de-musica-antigua-de-peniscola-20220731T2230,
+        cmk:festival-mahler-jihlava-20200622T1900,
+        cmk:festival-mahler-jihlava-20220601T1800,
+        cmk:finnish-national-opera-almi-hall-20200610T0000,
+        cmk:finnish-national-opera-and-ballet-almi-hall-20210302T0000,
+        cmk:finnish-national-opera-and-ballet-almi-hall-20210319T0000,
+        cmk:glasperlenspiel-festival-tartu-20230709T1900,
+        cmk:hangzhou-west-lake-university-20231225T1930,
+        cmk:janakkala-20200628T1800,
+        cmk:klosterkirche-maulbronn-20260619T2000,
+        cmk:kulturpalast-dresden-20210527T1930,
+        cmk:kulturpalast-dresden-20230604T1930,
+        cmk:le-carre-sainte-maxime-20231028T2030,
+        cmk:live-stream-bach-vivaldi-20210307T1600,
+        cmk:monikkosali-klaukkala-20230416T1500,
+        cmk:mupa-budapest-20201116T1900,
+        cmk:mupa-budapest-20210524T1900,
+        cmk:musiikkitalo-20201025T0000,
+        cmk:musiikkitalo-20201025T1600,
+        cmk:musiikkitalo-20201231T1900,
+        cmk:musiikkitalo-20210307T1600,
+        cmk:musiikkitalo-20210601T1900,
+        cmk:musiikkitalo-20210611T2030,
+        cmk:musiikkitalo-20231126T1600,
+        cmk:musiikkitalo-20231217T1600,
+        cmk:musiikkitalo-20231231T1900,
+        cmk:musiikkitalo-20240121T1600,
+        cmk:musiikkitalo-20251111T1900,
+        cmk:musiikkitalo-20251221T1600,
+        cmk:musiikkitalo-20251231T2000,
+        cmk:musiikkitalo-20260301T0000,
+        cmk:musiikkitalo-20260303T0000,
+        cmk:musiikkitalo-20260329T1600,
+        cmk:musiikkitalo-20260920T1600,
+        cmk:musiikkitalo-20261018T1600,
+        cmk:musiikkitalo-20261222T1900,
+        cmk:musiikkitalo-camerata-20240512T1600,
+        cmk:musiikkitalo-concert-hall-20220410T1600,
+        cmk:musiikkitalo-concert-hall-20220508T1800,
+        cmk:musiikkitalo-concert-hall-20230528T0000,
+        cmk:musiikkitalo-helsinki-music-centre-concert-hall-20211231T0000,
+        cmk:namest-nad-oslavou-20200614T1930,
+        cmk:namestnad-oslavou-20210613T1930,
+        cmk:national-opera-almi-hall-20240201T1900,
+        cmk:old-church-helsinki-20200510T1600,
+        cmk:old-church-helsinki-20201218T0000,
+        cmk:orangerieschloss-sanssouci-potsdam-20260628T2100,
+        cmk:paulinum-leipzig-20260621T1500,
+        cmk:povoa-de-varzim-music-festival-20200710T2145,
+        cmk:rudolfinum-dvorak-hall-20260521T2000,
+        cmk:saint-petersburg-early-music-festival-20200927T1900,
+        cmk:sankt-olofs-kyrka-falkoping-20200813T1900,
+        cmk:shanghai-daning-theatre-20231223T1930,
+        cmk:st-lawrence-church-janakkala-20200919T1800,
+        cmk:st-lawrence-church-janakkala-20230630T2000,
+        cmk:st-lawrence-church-vantaa-20200806T1900,
+        cmk:st-pauls-church-helsinki-20200912T1900,
+        cmk:stor-sarvlaks-manor-20240628T1900,
+        cmk:stor-sarvlaks-manor-courtyard-20260626T1900,
+        cmk:tampere-talo-20231018T1900,
+        cmk:tarinmaa-janakkala-20240629T1800,
+        cmk:tbilisi-baroque-festival-20251109T1930,
+        cmk:teatro-thalia-lisbon-20210106T1900,
+        cmk:temppeliaukio-church-20240323T1900,
+        cmk:temppeliaukio-church-20260519T1900,
+        cmk:theater-an-der-wien-20231218T1900,
+        cmk:theater-an-der-wien-20261220T1900,
+        cmk:tonhalle-dusseldorf-20210530T2000,
+        cmk:tonhalle-dusseldorf-20230602T2000,
+        cmk:vaasa-church-20240309T1900,
+        cmk:varna-summer-international-music-festival-20220914T1900,
+        cmk:viljandi-early-music-festival-20230708T1900 .
+
+cmk:kulturzentrum-herne-20241117T1900 a mo:Performance ;
+    schema:name "Mozart: Idomeneo" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-11-17T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/mozart-idomeneo-3/"^^xsd:anyURI .
+
+cmk:machaut-messe-de-nostre-dame a mo:MusicalWork,
+        cmo:Programme ;
+    rdfs:label "Machaut: Messe de Nostre Dame" .
+
+cmk:musiikkitalo-20250928T1600 a mo:Performance ;
+    cmo:performs-in cmk:orfeo-orchestra,
+        cmk:purcell-choir ;
+    schema:name "Leipzig 1725" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-09-28T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/leipzig-1725/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20251231T2000 a mo:Performance ;
+    schema:name "New Year's Concert: Alla Napoletana" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-12-31T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/new-years-concert-alla-napoletana/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20260208T1600 a mo:Performance ;
+    schema:name "Delirio Amoroso" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-02-08T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/delirio-amoroso/"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20220508T1800 a mo:Performance ;
+    cmo:has-programme cmk:bach-handel-vivaldi ;
+    schema:name "Bach, Handel, Vivaldi" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-05-08T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/mothers-day-concert/"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20241110T0000 a mo:Performance ;
+    schema:name "Mozart: Idomeneo" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-11-10T00:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/mozart-idomeneo/"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20241231T2000 a mo:Performance ;
+    schema:name "BACH, HÄNDEL, RAMEAU, VIVALDI" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-12-31T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/new-years-concerts-2/"^^xsd:anyURI .
+
+cmk:old-church-helsinki-20200510T1600 a mo:Performance ;
+    cmo:performs-in-programme cmk:machaut-messe-de-nostre-dame ;
+    schema:name "CANCELLED Machaut: Messe de Nostre Dame" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-05-10T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/machaut-messe-de-nostre-dame/"^^xsd:anyURI .
+
+cmk:orangerieschloss-sanssouci-potsdam-20260628T2100 a mo:Performance ;
+    cmo:has-programme cmk:mittsommernachtstraum ;
+    schema:location cmk:orangerieschloss-sanssouci-potsdam ;
+    schema:name "Mittsommernachtstraum" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-06-28T21:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/mittsommernachtstraum/"^^xsd:anyURI .
+
+cmk:paulinum-leipzig-20260621T1500 a mo:Performance ;
+    schema:name "No 210 Wettstreit der Instrumente"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-06-21T15:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/johan-sebastian-bach/"^^xsd:anyURI .
+
+cmk:stor-sarvlaks-manor-courtyard-20260626T1900 a mo:Performance ;
+    cmo:has-programme cmk:baroque-and-folk-music-in-the-park ;
+    schema:location cmk:stor-sarvlaks-manor-courtyard ;
+    schema:name "Baroque and Folk Music in the Park" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-06-26T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/baroque-and-folk-music-in-the-park/"^^xsd:anyURI .
+
+cmk:vaasa-city-hall-20211014T1900 a mo:Performance ;
+    schema:name "Haydn: L'isola disabitata" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-10-14T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/7203/"^^xsd:anyURI .
+
+cmk:viola-da-gambist a cmo:musical-identity .
+
+cmk:violist a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:vocalist a cmo:musical-identity .
+
+cmo:lecturer a cmo:musical-identity .
+
+cmk:bach-kirchoff-reincken a mo:MusicalWork,
+        cmo:Programme ;
+    rdfs:label "Bach, Kirchoff, Reincken" .
+
+cmk:cellist a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:church-of-the-holy-cross-rauma-20251213T1900 a mo:Performance ;
+    schema:name "Christmas Concert" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-12-13T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/christmas-concert-13/"^^xsd:anyURI .
+
+cmk:countertenor a cmo:musical-identity,
+        cmo:voice-range .
+
+cmk:days-of-early-music-vac-20210710T2000 a mo:Performance ;
+    schema:name "Graun/Bach: Pasticcio Passion" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-07-10T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/graun-bach-pasticcio-passion/"^^xsd:anyURI .
+
+cmk:finnish-national-opera-almi-hall-20200610T0000 a mo:Performance ;
+    cmo:performs-in-programme cmk:saarinen-monteverdi-third-practice ;
+    schema:name "CANCELLED Saarinen – Monteverdi: Third Practice" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-06-10T00:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/tero-saarinen-claudio-monteverdi-third-practice-3/"^^xsd:anyURI .
+
+cmk:liszt-academy-budapest-20251020T1930 a mo:Performance ;
+    cmo:performs-in cmk:helsinki-baroque-orchestra,
+        cmk:purcell-choir ;
+    schema:name "Cartellieri: Rübezahl" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-10-20T19:30:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/cartellieri-rubezahl-2/"^^xsd:anyURI .
+
+cmk:musiikkitalo a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Musiikkitalo (Helsinki Music Centre), Concert Hall",
+        "Musiikkitalo, Concert Hall",
+        "Musiikkitalo, Concert Hall"^^xsd:string .
+
+cmk:musiikkitalo-20211003T0000 a mo:Performance ;
+    schema:name "Monteverdi | Purcell | Wagner: Liebestod" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-10-03T00:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/liebestod-monteverdi-purcell-wagner/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20231217T1600 a mo:Performance ;
+    schema:name "Christmas Concert" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-12-17T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/christmas-concert-5/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20250323T1600 a mo:Performance ;
+    schema:name "Turku 1825" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-03-23T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/turku-1825/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20251018T1900 a mo:Performance ;
+    cmo:performs-in cmk:helsinki-baroque-orchestra,
+        cmk:purcell-choir ;
+    schema:name "Cartellieri: Rübezahl" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-10-18T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/cartellieri-rubezahl/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20260419T1600 a mo:Performance ;
+    schema:name "Baroque Opera Gala"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-04-19T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/baroque-opera-gala/"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20241222T1600 a mo:Performance ;
+    schema:name "Christmas Concert" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-12-22T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/christmas-concert-7/"^^xsd:anyURI .
+
+cmk:musiikkitalo-helsinki-music-centre-concert-hall-20211231T0000 a mo:Performance ;
+    cmo:has-programme cmk:cancelled-new-years-concert ;
+    schema:name "CANCELLED New Year's Concert" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-12-31T00:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/new-years-concert-4/"^^xsd:anyURI .
+
+cmk:national-opera-almi-hall-20240201T1900 a mo:Performance ;
+    schema:name "Caccini: The Isle of Alcina" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-02-01T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/caccini-the-isle-of-alcina/"^^xsd:anyURI .
+
+cmk:old-church-20240921T1900 a mo:Performance ;
+    schema:name "Mare nostrum – Musica Baltica & Mediterranea" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-09-21T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/mare-nostrum-musica-baltica-mediterranea/"^^xsd:anyURI .
+
+cmk:sibelius-academy-concert-hall-20241029T1900 a mo:Performance ;
+    schema:name "Schubert, Schönberg" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-10-29T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/schubert-schonberg/"^^xsd:anyURI .
+
+cmk:sibelius-academy-concert-hall-20261122T1600 a mo:Performance ;
+    cmo:has-programme cmk:string-sextets ;
+    schema:location cmk:sibelius-academy-concert-hall ;
+    schema:name "String Sextets" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-11-22T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/string-sextets/"^^xsd:anyURI .
+
+cmk:st-lawrence-church-vantaa-20200806T1900 a mo:Performance ;
+    schema:name "CANCELLED Bach, Kirchoff, Reincken" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-08-06T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-kirchoff-reincken-2/"^^xsd:anyURI .
+
+cmk:stor-sarvlaks-manor-20240627T1900 a mo:Performance ;
+    cmo:has-programme cmk:machaut-messe-de-nostre-dame ;
+    schema:name "Machaut: Messe de Nostre Dame" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-06-27T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/machaut-messe-de-nostre-dame-5/"^^xsd:anyURI .
+
+cmk:tarinmaa-janakkala-20240628T2000 a mo:Performance ;
+    cmo:has-programme cmk:machaut-messe-de-nostre-dame ;
+    schema:name "Machaut: Messe de Nostre Dame" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-06-28T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/janakkala-baroque-2024/"^^xsd:anyURI .
+
+cmk:theater-an-der-wien-20231218T1900 a mo:Performance ;
+    schema:name "Galuppi: La Caduta di Adamo" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-12-18T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/galuppi-caduta-di-adamo/"^^xsd:anyURI .
+
+cmk:webinar-tempo-rubato-20210502T1500 a mo:Performance ;
+    schema:name "COLLOQUIUM: Tempo Rubato – Use, Flexibility and Modification of Time" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-05-02T15:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/webinar-tempo-rubato-use-flexibility-and-modification-of-time/"^^xsd:anyURI .
+
+cmk:buda-castle-haydneum-festival-budapest-20231110T1930 a mo:Performance ;
+    cmo:has-programme cmk:haydn-missa-cellensis ;
+    cmo:takes-place-at cmk:buda-castle-haydneum-festival-budapest ;
+    schema:name "Haydn: Missa Cellensis" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-11-10T19:30:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/haydn-missa-cellensis/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma-20210331T1900 a mo:Performance ;
+    cmo:has-programme cmk:machaut-messe-de-nostre-dame ;
+    schema:name "CANCELLED Machaut: Messe de Nostre Dame"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-03-31T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/machaut-messe-de-nostre-dame-4/"^^xsd:anyURI .
+
+cmk:eglise-st-francois-lausanne-20211112T2000 a mo:Performance ;
+    cmo:has-programme cmk:bach-st-matthew-passion ;
+    schema:location cmk:eglise-st-francois-lausanne ;
+    schema:name "Bach: St Matthew Passion" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-11-12T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-st-matthew-passion-4/"^^xsd:anyURI .
+
+cmk:estonia-concert-hall-tallinn-20220409T1900 a mo:Performance ;
+    cmo:has-programme cmk:graun-bach-pasticcio-passion ;
+    schema:name "Graun/Bach: Pasticcio Passion" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-04-09T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/graun-bach-pasticcio-passion-2/"^^xsd:anyURI .
+
+cmk:finlandia-hall-20211121T1600 a mo:Performance ;
+    cmo:has-programme cmk:colin-de-blamont-two-operas-for-louis-xv ;
+    schema:location cmk:finlandia-hall ;
+    schema:name "Colin de Blamont: Two Operas for Louis XV" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-11-21T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/le-retour-des-dieux-sur-la-terre-le-caprice-derato/"^^xsd:anyURI .
+
+cmk:janakkala-20200628T1800 a mo:Performance ;
+    cmo:performs-in-programme cmk:janakkala-baroque-2020 ;
+    schema:name "CANCELLED Janakkala Baroque 2020" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-06-28T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/janakkala-baroque-2020/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20210402T1800 a mo:Performance ;
+    cmo:has-programme cmk:machaut-messe-de-nostre-dame ;
+    schema:name "CANCELLED Machaut: Messe de Nostre Dame"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-04-02T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/machaut-messe-de-nostre-dame-3/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20251221T1600 a mo:Performance ;
+    schema:name "Christmas Concert" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-12-21T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/christmas-concert-12/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20260329T1600 a mo:Performance ;
+    schema:name "C. Ph. E. Bach: St Matthew Passion"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-03-29T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/c-ph-e-bach-st-matthew-passion/"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20220410T1600 a mo:Performance ;
+    cmo:has-programme cmk:graun-bach-pasticcio-passion ;
+    schema:name "Graun/Bach: Pasticcio Passion" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-04-10T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/graun-bach-passions-oratorium/"^^xsd:anyURI .
+
+cmk:st-johns-church-helsinki-20211106T1800 a mo:Performance ;
+    cmo:has-programme cmk:bach-st-matthew-passion ;
+    schema:location cmk:st-johns-church-helsinki ;
+    schema:name "Bach: St Matthew Passion" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-11-06T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-st-matthew-passion-3/"^^xsd:anyURI .
+
+cmk:st-pauls-church-helsinki-20200912T1900 a mo:Performance ;
+    schema:name "Bach, Charpentier" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-09-12T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-charpentier/"^^xsd:anyURI .
+
+cmk:mupa-budapest-20201116T1900 a mo:Performance ;
+    schema:name "POSTPONED Schumann: Genoveva" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-11-16T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/schumann-genoveva-3/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20260301T0000 a mo:Performance ;
+    schema:name "Schumann: Requiem & Cello Concerto"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-03-01T00:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/schumann-requiem-cello-concerto/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20260303T0000 a mo:Performance ;
+    schema:name "Schumann: Requiem & Cello Concerto"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-03-03T00:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/schumann-requiem-cello-concerto/"^^xsd:anyURI .
+
+cmk:organist a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:temppeliaukio-church-20260519T1900 a mo:Performance ;
+    schema:name "Cartellieri, Ryba: Stabat Mater"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-05-19T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/cartellieri-ryba-stabat-mater/"^^xsd:anyURI .
+
+cmk:theater-an-der-wien-20261220T1900 a mo:Performance ;
+    cmo:has-programme cmk:vivaldi-juditha-triumphans ;
+    schema:location cmk:theater-an-der-wien ;
+    schema:name "Vivaldi: Juditha triumphans" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-12-20T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/vivaldi-juditha-triumphans-3/"^^xsd:anyURI .
+
+cmk:alto a cmo:musical-identity,
+        cmo:voice-range .
+
+cmk:musiikkitalo-20261222T1900 a mo:Performance ;
+    cmo:has-programme cmk:vivaldi-juditha-triumphans ;
+    schema:location cmk:musiikkitalo ;
+    schema:name "Vivaldi: Juditha triumphans" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-12-22T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/vivaldi-juditha-triumphans/"^^xsd:anyURI .
+
+cmk:rudolfinum-dvorak-hall-20260521T2000 a mo:Performance ;
+    schema:name "J. J. Ryba: Stabat Mater"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-05-21T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/ryba-stabat-mater/"^^xsd:anyURI .
+
+cmk:alexander-theatre-20230922T0000 a mo:Performance ;
+    cmo:has-programme cmk:vivaldi-ottone-in-villa ;
+    cmo:takes-place-at cmk:alexander-theatre ;
+    schema:name "Vivaldi: Ottone in villa" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-09-22T00:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/vivaldi-ottone-in-villa/"^^xsd:anyURI .
+
+cmk:harpsichordist a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:musiikkitalo-20230926T1900 a mo:Performance ;
+    cmo:has-programme cmk:rameau-les-boreades ;
+    cmo:takes-place-at cmk:musiikkitalo ;
+    schema:name "Rameau: Les Boréades" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-09-26T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/rameau-les-boreales-concertante/"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20230129T1600 a mo:Performance ;
+    cmo:has-programme cmk:pergolesi-lo-frate-nnamorato ;
+    schema:name "Pergolesi: Lo frate 'nnamorato" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-01-29T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/pergolesi-lo-frate-nnamorato/"^^xsd:anyURI .
+
+cmk:kulturpalast-dresden-20230604T1930 a mo:Performance ;
+    schema:name "Schumann: Genoveva" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-06-04T19:30:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/schumann-genoveva-11/"^^xsd:anyURI .
+
+cmk:mezzo-soprano a cmo:musical-identity,
+        cmo:voice-range .
+
+cmk:musiikkitalo-20201025T0000 a mo:Performance ;
+    schema:name "POSTPONED Schumann: Genoveva" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-10-25T00:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/schumann-genoveva/"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20230528T0000 a mo:Performance ;
+    schema:name "Schumann: Genoveva" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-05-28T00:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/schumann-genoveva-9/"^^xsd:anyURI .
+
+cmk:tonhalle-dusseldorf-20230602T2000 a mo:Performance ;
+    schema:name "Schumann: Genoveva" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-06-02T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/schumann-genoveva-10/"^^xsd:anyURI .
+
+cmk:bass a cmo:musical-identity,
+        cmo:voice-range .
+
+cmk:elbphilharmonie-hamburg-20210529T2000 a mo:Performance ;
+    schema:name "CANCELLED Schumann: Genoveva" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-05-29T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/schumann-genoveva-6/"^^xsd:anyURI .
+
+cmk:kulturpalast-dresden-20210527T1930 a mo:Performance ;
+    schema:name "CANCELLED Schumann: Genoveva" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-05-27T19:30:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/schumann-genoveva-7/"^^xsd:anyURI .
+
+cmk:mupa-budapest-20210524T1900 a mo:Performance ;
+    schema:name "CANCELLED Schumann: Genoveva" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-05-24T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/schumann-genoveva-8/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20201025T1600 a mo:Performance ;
+    schema:name "Bach: Mass in B Minor" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-10-25T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-mass-in-b-minor/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20210601T1900 a mo:Performance ;
+    schema:name "CANCELLED Schumann: Genoveva" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-06-01T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/schumann-genoveva-4/"^^xsd:anyURI .
+
+cmk:tonhalle-dusseldorf-20210530T2000 a mo:Performance ;
+    schema:name "CANCELLED Schumann: Genoveva" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-05-30T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/schumann-genoveva-5/"^^xsd:anyURI .
+
+cmk:mupa-budapest-20221117T1900 a mo:Performance ;
+    cmo:has-programme cmk:schubert-alfonso-und-estrella ;
+    schema:name "Schubert: Alfonso und Estrella" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-11-17T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/schubert-alfonso-und-estrella-2/"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20221113T1900 a mo:Performance ;
+    cmo:has-programme cmk:schubert-alfonso-und-estrella ;
+    schema:name "Schubert: Alfonso und Estrella" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-11-13T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/schubert-alfonso-und-estrella/"^^xsd:anyURI .
+
+cmk:baritone a cmo:musical-identity,
+        cmo:voice-range .
+
+cmk:violinist a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:conductor a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:tenor a cmo:musical-identity,
+        cmo:voice-range .
+
+cmk:soprano a cmo:musical-identity,
+        cmo:voice-range .
+
+cmk:hebo a foaf:Organization,
+        cmo:Venue,
+        schema:Organization ;
+    rdfs:label "Helsingin barokkiorkesteri" .
+

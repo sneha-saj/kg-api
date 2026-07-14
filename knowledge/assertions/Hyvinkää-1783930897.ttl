@@ -1,0 +1,210 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:antti-rissanen a foaf:Person ;
+    foaf:familyName "Rissanen" ;
+    foaf:firstName "Antti" ;
+    cmo:conducts-in cmk:hyvinkaasali-20250912T1900,
+        cmk:hyvinkaasali-20260912T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:hameenlinnan-raatihuone a cmo:Venue ;
+    rdfs:label "Hämeenlinnan Raatihuone" .
+
+cmk:hyvinkaan-kaupungintalo a cmo:Venue ;
+    rdfs:label "Hyvinkään kaupungintalo" .
+
+cmk:hyvinkaan-orkesterin-kamarimusiikkiyhtye a foaf:Group ;
+    rdfs:label "Hyvinkään Orkesterin kamarimusiikkiyhtye" ;
+    cmo:known-as-a cmk:chamber-ensemble ;
+    cmo:performs-in cmk:hameenlinnan-raatihuone-20250827T1800,
+        cmk:hyvinkaan-kaupungintalo-20250826T1900 .
+
+cmk:hyvinkaasali a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Hyvinkääsali" .
+
+cmk:janne-nisonen a foaf:Person ;
+    foaf:familyName "Nisonen" ;
+    foaf:firstName "Janne" ;
+    cmo:conducts-in cmk:hyvinkaasali-20250924T1900,
+        cmk:hyvinkaasali-20260924T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:jukka-untamala a foaf:Person ;
+    foaf:familyName "Untamala" ;
+    foaf:firstName "Jukka" ;
+    cmo:conducts-in cmk:hyvinkaasali-20251022T1900,
+        cmk:hyvinkaasali-20261022T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:kirill-kozlovsky a foaf:Person ;
+    foaf:familyName "Kozlovsky" ;
+    foaf:firstName "Kirill" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:hyvinkaasali-20250924T1900,
+        cmk:hyvinkaasali-20260924T1900 .
+
+cmk:lilja-haatainen a foaf:Person ;
+    foaf:familyName "Haatainen" ;
+    foaf:firstName "Lilja" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:hyvinkaasali-20251231T1800,
+        cmk:hyvinkaasali-20261231T1800 .
+
+cmk:malla-vivolin a foaf:Person ;
+    foaf:familyName "Vivolin" ;
+    foaf:firstName "Malla" ;
+    cmo:known-as-a cmk:flautist,
+        cmk:flutist ;
+    cmo:plays-in cmk:hyvinkaasali-20251022T1900,
+        cmk:hyvinkaasali-20261022T1900 .
+
+cmk:marjukka-tepponen a foaf:Person ;
+    foaf:familyName "Tepponen" ;
+    foaf:firstName "Marjukka" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:hyvinkaasali-20251119T1900,
+        cmk:hyvinkaasali-20261119T1900 .
+
+cmk:pauli-hanhiniemi a foaf:Person ;
+    foaf:familyName "Hanhiniemi" ;
+    foaf:firstName "Pauli" ;
+    cmo:known-as-a cmk:soloist ;
+    cmo:performs-in cmk:hyvinkaasali-20250912T1900,
+        cmk:hyvinkaasali-20260912T1900 .
+
+cmk:tuomas-pirila a foaf:Person ;
+    foaf:familyName "Pirilä" ;
+    foaf:firstName "Tuomas" ;
+    cmo:conducts-in cmk:hyvinkaasali-20251119T1900,
+        cmk:hyvinkaasali-20251231T1800,
+        cmk:hyvinkaasali-20261119T1900,
+        cmk:hyvinkaasali-20261231T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:chamber-ensemble a cmo:musical-identity .
+
+cmk:flautist a cmo:musical-identity .
+
+cmk:flutist a cmo:musical-identity .
+
+cmk:hameenlinnan-raatihuone-20250827T1800 a mo:Performance ;
+    cmo:performed-work cmk:kamarimusiikkia-kesaillassa ;
+    schema:name "Kamarimusiikkia kesäillassa" ;
+    schema:organizer cmk:hyvinkaanorkesteri ;
+    schema:startDate "2025-08-27T18:00:00"^^xsd:dateTime ;
+    schema:url "https://hyvinkaanorkesteri.fi/kamarimusiikkia-kesäillassa2/"^^xsd:anyURI .
+
+cmk:hyvinkaan-kaupungintalo-20250826T1900 a mo:Performance ;
+    cmo:performed-work cmk:kamarimusiikkia-kesaillassa ;
+    schema:name "Kamarimusiikkia kesäillassa" ;
+    schema:organizer cmk:hyvinkaanorkesteri ;
+    schema:startDate "2025-08-26T19:00:00"^^xsd:dateTime ;
+    schema:url "https://hyvinkaanorkesteri.fi/kamarimusiikkia-kesäillassa/"^^xsd:anyURI .
+
+cmk:pianist a cmo:musical-identity .
+
+cmk:soloist a cmo:musical-identity .
+
+cmk:soprano a cmo:musical-identity .
+
+cmk:violinist a cmo:musical-identity .
+
+cmk:hyvinkaasali-20250912T1900 a mo:Performance ;
+    cmo:performed-work cmk:sydan-vasta-puolillaan ;
+    schema:name "Sydän vasta puolillaan" ;
+    schema:organizer cmk:hyvinkaanorkesteri ;
+    schema:startDate "2025-09-12T19:00:00"^^xsd:dateTime ;
+    schema:url "https://hyvinkaanorkesteri.fi/sydän-vasta-puolillaan/"^^xsd:anyURI .
+
+cmk:hyvinkaasali-20250924T1900 a mo:Performance ;
+    cmo:performed-work cmk:vaiennetut-aanet ;
+    schema:name "Vaiennetut äänet" ;
+    schema:organizer cmk:hyvinkaanorkesteri ;
+    schema:startDate "2025-09-24T19:00:00"^^xsd:dateTime ;
+    schema:url "https://hyvinkaanorkesteri.fi/vaiennetut-äänet/"^^xsd:anyURI .
+
+cmk:hyvinkaasali-20251022T1900 a mo:Performance ;
+    cmo:performed-work cmk:terral-maa-kutsuu ;
+    schema:name "Terral - Maa kutsuu" ;
+    schema:organizer cmk:hyvinkaanorkesteri ;
+    schema:startDate "2025-10-22T19:00:00"^^xsd:dateTime ;
+    schema:url "https://hyvinkaanorkesteri.fi/terral-maa-kutsuu/"^^xsd:anyURI .
+
+cmk:hyvinkaasali-20251119T1900 a mo:Performance ;
+    cmo:performed-work cmk:tarinoita ;
+    schema:name "Tarinoita" ;
+    schema:organizer cmk:hyvinkaanorkesteri ;
+    schema:startDate "2025-11-19T19:00:00"^^xsd:dateTime ;
+    schema:url "https://hyvinkaanorkesteri.fi/tarinoita/"^^xsd:anyURI .
+
+cmk:hyvinkaasali-20251231T1800 a mo:Performance ;
+    cmo:performed-work cmk:uv-a-la-francaise ;
+    schema:name "UV! À la française" ;
+    schema:organizer cmk:hyvinkaanorkesteri ;
+    schema:startDate "2025-12-31T18:00:00"^^xsd:dateTime ;
+    schema:url "https://hyvinkaanorkesteri.fi/uv!-à-la-française/"^^xsd:anyURI .
+
+cmk:hyvinkaasali-20260912T1900 a mo:Performance ;
+    cmo:has-programme cmk:sydan-vasta-puolillaan ;
+    schema:name "Sydän vasta puolillaan" ;
+    schema:organizer cmk:hyvinkaanorkesteri ;
+    schema:startDate "2026-09-12T19:00:00"^^xsd:dateTime ;
+    schema:url "https://hyvinkaanorkesteri.fi/konsertit/"^^xsd:anyURI .
+
+cmk:hyvinkaasali-20260924T1900 a mo:Performance ;
+    cmo:has-programme cmk:vaiennetut-aanet ;
+    schema:name "Vaiennetut äänet" ;
+    schema:organizer cmk:hyvinkaanorkesteri ;
+    schema:startDate "2026-09-24T19:00:00"^^xsd:dateTime ;
+    schema:url "https://hyvinkaanorkesteri.fi/konsertit/"^^xsd:anyURI .
+
+cmk:hyvinkaasali-20261022T1900 a mo:Performance ;
+    cmo:has-programme cmk:terral-maa-kutsuu ;
+    schema:name "Terral - Maa kutsuu" ;
+    schema:organizer cmk:hyvinkaanorkesteri ;
+    schema:startDate "2026-10-22T19:00:00"^^xsd:dateTime ;
+    schema:url "https://hyvinkaanorkesteri.fi/konsertit/"^^xsd:anyURI .
+
+cmk:hyvinkaasali-20261119T1900 a mo:Performance ;
+    cmo:has-programme cmk:tarinoita ;
+    schema:name "Tarinoita" ;
+    schema:organizer cmk:hyvinkaanorkesteri ;
+    schema:startDate "2026-11-19T19:00:00"^^xsd:dateTime ;
+    schema:url "https://hyvinkaanorkesteri.fi/konsertit/"^^xsd:anyURI .
+
+cmk:hyvinkaasali-20261231T1800 a mo:Performance ;
+    cmo:has-programme cmk:uv-a-la-francaise ;
+    schema:name "UV! À la française" ;
+    schema:organizer cmk:hyvinkaanorkesteri ;
+    schema:startDate "2026-12-31T18:00:00"^^xsd:dateTime ;
+    schema:url "https://hyvinkaanorkesteri.fi/konsertit/"^^xsd:anyURI .
+
+cmk:kamarimusiikkia-kesaillassa a cmo:Programme ;
+    rdfs:label "Kamarimusiikkia kesäillassa" .
+
+cmk:sydan-vasta-puolillaan a cmo:Programme ;
+    rdfs:label "Sydän vasta puolillaan" .
+
+cmk:tarinoita a cmo:Programme ;
+    rdfs:label "Tarinoita" .
+
+cmk:terral-maa-kutsuu a cmo:Programme ;
+    rdfs:label "Terral - Maa kutsuu" .
+
+cmk:uv-a-la-francaise a cmo:Programme ;
+    rdfs:label "UV! À la française" .
+
+cmk:vaiennetut-aanet a cmo:Programme ;
+    rdfs:label "Vaiennetut äänet" .
+
+cmk:conductor a cmo:musical-identity .
+
+cmk:hyvinkaanorkesteri a schema:Organization .
+

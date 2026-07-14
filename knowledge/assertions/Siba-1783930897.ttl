@@ -1,0 +1,67 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:eero-lehtimaki a foaf:Person ;
+    foaf:familyName "Lehtimäki" ;
+    foaf:firstName "Eero" ;
+    cmo:conducts-in cmk:musiikkitalo-20261126T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:musiikkitalo a cmo:ConcertHall,
+        cmo:Venue .
+
+cmk:musiikkitalo-20260826T1900 a mo:Performance ;
+    cmo:has-programme cmk:sadutja-sinfonioita ;
+    schema:name "Sibelius-Akatemian sinfoniaorkesteri: Satuja ja sinfonioita" ;
+    schema:organizer cmk:sibelius-akatemian-sinfoniaorkesteri ;
+    schema:startDate "2026-08-26T19:00:00"^^xsd:dateTime .
+
+cmk:osmo-vanska a foaf:Person ;
+    foaf:familyName "Vänskä" ;
+    foaf:firstName "Osmo" ;
+    cmo:conducts-in cmk:musiikkitalo-20270122T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:susanna-malkki a foaf:Person ;
+    foaf:familyName "Mälkki" ;
+    foaf:firstName "Susanna" ;
+    cmo:conducts-in cmk:musiikkitalo-20270320T1600 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:matkapaivakirja a cmo:Programme ;
+    rdfs:label "Matkapäiväkirja" .
+
+cmk:musiikkitalo-20261126T1800 a mo:Performance ;
+    cmo:has-programme cmk:matkapaivakirja ;
+    schema:name "Siba Winds & Eero Lehtimäki: Matkapäiväkirja" ;
+    schema:organizer cmk:sibelius-akatemian-sinfoniaorkesteri ;
+    schema:startDate "2026-11-26T18:00:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20270122T1900 a mo:Performance ;
+    cmo:has-programme cmk:these-worlds-in-us ;
+    schema:name "Sibelius-Akatemian sinfoniaorkesteri & Osmo Vänskä: These worlds in us" ;
+    schema:organizer cmk:sibelius-akatemian-sinfoniaorkesteri ;
+    schema:startDate "2027-01-22T19:00:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20270320T1600 a mo:Performance ;
+    cmo:has-programme cmk:syntyja-syvia-ja-kepposia ;
+    schema:name "Sibelius-Akatemian sinfoniaorkesteri & Susanna Mälkki: Syntyjä syviä ja kepposia" ;
+    schema:organizer cmk:sibelius-akatemian-sinfoniaorkesteri ;
+    schema:startDate "2027-03-20T16:00:00"^^xsd:dateTime .
+
+cmk:sadutja-sinfonioita a cmo:Programme ;
+    rdfs:label "Satuja ja sinfonioita" .
+
+cmk:syntyja-syvia-ja-kepposia a cmo:Programme ;
+    rdfs:label "Syntyjä syviä ja kepposia" .
+
+cmk:these-worlds-in-us a cmo:Programme ;
+    rdfs:label "These worlds in us" .
+
+cmk:conductor a cmo:musical-identity .
+

@@ -1,0 +1,116 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:lappeenranta-sali a cmo:ConcertHall,
+        cmo:Venue .
+
+cmk:lappeenranta-sali-20260903T1800 a mo:Performance ;
+    cmo:has-programme cmk:orkesteri-tutuksi ;
+    schema:name "Orkesteri tutuksi" ;
+    schema:organizer cmk:lprorkesteri ;
+    schema:startDate "2026-09-03T18:00:00"^^xsd:dateTime .
+
+cmk:lappeenranta-sali-20260909T1800 a mo:Performance ;
+    cmo:has-programme cmk:saimaa-sinfonietta-kesaisia-muistoja ;
+    schema:name "Saimaa Sinfonietta – Kesäisiä muistoja" ;
+    schema:organizer cmk:lprorkesteri ;
+    schema:startDate "2026-09-09T18:00:00"^^xsd:dateTime .
+
+cmk:lappeenranta-sali-20260924T1800 a mo:Performance ;
+    cmo:has-programme cmk:katseet-kamariin ;
+    schema:name "Katseet kamariin" ;
+    schema:organizer cmk:lprorkesteri ;
+    schema:startDate "2026-09-24T18:00:00"^^xsd:dateTime .
+
+cmk:lappeenranta-sali-20261001T1800 a mo:Performance ;
+    cmo:has-programme cmk:italialainen-paletti ;
+    schema:name "Italialainen paletti" ;
+    schema:organizer cmk:lprorkesteri ;
+    schema:startDate "2026-10-01T18:00:00"^^xsd:dateTime .
+
+cmk:lappeenranta-sali-20261007T1800 a mo:Performance ;
+    cmo:has-programme cmk:vaeltava-kisalli ;
+    schema:name "Ranskalainen ilta" ;
+    schema:organizer cmk:lprorkesteri ;
+    schema:startDate "2026-10-07T18:00:00"^^xsd:dateTime .
+
+cmk:lappeenranta-sali-20261015T1800 a mo:Performance ;
+    cmo:has-programme cmk:ranskalainen-ilta ;
+    schema:name "Saimaa Sinfonietta – Pyhäinpäivän requiem" ;
+    schema:organizer cmk:lprorkesteri ;
+    schema:startDate "2026-10-15T18:00:00"^^xsd:dateTime .
+
+cmk:lappeenranta-sali-20261027T1800 a mo:Performance ;
+    cmo:has-programme cmk:saimaa-sinfonietta-pyhainpaivan-requiem ;
+    schema:name "Marraskuun illassa" ;
+    schema:organizer cmk:lprorkesteri ;
+    schema:startDate "2026-10-27T18:00:00"^^xsd:dateTime .
+
+cmk:lappeenranta-sali-20261112T1800 a mo:Performance ;
+    cmo:has-programme cmk:nannerl ;
+    schema:name "Iltatähti" ;
+    schema:organizer cmk:lprorkesteri ;
+    schema:startDate "2026-11-12T18:00:00"^^xsd:dateTime .
+
+cmk:lappeenranta-sali-20261118T1800 a mo:Performance ;
+    cmo:has-programme cmk:iltatahti ;
+    schema:name "Pikkujoulupamaus – Rakkautta, riemua ja raivoa" ;
+    schema:organizer cmk:lprorkesteri ;
+    schema:startDate "2026-11-18T18:00:00"^^xsd:dateTime .
+
+cmk:lappeenranta-sali-20261125T1800 a mo:Performance ;
+    cmo:has-programme cmk:pikkujoulupamaus-rakkautta-riemua-ja-raivoa ;
+    schema:name "Tule joulu kultainen" ;
+    schema:organizer cmk:lprorkesteri ;
+    schema:startDate "2026-11-25T18:00:00"^^xsd:dateTime .
+
+cmk:lappeenranta-sali-20261202T1800 a mo:Performance ;
+    cmo:has-programme cmk:tule-joulu-kultainen ;
+    schema:name "Joulukonsertti" ;
+    schema:organizer cmk:lprorkesteri ;
+    schema:startDate "2026-12-02T18:00:00"^^xsd:dateTime .
+
+cmk:lappeenranta-sali-20261210T1800 a mo:Performance ;
+    cmo:has-programme cmk:joulukonsertti ;
+    schema:name "Joulukonsertti" ;
+    schema:organizer cmk:lprorkesteri ;
+    schema:startDate "2026-12-10T18:00:00"^^xsd:dateTime .
+
+cmk:musiikkiopiston-helkio-sali a cmo:ConcertHall,
+        cmo:Venue .
+
+cmk:musiikkiopiston-helkio-sali-20261105T1800 a mo:Performance ;
+    cmo:has-programme cmk:marraskuun-illassa ;
+    schema:name "Nannerl" ;
+    schema:organizer cmk:lprorkesteri ;
+    schema:startDate "2026-11-05T18:00:00"^^xsd:dateTime .
+
+cmk:iltatahti a cmo:Programme .
+
+cmk:italialainen-paletti a cmo:Programme .
+
+cmk:joulukonsertti a cmo:Programme .
+
+cmk:katseet-kamariin a cmo:Programme .
+
+cmk:marraskuun-illassa a cmo:Programme .
+
+cmk:nannerl a cmo:Programme .
+
+cmk:orkesteri-tutuksi a cmo:Programme .
+
+cmk:pikkujoulupamaus-rakkautta-riemua-ja-raivoa a cmo:Programme .
+
+cmk:ranskalainen-ilta a cmo:Programme .
+
+cmk:saimaa-sinfonietta-kesaisia-muistoja a cmo:Programme .
+
+cmk:saimaa-sinfonietta-pyhainpaivan-requiem a cmo:Programme .
+
+cmk:tule-joulu-kultainen a cmo:Programme .
+
+cmk:vaeltava-kisalli a cmo:Programme .
+

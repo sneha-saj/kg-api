@@ -1,0 +1,423 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:aapo-hakkinen a foaf:Person ;
+    foaf:familyName "Häkkinen" ;
+    foaf:firstName "Aapo" ;
+    cmo:conducts-in cmk:rantakylan-kirkko-20261203T1800 ;
+    cmo:known-as-a cmk:conductor,
+        cmk:harpsichordist ;
+    cmo:plays-in cmk:rantakylan-kirkko-20261203T1800 .
+
+cmk:aku-sipola a foaf:Person ;
+    foaf:familyName "Sipola" ;
+    foaf:firstName "Aku" ;
+    cmo:known-as-a cmk:narrator ;
+    cmo:narrates-in cmk:carelia-sali-20260924T1800 .
+
+cmk:antti-rissanen a foaf:Person ;
+    foaf:familyName "Rissanen" ;
+    foaf:firstName "Antti" ;
+    cmo:conducts-in cmk:carelia-sali-20261112T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:antti-tikkanen a foaf:Person ;
+    foaf:familyName "Tikkanen" ;
+    foaf:firstName "Antti" ;
+    cmo:conducts-in cmk:carelia-sali-20261008T1800 ;
+    cmo:known-as-a cmk:conductor-violinist .
+
+cmk:avoin-kenraaliharjoitus-maasta-taivaisiin a cmo:Programme .
+
+cmk:blues-diamonds a cmo:Programme .
+
+cmk:carelia-sali-20260814T1800 a mo:Performance ;
+    schema:name "Joen yö 2026" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-08-14T18:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/joen-yo-2026/"^^xsd:anyURI .
+
+cmk:carelia-sali-20261029T1800 a mo:Performance ;
+    schema:name "Pyhäinpäivän kynttiläkonsertti" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-10-29T18:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/pyhainpaivan-kynttilakonsertti/"^^xsd:anyURI .
+
+cmk:elamani-joulubiisi a cmo:Programme .
+
+cmk:elisar-riddelin a foaf:Person ;
+    foaf:familyName "Riddelin" ;
+    foaf:firstName "Elisar" ;
+    cmo:conducts-in cmk:carelia-sali-20261210T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:erja-lyytinen a foaf:Person ;
+    foaf:familyName "Lyytinen" ;
+    foaf:firstName "Erja" ;
+    cmo:known-as-a cmk:guitarist ;
+    cmo:plays-in cmk:carelia-sali-20261112T1800 .
+
+cmk:hei-me-improtaan a cmo:Programme .
+
+cmk:ilja-teppo a foaf:Person ;
+    foaf:familyName "Teppo" ;
+    foaf:firstName "Ilja" ;
+    cmo:known-as-a cmk:guest ;
+    cmo:performs-in cmk:carelia-sali-20261210T1800 .
+
+cmk:janne-mertanen a foaf:Person ;
+    foaf:familyName "Mertanen" ;
+    foaf:firstName "Janne" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:carelia-sali-20261001T1800 .
+
+cmk:jere-penttila a foaf:Person ;
+    foaf:familyName "Penttilä" ;
+    foaf:firstName "Jere" ;
+    cmo:known-as-a cmk:guest ;
+    cmo:performs-in cmk:carelia-sali-20261210T1800 .
+
+cmk:joen-serenadi a cmo:Programme .
+
+cmk:joen-yo-2026 a cmo:Programme .
+
+cmk:joensuun-konservatorio a cmo:ConcertHall,
+        cmo:Venue .
+
+cmk:jos-rakastat a cmo:Programme .
+
+cmk:joulubarokki a cmo:Programme .
+
+cmk:julie-svacinova a foaf:Person ;
+    foaf:familyName "Svacinová" ;
+    foaf:firstName "Julie" ;
+    cmo:known-as-a cmk:violist ;
+    cmo:plays-in cmk:carelia-sali-20261022T1100,
+        cmk:carelia-sali-20261022T1800 .
+
+cmk:jussi-chydenius a foaf:Person ;
+    foaf:familyName "Chydenius" ;
+    foaf:firstName "Jussi" ;
+    cmo:known-as-a cmk:vocalist ;
+    cmo:sings-in cmk:carelia-sali-20260917T1800 .
+
+cmk:katja-stahl a foaf:Person ;
+    foaf:familyName "Ståhl" ;
+    foaf:firstName "Katja" ;
+    cmo:known-as-a cmk:host ;
+    cmo:performs-in cmk:carelia-sali-20261210T1800 .
+
+cmk:kimmo-tullila a foaf:Person ;
+    foaf:familyName "Tullila" ;
+    foaf:firstName "Kimmo" ;
+    cmo:conducts-in cmk:carelia-sali-20261119T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:konstantinos-vallios a foaf:Person ;
+    foaf:familyName "Vallios" ;
+    foaf:firstName "Konstantinos" ;
+    cmo:conducts-in cmk:carelia-sali-20261022T1100,
+        cmk:carelia-sali-20261022T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:kuinkas-sitten-kavikaan a cmo:Programme .
+
+cmk:lumiukko a cmo:Programme .
+
+cmk:maasta-taivaisiin a cmo:Programme .
+
+cmk:matthew-barley a foaf:Person ;
+    foaf:familyName "Barley" ;
+    foaf:firstName "Matthew" ;
+    cmo:known-as-a cmk:cellist,
+        cmk:improvisation-master ;
+    cmo:plays-in cmk:joensuun-konservatorio-20260903T1800 .
+
+cmk:meri-maija-naykki a foaf:Person ;
+    foaf:familyName "Näykki" ;
+    foaf:firstName "Meri-Maija" ;
+    cmo:known-as-a cmk:director ;
+    cmo:performs-in cmk:carelia-sali-20261119T1800 .
+
+cmk:mikko-liimatainen a foaf:Person ;
+    foaf:familyName "Liimatainen" ;
+    foaf:firstName "Mikko" ;
+    cmo:known-as-a cmk:narrator ;
+    cmo:narrates-in cmk:carelia-sali-20261119T1800 .
+
+cmk:nathanael-iselin a foaf:Person ;
+    foaf:familyName "Iselin" ;
+    foaf:firstName "Nathanaël" ;
+    cmo:conducts-in cmk:carelia-sali-20261231T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:nousevat-tahdet a cmo:Programme .
+
+cmk:nurmes-talo-hannikaisen-sali a cmo:ConcertHall,
+        cmo:Venue .
+
+cmk:oona-airola a foaf:Person ;
+    foaf:familyName "Airola" ;
+    foaf:firstName "Oona" ;
+    cmo:known-as-a cmk:vocalist ;
+    cmo:sings-in cmk:carelia-sali-20260917T1800 .
+
+cmk:petri-komulainen a foaf:Person ;
+    foaf:familyName "Komulainen" ;
+    foaf:firstName "Petri" ;
+    cmo:conducts-in cmk:carelia-sali-20260924T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:philipp-schneider a foaf:Person ;
+    foaf:familyName "Schneider" ;
+    foaf:firstName "Philipp" ;
+    cmo:conducts-in cmk:carelia-sali-20261217T1800,
+        cmk:nurmes-talo-hannikaisen-sali-20261216T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:pyhainpaivan-kynttilakonsertti a cmo:Programme .
+
+cmk:rantakylan-kirkko a cmo:ConcertHall,
+        cmo:Venue .
+
+cmk:romantiikkaa-ja-raisketta a cmo:Programme .
+
+cmk:ruut-hagg a foaf:Person ;
+    foaf:familyName "Hägg" ;
+    foaf:firstName "Ruut" ;
+    cmo:known-as-a cmk:singer ;
+    cmo:sings-in cmk:carelia-sali-20261217T1800,
+        cmk:nurmes-talo-hannikaisen-sali-20261216T1800 .
+
+cmk:salla-romo a foaf:Person ;
+    foaf:familyName "Romo" ;
+    foaf:firstName "Salla" ;
+    cmo:known-as-a cmk:guest ;
+    cmo:performs-in cmk:carelia-sali-20261210T1800 .
+
+cmk:soivan-suomen-historia a cmo:Programme .
+
+cmk:sotilaan-tarina a cmo:Programme .
+
+cmk:talvinen-matka a cmo:Programme .
+
+cmk:tami-pohjola a foaf:Person ;
+    foaf:familyName "Pohjola" ;
+    foaf:firstName "Tami" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:carelia-sali-20260910T1100,
+        cmk:carelia-sali-20260910T1800 .
+
+cmk:tomas-djupsjobacka a foaf:Person ;
+    foaf:familyName "Djupsjöbacka" ;
+    foaf:firstName "Tomas" ;
+    cmo:conducts-in cmk:carelia-sali-20260917T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:tuomas-katajala a foaf:Person ;
+    foaf:familyName "Katajala" ;
+    foaf:firstName "Tuomas" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:carelia-sali-20261126T1800 .
+
+cmk:uudenvuoden-konsertti-2026 a cmo:Programme ;
+    rdfs:label "Uudenvuoden konsertti 2026" .
+
+cmk:virva-torkko-munoz a foaf:Person ;
+    foaf:familyName "Torkko-Muñoz" ;
+    foaf:firstName "Virva" ;
+    cmo:known-as-a cmk:dancer ;
+    cmo:performs-in cmk:carelia-sali-20260924T1800 .
+
+cmk:carelia-sali-20261008T1800 a mo:Performance ;
+    schema:name "Soivan Suomen historia" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-10-08T18:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/soivan-suomen-historia/"^^xsd:anyURI .
+
+cmk:carelia-sali-20261231T1800 a mo:Performance ;
+    cmo:performs-in cmk:carelia-sali ;
+    schema:location cmk:carelia-sali ;
+    schema:name "Uudenvuoden konsertti 2026" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-12-31T18:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/uudenvuoden-konsertti-2026/"^^xsd:anyURI .
+
+cmk:cellist a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:conductor-violinist a cmo:musical-identity .
+
+cmk:dancer a cmo:musical-identity .
+
+cmk:director a cmo:musical-identity .
+
+cmk:flutist a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:guitarist a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:harpsichordist a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:host a cmo:musical-identity .
+
+cmk:improvisation-master a cmo:musical-identity .
+
+cmk:joensuun-konservatorio-20260903T1800 a mo:Performance ;
+    schema:name "Hei me improtaan!" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-09-03T18:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/hei-me-improtaan/"^^xsd:anyURI .
+
+cmk:jukka-untamala a foaf:Person ;
+    foaf:familyName "Untamala" ;
+    foaf:firstName "Jukka" ;
+    cmo:conducts-in cmk:carelia-sali-20260910T1100,
+        cmk:carelia-sali-20260910T1800,
+        cmk:carelia-sali-20261001T1800,
+        cmk:carelia-sali-20261105T1100,
+        cmk:carelia-sali-20261105T1800,
+        cmk:carelia-sali-20261126T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:kaisa-kortelainen a foaf:Person ;
+    foaf:familyName "Kortelainen" ;
+    foaf:firstName "Kaisa" ;
+    cmo:known-as-a cmk:flutist ;
+    cmo:plays-in cmk:carelia-sali-20261105T1100,
+        cmk:carelia-sali-20261105T1800 .
+
+cmk:pianist a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:singer a cmo:musical-identity .
+
+cmk:tenor a cmo:musical-identity,
+        cmo:voice-range .
+
+cmk:violinist a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:violist a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:carelia-sali a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Carelia-sali" .
+
+cmk:carelia-sali-20260910T1100 a mo:Performance ;
+    schema:name "Avoin kenraaliharjoitus: Joen serenadi" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-09-10T11:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/avoin-kenraaliharjoitus-joen-serenadi/"^^xsd:anyURI .
+
+cmk:carelia-sali-20260910T1800 a mo:Performance ;
+    schema:name "Joen serenadi" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-09-10T18:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/joen-serenadi/"^^xsd:anyURI .
+
+cmk:carelia-sali-20261001T1800 a mo:Performance ;
+    schema:name "Romantiikkaa ja räiskettä" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-10-01T18:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/romantiikkaa-ja-raisketta/"^^xsd:anyURI .
+
+cmk:carelia-sali-20261022T1100 a mo:Performance ;
+    schema:name "Avoin kenraaliharjoitus: Nousevat tähdet" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-10-22T11:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/avoin-kenraaliharjoitus-nousevat-tahdet/"^^xsd:anyURI .
+
+cmk:carelia-sali-20261022T1800 a mo:Performance ;
+    schema:name "Nousevat tähdet" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-10-22T18:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/nousevat-tahdet/"^^xsd:anyURI .
+
+cmk:carelia-sali-20261105T1100 a mo:Performance ;
+    cmo:performs-in cmk:jukka-untamala,
+        cmk:kaisa-kortelainen ;
+    schema:name "Avoin kenraaliharjoitus: Maasta taivaisiin" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-11-05T11:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/avoin-kenraaliharjoitus-maasta-taivaisiin/"^^xsd:anyURI .
+
+cmk:carelia-sali-20261105T1800 a mo:Performance ;
+    schema:name "Maasta taivaisiin" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-11-05T18:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/maasta-taivaisiin/"^^xsd:anyURI .
+
+cmk:carelia-sali-20261112T1800 a mo:Performance ;
+    schema:name "Blues Diamonds" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-11-12T18:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/blues-diamonds/"^^xsd:anyURI .
+
+cmk:carelia-sali-20261126T1800 a mo:Performance ;
+    schema:name "Talvinen matka" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-11-26T18:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/talvinen-matka/"^^xsd:anyURI .
+
+cmk:carelia-sali-20261217T1800 a mo:Performance ;
+    schema:name "Lumiukko" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-12-17T18:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/lumiukko-3/"^^xsd:anyURI .
+
+cmk:narrator a cmo:musical-identity .
+
+cmk:nurmes-talo-hannikaisen-sali-20261216T1800 a mo:Performance ;
+    schema:name "Lumiukko, Nurmes" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-12-16T18:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/lumiukko-nurmes/"^^xsd:anyURI .
+
+cmk:rantakylan-kirkko-20261203T1800 a mo:Performance ;
+    schema:name "Joulubarokki" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-12-03T18:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/joulubarokki/"^^xsd:anyURI .
+
+cmk:vocalist a cmo:musical-identity .
+
+cmk:carelia-sali-20260917T1800 a mo:Performance ;
+    schema:name "Jos rakastat" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-09-17T18:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/jos-rakastat/"^^xsd:anyURI .
+
+cmk:carelia-sali-20260924T1800 a mo:Performance ;
+    schema:name "Sotilaan tarina" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-09-24T18:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/sotilaan-tarina/"^^xsd:anyURI .
+
+cmk:carelia-sali-20261119T1800 a mo:Performance ;
+    schema:name "Kuinkas sitten kävikään?" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-11-19T18:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/kuinkas-sitten-kavikaan/"^^xsd:anyURI .
+
+cmk:guest a cmo:musical-identity .
+
+cmk:carelia-sali-20261210T1800 a mo:Performance ;
+    schema:name "Elämäni joulubiisi" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-12-10T18:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/elamani-joulubiisi/"^^xsd:anyURI .
+
+cmk:conductor a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
+cmk:joensuunkaupunginorkesteri a foaf:Organization .
+

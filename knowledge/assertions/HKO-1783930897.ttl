@@ -1,0 +1,1365 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:aarne-pelkonen a foaf:Person ;
+    foaf:familyName "Pelkonen" ;
+    foaf:firstName "Aarne" ;
+    cmo:known-as-a cmk:baritone ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20270324T1900 .
+
+cmk:ad-spiram a cmo:Programme ;
+    rdfs:label "Ad Spiram" .
+
+cmk:adam-fischer a foaf:Person ;
+    foaf:familyName "Fischer" ;
+    foaf:firstName "Adam" ;
+    cmo:conducts-in cmk:musiikkitalo-concert-hall-20261111T1900,
+        cmk:musiikkitalo-concert-hall-20261112T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:aino-hyttinen a foaf:Person ;
+    foaf:familyName "Hyttinen" ;
+    foaf:firstName "Aino" ;
+    cmo:known-as-a cmk:make-up-designer ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20260917T1830 .
+
+cmk:alexander-melnikov a foaf:Person ;
+    foaf:familyName "Melnikov" ;
+    foaf:firstName "Alexander" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20270505T1900 .
+
+cmk:anna-nora a foaf:Person ;
+    foaf:familyName "Nora" ;
+    foaf:firstName "Anna" ;
+    cmo:known-as-a cmk:choir-coach ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20260818T1900,
+        cmk:musiikkitalo-concert-hall-20260819T1900 .
+
+cmk:anna-prohaska a foaf:Person ;
+    foaf:familyName "Prohaska" ;
+    foaf:firstName "Anna" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20260818T1900,
+        cmk:musiikkitalo-concert-hall-20260819T1900 .
+
+cmk:anna-sandstrom a foaf:Person ;
+    foaf:familyName "Sandström" ;
+    foaf:firstName "Anna" ;
+    cmo:known-as-a cmk:choir-coach ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20260818T1900,
+        cmk:musiikkitalo-concert-hall-20260819T1900 .
+
+cmk:anton-mejias a foaf:Person ;
+    foaf:familyName "Mejias" ;
+    foaf:firstName "Anton" ;
+    cmo:known-as-a cmk:pianist,
+        cmk:piano ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20260902T1900,
+        cmk:musiikkitalo-concert-hall-20260903T1900 .
+
+cmk:antony-hermus a foaf:Person ;
+    foaf:familyName "Hermus" ;
+    foaf:firstName "Antony" ;
+    cmo:conducts-in cmk:musiikkitalo-concert-hall-20261218T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:ariane-matiakh a foaf:Person ;
+    foaf:familyName "Matiakh" ;
+    foaf:firstName "Ariane" ;
+    cmo:conducts-in cmk:musiikkitalo-concert-hall-20270319T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:augustin-hadelich a foaf:Person ;
+    foaf:familyName "Hadelich" ;
+    foaf:firstName "Augustin" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20270113T1900,
+        cmk:musiikkitalo-concert-hall-20270114T1900 .
+
+cmk:barbara-hannigan a foaf:Person ;
+    foaf:familyName "Hannigan" ;
+    foaf:firstName "Barbara" ;
+    cmo:conducts-in cmk:musiikkitalo-concert-hall-20270514T1900 ;
+    cmo:known-as-a cmk:conductor,
+        cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20270514T1900 .
+
+cmk:beata-antikainen a foaf:Person ;
+    foaf:familyName "Antikainen" ;
+    foaf:firstName "Beata" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20270505T1900 .
+
+cmk:bella-miah a cmo:Programme ;
+    rdfs:label "Bella Miah" .
+
+cmk:choir a cmo:ensemble-identity .
+
+cmk:clara a cmo:Programme .
+
+cmk:dalia-stasevska a foaf:Person ;
+    foaf:familyName "Stasevska" ;
+    foaf:firstName "Dalia" ;
+    cmo:conducts-in cmk:musiikkitalo-concert-hall-20260818T1900,
+        cmk:musiikkitalo-concert-hall-20260819T1900,
+        cmk:musiikkitalo-concert-hall-20270127T1900,
+        cmk:musiikkitalo-concert-hall-20270128T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:david-kadouch a foaf:Person ;
+    foaf:familyName "Kadouch" ;
+    foaf:firstName "David" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20270421T1900,
+        cmk:musiikkitalo-concert-hall-20270422T1900 .
+
+cmk:dimas-ruiz-santos a foaf:Person ;
+    foaf:familyName "Ruiz Santos" ;
+    foaf:firstName "Dimas" ;
+    cmo:conducts-in cmk:musiikkitalo-concert-hall-20270316T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:double-bassist a cmo:musical-identity .
+
+cmk:elena-schwarz a foaf:Person ;
+    foaf:familyName "Schwarz" ;
+    foaf:firstName "Elena" ;
+    cmo:conducts-in cmk:musiikkitalo-concert-hall-20270219T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:elina-kolehmainen a foaf:Person ;
+    foaf:familyName "Kolehmainen" ;
+    foaf:firstName "Elina" ;
+    cmo:known-as-a cmk:set-and-costume-designer ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20260917T1830 .
+
+cmk:encounters-club a cmo:Programme ;
+    rdfs:label "Encounters Club" .
+
+cmk:ensemble-identity-choir a cmo:ensemble-identity .
+
+cmk:ensemble-identity-orchestra a cmo:ensemble-identity .
+
+cmk:eva-ollikainen a foaf:Person ;
+    foaf:familyName "Ollikainen" ;
+    foaf:firstName "Eva" ;
+    cmo:conducts-in cmk:musiikkitalo-concert-hall-20261028T1900,
+        cmk:musiikkitalo-concert-hall-20261029T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:final-rehearsal a cmo:Programme ;
+    rdfs:label "Final rehearsal" .
+
+cmk:fleur-barron a foaf:Person ;
+    foaf:familyName "Barron" ;
+    foaf:firstName "Fleur" ;
+    cmo:known-as-a cmk:mezzo-soprano ;
+    cmo:sings-in cmk:musiikkitalo-20261014T1900,
+        cmk:musiikkitalo-20261015T1900 .
+
+cmk:fokus-thibaudet-i a cmo:Programme ;
+    rdfs:label "Fokus Thibaudet I" .
+
+cmk:fokus-thibaudet-ii a cmo:Programme ;
+    rdfs:label "Fokus Thibaudet II" .
+
+cmk:glazed-foyer a cmo:Venue ;
+    rdfs:label "Glazed foyer" .
+
+cmk:glazed-foyer-20260902T1815 a mo:Performance ;
+    schema:name "Pre-Concert Talk" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-09-02T18:15:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/pre-concert-talk-9"^^xsd:anyURI .
+
+cmk:glazed-foyer-20260911T1815 a mo:Performance ;
+    schema:name "Pre-Concert Talk" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-09-11T18:15:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/pre-concert-talk-10"^^xsd:anyURI .
+
+cmk:glazed-foyer-20261001T1815 a mo:Performance ;
+    schema:name "Pre-Concert Talk" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-10-01T18:15:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/pre-concert-talk-11"^^xsd:anyURI .
+
+cmk:glazed-foyer-20270219T1815 a mo:Performance ;
+    schema:name "Pre-Concert Talk" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-02-19T18:15:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/pre-concert-talk-13"^^xsd:anyURI .
+
+cmk:glazed-foyer-20270305T1815 a mo:Performance ;
+    schema:name "Pre-Concert Talk" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-03-05T18:15:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/pre-concert-talk-14"^^xsd:anyURI .
+
+cmk:glazed-foyer-20270408T1815 a mo:Performance ;
+    schema:name "Pre-Concert Talk" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-04-08T18:15:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/pre-concert-talk-15"^^xsd:anyURI .
+
+cmk:hannigan a cmo:Programme .
+
+cmk:hayato-sumino a foaf:Person ;
+    foaf:familyName "Sumino" ;
+    foaf:firstName "Hayato" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:musiikkitalo-20260930T1900,
+        cmk:musiikkitalo-20261001T1900,
+        cmk:musiikkitalo-20261009T1900 .
+
+cmk:heavenly-lights a cmo:Programme ;
+    rdfs:label "Heavenly lights" .
+
+cmk:helsingin-5-musiikkiluokkien-oppilaita a cmo:ensemble-identity ;
+    rdfs:label "Helsingin 5. musiikkiluokkien oppilaita" ;
+    cmo:performs-in cmk:main-foyer-20270316T1800 .
+
+cmk:helsingin-5-musiikkipainotteisten-luokkien-oppilaita a cmo:ensemble-identity ;
+    rdfs:label "Helsingin 5. musiikkipainotteisten luokkien oppilaita" ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20270316T1900 .
+
+cmk:helsingin-kaupunginorkesteri-ensemble a foaf:Person,
+        cmo:ensemble-identity ;
+    foaf:familyName "kaupunginorkesteri" ;
+    foaf:firstName "Helsingin" ;
+    cmo:known-as-a cmk:ensemble ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20261204T1900 .
+
+cmk:helsingin-konservatorion-nuoret-laulajat a cmo:ensemble-identity ;
+    rdfs:label "Helsingin Konservatorion nuoret laulajat" ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20260818T1900,
+        cmk:musiikkitalo-concert-hall-20260819T1900 .
+
+cmk:ian-bostridge a foaf:Person ;
+    foaf:familyName "Bostridge" ;
+    foaf:firstName "Ian" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20261106T1900 .
+
+cmk:inmo-yang a foaf:Person ;
+    foaf:familyName "Yang" ;
+    foaf:firstName "Inmo" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:musiikkitalo-20261009T1900,
+        cmk:musiikkitalo-concert-hall-20261028T1900,
+        cmk:musiikkitalo-concert-hall-20261029T1900 .
+
+cmk:ita-helsingin-musiikkiopiston-laulajat-ja-puupuhaltajat a foaf:Person,
+        cmo:ensemble-identity ;
+    foaf:familyName "" ;
+    foaf:firstName "Itä-Helsingin musiikkiopiston laulajat ja puupuhaltajat" ;
+    cmo:known-as-a cmk:instrumentalist ;
+    cmo:performs-in cmk:main-foyer-20261112T1815 .
+
+cmk:ita-helsingin-musiikkiopiston-pianistit a foaf:Person,
+        cmo:ensemble-identity ;
+    foaf:familyName "pianistit" ;
+    foaf:firstName "Itä-Helsingin musiikkiopiston" ;
+    cmo:known-as-a cmk:ensemble ;
+    cmo:performs-in cmk:main-foyer-20260930T1815 .
+
+cmk:ita-helsingin-musiikkiopiston-vaskisoittajat a cmo:ensemble-identity ;
+    rdfs:label "Itä-Helsingin musiikkiopiston vaskisoittajat" ;
+    cmo:performs-in cmk:main-foyer-20270402T1815 .
+
+cmk:itaHelsingin-musiikkiopiston-viulistit-ja-alttoviulistit a cmo:ensemble-identity ;
+    rdfs:label "Itä-Helsingin musiikkiopiston viulistit ja alttoviulistit" ;
+    cmo:performs-in cmk:main-foyer-20261209T1815 .
+
+cmk:iveta-apkalna a foaf:Person ;
+    foaf:familyName "Apkalna" ;
+    foaf:firstName "Iveta" ;
+    cmo:known-as-a cmk:organist ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20261125T1900,
+        cmk:musiikkitalo-concert-hall-20261126T1900 .
+
+cmk:jean-yves-thibaudet a foaf:Person ;
+    foaf:familyName "Thibaudet" ;
+    foaf:firstName "Jean-Yves" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20270305T1900,
+        cmk:musiikkitalo-concert-hall-20270310T1900,
+        cmk:musiikkitalo-concert-hall-20270311T1900 .
+
+cmk:johan-dalene a foaf:Person ;
+    foaf:familyName "Dalene" ;
+    foaf:firstName "Johan" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20270122T1900 .
+
+cmk:johanna-elovaara a foaf:Person ;
+    foaf:familyName "Elovaara" ;
+    foaf:firstName "Johanna" ;
+    cmo:known-as-a cmk:director ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20260917T1830 .
+
+cmk:john-storgards a foaf:Person ;
+    foaf:familyName "Storgårds" ;
+    foaf:firstName "John" ;
+    cmo:conducts-in cmk:musiikkitalo-concert-hall-20270407T1900,
+        cmk:musiikkitalo-concert-hall-20270408T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:joonas-nordman a foaf:Person ;
+    foaf:familyName "Nordman" ;
+    foaf:firstName "Joonas" ;
+    cmo:known-as-a cmk:presenter ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20270501T1200,
+        cmk:musiikkitalo-concert-hall-20270501T1400 .
+
+cmk:jun-markl a foaf:Person ;
+    foaf:familyName "Märkl" ;
+    foaf:firstName "Jun" ;
+    cmo:conducts-in cmk:musiikkitalo-concert-hall-20270416T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:junior-concert a cmo:Programme ;
+    rdfs:label "Junior Concert" .
+
+cmk:jutta-seppinen a foaf:Person ;
+    foaf:familyName "Seppinen" ;
+    foaf:firstName "Jutta" ;
+    cmo:known-as-a cmk:choir-coach ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20260818T1900,
+        cmk:musiikkitalo-concert-hall-20260819T1900 .
+
+cmk:kaapo-ijas a foaf:Person ;
+    foaf:familyName "Ijas" ;
+    foaf:firstName "Kaapo" ;
+    cmo:conducts-in cmk:musiikkitalo-concert-hall-20270501T1200,
+        cmk:musiikkitalo-concert-hall-20270501T1400 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:kalevauvafi a foaf:Person ;
+    foaf:familyName ".fi" ;
+    foaf:firstName "Kalevauva" ;
+    cmo:known-as-a cmk:ensemble ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20270501T1200,
+        cmk:musiikkitalo-concert-hall-20270501T1400 .
+
+cmk:kamarikuoro-kaamos a cmo:ensemble-identity ;
+    rdfs:label "Kamarikuoro Kaamos" ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20270324T1900 .
+
+cmk:kamarikuoro-kampin-laulu a cmo:ensemble-identity ;
+    rdfs:label "Kamarikuoro Kampin laulu" ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20270324T1900 .
+
+cmk:kankarepuiston-ja-merilahden-peruskoulujen-tempo-orkesterit a cmo:ensemble-identity ;
+    rdfs:label "Kankarepuiston ja Merilahden peruskoulujen Tempo-orkesterit" ;
+    cmo:performs-in cmk:main-foyer-20260903T1815 .
+
+cmk:kapylan-musiikkiopiston-suzuki-viulistit a cmo:ensemble-identity ;
+    rdfs:label "Käpylän musiikkiopiston Suzuki-viulistit" ;
+    cmo:performs-in cmk:main-foyer-20270114T1815 .
+
+cmk:kate-kortum a foaf:Person ;
+    foaf:familyName "Kortum" ;
+    foaf:firstName "Kate" ;
+    cmo:known-as-a cmk:vocalist ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20261204T1900 .
+
+cmk:keski-helsingin-musiikkiopiston-sellistit a foaf:Person ;
+    foaf:familyName "sellistit" ;
+    foaf:firstName "Keski-Helsingin musiikkiopiston" ;
+    cmo:known-as-a cmk:ensemble ;
+    cmo:performs-in cmk:main-foyer-20270421T1815 .
+
+cmk:key-ensemble a cmo:ensemble-identity ;
+    rdfs:label "Key Ensemble" ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20260818T1900,
+        cmk:musiikkitalo-concert-hall-20260819T1900 .
+
+cmk:kreeta-julia-heikkila a foaf:Person ;
+    foaf:familyName "Heikkilä" ;
+    foaf:firstName "Kreeta-Julia" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20270505T1900 .
+
+cmk:kristiina-poska a foaf:Person ;
+    foaf:familyName "Poska" ;
+    foaf:firstName "Kristiina" ;
+    cmo:conducts-in cmk:musiikkitalo-concert-hall-20270305T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:lansi-helsingin-musiikkiopiston-oppilaita a foaf:Person,
+        cmo:ensemble-identity ;
+    foaf:familyName "oppilaita" ;
+    foaf:firstName "Länsi-Helsingin musiikkiopiston" ;
+    cmo:known-as-a cmk:ensemble ;
+    cmo:performs-in cmk:main-foyer-20261126T1815,
+        cmk:main-foyer-20270407T1815,
+        cmk:main-foyer-20270505T1815 .
+
+cmk:laura-birn a foaf:Person ;
+    foaf:familyName "Birn" ;
+    foaf:firstName "Laura" ;
+    cmo:known-as-a cmk:narrator ;
+    cmo:narrates-in cmk:musiikkitalo-concert-hall-20260818T1900,
+        cmk:musiikkitalo-concert-hall-20260819T1900 .
+
+cmk:let-it-snow a cmo:Programme ;
+    rdfs:label "Let it snow" .
+
+cmk:little-overture a cmo:Programme ;
+    rdfs:label "Little Overture" .
+
+cmk:luoteis-helsingin-musiikkiopiston-jousisoittajat a foaf:Person,
+        cmo:ensemble-identity ;
+    foaf:familyName "" ;
+    foaf:firstName "Luoteis-Helsingin musiikkiopiston jousisoittajat" ;
+    cmo:known-as-a cmk:instrumentalist ;
+    cmo:performs-in cmk:main-foyer-20261029T1815 .
+
+cmk:luoteis-helsingin-musiikkiopiston-pianistit a cmo:ensemble-identity ;
+    rdfs:label "Luoteis-Helsingin musiikkiopiston pianistit" ;
+    cmo:performs-in cmk:main-foyer-20270310T1815 .
+
+cmk:mackenzie-melemed a foaf:Person ;
+    foaf:familyName "Melemed" ;
+    foaf:firstName "Mackenzie" ;
+    cmo:known-as-a cmk:piano ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20270407T1900,
+        cmk:musiikkitalo-concert-hall-20270408T1900 .
+
+cmk:mahler-5 a cmo:Programme ;
+    rdfs:label "Mahler 5" .
+
+cmk:mahler-chamber-orchestra a foaf:Person,
+        cmo:ensemble-identity ;
+    foaf:familyName "Orchestra" ;
+    foaf:firstName "Mahler Chamber" ;
+    cmo:known-as-a cmk:ensemble ;
+    cmo:performs-in cmk:musiikkitalo-20261014T1900,
+        cmk:musiikkitalo-20261015T1900 .
+
+cmk:main-foyer a cmo:Venue ;
+    rdfs:label "Main Foyer" .
+
+cmk:main-foyer-20260925T2030 a mo:Performance ;
+    schema:name "Encounters Club" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-09-25T20:30:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/encounters-club-24"^^xsd:anyURI .
+
+cmk:main-foyer-20261106T2100 a mo:Performance ;
+    schema:name "Encounters Club" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-11-06T21:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/encounters-club-25"^^xsd:anyURI .
+
+cmk:main-foyer-20261120T1815 a mo:Performance ;
+    schema:name "Little Overture" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-11-20T18:15:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/little-overture-62"^^xsd:anyURI .
+
+cmk:main-foyer-20261204T2100 a mo:Performance ;
+    schema:name "Encounters Club" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-12-04T21:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/encounters-club-26"^^xsd:anyURI .
+
+cmk:main-foyer-20270122T2100 a mo:Performance ;
+    schema:name "Encounters Club" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-01-22T21:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/encounters-club-27"^^xsd:anyURI .
+
+cmk:main-foyer-20270128T1815 a mo:Performance ;
+    cmo:performs-in-ensemble cmk:helsingin-konservatorion-oppilaita ;
+    schema:name "Little Overture" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-01-28T18:15:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/little-overture-66"^^xsd:anyURI .
+
+cmk:main-foyer-20270319T2100 a mo:Performance ;
+    schema:name "Encounters Club" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-03-19T21:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/encounters-club-28"^^xsd:anyURI .
+
+cmk:main-foyer-20270416T2100 a mo:Performance ;
+    schema:name "Encounters Club" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-04-16T21:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/encounters-club-29"^^xsd:anyURI .
+
+cmk:main-foyer-20270514T2100 a mo:Performance ;
+    schema:name "Encounters Club" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-05-14T21:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/encounters-club-30"^^xsd:anyURI .
+
+cmk:main-foyer-20270520T1815 a mo:Performance ;
+    cmo:performs-in cmk:itahelsingin-musiikkiopiston-sellistit-ja-kontrabasson-soittajat ;
+    schema:name "Little Overture" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-05-20T18:15:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/little-overture-73"^^xsd:anyURI .
+
+cmk:marko-hilpo a foaf:Person ;
+    foaf:familyName "Hilpo" ;
+    foaf:firstName "Marko" ;
+    cmo:known-as-a cmk:orchestrator ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20260917T1830 .
+
+cmk:marko-ylonen a foaf:Person ;
+    foaf:familyName "Ylönen" ;
+    foaf:firstName "Marko" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20261120T1900 .
+
+cmk:may-day-matinee a cmo:Programme .
+
+cmk:miah-persson a foaf:Person ;
+    foaf:familyName "Persson" ;
+    foaf:firstName "Miah" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20261111T1900,
+        cmk:musiikkitalo-concert-hall-20261112T1900 .
+
+cmk:mikael-loponen a foaf:Person ;
+    foaf:familyName "Loponen" ;
+    foaf:firstName "Mikael" ;
+    cmo:conducts-in cmk:musiikkitalo-concert-hall-20260917T1830 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:musica-nova-helsinki a cmo:Programme ;
+    rdfs:label "Musica nova Helsinki" .
+
+cmk:musicians-melnikov a cmo:Programme .
+
+cmk:musiikkitalo a cmo:ConcertHall,
+        cmo:Venue .
+
+cmk:musiikkitalo-20260930T1000 a mo:Performance ;
+    schema:name "Final rehearsal" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-09-30T10:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/final-rehearsal-45"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Musiikkitalo Concert Hall" .
+
+cmk:musiikkitalo-concert-hall-20260902T1000 a mo:Performance ;
+    schema:name "Final rehearsal" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-09-02T10:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/final-rehearsal-44"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20261028T1000 a mo:Performance ;
+    schema:name "Final rehearsal" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-10-28T10:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/final-rehearsal-46"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20261120T1000 a mo:Performance ;
+    schema:name "Final rehearsal" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-11-20T10:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/final-rehearsal-47"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20261125T1000 a mo:Performance ;
+    schema:name "Final rehearsal" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-11-25T10:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/final-rehearsal-48"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20261125T1815 a mo:Performance ;
+    schema:name "Pre-Concert Talk" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-11-25T18:15:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/pre-concert-talk-12"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20261209T1000 a mo:Performance ;
+    schema:name "Final rehearsal" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-12-09T10:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/final-rehearsal-49"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270113T1000 a mo:Performance ;
+    schema:name "Final rehearsal" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-01-13T10:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/final-rehearsal-50"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270122T1000 a mo:Performance ;
+    schema:name "Final rehearsal" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-01-22T10:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/final-rehearsal-51"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270127T1000 a mo:Performance ;
+    schema:name "Final rehearsal" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-01-27T10:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/final-rehearsal-52"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270219T1000 a mo:Performance ;
+    schema:name "Final rehearsal" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-02-19T10:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/final-rehearsal-53"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270319T1000 a mo:Performance ;
+    schema:name "Final rehearsal" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-03-19T10:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/final-rehearsal-54"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270407T1000 a mo:Performance ;
+    schema:name "Final rehearsal" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-04-07T10:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/final-rehearsal-55"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270416T1000 a mo:Performance ;
+    schema:name "Final rehearsal" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-04-16T10:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/final-rehearsal-56"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270421T1000 a mo:Performance ;
+    schema:name "Final rehearsal" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-04-21T10:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/final-rehearsal-57"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270519T1000 a mo:Performance ;
+    schema:name "Final rehearsal" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-05-19T10:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/final-rehearsal-58"^^xsd:anyURI .
+
+cmk:niamh-mckenna a foaf:Person ;
+    foaf:familyName "McKenna" ;
+    foaf:firstName "Niamh" ;
+    cmo:known-as-a cmk:flute ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20270416T1900 .
+
+cmk:nil-venditti a foaf:Person ;
+    foaf:familyName "Venditti" ;
+    foaf:firstName "Nil" ;
+    cmo:conducts-in cmk:musiikkitalo-concert-hall-20270324T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:olari-elts a foaf:Person ;
+    foaf:familyName "Elts" ;
+    foaf:firstName "Olari" ;
+    cmo:conducts-in cmk:musiikkitalo-concert-hall-20270421T1900,
+        cmk:musiikkitalo-concert-hall-20270422T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:olli-mustonen a foaf:Person ;
+    foaf:familyName "Mustonen" ;
+    foaf:firstName "Olli" ;
+    cmo:conducts-in cmk:musiikkitalo-concert-hall-20261106T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:otto-antikainen a foaf:Person ;
+    foaf:familyName "Antikainen" ;
+    foaf:firstName "Otto" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20261209T1900,
+        cmk:musiikkitalo-concert-hall-20261210T1900 .
+
+cmk:performer a cmo:musical-identity .
+
+cmk:petrushka a cmo:Programme ;
+    rdfs:label "Petrushka" .
+
+cmk:pre-concert-talk a cmo:Programme ;
+    rdfs:label "Pre-Concert Talk" .
+
+cmk:radek-baborak a foaf:Person ;
+    foaf:familyName "Baborak" ;
+    foaf:firstName "Radek" ;
+    cmo:known-as-a cmk:horn ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20270402T1900 .
+
+cmk:return-of-the-heroes a cmo:Programme ;
+    rdfs:label "Return of the Heroes" .
+
+cmk:ryota-higashi a foaf:Person ;
+    foaf:familyName "Higashi" ;
+    foaf:firstName "Ryota" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:musiikkitalo-20261009T1900 .
+
+cmk:sanna-niemelainen a foaf:Person ;
+    foaf:familyName "Niemeläinen" ;
+    foaf:firstName "Sanna" ;
+    cmo:known-as-a cmk:dramaturg ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20260917T1830 .
+
+cmk:saraste-hadelich a cmo:Programme ;
+    rdfs:label "Saraste & Hadelich" .
+
+cmk:satu-sopanen a foaf:Person ;
+    foaf:familyName "Sopanen" ;
+    foaf:firstName "Satu" ;
+    cmo:known-as-a cmk:presenter ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20270316T1900 .
+
+cmk:satu-sopanen-martti-manninen-raili-raitala-pekka-louhio a cmo:ensemble-identity ;
+    rdfs:label "Satu Sopanen, Martti Manninen, Raili Raitala, Pekka Louhio" ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20260917T1830 .
+
+cmk:shadows-of-solace a cmo:Programme ;
+    rdfs:label "Shadows of Solace" .
+
+cmk:sonja-herranen a foaf:Person ;
+    foaf:familyName "Herranen" ;
+    foaf:firstName "Sonja" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20270324T1900 .
+
+cmk:sounds-of-the-north a cmo:Programme ;
+    rdfs:label "Sounds of the North" .
+
+cmk:susanna-malkki a foaf:Person ;
+    foaf:familyName "Mälkki" ;
+    foaf:firstName "Susanna" ;
+    cmo:conducts-in cmk:musiikkitalo-20260925T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:symphonic-dances a cmo:Programme ;
+    rdfs:label "Symphonic Dances" .
+
+cmk:teemu-takanen a foaf:Person ;
+    foaf:familyName "Takanen" ;
+    foaf:firstName "Teemu" ;
+    cmo:conducts-in cmk:musiikkitalo-concert-hall-20261204T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:the-swan-of-tuonela a cmo:Programme ;
+    rdfs:label "The Swan of Tuonela" .
+
+cmk:thomas-dausgaard a foaf:Person ;
+    foaf:familyName "Dausgaard" ;
+    foaf:firstName "Thomas" ;
+    cmo:conducts-in cmk:musiikkitalo-concert-hall-20261209T1900,
+        cmk:musiikkitalo-concert-hall-20261210T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:towards-the-heights a cmo:Programme ;
+    rdfs:label "Towards the Heights" .
+
+cmk:tuomas-katajala a foaf:Person ;
+    foaf:familyName "Katajala" ;
+    foaf:firstName "Tuomas" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20260911T1900 .
+
+cmk:tuomas-ylinen a foaf:Person ;
+    foaf:familyName "Ylinen" ;
+    foaf:firstName "Tuomas" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20270319T1900 .
+
+cmk:tuuli-takala a foaf:Person ;
+    foaf:familyName "Takala" ;
+    foaf:firstName "Tuuli" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20260911T1900 .
+
+cmk:umo-helsinki-jazz-orchestra a foaf:Person,
+        cmo:ensemble-identity ;
+    foaf:familyName "Orchestra" ;
+    foaf:firstName "UMO Helsinki Jazz" ;
+    cmo:known-as-a cmk:ensemble ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20261204T1900 .
+
+cmk:valerie-fritz a foaf:Person ;
+    foaf:familyName "Fritz" ;
+    foaf:firstName "Valerie" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20270219T1900 .
+
+cmk:verdi-wagner a cmo:Programme ;
+    rdfs:label "Verdi & Wagner" .
+
+cmk:wandering a cmo:Programme ;
+    rdfs:label "Wandering" .
+
+cmo:instrumentalist-identity rdfs:subClassOf cmo:musical-identity .
+
+cmk:ales-briscein a foaf:Person ;
+    foaf:familyName "Briscein" ;
+    foaf:firstName "Aleš" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20270528T1900 .
+
+cmk:baritone a cmo:musical-identity .
+
+cmk:bass a cmo:musical-identity .
+
+cmk:concerto-for-orchestra a cmo:Programme ;
+    rdfs:label "Concerto for Orchestra" .
+
+cmk:der-ring-ohne-worte a cmo:Programme ;
+    rdfs:label "Der Ring ohne Worte" .
+
+cmk:director a cmo:musical-identity .
+
+cmk:dramaturg a cmo:musical-identity .
+
+cmk:evening-in-italy a cmo:Programme ;
+    rdfs:label "An Evening in Italy" .
+
+cmk:flute a cmo:musical-identity .
+
+cmk:glazed-foyer-20270519T1815 a mo:Performance ;
+    cmo:narrates-in cmk:jari-eskola ;
+    schema:name "Pre-Concert Talk" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-05-19T18:15:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/pre-concert-talk-16"^^xsd:anyURI .
+
+cmk:helsingin-kamarikuoro a cmo:ensemble-identity ;
+    rdfs:label "Helsingin kamarikuoro" .
+
+cmk:helsingin-konservatorion-oppilaita a cmo:ensemble-identity ;
+    rdfs:label "Helsingin Konservatorion oppilaita" .
+
+cmk:horn a cmo:musical-identity .
+
+cmk:itahelsingin-musiikkiopiston-sellistit-ja-kontrabasson-soittajat a cmo:ensemble-identity ;
+    rdfs:label "Itä-Helsingin musiikkiopiston sellistit ja kontrabasson soittajat" .
+
+cmk:jan-martinik a foaf:Person ;
+    foaf:familyName "Martiník" ;
+    foaf:firstName "Jan" ;
+    cmo:known-as-a cmk:bass ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20270528T1900 .
+
+cmk:jari-eskola a foaf:Person ;
+    foaf:familyName "Eskola" ;
+    foaf:firstName "Jari" ;
+    cmo:known-as-a cmk:narrator ;
+    cmo:narrates-in cmk:glazed-foyer-20270519T1815 .
+
+cmk:kingdom-of-the-seas a cmo:Programme ;
+    rdfs:label "Kingdom of the Seas" .
+
+cmk:lucie-hilscherova a foaf:Person ;
+    foaf:familyName "Hilscherová" ;
+    foaf:firstName "Lucie" ;
+    cmo:known-as-a cmk:mezzo-soprano ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20270528T1900 .
+
+cmk:lucie-vagenknechtova a foaf:Person ;
+    foaf:familyName "Vagenknechtová" ;
+    foaf:firstName "Lucie" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:musiikkitalo-concert-hall-20270528T1900 .
+
+cmk:main-foyer-20260903T1815 a mo:Performance ;
+    schema:name "Little Overture" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-09-03T18:15:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/little-overture-58"^^xsd:anyURI .
+
+cmk:main-foyer-20260930T1815 a mo:Performance ;
+    schema:name "Little Overture" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-09-30T18:15:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/little-overture-59"^^xsd:anyURI .
+
+cmk:main-foyer-20261029T1815 a mo:Performance ;
+    schema:name "Little Overture" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-10-29T18:15:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/little-overture-60"^^xsd:anyURI .
+
+cmk:main-foyer-20261112T1815 a mo:Performance ;
+    schema:name "Little Overture" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-11-12T18:15:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/little-overture-61"^^xsd:anyURI .
+
+cmk:main-foyer-20261126T1815 a mo:Performance ;
+    schema:name "Little Overture" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-11-26T18:15:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/little-overture-63"^^xsd:anyURI .
+
+cmk:main-foyer-20261209T1815 a mo:Performance ;
+    schema:name "Little Overture" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-12-09T18:15:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/little-overture-64"^^xsd:anyURI .
+
+cmk:main-foyer-20270114T1815 a mo:Performance ;
+    schema:name "Little Overture" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-01-14T18:15:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/little-overture-65"^^xsd:anyURI .
+
+cmk:main-foyer-20270310T1815 a mo:Performance ;
+    schema:name "Little Overture" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-03-10T18:15:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/little-overture-67"^^xsd:anyURI .
+
+cmk:main-foyer-20270316T1800 a mo:Performance ;
+    schema:name "Little Overture" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-03-16T18:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/little-overture-68"^^xsd:anyURI .
+
+cmk:main-foyer-20270402T1815 a mo:Performance ;
+    schema:name "Little Overture" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-04-02T18:15:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/little-overture-69"^^xsd:anyURI .
+
+cmk:main-foyer-20270407T1815 a mo:Performance ;
+    schema:name "Little Overture" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-04-07T18:15:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/little-overture-70"^^xsd:anyURI .
+
+cmk:main-foyer-20270421T1815 a mo:Performance ;
+    schema:name "Little Overture" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-04-21T18:15:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/little-overture-71"^^xsd:anyURI .
+
+cmk:main-foyer-20270505T1815 a mo:Performance ;
+    schema:name "Little Overture" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-05-05T18:15:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/little-overture-72"^^xsd:anyURI .
+
+cmk:make-up-designer a cmo:musical-identity .
+
+cmk:musiikkitalo-20260925T1900 a mo:Performance ;
+    cmo:has-programme cmk:der-ring-ohne-worte ;
+    schema:name "Der Ring ohne Worte" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-09-25T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/der-ring-ohne-worte"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270127T1900 a mo:Performance ;
+    schema:name "Shadows of Solace" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-01-27T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/shadows-solace"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270128T1900 a mo:Performance ;
+    schema:name "Shadows of Solace" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-01-28T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/shadows-solace-0"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270402T1900 a mo:Performance ;
+    cmo:has-programme cmk:concerto-for-orchestra ;
+    schema:name "Concerto for Orchestra" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-04-02T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/concerto-orchestra"^^xsd:anyURI .
+
+cmk:musiikkitalon-kuoro a cmo:ensemble-identity ;
+    rdfs:label "Musiikkitalon kuoro" ;
+    cmo:performs-in cmk:musiikkitalo-concert-hall-20261218T1900 .
+
+cmk:orchestrator a cmo:musical-identity .
+
+cmk:organist a cmo:musical-identity .
+
+cmk:peter-and-the-wolf a cmo:Programme ;
+    rdfs:label "Peter and the Wolf" .
+
+cmk:set-and-costume-designer a cmo:musical-identity .
+
+cmk:sophie-heinrich a foaf:Person ;
+    foaf:familyName "Heinrich" ;
+    foaf:firstName "Sophie" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20270528T1900 .
+
+cmk:tour-concerts-japan-south-korea a cmo:Programme ;
+    rdfs:label "Tour concerts: Japan & South Korea" .
+
+cmk:vocalist a cmo:musical-identity .
+
+cmk:bach-beach-brahms a cmo:Programme ;
+    rdfs:label "Bach, Beach & Brahms" .
+
+cmk:dream-requiem a cmo:Programme ;
+    rdfs:label "Helsinki Festival – Rufus Wainwright: Dream Requiem" .
+
+cmk:instrumentalist a cmo:musical-identity .
+
+cmk:mahler-chamber-orchestra-programme a cmo:Programme ;
+    rdfs:label "Mahler Chamber Orchestra" .
+
+cmk:mezzo-soprano a cmo:musical-identity .
+
+cmk:musiikkitalo-20260930T1900 a mo:Performance ;
+    cmo:has-programme cmk:sibelius-5 ;
+    schema:name "Sibelius 5" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-09-30T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/sibelius-5"^^xsd:anyURI .
+
+cmk:musiikkitalo-20261001T1900 a mo:Performance ;
+    cmo:has-programme cmk:sibelius-5 ;
+    schema:name "Sibelius 5" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-10-01T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/sibelius-5-0"^^xsd:anyURI .
+
+cmk:musiikkitalo-20261014T1900 a mo:Performance ;
+    cmo:has-programme cmk:mahler-chamber-orchestra-programme ;
+    schema:name "Mahler Chamber Orchestra" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-10-14T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/mahler-chamber-orchestra"^^xsd:anyURI .
+
+cmk:musiikkitalo-20261015T1900 a mo:Performance ;
+    cmo:has-programme cmk:mahler-chamber-orchestra-programme ;
+    schema:name "Mahler Chamber Orchestra" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-10-15T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/mahler-chamber-orchestra-0"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20260902T1900 a mo:Performance ;
+    cmo:has-programme cmk:pathetique ;
+    schema:name "Pathétique" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-09-02T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/pathetique-1"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20260903T1900 a mo:Performance ;
+    cmo:has-programme cmk:pathetique ;
+    schema:name "Pathétique" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-09-03T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/pathetique-2"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20260911T1900 a mo:Performance ;
+    cmo:has-programme cmk:evening-in-italy ;
+    schema:name "An Evening in Italy" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-09-11T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/evening-italy"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20261028T1900 a mo:Performance ;
+    schema:name "Return of the Heroes" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-10-28T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/return-heroes"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20261029T1900 a mo:Performance ;
+    schema:name "Return of the Heroes" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-10-29T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/return-heroes-0"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20261106T1900 a mo:Performance ;
+    schema:name "Heavenly lights" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-11-06T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/heavenly-lights"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20261111T1900 a mo:Performance ;
+    schema:name "Bella Miah" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-11-11T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/bella-miah"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20261112T1900 a mo:Performance ;
+    schema:name "Bella Miah" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-11-12T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/bella-miah-0"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20261120T1900 a mo:Performance ;
+    schema:name "Petrushka" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-11-20T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/petrushka-0"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20261125T1900 a mo:Performance ;
+    schema:name "Ad Spiram" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-11-25T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/ad-spiram"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20261126T1900 a mo:Performance ;
+    schema:name "Ad Spiram" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-11-26T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/ad-spiram-0"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20261209T1900 a mo:Performance ;
+    schema:name "Sounds of the North" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-12-09T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/sounds-north"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20261210T1900 a mo:Performance ;
+    schema:name "Sounds of the North" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-12-10T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/sounds-north-0"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20261218T1900 a mo:Performance ;
+    schema:name "Verdi & Wagner" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-12-18T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/verdi-wagner"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270113T1900 a mo:Performance ;
+    schema:name "Saraste & Hadelich" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-01-13T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/saraste-hadelich"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270114T1900 a mo:Performance ;
+    schema:name "Saraste & Hadelich" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-01-14T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/saraste-hadelich-0"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270122T1900 a mo:Performance ;
+    schema:name "The Swan of Tuonela" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-01-22T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/swan-tuonela"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270219T1900 a mo:Performance ;
+    schema:name "Musica nova Helsinki" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-02-19T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/musica-nova-helsinki-3"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270305T1900 a mo:Performance ;
+    schema:name "Fokus Thibaudet I" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-03-05T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/fokus-thibaudet-i"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270310T1900 a mo:Performance ;
+    schema:name "Fokus Thibaudet II" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-03-10T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/fokus-thibaudet-ii"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270311T1900 a mo:Performance ;
+    schema:name "Fokus Thibaudet II" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-03-11T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/fokus-thibaudet-ii-0"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270319T1900 a mo:Performance ;
+    schema:name "Symphonic Dances" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-03-19T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/symphonic-dances"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270407T1900 a mo:Performance ;
+    cmo:has-programme cmk:bach-beach-brahms ;
+    schema:name "Bach, Beach & Brahms" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-04-07T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/bach-beach-brahms"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270408T1900 a mo:Performance ;
+    cmo:has-programme cmk:bach-beach-brahms ;
+    schema:name "Bach, Beach & Brahms" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-04-08T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/bach-beach-brahms-0"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270416T1900 a mo:Performance ;
+    cmo:has-programme cmk:kingdom-of-the-seas ;
+    schema:name "Kingdom of the Seas" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-04-16T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/kingdom-seas"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270421T1900 a mo:Performance ;
+    schema:name "Clara" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-04-21T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/clara"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270422T1900 a mo:Performance ;
+    schema:name "Clara" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-04-22T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/clara-0"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270514T1900 a mo:Performance ;
+    schema:name "Hannigan" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-05-14T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/hannigan"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270519T1900 a mo:Performance ;
+    cmo:performs-in cmk:jukka-pekka-saraste,
+        cmk:vilde-frang ;
+    schema:name "Mahler 5" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-05-19T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/mahler-5"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270520T1900 a mo:Performance ;
+    cmo:performs-in cmk:jukka-pekka-saraste,
+        cmk:vilde-frang ;
+    schema:name "Mahler 5" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-05-20T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/mahler-5-0"^^xsd:anyURI .
+
+cmk:narrator a cmo:musical-identity .
+
+cmk:pathetique a cmo:Programme ;
+    rdfs:label "Pathétique" .
+
+cmk:piano a cmo:musical-identity .
+
+cmk:presenter a cmo:musical-identity .
+
+cmk:sibelius-5 a cmo:Programme ;
+    rdfs:label "Sibelius 5" .
+
+cmk:vilde-frang a foaf:Person ;
+    foaf:familyName "Frang" ;
+    foaf:firstName "Vilde" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:musiikkitalo-concert-hall-20270519T1900,
+        cmk:musiikkitalo-concert-hall-20270520T1900 .
+
+cmk:choir-coach a cmo:musical-identity .
+
+cmk:jukka-pekka-saraste a foaf:Person ;
+    foaf:familyName "Saraste" ;
+    foaf:firstName "Jukka-Pekka" ;
+    cmo:conducts-in cmk:musiikkitalo-20260930T1900,
+        cmk:musiikkitalo-20261001T1900,
+        cmk:musiikkitalo-20261009T1900,
+        cmk:musiikkitalo-concert-hall-20260902T1900,
+        cmk:musiikkitalo-concert-hall-20260903T1900,
+        cmk:musiikkitalo-concert-hall-20261120T1900,
+        cmk:musiikkitalo-concert-hall-20261125T1900,
+        cmk:musiikkitalo-concert-hall-20261126T1900,
+        cmk:musiikkitalo-concert-hall-20270113T1900,
+        cmk:musiikkitalo-concert-hall-20270114T1900,
+        cmk:musiikkitalo-concert-hall-20270122T1900,
+        cmk:musiikkitalo-concert-hall-20270310T1900,
+        cmk:musiikkitalo-concert-hall-20270311T1900,
+        cmk:musiikkitalo-concert-hall-20270519T1900,
+        cmk:musiikkitalo-concert-hall-20270520T1900,
+        cmk:musiikkitalo-concert-hall-20270528T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:musiikkitalo-concert-hall-20270316T1900 a mo:Performance ;
+    schema:name "Junior Concert" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-03-16T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/junior-concert-5"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270501T1200 a mo:Performance ;
+    schema:name "May Day Matinee" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-05-01T12:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/may-day-matinee-3"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270501T1400 a mo:Performance ;
+    schema:name "May Day Matinee" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-05-01T14:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/may-day-matinee-4"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270505T1900 a mo:Performance ;
+    schema:name "Musicians & Melnikov" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-05-05T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/musicians-melnikov"^^xsd:anyURI .
+
+cmk:tenor a cmo:musical-identity .
+
+cmk:cellist a cmo:musical-identity .
+
+cmk:musiikkitalo-20261009T1900 a mo:Performance ;
+    cmo:has-programme cmk:tour-concerts-japan-south-korea ;
+    schema:name "Tour concerts: Japan & South Korea" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-10-09T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/tour-concerts-japan-south-korea"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20261204T1900 a mo:Performance ;
+    schema:name "Let it snow" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-12-04T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/let-it-snow"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20270324T1900 a mo:Performance ;
+    schema:name "Towards the Heights" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-03-24T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/towards-heights"^^xsd:anyURI .
+
+cmk:pianist a cmo:musical-identity .
+
+cmk:musiikkitalo-concert-hall-20270528T1900 a mo:Performance ;
+    cmo:performs-in cmk:ales-briscein,
+        cmk:helsingin-kamarikuoro,
+        cmk:jan-martinik,
+        cmk:jukka-pekka-saraste,
+        cmk:lucie-hilscherova,
+        cmk:lucie-vagenknechtova,
+        cmk:musiikkitalon-kuoro,
+        cmk:sophie-heinrich ;
+    schema:name "Wandering" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2027-05-28T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/wandering"^^xsd:anyURI .
+
+cmk:soprano a cmo:musical-identity .
+
+cmk:ensemble a cmo:ensemble-identity,
+        cmo:musical-identity .
+
+cmk:musiikkitalo-concert-hall-20260917T1830 a mo:Performance ;
+    cmo:has-programme cmk:peter-and-the-wolf ;
+    schema:name "Peter and the Wolf" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-09-17T18:30:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/peter-and-wolf"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20260818T1900 a mo:Performance ;
+    cmo:has-programme cmk:dream-requiem ;
+    schema:name "Helsinki Festival – Rufus Wainwright: Dream Requiem" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-08-18T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/helsinki-festival-rufus-wainwright-dream-requiem"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20260819T1900 a mo:Performance ;
+    cmo:has-programme cmk:dream-requiem ;
+    schema:name "Helsinki Festival – Rufus Wainwright: Dream Requiem" ;
+    schema:organizer cmk:helsinginkaupunginorkesteri ;
+    schema:startDate "2026-08-19T19:00:00"^^xsd:dateTime ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/concerts/helsinki-festival-rufus-wainwright-dream-requiem-0"^^xsd:anyURI .
+
+cmk:violinist a cmo:musical-identity .
+
+cmk:conductor a cmo:musical-identity .
+

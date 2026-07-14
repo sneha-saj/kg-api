@@ -1,0 +1,110 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:atso-almilan-kapellimestarikurssin-paatoskonsertti a cmo:Programme .
+
+cmk:chaplin-kultakuume a cmo:Programme .
+
+cmk:kalevan-navetta a cmo:Venue .
+
+cmk:kalevan-navetta-20260827T1800 a mo:Performance ;
+    schema:name "Kamarimusiikkia uusin silmin" ;
+    schema:organizer cmk:skor ;
+    schema:startDate "2026-08-27T18:00:00"^^xsd:dateTime .
+
+cmk:kalevan-navetta-20261001T1800 a mo:Performance ;
+    schema:name "SKOR-klubi: Jukka Iisakkila & Ystävät" ;
+    schema:organizer cmk:skor ;
+    schema:startDate "2026-10-01T18:00:00"^^xsd:dateTime .
+
+cmk:kalevan-navetta-20261210T1800 a mo:Performance ;
+    schema:name "SKOR-klubi: rauhaa, vain rauhaa" ;
+    schema:organizer cmk:skor ;
+    schema:startDate "2026-12-10T18:00:00"^^xsd:dateTime .
+
+cmk:kamarimusiikkia-uusin-silmin a cmo:Programme .
+
+cmk:klassikkoaariat a cmo:Programme .
+
+cmk:klassinen-joulu a cmo:Programme .
+
+cmk:leino-live-hoyhensaaret a cmo:Programme .
+
+cmk:mamma-mia-sing-a-long a cmo:Programme .
+
+cmk:mimmit-ja-puhuri-pakkasen-poika a cmo:Programme .
+
+cmk:piaf a cmo:Programme .
+
+cmk:seinajoen-kaupunginorkesteri-90v-juhlakonsertti a cmo:Programme .
+
+cmk:seinajoki-sali a cmo:Venue .
+
+cmk:seinajoki-sali-20260904T1800 a mo:Performance ;
+    schema:name "Mamma Mia! Sing-a-long" ;
+    schema:organizer cmk:skor ;
+    schema:startDate "2026-09-04T18:00:00"^^xsd:dateTime .
+
+cmk:seinajoki-sali-20260918T1800 a mo:Performance ;
+    schema:name "PIAF!" ;
+    schema:organizer cmk:skor ;
+    schema:startDate "2026-09-18T18:00:00"^^xsd:dateTime .
+
+cmk:seinajoki-sali-20260924T1800 a mo:Performance ;
+    schema:name "Klassikkoaariat" ;
+    schema:organizer cmk:skor ;
+    schema:startDate "2026-09-24T18:00:00"^^xsd:dateTime .
+
+cmk:seinajoki-sali-20261008T1800 a mo:Performance ;
+    schema:name "Leino-live: Höyhensaaret" ;
+    schema:organizer cmk:skor ;
+    schema:startDate "2026-10-08T18:00:00"^^xsd:dateTime .
+
+cmk:seinajoki-sali-20261022T1800 a mo:Performance ;
+    schema:name "Atso Almilan kapellimestarikurssin päätöskonsertti" ;
+    schema:organizer cmk:skor ;
+    schema:startDate "2026-10-22T18:00:00"^^xsd:dateTime .
+
+cmk:seinajoki-sali-20261105T1800 a mo:Performance ;
+    schema:name "Seinäjoen kaupunginorkesteri 90v -juhlakonsertti" ;
+    schema:organizer cmk:skor ;
+    schema:startDate "2026-11-05T18:00:00"^^xsd:dateTime .
+
+cmk:seinajoki-sali-20261121T1100 a mo:Performance ;
+    schema:name "Mimmit ja Puhuri, pakkasen poika" ;
+    schema:organizer cmk:skor ;
+    schema:startDate "2026-11-21T11:00:00"^^xsd:dateTime .
+
+cmk:seinajoki-sali-20261121T1500 a mo:Performance ;
+    schema:name "Mimmit ja Puhuri, pakkasen poika" ;
+    schema:organizer cmk:skor ;
+    schema:startDate "2026-11-21T15:00:00"^^xsd:dateTime .
+
+cmk:seinajoki-sali-20261203T1800 a mo:Performance ;
+    schema:name "Chaplin: Kultakuume" ;
+    schema:organizer cmk:skor ;
+    schema:startDate "2026-12-03T18:00:00"^^xsd:dateTime .
+
+cmk:skor-klubi-jukka-iisakkila-ja-ystavat a cmo:Programme .
+
+cmk:skor-klubi-kauhua-kartanolla a cmo:Programme .
+
+cmk:skor-klubi-rauhaa-vain-rauhaa a cmo:Programme .
+
+cmk:tornavan-kartano a cmo:Venue .
+
+cmk:tornavan-kartano-20261029T1800 a mo:Performance ;
+    schema:name "SKOR-klubi: Kauhua kartanolla" ;
+    schema:organizer cmk:skor ;
+    schema:startDate "2026-10-29T18:00:00"^^xsd:dateTime .
+
+cmk:tornavan-kirkko a cmo:Venue .
+
+cmk:tornavan-kirkko-20261217T1800 a mo:Performance ;
+    schema:name "Klassinen joulu" ;
+    schema:organizer cmk:skor ;
+    schema:startDate "2026-12-17T18:00:00"^^xsd:dateTime .
+

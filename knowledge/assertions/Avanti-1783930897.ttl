@@ -1,0 +1,44 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:art-factory-porvoo a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Avanti Hall, Art Factory, Porvoo" .
+
+cmk:avanti-chamber-orchestra a foaf:Group ;
+    rdfs:label "Avanti! Chamber Orchestra" ;
+    cmo:known-as-a cmk:ensemble ;
+    cmo:performs-in cmk:art-factory-porvoo-20260625T1900 .
+
+cmk:emilia-hoving a foaf:Person ;
+    foaf:familyName "Hoving" ;
+    foaf:firstName "Emilia" ;
+    cmo:conducts-in cmk:art-factory-porvoo-20260625T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:joonas-ahonen a foaf:Person ;
+    foaf:familyName "Ahonen" ;
+    foaf:firstName "Joonas" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:art-factory-porvoo-20260625T1900 .
+
+cmk:manic-lines a cmo:Programme ;
+    rdfs:label "Summer Sounds 2026: Opening Concert \"Manic Lines\"" .
+
+cmk:conductor a cmo:musical-identity .
+
+cmk:ensemble a cmo:ensemble-identity .
+
+cmk:pianist a cmo:musical-identity .
+
+cmk:art-factory-porvoo-20260625T1900 a mo:Performance ;
+    schema:name "Summer Sounds 2026: Opening Concert \"Manic Lines\"" ;
+    schema:organizer cmk:avantimusic ;
+    schema:startDate "2026-06-25T19:00:00"^^xsd:dateTime ;
+    schema:url "https://avantimusic.fi/en/portfolio/summer-sounds-2026-opening-concert-manic-lines-2/"^^xsd:anyURI .
+

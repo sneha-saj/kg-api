@@ -1,0 +1,212 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:avantimusic a schema:Organization ;
+    skos:hiddenLabel "Avanti! KamO" ;
+    cmo:acronym "Avanti" ;
+    schema:name "Avanti! kamariorkesteri" ;
+    cmo:concertLinkPattern "/en/portfolio/" ;
+    schema:url "https://avantimusic.fi/en/concerts/"^^xsd:anyURI .
+
+cmk:ensemblenylandia a schema:Organization ;
+    skos:hiddenLabel "Ensemble Nylandia" ;
+    cmo:acronym "Nylandia" ;
+    schema:name "Ensemble Nylandia" ;
+    cmo:concertLinkPattern "/calendar/" ;
+    schema:url "https://www.ensemblenylandia.info/calendar"^^xsd:anyURI .
+
+cmk:fibo a schema:Organization ;
+    skos:hiddenLabel "Suomalainen barokkiO" ;
+    cmo:acronym "Fibo" ;
+    schema:name "Suomalainen barokkiorkesteri" ;
+    schema:url "https://fibo.fi/en/concerts/"^^xsd:anyURI .
+
+cmk:finnchamber a schema:Organization ;
+    skos:hiddenLabel "Suomalainen kamariO" ;
+    cmo:acronym "SKO" ;
+    schema:name "Suomalainen kamariorkesteri" ;
+    schema:url "https://finnchamber.fi/fi/tammisaari/"^^xsd:anyURI .
+
+cmk:hebo a schema:Organization ;
+    skos:hiddenLabel "Helsingin BarokkiO" ;
+    cmo:acronym "Hebo" ;
+    schema:name "Helsingin barokkiorkesteri" ;
+    cmo:concertLinkPattern "/tapahtuma/" ;
+    schema:url "https://www.hebo.fi/concerts/"^^xsd:anyURI .
+
+cmk:helsinginkaupunginorkesteri a schema:Organization ;
+    skos:hiddenLabel "Helsingin kaupunginorkesteri" ;
+    cmo:acronym "HKO" ;
+    schema:name "Helsingin kaupunginorkesteri" ;
+    schema:url "https://helsinginkaupunginorkesteri.fi/en/konsertit"^^xsd:anyURI .
+
+cmk:hyvinkaanorkesteri a schema:Organization ;
+    skos:hiddenLabel "Hyvinkään O" ;
+    cmo:acronym "Hyvinkää" ;
+    schema:name "Hyvinkään orkesteri" ;
+    cmo:concertLinkPattern "/" ;
+    schema:url "https://hyvinkaanorkesteri.fi/konsertit/"^^xsd:anyURI .
+
+cmk:joensuunkaupunginorkesteri a schema:Organization ;
+    skos:hiddenLabel "Joensuun KO" ;
+    cmo:acronym "JNS" ;
+    schema:name "Joensuun kaupunginorkesteri" ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/konsertit/"^^xsd:anyURI .
+
+cmk:jyvaskylasinfonia a schema:Organization ;
+    skos:hiddenLabel "Jyväskylä Sinfonia" ;
+    cmo:acronym "JKL" ;
+    schema:name "Jyväskylä Sinfonia" ;
+    schema:url "https://www.jyvaskylasinfonia.fi/en/jyvaskyla-sinfonia-english/concerts"^^xsd:anyURI .
+
+cmk:kaartin-soittokunta a schema:Organization ;
+    skos:hiddenLabel "Kaartin soittokunta" ;
+    cmo:acronym "Kaarti" ;
+    schema:name "Kaartin soittokunta" ;
+    schema:url "https://konserttikalenteri.puolustusvoimat.fi/kaartin-soittokunta/"^^xsd:anyURI .
+
+cmk:kamariorkesteri a schema:Organization ;
+    skos:hiddenLabel "K-Pohjanmaan KamO" ;
+    cmo:acronym "KPKO" ;
+    schema:name "Keski-Pohjanmaan kamariorkesteri" ;
+    schema:url "https://kamariorkesteri.fi/all/"^^xsd:anyURI .
+
+cmk:kansallisoopperan-orkesteri a schema:Organization ;
+    skos:hiddenLabel "Kansallisoopperan O" ;
+    cmo:acronym "Opera" ;
+    schema:name "Kansallisoopperan orkesteri" ;
+    schema:url "https://oopperabaletti.fi/en/repertoire/"^^xsd:anyURI .
+
+cmk:keminkaupunginorkesteri a schema:Organization ;
+    skos:hiddenLabel "Kemin KO" ;
+    cmo:acronym "Kemi" ;
+    schema:name "Kemin kaupunginorkesteri" ;
+    schema:url "https://www.keminkaupunginorkesteri.fi/en/concerts/"^^xsd:anyURI .
+
+cmk:kuopionkaupunginorkesteri a schema:Organization ;
+    skos:hiddenLabel "Kuopion KO" ;
+    cmo:acronym "Kuopio" ;
+    schema:name "Kuopion kaupunginorkesteri" ;
+    schema:url "https://www.kuopionkaupunginorkesteri.fi/en/concerts/"^^xsd:anyURI .
+
+cmk:kymisinfonietta a schema:Organization ;
+    skos:hiddenLabel "Kymi Sinfonietta" ;
+    cmo:acronym "Kymi" ;
+    schema:name "Kymi Sinfonietta" ;
+    schema:url "https://kymisinfonietta.fi/en/events/"^^xsd:anyURI .
+
+cmk:lapin-kamariorkesteri a schema:Organization ;
+    skos:hiddenLabel "Lapin KamO" ;
+    cmo:acronym "Lappi" ;
+    schema:name "Lapin kamariorkesteri" ;
+    schema:url "https://korundi.fi/en/visit/lapland-chamber-orchestra/lapland-chamber-orchestra-concerts"^^xsd:anyURI .
+
+cmk:lohjankaupunginorkesteri a schema:Organization ;
+    skos:hiddenLabel "Lohjan KO" ;
+    cmo:acronym "Lohja" ;
+    schema:name "Lohjan kaupunginorkesteri" ;
+    schema:url "https://lohjankaupunginorkesteri.fi"^^xsd:anyURI .
+
+cmk:lprorkesteri a schema:Organization ;
+    skos:hiddenLabel "Lappeenrannan KO" ;
+    cmo:acronym "LPR" ;
+    schema:name "Lappeenrannan kaupunginorkesteri" ;
+    schema:url "https://lprorkesteri.fi/fi/Ohjelmisto"^^xsd:anyURI .
+
+cmk:mikkelinkaupunginorkesteri a schema:Organization ;
+    skos:hiddenLabel "Mikkelin KO" ;
+    cmo:acronym "Mikkeli" ;
+    schema:name "Mikkelin kaupunginorkesteri" ;
+    schema:url "https://mikkelinkaupunginorkesteri.fi/tapahtumat/"^^xsd:anyURI .
+
+cmk:oulusinfonia a schema:Organization ;
+    skos:hiddenLabel "Oulu Sinfonia" ;
+    cmo:acronym "Oulu" ;
+    schema:name "Oulu Sinfonia" ;
+    schema:url "https://oulusinfonia.fi/en/concerts/"^^xsd:anyURI .
+
+cmk:rso a schema:Organization ;
+    skos:hiddenLabel "Radion sinfoniaorkesteri" ;
+    cmo:acronym "RSO" ;
+    cmo:concertLinkPattern "/aihe/a/" ;
+    schema:name "Radion sinfoniaorkesteri" ;
+    schema:url "https://yle.fi/aihe/rso-in-english/concerts-season-2026-2027"^^xsd:anyURI .
+
+cmk:savonlinnanorkesteri a schema:Organization ;
+    skos:hiddenLabel "Savonlinnan O" ;
+    cmo:acronym "SL" ;
+    schema:name "Savonlinnan orkesteri" ;
+    schema:url "https://www.savonlinnanorkesteri.fi/2026"^^xsd:anyURI .
+
+cmk:sibelius-akatemian-sinfoniaorkesteri a schema:Organization ;
+    skos:hiddenLabel "Sibelius-Akatemian SO" ;
+    cmo:acronym "Siba" ;
+    schema:name "Sibelius-Akatemian sinfoniaorkesteri" ;
+    schema:url "https://www.uniarts.fi/yksikot/sibelius-akatemian-sinfoniaorkesteri/"^^xsd:anyURI .
+
+cmk:sinfonialahti a schema:Organization ;
+    skos:hiddenLabel "Sinfonia Lahti" ;
+    cmo:acronym "Lahti" ;
+    schema:name "Sinfonia Lahti" ;
+    schema:url "https://sinfonialahti.fi/en/concerts/"^^xsd:anyURI .
+
+cmk:sinfoniavivo a schema:Organization ;
+    skos:hiddenLabel "Vivo SO" ;
+    cmo:acronym "Vivo" ;
+    schema:name "Sinfonia Vivo" ;
+    schema:url "https://sinfoniavivo.fi/konsertit/"^^xsd:anyURI .
+
+cmk:sinfonietta-pori a schema:Organization ;
+    skos:hiddenLabel "Pori Sinfonietta" ;
+    cmo:acronym "Pori" ;
+    schema:name "Porin sinfonietta" ;
+    schema:url "https://sinfonietta.pori.fi/konsertit/"^^xsd:anyURI .
+
+cmk:skor a schema:Organization ;
+    skos:hiddenLabel "Seinäjoen KO" ;
+    cmo:acronym "Seinäjoki" ;
+    schema:name "Seinäjoen kaupunginorkesteri" ;
+    schema:url "https://skor.fi/konsertit/"^^xsd:anyURI .
+
+cmk:tamperefilharmonia a schema:Organization ;
+    skos:hiddenLabel "Tampere Filharmonia" ;
+    cmo:acronym "TamF" ;
+    cmo:concertLinkPattern "/dynamic-event/",
+        "/tapahtuma/" ;
+    schema:name "Tampere Filharmonia" ;
+    schema:url "https://www.tamperefilharmonia.fi/en/concerts/"^^xsd:anyURI .
+
+cmk:tapiolasinfonietta a schema:Organization ;
+    skos:hiddenLabel "Tapiola Sinfonietta" ;
+    cmo:acronym "TS" ;
+    schema:name "Tapiola Sinfonietta" ;
+    schema:url "https://tapiolasinfonietta.fi/en/concerts/"^^xsd:anyURI .
+
+cmk:tfo a schema:Organization ;
+    skos:hiddenLabel "Turun filharmoninen orkesteri" ;
+    cmo:acronym "TFO" ;
+    cmo:concertLinkPattern "/en/tapahtumat/" ;
+    schema:name "Turun filharmoninen orkesteri" ;
+    schema:url "https://tfo.fi/en/events/"^^xsd:anyURI .
+
+cmk:umohelsinki a schema:Organization ;
+    skos:hiddenLabel "UMO Helsinki Jazz O" ;
+    cmo:acronym "UMO" ;
+    schema:name "UMO Helsinki Jazz Orchestra" ;
+    schema:url "https://umohelsinki.fi/en/concerts/"^^xsd:anyURI .
+
+cmk:vaasan-kaupunginorkesteri a schema:Organization ;
+    skos:hiddenLabel "Vaasan KO" ;
+    cmo:acronym "Vaasa" ;
+    schema:name "Vaasan kaupunginorkesteri" ;
+    schema:url "https://www.vaasa.fi/en/see-and-experience/culture-in-vaasa-and-vaasa-region/vasa-city-orchestra/"^^xsd:anyURI .
+
+cmk:viihdeorkesteri a schema:Organization ;
+    skos:hiddenLabel "Vantaan VO" ;
+    cmo:acronym "VVO" ;
+    schema:name "Vantaan viihdeorkesteri" ;
+    schema:url "https://www.viihdeorkesteri.fi/konsertit"^^xsd:anyURI .
+

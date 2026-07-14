@@ -1,0 +1,1650 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:aapo-juutilainen a foaf:Person ;
+    foaf:familyName "Juutilainen" ;
+    foaf:firstName "Aapo" ;
+    cmo:known-as-a cmk:double-bassist ;
+    cmo:plays-in cmk:helsinki-music-centre-paavo-hall-20270124T1500 .
+
+cmk:aino-oksanen a foaf:Person ;
+    foaf:familyName "Oksanen" ;
+    foaf:firstName "Aino" ;
+    cmo:known-as-a cmk:viola ;
+    cmo:plays-in cmk:the-helsinki-music-centre-paavo-hall-20270314T1500 .
+
+cmk:albert-papp a foaf:Person ;
+    foaf:familyName "Papp" ;
+    foaf:firstName "Albert" ;
+    cmo:known-as-a cmk:violist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-20261113T1900 .
+
+cmk:alisa-weilerstein a foaf:Person ;
+    foaf:familyName "Weilerstein" ;
+    foaf:firstName "Alisa" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-concert-hall-20270428T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20270429T1900 .
+
+cmk:alte-oper a cmo:ConcertHall,
+        cmo:Venue .
+
+cmk:andrea-marcon a foaf:Person ;
+    foaf:familyName "Marcon" ;
+    foaf:firstName "Andrea" ;
+    cmo:conducts-in cmk:the-helsinki-music-centre-20261002T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:andrew-manze a foaf:Person ;
+    foaf:familyName "Manze" ;
+    foaf:firstName "Andrew" ;
+    cmo:conducts-in cmk:the-helsinki-music-centre-concert-hall-20270507T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:andrew-watts a foaf:Person ;
+    foaf:familyName "Watts" ;
+    foaf:firstName "Andrew" ;
+    cmo:known-as-a cmk:countertenor ;
+    cmo:sings-in cmk:philharmonie-20260828T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260824T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260825T1900 .
+
+cmk:anja-bihlmaier a foaf:Person ;
+    foaf:familyName "Bihlmaier" ;
+    foaf:firstName "Anja" ;
+    cmo:conducts-in cmk:the-helsinki-music-centre-20261030T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:anja-bihlmaier-and-sergei-krylov a cmo:Programme ;
+    rdfs:label "Anja Bihlmaier & Sergei Krylov" .
+
+cmk:anna-maria-helsing a foaf:Person ;
+    foaf:familyName "Helsing" ;
+    foaf:firstName "Anna-Maria" ;
+    cmo:conducts-in cmk:the-helsinki-music-centre-concert-hall-20270409T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:anna-maria-helsing-behzod-abduraimov a cmo:Programme .
+
+cmk:antoine-tamestit a foaf:Person ;
+    foaf:familyName "Tamestit" ;
+    foaf:firstName "Antoine" ;
+    cmo:conducts-in cmk:helsinki-music-centre-concert-hall-20270129T1900 ;
+    cmo:known-as-a cmk:conductor,
+        cmk:viola,
+        cmk:violist ;
+    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20270129T1900,
+        cmk:the-helsinki-music-centre-20270526T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260909T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260910T1900 .
+
+cmk:anton-kukkonen a foaf:Person ;
+    foaf:familyName "Kukkonen" ;
+    foaf:firstName "Anton" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-concert-hall-20260918T1900 .
+
+cmk:arabella-steinbacher a foaf:Person ;
+    foaf:familyName "Steinbacher" ;
+    foaf:firstName "Arabella" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-concert-hall-20270423T1900 .
+
+cmk:arvid-larsson a foaf:Person ;
+    foaf:familyName "Larsson" ;
+    foaf:firstName "Arvid" ;
+    cmo:known-as-a cmk:bassoon ;
+    cmo:plays-in cmk:the-helsinki-music-centre-concert-hall-20270409T1900,
+        cmk:the-helsinki-music-centre-paavo-hall-20270314T1500 .
+
+cmk:ava-bahari a foaf:Person ;
+    foaf:familyName "Bahari" ;
+    foaf:firstName "Ava" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-20261007T1900,
+        cmk:the-helsinki-music-centre-20261008T1900 .
+
+cmk:behzod-abduraimov a foaf:Person ;
+    foaf:familyName "Abduraimov" ;
+    foaf:firstName "Behzod" ;
+    cmo:known-as-a cmk:piano ;
+    cmo:plays-in cmk:the-helsinki-music-centre-concert-hall-20270409T1900 .
+
+cmk:bertrand-chamayou a foaf:Person ;
+    foaf:familyName "Chamayou" ;
+    foaf:firstName "Bertrand" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-concert-hall-20270521T1900 .
+
+cmk:chamber-music-concert-english-phantasies a cmo:Programme ;
+    rdfs:label "Chamber Music Concert: English Phantasies" .
+
+cmk:chamber-music-concert-insights a cmo:Programme ;
+    rdfs:label "Chamber Music Concert: Insights" .
+
+cmk:chamber-music-concert-kith-and-kin a cmo:Programme .
+
+cmk:chamber-music-concert-mountain-echoes a cmo:Programme ;
+    rdfs:label "Chamber Music Concert: Mountain Echoes" .
+
+cmk:chamber-music-concert-the-musical-offering a cmo:Programme .
+
+cmk:christian-tetzlaff a foaf:Person ;
+    foaf:familyName "Tetzlaff" ;
+    foaf:firstName "Christian" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20270115T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20270317T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20270318T1900 .
+
+cmk:christoffer-sundqvist a foaf:Person ;
+    foaf:familyName "Sundqvist" ;
+    foaf:firstName "Christoffer" ;
+    cmo:known-as-a cmk:clarinetist ;
+    cmo:plays-in cmk:helsinki-music-centre-paavo-hall-20270221T1500,
+        cmk:the-helsinki-music-centre-20261030T1900 .
+
+cmk:claire-de-sevigne a foaf:Person ;
+    foaf:familyName "de Sévigné" ;
+    foaf:firstName "Claire" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:the-helsinki-music-centre-concert-hall-20260918T1900 .
+
+cmk:constantinos-carydis a foaf:Person ;
+    foaf:familyName "Carydis" ;
+    foaf:firstName "Constantinos" ;
+    cmo:conducts-in cmk:helsinki-music-centre-concert-hall-20261127T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:constantinos-carydis-leif-ove-andsnes a cmo:Programme .
+
+cmk:cristian-more-coloma a foaf:Person ;
+    foaf:familyName "Moré Coloma" ;
+    foaf:firstName "Cristian" ;
+    cmo:known-as-a cmk:oboe ;
+    cmo:plays-in cmk:the-helsinki-music-centre-concert-hall-20270409T1900,
+        cmk:the-helsinki-music-centre-paavo-hall-20261011T1500 .
+
+cmk:dima-slobodeniouk a foaf:Person ;
+    foaf:familyName "Slobodeniouk" ;
+    foaf:firstName "Dima" ;
+    cmo:conducts-in cmk:helsinki-music-centre-concert-hall-20261216T1900,
+        cmk:helsinki-music-centre-concert-hall-20261217T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:dima-slobodeniouk-helena-juntunen a cmo:Programme .
+
+cmk:dmytro-popov a foaf:Person ;
+    foaf:familyName "Popov" ;
+    foaf:firstName "Dmytro" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:helsinki-music-centre-concert-hall-20270203T1900,
+        cmk:helsinki-music-centre-concert-hall-20270204T1900 .
+
+cmk:eeva-rysa a foaf:Person ;
+    foaf:familyName "Rysä" ;
+    foaf:firstName "Eeva" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:helsinki-music-centre-paavo-hall-20270221T1500 .
+
+cmk:elim-chan a foaf:Person ;
+    foaf:familyName "Chan" ;
+    foaf:firstName "Elim" ;
+    cmo:conducts-in cmk:the-helsinki-music-centre-concert-hall-20260917T1000,
+        cmk:the-helsinki-music-centre-concert-hall-20260918T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:elim-chan-and-claire-de-sevigne a cmo:Programme ;
+    rdfs:label "Elim Chan & Claire de Sévigné" .
+
+cmk:elina-pakkila a foaf:Person ;
+    foaf:familyName "Päkkilä" ;
+    foaf:firstName "Elina" ;
+    cmo:known-as-a cmk:violin,
+        cmk:violinist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-paavo-hall-20261108T1500,
+        cmk:the-helsinki-music-centre-paavo-hall-20270314T1500 .
+
+cmk:elisabeth-freyhoff a foaf:Person ;
+    foaf:familyName "Freyhoff" ;
+    foaf:firstName "Elisabeth" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:philharmonie-20260828T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260824T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260825T1900 .
+
+cmk:emilie-ravn-jensen a foaf:Person ;
+    foaf:familyName "Ravn Jensen" ;
+    foaf:firstName "Emilie" ;
+    cmo:known-as-a cmk:french-horn ;
+    cmo:plays-in cmk:the-helsinki-music-centre-concert-hall-20270409T1900 .
+
+cmk:emma-mali a foaf:Person ;
+    foaf:familyName "Mali" ;
+    foaf:firstName "Emma" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-paavo-hall-20260913T1500 .
+
+cmk:emma-vahala a foaf:Person ;
+    foaf:familyName "Vähälä" ;
+    foaf:firstName "Emma" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-20261113T1900 .
+
+cmk:eva-ollikainen a foaf:Person ;
+    foaf:familyName "Ollikainen" ;
+    foaf:firstName "Eva" ;
+    cmo:conducts-in cmk:the-helsinki-music-centre-concert-hall-20270311T1000,
+        cmk:the-helsinki-music-centre-concert-hall-20270312T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:eva-ollikainen-fatima-boix-canto a cmo:Programme .
+
+cmk:fabien-gabel a foaf:Person ;
+    foaf:familyName "Gabel" ;
+    foaf:firstName "Fabien" ;
+    cmo:conducts-in cmk:the-helsinki-music-centre-20261016T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:fabien-gabel-and-veronika-eberle a cmo:Programme ;
+    rdfs:label "Fabien Gabel & Veronika Eberle" .
+
+cmk:fairytale-concert a cmo:Programme ;
+    rdfs:label "Fairytale Concert" .
+
+cmk:fairytale-concert-in-finnish a cmo:Programme .
+
+cmk:fatima-boix-canto a foaf:Person ;
+    foaf:familyName "Boix Cantó" ;
+    foaf:firstName "Fàtima" ;
+    cmo:known-as-a cmk:eb-clarinet ;
+    cmo:plays-in cmk:the-helsinki-music-centre-concert-hall-20270312T1900 .
+
+cmk:frederic-wake-walker a foaf:Person ;
+    foaf:familyName "Wake-Walker" ;
+    foaf:firstName "Frederic" ;
+    cmo:known-as-a cmk:direction ;
+    cmo:performs-in cmk:philharmonie-20260828T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260824T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260825T1900 .
+
+cmk:frso-pikku-kakkonen a cmo:Programme .
+
+cmk:giuseppe-gentile a foaf:Person ;
+    foaf:familyName "Gentile" ;
+    foaf:firstName "Giuseppe" ;
+    cmo:known-as-a cmk:clarinet,
+        cmk:clarinetist ;
+    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20270129T1900,
+        cmk:the-helsinki-music-centre-20261113T1900,
+        cmk:the-helsinki-music-centre-paavo-hall-20270314T1500 .
+
+cmk:guest-performance-frankfurt a cmo:Programme .
+
+cmk:guest-performance-stuttgart a cmo:Programme .
+
+cmk:guest-performance-turku-philharmonic-orchestra a cmo:Programme .
+
+cmk:hanna-elisabeth-muller a foaf:Person ;
+    foaf:familyName "Müller" ;
+    foaf:firstName "Hanna-Elisabeth" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:the-helsinki-music-centre-concert-hall-20270326T1500 .
+
+cmk:hannu-lintu a foaf:Person ;
+    foaf:familyName "Lintu" ;
+    foaf:firstName "Hannu" ;
+    cmo:conducts-in cmk:the-helsinki-music-centre-concert-hall-20260923T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260924T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:hannu-lintu-and-mihails-culpajevs a cmo:Programme ;
+    rdfs:label "Hannu Lintu & Mihails Čuļpajevs" .
+
+cmk:heidi-melton a foaf:Person ;
+    foaf:familyName "Melton" ;
+    foaf:firstName "Heidi" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:philharmonie-20260828T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260824T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260825T1900 .
+
+cmk:helena-juntunen a foaf:Person ;
+    foaf:familyName "Juntunen" ;
+    foaf:firstName "Helena" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:helsinki-music-centre-concert-hall-20261216T1900,
+        cmk:helsinki-music-centre-concert-hall-20261217T1900 .
+
+cmk:helsinki-chamber-choir a cmo:Ensemble,
+        cmo:ensemble-identity ;
+    rdfs:label "Helsinki Chamber Choir" ;
+    cmo:performs-in cmk:the-helsinki-music-centre-concert-hall-20270326T1500 .
+
+cmk:helsinki-music-centre-choir a cmo:ensemble-identity ;
+    rdfs:label "Helsinki Music Centre Choir" .
+
+cmk:il-prete-rosso-hommage-a-antonio-vivaldi a cmo:Programme ;
+    rdfs:label "Il prete rosso - Hommage à Antonio Vivaldi" .
+
+cmk:ilmo-ranta a foaf:Person ;
+    foaf:familyName "Ranta" ;
+    foaf:firstName "Ilmo" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:helsinki-music-centre-paavo-hall-20270221T1500 .
+
+cmk:independence-day-gala-concert a cmo:Programme .
+
+cmk:iwona-sobotka a foaf:Person ;
+    foaf:familyName "Sobotka" ;
+    foaf:firstName "Iwona" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:helsinki-music-centre-concert-hall-20270203T1900,
+        cmk:helsinki-music-centre-concert-hall-20270204T1900 .
+
+cmk:jani-niinimaki a foaf:Person ;
+    foaf:familyName "Niinimäki" ;
+    foaf:firstName "Jani" ;
+    cmo:known-as-a cmk:percussion ;
+    cmo:plays-in cmk:the-helsinki-music-centre-concert-hall-20270409T1900 .
+
+cmk:janne-sihvo a foaf:Person ;
+    foaf:familyName "Sihvo" ;
+    foaf:firstName "Janne" ;
+    cmo:known-as-a cmk:bass ;
+    cmo:sings-in cmk:helsinki-music-centre-concert-hall-20270203T1900,
+        cmk:helsinki-music-centre-concert-hall-20270204T1900 .
+
+cmk:janne-valkeajoki a foaf:Person ;
+    foaf:familyName "Valkeajoki" ;
+    foaf:firstName "Janne" ;
+    cmo:known-as-a cmk:bayan-accordion ;
+    cmo:plays-in cmk:the-helsinki-music-centre-concert-hall-20270303T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20270304T1900 .
+
+cmk:jennifer-johnston a foaf:Person ;
+    foaf:familyName "Johnston" ;
+    foaf:firstName "Jennifer" ;
+    cmo:known-as-a cmk:mezzo-soprano ;
+    cmo:sings-in cmk:the-helsinki-music-centre-concert-hall-20270326T1500 .
+
+cmk:jerry-piipponen a foaf:Person ;
+    foaf:familyName "Piipponen" ;
+    foaf:firstName "Jerry" ;
+    cmo:known-as-a cmk:percussionist ;
+    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20270212T1900 .
+
+cmk:jingjing-xu a foaf:Person ;
+    foaf:familyName "Xu" ;
+    foaf:firstName "Jingjing" ;
+    cmo:known-as-a cmk:mezzo-soprano ;
+    cmo:sings-in cmk:philharmonie-20260828T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260824T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260825T1900 .
+
+cmk:johannes-piirto a foaf:Person ;
+    foaf:familyName "Piirto" ;
+    foaf:firstName "Johannes" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-concert-hall-20270414T1900 .
+
+cmk:joonatan-rautiola a foaf:Person ;
+    foaf:familyName "Rautiola" ;
+    foaf:firstName "Joonatan" ;
+    cmo:known-as-a cmk:saxophonist ;
+    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20270212T1900 .
+
+cmk:joshua-kail a foaf:Person ;
+    foaf:familyName "Kail" ;
+    foaf:firstName "Joshua" ;
+    cmo:known-as-a cmk:violist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-paavo-hall-20260913T1500,
+        cmk:the-helsinki-music-centre-paavo-hall-20261011T1500 .
+
+cmk:jouko-laivuori a foaf:Person ;
+    foaf:familyName "Laivuori" ;
+    foaf:firstName "Jouko" ;
+    cmo:known-as-a cmk:harpsichordist,
+        cmk:pianist,
+        cmk:piano ;
+    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20261206T1500,
+        cmk:helsinki-music-centre-concert-hall-20270129T1900,
+        cmk:helsinki-music-centre-paavo-hall-20261213T1500,
+        cmk:the-helsinki-music-centre-concert-hall-20260918T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20270409T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20270507T1900 .
+
+cmk:jozsef-hars a foaf:Person ;
+    foaf:familyName "Hárs" ;
+    foaf:firstName "József" ;
+    cmo:known-as-a cmk:french-hornist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-20261113T1900 .
+
+cmk:jukka-harju a foaf:Person ;
+    foaf:familyName "Harju" ;
+    foaf:firstName "Jukka" ;
+    cmo:known-as-a cmk:french-hornist,
+        cmk:hornist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-20261030T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20270507T1900 .
+
+cmk:jukka-nykanen a foaf:Person ;
+    foaf:familyName "Nykänen" ;
+    foaf:firstName "Jukka" ;
+    cmo:known-as-a cmk:host,
+        cmk:pianist ;
+    cmo:narrates-in cmk:helsinki-music-centre-concert-hall-20270218T1800 ;
+    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20270218T1800 .
+
+cmk:jukka-rautasalo a foaf:Person ;
+    foaf:familyName "Rautasalo" ;
+    foaf:firstName "Jukka" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:helsinki-music-centre-paavo-hall-20261213T1500 .
+
+cmk:jussen-brothers a foaf:Person ;
+    foaf:familyName "Brothers" ;
+    foaf:firstName "Jussen" ;
+    cmo:known-as-a cmk:piano-duo ;
+    cmo:plays-in cmk:the-helsinki-music-centre-concert-hall-20270512T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20270513T1900 .
+
+cmk:jussi-merikanto a foaf:Person ;
+    foaf:familyName "Merikanto" ;
+    foaf:firstName "Jussi" ;
+    cmo:known-as-a cmk:baritone ;
+    cmo:sings-in cmk:philharmonie-20260828T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260824T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260825T1900 .
+
+cmk:jussi-sarkka a foaf:Person ;
+    foaf:familyName "Särkkä" ;
+    foaf:firstName "Jussi" ;
+    cmo:known-as-a cmk:bassoonist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-20261113T1900 .
+
+cmk:justyna-grudzien a foaf:Person ;
+    foaf:familyName "Grudzień" ;
+    foaf:firstName "Justyna" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-paavo-hall-20260913T1500 .
+
+cmk:kaisa-kallinen a foaf:Person ;
+    foaf:familyName "Kallinen" ;
+    foaf:firstName "Kaisa" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:helsinki-music-centre-paavo-hall-20261213T1500 .
+
+cmk:kaisa-kortelainen a foaf:Person ;
+    foaf:familyName "Kortelainen" ;
+    foaf:firstName "Kaisa" ;
+    cmo:known-as-a cmk:flautist,
+        cmk:flute,
+        cmk:traverso-player ;
+    cmo:plays-in cmk:helsinki-music-centre-paavo-hall-20261213T1500,
+        cmk:the-helsinki-music-centre-concert-hall-20270409T1900,
+        cmk:the-helsinki-music-centre-paavo-hall-20270418T1500 .
+
+cmk:karl-huml a foaf:Person ;
+    foaf:familyName "Huml" ;
+    foaf:firstName "Karl" ;
+    cmo:known-as-a cmk:bass ;
+    cmo:sings-in cmk:philharmonie-20260828T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260824T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260825T1900 .
+
+cmk:kasmir-uusitupa a foaf:Person ;
+    foaf:familyName "Uusitupa" ;
+    foaf:firstName "Kasmir" ;
+    cmo:conducts-in cmk:the-helsinki-music-centre-concert-hall-20270401T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:katrina-pelnena a foaf:Person ;
+    foaf:familyName "Pelnēna" ;
+    foaf:firstName "Katrīna" ;
+    cmo:known-as-a cmk:violist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-paavo-hall-20260913T1500,
+        cmk:the-helsinki-music-centre-paavo-hall-20261108T1500 .
+
+cmk:kazutaka-morita a foaf:Person ;
+    foaf:familyName "Morita" ;
+    foaf:firstName "Kazutaka" ;
+    cmo:known-as-a cmk:timpanist ;
+    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20261206T1500 .
+
+cmk:kevin-john-edusei a foaf:Person ;
+    foaf:familyName "Edusei" ;
+    foaf:firstName "Kevin John" ;
+    cmo:conducts-in cmk:helsinki-music-centre-concert-hall-20261118T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:kyeong-ham a foaf:Person ;
+    foaf:familyName "Ham" ;
+    foaf:firstName "Kyeong" ;
+    cmo:known-as-a cmk:oboe,
+        cmk:oboist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-20261002T1900,
+        cmk:the-helsinki-music-centre-20261030T1900,
+        cmk:the-helsinki-music-centre-paavo-hall-20270523T1500 .
+
+cmk:le-grand-macabre a cmo:Programme ;
+    rdfs:label "György Ligeti: Le grand macabre" .
+
+cmk:leena-jaakkola a foaf:Person ;
+    foaf:familyName "Jaakkola" ;
+    foaf:firstName "Leena" ;
+    cmo:known-as-a cmk:artistic-planner,
+        cmk:violinist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-paavo-hall-20270418T1500 .
+
+cmk:leif-ove-andsnes a foaf:Person ;
+    foaf:familyName "Andsnes" ;
+    foaf:firstName "Leif Ove" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20261127T1900 .
+
+cmk:leigh-melrose a foaf:Person ;
+    foaf:familyName "Melrose" ;
+    foaf:firstName "Leigh" ;
+    cmo:known-as-a cmk:baritone ;
+    cmo:sings-in cmk:philharmonie-20260828T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260824T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260825T1900 .
+
+cmk:liederhalle-stuttgart a cmo:ConcertHall,
+        cmo:Venue .
+
+cmk:lucie-horsch a foaf:Person ;
+    foaf:familyName "Horsch" ;
+    foaf:firstName "Lucie" ;
+    cmo:known-as-a cmk:recorder-player ;
+    cmo:plays-in cmk:the-helsinki-music-centre-concert-hall-20270507T1900 .
+
+cmk:lucie-leguay a foaf:Person ;
+    foaf:familyName "Leguay" ;
+    foaf:firstName "Lucie" ;
+    cmo:conducts-in cmk:helsinki-music-centre-concert-hall-20270218T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:luke-terence-scott a foaf:Person ;
+    foaf:familyName "Terence Scott" ;
+    foaf:firstName "Luke" ;
+    cmo:known-as-a cmk:baritone ;
+    cmo:sings-in cmk:philharmonie-20260828T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260824T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260825T1900 .
+
+cmk:maiju-vaahtoluoto a foaf:Person ;
+    foaf:familyName "Vaahtoluoto" ;
+    foaf:firstName "Maiju" ;
+    cmo:known-as-a cmk:mezzo-soprano ;
+    cmo:sings-in cmk:helsinki-music-centre-concert-hall-20270203T1900,
+        cmk:helsinki-music-centre-concert-hall-20270204T1900 .
+
+cmk:maria-puusaari a foaf:Person ;
+    foaf:familyName "Puusaari" ;
+    foaf:firstName "Maria" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:helsinki-music-centre-paavo-hall-20270221T1500,
+        cmk:the-helsinki-music-centre-concert-hall-20270507T1900 .
+
+cmk:marianna-bednarska a foaf:Person ;
+    foaf:familyName "Bednarska" ;
+    foaf:firstName "Marianna" ;
+    cmo:known-as-a cmk:percussionist ;
+    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20261211T1900 .
+
+cmk:mariko-furukawa a foaf:Person ;
+    foaf:familyName "Furukawa" ;
+    foaf:firstName "Mariko" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-paavo-hall-20270523T1500 .
+
+cmk:martta-wahlberg a foaf:Person ;
+    foaf:familyName "Wahlberg" ;
+    foaf:firstName "Martta" ;
+    cmo:known-as-a cmk:violist ;
+    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20261211T1900,
+        cmk:the-helsinki-music-centre-paavo-hall-20261108T1500 .
+
+cmk:matteo-mastromarino a foaf:Person ;
+    foaf:familyName "Mastromarino" ;
+    foaf:firstName "Matteo" ;
+    cmo:known-as-a cmk:clarinetist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-concert-hall-20260918T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20270507T1900 .
+
+cmk:michael-schonwandt a foaf:Person ;
+    foaf:familyName "Schonwandt" ;
+    foaf:firstName "Michael" ;
+    cmo:conducts-in cmk:the-helsinki-music-centre-concert-hall-20270423T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:mihails-culpajevs a foaf:Person ;
+    foaf:familyName "Čuļpajevs" ;
+    foaf:firstName "Mihails" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:the-helsinki-music-centre-concert-hall-20260923T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260924T1900 .
+
+cmk:miika-uuksulainen a foaf:Person ;
+    foaf:familyName "Uuksulainen" ;
+    foaf:firstName "Miika" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-20261113T1900,
+        cmk:the-helsinki-music-centre-paavo-hall-20261011T1500 .
+
+cmk:mikko-ivars a foaf:Person ;
+    foaf:familyName "Ivars" ;
+    foaf:firstName "Mikko" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-concert-hall-20270507T1900,
+        cmk:the-helsinki-music-centre-paavo-hall-20261108T1500 .
+
+cmk:minami-yoshida a foaf:Person ;
+    foaf:familyName "Yoshida" ;
+    foaf:firstName "Minami" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20261118T1900 .
+
+cmk:mirka-malmi a foaf:Person ;
+    foaf:familyName "Malmi" ;
+    foaf:firstName "Mirka" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-paavo-hall-20261108T1500 .
+
+cmk:missa-solemnis a cmo:Programme .
+
+cmk:musiikkitalo-choir a foaf:Person ;
+    foaf:familyName "Choir" ;
+    foaf:firstName "Musiikkitalo" ;
+    cmo:known-as-a cmk:choir ;
+    cmo:sings-in cmk:helsinki-music-centre-concert-hall-20270203T1900,
+        cmk:helsinki-music-centre-concert-hall-20270204T1900 .
+
+cmk:n-n a foaf:Person ;
+    foaf:familyName "N." ;
+    foaf:firstName "N." ;
+    cmo:known-as-a cmk:host ;
+    cmo:narrates-in cmk:helsinki-music-centre-concert-hall-20270218T1800 .
+
+cmk:n-n-organ a foaf:Person ;
+    foaf:familyName "N." ;
+    foaf:firstName "N." ;
+    cmo:known-as-a cmk:organist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-concert-hall-20270521T1900 .
+
+cmk:n-n-piano a foaf:Person ;
+    foaf:familyName "N." ;
+    foaf:firstName "N." ;
+    cmo:known-as-a cmk:pianist .
+
+cmk:naoki-yasuda a foaf:Person ;
+    foaf:familyName "Yasuda" ;
+    foaf:firstName "Naoki" ;
+    cmo:known-as-a cmk:percussionist ;
+    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20261206T1500 .
+
+cmk:new-helsinki-quartet a foaf:Person ;
+    foaf:familyName "Quartet" ;
+    foaf:firstName "New Helsinki" ;
+    cmo:known-as-a cmk:string-quartet ;
+    cmo:performs-in cmk:helsinki-music-centre-concert-hall-20270120T1900,
+        cmk:helsinki-music-centre-concert-hall-20270121T1900 .
+
+cmk:nicholas-collon a foaf:Person ;
+    foaf:familyName "Collon" ;
+    foaf:firstName "Nicholas" ;
+    cmo:conducts-in cmk:alte-oper-20261118T0000,
+        cmk:helsinki-music-centre-concert-hall-20261206T1500,
+        cmk:helsinki-music-centre-concert-hall-20270115T1900,
+        cmk:helsinki-music-centre-concert-hall-20270120T1900,
+        cmk:helsinki-music-centre-concert-hall-20270121T1900,
+        cmk:helsinki-music-centre-concert-hall-20270203T1900,
+        cmk:helsinki-music-centre-concert-hall-20270204T1900,
+        cmk:liederhalle-stuttgart-20261117T0000,
+        cmk:philharmonie-20260828T1900,
+        cmk:the-helsinki-music-centre-20261007T1900,
+        cmk:the-helsinki-music-centre-20261008T1900,
+        cmk:the-helsinki-music-centre-20261104T1900,
+        cmk:the-helsinki-music-centre-20261105T1900,
+        cmk:the-helsinki-music-centre-20261113T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260824T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260825T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260909T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260910T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20270317T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20270318T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20270326T1500,
+        cmk:the-helsinki-music-centre-concert-hall-20270512T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20270513T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20270521T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:nicholas-collon-and-antoine-tamestit a cmo:Programme ;
+    rdfs:label "Nicholas Collon & Antoine Tamestit" .
+
+cmk:nicholas-collon-and-ava-bahari a cmo:Programme ;
+    rdfs:label "Nicholas Collon & Ava Bahari" .
+
+cmk:nicholas-collon-and-senja-rummukainen a cmo:Programme ;
+    rdfs:label "Nicholas Collon & Senja Rummukainen" .
+
+cmk:nicholas-collon-and-steven-osborne a cmo:Programme ;
+    rdfs:label "Nicholas Collon & Steven Osborne" .
+
+cmk:niina-keitel a foaf:Person ;
+    foaf:familyName "Keitel" ;
+    foaf:firstName "Niina" ;
+    cmo:known-as-a cmk:mezzo-soprano ;
+    cmo:sings-in cmk:the-helsinki-music-centre-concert-hall-20270409T1900 .
+
+cmk:nil-venditti a foaf:Person ;
+    foaf:familyName "Venditti" ;
+    foaf:firstName "Nil" ;
+    cmo:conducts-in cmk:helsinki-music-centre-concert-hall-20261210T1000,
+        cmk:helsinki-music-centre-concert-hall-20261211T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:nil-venditti-marianna-bednarska a cmo:Programme .
+
+cmk:nils-schweckendiek a foaf:Person ;
+    foaf:familyName "Schweckendiek" ;
+    foaf:firstName "Nils" ;
+    cmo:known-as-a cmk:choir-direction ;
+    cmo:performs-in cmk:philharmonie-20260828T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260824T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260825T1900 .
+
+cmk:otto-virtanen a foaf:Person ;
+    foaf:familyName "Virtanen" ;
+    foaf:firstName "Otto" ;
+    cmo:known-as-a cmk:bassoonist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-20261030T1900 .
+
+cmk:pablo-gonzalez a foaf:Person ;
+    foaf:familyName "González" ;
+    foaf:firstName "Pablo" ;
+    cmo:conducts-in cmk:the-helsinki-music-centre-concert-hall-20270303T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20270304T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:pablo-gonzalez-janne-valkeajoki a cmo:Programme .
+
+cmk:pascal-rophe a foaf:Person ;
+    foaf:familyName "Rophé" ;
+    foaf:firstName "Pascal" ;
+    cmo:conducts-in cmk:the-helsinki-music-centre-concert-hall-20270414T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:pasi-eerikainen a foaf:Person ;
+    foaf:familyName "Eerikäinen" ;
+    foaf:firstName "Pasi" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-20261113T1900 .
+
+cmk:paula-sundqvist a foaf:Person ;
+    foaf:familyName "Sundqvist" ;
+    foaf:firstName "Paula" ;
+    cmo:known-as-a cmk:violin,
+        cmk:violinist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-paavo-hall-20261011T1500,
+        cmk:the-helsinki-music-centre-paavo-hall-20270314T1500 .
+
+cmk:pauline-fleming-unelius a foaf:Person ;
+    foaf:familyName "Fleming-Unelius" ;
+    foaf:firstName "Pauline" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-paavo-hall-20261011T1500 .
+
+cmk:philharmonie a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Philharmonie" .
+
+cmk:piia-komsi a foaf:Person ;
+    foaf:familyName "Komsi" ;
+    foaf:firstName "Piia" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:the-helsinki-music-centre-20261113T1900 .
+
+cmk:ritva-kaukola a foaf:Person ;
+    foaf:familyName "Kaukola" ;
+    foaf:firstName "Ritva" ;
+    cmo:known-as-a cmk:violist ;
+    cmo:plays-in cmk:helsinki-music-centre-paavo-hall-20261213T1500 .
+
+cmk:ryan-bancroft a foaf:Person ;
+    foaf:familyName "Bancroft" ;
+    foaf:firstName "Ryan" ;
+    cmo:conducts-in cmk:the-helsinki-music-centre-concert-hall-20270428T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20270429T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:sakari-topi a foaf:Person ;
+    foaf:familyName "Topi" ;
+    foaf:firstName "Sakari" ;
+    cmo:known-as-a cmk:baritone ;
+    cmo:sings-in cmk:philharmonie-20260828T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260824T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260825T1900 .
+
+cmk:sarah-aristidou a foaf:Person ;
+    foaf:familyName "Aristidou" ;
+    foaf:firstName "Sarah" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:philharmonie-20260828T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260824T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260825T1900 .
+
+cmk:sari-kallioranta a foaf:Person ;
+    foaf:familyName "Kallioranta" ;
+    foaf:firstName "Sari" ;
+    cmo:known-as-a cmk:actor,
+        cmk:cast,
+        cmk:narrator ;
+    cmo:narrates-in cmk:helsinki-music-centre-concert-hall-20261210T1000 ;
+    cmo:performs-in cmk:the-helsinki-music-centre-concert-hall-20260917T1000,
+        cmk:the-helsinki-music-centre-concert-hall-20270311T1000 .
+
+cmk:sasha-balmazi-owen a foaf:Person ;
+    foaf:familyName "Balmazi-Owen" ;
+    foaf:firstName "Sasha" ;
+    cmo:known-as-a cmk:visualization ;
+    cmo:performs-in cmk:philharmonie-20260828T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260824T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260825T1900 .
+
+cmk:senja-rummukainen a foaf:Person ;
+    foaf:familyName "Rummukainen" ;
+    foaf:firstName "Senja" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-20261104T1900,
+        cmk:the-helsinki-music-centre-20261105T1900 .
+
+cmk:sergei-krylov a foaf:Person ;
+    foaf:familyName "Krylov" ;
+    foaf:firstName "Sergei" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-20261030T1900 .
+
+cmk:siina-hirvonen a foaf:Person ;
+    foaf:familyName "Hirvonen" ;
+    foaf:firstName "Siina" ;
+    cmo:known-as-a cmk:actor,
+        cmk:cast,
+        cmk:narrator ;
+    cmo:narrates-in cmk:helsinki-music-centre-concert-hall-20261210T1000 ;
+    cmo:performs-in cmk:the-helsinki-music-centre-concert-hall-20260917T1000,
+        cmk:the-helsinki-music-centre-concert-hall-20270311T1000 .
+
+cmk:sol-gabetta a foaf:Person ;
+    foaf:familyName "Gabetta" ;
+    foaf:firstName "Sol" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:alte-oper-20261118T0000,
+        cmk:liederhalle-stuttgart-20261117T0000 .
+
+cmk:steven-osborne a foaf:Person ;
+    foaf:familyName "Osborne" ;
+    foaf:firstName "Steven" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-20261113T1900 .
+
+cmk:sueye-park a foaf:Person ;
+    foaf:familyName "Park" ;
+    foaf:firstName "Sueye" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20261206T1500 .
+
+cmk:susan-hwang a foaf:Person ;
+    foaf:familyName "Hwang" ;
+    foaf:firstName "Susan" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-paavo-hall-20261108T1500 .
+
+cmk:susanne-kujala a foaf:Person ;
+    foaf:familyName "Kujala" ;
+    foaf:firstName "Susanne" ;
+    cmo:known-as-a cmk:organist ;
+    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20270212T1900 .
+
+cmk:szymon-mechlinski a foaf:Person ;
+    foaf:familyName "Mechliński" ;
+    foaf:firstName "Szymon" ;
+    cmo:known-as-a cmk:baritone ;
+    cmo:sings-in cmk:helsinki-music-centre-concert-hall-20270203T1900,
+        cmk:helsinki-music-centre-concert-hall-20270204T1900 .
+
+cmk:taija-angervo a foaf:Person ;
+    foaf:familyName "Angervo" ;
+    foaf:firstName "Taija" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-concert-hall-20260918T1900 .
+
+cmk:tami-pohjola a foaf:Person ;
+    foaf:familyName "Pohjola" ;
+    foaf:firstName "Tami" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20270218T1800 .
+
+cmk:tapiola-choir a foaf:Person ;
+    foaf:familyName "Choir" ;
+    foaf:firstName "Tapiola" ;
+    cmo:known-as-a cmk:choir ;
+    cmo:sings-in cmk:helsinki-music-centre-concert-hall-20270203T1900,
+        cmk:helsinki-music-centre-concert-hall-20270204T1900 .
+
+cmk:teemu-kauppinen a foaf:Person ;
+    foaf:familyName "Kauppinen" ;
+    foaf:firstName "Teemu" ;
+    cmo:known-as-a cmk:double-bassist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-20261113T1900 .
+
+cmk:the-helsinki-music-centre a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "The Helsinki Music Centre, Concert Hall" .
+
+cmk:the-helsinki-music-centre-concert-hall a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "The Helsinki Music Centre, Concert Hall" .
+
+cmk:the-helsinki-music-centre-paavo-hall a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "The Helsinki Music Centre, Paavo Hall" .
+
+cmk:theo-imart a foaf:Person ;
+    foaf:familyName "Imart" ;
+    foaf:firstName "Théo" ;
+    cmo:known-as-a cmk:counter-tenor ;
+    cmo:sings-in cmk:the-helsinki-music-centre-20261002T1900 .
+
+cmk:thomas-guggeis a foaf:Person ;
+    foaf:familyName "Guggeis" ;
+    foaf:firstName "Thomas" ;
+    cmo:conducts-in cmk:the-helsinki-music-centre-20270526T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:tiina-karakorpi a foaf:Person ;
+    foaf:familyName "Karakorpi" ;
+    foaf:firstName "Tiina" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-paavo-hall-20261108T1500 .
+
+cmk:timo-alanen a foaf:Person ;
+    foaf:familyName "Alanen" ;
+    foaf:firstName "Timo" ;
+    cmo:known-as-a cmk:cello ;
+    cmo:plays-in cmk:the-helsinki-music-centre-paavo-hall-20270314T1500 .
+
+cmk:timo-kurkikangas a foaf:Person ;
+    foaf:familyName "Kurkikangas" ;
+    foaf:firstName "Timo" ;
+    cmo:known-as-a cmk:electronics-performer ;
+    cmo:performs-in cmk:helsinki-music-centre-concert-hall-20261206T1500 .
+
+cmk:timo-riihonen a foaf:Person ;
+    foaf:familyName "Riihonen" ;
+    foaf:firstName "Timo" ;
+    cmo:known-as-a cmk:bass ;
+    cmo:sings-in cmk:the-helsinki-music-centre-concert-hall-20270326T1500 .
+
+cmk:tomas-gricius a foaf:Person ;
+    foaf:familyName "Gricius" ;
+    foaf:firstName "Tomas" ;
+    cmo:known-as-a cmk:trumpeter ;
+    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20270129T1900 .
+
+cmk:tomas-nunez a foaf:Person ;
+    foaf:familyName "Nuñez" ;
+    foaf:firstName "Tomas" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20261206T1500,
+        cmk:the-helsinki-music-centre-paavo-hall-20261108T1500,
+        cmk:the-helsinki-music-centre-paavo-hall-20270418T1500 .
+
+cmk:tomi-punkeri a foaf:Person ;
+    foaf:familyName "Punkeri" ;
+    foaf:firstName "Tomi" ;
+    cmo:known-as-a cmk:baritone ;
+    cmo:sings-in cmk:philharmonie-20260828T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260824T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260825T1900 .
+
+cmk:tommi-hyytinen a foaf:Person ;
+    foaf:familyName "Hyytinen" ;
+    foaf:firstName "Tommi" ;
+    cmo:known-as-a cmk:french-horn ;
+    cmo:plays-in cmk:the-helsinki-music-centre-concert-hall-20260918T1900 .
+
+cmk:tuomas-katajala a foaf:Person ;
+    foaf:familyName "Katajala" ;
+    foaf:firstName "Tuomas" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:helsinki-music-centre-concert-hall-20270203T1900,
+        cmk:helsinki-music-centre-concert-hall-20270204T1900,
+        cmk:philharmonie-20260828T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260824T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260825T1900 .
+
+cmk:tuomas-lehto a foaf:Person ;
+    foaf:familyName "Lehto" ;
+    foaf:firstName "Tuomas" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20261211T1900,
+        cmk:the-helsinki-music-centre-paavo-hall-20260913T1500 .
+
+cmk:tuukka-vihtkari a foaf:Person ;
+    foaf:familyName "Vihtkari" ;
+    foaf:firstName "Tuukka" ;
+    cmo:known-as-a cmk:bassoonist ;
+    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20270129T1900 .
+
+cmk:tuuli-talvitie a foaf:Person ;
+    foaf:familyName "Talvitie" ;
+    foaf:firstName "Tuuli" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20261211T1900 .
+
+cmk:ustina-dubitsky a foaf:Person ;
+    foaf:familyName "Dubitsky" ;
+    foaf:firstName "Ustina" ;
+    cmo:conducts-in cmk:helsinki-music-centre-concert-hall-20270212T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:veronika-eberle a foaf:Person ;
+    foaf:familyName "Eberle" ;
+    foaf:firstName "Veronika" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-20261016T1900 .
+
+cmk:wolfgang-ablinger-sperrhacke a foaf:Person ;
+    foaf:familyName "Ablinger-Sperrhacke" ;
+    foaf:firstName "Wolfgang" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:philharmonie-20260828T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260824T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260825T1900 .
+
+cmk:wolfgang-mitterer a foaf:Person ;
+    foaf:familyName "Mitterer" ;
+    foaf:firstName "Wolfgang" ;
+    cmo:known-as-a cmk:organist ;
+    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20270212T1900 .
+
+cmk:yuki-koyama a foaf:Person ;
+    foaf:familyName "Koyama" ;
+    foaf:firstName "Yuki" ;
+    cmo:known-as-a cmk:artistic-planner,
+        cmk:flautist,
+        cmk:flutist ;
+    cmo:plays-in cmk:the-helsinki-music-centre-20261030T1900,
+        cmk:the-helsinki-music-centre-paavo-hall-20261011T1500,
+        cmk:the-helsinki-music-centre-paavo-hall-20270523T1500 .
+
+cmk:andrew-manze-lucie-horsch a cmo:Programme ;
+    rdfs:label "Andrew Manze & Lucie Horsch" .
+
+cmk:bassoon a cmo:musical-identity .
+
+cmk:bayan-accordion a cmo:musical-identity .
+
+cmk:cello a cmo:musical-identity .
+
+cmk:chamber-music-concert-double-bass-sections-sunday-dance a cmo:Programme ;
+    rdfs:label "Chamber Music Concert: Double-bass section’s Sunday Dance" .
+
+cmk:chamber-music-concert-hooked-on-books a cmo:Programme ;
+    rdfs:label "Chamber Music Concert: Hooked on Books" .
+
+cmk:chamber-music-concert-the-morning-news-plus-comic-relief a cmo:Programme ;
+    rdfs:label "Chamber Music Concert: The Morning News plus Comic Relief" .
+
+cmk:chamber-music-concert-three-virtuosi a cmo:Programme ;
+    rdfs:label "Chamber Music Concert: Three Virtuosi" .
+
+cmk:choir-direction a cmo:musical-identity .
+
+cmk:clarinet a cmo:musical-identity .
+
+cmk:counter-tenor a cmo:musical-identity .
+
+cmk:countertenor a cmo:musical-identity .
+
+cmk:direction a cmo:musical-identity .
+
+cmk:eb-clarinet a cmo:musical-identity .
+
+cmk:electronics-performer a cmo:musical-identity .
+
+cmk:flute a cmo:musical-identity .
+
+cmk:flutist a cmo:musical-identity .
+
+cmk:frso-antoine-tamestit a cmo:Programme ;
+    rdfs:label "FRSO & Antoine Tamestit" .
+
+cmk:harpsichordist a cmo:musical-identity .
+
+cmk:helsinki-music-centre-paavo-hall-20270124T1500 a mo:Performance ;
+    cmo:has-programme cmk:chamber-music-concert-double-bass-sections-sunday-dance ;
+    cmo:has-venue cmk:helsinki-music-centre-paavo-hall ;
+    schema:name "Chamber Music Concert: Double-bass section’s Sunday Dance" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-01-24T15:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009503"^^xsd:anyURI .
+
+cmk:hornist a cmo:musical-identity .
+
+cmk:meet-the-orchestra a cmo:Programme ;
+    rdfs:label "Meet the orchestra" .
+
+cmk:michael-schonwandt-arabella-steinbacher a cmo:Programme ;
+    rdfs:label "Michael Schonwandt & Arabella Steinbacher" .
+
+cmk:musica-nova-helsinki a cmo:Programme ;
+    rdfs:label "Musica nova Helsinki" .
+
+cmk:nicholas-collon-bertrand-chamayou a cmo:Programme ;
+    rdfs:label "Nicholas Collon & Bertrand Chamayou" .
+
+cmk:nicholas-collon-christian-tetzlaff a cmo:Programme ;
+    rdfs:label "Nicholas Collon & Christian Tetzlaff" .
+
+cmk:oboist a cmo:musical-identity .
+
+cmk:pascal-rophe-johannes-piirto a cmo:Programme ;
+    rdfs:label "Pascal Rophé & Johannes Piirto" .
+
+cmk:percussion a cmo:musical-identity .
+
+cmk:piano-duo a cmo:musical-identity .
+
+cmk:recorder-player a cmo:musical-identity .
+
+cmk:saxophonist a cmo:musical-identity .
+
+cmk:string-quartet a cmo:ensemble-identity,
+        cmo:musical-identity .
+
+cmk:the-helsinki-music-centre-concert-hall-20270401T1800 a mo:Performance ;
+    schema:name "FRSO & Pikku Kakkonen" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-04-01T18:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009486"^^xsd:anyURI .
+
+cmk:thomas-guggeis-antoine-tamestit a cmo:Programme ;
+    rdfs:label "Thomas Guggeis & Antoine Tamestit" .
+
+cmk:timpanist a cmo:musical-identity .
+
+cmk:traverso-player a cmo:musical-identity .
+
+cmk:trumpeter a cmo:musical-identity .
+
+cmk:visualization a cmo:musical-identity .
+
+cmk:actor a cmo:musical-identity .
+
+cmk:alte-oper-20261118T0000 a mo:Performance ;
+    schema:name "Guest Performance: Frankfurt" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-11-18T00:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009498"^^xsd:anyURI .
+
+cmk:artistic-planner a cmo:musical-identity .
+
+cmk:cast a cmo:musical-identity .
+
+cmk:choir a cmo:ensemble-identity,
+        cmo:musical-identity .
+
+cmk:double-bassist a cmo:musical-identity .
+
+cmk:flautist a cmo:musical-identity .
+
+cmk:french-horn a cmo:musical-identity .
+
+cmk:french-hornist a cmo:musical-identity .
+
+cmk:helsinki-music-centre-concert-hall-20261118T1900 a mo:Performance ;
+    schema:name "Guest Performance: Turku Philharmonic Orchestra" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-11-18T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009461"^^xsd:anyURI .
+
+cmk:helsinki-music-centre-concert-hall-20261127T1900 a mo:Performance ;
+    schema:name "Constantinos Carydis & Leif Ove Andsnes" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-11-27T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009462"^^xsd:anyURI .
+
+cmk:helsinki-music-centre-concert-hall-20261216T1900 a mo:Performance ;
+    schema:name "Dima Slobodeniouk & Helena Juntunen" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-12-16T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009466"^^xsd:anyURI .
+
+cmk:helsinki-music-centre-concert-hall-20261217T1900 a mo:Performance ;
+    schema:name "Dima Slobodeniouk & Helena Juntunen" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-12-17T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009467"^^xsd:anyURI .
+
+cmk:helsinki-music-centre-concert-hall-20270115T1900 a mo:Performance ;
+    cmo:has-programme cmk:nicholas-collon-christian-tetzlaff ;
+    cmo:has-venue cmk:helsinki-music-centre-concert-hall ;
+    schema:name "Nicholas Collon & Christian Tetzlaff" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-01-15T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009468"^^xsd:anyURI .
+
+cmk:helsinki-music-centre-concert-hall-20270120T1900 a mo:Performance ;
+    cmo:has-programme cmk:nicholas-collon-new-helsinki-quartet ;
+    cmo:has-venue cmk:helsinki-music-centre-concert-hall ;
+    schema:name "Nicholas Collon & New Helsinki Quartet" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-01-20T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009469"^^xsd:anyURI .
+
+cmk:helsinki-music-centre-concert-hall-20270121T1900 a mo:Performance ;
+    cmo:has-programme cmk:nicholas-collon-new-helsinki-quartet ;
+    cmo:has-venue cmk:helsinki-music-centre-concert-hall ;
+    schema:name "Nicholas Collon & New Helsinki Quartet" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-01-21T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009470"^^xsd:anyURI .
+
+cmk:helsinki-music-centre-paavo-hall a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "The Helsinki Music Centre, Paavo Hall" .
+
+cmk:host a cmo:musical-identity .
+
+cmk:king-roger a cmo:Programme ;
+    rdfs:label "King Roger" .
+
+cmk:liederhalle-stuttgart-20261117T0000 a mo:Performance ;
+    schema:name "Guest Performance: Stuttgart" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-11-17T00:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009497"^^xsd:anyURI .
+
+cmk:narrator a cmo:musical-identity .
+
+cmk:nicholas-collon-jussen-brothers a cmo:Programme ;
+    rdfs:label "Nicholas Collon & Jussen Brothers" .
+
+cmk:nicholas-collon-new-helsinki-quartet a cmo:Programme ;
+    rdfs:label "Nicholas Collon & New Helsinki Quartet" .
+
+cmk:oboe a cmo:musical-identity .
+
+cmk:piano a cmo:musical-identity .
+
+cmk:ryan-bancroft-alisa-weilerstein a cmo:Programme ;
+    rdfs:label "Ryan Bancroft & Alisa Weilerstein" .
+
+cmk:the-helsinki-music-centre-20261007T1900 a mo:Performance ;
+    schema:name "Nicholas Collon & Ava Bahari" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-10-07T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009453"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-20261008T1900 a mo:Performance ;
+    schema:name "Nicholas Collon & Ava Bahari" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-10-08T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009454"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-20261016T1900 a mo:Performance ;
+    schema:name "Fabien Gabel & Veronika Eberle" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-10-16T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009456"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-20261104T1900 a mo:Performance ;
+    schema:name "Nicholas Collon & Senja Rummukainen" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-11-04T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009458"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-20261105T1900 a mo:Performance ;
+    schema:name "Nicholas Collon & Senja Rummukainen" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-11-05T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009459"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-20270526T1900 a mo:Performance ;
+    cmo:performs-in cmk:thomas-guggeis-antoine-tamestit ;
+    schema:name "Thomas Guggeis & Antoine Tamestit" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-05-26T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009496"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20260909T1900 a mo:Performance ;
+    schema:name "Nicholas Collon & Antoine Tamestit" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-09-09T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009446"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20260910T1900 a mo:Performance ;
+    schema:name "Nicholas Collon & Antoine Tamestit" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-09-10T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009447"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20260923T1900 a mo:Performance ;
+    schema:name "Hannu Lintu & Mihails Čuļpajevs" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-09-23T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009450"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20260924T1900 a mo:Performance ;
+    schema:name "Hannu Lintu & Mihails Čuļpajevs" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-09-24T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009451"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20270303T1900 a mo:Performance ;
+    schema:name "Pablo González & Janne Valkeajoki" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-03-03T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009479"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20270304T1900 a mo:Performance ;
+    schema:name "Pablo González & Janne Valkeajoki" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-03-04T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009480"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20270312T1900 a mo:Performance ;
+    schema:name "Eva Ollikainen & Fàtima Boix Cantó" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-03-12T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009482"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20270317T1900 a mo:Performance ;
+    schema:name "Nicholas Collon & Christian Tetzlaff" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-03-17T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009483"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20270318T1900 a mo:Performance ;
+    schema:name "Nicholas Collon & Christian Tetzlaff" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-03-18T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009484"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20270414T1900 a mo:Performance ;
+    cmo:has-programme cmk:pascal-rophe-johannes-piirto ;
+    schema:name "Pascal Rophé & Johannes Piirto" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-04-14T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009488"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20270423T1900 a mo:Performance ;
+    cmo:has-programme cmk:michael-schonwandt-arabella-steinbacher ;
+    schema:name "Michael Schonwandt & Arabella Steinbacher" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-04-23T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009489"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20270428T1900 a mo:Performance ;
+    cmo:has-programme cmk:ryan-bancroft-alisa-weilerstein ;
+    schema:name "Ryan Bancroft & Alisa Weilerstein" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-04-28T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009490"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20270429T1900 a mo:Performance ;
+    cmo:has-programme cmk:ryan-bancroft-alisa-weilerstein ;
+    schema:name "Ryan Bancroft & Alisa Weilerstein" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-04-29T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009491"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20270512T1900 a mo:Performance ;
+    cmo:has-programme cmk:nicholas-collon-jussen-brothers ;
+    schema:name "Nicholas Collon & Jussen Brothers" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-05-12T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009493"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20270513T1900 a mo:Performance ;
+    cmo:has-programme cmk:nicholas-collon-jussen-brothers ;
+    schema:name "Nicholas Collon & Jussen Brothers" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-05-13T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009494"^^xsd:anyURI .
+
+cmk:viola a cmo:musical-identity .
+
+cmk:violin a cmo:musical-identity .
+
+cmk:bass a cmo:musical-identity .
+
+cmk:bassoonist a cmo:musical-identity .
+
+cmk:clarinetist a cmo:musical-identity .
+
+cmk:helsinki-music-centre-concert-hall-20261210T1000 a mo:Performance ;
+    schema:name "Fairytale Concert (in Finnish)" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-12-10T10:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009464"^^xsd:anyURI .
+
+cmk:organist a cmo:musical-identity .
+
+cmk:percussionist a cmo:musical-identity .
+
+cmk:the-helsinki-music-centre-20261002T1900 a mo:Performance ;
+    schema:name "Il prete rosso - Hommage à Antonio Vivaldi" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-10-02T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009452"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20260917T1000 a mo:Performance ;
+    schema:name "Fairytale Concert" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-09-17T10:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009448"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20270311T1000 a mo:Performance ;
+    schema:name "Fairytale concert (in Finnish)" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-03-11T10:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009481"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20270521T1900 a mo:Performance ;
+    cmo:has-programme cmk:nicholas-collon-bertrand-chamayou ;
+    schema:name "Nicholas Collon & Bertrand Chamayou" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-05-21T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009495"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-paavo-hall-20270418T1500 a mo:Performance ;
+    cmo:has-programme cmk:chamber-music-concert-the-morning-news-plus-comic-relief ;
+    schema:name "Chamber Music Concert: The Morning News plus Comic Relief" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-04-18T15:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009507"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-paavo-hall-20270523T1500 a mo:Performance ;
+    cmo:has-programme cmk:chamber-music-concert-three-virtuosi ;
+    schema:name "Chamber Music Concert: Three Virtuosi" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-05-23T15:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009508"^^xsd:anyURI .
+
+cmk:helsinki-music-centre-paavo-hall-20270221T1500 a mo:Performance ;
+    cmo:has-programme cmk:chamber-music-concert-hooked-on-books ;
+    cmo:has-venue cmk:helsinki-music-centre-paavo-hall ;
+    schema:name "Chamber Music Concert: Hooked on Books" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-02-21T15:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009505"^^xsd:anyURI .
+
+cmk:mezzo-soprano a cmo:musical-identity .
+
+cmk:tenor a cmo:musical-identity .
+
+cmk:helsinki-music-centre-concert-hall-20261211T1900 a mo:Performance ;
+    schema:name "Nil Venditti & Marianna Bednarska" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-12-11T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009465"^^xsd:anyURI .
+
+cmk:helsinki-music-centre-concert-hall-20270212T1900 a mo:Performance ;
+    cmo:has-programme cmk:musica-nova-helsinki ;
+    cmo:has-venue cmk:helsinki-music-centre-concert-hall ;
+    schema:name "Musica nova Helsinki" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-02-12T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009477"^^xsd:anyURI .
+
+cmk:helsinki-music-centre-concert-hall-20270218T1800 a mo:Performance ;
+    cmo:has-programme cmk:meet-the-orchestra ;
+    cmo:has-venue cmk:helsinki-music-centre-concert-hall ;
+    schema:name "Meet the orchestra" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-02-18T18:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009478"^^xsd:anyURI .
+
+cmk:helsinki-music-centre-paavo-hall-20261213T1500 a mo:Performance ;
+    schema:name "Chamber Music Concert: The Musical Offering" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-12-13T15:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009502"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20270326T1500 a mo:Performance ;
+    schema:name "Missa solemnis" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-03-26T15:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009485"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-paavo-hall-20260913T1500 a mo:Performance ;
+    schema:name "Chamber Music Concert: Mountain Echoes" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-09-13T15:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009499"^^xsd:anyURI .
+
+cmk:baritone a cmo:musical-identity .
+
+cmk:helsinki-music-centre-concert-hall-20270129T1900 a mo:Performance ;
+    cmo:has-programme cmk:frso-antoine-tamestit ;
+    cmo:has-venue cmk:helsinki-music-centre-concert-hall ;
+    schema:name "FRSO & Antoine Tamestit" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-01-29T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009471"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-paavo-hall-20261011T1500 a mo:Performance ;
+    schema:name "Chamber Music Concert: English Phantasies" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-10-11T15:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009500"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-paavo-hall-20270314T1500 a mo:Performance ;
+    schema:name "Chamber Music Concert: Kith and Kin" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-03-14T15:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009506"^^xsd:anyURI .
+
+cmk:violist a cmo:musical-identity .
+
+cmk:helsinki-music-centre-concert-hall-20261206T1500 a mo:Performance ;
+    schema:name "Independence Day Gala Concert" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-12-06T15:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009463"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-20261030T1900 a mo:Performance ;
+    schema:name "Anja Bihlmaier & Sergei Krylov" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-10-30T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009457"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20260918T1900 a mo:Performance ;
+    schema:name "Elim Chan & Claire de Sévigné" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-09-18T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009449"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20270507T1900 a mo:Performance ;
+    cmo:has-programme cmk:andrew-manze-lucie-horsch ;
+    schema:name "Andrew Manze & Lucie Horsch" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-05-07T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009492"^^xsd:anyURI .
+
+cmk:helsinki-music-centre-concert-hall a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "The Helsinki Music Centre, Concert Hall" .
+
+cmk:soprano a cmo:musical-identity .
+
+cmk:the-helsinki-music-centre-paavo-hall-20261108T1500 a mo:Performance ;
+    schema:name "Chamber Music Concert: Insights" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-11-08T15:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009501"^^xsd:anyURI .
+
+cmk:helsinki-music-centre-concert-hall-20270203T1900 a mo:Performance ;
+    cmo:has-programme cmk:king-roger ;
+    cmo:has-venue cmk:helsinki-music-centre-concert-hall ;
+    schema:name "King Roger" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-02-03T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009472"^^xsd:anyURI .
+
+cmk:helsinki-music-centre-concert-hall-20270204T1900 a mo:Performance ;
+    cmo:has-programme cmk:king-roger ;
+    cmo:has-venue cmk:helsinki-music-centre-concert-hall ;
+    schema:name "King Roger" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-02-04T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009473"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20270409T1900 a mo:Performance ;
+    schema:name "Anna-Maria Helsing & Behzod Abduraimov" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-04-09T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009487"^^xsd:anyURI .
+
+cmk:cellist a cmo:musical-identity .
+
+cmk:pianist a cmo:musical-identity .
+
+cmk:the-helsinki-music-centre-20261113T1900 a mo:Performance ;
+    schema:name "Nicholas Collon & Steven Osborne" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-11-13T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009460"^^xsd:anyURI .
+
+cmk:philharmonie-20260828T1900 a mo:Performance ;
+    schema:name "Guest performance: Musikfest Berlin" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-08-28T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009445"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20260824T1900 a mo:Performance ;
+    schema:name "Guest performance: Helsinki Festival" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-08-24T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009443"^^xsd:anyURI .
+
+cmk:the-helsinki-music-centre-concert-hall-20260825T1900 a mo:Performance ;
+    schema:name "Guest performance: Helsinki Festival" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-08-25T19:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009444"^^xsd:anyURI .
+
+cmk:conductor a cmo:musical-identity .
+
+cmk:violinist a cmo:musical-identity .
+

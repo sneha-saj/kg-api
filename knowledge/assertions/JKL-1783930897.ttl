@@ -1,0 +1,43 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:annika-valkeajoki a foaf:Person ;
+    foaf:familyName "Valkeajoki" ;
+    foaf:firstName "Annika" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:lievestuore-workers-hall-toivola-20260823T1600 .
+
+cmk:ilkka-kauppi a foaf:Person ;
+    foaf:familyName "Kauppi" ;
+    foaf:firstName "Ilkka" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:lievestuore-workers-hall-toivola-20260823T1600 .
+
+cmk:laukaa-cultural-weeks-chamber-concert-moments-and-gems a cmo:Programme .
+
+cmk:lievestuore-workers-hall-toivola a cmo:Venue .
+
+cmk:marta-podwysocka a foaf:Person ;
+    foaf:familyName "Podwysocka" ;
+    foaf:firstName "Marta" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:lievestuore-workers-hall-toivola-20260823T1600 .
+
+cmk:otto-aaron-takala a foaf:Person ;
+    foaf:familyName "Takala" ;
+    foaf:firstName "Otto-Aaron" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:lievestuore-workers-hall-toivola-20260823T1600 .
+
+cmk:cellist a cmo:instrumentalist-identity .
+
+cmk:lievestuore-workers-hall-toivola-20260823T1600 a mo:Performance ;
+    schema:name "Laukaa Cultural Weeks: Chamber Concert: Moments and Gems" ;
+    schema:organizer cmk:jyvaskylasinfonia ;
+    schema:startDate "2026-08-23T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.jyvaskylasinfonia.fi/en/jyvaskyla-sinfonia-english/concerts/laukaan-kulttuuriviikot"^^xsd:anyURI .
+

@@ -1,0 +1,244 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:harri-maki a foaf:Person ;
+    foaf:familyName "Mäki" ;
+    foaf:firstName "Harri" ;
+    cmo:known-as-a cmo:clarinetist ;
+    cmo:plays-in cmk:laurentius-sali-20260917T1900 .
+
+cmk:janne-nisonen a foaf:Person ;
+    foaf:familyName "Nisonen" ;
+    foaf:firstName "Janne" ;
+    cmo:conducts-in cmk:laurentius-sali-20261106T1900 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:johanneksen-kirkko a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Johanneksen kirkko" .
+
+cmk:johanneksen-kirkko-20261030T1900 a mo:Performance ;
+    cmo:has-programme cmk:brahms-ein-deutsches-requiem ;
+    schema:name "Brahms: Ein deutsches Requiem" ;
+    schema:organizer cmk:lohjankaupunginorkesteri ;
+    schema:startDate "2026-10-30T19:00:00"^^xsd:dateTime .
+
+cmk:jorma-panula a foaf:Person ;
+    foaf:familyName "Panula" ;
+    foaf:firstName "Jorma" ;
+    cmo:conducts-in cmk:laurentius-sali-20260903T1800 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:jukka-untamala a foaf:Person ;
+    foaf:familyName "Untamala" ;
+    foaf:firstName "Jukka" ;
+    cmo:conducts-in cmk:pitkaniemen-tehdasalue-20260821T1900 ;
+    cmo:known-as-a cmo:conductor .
+
+cmk:kallion-kirkko a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Kallion kirkko" .
+
+cmk:kallion-kirkko-20260828T1900 a mo:Performance ;
+    cmo:has-programme cmk:bilepassio-perjantain-ylistys ;
+    schema:name "Bilepassio: Perjantain ylistys" ;
+    schema:organizer cmk:lohjankaupunginorkesteri ;
+    schema:startDate "2026-08-28T19:00:00"^^xsd:dateTime .
+
+cmk:laurentius-sali a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Laurentius-sali" .
+
+cmk:laurentius-sali-20260930T1900 a mo:Performance ;
+    cmo:has-programme cmk:wienilaista-loistoa-pariisilaista-eleganssia ;
+    schema:name "Wieniläistä loistoa, pariisilaista eleganssia" ;
+    schema:organizer cmk:lohjankaupunginorkesteri ;
+    schema:startDate "2026-09-30T19:00:00"^^xsd:dateTime .
+
+cmk:laurentius-sali-20261212T1300 a mo:Performance ;
+    cmo:has-programme cmk:toisenlainen-pahkinansarkija ;
+    schema:name "Toisenlainen Pähkinänsärkijä" ;
+    schema:organizer cmk:lohjankaupunginorkesteri ;
+    schema:startDate "2026-12-12T13:00:00"^^xsd:dateTime .
+
+cmk:lauri-honkavirta a foaf:Person ;
+    foaf:familyName "Honkavirta" ;
+    foaf:firstName "Lauri" ;
+    cmo:known-as-a cmo:harpsichordist ;
+    cmo:plays-in cmk:lohjan-pyhan-laurin-kirkko-20261023T1800,
+        cmk:pusulan-kirkko-20261022T1800 .
+
+cmk:lohjan-pyhan-laurin-kirkko a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Lohjan Pyhän Laurin kirkko" .
+
+cmk:lohjan-pyhan-laurin-kirkko-20261029T1900 a mo:Performance ;
+    cmo:has-programme cmk:brahms-ein-deutsches-requiem ;
+    schema:name "Brahms: Ein deutsches Requiem" ;
+    schema:organizer cmk:lohjankaupunginorkesteri ;
+    schema:startDate "2026-10-29T19:00:00"^^xsd:dateTime .
+
+cmk:mari-kunnari a foaf:Person ;
+    foaf:familyName "Kunnari" ;
+    foaf:firstName "Mari" ;
+    cmo:known-as-a cmo:flutist ;
+    cmo:plays-in cmk:lohjan-pyhan-laurin-kirkko-20261023T1800,
+        cmk:pusulan-kirkko-20261022T1800 .
+
+cmk:miika-uuksulainen a foaf:Person ;
+    foaf:familyName "Uuksulainen" ;
+    foaf:firstName "Miika" ;
+    cmo:known-as-a cmo:violist ;
+    cmo:plays-in cmk:lohjan-pyhan-laurin-kirkko-20261023T1800,
+        cmk:pusulan-kirkko-20261022T1800 .
+
+cmk:pitkaniemen-tehdasalue a cmo:Venue ;
+    rdfs:label "Pitkäniemen tehdasalue" .
+
+cmk:pitkaniemen-tehdasalue-20260822T2000 a mo:Performance ;
+    cmo:has-programme cmk:suurlahettilaat-lohjan-kaupunginorkesteri ;
+    schema:name "Suurlähettiläät & Lohjan kaupunginorkesteri" ;
+    schema:organizer cmk:lohjankaupunginorkesteri ;
+    schema:startDate "2026-08-22T20:00:00"^^xsd:dateTime .
+
+cmk:pusulan-kirkko a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Pusulan kirkko" .
+
+cmk:puu-anttila a cmo:Venue ;
+    rdfs:label "Puu-Anttila" .
+
+cmk:puu-anttila-20261025T1400 a mo:Performance ;
+    cmo:has-programme cmk:syyssoitto ;
+    schema:name "Syyssoitto" ;
+    schema:organizer cmk:lohjankaupunginorkesteri ;
+    schema:startDate "2026-10-25T14:00:00"^^xsd:dateTime .
+
+cmk:ralf-gothoni a foaf:Person ;
+    foaf:familyName "Gothoni" ;
+    foaf:firstName "Ralf" ;
+    cmo:conducts-in cmk:laurentius-sali-20261126T1900 ;
+    cmo:known-as-a cmo:conductor,
+        cmo:pianist ;
+    cmo:plays-in cmk:laurentius-sali-20261126T1900 .
+
+cmk:sibelius-sali a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Sibelius-sali" .
+
+cmk:tero-latvala a foaf:Person ;
+    foaf:familyName "Latvala" ;
+    foaf:firstName "Tero" ;
+    cmo:known-as-a cmo:violinist ;
+    cmo:plays-in cmk:laurentius-sali-20261010T1600 .
+
+cmo:ensemble-identity-frigg a cmo:ensemble-identity .
+
+cmk:bilepassio-perjantain-ylistys a cmo:Programme ;
+    rdfs:label "Bilepassio: Perjantain ylistys" .
+
+cmk:frigg-ja-lohjan-kaupunginorkesteri a cmo:Programme ;
+    rdfs:label "Frigg ja Lohjan kaupunginorkesteri" .
+
+cmk:jorma-panula-kapellimestarikurssin-konsertti a cmo:Programme ;
+    rdfs:label "Jorma Panula – Kapellimestarikurssin konsertti" .
+
+cmk:laurentius-sali-20260903T1800 a mo:Performance ;
+    cmo:has-programme cmk:jorma-panula-kapellimestarikurssin-konsertti ;
+    schema:name "Jorma Panula – Kapellimestarikurssin konsertti" ;
+    schema:organizer cmk:lohjankaupunginorkesteri ;
+    schema:startDate "2026-09-03T18:00:00"^^xsd:dateTime .
+
+cmk:laurentius-sali-20260917T1900 a mo:Performance ;
+    cmo:has-programme cmk:sinfoniakonsertti ;
+    schema:name "Sinfoniakonsertti" ;
+    schema:organizer cmk:lohjankaupunginorkesteri ;
+    schema:startDate "2026-09-17T19:00:00"^^xsd:dateTime .
+
+cmk:laurentius-sali-20261010T1600 a mo:Performance ;
+    cmo:has-programme cmk:tero-latvala-ystavineen ;
+    schema:name "Tero Latvala ystävineen" ;
+    schema:organizer cmk:lohjankaupunginorkesteri ;
+    schema:startDate "2026-10-10T16:00:00"^^xsd:dateTime .
+
+cmk:laurentius-sali-20261106T1900 a mo:Performance ;
+    cmo:has-programme cmk:frigg-ja-lohjan-kaupunginorkesteri ;
+    schema:name "Frigg ja Lohjan kaupunginorkesteri" ;
+    schema:organizer cmk:lohjankaupunginorkesteri ;
+    schema:startDate "2026-11-06T19:00:00"^^xsd:dateTime .
+
+cmk:movie-classics-maria-ylipaa a cmo:Programme ;
+    rdfs:label "Movie Classics & Maria Ylipää" .
+
+cmk:pitkaniemen-tehdasalue-20260821T1900 a mo:Performance ;
+    cmo:has-programme cmk:movie-classics-maria-ylipaa ;
+    schema:name "Movie Classics & Maria Ylipää" ;
+    schema:organizer cmk:lohjankaupunginorkesteri ;
+    schema:startDate "2026-08-21T19:00:00"^^xsd:dateTime .
+
+cmk:ralf-gothoni-80 a cmo:Programme ;
+    rdfs:label "Ralf Gothoni 80" .
+
+cmk:sinfoniakonsertti a cmo:Programme ;
+    rdfs:label "Sinfoniakonsertti" .
+
+cmk:suurlahettilaat-lohjan-kaupunginorkesteri a cmo:Programme ;
+    rdfs:label "Suurlähettiläät & Lohjan kaupunginorkesteri" .
+
+cmk:syyssoitto a cmo:Programme ;
+    rdfs:label "Syyssoitto" .
+
+cmk:tero-latvala-ystavineen a cmo:Programme ;
+    rdfs:label "Tero Latvala ystävineen" .
+
+cmk:toisenlainen-pahkinansarkija a cmo:Programme ;
+    rdfs:label "Toisenlainen Pähkinänsärkijä" .
+
+cmk:wienilaista-loistoa-pariisilaista-eleganssia a cmo:Programme ;
+    rdfs:label "Wieniläistä loistoa, pariisilaista eleganssia" .
+
+cmo:clarinetist a cmo:musical-identity .
+
+cmo:flutist a cmo:musical-identity .
+
+cmo:harpsichordist a cmo:musical-identity .
+
+cmo:pianist a cmo:musical-identity .
+
+cmo:violinist a cmo:musical-identity .
+
+cmo:violist a cmo:musical-identity .
+
+cmk:barokkia-kirkoissa-isa-poika-ja-kummisetä-2 a cmo:Programme ;
+    rdfs:label "Barokkia kirkoissa – Isä, poika ja kummisetä 2" .
+
+cmk:brahms-ein-deutsches-requiem a cmo:Programme ;
+    rdfs:label "Brahms: Ein deutsches Requiem" .
+
+cmk:laurentius-sali-20261126T1900 a mo:Performance ;
+    cmo:has-programme cmk:ralf-gothoni-80 ;
+    schema:name "Ralf Gothoni 80" ;
+    schema:organizer cmk:lohjankaupunginorkesteri ;
+    schema:startDate "2026-11-26T19:00:00"^^xsd:dateTime .
+
+cmk:lohjan-pyhan-laurin-kirkko-20261023T1800 a mo:Performance ;
+    cmo:has-programme cmk:barokkia-kirkoissa-isa-poika-ja-kummisetä-2 ;
+    schema:name "Barokkia kirkoissa – Isä, poika ja kummisetä 2" ;
+    schema:organizer cmk:lohjankaupunginorkesteri ;
+    schema:startDate "2026-10-23T18:00:00"^^xsd:dateTime .
+
+cmk:pusulan-kirkko-20261022T1800 a mo:Performance ;
+    cmo:has-programme cmk:barokkia-kirkoissa-isa-poika-ja-kummisetä-2 ;
+    schema:name "Barokkia kirkoissa – Isä, poika ja kummisetä 2" ;
+    schema:organizer cmk:lohjankaupunginorkesteri ;
+    schema:startDate "2026-10-22T18:00:00"^^xsd:dateTime .
+
+cmo:conductor a cmo:musical-identity .
+
+cmk:lohjankaupunginorkesteri a schema:Organization .
+

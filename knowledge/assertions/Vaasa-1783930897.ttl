@@ -1,0 +1,113 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:alma-adult-education-centre-great-hall a cmo:Venue .
+
+cmk:alma-adult-education-centre-great-hall-20251218T1800 a mo:Performance ;
+    schema:name "The Snowman" ;
+    schema:organizer cmk:vaasan-kaupunginorkesteri ;
+    schema:startDate "2025-12-18T18:00:00"^^xsd:dateTime .
+
+cmk:alma-adult-education-centre-great-hall-20251219T1300 a mo:Performance ;
+    schema:name "The Snowman" ;
+    schema:organizer cmk:vaasan-kaupunginorkesteri ;
+    schema:startDate "2025-12-19T13:00:00"^^xsd:dateTime .
+
+cmk:alma-adult-education-centre-great-hall-20251219T1500 a mo:Performance ;
+    schema:name "The Snowman" ;
+    schema:organizer cmk:vaasan-kaupunginorkesteri ;
+    schema:startDate "2025-12-19T15:00:00"^^xsd:dateTime .
+
+cmk:barokin-loistoa-ja-kauneutta-ii a cmo:Programme .
+
+cmk:beethoven-appassionata a cmo:Programme .
+
+cmk:beethoven-i a cmo:Programme .
+
+cmk:jorma-panula-kapellimestarikurssin-konsertti a cmo:Programme .
+
+cmk:la-nativita-del-signore-joulukonsertti a cmo:Programme .
+
+cmk:mustasaari-church a cmo:Venue .
+
+cmk:mustasaari-church-20251203T1800 a mo:Performance ;
+    schema:name "La Natività del Signore – Joulukonsertti" ;
+    schema:organizer cmk:vaasan-kaupunginorkesteri ;
+    schema:startDate "2025-12-03T18:00:00"^^xsd:dateTime .
+
+cmk:oopperailta a cmo:Programme .
+
+cmk:pepe-willberg-80-juhlakonsertti-elamalta-kaiken-sain a cmo:Programme .
+
+cmk:piaf a cmo:Programme .
+
+cmk:sateesta-ajasta-ja-valosta-runoutta-ja-musiikkia a cmo:Programme .
+
+cmk:suomalaisen-musiikin-viikko a cmo:Programme .
+
+cmk:the-snowman a cmo:Programme .
+
+cmk:tunnerohkeus-via-dolorosa a cmo:Programme .
+
+cmk:vaasa-city-hall a cmo:Venue .
+
+cmk:vaasa-city-hall-20250806T1800 a mo:Performance ;
+    schema:name "Barokin loistoa ja kauneutta II" ;
+    schema:organizer cmk:vaasan-kaupunginorkesteri ;
+    schema:startDate "2025-08-06T18:00:00"^^xsd:dateTime .
+
+cmk:vaasa-city-hall-20250828T1800 a mo:Performance ;
+    schema:name "Jorma Panula - Kapellimestarikurssin konsertti" ;
+    schema:organizer cmk:vaasan-kaupunginorkesteri ;
+    schema:startDate "2025-08-28T18:00:00"^^xsd:dateTime .
+
+cmk:vaasa-city-hall-20250911T1800 a mo:Performance ;
+    schema:name "Vuorion Säätiön konsertti" ;
+    schema:organizer cmk:vaasan-kaupunginorkesteri ;
+    schema:startDate "2025-09-11T18:00:00"^^xsd:dateTime .
+
+cmk:vaasa-city-hall-20250917T1800 a mo:Performance ;
+    schema:name "PIAF!" ;
+    schema:organizer cmk:vaasan-kaupunginorkesteri ;
+    schema:startDate "2025-09-17T18:00:00"^^xsd:dateTime .
+
+cmk:vaasa-city-hall-20250924T1800 a mo:Performance ;
+    schema:name "Sateesta, ajasta, ja valosta -runoutta ja musiikkia" ;
+    schema:organizer cmk:vaasan-kaupunginorkesteri ;
+    schema:startDate "2025-09-24T18:00:00"^^xsd:dateTime .
+
+cmk:vaasa-city-hall-20251001T1800 a mo:Performance ;
+    schema:name "Pepe Willberg 80 - Juhlakonsertti \"Elämältä kaiken sain\"" ;
+    schema:organizer cmk:vaasan-kaupunginorkesteri ;
+    schema:startDate "2025-10-01T18:00:00"^^xsd:dateTime .
+
+cmk:vaasa-city-hall-20251008T1800 a mo:Performance ;
+    schema:name "Beethoven I" ;
+    schema:organizer cmk:vaasan-kaupunginorkesteri ;
+    schema:startDate "2025-10-08T18:00:00"^^xsd:dateTime .
+
+cmk:vaasa-city-hall-20251009T1800 a mo:Performance ;
+    schema:name "Beethoven Appassionata" ;
+    schema:organizer cmk:vaasan-kaupunginorkesteri ;
+    schema:startDate "2025-10-09T18:00:00"^^xsd:dateTime .
+
+cmk:vaasa-city-hall-20251029T1800 a mo:Performance ;
+    schema:name "Oopperailta" ;
+    schema:organizer cmk:vaasan-kaupunginorkesteri ;
+    schema:startDate "2025-10-29T18:00:00"^^xsd:dateTime .
+
+cmk:vaasa-city-hall-20251113T1800 a mo:Performance ;
+    schema:name "Tunnerohkeus & Via Dolorosa" ;
+    schema:organizer cmk:vaasan-kaupunginorkesteri ;
+    schema:startDate "2025-11-13T18:00:00"^^xsd:dateTime .
+
+cmk:vaasa-city-hall-20251210T1800 a mo:Performance ;
+    schema:name "Suomalaisen musiikin viikko" ;
+    schema:organizer cmk:vaasan-kaupunginorkesteri ;
+    schema:startDate "2025-12-10T18:00:00"^^xsd:dateTime .
+
+cmk:vuorion-saation-konsertti a cmo:Programme .
+
