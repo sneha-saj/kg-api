@@ -2,6 +2,7 @@
 @prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix mo: <http://purl.org/ontology/mo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -32,6 +33,50 @@ cmk:otto-aaron-takala a foaf:Person ;
     foaf:firstName "Otto-Aaron" ;
     cmo:known-as-a cmk:cellist ;
     cmo:plays-in cmk:lievestuore-workers-hall-toivola-20260823T1600 .
+
+cmk:programme-lievestuore-workers-hall-toivola-20260823T1600 a cmo:Programme ;
+    rdfs:label "Laukaa Cultural Weeks: Chamber Concert: Moments and Gems" ;
+    cmo:is-performed-at cmk:lievestuore-workers-hall-toivola-20260823T1600 ;
+    schema:hasPart cmk:composition-andante-cantabile-pyotr-ilyich-tchaikovsky,
+        cmk:composition-ave-maria-wilhelm-fitzenhagen,
+        cmk:composition-concert-polonaise-david-popper,
+        cmk:composition-concert-waltz-wilhelm-fitzenhagen,
+        cmk:composition-elegy-josef-werner,
+        cmk:composition-feierliches-stück-from-the-opera-lohengrin-richard-wagner,
+        cmk:composition-oblivion-astor-piazzolla,
+        cmk:composition-two-movements-alexandre-tansman .
+
+cmk:composition-andante-cantabile-pyotr-ilyich-tchaikovsky a schema:MusicComposition ;
+    schema:composer cmk:pyotr-ilyich-tchaikovsky ;
+    schema:name "Andante cantabile" .
+
+cmk:composition-ave-maria-wilhelm-fitzenhagen a schema:MusicComposition ;
+    schema:composer cmk:wilhelm-fitzenhagen ;
+    schema:name "Ave Maria" .
+
+cmk:composition-concert-polonaise-david-popper a schema:MusicComposition ;
+    schema:composer cmk:david-popper ;
+    schema:name "Concert Polonaise" .
+
+cmk:composition-concert-waltz-wilhelm-fitzenhagen a schema:MusicComposition ;
+    schema:composer cmk:wilhelm-fitzenhagen ;
+    schema:name "Concert Waltz" .
+
+cmk:composition-elegy-josef-werner a schema:MusicComposition ;
+    schema:composer cmk:josef-werner ;
+    schema:name "Elegy" .
+
+cmk:composition-feierliches-stück-from-the-opera-lohengrin-richard-wagner a schema:MusicComposition ;
+    schema:composer cmk:richard-wagner ;
+    schema:name "Feierliches Stück from the opera Lohengrin" .
+
+cmk:composition-oblivion-astor-piazzolla a schema:MusicComposition ;
+    schema:composer cmk:astor-piazzolla ;
+    schema:name "Oblivion" .
+
+cmk:composition-two-movements-alexandre-tansman a schema:MusicComposition ;
+    schema:composer cmk:alexandre-tansman ;
+    schema:name "Two Movements" .
 
 cmk:cellist a cmo:instrumentalist-identity .
 

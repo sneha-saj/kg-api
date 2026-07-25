@@ -304,6 +304,54 @@ cmk:pierre-laurent-aimard a foaf:Person ;
     cmo:plays-in cmk:turku-concert-hall-20260903T1830,
         cmk:turku-concert-hall-20260904T1800 .
 
+cmk:programme-music-centre-fuuga-20261126T1830 a cmo:Programme ;
+    rdfs:label "Mesmerizing Harmony" ;
+    cmo:is-performed-at cmk:music-centre-fuuga-20261126T1830,
+        cmk:music-centre-fuuga-20261127T1800 ;
+    schema:hasPart cmk:composition-cello-concerto-in-b-minor-op-104-antonín-dvořák,
+        cmk:composition-la-valse-maurice-ravel,
+        cmk:composition-ma-mère-loye-maurice-ravel,
+        cmk:composition-sextet-for-piano-and-wind-quintet-fp-100-francis-poulenc .
+
+cmk:programme-music-centre-fuuga-20261206T1200 a cmo:Programme ;
+    rdfs:label "City of Turku Independence Day Gala Concert 2026" ;
+    cmo:is-performed-at cmk:music-centre-fuuga-20261206T1200,
+        cmk:music-centre-fuuga-20261206T1500 ;
+    schema:hasPart cmk:composition-finlandia-jean-sibelius,
+        cmk:composition-maamme-fredrik-pacius .
+
+cmk:programme-music-centre-fuuga-20261215T1830 a cmo:Programme ;
+    rdfs:label "TPO in Cinema: Home Alone" ;
+    cmo:is-performed-at cmk:music-centre-fuuga-20261215T1830,
+        cmk:music-centre-fuuga-20261216T1830,
+        cmk:music-centre-fuuga-20261217T1830 ;
+    schema:hasPart cmk:composition-home-alone-ralph-vaughan-williams .
+
+cmk:programme-musiikkitalo-fuuga-ateljee-20261208T1800 a cmo:Programme ;
+    rdfs:label "Finnish Music Day" ;
+    cmo:is-performed-at cmk:musiikkitalo-fuuga-ateljee-20261208T1800 ;
+    schema:hasPart cmk:composition-pelléas-et-mélisande-jean-sibelius,
+        cmk:composition-string-quartet-no-1-einojuhani-rautavaara,
+        cmk:composition-string-quintet-ernst-mielck,
+        cmk:composition-wind-quintet-no-1-kalevi-aho .
+
+cmk:programme-turku-concert-hall-20260903T1830 a cmo:Programme ;
+    rdfs:label "Celebration!" ;
+    cmo:is-performed-at cmk:turku-concert-hall-20260903T1830,
+        cmk:turku-concert-hall-20260904T1800 ;
+    schema:hasPart cmk:composition-overture-from-the-operetta-candide-leonard-bernstein,
+        cmk:composition-piano-concerto-in-g-minor-op-33-antonín-dvořák,
+        cmk:composition-symphony-no-4-marc-neikrug,
+        cmk:composition-the-noon-witch-antonín-dvořák .
+
+cmk:programme-turku-concert-hall-20260917T1830 a cmo:Programme ;
+    rdfs:label "Restless Oceans" ;
+    cmo:is-performed-at cmk:turku-concert-hall-20260917T1830 ;
+    schema:hasPart cmk:composition-double-concerto-sally-beamish,
+        cmk:composition-restless-oceans-anna-clyne,
+        cmk:composition-romance-in-f-minor-op-11-antonín-dvořák,
+        cmk:composition-symphony-no-4-in-e-minor-op-98-johannes-brahms .
+
 cmk:ramona-wolin-takala a foaf:Person ;
     foaf:familyName "Wolin-Takala" ;
     foaf:firstName "Ramona" ;
@@ -449,6 +497,167 @@ cmk:choirmaster a cmo:musical-identity .
 
 cmk:clarinetist a cmo:musical-identity .
 
+cmk:composition-cello-concerto-in-b-minor-op-104-antonín-dvořák a schema:MusicComposition ;
+    schema:composer cmk:antonín-dvořák ;
+    schema:name "Cello concerto in B minor op. 104" .
+
+cmk:composition-den-första-kyssen-op-37-nro-1-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:name "Den första kyssen op. 37 nro 1" .
+
+cmk:composition-det-livet-är-vackrast-leif-segerstam a schema:MusicComposition ;
+    schema:composer cmk:leif-segerstam ;
+    schema:name "Det livet är vackrast" .
+
+cmk:composition-double-concerto-sally-beamish a schema:MusicComposition ;
+    schema:composer cmk:sally-beamish ;
+    schema:name "Double Concerto" .
+
+cmk:composition-eirene-world-premiere-victoria-poleva a schema:MusicComposition ;
+    schema:composer cmk:victoria-poleva ;
+    schema:name "Eirene (world premiere)" .
+
+cmk:composition-en-glad-musikant-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:name "En glad musikant" .
+
+cmk:composition-fanfare-for-a-new-theatre-igor-stravinsky a schema:MusicComposition ;
+    schema:composer cmk:igor-stravinsky ;
+    schema:name "Fanfare for a New Theatre" .
+
+cmk:composition-finlandia-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:name "Finlandia" .
+
+cmk:composition-four-songs-to-poems-by-l-onerva-jorma-panula a schema:MusicComposition ;
+    schema:composer cmk:jorma-panula ;
+    schema:name "Four Songs to Poems by L. Onerva" .
+
+cmk:composition-home-alone-ralph-vaughan-williams a schema:MusicComposition ;
+    schema:composer cmk:ralph-vaughan-williams ;
+    schema:dateCreated "1990"^^xsd:gYear ;
+    schema:name "Home Alone" .
+
+cmk:composition-háry-jános-suite-zoltán-kodály a schema:MusicComposition ;
+    schema:composer cmk:zoltán-kodály ;
+    schema:name "Háry János Suite" .
+
+cmk:composition-höstkväll-op-38-nro-1-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:name "Höstkväll op. 38 nro 1" .
+
+cmk:composition-ilosoitto-olli-mustonen a schema:MusicComposition ;
+    schema:composer cmk:olli-mustonen ;
+    schema:name "Ilosoitto" .
+
+cmk:composition-joy-fanfare-eddie-lewis a schema:MusicComposition ;
+    schema:composer cmk:eddie-lewis ;
+    schema:name "Joy Fanfare" .
+
+cmk:composition-la-valse-maurice-ravel a schema:MusicComposition ;
+    schema:composer cmk:maurice-ravel ;
+    schema:name "La valse" .
+
+cmk:composition-lemminkäinen-op-22-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:name "Lemminkäinen op. 22" .
+
+cmk:composition-ma-mère-loye-maurice-ravel a schema:MusicComposition ;
+    schema:composer cmk:maurice-ravel ;
+    schema:name "Ma mère l'Oye" .
+
+cmk:composition-maamme-fredrik-pacius a schema:MusicComposition ;
+    schema:composer cmk:fredrik-pacius ;
+    schema:name "Maamme" .
+
+cmk:composition-new-work-commission-world-premiere-minna-leinonen a schema:MusicComposition ;
+    schema:composer cmk:minna-leinonen ;
+    schema:name "New Work (commission, world premiere)" .
+
+cmk:composition-overture-for-large-orchestra-op-49-dora-pejačević a schema:MusicComposition ;
+    schema:composer cmk:dora-pejačević ;
+    schema:name "Overture for large orchestra op. 49" .
+
+cmk:composition-overture-from-the-opera-die-meistersinger-von-nürnberg-richard-wagner a schema:MusicComposition ;
+    schema:composer cmk:richard-wagner ;
+    schema:name "Overture from the opera Die Meistersinger von Nürnberg" .
+
+cmk:composition-overture-from-the-operetta-candide-leonard-bernstein a schema:MusicComposition ;
+    schema:composer cmk:leonard-bernstein ;
+    schema:name "Overture from the operetta Candide" .
+
+cmk:composition-pelléas-et-mélisande-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:name "Pelléas et Mélisande" .
+
+cmk:composition-piano-concerto-in-g-minor-op-33-antonín-dvořák a schema:MusicComposition ;
+    schema:composer cmk:antonín-dvořák ;
+    schema:name "Piano Concerto in G minor op. 33" .
+
+cmk:composition-praeludium-to-beethovens-9th-symphony-rodion-shchedrin a schema:MusicComposition ;
+    schema:composer cmk:rodion-shchedrin ;
+    schema:name "Praeludium to Beethoven's 9th symphony" .
+
+cmk:composition-restless-oceans-anna-clyne a schema:MusicComposition ;
+    schema:composer cmk:anna-clyne ;
+    schema:name "Restless Oceans" .
+
+cmk:composition-romance-in-f-minor-op-11-antonín-dvořák a schema:MusicComposition ;
+    schema:composer cmk:antonín-dvořák ;
+    schema:name "Romance in F minor op. 11" .
+
+cmk:composition-septet-igor-stravinsky a schema:MusicComposition ;
+    schema:composer cmk:igor-stravinsky ;
+    schema:name "Septet" .
+
+cmk:composition-sextet-for-piano-and-wind-quintet-fp-100-francis-poulenc a schema:MusicComposition ;
+    schema:composer cmk:francis-poulenc ;
+    schema:name "Sextet for Piano and Wind Quintet FP 100" .
+
+cmk:composition-sieben-frühe-lieder-alban-berg a schema:MusicComposition ;
+    schema:composer cmk:alban-berg ;
+    schema:name "Sieben frühe Lieder" .
+
+cmk:composition-string-quartet-no-1-einojuhani-rautavaara a schema:MusicComposition ;
+    schema:composer cmk:einojuhani-rautavaara ;
+    schema:name "String Quartet No. 1" .
+
+cmk:composition-string-quintet-ernst-mielck a schema:MusicComposition ;
+    schema:composer cmk:ernst-mielck ;
+    schema:name "String Quintet" .
+
+cmk:composition-symphony-no-4-in-e-minor-op-98-johannes-brahms a schema:MusicComposition ;
+    schema:composer cmk:johannes-brahms ;
+    schema:name "Symphony no 4 in E minor op. 98" .
+
+cmk:composition-symphony-no-4-marc-neikrug a schema:MusicComposition ;
+    schema:composer cmk:marc-neikrug ;
+    schema:name "Symphony no 4" .
+
+cmk:composition-symphony-no-9-in-d-minor-op-125-ode-to-joy-ludwig-van-beethoven a schema:MusicComposition ;
+    schema:composer cmk:ludwig-van-beethoven ;
+    schema:name "Symphony no 9 in D minor op. 125 \"Ode to Joy\"" .
+
+cmk:composition-the-noon-witch-antonín-dvořák a schema:MusicComposition ;
+    schema:composer cmk:antonín-dvořák ;
+    schema:name "The Noon Witch" .
+
+cmk:composition-till-eulenspiegels-lustige-streiche-op-28-richard-strauss a schema:MusicComposition ;
+    schema:composer cmk:richard-strauss ;
+    schema:name "Till Eulenspiegels lustige Streiche op. 28" .
+
+cmk:composition-violin-concerto-in-d-minor-op-47-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:name "Violin concerto in D minor op. 47" .
+
+cmk:composition-wind-quintet-no-1-kalevi-aho a schema:MusicComposition ;
+    schema:composer cmk:kalevi-aho ;
+    schema:name "Wind Quintet No. 1" .
+
+cmk:composition-woodland-fanfares-outi-tarkiainen a schema:MusicComposition ;
+    schema:composer cmk:outi-tarkiainen ;
+    schema:name "Woodland Fanfares" .
+
 cmk:double-bassist a cmo:musical-identity .
 
 cmk:hornist a cmo:musical-identity .
@@ -466,10 +675,49 @@ cmo:flutist a cmo:musical-identity .
 cmo:pianist a cmo:musical-identity .
 
 cmk:embracing-sound a cmo:Programme ;
-    rdfs:label "Sold out: Embracing Sound" .
+    rdfs:label "Sold out: Embracing Sound" ;
+    cmo:is-performed-at cmk:music-centre-fuuga-20261119T1830,
+        cmk:music-centre-fuuga-20261120T1800 ;
+    schema:hasPart cmk:composition-háry-jános-suite-zoltán-kodály,
+        cmk:composition-overture-for-large-orchestra-op-49-dora-pejačević,
+        cmk:composition-till-eulenspiegels-lustige-streiche-op-28-richard-strauss,
+        cmk:composition-violin-concerto-in-d-minor-op-47-jean-sibelius .
 
 cmk:fanfare-for-fuuga-ateljee-opening-concert a cmo:Programme ;
-    rdfs:label "Fanfare for Fuuga – Ateljee Opening Concert" .
+    rdfs:label "Fanfare for Fuuga – Ateljee Opening Concert" ;
+    cmo:is-performed-at cmk:music-centre-fuuga-ateljee-20261028T1800,
+        cmk:music-centre-fuuga-ateljee-20261029T1800 ;
+    schema:hasPart cmk:composition-det-livet-är-vackrast-leif-segerstam,
+        cmk:composition-en-glad-musikant-jean-sibelius,
+        cmk:composition-fanfare-for-a-new-theatre-igor-stravinsky,
+        cmk:composition-four-songs-to-poems-by-l-onerva-jorma-panula,
+        cmk:composition-ilosoitto-olli-mustonen,
+        cmk:composition-joy-fanfare-eddie-lewis,
+        cmk:composition-new-work-commission-world-premiere-minna-leinonen,
+        cmk:composition-septet-igor-stravinsky,
+        cmk:composition-woodland-fanfares-outi-tarkiainen .
+
+cmk:pianist a cmo:musical-identity .
+
+cmk:trumpeter a cmo:musical-identity .
+
+cmk:violist a cmo:musical-identity .
+
+cmo:bassoonist a cmo:musical-identity .
+
+cmo:cellist a cmo:musical-identity .
+
+cmo:hornist a cmo:musical-identity .
+
+cmo:oboist a cmo:musical-identity .
+
+cmo:violinist a cmo:musical-identity .
+
+cmo:violist a cmo:musical-identity .
+
+cmk:conductor a cmo:musical-identity .
+
+cmk:host a cmo:musical-identity .
 
 cmk:music-centre-fuuga-20261112T1830 a mo:Performance ;
     cmo:performs-in cmk:opening-concert ;
@@ -518,27 +766,27 @@ cmk:music-centre-fuuga-20261206T1500 a mo:Performance ;
     schema:startDate "2026-12-06T15:00:00"^^xsd:dateTime ;
     schema:url "https://tfo.fi/en/tapahtumat/city-of-turku-independence-day-gala-concert-2026/?esitysaika=1"^^xsd:anyURI .
 
-cmk:pianist a cmo:musical-identity .
+cmk:ode-to-joy a cmo:Programme ;
+    rdfs:label "Ode to Joy" ;
+    cmo:is-performed-at cmk:turku-concert-hall-20261007T1830,
+        cmk:turku-concert-hall-20261008T1830,
+        cmk:turku-concert-hall-20261009T1800 ;
+    schema:hasPart cmk:composition-praeludium-to-beethovens-9th-symphony-rodion-shchedrin,
+        cmk:composition-symphony-no-9-in-d-minor-op-125-ode-to-joy-ludwig-van-beethoven .
 
-cmk:trumpeter a cmo:musical-identity .
+cmk:opening-concert a cmo:Programme ;
+    rdfs:label "Sold Out: Opening Concert" ;
+    cmo:is-performed-at cmk:music-centre-fuuga-20261112T1830,
+        cmk:music-centre-fuuga-20261113T1800,
+        cmk:music-centre-fuuga-20261114T1400 ;
+    schema:hasPart cmk:composition-den-första-kyssen-op-37-nro-1-jean-sibelius,
+        cmk:composition-eirene-world-premiere-victoria-poleva,
+        cmk:composition-höstkväll-op-38-nro-1-jean-sibelius,
+        cmk:composition-lemminkäinen-op-22-jean-sibelius,
+        cmk:composition-overture-from-the-opera-die-meistersinger-von-nürnberg-richard-wagner,
+        cmk:composition-sieben-frühe-lieder-alban-berg .
 
-cmk:violist a cmo:musical-identity .
-
-cmo:bassoonist a cmo:musical-identity .
-
-cmo:cellist a cmo:musical-identity .
-
-cmo:hornist a cmo:musical-identity .
-
-cmo:oboist a cmo:musical-identity .
-
-cmo:violinist a cmo:musical-identity .
-
-cmo:violist a cmo:musical-identity .
-
-cmk:conductor a cmo:musical-identity .
-
-cmk:host a cmo:musical-identity .
+cmk:soprano a cmo:musical-identity .
 
 cmk:music-centre-fuuga-20261215T1830 a mo:Performance ;
     schema:name "TPO in Cinema: Home Alone" ;
@@ -557,14 +805,6 @@ cmk:music-centre-fuuga-20261217T1830 a mo:Performance ;
     schema:organizer cmk:tfo ;
     schema:startDate "2026-12-17T18:30:00"^^xsd:dateTime ;
     schema:url "https://tfo.fi/en/tapahtumat/tpo-in-cinema-home-alone/?esitysaika=2"^^xsd:anyURI .
-
-cmk:ode-to-joy a cmo:Programme ;
-    rdfs:label "Ode to Joy" .
-
-cmk:opening-concert a cmo:Programme ;
-    rdfs:label "Sold Out: Opening Concert" .
-
-cmk:soprano a cmo:musical-identity .
 
 cmk:turku-concert-hall-20260903T1830 a mo:Performance ;
     schema:name "Celebration!" ;
@@ -633,18 +873,6 @@ cmk:turku-concert-hall-20261009T1800 a mo:Performance ;
     schema:startDate "2026-10-09T18:00:00"^^xsd:dateTime ;
     schema:url "https://tfo.fi/en/tapahtumat/ode-to-joy/?esitysaika=2"^^xsd:anyURI .
 
-cmk:music-centre-fuuga-20261126T1830 a mo:Performance ;
-    schema:name "Mesmerizing Harmony" ;
-    schema:organizer cmk:tfo ;
-    schema:startDate "2026-11-26T18:30:00"^^xsd:dateTime ;
-    schema:url "https://tfo.fi/en/tapahtumat/4170/?esitysaika=0"^^xsd:anyURI .
-
-cmk:music-centre-fuuga-20261127T1800 a mo:Performance ;
-    schema:name "Mesmerizing Harmony" ;
-    schema:organizer cmk:tfo ;
-    schema:startDate "2026-11-27T18:00:00"^^xsd:dateTime ;
-    schema:url "https://tfo.fi/en/tapahtumat/4170/?esitysaika=1"^^xsd:anyURI .
-
 cmk:turku-concert-hall-20260910T1830 a mo:Performance ;
     schema:name "1952" ;
     schema:organizer cmk:tfo ;
@@ -656,6 +884,18 @@ cmk:turku-concert-hall-20260911T1800 a mo:Performance ;
     schema:organizer cmk:tfo ;
     schema:startDate "2026-09-11T18:00:00"^^xsd:dateTime ;
     schema:url "https://tfo.fi/en/tapahtumat/3655/?esitysaika=1"^^xsd:anyURI .
+
+cmk:music-centre-fuuga-20261126T1830 a mo:Performance ;
+    schema:name "Mesmerizing Harmony" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-11-26T18:30:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/4170/?esitysaika=0"^^xsd:anyURI .
+
+cmk:music-centre-fuuga-20261127T1800 a mo:Performance ;
+    schema:name "Mesmerizing Harmony" ;
+    schema:organizer cmk:tfo ;
+    schema:startDate "2026-11-27T18:00:00"^^xsd:dateTime ;
+    schema:url "https://tfo.fi/en/tapahtumat/4170/?esitysaika=1"^^xsd:anyURI .
 
 cmk:musiikkitalo-fuuga-ateljee-20261208T1800 a mo:Performance ;
     schema:name "Finnish Music Day" ;

@@ -294,12 +294,21 @@ cmk:von-hertzen-brothers-25v-somewhere-in-the-middle a cmo:Programme ;
     rdfs:label "Von Hertzen Brothers 25v. - Somewhere in the Middle" .
 
 cmk:yona-sininen-joulu a cmo:Programme ;
-    rdfs:label "Yona - Sininen joulu" .
+    rdfs:label "Yona - Sininen joulu" ;
+    cmo:is-performed-at cmk:musiikkitalo-20261212T1800 ;
+    schema:hasPart cmk:composition-avaruus,
+        cmk:composition-ave-maria .
 
 cmk:yona-x-saimaa-solovey a cmo:Programme ;
     rdfs:label "Yona X Saimaa: Solovey" .
 
 cmo:ensemble a cmo:ensemble-identity .
+
+cmk:composition-avaruus a schema:MusicComposition ;
+    schema:name "Avaruus" .
+
+cmk:composition-ave-maria a schema:MusicComposition ;
+    schema:name "Ave Maria" .
 
 cmk:kulttuuritalo-martinus-20250913T0000 a mo:Performance ;
     schema:name "Kalevauva.fi 9½ vuotta - sinfoninen juhlakonsertti" ;
@@ -381,11 +390,6 @@ cmk:musiikkitalo-20261010T1800 a mo:Performance ;
     schema:organizer cmk:viihdeorkesteri ;
     schema:startDate "2026-10-10T18:00:00"^^xsd:dateTime .
 
-cmk:musiikkitalo-20261212T1800 a mo:Performance ;
-    schema:name "Yona - Sininen joulu" ;
-    schema:organizer cmk:viihdeorkesteri ;
-    schema:startDate "2026-12-12T18:00:00"^^xsd:dateTime .
-
 cmk:musiikkitalo-20261219T1300 a mo:Performance ;
     schema:name "Lumiukko-elokuvakonsertti" ;
     schema:organizer cmk:viihdeorkesteri ;
@@ -436,6 +440,11 @@ cmk:musiikkitalo-20251108T0000 a mo:Performance ;
     schema:name "Kahden valon välissä - runoja rakkaudesta ja kaipuusta" ;
     schema:organizer cmk:viihdeorkesteri ;
     schema:startDate "2025-11-08T00:00:00"^^xsd:dateTime .
+
+cmk:musiikkitalo-20261212T1800 a mo:Performance ;
+    schema:name "Yona - Sininen joulu" ;
+    schema:organizer cmk:viihdeorkesteri ;
+    schema:startDate "2026-12-12T18:00:00"^^xsd:dateTime .
 
 cmk:tampere-talo-20251227T0000 a mo:Performance ;
     schema:name "The Music of Star Wars" ;

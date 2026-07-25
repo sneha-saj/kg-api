@@ -180,6 +180,99 @@ cmk:philipp-schneider a foaf:Person ;
         cmk:nurmes-talo-hannikaisen-sali-20261216T1800 ;
     cmo:known-as-a cmk:conductor .
 
+cmk:programme-carelia-sali-20260910T1800 a cmo:Programme ;
+    rdfs:label "Joen serenadi" ;
+    cmo:is-performed-at cmk:carelia-sali-20260910T1800 ;
+    schema:hasPart cmk:composition-humoreskit-op-87-ja-89-jean-sibelius,
+        cmk:composition-river-helen-grime,
+        cmk:composition-serenadi-a-molli-ralph-vaughan-williams .
+
+cmk:programme-carelia-sali-20260917T1800 a cmo:Programme ;
+    rdfs:label "Jos rakastat" ;
+    cmo:is-performed-at cmk:carelia-sali-20260917T1800 ;
+    schema:hasPart cmk:composition-hyvästi-kaj-chydenius,
+        cmk:composition-jos-rakastat-kaj-chydenius,
+        cmk:composition-joudu-armas-joudu-kaj-chydenius,
+        cmk:composition-jäähyväiset-kaj-chydenius,
+        cmk:composition-kaikkein-kaunein-tyttö-kaj-chydenius,
+        cmk:composition-kalliolle-kukkulalle-kaj-chydenius,
+        cmk:composition-kerjäläislegenda-kaj-chydenius,
+        cmk:composition-laulu-kuolleesta-rakastetusta-kaj-chydenius,
+        cmk:composition-laulu-lupauksista-kaj-chydenius,
+        cmk:composition-minun-lintuni-kaj-chydenius,
+        cmk:composition-natalia-kaj-chydenius,
+        cmk:composition-nocturne-kaj-chydenius,
+        cmk:composition-notturno-kaj-chydenius,
+        cmk:composition-nuoruustango-kaj-chydenius,
+        cmk:composition-puhu-minulle-rakkaudesta-kaj-chydenius,
+        cmk:composition-rakkaus-rakkaus-kaj-chydenius,
+        cmk:composition-sinua-sinua-rakastan-kaj-chydenius,
+        cmk:composition-syleily-kaj-chydenius,
+        cmk:composition-tyttö-ja-tanssiva-karhu-kaj-chydenius,
+        cmk:composition-viimeisestä-illasta-kaj-chydenius,
+        cmk:composition-yö-kaj-chydenius .
+
+cmk:programme-carelia-sali-20260924T1800 a cmo:Programme ;
+    rdfs:label "Sotilaan tarina" ;
+    cmo:is-performed-at cmk:carelia-sali-20260924T1800 ;
+    schema:hasPart cmk:composition-sotilaan-tarina-igor-stravinsky .
+
+cmk:programme-carelia-sali-20261001T1800 a cmo:Programme ;
+    rdfs:label "Romantiikkaa ja räiskettä" ;
+    cmo:is-performed-at cmk:carelia-sali-20261001T1800 ;
+    schema:hasPart cmk:composition-intermezzo-op16-nro-1-helvi-leiviskä,
+        cmk:composition-pianokonsertto-nro-2-f-molli-frédéric-chopin,
+        cmk:composition-pivot-anna-clyne,
+        cmk:composition-pulcinella-sarja-igor-stravinsky .
+
+cmk:programme-carelia-sali-20261022T1800 a cmo:Programme ;
+    rdfs:label "Nousevat tähdet" ;
+    cmo:is-performed-at cmk:carelia-sali-20261022T1800 ;
+    schema:hasPart cmk:composition-lachrymae-op-48a-altoviululle-ja-jousille-benjamin-britten,
+        cmk:composition-sinfonia-nro-38-d-duuri-kv-504-praha-wa-mozart,
+        cmk:composition-tre-preludii-sinfonici-per-ledipo-re-di-sofocle-ildebrando-pizzetti .
+
+cmk:programme-carelia-sali-20261105T1800 a cmo:Programme ;
+    rdfs:label "Maasta taivaisiin" ;
+    cmo:is-performed-at cmk:carelia-sali-20261105T1800 ;
+    schema:hasPart cmk:composition-alkusoitto-scherzo-ja-finale-op52-robert-schumann,
+        cmk:composition-berceuse-élégiaque-arr-john-adams-ferruccio-busoni,
+        cmk:composition-day-night-day-kamariorkesterille-outi-tarkiainen,
+        cmk:composition-huilukonsertto-terral-sebastian-fagerlund .
+
+cmk:programme-carelia-sali-20261119T1800 a cmo:Programme ;
+    rdfs:label "Kuinkas sitten kävikään?" ;
+    cmo:is-performed-at cmk:carelia-sali-20261119T1800 ;
+    schema:hasPart cmk:composition-kuinkas-sitten-kävikään-minna-leinonen .
+
+cmk:programme-carelia-sali-20261126T1800 a cmo:Programme ;
+    rdfs:label "Talvinen matka" ;
+    cmo:is-performed-at cmk:carelia-sali-20261126T1800 ;
+    schema:hasPart cmk:composition-winterreise-a-composed-interpretation-franz-schubert-hans-zender .
+
+cmk:programme-carelia-sali-20261217T1800 a cmo:Programme ;
+    rdfs:label "Lumiukko" ;
+    cmo:is-performed-at cmk:carelia-sali-20261217T1800 ;
+    schema:hasPart cmk:composition-lumiukko-howard-blake .
+
+cmk:programme-joensuun-konservatorio-20260903T1800 a cmo:Programme ;
+    rdfs:label "Hei me improtaan!" ;
+    cmo:is-performed-at cmk:joensuun-konservatorio-20260903T1800 ;
+    schema:hasPart cmk:composition-in-c-terry-riley .
+
+cmk:programme-nurmes-talo-hannikaisen-sali-20261216T1800 a cmo:Programme ;
+    rdfs:label "Lumiukko, Nurmes" ;
+    cmo:is-performed-at cmk:nurmes-talo-hannikaisen-sali-20261216T1800 ;
+    schema:hasPart cmk:composition-lumiukko-howard-blake .
+
+cmk:programme-rantakylan-kirkko-20261203T1800 a cmo:Programme ;
+    rdfs:label "Joulubarokki" ;
+    cmo:is-performed-at cmk:rantakylan-kirkko-20261203T1800 ;
+    schema:hasPart cmk:composition-cembalokonsertto-bwv-1054-johann-sebastian-bach,
+        cmk:composition-joulukonsertto-arcangelo-corelli,
+        cmk:composition-orkesterisarja-d-duuri-bwv-1068-johann-sebastian-bach,
+        cmk:composition-sinfonia-a-duuri-wq-1824-carl-philipp-emanuel-bach .
+
 cmk:pyhainpaivan-kynttilakonsertti a cmo:Programme .
 
 cmk:rantakylan-kirkko a cmo:ConcertHall,
@@ -251,6 +344,178 @@ cmk:carelia-sali-20261231T1800 a mo:Performance ;
 cmk:cellist a cmo:instrumentalist-identity,
         cmo:musical-identity .
 
+cmk:composition-alkusoitto-scherzo-ja-finale-op52-robert-schumann a schema:MusicComposition ;
+    schema:composer cmk:robert-schumann ;
+    schema:name "Alkusoitto, Scherzo ja Finale Op.52" .
+
+cmk:composition-berceuse-élégiaque-arr-john-adams-ferruccio-busoni a schema:MusicComposition ;
+    schema:composer cmk:ferruccio-busoni ;
+    schema:name "Berceuse Élégiaque (arr. John Adams)" .
+
+cmk:composition-cembalokonsertto-bwv-1054-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Cembalokonsertto BWV 1054" .
+
+cmk:composition-day-night-day-kamariorkesterille-outi-tarkiainen a schema:MusicComposition ;
+    schema:composer cmk:outi-tarkiainen ;
+    schema:name "Day Night Day kamariorkesterille" .
+
+cmk:composition-huilukonsertto-terral-sebastian-fagerlund a schema:MusicComposition ;
+    schema:composer cmk:sebastian-fagerlund ;
+    schema:name "Huilukonsertto \"Terral\"" .
+
+cmk:composition-humoreskit-op-87-ja-89-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:name "Humoreskit op. 87 ja 89" .
+
+cmk:composition-hyvästi-kaj-chydenius a schema:MusicComposition ;
+    schema:composer cmk:kaj-chydenius ;
+    schema:name "Hyvästi" .
+
+cmk:composition-in-c-terry-riley a schema:MusicComposition ;
+    schema:composer cmk:terry-riley ;
+    schema:name "In C" .
+
+cmk:composition-intermezzo-op16-nro-1-helvi-leiviskä a schema:MusicComposition ;
+    schema:composer cmk:helvi-leiviskä ;
+    schema:name "Intermezzo op.16 nro 1" .
+
+cmk:composition-jos-rakastat-kaj-chydenius a schema:MusicComposition ;
+    schema:composer cmk:kaj-chydenius ;
+    schema:name "Jos rakastat" .
+
+cmk:composition-joudu-armas-joudu-kaj-chydenius a schema:MusicComposition ;
+    schema:composer cmk:kaj-chydenius ;
+    schema:name "Joudu armas, joudu" .
+
+cmk:composition-joulukonsertto-arcangelo-corelli a schema:MusicComposition ;
+    schema:composer cmk:arcangelo-corelli ;
+    schema:name "Joulukonsertto" .
+
+cmk:composition-jäähyväiset-kaj-chydenius a schema:MusicComposition ;
+    schema:composer cmk:kaj-chydenius ;
+    schema:name "Jäähyväiset" .
+
+cmk:composition-kaikkein-kaunein-tyttö-kaj-chydenius a schema:MusicComposition ;
+    schema:composer cmk:kaj-chydenius ;
+    schema:name "Kaikkein kaunein tyttö" .
+
+cmk:composition-kalliolle-kukkulalle-kaj-chydenius a schema:MusicComposition ;
+    schema:composer cmk:kaj-chydenius ;
+    schema:name "Kalliolle kukkulalle" .
+
+cmk:composition-kerjäläislegenda-kaj-chydenius a schema:MusicComposition ;
+    schema:composer cmk:kaj-chydenius ;
+    schema:name "Kerjäläislegenda" .
+
+cmk:composition-kuinkas-sitten-kävikään-minna-leinonen a schema:MusicComposition ;
+    schema:composer cmk:minna-leinonen ;
+    schema:name "Kuinkas sitten kävikään?" .
+
+cmk:composition-lachrymae-op-48a-altoviululle-ja-jousille-benjamin-britten a schema:MusicComposition ;
+    schema:composer cmk:benjamin-britten ;
+    schema:name "Lachrymae op. 48a altoviululle ja jousille" .
+
+cmk:composition-laulu-kuolleesta-rakastetusta-kaj-chydenius a schema:MusicComposition ;
+    schema:composer cmk:kaj-chydenius ;
+    schema:name "Laulu kuolleesta rakastetusta" .
+
+cmk:composition-laulu-lupauksista-kaj-chydenius a schema:MusicComposition ;
+    schema:composer cmk:kaj-chydenius ;
+    schema:name "Laulu lupauksista" .
+
+cmk:composition-minun-lintuni-kaj-chydenius a schema:MusicComposition ;
+    schema:composer cmk:kaj-chydenius ;
+    schema:name "Minun lintuni" .
+
+cmk:composition-natalia-kaj-chydenius a schema:MusicComposition ;
+    schema:composer cmk:kaj-chydenius ;
+    schema:name "Natalia" .
+
+cmk:composition-nocturne-kaj-chydenius a schema:MusicComposition ;
+    schema:composer cmk:kaj-chydenius ;
+    schema:name "Nocturne" .
+
+cmk:composition-notturno-kaj-chydenius a schema:MusicComposition ;
+    schema:composer cmk:kaj-chydenius ;
+    schema:name "Notturno" .
+
+cmk:composition-nuoruustango-kaj-chydenius a schema:MusicComposition ;
+    schema:composer cmk:kaj-chydenius ;
+    schema:name "Nuoruustango" .
+
+cmk:composition-orkesterisarja-d-duuri-bwv-1068-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Orkesterisarja D-duuri BWV 1068" .
+
+cmk:composition-pianokonsertto-nro-2-f-molli-frédéric-chopin a schema:MusicComposition ;
+    schema:composer cmk:frédéric-chopin ;
+    schema:name "Pianokonsertto nro 2 f-molli" .
+
+cmk:composition-pivot-anna-clyne a schema:MusicComposition ;
+    schema:composer cmk:anna-clyne ;
+    schema:name "PIVOT" .
+
+cmk:composition-puhu-minulle-rakkaudesta-kaj-chydenius a schema:MusicComposition ;
+    schema:composer cmk:kaj-chydenius ;
+    schema:name "Puhu minulle rakkaudesta" .
+
+cmk:composition-pulcinella-sarja-igor-stravinsky a schema:MusicComposition ;
+    schema:composer cmk:igor-stravinsky ;
+    schema:name "Pulcinella-sarja" .
+
+cmk:composition-rakkaus-rakkaus-kaj-chydenius a schema:MusicComposition ;
+    schema:composer cmk:kaj-chydenius ;
+    schema:name "Rakkaus rakkaus" .
+
+cmk:composition-river-helen-grime a schema:MusicComposition ;
+    schema:composer cmk:helen-grime ;
+    schema:name "River" .
+
+cmk:composition-serenadi-a-molli-ralph-vaughan-williams a schema:MusicComposition ;
+    schema:composer cmk:ralph-vaughan-williams ;
+    schema:name "Serenadi a-molli" .
+
+cmk:composition-sinfonia-a-duuri-wq-1824-carl-philipp-emanuel-bach a schema:MusicComposition ;
+    schema:composer cmk:carl-philipp-emanuel-bach ;
+    schema:name "Sinfonia A-duuri, Wq 182/4" .
+
+cmk:composition-sinfonia-nro-38-d-duuri-kv-504-praha-wa-mozart a schema:MusicComposition ;
+    schema:composer cmk:wa-mozart ;
+    schema:name "Sinfonia nro 38 D-duuri (KV 504) \"Praha\"" .
+
+cmk:composition-sinua-sinua-rakastan-kaj-chydenius a schema:MusicComposition ;
+    schema:composer cmk:kaj-chydenius ;
+    schema:name "Sinua, sinua rakastan" .
+
+cmk:composition-sotilaan-tarina-igor-stravinsky a schema:MusicComposition ;
+    schema:composer cmk:igor-stravinsky ;
+    schema:name "Sotilaan tarina" .
+
+cmk:composition-syleily-kaj-chydenius a schema:MusicComposition ;
+    schema:composer cmk:kaj-chydenius ;
+    schema:name "Syleily" .
+
+cmk:composition-tre-preludii-sinfonici-per-ledipo-re-di-sofocle-ildebrando-pizzetti a schema:MusicComposition ;
+    schema:composer cmk:ildebrando-pizzetti ;
+    schema:name "Tre Preludii Sinfonici per L'Edipo Re di Sofocle" .
+
+cmk:composition-tyttö-ja-tanssiva-karhu-kaj-chydenius a schema:MusicComposition ;
+    schema:composer cmk:kaj-chydenius ;
+    schema:name "Tyttö ja tanssiva karhu" .
+
+cmk:composition-viimeisestä-illasta-kaj-chydenius a schema:MusicComposition ;
+    schema:composer cmk:kaj-chydenius ;
+    schema:name "Viimeisestä illasta" .
+
+cmk:composition-winterreise-a-composed-interpretation-franz-schubert-hans-zender a schema:MusicComposition ;
+    schema:composer cmk:franz-schubert-hans-zender ;
+    schema:name "Winterreise – a composed interpretation" .
+
+cmk:composition-yö-kaj-chydenius a schema:MusicComposition ;
+    schema:composer cmk:kaj-chydenius ;
+    schema:name "Yö" .
+
 cmk:conductor-violinist a cmo:musical-identity .
 
 cmk:dancer a cmo:musical-identity .
@@ -269,12 +534,6 @@ cmk:harpsichordist a cmo:instrumentalist-identity,
 cmk:host a cmo:musical-identity .
 
 cmk:improvisation-master a cmo:musical-identity .
-
-cmk:joensuun-konservatorio-20260903T1800 a mo:Performance ;
-    schema:name "Hei me improtaan!" ;
-    schema:organizer cmk:joensuunkaupunginorkesteri ;
-    schema:startDate "2026-09-03T18:00:00"^^xsd:dateTime ;
-    schema:url "https://joensuunkaupunginorkesteri.fi/events/hei-me-improtaan/"^^xsd:anyURI .
 
 cmk:jukka-untamala a foaf:Person ;
     foaf:familyName "Untamala" ;
@@ -318,6 +577,40 @@ cmk:carelia-sali-20260910T1100 a mo:Performance ;
     schema:startDate "2026-09-10T11:00:00"^^xsd:dateTime ;
     schema:url "https://joensuunkaupunginorkesteri.fi/events/avoin-kenraaliharjoitus-joen-serenadi/"^^xsd:anyURI .
 
+cmk:carelia-sali-20261022T1100 a mo:Performance ;
+    schema:name "Avoin kenraaliharjoitus: Nousevat tähdet" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-10-22T11:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/avoin-kenraaliharjoitus-nousevat-tahdet/"^^xsd:anyURI .
+
+cmk:carelia-sali-20261105T1100 a mo:Performance ;
+    cmo:performs-in cmk:jukka-untamala,
+        cmk:kaisa-kortelainen ;
+    schema:name "Avoin kenraaliharjoitus: Maasta taivaisiin" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-11-05T11:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/avoin-kenraaliharjoitus-maasta-taivaisiin/"^^xsd:anyURI .
+
+cmk:carelia-sali-20261112T1800 a mo:Performance ;
+    schema:name "Blues Diamonds" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-11-12T18:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/blues-diamonds/"^^xsd:anyURI .
+
+cmk:composition-lumiukko-howard-blake a schema:MusicComposition ;
+    schema:composer cmk:howard-blake ;
+    schema:name "Lumiukko" .
+
+cmk:joensuun-konservatorio-20260903T1800 a mo:Performance ;
+    schema:name "Hei me improtaan!" ;
+    schema:organizer cmk:joensuunkaupunginorkesteri ;
+    schema:startDate "2026-09-03T18:00:00"^^xsd:dateTime ;
+    schema:url "https://joensuunkaupunginorkesteri.fi/events/hei-me-improtaan/"^^xsd:anyURI .
+
+cmk:narrator a cmo:musical-identity .
+
+cmk:vocalist a cmo:musical-identity .
+
 cmk:carelia-sali-20260910T1800 a mo:Performance ;
     schema:name "Joen serenadi" ;
     schema:organizer cmk:joensuunkaupunginorkesteri ;
@@ -330,37 +623,17 @@ cmk:carelia-sali-20261001T1800 a mo:Performance ;
     schema:startDate "2026-10-01T18:00:00"^^xsd:dateTime ;
     schema:url "https://joensuunkaupunginorkesteri.fi/events/romantiikkaa-ja-raisketta/"^^xsd:anyURI .
 
-cmk:carelia-sali-20261022T1100 a mo:Performance ;
-    schema:name "Avoin kenraaliharjoitus: Nousevat tähdet" ;
-    schema:organizer cmk:joensuunkaupunginorkesteri ;
-    schema:startDate "2026-10-22T11:00:00"^^xsd:dateTime ;
-    schema:url "https://joensuunkaupunginorkesteri.fi/events/avoin-kenraaliharjoitus-nousevat-tahdet/"^^xsd:anyURI .
-
 cmk:carelia-sali-20261022T1800 a mo:Performance ;
     schema:name "Nousevat tähdet" ;
     schema:organizer cmk:joensuunkaupunginorkesteri ;
     schema:startDate "2026-10-22T18:00:00"^^xsd:dateTime ;
     schema:url "https://joensuunkaupunginorkesteri.fi/events/nousevat-tahdet/"^^xsd:anyURI .
 
-cmk:carelia-sali-20261105T1100 a mo:Performance ;
-    cmo:performs-in cmk:jukka-untamala,
-        cmk:kaisa-kortelainen ;
-    schema:name "Avoin kenraaliharjoitus: Maasta taivaisiin" ;
-    schema:organizer cmk:joensuunkaupunginorkesteri ;
-    schema:startDate "2026-11-05T11:00:00"^^xsd:dateTime ;
-    schema:url "https://joensuunkaupunginorkesteri.fi/events/avoin-kenraaliharjoitus-maasta-taivaisiin/"^^xsd:anyURI .
-
 cmk:carelia-sali-20261105T1800 a mo:Performance ;
     schema:name "Maasta taivaisiin" ;
     schema:organizer cmk:joensuunkaupunginorkesteri ;
     schema:startDate "2026-11-05T18:00:00"^^xsd:dateTime ;
     schema:url "https://joensuunkaupunginorkesteri.fi/events/maasta-taivaisiin/"^^xsd:anyURI .
-
-cmk:carelia-sali-20261112T1800 a mo:Performance ;
-    schema:name "Blues Diamonds" ;
-    schema:organizer cmk:joensuunkaupunginorkesteri ;
-    schema:startDate "2026-11-12T18:00:00"^^xsd:dateTime ;
-    schema:url "https://joensuunkaupunginorkesteri.fi/events/blues-diamonds/"^^xsd:anyURI .
 
 cmk:carelia-sali-20261126T1800 a mo:Performance ;
     schema:name "Talvinen matka" ;
@@ -374,7 +647,7 @@ cmk:carelia-sali-20261217T1800 a mo:Performance ;
     schema:startDate "2026-12-17T18:00:00"^^xsd:dateTime ;
     schema:url "https://joensuunkaupunginorkesteri.fi/events/lumiukko-3/"^^xsd:anyURI .
 
-cmk:narrator a cmo:musical-identity .
+cmk:guest a cmo:musical-identity .
 
 cmk:nurmes-talo-hannikaisen-sali-20261216T1800 a mo:Performance ;
     schema:name "Lumiukko, Nurmes" ;
@@ -387,8 +660,6 @@ cmk:rantakylan-kirkko-20261203T1800 a mo:Performance ;
     schema:organizer cmk:joensuunkaupunginorkesteri ;
     schema:startDate "2026-12-03T18:00:00"^^xsd:dateTime ;
     schema:url "https://joensuunkaupunginorkesteri.fi/events/joulubarokki/"^^xsd:anyURI .
-
-cmk:vocalist a cmo:musical-identity .
 
 cmk:carelia-sali-20260917T1800 a mo:Performance ;
     schema:name "Jos rakastat" ;
@@ -407,8 +678,6 @@ cmk:carelia-sali-20261119T1800 a mo:Performance ;
     schema:organizer cmk:joensuunkaupunginorkesteri ;
     schema:startDate "2026-11-19T18:00:00"^^xsd:dateTime ;
     schema:url "https://joensuunkaupunginorkesteri.fi/events/kuinkas-sitten-kavikaan/"^^xsd:anyURI .
-
-cmk:guest a cmo:musical-identity .
 
 cmk:carelia-sali-20261210T1800 a mo:Performance ;
     schema:name "Elämäni joulubiisi" ;

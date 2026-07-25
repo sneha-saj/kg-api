@@ -167,6 +167,22 @@ cmk:pannuhalli-tanssin-talo-kaapelitehdas-20260919T1900 a mo:Performance ;
     schema:startDate "2026-09-19T19:00:00"^^xsd:dateTime ;
     schema:url "https://www.ensemblenylandia.info/calendar/2026/9/19/orpheus-in-underworld"^^xsd:anyURI .
 
+cmk:programme-hameen-linna-20261022T1900 a cmo:Programme ;
+    rdfs:label "Musiikkia linnassa: Bach-universum" ;
+    cmo:is-performed-at cmk:hameen-linna-20261022T1900 ;
+    schema:hasPart cmk:composition-orchestral-suite-no-2-johann-sebastian-bach,
+        cmk:composition-re-inventions-elena-kats-chernin .
+
+cmk:programme-myyrmaen-kirkko-20261201T1900 a cmo:Programme ;
+    rdfs:label "J. S. Bachin Jouluoratorio Myyrmäen kirkossa, kantaatit 1–3" ;
+    cmo:is-performed-at cmk:myyrmaen-kirkko-20261201T1900 ;
+    schema:hasPart cmk:composition-jouluoratorio-kantaatit-13-bwv-248-johann-sebastian-bach .
+
+cmk:programme-vantaan-pyhan-laurin-kirkko-20261203T1900 a cmo:Programme ;
+    rdfs:label "J. S. Bachin Jouluoratorio Pyhän Laurin kirkossa, kantaatit 1–3" ;
+    cmo:is-performed-at cmk:vantaan-pyhan-laurin-kirkko-20261203T1900 ;
+    schema:hasPart cmk:composition-jouluoratorio-kantaatit-13-bwv-248-johann-sebastian-bach .
+
 cmk:pyhan-laurin-kirkko a cmo:ConcertHall,
         cmo:Venue ;
     rdfs:label "Pyhän Laurin kirkko" .
@@ -237,9 +253,33 @@ cmk:barokkikuopio-festivaali a cmo:Programme ;
 cmk:bass a cmo:musical-identity .
 
 cmk:brq-haahumua a cmo:Programme ;
-    rdfs:label "BRQ: Häähumua" .
+    rdfs:label "BRQ: Häähumua" ;
+    cmo:is-performed-at cmk:pyhan-laurin-kirkko-20260809T1830 ;
+    schema:hasPart cmk:composition-bröllopsmusik-johan-helmich-roman,
+        cmk:composition-o-holder-tag-johann-sebastian-bach .
 
 cmk:choreographer a cmo:musical-identity .
+
+cmk:composition-bröllopsmusik-johan-helmich-roman a schema:MusicComposition ;
+    schema:composer cmk:johan-helmich-roman ;
+    schema:dateCreated "1728"^^xsd:gYear ;
+    schema:name "Bröllopsmusik" .
+
+cmk:composition-gloria-antonio-vivaldi a schema:MusicComposition ;
+    schema:composer cmk:antonio-vivaldi ;
+    schema:name "Gloria" .
+
+cmk:composition-nulla-in-mundo-pax-sincera-antonio-vivaldi a schema:MusicComposition ;
+    schema:composer cmk:antonio-vivaldi ;
+    schema:name "Nulla in mundo pax sincera" .
+
+cmk:composition-o-holder-tag-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "O Holder Tag" .
+
+cmk:composition-orkesterisarja-nro-2-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Orkesterisarja nro 2" .
 
 cmk:director a cmo:musical-identity .
 
@@ -252,7 +292,10 @@ cmk:eubo-alfredo-bernardini-tunteiden-virrassa a cmo:Programme ;
 cmk:harpsichordist a cmo:musical-identity .
 
 cmk:kausikonsertti-1-bach-universum a cmo:Programme ;
-    rdfs:label "Kausikonsertti 1: Bach-universum" .
+    rdfs:label "Kausikonsertti 1: Bach-universum" ;
+    cmo:is-performed-at cmk:paavalinkirkko-20261020T1900 ;
+    schema:hasPart cmk:composition-orkesterisarja-nro-2-johann-sebastian-bach,
+        cmk:composition-re-inventions-elena-kats-chernin .
 
 cmk:mezzo-soprano a cmo:musical-identity .
 
@@ -261,13 +304,6 @@ cmk:myyrmaen-kirkko a cmo:ConcertHall,
     rdfs:label "Myyrmäen kirkko" .
 
 cmk:oboist a cmo:musical-identity .
-
-cmk:paavalinkirkko-20261020T1900 a mo:Performance ;
-    cmo:performs-in-programme cmk:kausikonsertti-1-bach-universum ;
-    schema:name "Kausikonsertti 1: Bach-universum" ;
-    schema:organizer cmk:ensemblenylandia ;
-    schema:startDate "2026-10-20T19:00:00"^^xsd:dateTime ;
-    schema:url "https://www.ensemblenylandia.info/calendar/2026/10/20/bach-universum-paavalinkirkossa"^^xsd:anyURI .
 
 cmk:porvoon-tuomiokirkko a cmo:ConcertHall,
         cmo:Venue ;
@@ -282,23 +318,30 @@ cmk:vantaan-pyhan-laurin-kirkko a cmo:ConcertHall,
     rdfs:label "Vantaan Pyhän Laurin kirkko" .
 
 cmk:vivaldi a cmo:Programme ;
-    rdfs:label "Vivaldi!" .
+    rdfs:label "Vivaldi!" ;
+    cmo:is-performed-at cmk:jarvenpaan-kirkko-20260825T1900 ;
+    schema:hasPart cmk:composition-gloria-antonio-vivaldi,
+        cmk:composition-nulla-in-mundo-pax-sincera-antonio-vivaldi .
 
 cmk:bach-universum a cmo:Programme ;
-    rdfs:label "Bach-universum" .
+    rdfs:label "Bach-universum" ;
+    cmo:is-performed-at cmk:porvoon-tuomiokirkko-20261028T1900 ;
+    schema:hasPart cmk:composition-orchestral-suite-no-2-johann-sebastian-bach,
+        cmk:composition-re-inventions-elena-kats-chernin .
 
 cmk:choir-trainer a cmo:musical-identity .
 
+cmk:composition-jouluoratorio-kantaatit-13-bwv-248-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:dateCreated "1734"^^xsd:gYear ;
+    schema:name "Jouluoratorio (Kantaatit 1–3), BWV 248" .
+
+cmk:composition-orchestral-suite-no-2-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Orchestral Suite No. 2" .
+
 cmk:hameen-linna a cmo:Venue ;
     rdfs:label "Hämeen linna" .
-
-cmk:hameen-linna-20261022T1900 a mo:Performance ;
-    cmo:has-programme cmk:bach-universum ;
-    cmo:has-venue cmk:hameen-linna ;
-    schema:name "Musiikkia linnassa: Bach-universum" ;
-    schema:organizer cmk:ensemblenylandia ;
-    schema:startDate "2026-10-22T19:00:00"^^xsd:dateTime ;
-    schema:url "https://www.ensemblenylandia.info/calendar/2026/10/22/bach-universum-musiikkia-linnassa"^^xsd:anyURI .
 
 cmk:hameen-linna-20261118T1900 a mo:Performance ;
     cmo:has-programme cmk:soittajien-suosikit ;
@@ -318,6 +361,13 @@ cmk:paavalinkirkko a cmo:ConcertHall,
         cmo:Venue ;
     rdfs:label "Paavalinkirkko" .
 
+cmk:paavalinkirkko-20261020T1900 a mo:Performance ;
+    cmo:performs-in-programme cmk:kausikonsertti-1-bach-universum ;
+    schema:name "Kausikonsertti 1: Bach-universum" ;
+    schema:organizer cmk:ensemblenylandia ;
+    schema:startDate "2026-10-20T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.ensemblenylandia.info/calendar/2026/10/20/bach-universum-paavalinkirkossa"^^xsd:anyURI .
+
 cmk:paavalinkirkko-20261117T1900 a mo:Performance ;
     cmo:has-programme cmk:soittajien-suosikit ;
     cmo:has-venue cmk:paavalinkirkko ;
@@ -325,6 +375,33 @@ cmk:paavalinkirkko-20261117T1900 a mo:Performance ;
     schema:organizer cmk:ensemblenylandia ;
     schema:startDate "2026-11-17T19:00:00"^^xsd:dateTime ;
     schema:url "https://www.ensemblenylandia.info/calendar/2026/11/soittajien-suosikit-paavalinkirkossa"^^xsd:anyURI .
+
+cmk:soittajien-suosikit a cmo:Programme ;
+    rdfs:label "Soittajien suosikit" .
+
+cmk:temppeliaukion-kirkko-20260720T1900 a mo:Performance ;
+    cmo:performs-in-programme cmk:eubo-alfredo-bernardini-tunteiden-virrassa ;
+    schema:name "EUBO & Alfredo Bernardini: Tunteiden virrassa - Matka Euroopan halki" ;
+    schema:organizer cmk:ensemblenylandia ;
+    schema:startDate "2026-07-20T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.ensemblenylandia.info/calendar/2026/7/20/eubo-rock-church"^^xsd:anyURI .
+
+cmk:composition-re-inventions-elena-kats-chernin a schema:MusicComposition ;
+    schema:composer cmk:elena-kats-chernin ;
+    schema:name "Re-Inventions" .
+
+cmk:conductor a cmo:musical-identity .
+
+cmk:hameen-linna-20261022T1900 a mo:Performance ;
+    cmo:has-programme cmk:bach-universum ;
+    cmo:has-venue cmk:hameen-linna ;
+    schema:name "Musiikkia linnassa: Bach-universum" ;
+    schema:organizer cmk:ensemblenylandia ;
+    schema:startDate "2026-10-22T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.ensemblenylandia.info/calendar/2026/10/22/bach-universum-musiikkia-linnassa"^^xsd:anyURI .
+
+cmk:jouluoratorio-kantaatit-1-3 a cmo:Programme ;
+    rdfs:label "J. S. Bachin Jouluoratorio, kantaatit 1–3" .
 
 cmk:porvoon-tuomiokirkko-20261028T1900 a mo:Performance ;
     cmo:has-programme cmk:bach-universum ;
@@ -341,17 +418,7 @@ cmk:pyhan-laurin-kirkko-20260809T1830 a mo:Performance ;
     schema:startDate "2026-08-09T18:30:00"^^xsd:dateTime ;
     schema:url "https://www.ensemblenylandia.info/calendar/2026/8/9/brq"^^xsd:anyURI .
 
-cmk:soittajien-suosikit a cmo:Programme ;
-    rdfs:label "Soittajien suosikit" .
-
-cmk:temppeliaukion-kirkko-20260720T1900 a mo:Performance ;
-    cmo:performs-in-programme cmk:eubo-alfredo-bernardini-tunteiden-virrassa ;
-    schema:name "EUBO & Alfredo Bernardini: Tunteiden virrassa - Matka Euroopan halki" ;
-    schema:organizer cmk:ensemblenylandia ;
-    schema:startDate "2026-07-20T19:00:00"^^xsd:dateTime ;
-    schema:url "https://www.ensemblenylandia.info/calendar/2026/7/20/eubo-rock-church"^^xsd:anyURI .
-
-cmk:conductor a cmo:musical-identity .
+cmk:soprano a cmo:musical-identity .
 
 cmk:jarvenpaan-kirkko-20260825T1900 a mo:Performance ;
     cmo:performs-in-programme cmk:vivaldi ;
@@ -359,11 +426,6 @@ cmk:jarvenpaan-kirkko-20260825T1900 a mo:Performance ;
     schema:organizer cmk:ensemblenylandia ;
     schema:startDate "2026-08-25T19:00:00"^^xsd:dateTime ;
     schema:url "https://www.ensemblenylandia.info/calendar/2026/25/8/vivaldi"^^xsd:anyURI .
-
-cmk:jouluoratorio-kantaatit-1-3 a cmo:Programme ;
-    rdfs:label "J. S. Bachin Jouluoratorio, kantaatit 1–3" .
-
-cmk:soprano a cmo:musical-identity .
 
 cmk:singer a cmo:musical-identity .
 
@@ -381,6 +443,13 @@ cmk:black-box-musiikkitalo-20260912T1900 a mo:Performance ;
     schema:startDate "2026-09-12T19:00:00"^^xsd:dateTime ;
     schema:url "https://www.ensemblenylandia.info/calendar/2026/9/12/la-doriclea-inter-acts"^^xsd:anyURI .
 
+cmk:paavalinkirkko-20261205T1900 a mo:Performance ;
+    cmo:has-programme cmk:jouluoratorio-kantaatit-1-3 ;
+    cmo:has-venue cmk:paavalinkirkko ;
+    schema:name "J. S. Bachin Jouluoratorio Paavalinkirkossa, kantaatit 1–3" ;
+    schema:organizer cmk:ensemblenylandia ;
+    schema:startDate "2026-12-05T19:00:00"^^xsd:dateTime .
+
 cmk:myyrmaen-kirkko-20261201T1900 a mo:Performance ;
     cmo:has-programme cmk:jouluoratorio-kantaatit-1-3 ;
     cmo:has-venue cmk:myyrmaen-kirkko ;
@@ -388,13 +457,6 @@ cmk:myyrmaen-kirkko-20261201T1900 a mo:Performance ;
     schema:organizer cmk:ensemblenylandia ;
     schema:startDate "2026-12-01T19:00:00"^^xsd:dateTime ;
     schema:url "https://www.ensemblenylandia.info/calendar/2026/12/1/jouluoratorio-myyrmaen-kirkko"^^xsd:anyURI .
-
-cmk:paavalinkirkko-20261205T1900 a mo:Performance ;
-    cmo:has-programme cmk:jouluoratorio-kantaatit-1-3 ;
-    cmo:has-venue cmk:paavalinkirkko ;
-    schema:name "J. S. Bachin Jouluoratorio Paavalinkirkossa, kantaatit 1–3" ;
-    schema:organizer cmk:ensemblenylandia ;
-    schema:startDate "2026-12-05T19:00:00"^^xsd:dateTime .
 
 cmk:vantaan-pyhan-laurin-kirkko-20261203T1900 a mo:Performance ;
     cmo:has-programme cmk:jouluoratorio-kantaatit-1-3 ;

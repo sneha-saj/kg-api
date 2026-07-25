@@ -22,12 +22,6 @@ cmk:johanneksen-kirkko a cmo:ConcertHall,
         cmo:Venue ;
     rdfs:label "Johanneksen kirkko" .
 
-cmk:johanneksen-kirkko-20261030T1900 a mo:Performance ;
-    cmo:has-programme cmk:brahms-ein-deutsches-requiem ;
-    schema:name "Brahms: Ein deutsches Requiem" ;
-    schema:organizer cmk:lohjankaupunginorkesteri ;
-    schema:startDate "2026-10-30T19:00:00"^^xsd:dateTime .
-
 cmk:jorma-panula a foaf:Person ;
     foaf:familyName "Panula" ;
     foaf:firstName "Jorma" ;
@@ -60,12 +54,6 @@ cmk:laurentius-sali-20260930T1900 a mo:Performance ;
     schema:organizer cmk:lohjankaupunginorkesteri ;
     schema:startDate "2026-09-30T19:00:00"^^xsd:dateTime .
 
-cmk:laurentius-sali-20261212T1300 a mo:Performance ;
-    cmo:has-programme cmk:toisenlainen-pahkinansarkija ;
-    schema:name "Toisenlainen Pähkinänsärkijä" ;
-    schema:organizer cmk:lohjankaupunginorkesteri ;
-    schema:startDate "2026-12-12T13:00:00"^^xsd:dateTime .
-
 cmk:lauri-honkavirta a foaf:Person ;
     foaf:familyName "Honkavirta" ;
     foaf:firstName "Lauri" ;
@@ -76,12 +64,6 @@ cmk:lauri-honkavirta a foaf:Person ;
 cmk:lohjan-pyhan-laurin-kirkko a cmo:ConcertHall,
         cmo:Venue ;
     rdfs:label "Lohjan Pyhän Laurin kirkko" .
-
-cmk:lohjan-pyhan-laurin-kirkko-20261029T1900 a mo:Performance ;
-    cmo:has-programme cmk:brahms-ein-deutsches-requiem ;
-    schema:name "Brahms: Ein deutsches Requiem" ;
-    schema:organizer cmk:lohjankaupunginorkesteri ;
-    schema:startDate "2026-10-29T19:00:00"^^xsd:dateTime .
 
 cmk:mari-kunnari a foaf:Person ;
     foaf:familyName "Kunnari" ;
@@ -142,8 +124,30 @@ cmo:ensemble-identity-frigg a cmo:ensemble-identity .
 cmk:bilepassio-perjantain-ylistys a cmo:Programme ;
     rdfs:label "Bilepassio: Perjantain ylistys" .
 
+cmk:composition-ein-deutsches-requiem-johannes-brahms a schema:MusicComposition ;
+    schema:composer cmk:johannes-brahms ;
+    schema:name "Ein deutsches Requiem" .
+
+cmk:composition-klarinettikonsertto-bernhard-crusell a schema:MusicComposition ;
+    schema:composer cmk:bernhard-crusell ;
+    schema:name "Klarinettikonsertto" .
+
+cmk:composition-pähkinänsärkijä-pyotr-ilyich-tchaikovsky a schema:MusicComposition ;
+    schema:composer cmk:pyotr-ilyich-tchaikovsky ;
+    schema:name "Pähkinänsärkijä" .
+
+cmk:composition-sonaatti-viululle-ja-pianolle-alfred-schnittke a schema:MusicComposition ;
+    schema:composer cmk:alfred-schnittke ;
+    schema:name "Sonaatti viululle ja pianolle" .
+
 cmk:frigg-ja-lohjan-kaupunginorkesteri a cmo:Programme ;
     rdfs:label "Frigg ja Lohjan kaupunginorkesteri" .
+
+cmk:johanneksen-kirkko-20261030T1900 a mo:Performance ;
+    cmo:has-programme cmk:brahms-ein-deutsches-requiem ;
+    schema:name "Brahms: Ein deutsches Requiem" ;
+    schema:organizer cmk:lohjankaupunginorkesteri ;
+    schema:startDate "2026-10-30T19:00:00"^^xsd:dateTime .
 
 cmk:jorma-panula-kapellimestarikurssin-konsertti a cmo:Programme ;
     rdfs:label "Jorma Panula – Kapellimestarikurssin konsertti" .
@@ -154,23 +158,23 @@ cmk:laurentius-sali-20260903T1800 a mo:Performance ;
     schema:organizer cmk:lohjankaupunginorkesteri ;
     schema:startDate "2026-09-03T18:00:00"^^xsd:dateTime .
 
-cmk:laurentius-sali-20260917T1900 a mo:Performance ;
-    cmo:has-programme cmk:sinfoniakonsertti ;
-    schema:name "Sinfoniakonsertti" ;
-    schema:organizer cmk:lohjankaupunginorkesteri ;
-    schema:startDate "2026-09-17T19:00:00"^^xsd:dateTime .
-
-cmk:laurentius-sali-20261010T1600 a mo:Performance ;
-    cmo:has-programme cmk:tero-latvala-ystavineen ;
-    schema:name "Tero Latvala ystävineen" ;
-    schema:organizer cmk:lohjankaupunginorkesteri ;
-    schema:startDate "2026-10-10T16:00:00"^^xsd:dateTime .
-
 cmk:laurentius-sali-20261106T1900 a mo:Performance ;
     cmo:has-programme cmk:frigg-ja-lohjan-kaupunginorkesteri ;
     schema:name "Frigg ja Lohjan kaupunginorkesteri" ;
     schema:organizer cmk:lohjankaupunginorkesteri ;
     schema:startDate "2026-11-06T19:00:00"^^xsd:dateTime .
+
+cmk:laurentius-sali-20261212T1300 a mo:Performance ;
+    cmo:has-programme cmk:toisenlainen-pahkinansarkija ;
+    schema:name "Toisenlainen Pähkinänsärkijä" ;
+    schema:organizer cmk:lohjankaupunginorkesteri ;
+    schema:startDate "2026-12-12T13:00:00"^^xsd:dateTime .
+
+cmk:lohjan-pyhan-laurin-kirkko-20261029T1900 a mo:Performance ;
+    cmo:has-programme cmk:brahms-ein-deutsches-requiem ;
+    schema:name "Brahms: Ein deutsches Requiem" ;
+    schema:organizer cmk:lohjankaupunginorkesteri ;
+    schema:startDate "2026-10-29T19:00:00"^^xsd:dateTime .
 
 cmk:movie-classics-maria-ylipaa a cmo:Programme ;
     rdfs:label "Movie Classics & Maria Ylipää" .
@@ -185,7 +189,9 @@ cmk:ralf-gothoni-80 a cmo:Programme ;
     rdfs:label "Ralf Gothoni 80" .
 
 cmk:sinfoniakonsertti a cmo:Programme ;
-    rdfs:label "Sinfoniakonsertti" .
+    rdfs:label "Sinfoniakonsertti" ;
+    cmo:is-performed-at cmk:laurentius-sali-20260917T1900 ;
+    schema:hasPart cmk:composition-klarinettikonsertto-bernhard-crusell .
 
 cmk:suurlahettilaat-lohjan-kaupunginorkesteri a cmo:Programme ;
     rdfs:label "Suurlähettiläät & Lohjan kaupunginorkesteri" .
@@ -194,10 +200,14 @@ cmk:syyssoitto a cmo:Programme ;
     rdfs:label "Syyssoitto" .
 
 cmk:tero-latvala-ystavineen a cmo:Programme ;
-    rdfs:label "Tero Latvala ystävineen" .
+    rdfs:label "Tero Latvala ystävineen" ;
+    cmo:is-performed-at cmk:laurentius-sali-20261010T1600 ;
+    schema:hasPart cmk:composition-sonaatti-viululle-ja-pianolle-alfred-schnittke .
 
 cmk:toisenlainen-pahkinansarkija a cmo:Programme ;
-    rdfs:label "Toisenlainen Pähkinänsärkijä" .
+    rdfs:label "Toisenlainen Pähkinänsärkijä" ;
+    cmo:is-performed-at cmk:laurentius-sali-20261212T1300 ;
+    schema:hasPart cmk:composition-pähkinänsärkijä-pyotr-ilyich-tchaikovsky .
 
 cmk:wienilaista-loistoa-pariisilaista-eleganssia a cmo:Programme ;
     rdfs:label "Wieniläistä loistoa, pariisilaista eleganssia" .
@@ -218,7 +228,22 @@ cmk:barokkia-kirkoissa-isa-poika-ja-kummisetä-2 a cmo:Programme ;
     rdfs:label "Barokkia kirkoissa – Isä, poika ja kummisetä 2" .
 
 cmk:brahms-ein-deutsches-requiem a cmo:Programme ;
-    rdfs:label "Brahms: Ein deutsches Requiem" .
+    rdfs:label "Brahms: Ein deutsches Requiem" ;
+    cmo:is-performed-at cmk:johanneksen-kirkko-20261030T1900,
+        cmk:lohjan-pyhan-laurin-kirkko-20261029T1900 ;
+    schema:hasPart cmk:composition-ein-deutsches-requiem-johannes-brahms .
+
+cmk:laurentius-sali-20260917T1900 a mo:Performance ;
+    cmo:has-programme cmk:sinfoniakonsertti ;
+    schema:name "Sinfoniakonsertti" ;
+    schema:organizer cmk:lohjankaupunginorkesteri ;
+    schema:startDate "2026-09-17T19:00:00"^^xsd:dateTime .
+
+cmk:laurentius-sali-20261010T1600 a mo:Performance ;
+    cmo:has-programme cmk:tero-latvala-ystavineen ;
+    schema:name "Tero Latvala ystävineen" ;
+    schema:organizer cmk:lohjankaupunginorkesteri ;
+    schema:startDate "2026-10-10T16:00:00"^^xsd:dateTime .
 
 cmk:laurentius-sali-20261126T1900 a mo:Performance ;
     cmo:has-programme cmk:ralf-gothoni-80 ;

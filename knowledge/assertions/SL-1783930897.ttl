@@ -2,6 +2,7 @@
 @prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix mo: <http://purl.org/ontology/mo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -168,6 +169,21 @@ cmk:pirkko-liisa-vesioja a foaf:Person ;
     cmo:known-as-a cmo:instrumentalist ;
     cmo:performs-in cmk:melartin-sali-20260822T1500 .
 
+cmk:programme-melartin-sali-20260326T1800 a cmo:Programme ;
+    rdfs:label "Crusell Pariisissa" ;
+    cmo:is-performed-at cmk:melartin-sali-20260326T1800,
+        cmk:rantasalmen-vanha-pappila-20260325T1800 ;
+    schema:hasPart cmk:composition-jousikvartetto-nro-1-françois-joseph-gossec,
+        cmk:composition-jousikvartetto-nro-1-luigi-cherubini,
+        cmk:composition-klarinettikvartetto-nro-1-es-duuri-op-2-bernhard-crusell .
+
+cmk:programme-melartin-sali-20260414T1800 a cmo:Programme ;
+    rdfs:label "Kontrasteja - Korngold & Piazzolla" ;
+    cmo:is-performed-at cmk:melartin-sali-20260414T1800,
+        cmk:sovintola-kesalahti-20260415T1800 ;
+    schema:hasPart cmk:composition-jousikvartetto-nro-2-erich-wolfgang-korngold,
+        cmk:composition-tangot-astor-piazzolla .
+
 cmk:punkaharjun-seurakuntatalo a cmo:Venue .
 
 cmk:rantasalmen-vanha-pappila a cmo:Venue .
@@ -245,10 +261,25 @@ cmk:ville-karjalainen a foaf:Person ;
 
 cmo:ensemble a cmo:ensemble-identity .
 
-cmk:melartin-sali-20260414T1800 a mo:Performance ;
-    schema:name "Kontrasteja - Korngold & Piazzolla" ;
-    schema:organizer cmk:savonlinnanorkesteri ;
-    schema:startDate "2026-04-14T18:00:00"^^xsd:dateTime .
+cmk:composition-jousikvartetto-nro-1-françois-joseph-gossec a schema:MusicComposition ;
+    schema:composer cmk:françois-joseph-gossec ;
+    schema:name "Jousikvartetto nro 1" .
+
+cmk:composition-jousikvartetto-nro-1-luigi-cherubini a schema:MusicComposition ;
+    schema:composer cmk:luigi-cherubini ;
+    schema:name "Jousikvartetto nro 1" .
+
+cmk:composition-jousikvartetto-nro-2-erich-wolfgang-korngold a schema:MusicComposition ;
+    schema:composer cmk:erich-wolfgang-korngold ;
+    schema:name "Jousikvartetto nro 2" .
+
+cmk:composition-klarinettikvartetto-nro-1-es-duuri-op-2-bernhard-crusell a schema:MusicComposition ;
+    schema:composer cmk:bernhard-crusell ;
+    schema:name "Klarinettikvartetto nro 1 Es-duuri Op. 2" .
+
+cmk:composition-tangot-astor-piazzolla a schema:MusicComposition ;
+    schema:composer cmk:astor-piazzolla ;
+    schema:name "Tangot" .
 
 cmk:nalkalinnanmaki-20261119T1800 a mo:Performance ;
     schema:name "Kaukasuksen Kaikuja - Kamarimusiikkia Georgiasta ja Armeniasta" ;
@@ -280,11 +311,6 @@ cmk:savonlinnan-tuomiokirkko-20260307T1900 a mo:Performance ;
     schema:organizer cmk:savonlinnanorkesteri ;
     schema:startDate "2026-03-07T19:00:00"^^xsd:dateTime .
 
-cmk:sovintola-kesalahti-20260415T1800 a mo:Performance ;
-    schema:name "Kontrasteja - Korngold & Piazzolla" ;
-    schema:organizer cmk:savonlinnanorkesteri ;
-    schema:startDate "2026-04-15T18:00:00"^^xsd:dateTime .
-
 cmk:villa-suruton-20260217T1800 a mo:Performance ;
     schema:name "Kynttiläkonsertti" ;
     schema:organizer cmk:savonlinnanorkesteri ;
@@ -305,10 +331,10 @@ cmk:kulttuurikeskus-poleeni-20260130T1800 a mo:Performance ;
     schema:organizer cmk:savonlinnanorkesteri ;
     schema:startDate "2026-01-30T18:00:00"^^xsd:dateTime .
 
-cmk:melartin-sali-20260326T1800 a mo:Performance ;
-    schema:name "Crusell Pariisissa" ;
+cmk:melartin-sali-20260414T1800 a mo:Performance ;
+    schema:name "Kontrasteja - Korngold & Piazzolla" ;
     schema:organizer cmk:savonlinnanorkesteri ;
-    schema:startDate "2026-03-26T18:00:00"^^xsd:dateTime .
+    schema:startDate "2026-04-14T18:00:00"^^xsd:dateTime .
 
 cmk:melartin-sali-20260924T1800 a mo:Performance ;
     schema:name "Kultaiset Klassikot - Mozart & Brahms" ;
@@ -330,11 +356,6 @@ cmk:nalkalinnanmaki-20261015T1800 a mo:Performance ;
     schema:organizer cmk:savonlinnanorkesteri ;
     schema:startDate "2026-10-15T18:00:00"^^xsd:dateTime .
 
-cmk:rantasalmen-vanha-pappila-20260325T1800 a mo:Performance ;
-    schema:name "Crusell Pariisissa" ;
-    schema:organizer cmk:savonlinnanorkesteri ;
-    schema:startDate "2026-03-25T18:00:00"^^xsd:dateTime .
-
 cmk:savonlinnan-kulttuurikellari-20260129T1800 a mo:Performance ;
     schema:name "Cycle of Love - musikaalikonsertti" ;
     schema:organizer cmk:savonlinnanorkesteri ;
@@ -350,12 +371,27 @@ cmk:savonlinnasali-20261107T1900 a mo:Performance ;
     schema:organizer cmk:savonlinnanorkesteri ;
     schema:startDate "2026-11-07T19:00:00"^^xsd:dateTime .
 
+cmk:sovintola-kesalahti-20260415T1800 a mo:Performance ;
+    schema:name "Kontrasteja - Korngold & Piazzolla" ;
+    schema:organizer cmk:savonlinnanorkesteri ;
+    schema:startDate "2026-04-15T18:00:00"^^xsd:dateTime .
+
 cmk:sovintola-kesalahti-20260925T1800 a mo:Performance ;
     schema:name "Kultaiset Klassikot - Mozart & Brahms" ;
     schema:organizer cmk:savonlinnanorkesteri ;
     schema:startDate "2026-09-25T18:00:00"^^xsd:dateTime .
 
 cmo:soprano a cmo:musical-identity .
+
+cmk:melartin-sali-20260326T1800 a mo:Performance ;
+    schema:name "Crusell Pariisissa" ;
+    schema:organizer cmk:savonlinnanorkesteri ;
+    schema:startDate "2026-03-26T18:00:00"^^xsd:dateTime .
+
+cmk:rantasalmen-vanha-pappila-20260325T1800 a mo:Performance ;
+    schema:name "Crusell Pariisissa" ;
+    schema:organizer cmk:savonlinnanorkesteri ;
+    schema:startDate "2026-03-25T18:00:00"^^xsd:dateTime .
 
 cmk:savonlinnan-tuomiokirkko-20260308T1600 a mo:Performance ;
     schema:name "Savonlinnan III TalviBarokki - Barokkioopperan helmiä" ;

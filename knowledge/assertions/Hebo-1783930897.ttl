@@ -425,12 +425,19 @@ cmk:bach-die-kunst-der-fuge a schema:CreativeWork ;
     schema:name "Bach: Die Kunst der Fuge" .
 
 cmk:bach-handel-rebel a cmo:Programme ;
-    rdfs:label "Bach, Handel, Rebel" .
+    rdfs:label "Bach, Handel, Rebel" ;
+    cmo:is-performed-at cmk:concertgebouw-amsterdam-20240120T1415,
+        cmk:musiikkitalo-20240121T1600 ;
+    schema:hasPart cmk:composition-les-élémens-jean-féry-rebel,
+        cmk:composition-violin-concerto-in-a-minor-bwv-1041-johann-sebastian-bach,
+        cmk:composition-water-music-hwv-348-350-george-frideric-handel .
 
 cmk:bach-haydn-hassler a cmo:Programme .
 
 cmk:bach-mass-in-b-minor a cmo:Programme ;
-    rdfs:label "Bach: Mass in B Minor" .
+    rdfs:label "Bach: Mass in B Minor" ;
+    cmo:is-performed-at cmk:musiikkitalo-20201025T1600 ;
+    schema:hasPart cmk:composition-mass-in-b-minor-johann-sebastian-bach .
 
 cmk:bach-scarlatti a cmo:Programme ;
     rdfs:label "Bach, Scarlatti" .
@@ -540,7 +547,9 @@ cmk:buxtehude-frescobaldi-tunder-victoria a cmo:Programme ;
 cmk:c-ph-e-bach-st-matthew-passion a cmo:Programme .
 
 cmk:caccini-the-isle-of-alcina a cmo:Programme ;
-    rdfs:label "Caccini: The Isle of Alcina" .
+    rdfs:label "Caccini: The Isle of Alcina" ;
+    cmo:is-performed-at cmk:national-opera-almi-hall-20240201T1900 ;
+    schema:hasPart cmk:composition-la-liberazione-di-ruggiero-dallisola-dalcina-francesca-caccini .
 
 cmk:cancelled-bach-kirchoff-reincken a cmo:Programme .
 
@@ -578,7 +587,10 @@ cmk:carolyn-sampson a foaf:Person ;
         cmk:tonhalle-dusseldorf-20230602T2000 .
 
 cmk:cartellieri-rubezahl a cmo:Programme ;
-    rdfs:label "Cartellieri: Rübezahl" .
+    rdfs:label "Cartellieri: Rübezahl" ;
+    cmo:is-performed-at cmk:liszt-academy-budapest-20251020T1930,
+        cmk:musiikkitalo-20251018T1900 ;
+    schema:hasPart cmk:composition-rübezahl-casimir-anton-cartellieri .
 
 cmk:cartellieri-ryba-stabat-mater a cmo:Programme .
 
@@ -609,7 +621,11 @@ cmk:chapelle-de-la-trinite-lyon a cmo:ConcertHall,
 cmk:choir a cmo:ensemble-identity .
 
 cmk:christmas-concert a cmo:Programme ;
-    rdfs:label "Christmas Concert" .
+    rdfs:label "Christmas Concert" ;
+    cmo:is-performed-at cmk:musiikkitalo-20231217T1600,
+        cmk:musiikkitalo-20251221T1600,
+        cmk:musiikkitalo-concert-hall-20241222T1600 ;
+    schema:hasPart cmk:composition-la-caduta-di-adamo-baldassare-galuppi .
 
 cmk:christmas-concert-haydn a cmo:Programme ;
     rdfs:label "Christmas Concert" .
@@ -709,7 +725,9 @@ cmk:david-witczak a foaf:Person ;
 cmk:days-of-early-music-vac a cmo:Venue .
 
 cmk:delirio-amoroso a cmo:Programme ;
-    rdfs:label "Delirio Amoroso" .
+    rdfs:label "Delirio Amoroso" ;
+    cmo:is-performed-at cmk:musiikkitalo-20260208T1600 ;
+    schema:hasPart cmk:composition-il-delirio-amoroso-george-frideric-handel .
 
 cmk:dmitry-sinkovsky a foaf:Person ;
     foaf:familyName "Sinkovsky",
@@ -962,7 +980,9 @@ cmk:gabriel-gramesc a foaf:Person ;
     cmo:plays-in cmk:musiikkitalo-20260208T1600 .
 
 cmk:galuppi-la-caduta-di-adamo a cmo:Programme ;
-    rdfs:label "Galuppi: La Caduta di Adamo" .
+    rdfs:label "Galuppi: La Caduta di Adamo" ;
+    cmo:is-performed-at cmk:theater-an-der-wien-20231218T1900 ;
+    schema:hasPart cmk:composition-la-caduta-di-adamo-baldassare-galuppi .
 
 cmk:georgian-sinfonietta a cmo:ensemble-identity ;
     cmo:performs-in cmk:church-of-the-holy-cross-rauma-20230422T1900,
@@ -1734,17 +1754,15 @@ cmk:morten-grove-frandsen a foaf:Person ;
         cmk:stor-sarvlaks-manor-courtyard-20260626T1900 .
 
 cmk:mozart-idomeneo a cmo:Programme ;
-    rdfs:label "Mozart: Idomeneo" .
+    rdfs:label "Mozart: Idomeneo" ;
+    cmo:is-performed-at cmk:concertgebouw-amsterdam-20241116T1300,
+        cmk:kulturzentrum-herne-20241117T1900,
+        cmk:musiikkitalo-concert-hall-20241110T0000 ;
+    schema:hasPart cmk:composition-idomeneo-wa-mozart .
 
 cmk:mupa-budapest a cmo:Venue ;
     rdfs:label "MÜPA, Budapest",
         "Müpa Budapest" .
-
-cmk:musiikkitalo-20210925T1900 a mo:Performance ;
-    schema:name "Bach, Haydn, Hässler" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2021-09-25T19:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/bach-haydn-hassler/"^^xsd:anyURI .
 
 cmk:musiikkitalo-camerata a cmo:ConcertHall,
         cmo:Venue ;
@@ -1944,13 +1962,119 @@ cmk:pippa-reid-foster a foaf:Person ;
 
 cmk:povoa-de-varzim-music-festival a cmo:Venue .
 
+cmk:programme-cathedrale-de-lausanne-20201106T2000 a cmo:Programme ;
+    rdfs:label "CANCELLED Bach: St Matthew Passion" ;
+    cmo:is-performed-at cmk:cathedrale-de-lausanne-20201106T2000 ;
+    schema:hasPart cmk:composition-la-passion-selon-st-matthieu-bwv-244-johann-sebastian-bach .
+
+cmk:programme-church-of-the-holy-cross-rauma-20230422T1900 a cmo:Programme ;
+    rdfs:label "Georgian Sinfonietta" ;
+    cmo:is-performed-at cmk:church-of-the-holy-cross-rauma-20230422T1900 .
+
+cmk:programme-klosterkirche-maulbronn-20260619T2000 a cmo:Programme ;
+    rdfs:label "Johann Sebastian Bach: Klosterkonzerte Maulbronn" ;
+    cmo:is-performed-at cmk:klosterkirche-maulbronn-20260619T2000 ;
+    schema:hasPart cmk:composition-brandenburgisches-konzert-nr-5-d-dur-bwv-1050-johann-sebastian-bach,
+        cmk:composition-konzert-in-c-moll-für-violine-cembalo-und-streicher-bwv-10-johann-sebastian-bach,
+        cmk:composition-konzert-in-d-moll-für-zwei-violinen-und-streicher-bwv-1043-johann-sebastian-bach .
+
+cmk:programme-mupa-budapest-20201116T1900 a cmo:Programme ;
+    rdfs:label "POSTPONED Schumann: Genoveva" ;
+    cmo:is-performed-at cmk:mupa-budapest-20201116T1900,
+        cmk:musiikkitalo-20201025T0000 ;
+    schema:hasPart cmk:composition-genoveva-robert-schumann .
+
+cmk:programme-musiikkitalo-20210601T1900 a cmo:Programme ;
+    rdfs:label "CANCELLED Schumann: Genoveva" ;
+    cmo:is-performed-at cmk:musiikkitalo-20210601T1900,
+        cmk:tonhalle-dusseldorf-20210530T2000 ;
+    schema:hasPart cmk:composition-genoveva-robert-schumann .
+
+cmk:programme-musiikkitalo-20210925T1900 a cmo:Programme ;
+    rdfs:label "Bach, Haydn, Hässler" ;
+    cmo:is-performed-at cmk:musiikkitalo-20210925T1900 ;
+    schema:hasPart cmk:composition-fantasia-c-minor-johann-wilhelm-hässler,
+        cmk:composition-praeludium-e-flat-minor-bwv-853-johann-sebastian-bach,
+        cmk:composition-praeludium-fuga-a-minor-bwv-865-johann-sebastian-bach,
+        cmk:composition-praeludium-fuga-d-minor-bwv-851-johann-sebastian-bach,
+        cmk:composition-praeludium-fuga-e-flat-major-bwv-852-johann-sebastian-bach,
+        cmk:composition-praeludium-fuga-f-minor-bwv-857-johann-sebastian-bach,
+        cmk:composition-praeludium-fuga-f-sharp-minor-bwv-859-johann-sebastian-bach,
+        cmk:composition-rondo-c-minor-h-283-carl-philipp-emanuel-bach,
+        cmk:composition-rondo-e-flat-major-ove-porge-ombra-un-pino-alto-johann-friedrich-reichardt,
+        cmk:composition-sonata-a-minor-johann-wilhelm-hässler,
+        cmk:composition-sonata-f-major-gottfried-wilhelm-palschau,
+        cmk:composition-sonata-g-minor-hob-xvi44-joseph-haydn .
+
+cmk:programme-musiikkitalo-20211003T0000 a cmo:Programme ;
+    rdfs:label "Monteverdi | Purcell | Wagner: Liebestod" ;
+    cmo:is-performed-at cmk:musiikkitalo-20211003T0000 ;
+    schema:hasPart cmk:composition-combattimento-di-tancredi-e-clorinda-claudio-monteverdi,
+        cmk:composition-dido-and-aeneas-henry-purcell,
+        cmk:composition-isoldes-liebestod-from-tristan-und-isolde-richard-wagner .
+
+cmk:programme-musiikkitalo-20260301T0000 a cmo:Programme ;
+    rdfs:label "Schumann: Requiem & Cello Concerto" ;
+    cmo:is-performed-at cmk:musiikkitalo-20260301T0000,
+        cmk:musiikkitalo-20260303T0000 ;
+    schema:hasPart cmk:composition-cello-concerto-op-129-robert-schumann,
+        cmk:composition-nachtlied-op-108-robert-schumann,
+        cmk:composition-requiem-op-148-robert-schumann .
+
+cmk:programme-musiikkitalo-20260329T1600 a cmo:Programme ;
+    rdfs:label "C. Ph. E. Bach: St Matthew Passion" ;
+    cmo:is-performed-at cmk:musiikkitalo-20260329T1600 ;
+    schema:hasPart cmk:composition-st-matthew-passion-carl-philipp-emanuel-bach .
+
+cmk:programme-musiikkitalo-concert-hall-20241231T1800 a cmo:Programme ;
+    rdfs:label "BACH: DIE KUNST DER FUGE" ;
+    cmo:is-performed-at cmk:musiikkitalo-concert-hall-20241231T1800 ;
+    schema:hasPart cmk:composition-die-kunst-der-fuge-johann-sebastian-bach .
+
+cmk:programme-paulinum-leipzig-20260621T1500 a cmo:Programme ;
+    rdfs:label "No 210 Wettstreit der Instrumente" ;
+    cmo:is-performed-at cmk:paulinum-leipzig-20260621T1500 ;
+    schema:hasPart cmk:composition-brandenburgisches-konzert-nr-5-d-dur-bwv-1050-johann-sebastian-bach,
+        cmk:composition-konzert-c-dur-bwv-10612-johann-sebastian-bach,
+        cmk:composition-konzert-c-moll-bwv-1060-johann-sebastian-bach,
+        cmk:composition-konzert-d-moll-bwv-1043-johann-sebastian-bach,
+        cmk:composition-konzert-f-dur-fk-10-br-wfb-a-12-wilhelm-friedemann-bach .
+
+cmk:programme-rudolfinum-dvorak-hall-20260521T2000 a cmo:Programme ;
+    rdfs:label "J. J. Ryba: Stabat Mater" ;
+    cmo:is-performed-at cmk:rudolfinum-dvorak-hall-20260521T2000 ;
+    schema:hasPart cmk:composition-la-purificazione-di-maria-virgine-the-purification-of-the-v-antonio-casimir-cartellieri,
+        cmk:composition-stabat-mater-jakub-jan-ryba .
+
+cmk:programme-st-lawrence-church-vantaa-20200806T1900 a cmo:Programme ;
+    rdfs:label "CANCELLED Bach, Kirchoff, Reincken" ;
+    cmo:is-performed-at cmk:st-lawrence-church-vantaa-20200806T1900 ;
+    schema:hasPart cmk:composition-harpsichord-concerto-in-d-major-bwv-1054-johann-sebastian-bach,
+        cmk:composition-harpsichord-concerto-in-d-minor-bwv-1052-johann-sebastian-bach,
+        cmk:composition-sonat-in-g-major-hwv-399-george-frideric-handel,
+        cmk:composition-suite-à-4-in-d-minor-johann-adam-reincken,
+        cmk:composition-suite-à-4-in-g-minor-andreas-kirchoff .
+
+cmk:programme-temppeliaukio-church-20260519T1900 a cmo:Programme ;
+    rdfs:label "Cartellieri, Ryba: Stabat Mater" ;
+    cmo:is-performed-at cmk:temppeliaukio-church-20260519T1900 ;
+    schema:hasPart cmk:composition-stabat-mater-antonio-casimir-cartellieri,
+        cmk:composition-stabat-mater-jakub-jan-ryba .
+
+cmk:programme-vaasa-city-hall-20211014T1900 a cmo:Programme ;
+    rdfs:label "Haydn: L'isola disabitata" ;
+    cmo:is-performed-at cmk:vaasa-city-hall-20211014T1900 ;
+    schema:hasPart cmk:composition-lisola-disabitata-joseph-haydn .
+
 cmk:purcell-choir-budapest a schema:Organization ;
     rdfs:label "Purcell Choir Budapest" ;
     cmo:performs-in cmk:estonia-concert-hall-tallinn-20220409T1900,
         cmk:musiikkitalo-concert-hall-20220410T1600 .
 
 cmk:purcell-the-fairy-queen a cmo:Programme ;
-    rdfs:label "Purcell: The Fairy Queen" .
+    rdfs:label "Purcell: The Fairy Queen" ;
+    cmo:is-performed-at cmk:savonlinna-opera-festival-20250729T1900 ;
+    schema:hasPart cmk:composition-the-fairy-queen-henry-purcell .
 
 cmk:rachel-redmond a foaf:Person ;
     foaf:familyName "Redmond" ;
@@ -2080,18 +2204,16 @@ cmk:satish-kumar a foaf:Person ;
 cmk:savonlinna-opera-festival a cmo:Venue ;
     rdfs:label "Savonlinna Opera Festival" .
 
-cmk:savonlinna-opera-festival-20250729T1900 a mo:Performance ;
-    schema:name "Purcell: The Fairy Queen" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2025-07-29T19:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/purcell-the-fairy-queen/"^^xsd:anyURI .
-
 cmk:schubert-schonberg a cmo:Programme ;
     rdfs:label "Schubert, Schönberg" .
 
 cmk:schumann-genoveva a cmo:Programme,
         schema:CreativeWork ;
     rdfs:label "Schumann: Genoveva" ;
+    cmo:is-performed-at cmk:kulturpalast-dresden-20230604T1930,
+        cmk:musiikkitalo-concert-hall-20230528T0000,
+        cmk:tonhalle-dusseldorf-20230602T2000 ;
+    schema:hasPart cmk:composition-genoveva-robert-schumann ;
     schema:name "Schumann: Genoveva" .
 
 cmk:schumann-liszt-sibelius a cmo:Programme .
@@ -2578,10 +2700,9 @@ cmk:cancelled-bach a cmo:Programme ;
     rdfs:label "CANCELLED Bach" .
 
 cmk:cancelled-new-years-concert a cmo:Programme ;
-    rdfs:label "CANCELLED New Year's Concert" .
-
-cmk:carl-philipp-emanuel-bach a cmo:Programme ;
-    rdfs:label "Carl Philipp Emanuel Bach" .
+    rdfs:label "CANCELLED New Year's Concert" ;
+    cmo:is-performed-at cmk:musiikkitalo-helsinki-music-centre-concert-hall-20211231T0000 ;
+    schema:hasPart cmk:composition-lisola-disabitata-joseph-haydn .
 
 cmk:chekhov-festival-moscow a cmo:Venue ;
     rdfs:label "Chekhov Festival, Moscow" .
@@ -2594,7 +2715,9 @@ cmk:christmas-concert-bach-bassani-mazzocchi a cmo:Programme ;
     rdfs:label "Christmas Concert: Bach, Bassani, Mazzocchi" .
 
 cmk:christmas-concert-gilles a cmo:Programme ;
-    rdfs:label "Christmas Concert: Gilles" .
+    rdfs:label "Christmas Concert: Gilles" ;
+    cmo:is-performed-at cmk:musiikkitalo-concert-hall-20221211T1600 ;
+    schema:hasPart cmk:composition-requiem-jean-gilles .
 
 cmk:church-of-the-holy-cross-rauma-20210515T1900 a mo:Performance ;
     schema:name "CANCELLED Weiss" ;
@@ -2625,13 +2748,6 @@ cmk:church-of-the-holy-cross-rauma-20240310T1800 a mo:Performance ;
     schema:startDate "2024-03-10T18:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/duben-collection-4/"^^xsd:anyURI .
 
-cmk:church-of-the-holy-cross-rauma-20240406T1900 a mo:Performance ;
-    cmo:has-programme cmk:bach-kunst-der-fuge ;
-    schema:name "Bach: Kunst der Fuge" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2024-04-06T19:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/bach-kunst-der-fuge-2/"^^xsd:anyURI .
-
 cmk:church-of-the-holy-cross-rauma-20241214T1900 a mo:Performance ;
     schema:name "Christmas Concert" ;
     schema:organizer cmk:hebo ;
@@ -2642,7 +2758,259 @@ cmk:clarinetist a cmo:instrumentalist-identity,
         cmo:musical-identity .
 
 cmk:colin-de-blamont-two-operas-for-louis-xv a cmo:Programme ;
-    rdfs:label "Colin de Blamont: Two Operas for Louis XV" .
+    rdfs:label "Colin de Blamont: Two Operas for Louis XV" ;
+    cmo:is-performed-at cmk:finlandia-hall-20211121T1600 ;
+    schema:hasPart cmk:composition-le-caprice-dérato-françois-colin-de-blamont,
+        cmk:composition-le-retour-des-dieux-sur-la-terre-françois-colin-de-blamont .
+
+cmk:composition-alfonso-und-estrella-franz-schubert a schema:MusicComposition ;
+    schema:composer cmk:franz-schubert ;
+    schema:name "Alfonso und Estrella" .
+
+cmk:composition-brandenburg-concertos-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Brandenburg Concertos" .
+
+cmk:composition-cello-concerto-op-129-robert-schumann a schema:MusicComposition ;
+    schema:composer cmk:robert-schumann ;
+    schema:name "Cello Concerto, Op. 129" .
+
+cmk:composition-combattimento-di-tancredi-e-clorinda-claudio-monteverdi a schema:MusicComposition ;
+    schema:composer cmk:claudio-monteverdi ;
+    schema:name "Combattimento di Tancredi e Clorinda" .
+
+cmk:composition-concertino-for-bassoon-and-orchestra-b-flat-major-bernhard-crusell a schema:MusicComposition ;
+    schema:composer cmk:bernhard-crusell ;
+    schema:name "Concertino for bassoon and orchestra B flat major" .
+
+cmk:composition-declamatorium-den-siste-kämpen-bernhard-crusell a schema:MusicComposition ;
+    schema:composer cmk:bernhard-crusell ;
+    schema:name "Declamatorium: Den siste kämpen" .
+
+cmk:composition-dido-and-aeneas-henry-purcell a schema:MusicComposition ;
+    schema:composer cmk:henry-purcell ;
+    schema:name "Dido and Aeneas" .
+
+cmk:composition-fantasia-c-minor-johann-wilhelm-hässler a schema:MusicComposition ;
+    schema:composer cmk:johann-wilhelm-hässler ;
+    schema:dateCreated "1776"^^xsd:gYear ;
+    schema:name "Fantasia C minor" .
+
+cmk:composition-harpsichord-concerto-in-d-major-bwv-1054-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Harpsichord concerto in D major, BWV 1054" .
+
+cmk:composition-harpsichord-concerto-in-d-minor-bwv-1052-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Harpsichord concerto in D minor BWV 1052" .
+
+cmk:composition-idomeneo-wa-mozart a schema:MusicComposition ;
+    schema:composer cmk:wa-mozart ;
+    schema:name "Idomeneo" .
+
+cmk:composition-il-delirio-amoroso-george-frideric-handel a schema:MusicComposition ;
+    schema:composer cmk:george-frideric-handel ;
+    schema:name "Il Delirio Amoroso" .
+
+cmk:composition-isoldes-liebestod-from-tristan-und-isolde-richard-wagner a schema:MusicComposition ;
+    schema:composer cmk:richard-wagner ;
+    schema:name "Isoldes Liebestod (from Tristan und Isolde)" .
+
+cmk:composition-juditha-triumphans-antonio-vivaldi a schema:MusicComposition ;
+    schema:composer cmk:antonio-vivaldi ;
+    schema:name "Juditha triumphans" .
+
+cmk:composition-konzert-c-dur-bwv-10612-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Konzert C-Dur, BWV 1061.2" .
+
+cmk:composition-konzert-c-moll-bwv-1060-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Konzert c-Moll, BWV 1060" .
+
+cmk:composition-konzert-d-moll-bwv-1043-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Konzert d-Moll, BWV 1043" .
+
+cmk:composition-konzert-f-dur-fk-10-br-wfb-a-12-wilhelm-friedemann-bach a schema:MusicComposition ;
+    schema:composer cmk:wilhelm-friedemann-bach ;
+    schema:name "Konzert F-Dur, Fk 10 (BR-WFB A 12)" .
+
+cmk:composition-konzert-in-c-moll-für-violine-cembalo-und-streicher-bwv-10-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Konzert in c-Moll für Violine, Cembalo und Streicher, BWV 1060" .
+
+cmk:composition-konzert-in-d-moll-für-zwei-violinen-und-streicher-bwv-1043-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Konzert in d-Moll für zwei Violinen und Streicher, BWV 1043" .
+
+cmk:composition-la-liberazione-di-ruggiero-dallisola-dalcina-francesca-caccini a schema:MusicComposition ;
+    schema:composer cmk:francesca-caccini ;
+    schema:dateCreated "1625"^^xsd:gYear ;
+    schema:name "La liberazione di Ruggiero dall'isola d'Alcina" .
+
+cmk:composition-la-passion-selon-st-matthieu-bwv-244-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "La Passion selon St. Matthieu, BWV 244" .
+
+cmk:composition-la-purificazione-di-maria-virgine-the-purification-of-the-v-antonio-casimir-cartellieri a schema:MusicComposition ;
+    schema:composer cmk:antonio-casimir-cartellieri ;
+    schema:dateCreated "1807"^^xsd:gYear ;
+    schema:name "La Purificazione di Maria Virgine (The Purification of the Virgin Mary)" .
+
+cmk:composition-le-caprice-dérato-françois-colin-de-blamont a schema:MusicComposition ;
+    schema:composer cmk:françois-colin-de-blamont ;
+    schema:name "Le Caprice d’Érato" .
+
+cmk:composition-le-retour-des-dieux-sur-la-terre-françois-colin-de-blamont a schema:MusicComposition ;
+    schema:composer cmk:françois-colin-de-blamont ;
+    schema:name "Le Retour des dieux sur la terre" .
+
+cmk:composition-les-boréades-jean-philippe-rameau a schema:MusicComposition ;
+    schema:composer cmk:jean-philippe-rameau ;
+    schema:name "Les Boréades" .
+
+cmk:composition-les-élémens-jean-féry-rebel a schema:MusicComposition ;
+    schema:composer cmk:jean-féry-rebel ;
+    schema:name "Les élémens" .
+
+cmk:composition-lo-frate-nnamorato-giovanni-battista-pergolesi a schema:MusicComposition ;
+    schema:composer cmk:giovanni-battista-pergolesi ;
+    schema:name "Lo frate 'nnamorato" .
+
+cmk:composition-mass-in-b-minor-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Mass in B Minor" .
+
+cmk:composition-messe-de-nostre-dame-guillaume-de-machaut a schema:MusicComposition ;
+    schema:composer cmk:guillaume-de-machaut ;
+    schema:name "Messe de Nostre Dame" .
+
+cmk:composition-missa-cellensis-joseph-haydn a schema:MusicComposition ;
+    schema:composer cmk:joseph-haydn ;
+    schema:name "Missa Cellensis" .
+
+cmk:composition-nachtlied-op-108-robert-schumann a schema:MusicComposition ;
+    schema:composer cmk:robert-schumann ;
+    schema:name "Nachtlied, Op. 108" .
+
+cmk:composition-ottone-in-villa-antonio-vivaldi a schema:MusicComposition ;
+    schema:composer cmk:antonio-vivaldi ;
+    schema:name "Ottone in villa" .
+
+cmk:composition-ouverture-den-lilla-slavinnen-bernhard-crusell a schema:MusicComposition ;
+    schema:composer cmk:bernhard-crusell ;
+    schema:name "Ouverture: Den lilla slavinnen" .
+
+cmk:composition-pasticcio-passion a schema:MusicComposition ;
+    schema:name "Pasticcio Passion" .
+
+cmk:composition-praeludium-e-flat-minor-bwv-853-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Praeludium E-flat minor, BWV 853" .
+
+cmk:composition-praeludium-fuga-a-minor-bwv-865-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Praeludium & Fuga A minor, BWV 865" .
+
+cmk:composition-praeludium-fuga-d-minor-bwv-851-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Praeludium & Fuga D minor, BWV 851" .
+
+cmk:composition-praeludium-fuga-e-flat-major-bwv-852-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Praeludium & Fuga E-flat major, BWV 852" .
+
+cmk:composition-praeludium-fuga-f-minor-bwv-857-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Praeludium & Fuga F minor, BWV 857" .
+
+cmk:composition-praeludium-fuga-f-sharp-minor-bwv-859-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Praeludium & Fuga F-sharp minor, BWV 859" .
+
+cmk:composition-requiem-jean-gilles a schema:MusicComposition ;
+    schema:composer cmk:jean-gilles ;
+    schema:name "Requiem" .
+
+cmk:composition-requiem-op-148-robert-schumann a schema:MusicComposition ;
+    schema:composer cmk:robert-schumann ;
+    schema:name "Requiem, Op. 148" .
+
+cmk:composition-rondo-c-minor-h-283-carl-philipp-emanuel-bach a schema:MusicComposition ;
+    schema:composer cmk:carl-philipp-emanuel-bach ;
+    schema:name "Rondo C minor, H 283" .
+
+cmk:composition-rondo-e-flat-major-ove-porge-ombra-un-pino-alto-johann-friedrich-reichardt a schema:MusicComposition ;
+    schema:composer cmk:johann-friedrich-reichardt ;
+    schema:dateCreated "1782"^^xsd:gYear ;
+    schema:name "Rondo E-flat major \"Ove porge ombra un pino alto\"" .
+
+cmk:composition-rübezahl-casimir-anton-cartellieri a schema:MusicComposition ;
+    schema:composer cmk:casimir-anton-cartellieri ;
+    schema:name "Rübezahl" .
+
+cmk:composition-sonat-in-g-major-hwv-399-george-frideric-handel a schema:MusicComposition ;
+    schema:composer cmk:george-frideric-handel ;
+    schema:name "Sonat in G major, HWV 399" .
+
+cmk:composition-sonata-a-minor-johann-wilhelm-hässler a schema:MusicComposition ;
+    schema:composer cmk:johann-wilhelm-hässler ;
+    schema:dateCreated "1776"^^xsd:gYear ;
+    schema:name "Sonata A minor" .
+
+cmk:composition-sonata-f-major-gottfried-wilhelm-palschau a schema:MusicComposition ;
+    schema:composer cmk:gottfried-wilhelm-palschau ;
+    schema:dateCreated "1775"^^xsd:gYear ;
+    schema:name "Sonata F major" .
+
+cmk:composition-sonata-g-minor-hob-xvi44-joseph-haydn a schema:MusicComposition ;
+    schema:composer cmk:joseph-haydn ;
+    schema:name "Sonata G minor, Hob. XVI:44" .
+
+cmk:composition-st-matthew-passion-carl-philipp-emanuel-bach a schema:MusicComposition ;
+    schema:composer cmk:carl-philipp-emanuel-bach ;
+    schema:name "St Matthew Passion" .
+
+cmk:composition-st-matthew-passion-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "St Matthew Passion" .
+
+cmk:composition-stabat-mater-antonio-casimir-cartellieri a schema:MusicComposition ;
+    schema:composer cmk:antonio-casimir-cartellieri ;
+    schema:name "Stabat Mater" .
+
+cmk:composition-string-sextet-in-d-minor-souvenir-de-florence-op70-pyotr-ilyich-tchaikovsky a schema:MusicComposition ;
+    schema:composer cmk:pyotr-ilyich-tchaikovsky ;
+    schema:dateCreated "1890"^^xsd:gYear ;
+    schema:name "String sextet in D minor, Souvenir de Florence, op.70" .
+
+cmk:composition-string-sextet-in-g-major-op36-johannes-brahms a schema:MusicComposition ;
+    schema:composer cmk:johannes-brahms ;
+    schema:dateCreated "1865"^^xsd:gYear ;
+    schema:name "String sextet in G major, op.36" .
+
+cmk:composition-suite-à-4-in-d-minor-johann-adam-reincken a schema:MusicComposition ;
+    schema:composer cmk:johann-adam-reincken ;
+    schema:dateCreated "1687"^^xsd:gYear ;
+    schema:name "Suite à 4 in D minor" .
+
+cmk:composition-suite-à-4-in-g-minor-andreas-kirchoff a schema:MusicComposition ;
+    schema:composer cmk:andreas-kirchoff ;
+    schema:dateCreated "1664"^^xsd:gYear ;
+    schema:name "Suite à 4 in G minor" .
+
+cmk:composition-the-fairy-queen-henry-purcell a schema:MusicComposition ;
+    schema:composer cmk:henry-purcell ;
+    schema:name "The Fairy Queen" .
+
+cmk:composition-violin-concerto-in-a-minor-bwv-1041-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Violin Concerto in A minor, BWV 1041" .
+
+cmk:composition-water-music-hwv-348-350-george-frideric-handel a schema:MusicComposition ;
+    schema:composer cmk:george-frideric-handel ;
+    schema:name "Water Music, HWV 348-350" .
 
 cmk:director a cmo:musical-identity .
 
@@ -2661,13 +3029,19 @@ cmk:harpist a cmo:instrumentalist-identity,
         cmo:musical-identity .
 
 cmk:haydn-missa-cellensis a cmo:Programme ;
-    rdfs:label "Haydn: Missa Cellensis" .
+    rdfs:label "Haydn: Missa Cellensis" ;
+    cmo:is-performed-at cmk:buda-castle-haydneum-festival-budapest-20231110T1930 ;
+    schema:hasPart cmk:composition-missa-cellensis-joseph-haydn .
 
 cmk:haydn-mozart-schubert a cmo:Programme ;
     rdfs:label "Haydn, Mozart, Schubert" .
 
 cmk:helsinki-baroque-orchestra-25-years a cmo:Programme ;
-    rdfs:label "Helsinki Baroque Orchestra 25 Years!" .
+    rdfs:label "Helsinki Baroque Orchestra 25 Years!" ;
+    cmo:is-performed-at cmk:musiikkitalo-concert-hall-20221016T1600 ;
+    schema:hasPart cmk:composition-concertino-for-bassoon-and-orchestra-b-flat-major-bernhard-crusell,
+        cmk:composition-declamatorium-den-siste-kämpen-bernhard-crusell,
+        cmk:composition-ouverture-den-lilla-slavinnen-bernhard-crusell .
 
 cmk:il-suonar-parlante a cmo:ensemble-identity ;
     rdfs:label "Il Suonar Parlante" .
@@ -2690,7 +3064,8 @@ cmk:la-mandorle a cmo:ensemble-identity ;
 cmk:le-carre-sainte-maxime a cmo:Venue .
 
 cmk:les-bohemes-galantes a cmo:Programme ;
-    rdfs:label "Les Bohèmes galantes" .
+    rdfs:label "Les Bohèmes galantes" ;
+    cmo:is-performed-at cmk:musiikkitalo-camerata-hall-20220320T1600 .
 
 cmk:lighting-designer a cmo:musical-identity .
 
@@ -2716,38 +3091,23 @@ cmk:mridangam-player a cmo:instrumentalist-identity .
 cmk:musica-baltica-e-mediterranea a cmo:Programme ;
     rdfs:label "Musica Baltica e Mediterranea" .
 
+cmk:musiikkitalo-20210925T1900 a mo:Performance ;
+    schema:name "Bach, Haydn, Hässler" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-09-25T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-haydn-hassler/"^^xsd:anyURI .
+
 cmk:musiikkitalo-20250304T1900 a mo:Performance ;
     schema:name "Improvisational Organ Concert" ;
     schema:organizer cmk:hebo ;
     schema:startDate "2025-03-04T19:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/improvisational-organ-concert/"^^xsd:anyURI .
 
-cmk:musiikkitalo-camerata-20240407T1600 a mo:Performance ;
-    cmo:has-programme cmk:bach-kunst-der-fuge ;
-    schema:name "Bach: Kunst der Fuge" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2024-04-07T16:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/bach-kunst-der-fuge/"^^xsd:anyURI .
-
 cmk:musiikkitalo-camerata-20250126T1600 a mo:Performance ;
     schema:name "Bach, Scarlatti" ;
     schema:organizer cmk:hebo ;
     schema:startDate "2025-01-26T16:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/bach-scarlatti/"^^xsd:anyURI .
-
-cmk:musiikkitalo-camerata-hall-20220320T1600 a mo:Performance ;
-    cmo:has-programme cmk:les-bohemes-galantes ;
-    schema:name "Les Bohèmes galantes" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2022-03-20T16:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/les-bohemes-galantes/"^^xsd:anyURI .
-
-cmk:musiikkitalo-concert-hall-20221211T1600 a mo:Performance ;
-    cmo:has-programme cmk:christmas-concert-gilles ;
-    schema:name "Christmas Concert: Gilles" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2022-12-11T16:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/christmas-concert-4/"^^xsd:anyURI .
 
 cmk:narrator a cmo:musical-identity .
 
@@ -2759,14 +3119,6 @@ cmk:oboist a cmo:musical-identity .
 
 cmk:old-church a cmo:Venue ;
     rdfs:label "Old Church" .
-
-cmk:old-church-20211209T1900 a mo:Performance ;
-    cmo:has-programme cmk:bach-brandenburg-concertos ;
-    schema:location cmk:old-church ;
-    schema:name "Bach: Brandenburg Concertos" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2021-12-09T19:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/christmas-concert-3/"^^xsd:anyURI .
 
 cmk:old-church-20241026T1900 a mo:Performance ;
     schema:name "Vivaldi, Mozart, Sibelius" ;
@@ -2785,7 +3137,9 @@ cmk:orfeo-orchestra a foaf:Group,
 cmk:percussionist a cmo:musical-identity .
 
 cmk:pergolesi-lo-frate-nnamorato a cmo:Programme ;
-    rdfs:label "Pergolesi: Lo frate 'nnamorato" .
+    rdfs:label "Pergolesi: Lo frate 'nnamorato" ;
+    cmo:is-performed-at cmk:musiikkitalo-concert-hall-20230129T1600 ;
+    schema:hasPart cmk:composition-lo-frate-nnamorato-giovanni-battista-pergolesi .
 
 cmk:piae-cantiones a cmo:Programme ;
     rdfs:label "Piae Cantiones" .
@@ -2794,18 +3148,12 @@ cmk:queen-christina-400-years a cmo:Programme ;
     rdfs:label "Queen Christina 400 Years" .
 
 cmk:rameau-les-boreades a cmo:Programme ;
-    rdfs:label "Rameau: Les Boréades" .
+    rdfs:label "Rameau: Les Boréades" ;
+    cmo:is-performed-at cmk:musiikkitalo-20230926T1900 ;
+    schema:hasPart cmk:composition-les-boréades-jean-philippe-rameau .
 
 cmk:rioja-forum-logrono a cmo:Venue ;
     rdfs:label "Rioja Forum, Logroño" .
-
-cmk:rioja-forum-logrono-20211210T2030 a mo:Performance ;
-    cmo:has-programme cmk:bach-brandenburg-concertos ;
-    schema:location cmk:rioja-forum-logrono ;
-    schema:name "Bach: Brandenburg Concertos" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2021-12-10T20:30:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/bach-brandenburg-concertos-2/"^^xsd:anyURI .
 
 cmk:roman-de-la-rose a cmo:Programme ;
     rdfs:label "Roman de la Rose" .
@@ -2814,6 +3162,12 @@ cmk:saarinen-monteverdi-third-practice a mo:MusicalWork,
         schema:CreativeWork ;
     rdfs:label "Saarinen – Monteverdi: Third Practice" ;
     schema:name "Saarinen–Monteverdi: Third Practice" .
+
+cmk:savonlinna-opera-festival-20250729T1900 a mo:Performance ;
+    schema:name "Purcell: The Fairy Queen" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-07-29T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/purcell-the-fairy-queen/"^^xsd:anyURI .
 
 cmk:schutz-scheidt a cmo:Programme ;
     rdfs:label "Schütz, Scheidt" .
@@ -2862,7 +3216,10 @@ cmk:stor-sarvlaks-manor-courtyard a cmo:Venue ;
     rdfs:label "Stor-Sarvlaks Manor courtyard" .
 
 cmk:string-sextets a cmo:Programme ;
-    rdfs:label "String Sextets" .
+    rdfs:label "String Sextets" ;
+    cmo:is-performed-at cmk:sibelius-academy-concert-hall-20261122T1600 ;
+    schema:hasPart cmk:composition-string-sextet-in-d-minor-souvenir-de-florence-op70-pyotr-ilyich-tchaikovsky,
+        cmk:composition-string-sextet-in-g-major-op36-johannes-brahms .
 
 cmk:tampere-talo a cmo:Venue .
 
@@ -2875,14 +3232,6 @@ cmk:tbilisi-baroque-festival-20221127T1930 a mo:Performance ;
 
 cmk:teatro-auditorio-jose-luis-perales-cuenca a cmo:Venue ;
     rdfs:label "Teatro Auditorio José Luis Perales, Cuenca" .
-
-cmk:teatro-auditorio-jose-luis-perales-cuenca-20211214T2030 a mo:Performance ;
-    cmo:has-programme cmk:bach-brandenburg-concertos ;
-    schema:location cmk:teatro-auditorio-jose-luis-perales-cuenca ;
-    schema:name "Bach: Brandenburg Concertos" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2021-12-14T20:30:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/bach-brandenburg-concertos-3/"^^xsd:anyURI .
 
 cmk:theater-an-der-wien a cmo:ConcertHall,
         cmo:Venue ;
@@ -2903,7 +3252,9 @@ cmk:violist-da-gamba a cmo:instrumentalist-identity .
 cmk:visualisation-artist a cmo:musical-identity .
 
 cmk:vivaldi-ottone-in-villa a cmo:Programme ;
-    rdfs:label "Vivaldi: Ottone in villa" .
+    rdfs:label "Vivaldi: Ottone in villa" ;
+    cmo:is-performed-at cmk:alexander-theatre-20230922T0000 ;
+    schema:hasPart cmk:composition-ottone-in-villa-antonio-vivaldi .
 
 cmk:weiss a cmo:Programme ;
     rdfs:label "Weiss" .
@@ -2951,10 +3302,16 @@ cmk:bach-handel-pergolesi a cmo:Programme ;
     rdfs:label "Bach, Handel, Pergolesi" .
 
 cmk:bach-kunst-der-fuge a cmo:Programme ;
-    rdfs:label "Bach: Kunst der Fuge" .
+    rdfs:label "Bach: Kunst der Fuge" ;
+    cmo:is-performed-at cmk:church-of-the-holy-cross-rauma-20240406T1900,
+        cmk:musiikkitalo-camerata-20240407T1600 ;
+    schema:hasPart cmk:composition-die-kunst-der-fuge-johann-sebastian-bach .
 
 cmk:bach-st-matthew-passion a cmo:Programme ;
-    rdfs:label "Bach: St Matthew Passion" .
+    rdfs:label "Bach: St Matthew Passion" ;
+    cmo:is-performed-at cmk:eglise-st-francois-lausanne-20211112T2000,
+        cmk:st-johns-church-helsinki-20211106T1800 ;
+    schema:hasPart cmk:composition-st-matthew-passion-johann-sebastian-bach .
 
 cmk:balder-hall-20220427T1900 a mo:Performance ;
     cmo:has-programme cmk:roman-de-la-rose ;
@@ -3001,12 +3358,6 @@ cmk:church-of-the-holy-cross-rauma-20230311T1900 a mo:Performance ;
     schema:startDate "2023-03-11T19:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/forqueray-2/"^^xsd:anyURI .
 
-cmk:church-of-the-holy-cross-rauma-20230422T1900 a mo:Performance ;
-    schema:name "Georgian Sinfonietta" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2023-04-22T19:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/georgian-sinfonietta-2/"^^xsd:anyURI .
-
 cmk:church-of-the-holy-cross-rauma-20231021T1900 a mo:Performance ;
     cmo:has-programme cmk:bach-benda-lithander-mozart ;
     cmo:takes-place-at cmk:church-of-the-holy-cross-rauma ;
@@ -3020,6 +3371,13 @@ cmk:church-of-the-holy-cross-rauma-20231210T1800 a mo:Performance ;
     schema:organizer cmk:hebo ;
     schema:startDate "2023-12-10T18:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/christmas-concert-6/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma-20240406T1900 a mo:Performance ;
+    cmo:has-programme cmk:bach-kunst-der-fuge ;
+    schema:name "Bach: Kunst der Fuge" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-04-06T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-kunst-der-fuge-2/"^^xsd:anyURI .
 
 cmk:church-of-the-holy-cross-rauma-20240701T1900 a mo:Performance ;
     cmo:has-programme cmk:c-p-e-bach-sonatas-for-violin-and-harpsichord ;
@@ -3039,6 +3397,27 @@ cmk:church-of-the-holy-cross-rauma-20250416T1800 a mo:Performance ;
     schema:organizer cmk:hebo ;
     schema:startDate "2025-04-16T18:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/vivaldi/"^^xsd:anyURI .
+
+cmk:composition-brandenburgisches-konzert-nr-5-d-dur-bwv-1050-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Brandenburgisches Konzert Nr. 5 D-Dur, BWV 1050" .
+
+cmk:composition-die-kunst-der-fuge-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Die Kunst der Fuge" .
+
+cmk:composition-la-caduta-di-adamo-baldassare-galuppi a schema:MusicComposition ;
+    schema:composer cmk:baldassare-galuppi ;
+    schema:name "La Caduta di Adamo" .
+
+cmk:composition-lisola-disabitata-joseph-haydn a schema:MusicComposition ;
+    schema:composer cmk:joseph-haydn ;
+    schema:name "L'isola disabitata" .
+
+cmk:composition-stabat-mater-jakub-jan-ryba a schema:MusicComposition ;
+    schema:composer cmk:jakub-jan-ryba ;
+    schema:dateCreated "1805"^^xsd:gYear ;
+    schema:name "Stabat Mater" .
 
 cmk:costume-designer a cmo:musical-identity .
 
@@ -3093,7 +3472,11 @@ cmk:glasperlenspiel-festival-tartu-20230709T1900 a mo:Performance ;
     schema:url "https://www.hebo.fi/tapahtuma/duben-collection-3/"^^xsd:anyURI .
 
 cmk:graun-bach-pasticcio-passion a cmo:Programme ;
-    rdfs:label "Graun/Bach: Pasticcio Passion" .
+    rdfs:label "Graun/Bach: Pasticcio Passion" ;
+    cmo:is-performed-at cmk:days-of-early-music-vac-20210710T2000,
+        cmk:estonia-concert-hall-tallinn-20220409T1900,
+        cmk:musiikkitalo-concert-hall-20220410T1600 ;
+    schema:hasPart cmk:composition-pasticcio-passion .
 
 cmk:hortus-musicus-50-years a cmo:Programme ;
     rdfs:label "Hortus Musicus 50 Years!" .
@@ -3169,12 +3552,26 @@ cmk:musiikkitalo-20250418T1800 a mo:Performance ;
     schema:startDate "2025-04-18T18:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/stabat-mater-5/"^^xsd:anyURI .
 
+cmk:musiikkitalo-camerata-20240407T1600 a mo:Performance ;
+    cmo:has-programme cmk:bach-kunst-der-fuge ;
+    schema:name "Bach: Kunst der Fuge" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-04-07T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-kunst-der-fuge/"^^xsd:anyURI .
+
 cmk:musiikkitalo-camerata-hall-20220227T1600 a mo:Performance ;
     cmo:has-programme cmk:in-eine-bessre-welt-entruckt ;
     schema:name "…in eine bessre Welt entrückt" ;
     schema:organizer cmk:hebo ;
     schema:startDate "2022-02-27T16:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/in-eine-bessre-welt-entruckt/"^^xsd:anyURI .
+
+cmk:musiikkitalo-camerata-hall-20220320T1600 a mo:Performance ;
+    cmo:has-programme cmk:les-bohemes-galantes ;
+    schema:name "Les Bohèmes galantes" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-03-20T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/les-bohemes-galantes/"^^xsd:anyURI .
 
 cmk:musiikkitalo-camerata-hall-20220918T1600 a mo:Performance ;
     cmo:has-programme cmk:hortus-musicus-50-years ;
@@ -3196,6 +3593,13 @@ cmk:musiikkitalo-camerata-hall-20230423T1600 a mo:Performance ;
     schema:startDate "2023-04-23T16:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/georgian-sinfonietta/"^^xsd:anyURI .
 
+cmk:musiikkitalo-concert-hall-20221211T1600 a mo:Performance ;
+    cmo:has-programme cmk:christmas-concert-gilles ;
+    schema:name "Christmas Concert: Gilles" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2022-12-11T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/christmas-concert-4/"^^xsd:anyURI .
+
 cmk:musiikkitalo-organo-hall-20230312T1600 a mo:Performance ;
     schema:name "Forqueray" ;
     schema:organizer cmk:hebo ;
@@ -3215,6 +3619,14 @@ cmk:namestnad-oslavou-20210613T1930 a mo:Performance ;
     schema:startDate "2021-06-13T19:30:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/bach-reincken-5/"^^xsd:anyURI .
 
+cmk:old-church-20211209T1900 a mo:Performance ;
+    cmo:has-programme cmk:bach-brandenburg-concertos ;
+    schema:location cmk:old-church ;
+    schema:name "Bach: Brandenburg Concertos" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-12-09T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/christmas-concert-3/"^^xsd:anyURI .
+
 cmk:online-20220108T1900 a mo:Performance ;
     cmo:has-programme cmk:live-stream-haydn-mozart-schubert-schumann ;
     schema:name "LIVE STREAM: Haydn, Mozart, Schubert, Schumann" ;
@@ -3233,6 +3645,14 @@ cmk:povoa-de-varzim-music-festival-20210714T2100 a mo:Performance ;
     schema:startDate "2021-07-14T21:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/povoa-de-varzim-music-festival/"^^xsd:anyURI .
 
+cmk:rioja-forum-logrono-20211210T2030 a mo:Performance ;
+    cmo:has-programme cmk:bach-brandenburg-concertos ;
+    schema:location cmk:rioja-forum-logrono ;
+    schema:name "Bach: Brandenburg Concertos" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-12-10T20:30:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-brandenburg-concertos-2/"^^xsd:anyURI .
+
 cmk:sankt-olofs-kyrka-falkoping-20200813T1900 a mo:Performance ;
     schema:name "CANCELLED Bach, Reincken" ;
     schema:organizer cmk:hebo ;
@@ -3240,7 +3660,10 @@ cmk:sankt-olofs-kyrka-falkoping-20200813T1900 a mo:Performance ;
     schema:url "https://www.hebo.fi/tapahtuma/bach-reincken-4/"^^xsd:anyURI .
 
 cmk:schubert-alfonso-und-estrella a cmo:Programme ;
-    rdfs:label "Schubert: Alfonso und Estrella" .
+    rdfs:label "Schubert: Alfonso und Estrella" ;
+    cmo:is-performed-at cmk:mupa-budapest-20221117T1900,
+        cmk:musiikkitalo-concert-hall-20221113T1900 ;
+    schema:hasPart cmk:composition-alfonso-und-estrella-franz-schubert .
 
 cmk:st-lawrence-church-janakkala-20200919T1800 a mo:Performance ;
     schema:name "Bach and the Art of Fugue" ;
@@ -3289,6 +3712,14 @@ cmk:tarinmaa-janakkala-20240630T1800 a mo:Performance ;
     schema:startDate "2024-06-30T18:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/janakkala-baroque-2024/"^^xsd:anyURI .
 
+cmk:teatro-auditorio-jose-luis-perales-cuenca-20211214T2030 a mo:Performance ;
+    cmo:has-programme cmk:bach-brandenburg-concertos ;
+    schema:location cmk:teatro-auditorio-jose-luis-perales-cuenca ;
+    schema:name "Bach: Brandenburg Concertos" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-12-14T20:30:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-brandenburg-concertos-3/"^^xsd:anyURI .
+
 cmk:traverso-player a cmo:instrumentalist-identity,
         cmo:musical-identity .
 
@@ -3307,21 +3738,20 @@ cmk:viljandi-early-music-festival-20230708T1900 a mo:Performance ;
     schema:url "https://www.hebo.fi/tapahtuma/duben-collection-2/"^^xsd:anyURI .
 
 cmk:vivaldi-juditha-triumphans a cmo:Programme ;
-    rdfs:label "Vivaldi: Juditha triumphans" .
+    rdfs:label "Vivaldi: Juditha triumphans" ;
+    cmo:is-performed-at cmk:musiikkitalo-20261222T1900,
+        cmk:theater-an-der-wien-20261220T1900 ;
+    schema:hasPart cmk:composition-juditha-triumphans-antonio-vivaldi .
 
 cmo:baritone a cmo:musical-identity .
 
 cmo:soprano a cmo:musical-identity .
 
-cmk:auditorio-victor-villegas-murcia-20211215T2000 a mo:Performance ;
-    cmo:has-programme cmk:bach-brandenburg-concertos ;
-    schema:name "Bach: Brandenburg Concertos" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2021-12-15T20:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/bach-brandenburg-concertos-4/"^^xsd:anyURI .
-
 cmk:bach-handel-vivaldi a cmo:Programme ;
     rdfs:label "Bach, Handel, Vivaldi" .
+
+cmk:carl-philipp-emanuel-bach a cmo:Programme ;
+    rdfs:label "Carl Philipp Emanuel Bach" .
 
 cmk:chekhov-festival-moscow-20211130T1900 a mo:Performance ;
     cmo:has-programme cmk:monteverdi ;
@@ -3368,6 +3798,12 @@ cmk:church-of-the-holy-cross-rauma-20221215T1900 a mo:Performance ;
     schema:startDate "2022-12-15T19:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/bach-bassani-mazzocchi/"^^xsd:anyURI .
 
+cmk:church-of-the-holy-cross-rauma-20230422T1900 a mo:Performance ;
+    schema:name "Georgian Sinfonietta" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2023-04-22T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/georgian-sinfonietta-2/"^^xsd:anyURI .
+
 cmk:church-of-the-holy-cross-rauma-20260209T1900 a mo:Performance ;
     schema:name "Handel – Vivaldi"^^xsd:string ;
     schema:organizer cmk:hebo ;
@@ -3386,11 +3822,10 @@ cmk:church-of-the-holy-cross-rauma-20260607T1800 a mo:Performance ;
     schema:startDate "2026-06-07T18:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/nocturnalia-ensemble/"^^xsd:anyURI .
 
-cmk:concertgebouw-amsterdam-20240120T1415 a mo:Performance ;
-    schema:name "Bach, Handel, Rebel" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2024-01-20T14:15:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/bach-handel-rebel/"^^xsd:anyURI .
+cmk:composition-genoveva-robert-schumann a schema:MusicComposition ;
+    schema:composer cmk:robert-schumann ;
+    schema:dateCreated "1850"^^xsd:gYear ;
+    schema:name "Genoveva" .
 
 cmk:ensemble-member a cmo:musical-identity .
 
@@ -3413,12 +3848,6 @@ cmk:janakkala-20220702T1800 a mo:Performance ;
     schema:organizer cmk:hebo ;
     schema:startDate "2022-07-02T18:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/janakkala-baroque/"^^xsd:anyURI .
-
-cmk:klosterkirche-maulbronn-20260619T2000 a mo:Performance ;
-    schema:name "Johann Sebastian Bach: Klosterkonzerte Maulbronn"^^xsd:string ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2026-06-19T20:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/johann-sebastian-bach/"^^xsd:anyURI .
 
 cmk:mezzosoprano a cmo:musical-identity .
 
@@ -3456,12 +3885,6 @@ cmk:musiikkitalo-20231126T1600 a mo:Performance ;
     schema:organizer cmk:hebo ;
     schema:startDate "2023-11-26T16:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/mendelssohn-spohr-dvorak/"^^xsd:anyURI .
-
-cmk:musiikkitalo-20240121T1600 a mo:Performance ;
-    schema:name "Bach, Handel, Rebel" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2024-01-21T16:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/bach-handel-rebel-2/"^^xsd:anyURI .
 
 cmk:musiikkitalo-20250222T1900 a mo:Performance ;
     schema:name "Hamlet" ;
@@ -3573,6 +3996,13 @@ cmk:teatro-mayor-bogota-20241129T0000 a mo:Performance ;
 
 cmo:bass a cmo:musical-identity .
 
+cmk:auditorio-victor-villegas-murcia-20211215T2000 a mo:Performance ;
+    cmo:has-programme cmk:bach-brandenburg-concertos ;
+    schema:name "Bach: Brandenburg Concertos" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-12-15T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-brandenburg-concertos-4/"^^xsd:anyURI .
+
 cmk:brucknerhaus-linz-20240324T1800 a mo:Performance ;
     cmo:has-programme cmk:bach-handel-pergolesi ;
     schema:name "Bach, Handel, Pergolesi" ;
@@ -3580,11 +4010,11 @@ cmk:brucknerhaus-linz-20240324T1800 a mo:Performance ;
     schema:startDate "2024-03-24T18:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/bach-handel-pergolesi-2/"^^xsd:anyURI .
 
-cmk:cathedrale-de-lausanne-20201106T2000 a mo:Performance ;
-    schema:name "CANCELLED Bach: St Matthew Passion" ;
+cmk:concertgebouw-amsterdam-20240120T1415 a mo:Performance ;
+    schema:name "Bach, Handel, Rebel" ;
     schema:organizer cmk:hebo ;
-    schema:startDate "2020-11-06T20:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/j-s-bach-st-matthew-passion/"^^xsd:anyURI .
+    schema:startDate "2024-01-20T14:15:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-handel-rebel/"^^xsd:anyURI .
 
 cmk:dance-house-helsinki-erkko-hall-20230316T0000 a mo:Performance ;
     schema:name "Saarinen–Monteverdi: Third Practice" ;
@@ -3624,6 +4054,12 @@ cmk:hangzhou-west-lake-university-20231225T1930 a mo:Performance ;
 cmk:janakkala-baroque-2022 a cmo:Programme ;
     rdfs:label "Janakkala Baroque 2022" .
 
+cmk:klosterkirche-maulbronn-20260619T2000 a mo:Performance ;
+    schema:name "Johann Sebastian Bach: Klosterkonzerte Maulbronn"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-06-19T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/johann-sebastian-bach/"^^xsd:anyURI .
+
 cmk:le-carre-sainte-maxime-20231028T2030 a mo:Performance ;
     cmo:has-programme cmk:third-practice ;
     cmo:takes-place-at cmk:le-carre-sainte-maxime ;
@@ -3656,24 +4092,17 @@ cmk:musiikkitalo-20231231T1900 a mo:Performance ;
     schema:startDate "2023-12-31T19:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/new-years-concert-6/"^^xsd:anyURI .
 
+cmk:musiikkitalo-20240121T1600 a mo:Performance ;
+    schema:name "Bach, Handel, Rebel" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-01-21T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-handel-rebel-2/"^^xsd:anyURI .
+
 cmk:musiikkitalo-20251231T1800 a mo:Performance ;
     schema:name "New Year's Concert: Bach & Improvisations" ;
     schema:organizer cmk:hebo ;
     schema:startDate "2025-12-31T18:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/new-years-concert-bach-improvisations/"^^xsd:anyURI .
-
-cmk:musiikkitalo-concert-hall-20221016T1600 a mo:Performance ;
-    cmo:has-programme cmk:helsinki-baroque-orchestra-25-years ;
-    schema:name "Helsinki Baroque Orchestra 25 Years!" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2022-10-16T16:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/helsinki-baroque-orchestra-25-years/"^^xsd:anyURI .
-
-cmk:musiikkitalo-concert-hall-20241231T1800 a mo:Performance ;
-    schema:name "BACH: DIE KUNST DER FUGE" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2024-12-31T18:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/new-years-concerts-2/"^^xsd:anyURI .
 
 cmk:recorder-player a cmo:instrumentalist-identity .
 
@@ -3739,7 +4168,18 @@ cmk:altes-rathaus-regensburg-20220507T1930 a mo:Performance ;
     schema:url "https://www.hebo.fi/tapahtuma/bach-handel-vivaldi-2/"^^xsd:anyURI .
 
 cmk:bach-brandenburg-concertos a cmo:Programme ;
-    rdfs:label "Bach: Brandenburg Concertos" .
+    rdfs:label "Bach: Brandenburg Concertos" ;
+    cmo:is-performed-at cmk:auditorio-victor-villegas-murcia-20211215T2000,
+        cmk:old-church-20211209T1900,
+        cmk:rioja-forum-logrono-20211210T2030,
+        cmk:teatro-auditorio-jose-luis-perales-cuenca-20211214T2030 ;
+    schema:hasPart cmk:composition-brandenburg-concertos-johann-sebastian-bach .
+
+cmk:cathedrale-de-lausanne-20201106T2000 a mo:Performance ;
+    schema:name "CANCELLED Bach: St Matthew Passion" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-11-06T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/j-s-bach-st-matthew-passion/"^^xsd:anyURI .
 
 cmk:church-of-the-holy-cross-20220505T1900 a mo:Performance ;
     cmo:has-programme cmk:bach-handel-vivaldi ;
@@ -3747,12 +4187,6 @@ cmk:church-of-the-holy-cross-20220505T1900 a mo:Performance ;
     schema:organizer cmk:hebo ;
     schema:startDate "2022-05-05T19:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/bach-handel-vivaldi/"^^xsd:anyURI .
-
-cmk:concertgebouw-amsterdam-20241116T1300 a mo:Performance ;
-    schema:name "Mozart: Idomeneo" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2024-11-16T13:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/mozart-idomeneo-2/"^^xsd:anyURI .
 
 cmk:helsinki-baroque-orchestra a foaf:Group,
         cmo:ensemble-identity,
@@ -3850,15 +4284,12 @@ cmk:helsinki-baroque-orchestra a foaf:Group,
         cmk:varna-summer-international-music-festival-20220914T1900,
         cmk:viljandi-early-music-festival-20230708T1900 .
 
-cmk:kulturzentrum-herne-20241117T1900 a mo:Performance ;
-    schema:name "Mozart: Idomeneo" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2024-11-17T19:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/mozart-idomeneo-3/"^^xsd:anyURI .
-
 cmk:machaut-messe-de-nostre-dame a mo:MusicalWork,
         cmo:Programme ;
-    rdfs:label "Machaut: Messe de Nostre Dame" .
+    rdfs:label "Machaut: Messe de Nostre Dame" ;
+    cmo:is-performed-at cmk:stor-sarvlaks-manor-20240627T1900,
+        cmk:tarinmaa-janakkala-20240628T2000 ;
+    schema:hasPart cmk:composition-messe-de-nostre-dame-guillaume-de-machaut .
 
 cmk:musiikkitalo-20250928T1600 a mo:Performance ;
     cmo:performs-in cmk:orfeo-orchestra,
@@ -3874,12 +4305,6 @@ cmk:musiikkitalo-20251231T2000 a mo:Performance ;
     schema:startDate "2025-12-31T20:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/new-years-concert-alla-napoletana/"^^xsd:anyURI .
 
-cmk:musiikkitalo-20260208T1600 a mo:Performance ;
-    schema:name "Delirio Amoroso" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2026-02-08T16:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/delirio-amoroso/"^^xsd:anyURI .
-
 cmk:musiikkitalo-concert-hall-20220508T1800 a mo:Performance ;
     cmo:has-programme cmk:bach-handel-vivaldi ;
     schema:name "Bach, Handel, Vivaldi" ;
@@ -3887,11 +4312,18 @@ cmk:musiikkitalo-concert-hall-20220508T1800 a mo:Performance ;
     schema:startDate "2022-05-08T18:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/mothers-day-concert/"^^xsd:anyURI .
 
-cmk:musiikkitalo-concert-hall-20241110T0000 a mo:Performance ;
-    schema:name "Mozart: Idomeneo" ;
+cmk:musiikkitalo-concert-hall-20221016T1600 a mo:Performance ;
+    cmo:has-programme cmk:helsinki-baroque-orchestra-25-years ;
+    schema:name "Helsinki Baroque Orchestra 25 Years!" ;
     schema:organizer cmk:hebo ;
-    schema:startDate "2024-11-10T00:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/mozart-idomeneo/"^^xsd:anyURI .
+    schema:startDate "2022-10-16T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/helsinki-baroque-orchestra-25-years/"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20241231T1800 a mo:Performance ;
+    schema:name "BACH: DIE KUNST DER FUGE" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-12-31T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/new-years-concerts-2/"^^xsd:anyURI .
 
 cmk:musiikkitalo-concert-hall-20241231T2000 a mo:Performance ;
     schema:name "BACH, HÄNDEL, RAMEAU, VIVALDI" ;
@@ -3914,12 +4346,6 @@ cmk:orangerieschloss-sanssouci-potsdam-20260628T2100 a mo:Performance ;
     schema:startDate "2026-06-28T21:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/mittsommernachtstraum/"^^xsd:anyURI .
 
-cmk:paulinum-leipzig-20260621T1500 a mo:Performance ;
-    schema:name "No 210 Wettstreit der Instrumente"^^xsd:string ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2026-06-21T15:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/johan-sebastian-bach/"^^xsd:anyURI .
-
 cmk:stor-sarvlaks-manor-courtyard-20260626T1900 a mo:Performance ;
     cmo:has-programme cmk:baroque-and-folk-music-in-the-park ;
     schema:location cmk:stor-sarvlaks-manor-courtyard ;
@@ -3927,12 +4353,6 @@ cmk:stor-sarvlaks-manor-courtyard-20260626T1900 a mo:Performance ;
     schema:organizer cmk:hebo ;
     schema:startDate "2026-06-26T19:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/baroque-and-folk-music-in-the-park/"^^xsd:anyURI .
-
-cmk:vaasa-city-hall-20211014T1900 a mo:Performance ;
-    schema:name "Haydn: L'isola disabitata" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2021-10-14T19:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/7203/"^^xsd:anyURI .
 
 cmk:viola-da-gambist a cmo:musical-identity .
 
@@ -3956,14 +4376,14 @@ cmk:church-of-the-holy-cross-rauma-20251213T1900 a mo:Performance ;
     schema:startDate "2025-12-13T19:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/christmas-concert-13/"^^xsd:anyURI .
 
+cmk:concertgebouw-amsterdam-20241116T1300 a mo:Performance ;
+    schema:name "Mozart: Idomeneo" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-11-16T13:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/mozart-idomeneo-2/"^^xsd:anyURI .
+
 cmk:countertenor a cmo:musical-identity,
         cmo:voice-range .
-
-cmk:days-of-early-music-vac-20210710T2000 a mo:Performance ;
-    schema:name "Graun/Bach: Pasticcio Passion" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2021-07-10T20:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/graun-bach-pasticcio-passion/"^^xsd:anyURI .
 
 cmk:finnish-national-opera-almi-hall-20200610T0000 a mo:Performance ;
     cmo:performs-in-programme cmk:saarinen-monteverdi-third-practice ;
@@ -3971,6 +4391,92 @@ cmk:finnish-national-opera-almi-hall-20200610T0000 a mo:Performance ;
     schema:organizer cmk:hebo ;
     schema:startDate "2020-06-10T00:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/tero-saarinen-claudio-monteverdi-third-practice-3/"^^xsd:anyURI .
+
+cmk:kulturzentrum-herne-20241117T1900 a mo:Performance ;
+    schema:name "Mozart: Idomeneo" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-11-17T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/mozart-idomeneo-3/"^^xsd:anyURI .
+
+cmk:musiikkitalo a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Musiikkitalo (Helsinki Music Centre), Concert Hall",
+        "Musiikkitalo, Concert Hall",
+        "Musiikkitalo, Concert Hall"^^xsd:string .
+
+cmk:musiikkitalo-20250323T1600 a mo:Performance ;
+    schema:name "Turku 1825" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2025-03-23T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/turku-1825/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20260208T1600 a mo:Performance ;
+    schema:name "Delirio Amoroso" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-02-08T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/delirio-amoroso/"^^xsd:anyURI .
+
+cmk:musiikkitalo-20260419T1600 a mo:Performance ;
+    schema:name "Baroque Opera Gala"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-04-19T16:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/baroque-opera-gala/"^^xsd:anyURI .
+
+cmk:musiikkitalo-concert-hall-20241110T0000 a mo:Performance ;
+    schema:name "Mozart: Idomeneo" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-11-10T00:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/mozart-idomeneo/"^^xsd:anyURI .
+
+cmk:old-church-20240921T1900 a mo:Performance ;
+    schema:name "Mare nostrum – Musica Baltica & Mediterranea" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-09-21T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/mare-nostrum-musica-baltica-mediterranea/"^^xsd:anyURI .
+
+cmk:paulinum-leipzig-20260621T1500 a mo:Performance ;
+    schema:name "No 210 Wettstreit der Instrumente"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2026-06-21T15:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/johan-sebastian-bach/"^^xsd:anyURI .
+
+cmk:sibelius-academy-concert-hall-20241029T1900 a mo:Performance ;
+    schema:name "Schubert, Schönberg" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2024-10-29T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/schubert-schonberg/"^^xsd:anyURI .
+
+cmk:vaasa-city-hall-20211014T1900 a mo:Performance ;
+    schema:name "Haydn: L'isola disabitata" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-10-14T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/7203/"^^xsd:anyURI .
+
+cmk:webinar-tempo-rubato-20210502T1500 a mo:Performance ;
+    schema:name "COLLOQUIUM: Tempo Rubato – Use, Flexibility and Modification of Time" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-05-02T15:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/webinar-tempo-rubato-use-flexibility-and-modification-of-time/"^^xsd:anyURI .
+
+cmk:church-of-the-holy-cross-rauma-20210331T1900 a mo:Performance ;
+    cmo:has-programme cmk:machaut-messe-de-nostre-dame ;
+    schema:name "CANCELLED Machaut: Messe de Nostre Dame"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-03-31T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/machaut-messe-de-nostre-dame-4/"^^xsd:anyURI .
+
+cmk:days-of-early-music-vac-20210710T2000 a mo:Performance ;
+    schema:name "Graun/Bach: Pasticcio Passion" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-07-10T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/graun-bach-pasticcio-passion/"^^xsd:anyURI .
+
+cmk:janakkala-20200628T1800 a mo:Performance ;
+    cmo:performs-in-programme cmk:janakkala-baroque-2020 ;
+    schema:name "CANCELLED Janakkala Baroque 2020" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-06-28T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/janakkala-baroque-2020/"^^xsd:anyURI .
 
 cmk:liszt-academy-budapest-20251020T1930 a mo:Performance ;
     cmo:performs-in cmk:helsinki-baroque-orchestra,
@@ -3980,11 +4486,12 @@ cmk:liszt-academy-budapest-20251020T1930 a mo:Performance ;
     schema:startDate "2025-10-20T19:30:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/cartellieri-rubezahl-2/"^^xsd:anyURI .
 
-cmk:musiikkitalo a cmo:ConcertHall,
-        cmo:Venue ;
-    rdfs:label "Musiikkitalo (Helsinki Music Centre), Concert Hall",
-        "Musiikkitalo, Concert Hall",
-        "Musiikkitalo, Concert Hall"^^xsd:string .
+cmk:musiikkitalo-20210402T1800 a mo:Performance ;
+    cmo:has-programme cmk:machaut-messe-de-nostre-dame ;
+    schema:name "CANCELLED Machaut: Messe de Nostre Dame"^^xsd:string ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-04-02T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/machaut-messe-de-nostre-dame-3/"^^xsd:anyURI .
 
 cmk:musiikkitalo-20211003T0000 a mo:Performance ;
     schema:name "Monteverdi | Purcell | Wagner: Liebestod" ;
@@ -3998,12 +4505,6 @@ cmk:musiikkitalo-20231217T1600 a mo:Performance ;
     schema:startDate "2023-12-17T16:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/christmas-concert-5/"^^xsd:anyURI .
 
-cmk:musiikkitalo-20250323T1600 a mo:Performance ;
-    schema:name "Turku 1825" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2025-03-23T16:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/turku-1825/"^^xsd:anyURI .
-
 cmk:musiikkitalo-20251018T1900 a mo:Performance ;
     cmo:performs-in cmk:helsinki-baroque-orchestra,
         cmk:purcell-choir ;
@@ -4011,12 +4512,6 @@ cmk:musiikkitalo-20251018T1900 a mo:Performance ;
     schema:organizer cmk:hebo ;
     schema:startDate "2025-10-18T19:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/cartellieri-rubezahl/"^^xsd:anyURI .
-
-cmk:musiikkitalo-20260419T1600 a mo:Performance ;
-    schema:name "Baroque Opera Gala"^^xsd:string ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2026-04-19T16:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/baroque-opera-gala/"^^xsd:anyURI .
 
 cmk:musiikkitalo-concert-hall-20241222T1600 a mo:Performance ;
     schema:name "Christmas Concert" ;
@@ -4037,18 +4532,6 @@ cmk:national-opera-almi-hall-20240201T1900 a mo:Performance ;
     schema:startDate "2024-02-01T19:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/caccini-the-isle-of-alcina/"^^xsd:anyURI .
 
-cmk:old-church-20240921T1900 a mo:Performance ;
-    schema:name "Mare nostrum – Musica Baltica & Mediterranea" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2024-09-21T19:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/mare-nostrum-musica-baltica-mediterranea/"^^xsd:anyURI .
-
-cmk:sibelius-academy-concert-hall-20241029T1900 a mo:Performance ;
-    schema:name "Schubert, Schönberg" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2024-10-29T19:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/schubert-schonberg/"^^xsd:anyURI .
-
 cmk:sibelius-academy-concert-hall-20261122T1600 a mo:Performance ;
     cmo:has-programme cmk:string-sextets ;
     schema:location cmk:sibelius-academy-concert-hall ;
@@ -4062,6 +4545,12 @@ cmk:st-lawrence-church-vantaa-20200806T1900 a mo:Performance ;
     schema:organizer cmk:hebo ;
     schema:startDate "2020-08-06T19:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/bach-kirchoff-reincken-2/"^^xsd:anyURI .
+
+cmk:st-pauls-church-helsinki-20200912T1900 a mo:Performance ;
+    schema:name "Bach, Charpentier" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2020-09-12T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/bach-charpentier/"^^xsd:anyURI .
 
 cmk:stor-sarvlaks-manor-20240627T1900 a mo:Performance ;
     cmo:has-programme cmk:machaut-messe-de-nostre-dame ;
@@ -4083,12 +4572,6 @@ cmk:theater-an-der-wien-20231218T1900 a mo:Performance ;
     schema:startDate "2023-12-18T19:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/galuppi-caduta-di-adamo/"^^xsd:anyURI .
 
-cmk:webinar-tempo-rubato-20210502T1500 a mo:Performance ;
-    schema:name "COLLOQUIUM: Tempo Rubato – Use, Flexibility and Modification of Time" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2021-05-02T15:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/webinar-tempo-rubato-use-flexibility-and-modification-of-time/"^^xsd:anyURI .
-
 cmk:buda-castle-haydneum-festival-budapest-20231110T1930 a mo:Performance ;
     cmo:has-programme cmk:haydn-missa-cellensis ;
     cmo:takes-place-at cmk:buda-castle-haydneum-festival-budapest ;
@@ -4096,13 +4579,6 @@ cmk:buda-castle-haydneum-festival-budapest-20231110T1930 a mo:Performance ;
     schema:organizer cmk:hebo ;
     schema:startDate "2023-11-10T19:30:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/haydn-missa-cellensis/"^^xsd:anyURI .
-
-cmk:church-of-the-holy-cross-rauma-20210331T1900 a mo:Performance ;
-    cmo:has-programme cmk:machaut-messe-de-nostre-dame ;
-    schema:name "CANCELLED Machaut: Messe de Nostre Dame"^^xsd:string ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2021-03-31T19:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/machaut-messe-de-nostre-dame-4/"^^xsd:anyURI .
 
 cmk:eglise-st-francois-lausanne-20211112T2000 a mo:Performance ;
     cmo:has-programme cmk:bach-st-matthew-passion ;
@@ -4127,20 +4603,6 @@ cmk:finlandia-hall-20211121T1600 a mo:Performance ;
     schema:startDate "2021-11-21T16:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/le-retour-des-dieux-sur-la-terre-le-caprice-derato/"^^xsd:anyURI .
 
-cmk:janakkala-20200628T1800 a mo:Performance ;
-    cmo:performs-in-programme cmk:janakkala-baroque-2020 ;
-    schema:name "CANCELLED Janakkala Baroque 2020" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2020-06-28T18:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/janakkala-baroque-2020/"^^xsd:anyURI .
-
-cmk:musiikkitalo-20210402T1800 a mo:Performance ;
-    cmo:has-programme cmk:machaut-messe-de-nostre-dame ;
-    schema:name "CANCELLED Machaut: Messe de Nostre Dame"^^xsd:string ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2021-04-02T18:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/machaut-messe-de-nostre-dame-3/"^^xsd:anyURI .
-
 cmk:musiikkitalo-20251221T1600 a mo:Performance ;
     schema:name "Christmas Concert" ;
     schema:organizer cmk:hebo ;
@@ -4160,6 +4622,9 @@ cmk:musiikkitalo-concert-hall-20220410T1600 a mo:Performance ;
     schema:startDate "2022-04-10T16:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/graun-bach-passions-oratorium/"^^xsd:anyURI .
 
+cmk:organist a cmo:instrumentalist-identity,
+        cmo:musical-identity .
+
 cmk:st-johns-church-helsinki-20211106T1800 a mo:Performance ;
     cmo:has-programme cmk:bach-st-matthew-passion ;
     schema:location cmk:st-johns-church-helsinki ;
@@ -4168,11 +4633,8 @@ cmk:st-johns-church-helsinki-20211106T1800 a mo:Performance ;
     schema:startDate "2021-11-06T18:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/bach-st-matthew-passion-3/"^^xsd:anyURI .
 
-cmk:st-pauls-church-helsinki-20200912T1900 a mo:Performance ;
-    schema:name "Bach, Charpentier" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2020-09-12T19:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/bach-charpentier/"^^xsd:anyURI .
+cmk:alto a cmo:musical-identity,
+        cmo:voice-range .
 
 cmk:mupa-budapest-20201116T1900 a mo:Performance ;
     schema:name "POSTPONED Schumann: Genoveva" ;
@@ -4192,9 +4654,6 @@ cmk:musiikkitalo-20260303T0000 a mo:Performance ;
     schema:startDate "2026-03-03T00:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/schumann-requiem-cello-concerto/"^^xsd:anyURI .
 
-cmk:organist a cmo:instrumentalist-identity,
-        cmo:musical-identity .
-
 cmk:temppeliaukio-church-20260519T1900 a mo:Performance ;
     schema:name "Cartellieri, Ryba: Stabat Mater"^^xsd:string ;
     schema:organizer cmk:hebo ;
@@ -4209,8 +4668,8 @@ cmk:theater-an-der-wien-20261220T1900 a mo:Performance ;
     schema:startDate "2026-12-20T19:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/vivaldi-juditha-triumphans-3/"^^xsd:anyURI .
 
-cmk:alto a cmo:musical-identity,
-        cmo:voice-range .
+cmk:harpsichordist a cmo:instrumentalist-identity,
+        cmo:musical-identity .
 
 cmk:musiikkitalo-20261222T1900 a mo:Performance ;
     cmo:has-programme cmk:vivaldi-juditha-triumphans ;
@@ -4234,8 +4693,8 @@ cmk:alexander-theatre-20230922T0000 a mo:Performance ;
     schema:startDate "2023-09-22T00:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/vivaldi-ottone-in-villa/"^^xsd:anyURI .
 
-cmk:harpsichordist a cmo:instrumentalist-identity,
-        cmo:musical-identity .
+cmk:mezzo-soprano a cmo:musical-identity,
+        cmo:voice-range .
 
 cmk:musiikkitalo-20230926T1900 a mo:Performance ;
     cmo:has-programme cmk:rameau-les-boreades ;
@@ -4252,14 +4711,32 @@ cmk:musiikkitalo-concert-hall-20230129T1600 a mo:Performance ;
     schema:startDate "2023-01-29T16:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/pergolesi-lo-frate-nnamorato/"^^xsd:anyURI .
 
+cmk:bass a cmo:musical-identity,
+        cmo:voice-range .
+
+cmk:elbphilharmonie-hamburg-20210529T2000 a mo:Performance ;
+    schema:name "CANCELLED Schumann: Genoveva" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-05-29T20:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/schumann-genoveva-6/"^^xsd:anyURI .
+
+cmk:kulturpalast-dresden-20210527T1930 a mo:Performance ;
+    schema:name "CANCELLED Schumann: Genoveva" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-05-27T19:30:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/schumann-genoveva-7/"^^xsd:anyURI .
+
 cmk:kulturpalast-dresden-20230604T1930 a mo:Performance ;
     schema:name "Schumann: Genoveva" ;
     schema:organizer cmk:hebo ;
     schema:startDate "2023-06-04T19:30:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/schumann-genoveva-11/"^^xsd:anyURI .
 
-cmk:mezzo-soprano a cmo:musical-identity,
-        cmo:voice-range .
+cmk:mupa-budapest-20210524T1900 a mo:Performance ;
+    schema:name "CANCELLED Schumann: Genoveva" ;
+    schema:organizer cmk:hebo ;
+    schema:startDate "2021-05-24T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.hebo.fi/tapahtuma/schumann-genoveva-8/"^^xsd:anyURI .
 
 cmk:musiikkitalo-20201025T0000 a mo:Performance ;
     schema:name "POSTPONED Schumann: Genoveva" ;
@@ -4279,27 +4756,6 @@ cmk:tonhalle-dusseldorf-20230602T2000 a mo:Performance ;
     schema:startDate "2023-06-02T20:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/schumann-genoveva-10/"^^xsd:anyURI .
 
-cmk:bass a cmo:musical-identity,
-        cmo:voice-range .
-
-cmk:elbphilharmonie-hamburg-20210529T2000 a mo:Performance ;
-    schema:name "CANCELLED Schumann: Genoveva" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2021-05-29T20:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/schumann-genoveva-6/"^^xsd:anyURI .
-
-cmk:kulturpalast-dresden-20210527T1930 a mo:Performance ;
-    schema:name "CANCELLED Schumann: Genoveva" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2021-05-27T19:30:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/schumann-genoveva-7/"^^xsd:anyURI .
-
-cmk:mupa-budapest-20210524T1900 a mo:Performance ;
-    schema:name "CANCELLED Schumann: Genoveva" ;
-    schema:organizer cmk:hebo ;
-    schema:startDate "2021-05-24T19:00:00"^^xsd:dateTime ;
-    schema:url "https://www.hebo.fi/tapahtuma/schumann-genoveva-8/"^^xsd:anyURI .
-
 cmk:musiikkitalo-20201025T1600 a mo:Performance ;
     schema:name "Bach: Mass in B Minor" ;
     schema:organizer cmk:hebo ;
@@ -4318,6 +4774,9 @@ cmk:tonhalle-dusseldorf-20210530T2000 a mo:Performance ;
     schema:startDate "2021-05-30T20:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/schumann-genoveva-5/"^^xsd:anyURI .
 
+cmk:baritone a cmo:musical-identity,
+        cmo:voice-range .
+
 cmk:mupa-budapest-20221117T1900 a mo:Performance ;
     cmo:has-programme cmk:schubert-alfonso-und-estrella ;
     schema:name "Schubert: Alfonso und Estrella" ;
@@ -4331,9 +4790,6 @@ cmk:musiikkitalo-concert-hall-20221113T1900 a mo:Performance ;
     schema:organizer cmk:hebo ;
     schema:startDate "2022-11-13T19:00:00"^^xsd:dateTime ;
     schema:url "https://www.hebo.fi/tapahtuma/schubert-alfonso-und-estrella/"^^xsd:anyURI .
-
-cmk:baritone a cmo:musical-identity,
-        cmo:voice-range .
 
 cmk:violinist a cmo:instrumentalist-identity,
         cmo:musical-identity .

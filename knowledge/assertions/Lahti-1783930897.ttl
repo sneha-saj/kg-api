@@ -2,6 +2,7 @@
 @prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix mo: <http://purl.org/ontology/mo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -202,6 +203,122 @@ cmk:petrus-kahkonen a foaf:Person ;
         cmk:sibelius-hall-20261210T1300,
         cmk:sibelius-hall-20261210T1830 .
 
+cmk:programme-sibelius-hall-20260827T1830 a cmo:Programme ;
+    rdfs:label "SIBELIUS-FESTIVAALI 2026: OPENING CONCERT" ;
+    cmo:is-performed-at cmk:sibelius-hall-20260827T1830 ;
+    schema:hasPart cmk:composition-don-juan-richard-strauss,
+        cmk:composition-symphony-no-2-jean-sibelius,
+        cmk:composition-violin-concerto-jean-sibelius .
+
+cmk:programme-sibelius-hall-20260828T1830 a cmo:Programme ;
+    rdfs:label "SIBELIUS FESTIVAL 2026: SYMPHONY CONCERT" ;
+    cmo:is-performed-at cmk:sibelius-hall-20260828T1830 ;
+    schema:hasPart cmk:composition-finlandia-jean-sibelius,
+        cmk:composition-piano-concerto-ferruccio-busoni,
+        cmk:composition-symphony-no-3-jean-sibelius,
+        cmk:composition-valse-triste-jean-sibelius .
+
+cmk:programme-sibelius-hall-20260829T1430 a cmo:Programme ;
+    rdfs:label "SIBELIUS FESTIVAL 2026: CHAMBER MUSIC CONCERT" ;
+    cmo:is-performed-at cmk:sibelius-hall-20260828T1530,
+        cmk:sibelius-hall-20260829T1430 ;
+    schema:hasPart cmk:composition-four-pieces-op-115-jean-sibelius,
+        cmk:composition-sonata-for-violin-and-piano-in-e-flat-major-op-18-richard-strauss,
+        cmk:composition-three-pieces-op-116-jean-sibelius .
+
+cmk:programme-sibelius-hall-20260829T1700 a cmo:Programme ;
+    rdfs:label "SIBELIUS FESTIVAL 2026: FINAL CONCERT" ;
+    cmo:is-performed-at cmk:sibelius-hall-20260829T1700 ;
+    schema:hasPart cmk:composition-bardi-jean-sibelius,
+        cmk:composition-night-ride-and-sunrise-jean-sibelius,
+        cmk:composition-symphony-no-4-jean-sibelius,
+        cmk:composition-the-bells-sergei-rachmaninoff .
+
+cmk:programme-sibelius-hall-20260917T1830 a cmo:Programme ;
+    rdfs:label "OPENING CONCERT: SYMPHONIE FANTASTIQUE" ;
+    cmo:is-performed-at cmk:sibelius-hall-20260917T1830 ;
+    schema:hasPart cmk:composition-batteria-sauli-zinovjev,
+        cmk:composition-piano-concerto-no-2-camille-saint-saëns,
+        cmk:composition-symphonie-fantastique-hector-berlioz .
+
+cmk:programme-sibelius-hall-20261001T1830 a cmo:Programme ;
+    rdfs:label "CARMEN & ATTE KILPINEN" ;
+    cmo:is-performed-at cmk:sibelius-hall-20261001T1830 ;
+    schema:hasPart cmk:composition-carmen-suite-georges-bizet-rodion-štšedrin,
+        cmk:composition-slavonic-dances-op-46-antonín-dvořák .
+
+cmk:programme-sibelius-hall-20261008T1830 a cmo:Programme ;
+    rdfs:label "HEROIC CELLO" ;
+    cmo:is-performed-at cmk:sibelius-hall-20261008T1830 ;
+    schema:hasPart cmk:composition-sinfonia-concertante-sergei-prokofiev,
+        cmk:composition-symphony-no-2-sergei-rachmaninoff .
+
+cmk:programme-sibelius-hall-20261015T1830 a cmo:Programme ;
+    rdfs:label "THE MAGIC OF THE TRUMPET" ;
+    cmo:is-performed-at cmk:sibelius-hall-20261015T1830 ;
+    schema:hasPart cmk:composition-les-préludes-franz-liszt,
+        cmk:composition-symphony-no-4-italian-felix-mendelssohn,
+        cmk:composition-trumpet-concerto-alexander-arutiunian .
+
+cmk:programme-sibelius-hall-20261112T1830 a cmo:Programme ;
+    rdfs:label "SHOSTAKOVICH ENCRYPYTED" ;
+    cmo:is-performed-at cmk:sibelius-hall-20261112T1830 ;
+    schema:hasPart cmk:composition-symphony-no-9-dmitri-shostakovich,
+        cmk:composition-variaciones-concertantes-alberto-ginastera,
+        cmk:composition-violin-concerto-no-2-dmitri-shostakovich .
+
+cmk:programme-sibelius-hall-20261126T1830 a cmo:Programme ;
+    rdfs:label "PARISIAN DREAMS" ;
+    cmo:is-performed-at cmk:sibelius-hall-20261126T1830 ;
+    schema:hasPart cmk:composition-carmen-suite-no-1-georges-bizet,
+        cmk:composition-nights-in-the-gardens-of-spain-manuel-de-falla,
+        cmk:composition-piano-concerto-in-g-major-maurice-ravel,
+        cmk:composition-the-firebird-suite-igor-stravinsky .
+
+cmk:programme-sibelius-hall-20261206T1500 a cmo:Programme ;
+    rdfs:label "INDEPENDENCE DAY CONCERT" ;
+    cmo:is-performed-at cmk:sibelius-hall-20261206T1500 ;
+    schema:hasPart cmk:composition-day-night-day-outi-tarkiainen,
+        cmk:composition-finlandia-jean-sibelius,
+        cmk:composition-luonnotar-jean-sibelius,
+        cmk:composition-metsänhaltija-jean-sibelius .
+
+cmk:programme-sibelius-hall-20270903T1830 a cmo:Programme ;
+    rdfs:label "SIBELIUS FESTIVAL 2027: SYMPHONY CONCERT" ;
+    cmo:is-performed-at cmk:sibelius-hall-20270903T1830 ;
+    schema:hasPart cmk:composition-fantasia-poetica-väinö-raitio,
+        cmk:composition-four-humoresques-op-89-jean-sibelius,
+        cmk:composition-le-prophéte-ernst-pingoud,
+        cmk:composition-symphony-no-6-jean-sibelius,
+        cmk:composition-symphony-no-7-jean-sibelius,
+        cmk:composition-two-humoresques-op-87-jean-sibelius .
+
+cmk:programme-sibelius-hall-20270904T1700 a cmo:Programme ;
+    rdfs:label "SIBELIUS FESTIVAL 2027: FINAL CONCERT" ;
+    cmo:is-performed-at cmk:sibelius-hall-20270904T1700 ;
+    schema:hasPart cmk:composition-luonnotar-jean-sibelius,
+        cmk:composition-marea-magnus-lindberg,
+        cmk:composition-midnight-sun-variations-outi-tarkiainen,
+        cmk:composition-mirage-kaija-saariaho,
+        cmk:composition-oceanides-jean-sibelius,
+        cmk:composition-tapiola-jean-sibelius .
+
+cmk:programme-turku-concert-hall-20260821T1800 a cmo:Programme ;
+    rdfs:label "SINFONIA LAHTI & HANNU LINTU: SIBELIUS IN TURKU" ;
+    cmo:is-performed-at cmk:turku-concert-hall-20260821T1800 ;
+    schema:hasPart cmk:composition-angels-and-visitations-einojuhani-rautavaara,
+        cmk:composition-finlandia-jean-sibelius,
+        cmk:composition-music-to-the-play-death-jean-sibelius,
+        cmk:composition-symphony-no-2-jean-sibelius .
+
+cmk:programme-verkatehdas-vanaja-sali-hameenlinna-20261208T1900 a cmo:Programme ;
+    rdfs:label "JEAN SIBELIUS DAY GALA CONCERT" ;
+    cmo:is-performed-at cmk:verkatehdas-vanaja-sali-hameenlinna-20261208T1900 ;
+    schema:hasPart cmk:composition-day-night-day-outi-tarkiainen,
+        cmk:composition-finlandia-jean-sibelius,
+        cmk:composition-luonnotar-jean-sibelius,
+        cmk:composition-metsänhaltija-jean-sibelius .
+
 cmk:rajaton-vocal-ensemble a foaf:Person ;
     foaf:familyName "Vocal Ensemble" ;
     foaf:firstName "Rajaton" ;
@@ -272,17 +389,196 @@ cmk:yl-male-voice-choir a foaf:Person ;
     cmo:known-as-a cmo:ensemble ;
     cmo:performs-in cmk:sibelius-hall-20260828T1830 .
 
-cmk:sibelius-hall-20260829T1430 a mo:Performance ;
-    schema:name "SIBELIUS FESTIVAL 2026: CHAMBER MUSIC CONCERT" ;
-    schema:organizer cmk:sinfonialahti ;
-    schema:startDate "2026-08-29T14:30:00"^^xsd:dateTime ;
-    schema:url "https://sinfonialahti.fi/en/sibelius-festival/concerts/"^^xsd:anyURI .
+cmk:composition-angels-and-visitations-einojuhani-rautavaara a schema:MusicComposition ;
+    schema:composer cmk:einojuhani-rautavaara ;
+    schema:name "Angels and Visitations" .
 
-cmk:turku-concert-hall-20260821T1800 a mo:Performance ;
-    schema:name "SINFONIA LAHTI & HANNU LINTU: SIBELIUS IN TURKU" ;
-    schema:organizer cmk:sinfonialahti ;
-    schema:startDate "2026-08-21T18:00:00"^^xsd:dateTime ;
-    schema:url "https://sinfonialahti.fi/en/concerts/"^^xsd:anyURI .
+cmk:composition-bardi-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:dateCreated "1913"^^xsd:gYear ;
+    schema:name "Bardi" .
+
+cmk:composition-batteria-sauli-zinovjev a schema:MusicComposition ;
+    schema:composer cmk:sauli-zinovjev ;
+    schema:name "Batteria" .
+
+cmk:composition-carmen-suite-georges-bizet-rodion-štšedrin a schema:MusicComposition ;
+    schema:composer cmk:georges-bizet-rodion-štšedrin ;
+    schema:name "Carmen Suite" .
+
+cmk:composition-carmen-suite-no-1-georges-bizet a schema:MusicComposition ;
+    schema:composer cmk:georges-bizet ;
+    schema:name "Carmen Suite No. 1" .
+
+cmk:composition-don-juan-richard-strauss a schema:MusicComposition ;
+    schema:composer cmk:richard-strauss ;
+    schema:dateCreated "1888"^^xsd:gYear ;
+    schema:name "Don Juan" .
+
+cmk:composition-fantasia-poetica-väinö-raitio a schema:MusicComposition ;
+    schema:composer cmk:väinö-raitio ;
+    schema:dateCreated "1923"^^xsd:gYear ;
+    schema:name "Fantasia Poetica" .
+
+cmk:composition-four-humoresques-op-89-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:dateCreated "1919"^^xsd:gYear ;
+    schema:name "Four Humoresques Op. 89" .
+
+cmk:composition-four-pieces-op-115-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:dateCreated "1929"^^xsd:gYear ;
+    schema:name "Four Pieces Op. 115" .
+
+cmk:composition-le-prophéte-ernst-pingoud a schema:MusicComposition ;
+    schema:composer cmk:ernst-pingoud ;
+    schema:dateCreated "1924"^^xsd:gYear ;
+    schema:name "Le Prophéte" .
+
+cmk:composition-les-préludes-franz-liszt a schema:MusicComposition ;
+    schema:composer cmk:franz-liszt ;
+    schema:name "Les Préludes" .
+
+cmk:composition-marea-magnus-lindberg a schema:MusicComposition ;
+    schema:composer cmk:magnus-lindberg ;
+    schema:dateCreated "1990"^^xsd:gYear ;
+    schema:name "Marea" .
+
+cmk:composition-midnight-sun-variations-outi-tarkiainen a schema:MusicComposition ;
+    schema:composer cmk:outi-tarkiainen ;
+    schema:dateCreated "2019"^^xsd:gYear ;
+    schema:name "Midnight Sun Variations" .
+
+cmk:composition-mirage-kaija-saariaho a schema:MusicComposition ;
+    schema:composer cmk:kaija-saariaho ;
+    schema:dateCreated "2007"^^xsd:gYear ;
+    schema:name "Mirage" .
+
+cmk:composition-music-to-the-play-death-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:name "Music to the play Death" .
+
+cmk:composition-night-ride-and-sunrise-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:dateCreated "1908"^^xsd:gYear ;
+    schema:name "Night Ride and Sunrise" .
+
+cmk:composition-nights-in-the-gardens-of-spain-manuel-de-falla a schema:MusicComposition ;
+    schema:composer cmk:manuel-de-falla ;
+    schema:name "Nights in the Gardens of Spain" .
+
+cmk:composition-oceanides-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:dateCreated "1914"^^xsd:gYear ;
+    schema:name "Oceanides" .
+
+cmk:composition-piano-concerto-ferruccio-busoni a schema:MusicComposition ;
+    schema:composer cmk:ferruccio-busoni ;
+    schema:dateCreated "1903"^^xsd:gYear ;
+    schema:name "Piano Concerto" .
+
+cmk:composition-piano-concerto-in-g-major-maurice-ravel a schema:MusicComposition ;
+    schema:composer cmk:maurice-ravel ;
+    schema:name "Piano Concerto in G major" .
+
+cmk:composition-piano-concerto-no-2-camille-saint-saëns a schema:MusicComposition ;
+    schema:composer cmk:camille-saint-saëns ;
+    schema:name "Piano Concerto No. 2" .
+
+cmk:composition-sinfonia-concertante-sergei-prokofiev a schema:MusicComposition ;
+    schema:composer cmk:sergei-prokofiev ;
+    schema:name "Sinfonia Concertante" .
+
+cmk:composition-slavonic-dances-op-46-antonín-dvořák a schema:MusicComposition ;
+    schema:composer cmk:antonín-dvořák ;
+    schema:name "Slavonic Dances, Op. 46" .
+
+cmk:composition-sonata-for-violin-and-piano-in-e-flat-major-op-18-richard-strauss a schema:MusicComposition ;
+    schema:composer cmk:richard-strauss ;
+    schema:dateCreated "1887"^^xsd:gYear ;
+    schema:name "Sonata for Violin and Piano in E Flat Major, Op. 18" .
+
+cmk:composition-symphonie-fantastique-hector-berlioz a schema:MusicComposition ;
+    schema:composer cmk:hector-berlioz ;
+    schema:name "Symphonie fantastique" .
+
+cmk:composition-symphony-no-2-sergei-rachmaninoff a schema:MusicComposition ;
+    schema:composer cmk:sergei-rachmaninoff ;
+    schema:name "Symphony No. 2" .
+
+cmk:composition-symphony-no-3-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:dateCreated "1907"^^xsd:gYear ;
+    schema:name "Symphony No. 3" .
+
+cmk:composition-symphony-no-4-italian-felix-mendelssohn a schema:MusicComposition ;
+    schema:composer cmk:felix-mendelssohn ;
+    schema:name "Symphony No. 4 'Italian'" .
+
+cmk:composition-symphony-no-4-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:dateCreated "1911"^^xsd:gYear ;
+    schema:name "Symphony No. 4" .
+
+cmk:composition-symphony-no-6-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:dateCreated "1923"^^xsd:gYear ;
+    schema:name "Symphony No. 6" .
+
+cmk:composition-symphony-no-7-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:dateCreated "1924"^^xsd:gYear ;
+    schema:name "Symphony No. 7" .
+
+cmk:composition-symphony-no-9-dmitri-shostakovich a schema:MusicComposition ;
+    schema:composer cmk:dmitri-shostakovich ;
+    schema:name "Symphony No. 9" .
+
+cmk:composition-tapiola-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:dateCreated "1926"^^xsd:gYear ;
+    schema:name "Tapiola" .
+
+cmk:composition-the-bells-sergei-rachmaninoff a schema:MusicComposition ;
+    schema:composer cmk:sergei-rachmaninoff ;
+    schema:dateCreated "1913"^^xsd:gYear ;
+    schema:name "The Bells" .
+
+cmk:composition-the-firebird-suite-igor-stravinsky a schema:MusicComposition ;
+    schema:composer cmk:igor-stravinsky ;
+    schema:name "The Firebird, Suite" .
+
+cmk:composition-three-pieces-op-116-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:dateCreated "1929"^^xsd:gYear ;
+    schema:name "Three Pieces Op. 116" .
+
+cmk:composition-trumpet-concerto-alexander-arutiunian a schema:MusicComposition ;
+    schema:composer cmk:alexander-arutiunian ;
+    schema:name "Trumpet Concerto" .
+
+cmk:composition-two-humoresques-op-87-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:dateCreated "1919"^^xsd:gYear ;
+    schema:name "Two Humoresques Op. 87" .
+
+cmk:composition-valse-triste-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:dateCreated "1904"^^xsd:gYear ;
+    schema:name "Valse Triste" .
+
+cmk:composition-variaciones-concertantes-alberto-ginastera a schema:MusicComposition ;
+    schema:composer cmk:alberto-ginastera ;
+    schema:name "Variaciones concertantes" .
+
+cmk:composition-violin-concerto-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:dateCreated "1905"^^xsd:gYear ;
+    schema:name "Violin Concerto" .
+
+cmk:composition-violin-concerto-no-2-dmitri-shostakovich a schema:MusicComposition ;
+    schema:composer cmk:dmitri-shostakovich ;
+    schema:name "Violin Concerto No. 2" .
 
 cmo:baritone a cmo:musical-identity .
 
@@ -294,16 +590,23 @@ cmo:tenor a cmo:musical-identity .
 
 cmo:trumpeter a cmo:musical-identity .
 
-cmk:sibelius-hall-20260827T1830 a mo:Performance ;
-    schema:name "SIBELIUS-FESTIVAALI 2026: OPENING CONCERT" ;
-    schema:organizer cmk:sinfonialahti ;
-    schema:startDate "2026-08-27T18:30:00"^^xsd:dateTime ;
-    schema:url "https://sinfonialahti.fi/en/sibelius-festival/concerts/"^^xsd:anyURI .
+cmk:composition-day-night-day-outi-tarkiainen a schema:MusicComposition ;
+    schema:composer cmk:outi-tarkiainen ;
+    schema:name "Day Night Day" .
 
-cmk:sibelius-hall-20260828T1530 a mo:Performance ;
+cmk:composition-metsänhaltija-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:name "Metsänhaltija" .
+
+cmk:composition-symphony-no-2-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:dateCreated "1902"^^xsd:gYear ;
+    schema:name "Symphony No. 2" .
+
+cmk:sibelius-hall-20260829T1430 a mo:Performance ;
     schema:name "SIBELIUS FESTIVAL 2026: CHAMBER MUSIC CONCERT" ;
     schema:organizer cmk:sinfonialahti ;
-    schema:startDate "2026-08-28T15:30:00"^^xsd:dateTime ;
+    schema:startDate "2026-08-29T14:30:00"^^xsd:dateTime ;
     schema:url "https://sinfonialahti.fi/en/sibelius-festival/concerts/"^^xsd:anyURI .
 
 cmk:sibelius-hall-20260911T1300 a mo:Performance ;
@@ -317,6 +620,31 @@ cmk:sibelius-hall-20260911T1830 a mo:Performance ;
     schema:organizer cmk:sinfonialahti ;
     schema:startDate "2026-09-11T18:30:00"^^xsd:dateTime ;
     schema:url "https://sinfonialahti.fi/en/concerts/page/2/"^^xsd:anyURI .
+
+cmk:turku-concert-hall-20260821T1800 a mo:Performance ;
+    schema:name "SINFONIA LAHTI & HANNU LINTU: SIBELIUS IN TURKU" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-08-21T18:00:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/concerts/"^^xsd:anyURI .
+
+cmo:cellist a cmo:musical-identity .
+
+cmk:composition-luonnotar-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:dateCreated "1913"^^xsd:gYear ;
+    schema:name "Luonnotar" .
+
+cmk:sibelius-hall-20260827T1830 a mo:Performance ;
+    schema:name "SIBELIUS-FESTIVAALI 2026: OPENING CONCERT" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-08-27T18:30:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/sibelius-festival/concerts/"^^xsd:anyURI .
+
+cmk:sibelius-hall-20260828T1530 a mo:Performance ;
+    schema:name "SIBELIUS FESTIVAL 2026: CHAMBER MUSIC CONCERT" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-08-28T15:30:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/sibelius-festival/concerts/"^^xsd:anyURI .
 
 cmk:sibelius-hall-20260917T1830 a mo:Performance ;
     schema:name "OPENING CONCERT: SYMPHONIE FANTASTIQUE" ;
@@ -342,6 +670,18 @@ cmk:sibelius-hall-20261015T1830 a mo:Performance ;
     schema:startDate "2026-10-15T18:30:00"^^xsd:dateTime ;
     schema:url "https://sinfonialahti.fi/en/concerts/page/2/"^^xsd:anyURI .
 
+cmk:sibelius-hall-20261030T1300 a mo:Performance ;
+    schema:name "LAILA & OLAVI: UNFORGETTABLE" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-10-30T13:00:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/concerts/page/2/"^^xsd:anyURI .
+
+cmk:sibelius-hall-20261030T1830 a mo:Performance ;
+    schema:name "LAILA & OLAVI: UNFORGETTABLE" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-10-30T18:30:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/concerts/page/2/"^^xsd:anyURI .
+
 cmk:sibelius-hall-20261112T1830 a mo:Performance ;
     schema:name "SHOSTAKOVICH ENCRYPYTED" ;
     schema:organizer cmk:sinfonialahti ;
@@ -359,38 +699,6 @@ cmk:sibelius-hall-20261206T1500 a mo:Performance ;
     schema:organizer cmk:sinfonialahti ;
     schema:startDate "2026-12-06T15:00:00"^^xsd:dateTime ;
     schema:url "https://sinfonialahti.fi/en/concerts/page/3/"^^xsd:anyURI .
-
-cmk:sibelius-hall-20270903T1830 a mo:Performance ;
-    schema:name "SIBELIUS FESTIVAL 2027: SYMPHONY CONCERT" ;
-    schema:organizer cmk:sinfonialahti ;
-    schema:startDate "2027-09-03T18:30:00"^^xsd:dateTime ;
-    schema:url "https://sinfonialahti.fi/en/concerts/page/6/"^^xsd:anyURI .
-
-cmk:verkatehdas-vanaja-sali-hameenlinna-20261208T1900 a mo:Performance ;
-    schema:name "JEAN SIBELIUS DAY GALA CONCERT" ;
-    schema:organizer cmk:sinfonialahti ;
-    schema:startDate "2026-12-08T19:00:00"^^xsd:dateTime ;
-    schema:url "https://sinfonialahti.fi/en/concerts/page/3/"^^xsd:anyURI .
-
-cmo:cellist a cmo:musical-identity .
-
-cmk:sibelius-hall-20260828T1830 a mo:Performance ;
-    schema:name "SIBELIUS FESTIVAL 2026: SYMPHONY CONCERT" ;
-    schema:organizer cmk:sinfonialahti ;
-    schema:startDate "2026-08-28T18:30:00"^^xsd:dateTime ;
-    schema:url "https://sinfonialahti.fi/en/sibelius-festival/concerts/"^^xsd:anyURI .
-
-cmk:sibelius-hall-20261030T1300 a mo:Performance ;
-    schema:name "LAILA & OLAVI: UNFORGETTABLE" ;
-    schema:organizer cmk:sinfonialahti ;
-    schema:startDate "2026-10-30T13:00:00"^^xsd:dateTime ;
-    schema:url "https://sinfonialahti.fi/en/concerts/page/2/"^^xsd:anyURI .
-
-cmk:sibelius-hall-20261030T1830 a mo:Performance ;
-    schema:name "LAILA & OLAVI: UNFORGETTABLE" ;
-    schema:organizer cmk:sinfonialahti ;
-    schema:startDate "2026-10-30T18:30:00"^^xsd:dateTime ;
-    schema:url "https://sinfonialahti.fi/en/concerts/page/2/"^^xsd:anyURI .
 
 cmk:sibelius-hall-20261209T1830 a mo:Performance ;
     schema:name "SWINGING CHRISTMAS – Christmas Concert" ;
@@ -410,15 +718,38 @@ cmk:sibelius-hall-20261210T1830 a mo:Performance ;
     schema:startDate "2026-12-10T18:30:00"^^xsd:dateTime ;
     schema:url "https://sinfonialahti.fi/en/concerts/page/3/"^^xsd:anyURI .
 
+cmk:sibelius-hall-20270903T1830 a mo:Performance ;
+    schema:name "SIBELIUS FESTIVAL 2027: SYMPHONY CONCERT" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2027-09-03T18:30:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/concerts/page/6/"^^xsd:anyURI .
+
+cmk:verkatehdas-vanaja-sali-hameenlinna-20261208T1900 a mo:Performance ;
+    schema:name "JEAN SIBELIUS DAY GALA CONCERT" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-12-08T19:00:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/concerts/page/3/"^^xsd:anyURI .
+
+cmo:soprano a cmo:musical-identity .
+
+cmo:violinist a cmo:musical-identity .
+
+cmk:composition-finlandia-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:dateCreated "1900"^^xsd:gYear ;
+    schema:name "Finlandia" .
+
+cmk:sibelius-hall-20260828T1830 a mo:Performance ;
+    schema:name "SIBELIUS FESTIVAL 2026: SYMPHONY CONCERT" ;
+    schema:organizer cmk:sinfonialahti ;
+    schema:startDate "2026-08-28T18:30:00"^^xsd:dateTime ;
+    schema:url "https://sinfonialahti.fi/en/sibelius-festival/concerts/"^^xsd:anyURI .
+
 cmk:sibelius-hall-20270904T1700 a mo:Performance ;
     schema:name "SIBELIUS FESTIVAL 2027: FINAL CONCERT" ;
     schema:organizer cmk:sinfonialahti ;
     schema:startDate "2027-09-04T17:00:00"^^xsd:dateTime ;
     schema:url "https://sinfonialahti.fi/en/concerts/page/6/"^^xsd:anyURI .
-
-cmo:soprano a cmo:musical-identity .
-
-cmo:violinist a cmo:musical-identity .
 
 cmo:ensemble a cmo:musical-identity .
 

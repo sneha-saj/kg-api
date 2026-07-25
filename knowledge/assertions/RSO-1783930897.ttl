@@ -61,7 +61,11 @@ cmk:anja-bihlmaier a foaf:Person ;
     cmo:known-as-a cmk:conductor .
 
 cmk:anja-bihlmaier-and-sergei-krylov a cmo:Programme ;
-    rdfs:label "Anja Bihlmaier & Sergei Krylov" .
+    rdfs:label "Anja Bihlmaier & Sergei Krylov" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-20261030T1900 ;
+    schema:hasPart cmk:composition-offertorium-for-violin-and-orchestra-sofia-gubaidulina,
+        cmk:composition-piano-quartet-in-g-minor-arrangement-for-orchestra-johannes-brahms,
+        cmk:composition-wind-quintet-op-26-arnold-schoenberg .
 
 cmk:anna-maria-helsing a foaf:Person ;
     foaf:familyName "Helsing" ;
@@ -122,15 +126,30 @@ cmk:bertrand-chamayou a foaf:Person ;
     cmo:plays-in cmk:the-helsinki-music-centre-concert-hall-20270521T1900 .
 
 cmk:chamber-music-concert-english-phantasies a cmo:Programme ;
-    rdfs:label "Chamber Music Concert: English Phantasies" .
+    rdfs:label "Chamber Music Concert: English Phantasies" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-paavo-hall-20261011T1500 ;
+    schema:hasPart cmk:composition-flute-quintet-op-493-howard-blake,
+        cmk:composition-phantasy-op-2-benjamin-britten,
+        cmk:composition-string-quartet-no-2-frank-bridge .
 
 cmk:chamber-music-concert-insights a cmo:Programme ;
-    rdfs:label "Chamber Music Concert: Insights" .
+    rdfs:label "Chamber Music Concert: Insights" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-paavo-hall-20261108T1500 ;
+    schema:hasPart cmk:composition-fleurs-de-neige-kaija-saariaho,
+        cmk:composition-insight-dobrinka-tabakova,
+        cmk:composition-o-virtus-sapiente-arrangement-for-string-orchestra-hildegard-of-bingen,
+        cmk:composition-piano-quartet-amanda-röntgen-maier,
+        cmk:composition-three-essays-caroline-shaw .
 
 cmk:chamber-music-concert-kith-and-kin a cmo:Programme .
 
 cmk:chamber-music-concert-mountain-echoes a cmo:Programme ;
-    rdfs:label "Chamber Music Concert: Mountain Echoes" .
+    rdfs:label "Chamber Music Concert: Mountain Echoes" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-paavo-hall-20260913T1500 ;
+    schema:hasPart cmk:composition-orawa-wojciech-kilar,
+        cmk:composition-overture-op-16-mikołaj-górecki,
+        cmk:composition-string-quartet-no-1-op-37-karol-szymanowski,
+        cmk:composition-string-quartet-no-2-op-56-karol-szymanowski .
 
 cmk:chamber-music-concert-the-musical-offering a cmo:Programme .
 
@@ -200,7 +219,14 @@ cmk:elim-chan a foaf:Person ;
     cmo:known-as-a cmk:conductor .
 
 cmk:elim-chan-and-claire-de-sevigne a cmo:Programme ;
-    rdfs:label "Elim Chan & Claire de Sévigné" .
+    rdfs:label "Elim Chan & Claire de Sévigné" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-concert-hall-20260918T1900 ;
+    schema:hasPart cmk:composition-der-wind-franz-schreker,
+        cmk:composition-four-pieces-for-clarinet-and-piano-alban-berg,
+        cmk:composition-overture-bohuslav-martinů,
+        cmk:composition-petrushka-1947-version-igor-stravinsky,
+        cmk:composition-puzzles-and-games-from-alice-in-wonderland-unsuk-chin,
+        cmk:composition-suite-american-antonín-dvořák .
 
 cmk:elina-pakkila a foaf:Person ;
     foaf:familyName "Päkkilä" ;
@@ -252,10 +278,17 @@ cmk:fabien-gabel a foaf:Person ;
     cmo:known-as-a cmk:conductor .
 
 cmk:fabien-gabel-and-veronika-eberle a cmo:Programme ;
-    rdfs:label "Fabien Gabel & Veronika Eberle" .
+    rdfs:label "Fabien Gabel & Veronika Eberle" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-20261016T1900 ;
+    schema:hasPart cmk:composition-khamma-claude-debussy,
+        cmk:composition-la-péri-paul-dukas,
+        cmk:composition-scherzo-fantastique-igor-stravinsky,
+        cmk:composition-violin-concerto-no-1-béla-bartók .
 
 cmk:fairytale-concert a cmo:Programme ;
-    rdfs:label "Fairytale Concert" .
+    rdfs:label "Fairytale Concert" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-concert-hall-20260917T1000 ;
+    schema:hasPart cmk:composition-petrushka-1947-version-igor-stravinsky .
 
 cmk:fairytale-concert-in-finnish a cmo:Programme .
 
@@ -304,7 +337,11 @@ cmk:hannu-lintu a foaf:Person ;
     cmo:known-as-a cmk:conductor .
 
 cmk:hannu-lintu-and-mihails-culpajevs a cmo:Programme ;
-    rdfs:label "Hannu Lintu & Mihails Čuļpajevs" .
+    rdfs:label "Hannu Lintu & Mihails Čuļpajevs" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-concert-hall-20260923T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260924T1900 ;
+    schema:hasPart cmk:composition-a-faust-symphony-franz-liszt,
+        cmk:composition-symphony-no-3-song-of-the-night-karol-szymanowski .
 
 cmk:heidi-melton a foaf:Person ;
     foaf:familyName "Melton" ;
@@ -330,7 +367,17 @@ cmk:helsinki-music-centre-choir a cmo:ensemble-identity ;
     rdfs:label "Helsinki Music Centre Choir" .
 
 cmk:il-prete-rosso-hommage-a-antonio-vivaldi a cmo:Programme ;
-    rdfs:label "Il prete rosso - Hommage à Antonio Vivaldi" .
+    rdfs:label "Il prete rosso - Hommage à Antonio Vivaldi" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-20261002T1900 ;
+    schema:hasPart cmk:composition-aria-cara-sorte-di-chi-nata-from-la-verità-in-cimento-antonio-vivaldi,
+        cmk:composition-aria-gemo-in-un-punto-e-fremo-from-farnace-and-lolimpiade-antonio-vivaldi,
+        cmk:composition-aria-sonno-se-pur-tu-sonno-from-tito-manlio-antonio-vivaldi,
+        cmk:composition-cantata-cessate-omai-cessate-rv-684-antonio-vivaldi,
+        cmk:composition-concerto-for-oboe-strings-and-basso-continuo-antonio-vivaldi,
+        cmk:composition-concerto-for-strings-in-c-major-rv-114-antonio-vivaldi,
+        cmk:composition-concerto-for-strings-in-g-minor-rv-157-antonio-vivaldi,
+        cmk:composition-nisi-dominus-rv-608-psalm-127-antonio-vivaldi,
+        cmk:composition-sonata-al-santo-sepolcro-in-e-flat-major-rv-130-antonio-vivaldi .
 
 cmk:ilmo-ranta a foaf:Person ;
     foaf:familyName "Ranta" ;
@@ -727,16 +774,35 @@ cmk:nicholas-collon a foaf:Person ;
     cmo:known-as-a cmk:conductor .
 
 cmk:nicholas-collon-and-antoine-tamestit a cmo:Programme ;
-    rdfs:label "Nicholas Collon & Antoine Tamestit" .
+    rdfs:label "Nicholas Collon & Antoine Tamestit" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-concert-hall-20260909T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260910T1900 ;
+    schema:hasPart cmk:composition-concert-overture-karol-szymanowski,
+        cmk:composition-excerpts-from-romeo-and-juliet-sergei-prokofiev,
+        cmk:composition-viola-concerto-sofia-gubaidulina .
 
 cmk:nicholas-collon-and-ava-bahari a cmo:Programme ;
-    rdfs:label "Nicholas Collon & Ava Bahari" .
+    rdfs:label "Nicholas Collon & Ava Bahari" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-20261007T1900,
+        cmk:the-helsinki-music-centre-20261008T1900 ;
+    schema:hasPart cmk:composition-fantasia-on-a-theme-by-thomas-tallis-ralph-vaughan-williams,
+        cmk:composition-symphony-no-11-the-year-1905-dmitri-shostakovich,
+        cmk:composition-violin-concerto-antti-auvinen .
 
 cmk:nicholas-collon-and-senja-rummukainen a cmo:Programme ;
-    rdfs:label "Nicholas Collon & Senja Rummukainen" .
+    rdfs:label "Nicholas Collon & Senja Rummukainen" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-20261104T1900,
+        cmk:the-helsinki-music-centre-20261105T1900 ;
+    schema:hasPart cmk:composition-cello-concerto-no-1-in-c-major-joseph-haydn,
+        cmk:composition-symphony-no-9-gustav-mahler .
 
 cmk:nicholas-collon-and-steven-osborne a cmo:Programme ;
-    rdfs:label "Nicholas Collon & Steven Osborne" .
+    rdfs:label "Nicholas Collon & Steven Osborne" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-20261113T1900 ;
+    schema:hasPart cmk:composition-hommage-à-tseliot-sofia-gubaidulina,
+        cmk:composition-piano-concerto-benjamin-britten,
+        cmk:composition-symphony-no-1-jean-sibelius,
+        cmk:composition-verdigris-lotta-wennäkoski .
 
 cmk:niina-keitel a foaf:Person ;
     foaf:familyName "Keitel" ;
@@ -811,6 +877,121 @@ cmk:piia-komsi a foaf:Person ;
     foaf:firstName "Piia" ;
     cmo:known-as-a cmk:soprano ;
     cmo:sings-in cmk:the-helsinki-music-centre-20261113T1900 .
+
+cmk:programme-alte-oper-20261118T0000 a cmo:Programme ;
+    rdfs:label "Guest Performance: Frankfurt" ;
+    cmo:is-performed-at cmk:alte-oper-20261118T0000 ;
+    schema:hasPart cmk:composition-cello-concerto-edward-elgar,
+        cmk:composition-symphony-no-1-jean-sibelius,
+        cmk:composition-verdigris-lotta-wennäkoski .
+
+cmk:programme-helsinki-music-centre-concert-hall-20261118T1900 a cmo:Programme ;
+    rdfs:label "Guest Performance: Turku Philharmonic Orchestra" ;
+    cmo:is-performed-at cmk:helsinki-music-centre-concert-hall-20261118T1900 ;
+    schema:hasPart cmk:composition-háry-jános-zoltán-kodály,
+        cmk:composition-overture-dora-pejačević,
+        cmk:composition-scottish-fantasy-for-violin-and-orchestra-op-46-max-bruch,
+        cmk:composition-till-eulenspiegel-richard-strauss .
+
+cmk:programme-helsinki-music-centre-concert-hall-20261127T1900 a cmo:Programme ;
+    rdfs:label "Constantinos Carydis & Leif Ove Andsnes" ;
+    cmo:is-performed-at cmk:helsinki-music-centre-concert-hall-20261127T1900 ;
+    schema:hasPart cmk:composition-piano-concerto-edvard-grieg,
+        cmk:composition-symphony-no-9-anton-bruckner .
+
+cmk:programme-helsinki-music-centre-concert-hall-20261206T1500 a cmo:Programme ;
+    rdfs:label "Independence Day Gala Concert" ;
+    cmo:is-performed-at cmk:helsinki-music-centre-concert-hall-20261206T1500 ;
+    schema:hasPart cmk:composition-kraft-magnus-lindberg,
+        cmk:composition-overture-lustspiel-aina-korhonen,
+        cmk:composition-violin-concerto-in-d-minor-op-47-jean-sibelius .
+
+cmk:programme-helsinki-music-centre-concert-hall-20261210T1000 a cmo:Programme ;
+    rdfs:label "Fairytale Concert (in Finnish)" ;
+    cmo:is-performed-at cmk:helsinki-music-centre-concert-hall-20261210T1000,
+        cmk:the-helsinki-music-centre-concert-hall-20270311T1000 ;
+    schema:hasPart cmk:composition-symphony-no-4-felix-mendelssohn .
+
+cmk:programme-helsinki-music-centre-concert-hall-20261211T1900 a cmo:Programme ;
+    rdfs:label "Nil Venditti & Marianna Bednarska" ;
+    cmo:is-performed-at cmk:helsinki-music-centre-concert-hall-20261211T1900 ;
+    schema:hasPart cmk:composition-dance-suite-béla-bartók,
+        cmk:composition-speaking-drums-four-poems-for-solo-percussion-and-orchestr-péter-eötvös,
+        cmk:composition-symphony-no-4-italian-felix-mendelssohn,
+        cmk:composition-the-companion-guide-to-rome-andrew-norman .
+
+cmk:programme-helsinki-music-centre-concert-hall-20261216T1900 a cmo:Programme ;
+    rdfs:label "Dima Slobodeniouk & Helena Juntunen" ;
+    cmo:is-performed-at cmk:helsinki-music-centre-concert-hall-20261216T1900,
+        cmk:helsinki-music-centre-concert-hall-20261217T1900 ;
+    schema:hasPart cmk:composition-amériques-edgard-varèse,
+        cmk:composition-ces-belles-années-for-soprano-and-orchestra-betsy-jolas,
+        cmk:composition-stele-györgy-kurtág,
+        cmk:composition-tapiola-jean-sibelius .
+
+cmk:programme-helsinki-music-centre-paavo-hall-20261213T1500 a cmo:Programme ;
+    rdfs:label "Chamber Music Concert: The Musical Offering" ;
+    cmo:is-performed-at cmk:helsinki-music-centre-paavo-hall-20261213T1500 ;
+    schema:hasPart cmk:composition-the-musical-offering-bwv-1079-johann-sebastian-bach .
+
+cmk:programme-liederhalle-stuttgart-20261117T0000 a cmo:Programme ;
+    rdfs:label "Guest Performance: Stuttgart" ;
+    cmo:is-performed-at cmk:liederhalle-stuttgart-20261117T0000 ;
+    schema:hasPart cmk:composition-cello-concerto-edward-elgar,
+        cmk:composition-symphony-no-1-jean-sibelius,
+        cmk:composition-verdigris-lotta-wennäkoski .
+
+cmk:programme-philharmonie-20260828T1900 a cmo:Programme ;
+    rdfs:label "Guest performance: Musikfest Berlin" ;
+    cmo:is-performed-at cmk:philharmonie-20260828T1900 ;
+    schema:hasPart cmk:composition-le-grand-macabre-györgy-ligeti .
+
+cmk:programme-the-helsinki-music-centre-concert-hall-20260824T1900 a cmo:Programme ;
+    rdfs:label "Guest performance: Helsinki Festival" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-concert-hall-20260824T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20260825T1900 ;
+    schema:hasPart cmk:composition-le-grand-macabre-györgy-ligeti .
+
+cmk:programme-the-helsinki-music-centre-concert-hall-20270303T1900 a cmo:Programme ;
+    rdfs:label "Pablo González & Janne Valkeajoki" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-concert-hall-20270303T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20270304T1900 ;
+    schema:hasPart cmk:composition-symphony-no-2-the-four-temperaments-carl-nielsen,
+        cmk:composition-traumgesicht-erkki-melartin,
+        cmk:composition-under-the-sign-of-scorpio-for-bayan-and-orchestra-sofia-gubaidulina .
+
+cmk:programme-the-helsinki-music-centre-concert-hall-20270312T1900 a cmo:Programme ;
+    rdfs:label "Eva Ollikainen & Fàtima Boix Cantó" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-concert-hall-20270312T1900 ;
+    schema:hasPart cmk:composition-new-work-for-eb-clarinet-and-orchestra-ilkka-hammo,
+        cmk:composition-symphony-no-2-anton-bruckner .
+
+cmk:programme-the-helsinki-music-centre-concert-hall-20270326T1500 a cmo:Programme ;
+    rdfs:label "Missa solemnis" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-concert-hall-20270326T1500 ;
+    schema:hasPart cmk:composition-missa-solemnis-ludwig-van-beethoven,
+        cmk:composition-no-52-three-pieces-about-ludwig-van-beethoven-dreaming-h-richard-ayres .
+
+cmk:programme-the-helsinki-music-centre-concert-hall-20270401T1800 a cmo:Programme ;
+    rdfs:label "FRSO & Pikku Kakkonen" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-concert-hall-20270401T1800 ;
+    schema:hasPart cmk:composition-soitinsatu-veli-kujala .
+
+cmk:programme-the-helsinki-music-centre-concert-hall-20270409T1900 a cmo:Programme ;
+    rdfs:label "Anna-Maria Helsing & Behzod Abduraimov" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-concert-hall-20270409T1900 ;
+    schema:hasPart cmk:composition-new-work-world-premiere-yle-commission-jukka-tiensuu,
+        cmk:composition-piano-concerto-no-3-sergei-rachmaninoff,
+        cmk:composition-sinfonietta-francis-poulenc,
+        cmk:composition-three-songs-ruth-crawford-seeger,
+        cmk:composition-wind-quintet-elliott-carter .
+
+cmk:programme-the-helsinki-music-centre-paavo-hall-20270314T1500 a cmo:Programme ;
+    rdfs:label "Chamber Music Concert: Kith and Kin" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-paavo-hall-20270314T1500 ;
+    schema:hasPart cmk:composition-bassoon-quintet-in-a-minor-jean-baptiste-édouard-du-puy,
+        cmk:composition-clarinet-quintet-samuel-coleridge-taylor,
+        cmk:composition-new-work-world-premiere-yle-commission-heta-aho .
 
 cmk:ritva-kaukola a foaf:Person ;
     foaf:familyName "Kaukola" ;
@@ -1070,12 +1251,6 @@ cmk:wolfgang-ablinger-sperrhacke a foaf:Person ;
         cmk:the-helsinki-music-centre-concert-hall-20260824T1900,
         cmk:the-helsinki-music-centre-concert-hall-20260825T1900 .
 
-cmk:wolfgang-mitterer a foaf:Person ;
-    foaf:familyName "Mitterer" ;
-    foaf:firstName "Wolfgang" ;
-    cmo:known-as-a cmk:organist ;
-    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20270212T1900 .
-
 cmk:yuki-koyama a foaf:Person ;
     foaf:familyName "Koyama" ;
     foaf:firstName "Yuki" ;
@@ -1087,7 +1262,13 @@ cmk:yuki-koyama a foaf:Person ;
         cmk:the-helsinki-music-centre-paavo-hall-20270523T1500 .
 
 cmk:andrew-manze-lucie-horsch a cmo:Programme ;
-    rdfs:label "Andrew Manze & Lucie Horsch" .
+    rdfs:label "Andrew Manze & Lucie Horsch" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-concert-hall-20270507T1900 ;
+    schema:hasPart cmk:composition-le-tombeau-de-beethoven-jukka-tiensuu,
+        cmk:composition-symphony-no-4-ludwig-van-beethoven,
+        cmk:composition-symphony-no-70-joseph-haydn,
+        cmk:composition-trio-for-horn-violin-and-piano-györgy-ligeti,
+        cmk:composition-vents-et-lyres-for-recorder-and-orchestra-lotta-wennäkoski .
 
 cmk:bassoon a cmo:musical-identity .
 
@@ -1099,17 +1280,606 @@ cmk:chamber-music-concert-double-bass-sections-sunday-dance a cmo:Programme ;
     rdfs:label "Chamber Music Concert: Double-bass section’s Sunday Dance" .
 
 cmk:chamber-music-concert-hooked-on-books a cmo:Programme ;
-    rdfs:label "Chamber Music Concert: Hooked on Books" .
+    rdfs:label "Chamber Music Concert: Hooked on Books" ;
+    cmo:is-performed-at cmk:helsinki-music-centre-paavo-hall-20270221T1500 ;
+    schema:hasPart cmk:composition-endangered-for-violin-and-piano-minna-leinonen,
+        cmk:composition-lukija-leevi-räsänen,
+        cmk:composition-new-work-world-premiere-yle-commission-jouni-hirvelä,
+        cmk:composition-trio-for-clarinet-cello-and-piano-vincent-dindy .
 
 cmk:chamber-music-concert-the-morning-news-plus-comic-relief a cmo:Programme ;
-    rdfs:label "Chamber Music Concert: The Morning News plus Comic Relief" .
+    rdfs:label "Chamber Music Concert: The Morning News plus Comic Relief" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-paavo-hall-20270418T1500 ;
+    schema:hasPart cmk:composition-andante-con-moto-for-piano-trio-edvard-grieg,
+        cmk:composition-breaking-the-news-maja-s-k-ratkje,
+        cmk:composition-morning-edvard-grieg,
+        cmk:composition-sonata-for-violin-and-piano-no-3-in-c-minor-edvard-grieg .
 
 cmk:chamber-music-concert-three-virtuosi a cmo:Programme ;
-    rdfs:label "Chamber Music Concert: Three Virtuosi" .
+    rdfs:label "Chamber Music Concert: Three Virtuosi" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-paavo-hall-20270523T1500 ;
+    schema:hasPart cmk:composition-duo-brillant-wilhelm-tell-for-flute-oboe-and-piano-jules-demersseman-felix-charles-berthélemy,
+        cmk:composition-el-diablo-suelto-heraclio-fernández,
+        cmk:composition-new-work-world-premiere-yle-commission-mioko-yokoyama,
+        cmk:composition-tarentelle-for-flute-oboe-and-piano-philippe-gaubert,
+        cmk:composition-trio-for-flute-oboe-and-piano-jean-michel-damase,
+        cmk:composition-trio-for-flute-oboe-and-piano-madeleine-dring .
 
 cmk:choir-direction a cmo:musical-identity .
 
 cmk:clarinet a cmo:musical-identity .
+
+cmk:composition-a-faust-symphony-franz-liszt a schema:MusicComposition ;
+    schema:composer cmk:franz-liszt ;
+    schema:name "A Faust Symphony" .
+
+cmk:composition-absolute-jest-for-string-quartet-and-orchestra-john-adams a schema:MusicComposition ;
+    schema:composer cmk:john-adams ;
+    schema:name "Absolute Jest for String Quartet and Orchestra" .
+
+cmk:composition-amériques-edgard-varèse a schema:MusicComposition ;
+    schema:composer cmk:edgard-varèse ;
+    schema:name "Amériques" .
+
+cmk:composition-an-american-in-paris-george-gershwin a schema:MusicComposition ;
+    schema:composer cmk:george-gershwin ;
+    schema:name "An American in Paris" .
+
+cmk:composition-andante-con-moto-for-piano-trio-edvard-grieg a schema:MusicComposition ;
+    schema:composer cmk:edvard-grieg ;
+    schema:name "Andante con moto for Piano Trio" .
+
+cmk:composition-aria-cara-sorte-di-chi-nata-from-la-verità-in-cimento-antonio-vivaldi a schema:MusicComposition ;
+    schema:composer cmk:antonio-vivaldi ;
+    schema:name "Aria \"Cara sorte di chi nata\" from La verità in cimento" .
+
+cmk:composition-aria-gemo-in-un-punto-e-fremo-from-farnace-and-lolimpiade-antonio-vivaldi a schema:MusicComposition ;
+    schema:composer cmk:antonio-vivaldi ;
+    schema:name "Aria \"Gemo in un punto e fremo\" from Farnace and L'Olimpiade" .
+
+cmk:composition-aria-sonno-se-pur-tu-sonno-from-tito-manlio-antonio-vivaldi a schema:MusicComposition ;
+    schema:composer cmk:antonio-vivaldi ;
+    schema:name "Aria \"Sonno, se pur tu sonno\" from Tito Manlio" .
+
+cmk:composition-axiom-marc-andré-dalbavie a schema:MusicComposition ;
+    schema:composer cmk:marc-andré-dalbavie ;
+    schema:name "Axiom" .
+
+cmk:composition-bassoon-quintet-in-a-minor-jean-baptiste-édouard-du-puy a schema:MusicComposition ;
+    schema:composer cmk:jean-baptiste-édouard-du-puy ;
+    schema:name "Bassoon Quintet in A Minor" .
+
+cmk:composition-bound-to-the-bow-ash-fure a schema:MusicComposition ;
+    schema:composer cmk:ash-fure ;
+    schema:name "Bound to the Bow" .
+
+cmk:composition-breaking-the-news-maja-s-k-ratkje a schema:MusicComposition ;
+    schema:composer cmk:maja-s-k-ratkje ;
+    schema:name "Breaking the News" .
+
+cmk:composition-cantata-cessate-omai-cessate-rv-684-antonio-vivaldi a schema:MusicComposition ;
+    schema:composer cmk:antonio-vivaldi ;
+    schema:name "Cantata \"Cessate, omai cessate\", RV 684" .
+
+cmk:composition-cello-concerto-no-1-in-c-major-joseph-haydn a schema:MusicComposition ;
+    schema:composer cmk:joseph-haydn ;
+    schema:name "Cello Concerto No. 1 in C Major" .
+
+cmk:composition-cello-concerto-no-2-dmitri-shostakovich a schema:MusicComposition ;
+    schema:composer cmk:dmitri-shostakovich ;
+    schema:name "Cello Concerto No. 2" .
+
+cmk:composition-ces-belles-années-for-soprano-and-orchestra-betsy-jolas a schema:MusicComposition ;
+    schema:composer cmk:betsy-jolas ;
+    schema:name "Ces belles années ... for Soprano and Orchestra" .
+
+cmk:composition-chamber-symphony-in-c-minor-op-110a-orch-rudolf-barshai-dmitri-shostakovich a schema:MusicComposition ;
+    schema:composer cmk:dmitri-shostakovich ;
+    schema:name "Chamber Symphony in C Minor Op. 110a (orch. Rudolf Barshai)" .
+
+cmk:composition-chorale-für-deinen-thron-tret-ich-hiermit-bwv-327-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Chorale \"Für deinen Thron tret ich hiermit\" BWV 327" .
+
+cmk:composition-chorale-vor-deinen-thron-tret-ich-hiermit-bwv-668-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Chorale \"Vor deinen Thron tret' ich hiermit\" BWV 668" .
+
+cmk:composition-clarinet-quintet-samuel-coleridge-taylor a schema:MusicComposition ;
+    schema:composer cmk:samuel-coleridge-taylor ;
+    schema:name "Clarinet Quintet" .
+
+cmk:composition-concert-overture-karol-szymanowski a schema:MusicComposition ;
+    schema:composer cmk:karol-szymanowski ;
+    schema:name "Concert Overture" .
+
+cmk:composition-concerto-for-oboe-strings-and-basso-continuo-antonio-vivaldi a schema:MusicComposition ;
+    schema:composer cmk:antonio-vivaldi ;
+    schema:name "Concerto for Oboe, Strings and Basso continuo" .
+
+cmk:composition-concerto-for-strings-in-c-major-rv-114-antonio-vivaldi a schema:MusicComposition ;
+    schema:composer cmk:antonio-vivaldi ;
+    schema:name "Concerto for Strings in C Major, RV 114" .
+
+cmk:composition-concerto-for-strings-in-g-minor-rv-157-antonio-vivaldi a schema:MusicComposition ;
+    schema:composer cmk:antonio-vivaldi ;
+    schema:name "Concerto for Strings in G Minor, RV 157" .
+
+cmk:composition-concerto-for-two-pianos-and-orchestra-magnus-lindberg a schema:MusicComposition ;
+    schema:composer cmk:magnus-lindberg ;
+    schema:name "Concerto for Two Pianos and Orchestra" .
+
+cmk:composition-dance-suite-béla-bartók a schema:MusicComposition ;
+    schema:composer cmk:béla-bartók ;
+    schema:name "Dance Suite" .
+
+cmk:composition-deepgrey-for-orchestra-yiqing-zhu a schema:MusicComposition ;
+    schema:composer cmk:yiqing-zhu ;
+    schema:name "DeepGrey for Orchestra" .
+
+cmk:composition-der-wind-franz-schreker a schema:MusicComposition ;
+    schema:composer cmk:franz-schreker ;
+    schema:name "Der Wind" .
+
+cmk:composition-duo-brillant-wilhelm-tell-for-flute-oboe-and-piano-jules-demersseman-felix-charles-berthélemy a schema:MusicComposition ;
+    schema:composer cmk:jules-demersseman-felix-charles-berthélemy ;
+    schema:name "Duo brillant \"Wilhelm Tell\" for Flute, Oboe and Piano" .
+
+cmk:composition-ein-heldenleben-richard-strauss a schema:MusicComposition ;
+    schema:composer cmk:richard-strauss ;
+    schema:name "Ein Heldenleben" .
+
+cmk:composition-el-diablo-suelto-heraclio-fernández a schema:MusicComposition ;
+    schema:composer cmk:heraclio-fernández ;
+    schema:name "El diablo suelto" .
+
+cmk:composition-endangered-for-violin-and-piano-minna-leinonen a schema:MusicComposition ;
+    schema:composer cmk:minna-leinonen ;
+    schema:name "Endangered for violin and piano" .
+
+cmk:composition-excerpts-from-romeo-and-juliet-sergei-prokofiev a schema:MusicComposition ;
+    schema:composer cmk:sergei-prokofiev ;
+    schema:name "Excerpts from Romeo and Juliet" .
+
+cmk:composition-fantasia-on-a-theme-by-thomas-tallis-ralph-vaughan-williams a schema:MusicComposition ;
+    schema:composer cmk:ralph-vaughan-williams ;
+    schema:name "Fantasia on a Theme by Thomas Tallis" .
+
+cmk:composition-fleurs-de-neige-kaija-saariaho a schema:MusicComposition ;
+    schema:composer cmk:kaija-saariaho ;
+    schema:name "Fleurs de Neige" .
+
+cmk:composition-flute-quintet-op-493-howard-blake a schema:MusicComposition ;
+    schema:composer cmk:howard-blake ;
+    schema:name "Flute Quintet op. 493" .
+
+cmk:composition-four-pieces-for-clarinet-and-piano-alban-berg a schema:MusicComposition ;
+    schema:composer cmk:alban-berg ;
+    schema:name "Four Pieces for Clarinet and Piano" .
+
+cmk:composition-hommage-à-tseliot-sofia-gubaidulina a schema:MusicComposition ;
+    schema:composer cmk:sofia-gubaidulina ;
+    schema:name "Hommage à T.S.Eliot" .
+
+cmk:composition-háry-jános-zoltán-kodály a schema:MusicComposition ;
+    schema:composer cmk:zoltán-kodály ;
+    schema:name "Háry János" .
+
+cmk:composition-insight-dobrinka-tabakova a schema:MusicComposition ;
+    schema:composer cmk:dobrinka-tabakova ;
+    schema:name "Insight" .
+
+cmk:composition-khamma-claude-debussy a schema:MusicComposition ;
+    schema:composer cmk:claude-debussy ;
+    schema:name "Khamma" .
+
+cmk:composition-kraft-magnus-lindberg a schema:MusicComposition ;
+    schema:composer cmk:magnus-lindberg ;
+    schema:name "Kraft" .
+
+cmk:composition-la-péri-paul-dukas a schema:MusicComposition ;
+    schema:composer cmk:paul-dukas ;
+    schema:name "La Péri" .
+
+cmk:composition-le-chasseur-maudit-césar-franck a schema:MusicComposition ;
+    schema:composer cmk:césar-franck ;
+    schema:name "Le Chasseur Maudit" .
+
+cmk:composition-le-tombeau-de-beethoven-jukka-tiensuu a schema:MusicComposition ;
+    schema:composer cmk:jukka-tiensuu ;
+    schema:name "Le tombeau de Beethoven" .
+
+cmk:composition-lemminkäinen-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:name "Lemminkäinen" .
+
+cmk:composition-lukija-leevi-räsänen a schema:MusicComposition ;
+    schema:composer cmk:leevi-räsänen ;
+    schema:name "Lukija" .
+
+cmk:composition-missa-solemnis-ludwig-van-beethoven a schema:MusicComposition ;
+    schema:composer cmk:ludwig-van-beethoven ;
+    schema:name "Missa solemnis" .
+
+cmk:composition-monolog-for-viola-and-string-orchestra-alfred-schnittke a schema:MusicComposition ;
+    schema:composer cmk:alfred-schnittke ;
+    schema:name "Monolog for Viola and String Orchestra" .
+
+cmk:composition-morning-edvard-grieg a schema:MusicComposition ;
+    schema:composer cmk:edvard-grieg ;
+    schema:name "Morning" .
+
+cmk:composition-mudejar-chilango-gabriela-ortiz a schema:MusicComposition ;
+    schema:composer cmk:gabriela-ortiz ;
+    schema:name "Mudejar chilango" .
+
+cmk:composition-new-work-for-eb-clarinet-and-orchestra-ilkka-hammo a schema:MusicComposition ;
+    schema:composer cmk:ilkka-hammo ;
+    schema:name "New work for Eb clarinet and orchestra" .
+
+cmk:composition-new-work-for-organ-and-percussions-olli-virtaperko a schema:MusicComposition ;
+    schema:composer cmk:olli-virtaperko ;
+    schema:name "New work for organ and percussions" .
+
+cmk:composition-new-work-world-premiere-yle-commission-heta-aho a schema:MusicComposition ;
+    schema:composer cmk:heta-aho ;
+    schema:name "New work, world premiere (Yle commission)" .
+
+cmk:composition-new-work-world-premiere-yle-commission-jouni-hirvelä a schema:MusicComposition ;
+    schema:composer cmk:jouni-hirvelä ;
+    schema:name "New work, world premiere (Yle commission)" .
+
+cmk:composition-new-work-world-premiere-yle-commission-jukka-tiensuu a schema:MusicComposition ;
+    schema:composer cmk:jukka-tiensuu ;
+    schema:name "New work, world premiere (Yle commission)" .
+
+cmk:composition-new-work-world-premiere-yle-commission-mioko-yokoyama a schema:MusicComposition ;
+    schema:composer cmk:mioko-yokoyama ;
+    schema:name "New work, world premiere (Yle commission)" .
+
+cmk:composition-nisi-dominus-rv-608-psalm-127-antonio-vivaldi a schema:MusicComposition ;
+    schema:composer cmk:antonio-vivaldi ;
+    schema:name "Nisi Dominus RV 608 (Psalm 127)" .
+
+cmk:composition-no-52-three-pieces-about-ludwig-van-beethoven-dreaming-h-richard-ayres a schema:MusicComposition ;
+    schema:composer cmk:richard-ayres ;
+    schema:name "No. 52. Three Pieces about Ludwig van Beethoven: dreaming, hearing loss and saying goodbye" .
+
+cmk:composition-o-virtus-sapiente-arrangement-for-string-orchestra-hildegard-of-bingen a schema:MusicComposition ;
+    schema:composer cmk:hildegard-of-bingen ;
+    schema:name "O virtus sapiente, Arrangement for String Orchestra" .
+
+cmk:composition-offertorium-for-violin-and-orchestra-sofia-gubaidulina a schema:MusicComposition ;
+    schema:composer cmk:sofia-gubaidulina ;
+    schema:name "Offertorium for Violin and Orchestra" .
+
+cmk:composition-opera-king-roger-finnish-premiere-karol-szymanowski a schema:MusicComposition ;
+    schema:composer cmk:karol-szymanowski ;
+    schema:name "Opera King Roger, Finnish premiere" .
+
+cmk:composition-orawa-wojciech-kilar a schema:MusicComposition ;
+    schema:composer cmk:wojciech-kilar ;
+    schema:name "Orawa" .
+
+cmk:composition-orgelmusik-wolfgang-mitterer a schema:MusicComposition ;
+    schema:composer cmk:wolfgang-mitterer ;
+    schema:name "Orgelmusik" .
+
+cmk:composition-orion-claude-vivier a schema:MusicComposition ;
+    schema:composer cmk:claude-vivier ;
+    schema:name "Orion" .
+
+cmk:composition-out-of-time-for-organ-electronics-and-orchestra-wolfgang-mitterer a schema:MusicComposition ;
+    schema:composer cmk:wolfgang-mitterer ;
+    schema:name "Out of Time for Organ, Electronics and Orchestra" .
+
+cmk:composition-overture-bohuslav-martinů a schema:MusicComposition ;
+    schema:composer cmk:bohuslav-martinů ;
+    schema:name "Overture" .
+
+cmk:composition-overture-dora-pejačević a schema:MusicComposition ;
+    schema:composer cmk:dora-pejačević ;
+    schema:name "Overture" .
+
+cmk:composition-overture-from-béatrice-et-bénédict-hector-berlioz a schema:MusicComposition ;
+    schema:composer cmk:hector-berlioz ;
+    schema:name "Overture from Béatrice et Bénédict" .
+
+cmk:composition-overture-in-natures-realm-antonín-dvořák a schema:MusicComposition ;
+    schema:composer cmk:antonín-dvořák ;
+    schema:name "Overture \"In Nature's realm\"" .
+
+cmk:composition-overture-lustspiel-aina-korhonen a schema:MusicComposition ;
+    schema:composer cmk:aina-korhonen ;
+    schema:name "Overture \"Lustspiel\"" .
+
+cmk:composition-overture-op-16-mikołaj-górecki a schema:MusicComposition ;
+    schema:composer cmk:mikołaj-górecki ;
+    schema:name "Overture op. 16" .
+
+cmk:composition-phantasy-op-2-benjamin-britten a schema:MusicComposition ;
+    schema:composer cmk:benjamin-britten ;
+    schema:name "Phantasy op. 2" .
+
+cmk:composition-piano-concerto-benjamin-britten a schema:MusicComposition ;
+    schema:composer cmk:benjamin-britten ;
+    schema:name "Piano Concerto" .
+
+cmk:composition-piano-concerto-edvard-grieg a schema:MusicComposition ;
+    schema:composer cmk:edvard-grieg ;
+    schema:name "Piano Concerto" .
+
+cmk:composition-piano-concerto-michael-jarrell a schema:MusicComposition ;
+    schema:composer cmk:michael-jarrell ;
+    schema:name "Piano Concerto" .
+
+cmk:composition-piano-concerto-no-1-franz-liszt a schema:MusicComposition ;
+    schema:composer cmk:franz-liszt ;
+    schema:name "Piano Concerto No. 1" .
+
+cmk:composition-piano-concerto-no-3-sergei-rachmaninoff a schema:MusicComposition ;
+    schema:composer cmk:sergei-rachmaninoff ;
+    schema:name "Piano Concerto No. 3" .
+
+cmk:composition-piano-quartet-amanda-röntgen-maier a schema:MusicComposition ;
+    schema:composer cmk:amanda-röntgen-maier ;
+    schema:name "Piano Quartet" .
+
+cmk:composition-piano-quartet-in-g-minor-arrangement-for-orchestra-johannes-brahms a schema:MusicComposition ;
+    schema:composer cmk:johannes-brahms ;
+    schema:name "Piano Quartet in G minor, arrangement for orchestra" .
+
+cmk:composition-puzzles-and-games-from-alice-in-wonderland-unsuk-chin a schema:MusicComposition ;
+    schema:composer cmk:unsuk-chin ;
+    schema:name "Puzzles and Games from Alice in Wonderland" .
+
+cmk:composition-roman-carneval-overture-op-9-hector-berlioz a schema:MusicComposition ;
+    schema:composer cmk:hector-berlioz ;
+    schema:name "Roman Carneval, Overture Op. 9" .
+
+cmk:composition-saxophone-concerto-minna-leinonen a schema:MusicComposition ;
+    schema:composer cmk:minna-leinonen ;
+    schema:name "Saxophone Concerto" .
+
+cmk:composition-scherzo-fantastique-igor-stravinsky a schema:MusicComposition ;
+    schema:composer cmk:igor-stravinsky ;
+    schema:name "Scherzo fantastique" .
+
+cmk:composition-scottish-fantasy-for-violin-and-orchestra-op-46-max-bruch a schema:MusicComposition ;
+    schema:composer cmk:max-bruch ;
+    schema:name "Scottish Fantasy for Violin and Orchestra Op. 46" .
+
+cmk:composition-sinfonietta-francis-poulenc a schema:MusicComposition ;
+    schema:composer cmk:francis-poulenc ;
+    schema:name "Sinfonietta" .
+
+cmk:composition-sleep-and-unremembrance-elizabeth-ogonek a schema:MusicComposition ;
+    schema:composer cmk:elizabeth-ogonek ;
+    schema:name "Sleep and Unremembrance" .
+
+cmk:composition-soitinsatu-veli-kujala a schema:MusicComposition ;
+    schema:composer cmk:veli-kujala ;
+    schema:name "Soitinsatu" .
+
+cmk:composition-sonata-al-santo-sepolcro-in-e-flat-major-rv-130-antonio-vivaldi a schema:MusicComposition ;
+    schema:composer cmk:antonio-vivaldi ;
+    schema:name "Sonata \"Al Santo Sepolcro\" in E Flat Major RV 130" .
+
+cmk:composition-sonata-for-violin-and-piano-no-3-in-c-minor-edvard-grieg a schema:MusicComposition ;
+    schema:composer cmk:edvard-grieg ;
+    schema:name "Sonata for violin and piano no. 3 in C minor" .
+
+cmk:composition-speaking-drums-four-poems-for-solo-percussion-and-orchestr-péter-eötvös a schema:MusicComposition ;
+    schema:composer cmk:péter-eötvös ;
+    schema:name "Speaking Drums - Four Poems for solo percussion and orchestra" .
+
+cmk:composition-stele-györgy-kurtág a schema:MusicComposition ;
+    schema:composer cmk:györgy-kurtág ;
+    schema:name "Stele" .
+
+cmk:composition-string-quartet-no-1-op-37-karol-szymanowski a schema:MusicComposition ;
+    schema:composer cmk:karol-szymanowski ;
+    schema:name "String Quartet no. 1 op. 37" .
+
+cmk:composition-string-quartet-no-2-frank-bridge a schema:MusicComposition ;
+    schema:composer cmk:frank-bridge ;
+    schema:name "String Quartet no. 2" .
+
+cmk:composition-string-quartet-no-2-op-56-karol-szymanowski a schema:MusicComposition ;
+    schema:composer cmk:karol-szymanowski ;
+    schema:name "String Quartet no. 2 op. 56" .
+
+cmk:composition-suite-american-antonín-dvořák a schema:MusicComposition ;
+    schema:composer cmk:antonín-dvořák ;
+    schema:name "Suite American" .
+
+cmk:composition-sundown-on-south-street-from-philadelphia-stories-michael-daugherty a schema:MusicComposition ;
+    schema:composer cmk:michael-daugherty ;
+    schema:name "Sundown on South Street from Philadelphia Stories" .
+
+cmk:composition-symphony-no-1-spring-robert-schumann a schema:MusicComposition ;
+    schema:composer cmk:robert-schumann ;
+    schema:name "Symphony No. 1 \"Spring\"" .
+
+cmk:composition-symphony-no-11-the-year-1905-dmitri-shostakovich a schema:MusicComposition ;
+    schema:composer cmk:dmitri-shostakovich ;
+    schema:name "Symphony No. 11 \"The Year 1905\"" .
+
+cmk:composition-symphony-no-2-anton-bruckner a schema:MusicComposition ;
+    schema:composer cmk:anton-bruckner ;
+    schema:name "Symphony No. 2" .
+
+cmk:composition-symphony-no-2-asrael-op-27-josef-suk a schema:MusicComposition ;
+    schema:composer cmk:josef-suk ;
+    schema:name "Symphony No. 2 \"Asrael\" Op. 27" .
+
+cmk:composition-symphony-no-2-edward-elgar a schema:MusicComposition ;
+    schema:composer cmk:edward-elgar ;
+    schema:name "Symphony No. 2" .
+
+cmk:composition-symphony-no-2-le-double-henri-dutilleux a schema:MusicComposition ;
+    schema:composer cmk:henri-dutilleux ;
+    schema:name "Symphony No. 2 \"Le double\"" .
+
+cmk:composition-symphony-no-2-ludwig-van-beethoven a schema:MusicComposition ;
+    schema:composer cmk:ludwig-van-beethoven ;
+    schema:name "Symphony No. 2" .
+
+cmk:composition-symphony-no-2-the-four-temperaments-carl-nielsen a schema:MusicComposition ;
+    schema:composer cmk:carl-nielsen ;
+    schema:name "Symphony No. 2 \"The Four Temperaments\"" .
+
+cmk:composition-symphony-no-3-song-of-the-night-karol-szymanowski a schema:MusicComposition ;
+    schema:composer cmk:karol-szymanowski ;
+    schema:name "Symphony No. 3 \"Song of the Night\"" .
+
+cmk:composition-symphony-no-4-felix-mendelssohn a schema:MusicComposition ;
+    schema:composer cmk:felix-mendelssohn ;
+    schema:name "Symphony No. 4" .
+
+cmk:composition-symphony-no-4-italian-felix-mendelssohn a schema:MusicComposition ;
+    schema:composer cmk:felix-mendelssohn ;
+    schema:name "Symphony No. 4 “Italian”" .
+
+cmk:composition-symphony-no-4-ludwig-van-beethoven a schema:MusicComposition ;
+    schema:composer cmk:ludwig-van-beethoven ;
+    schema:name "Symphony No. 4" .
+
+cmk:composition-symphony-no-7-ludwig-van-beethoven a schema:MusicComposition ;
+    schema:composer cmk:ludwig-van-beethoven ;
+    schema:name "Symphony No. 7" .
+
+cmk:composition-symphony-no-70-joseph-haydn a schema:MusicComposition ;
+    schema:composer cmk:joseph-haydn ;
+    schema:name "Symphony No. 70" .
+
+cmk:composition-symphony-no-9-anton-bruckner a schema:MusicComposition ;
+    schema:composer cmk:anton-bruckner ;
+    schema:name "Symphony No. 9" .
+
+cmk:composition-symphony-no-9-gustav-mahler a schema:MusicComposition ;
+    schema:composer cmk:gustav-mahler ;
+    schema:name "Symphony No. 9" .
+
+cmk:composition-tapiola-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:name "Tapiola" .
+
+cmk:composition-tarentelle-for-flute-oboe-and-piano-philippe-gaubert a schema:MusicComposition ;
+    schema:composer cmk:philippe-gaubert ;
+    schema:name "Tarentelle for Flute, Oboe and Piano" .
+
+cmk:composition-the-art-of-the-fugue-bwv-1080-contrapunctus-i-iii-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "The Art of the Fugue, BWV 1080: Contrapunctus I & III" .
+
+cmk:composition-the-art-of-the-fugue-bwv-1080-contrapunctus-ii-iv-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "The Art of the Fugue, BWV 1080: Contrapunctus II & IV" .
+
+cmk:composition-the-companion-guide-to-rome-andrew-norman a schema:MusicComposition ;
+    schema:composer cmk:andrew-norman ;
+    schema:name "The Companion Guide to Rome" .
+
+cmk:composition-the-musical-offering-bwv-1079-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "The Musical Offering BWV 1079" .
+
+cmk:composition-the-rider-on-the-white-horse-for-orchestra-and-organ-sofia-gubaidulina a schema:MusicComposition ;
+    schema:composer cmk:sofia-gubaidulina ;
+    schema:name "The Rider on the White Horse for orchestra and organ" .
+
+cmk:composition-three-essays-caroline-shaw a schema:MusicComposition ;
+    schema:composer cmk:caroline-shaw ;
+    schema:name "Three Essays" .
+
+cmk:composition-three-songs-ruth-crawford-seeger a schema:MusicComposition ;
+    schema:composer cmk:ruth-crawford-seeger ;
+    schema:name "Three Songs" .
+
+cmk:composition-till-eulenspiegel-richard-strauss a schema:MusicComposition ;
+    schema:composer cmk:richard-strauss ;
+    schema:name "Till Eulenspiegel" .
+
+cmk:composition-trauermusik-for-viola-and-orchestra-paul-hindemith a schema:MusicComposition ;
+    schema:composer cmk:paul-hindemith ;
+    schema:name "Trauermusik for Viola and Orchestra" .
+
+cmk:composition-traumgesicht-erkki-melartin a schema:MusicComposition ;
+    schema:composer cmk:erkki-melartin ;
+    schema:name "Traumgesicht" .
+
+cmk:composition-trio-for-clarinet-cello-and-piano-vincent-dindy a schema:MusicComposition ;
+    schema:composer cmk:vincent-dindy ;
+    schema:name "Trio for Clarinet, Cello and Piano" .
+
+cmk:composition-trio-for-flute-oboe-and-piano-jean-michel-damase a schema:MusicComposition ;
+    schema:composer cmk:jean-michel-damase ;
+    schema:name "Trio for Flute, Oboe and Piano" .
+
+cmk:composition-trio-for-flute-oboe-and-piano-madeleine-dring a schema:MusicComposition ;
+    schema:composer cmk:madeleine-dring ;
+    schema:name "Trio for Flute, Oboe and Piano" .
+
+cmk:composition-trio-for-horn-violin-and-piano-györgy-ligeti a schema:MusicComposition ;
+    schema:composer cmk:györgy-ligeti ;
+    schema:name "Trio for Horn, Violin and Piano" .
+
+cmk:composition-under-the-sign-of-scorpio-for-bayan-and-orchestra-sofia-gubaidulina a schema:MusicComposition ;
+    schema:composer cmk:sofia-gubaidulina ;
+    schema:name "Under the Sign of Scorpio for Bayan and Orchestra" .
+
+cmk:composition-variations-on-a-theme-of-joseph-haydn-op-56a-johannes-brahms a schema:MusicComposition ;
+    schema:composer cmk:johannes-brahms ;
+    schema:name "Variations on a Theme of Joseph Haydn Op. 56a" .
+
+cmk:composition-vents-et-lyres-for-recorder-and-orchestra-lotta-wennäkoski a schema:MusicComposition ;
+    schema:composer cmk:lotta-wennäkoski ;
+    schema:name "Vents et lyres for Recorder and Orchestra" .
+
+cmk:composition-viola-concerto-francesco-filidei a schema:MusicComposition ;
+    schema:composer cmk:francesco-filidei ;
+    schema:name "Viola Concerto" .
+
+cmk:composition-viola-concerto-sofia-gubaidulina a schema:MusicComposition ;
+    schema:composer cmk:sofia-gubaidulina ;
+    schema:name "Viola Concerto" .
+
+cmk:composition-viola-spaces-garth-knox a schema:MusicComposition ;
+    schema:composer cmk:garth-knox ;
+    schema:name "Viola Spaces" .
+
+cmk:composition-violaviola-george-benjamin a schema:MusicComposition ;
+    schema:composer cmk:george-benjamin ;
+    schema:name "ViolaViola" .
+
+cmk:composition-violin-concerto-antti-auvinen a schema:MusicComposition ;
+    schema:composer cmk:antti-auvinen ;
+    schema:name "Violin Concerto" .
+
+cmk:composition-violin-concerto-in-d-minor-op-47-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:name "Violin Concerto in D Minor Op. 47" .
+
+cmk:composition-violin-concerto-no-1-béla-bartók a schema:MusicComposition ;
+    schema:composer cmk:béla-bartók ;
+    schema:name "Violin Concerto No. 1" .
+
+cmk:composition-violin-concerto-no-1-karol-szymanowski a schema:MusicComposition ;
+    schema:composer cmk:karol-szymanowski ;
+    schema:name "Violin Concerto No. 1" .
+
+cmk:composition-violin-concerto-to-beam-in-distant-heavens-georges-lentz a schema:MusicComposition ;
+    schema:composer cmk:georges-lentz ;
+    schema:name "Violin Concerto \"...to beam in distant heavens…\"" .
+
+cmk:composition-wind-quintet-elliott-carter a schema:MusicComposition ;
+    schema:composer cmk:elliott-carter ;
+    schema:name "Wind Quintet" .
+
+cmk:composition-wind-quintet-op-26-arnold-schoenberg a schema:MusicComposition ;
+    schema:composer cmk:arnold-schoenberg ;
+    schema:name "Wind Quintet Op. 26" .
 
 cmk:counter-tenor a cmo:musical-identity .
 
@@ -1126,7 +1896,16 @@ cmk:flute a cmo:musical-identity .
 cmk:flutist a cmo:musical-identity .
 
 cmk:frso-antoine-tamestit a cmo:Programme ;
-    rdfs:label "FRSO & Antoine Tamestit" .
+    rdfs:label "FRSO & Antoine Tamestit" ;
+    cmo:is-performed-at cmk:helsinki-music-centre-concert-hall-20270129T1900 ;
+    schema:hasPart cmk:composition-axiom-marc-andré-dalbavie,
+        cmk:composition-chamber-symphony-in-c-minor-op-110a-orch-rudolf-barshai-dmitri-shostakovich,
+        cmk:composition-chorale-für-deinen-thron-tret-ich-hiermit-bwv-327-johann-sebastian-bach,
+        cmk:composition-chorale-vor-deinen-thron-tret-ich-hiermit-bwv-668-johann-sebastian-bach,
+        cmk:composition-monolog-for-viola-and-string-orchestra-alfred-schnittke,
+        cmk:composition-the-art-of-the-fugue-bwv-1080-contrapunctus-i-iii-johann-sebastian-bach,
+        cmk:composition-the-art-of-the-fugue-bwv-1080-contrapunctus-ii-iv-johann-sebastian-bach,
+        cmk:composition-trauermusik-for-viola-and-orchestra-paul-hindemith .
 
 cmk:harpsichordist a cmo:musical-identity .
 
@@ -1141,24 +1920,54 @@ cmk:helsinki-music-centre-paavo-hall-20270124T1500 a mo:Performance ;
 cmk:hornist a cmo:musical-identity .
 
 cmk:meet-the-orchestra a cmo:Programme ;
-    rdfs:label "Meet the orchestra" .
+    rdfs:label "Meet the orchestra" ;
+    cmo:is-performed-at cmk:helsinki-music-centre-concert-hall-20270218T1800 ;
+    schema:hasPart cmk:composition-an-american-in-paris-george-gershwin,
+        cmk:composition-mudejar-chilango-gabriela-ortiz,
+        cmk:composition-roman-carneval-overture-op-9-hector-berlioz,
+        cmk:composition-sundown-on-south-street-from-philadelphia-stories-michael-daugherty .
 
 cmk:michael-schonwandt-arabella-steinbacher a cmo:Programme ;
-    rdfs:label "Michael Schonwandt & Arabella Steinbacher" .
+    rdfs:label "Michael Schonwandt & Arabella Steinbacher" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-concert-hall-20270423T1900 ;
+    schema:hasPart cmk:composition-overture-in-natures-realm-antonín-dvořák,
+        cmk:composition-symphony-no-1-spring-robert-schumann,
+        cmk:composition-violin-concerto-to-beam-in-distant-heavens-georges-lentz .
 
 cmk:musica-nova-helsinki a cmo:Programme ;
-    rdfs:label "Musica nova Helsinki" .
+    rdfs:label "Musica nova Helsinki" ;
+    cmo:is-performed-at cmk:helsinki-music-centre-concert-hall-20270212T1900 ;
+    schema:hasPart cmk:composition-bound-to-the-bow-ash-fure,
+        cmk:composition-deepgrey-for-orchestra-yiqing-zhu,
+        cmk:composition-new-work-for-organ-and-percussions-olli-virtaperko,
+        cmk:composition-orgelmusik-wolfgang-mitterer,
+        cmk:composition-out-of-time-for-organ-electronics-and-orchestra-wolfgang-mitterer,
+        cmk:composition-saxophone-concerto-minna-leinonen .
 
 cmk:nicholas-collon-bertrand-chamayou a cmo:Programme ;
-    rdfs:label "Nicholas Collon & Bertrand Chamayou" .
+    rdfs:label "Nicholas Collon & Bertrand Chamayou" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-concert-hall-20270521T1900 ;
+    schema:hasPart cmk:composition-piano-concerto-no-1-franz-liszt,
+        cmk:composition-symphony-no-2-asrael-op-27-josef-suk,
+        cmk:composition-the-rider-on-the-white-horse-for-orchestra-and-organ-sofia-gubaidulina .
 
 cmk:nicholas-collon-christian-tetzlaff a cmo:Programme ;
-    rdfs:label "Nicholas Collon & Christian Tetzlaff" .
+    rdfs:label "Nicholas Collon & Christian Tetzlaff" ;
+    cmo:is-performed-at cmk:helsinki-music-centre-concert-hall-20270115T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20270317T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20270318T1900 ;
+    schema:hasPart cmk:composition-sleep-and-unremembrance-elizabeth-ogonek,
+        cmk:composition-symphony-no-2-edward-elgar,
+        cmk:composition-violin-concerto-no-1-karol-szymanowski .
 
 cmk:oboist a cmo:musical-identity .
 
 cmk:pascal-rophe-johannes-piirto a cmo:Programme ;
-    rdfs:label "Pascal Rophé & Johannes Piirto" .
+    rdfs:label "Pascal Rophé & Johannes Piirto" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-concert-hall-20270414T1900 ;
+    schema:hasPart cmk:composition-le-chasseur-maudit-césar-franck,
+        cmk:composition-piano-concerto-michael-jarrell,
+        cmk:composition-symphony-no-2-le-double-henri-dutilleux .
 
 cmk:percussion a cmo:musical-identity .
 
@@ -1171,14 +1980,13 @@ cmk:saxophonist a cmo:musical-identity .
 cmk:string-quartet a cmo:ensemble-identity,
         cmo:musical-identity .
 
-cmk:the-helsinki-music-centre-concert-hall-20270401T1800 a mo:Performance ;
-    schema:name "FRSO & Pikku Kakkonen" ;
-    schema:organizer cmk:rso ;
-    schema:startDate "2027-04-01T18:00:00"^^xsd:dateTime ;
-    schema:url "https://yle.fi/aihe/a/20-10009486"^^xsd:anyURI .
-
 cmk:thomas-guggeis-antoine-tamestit a cmo:Programme ;
-    rdfs:label "Thomas Guggeis & Antoine Tamestit" .
+    rdfs:label "Thomas Guggeis & Antoine Tamestit" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-20270526T1900 ;
+    schema:hasPart cmk:composition-ein-heldenleben-richard-strauss,
+        cmk:composition-viola-concerto-francesco-filidei,
+        cmk:composition-viola-spaces-garth-knox,
+        cmk:composition-violaviola-george-benjamin .
 
 cmk:timpanist a cmo:musical-identity .
 
@@ -1190,18 +1998,24 @@ cmk:visualization a cmo:musical-identity .
 
 cmk:actor a cmo:musical-identity .
 
-cmk:alte-oper-20261118T0000 a mo:Performance ;
-    schema:name "Guest Performance: Frankfurt" ;
-    schema:organizer cmk:rso ;
-    schema:startDate "2026-11-18T00:00:00"^^xsd:dateTime ;
-    schema:url "https://yle.fi/aihe/a/20-10009498"^^xsd:anyURI .
-
 cmk:artistic-planner a cmo:musical-identity .
 
 cmk:cast a cmo:musical-identity .
 
 cmk:choir a cmo:ensemble-identity,
         cmo:musical-identity .
+
+cmk:composition-cello-concerto-edward-elgar a schema:MusicComposition ;
+    schema:composer cmk:edward-elgar ;
+    schema:name "Cello Concerto" .
+
+cmk:composition-le-grand-macabre-györgy-ligeti a schema:MusicComposition ;
+    schema:composer cmk:györgy-ligeti ;
+    schema:name "Le grand macabre" .
+
+cmk:composition-petrushka-1947-version-igor-stravinsky a schema:MusicComposition ;
+    schema:composer cmk:igor-stravinsky ;
+    schema:name "Petrushka (1947 version)" .
 
 cmk:double-bassist a cmo:musical-identity .
 
@@ -1210,6 +2024,84 @@ cmk:flautist a cmo:musical-identity .
 cmk:french-horn a cmo:musical-identity .
 
 cmk:french-hornist a cmo:musical-identity .
+
+cmk:helsinki-music-centre-paavo-hall a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "The Helsinki Music Centre, Paavo Hall" .
+
+cmk:host a cmo:musical-identity .
+
+cmk:king-roger a cmo:Programme ;
+    rdfs:label "King Roger" ;
+    cmo:is-performed-at cmk:helsinki-music-centre-concert-hall-20270203T1900,
+        cmk:helsinki-music-centre-concert-hall-20270204T1900 ;
+    schema:hasPart cmk:composition-opera-king-roger-finnish-premiere-karol-szymanowski .
+
+cmk:narrator a cmo:musical-identity .
+
+cmk:nicholas-collon-jussen-brothers a cmo:Programme ;
+    rdfs:label "Nicholas Collon & Jussen Brothers" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-concert-hall-20270512T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20270513T1900 ;
+    schema:hasPart cmk:composition-concerto-for-two-pianos-and-orchestra-magnus-lindberg,
+        cmk:composition-overture-from-béatrice-et-bénédict-hector-berlioz,
+        cmk:composition-symphony-no-7-ludwig-van-beethoven .
+
+cmk:nicholas-collon-new-helsinki-quartet a cmo:Programme ;
+    rdfs:label "Nicholas Collon & New Helsinki Quartet" ;
+    cmo:is-performed-at cmk:helsinki-music-centre-concert-hall-20270120T1900,
+        cmk:helsinki-music-centre-concert-hall-20270121T1900 ;
+    schema:hasPart cmk:composition-absolute-jest-for-string-quartet-and-orchestra-john-adams,
+        cmk:composition-symphony-no-2-ludwig-van-beethoven,
+        cmk:composition-variations-on-a-theme-of-joseph-haydn-op-56a-johannes-brahms .
+
+cmk:oboe a cmo:musical-identity .
+
+cmk:piano a cmo:musical-identity .
+
+cmk:ryan-bancroft-alisa-weilerstein a cmo:Programme ;
+    rdfs:label "Ryan Bancroft & Alisa Weilerstein" ;
+    cmo:is-performed-at cmk:the-helsinki-music-centre-concert-hall-20270428T1900,
+        cmk:the-helsinki-music-centre-concert-hall-20270429T1900 ;
+    schema:hasPart cmk:composition-cello-concerto-no-2-dmitri-shostakovich,
+        cmk:composition-lemminkäinen-jean-sibelius,
+        cmk:composition-orion-claude-vivier .
+
+cmk:the-helsinki-music-centre-concert-hall-20270401T1800 a mo:Performance ;
+    schema:name "FRSO & Pikku Kakkonen" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2027-04-01T18:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009486"^^xsd:anyURI .
+
+cmk:viola a cmo:musical-identity .
+
+cmk:violin a cmo:musical-identity .
+
+cmk:wolfgang-mitterer a foaf:Person ;
+    foaf:familyName "Mitterer" ;
+    foaf:firstName "Wolfgang" ;
+    cmo:known-as-a cmk:organist ;
+    cmo:plays-in cmk:helsinki-music-centre-concert-hall-20270212T1900 .
+
+cmk:alte-oper-20261118T0000 a mo:Performance ;
+    schema:name "Guest Performance: Frankfurt" ;
+    schema:organizer cmk:rso ;
+    schema:startDate "2026-11-18T00:00:00"^^xsd:dateTime ;
+    schema:url "https://yle.fi/aihe/a/20-10009498"^^xsd:anyURI .
+
+cmk:bass a cmo:musical-identity .
+
+cmk:bassoonist a cmo:musical-identity .
+
+cmk:clarinetist a cmo:musical-identity .
+
+cmk:composition-symphony-no-1-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:name "Symphony No. 1" .
+
+cmk:composition-verdigris-lotta-wennäkoski a schema:MusicComposition ;
+    schema:composer cmk:lotta-wennäkoski ;
+    schema:name "Verdigris" .
 
 cmk:helsinki-music-centre-concert-hall-20261118T1900 a mo:Performance ;
     schema:name "Guest Performance: Turku Philharmonic Orchestra" ;
@@ -1259,35 +2151,15 @@ cmk:helsinki-music-centre-concert-hall-20270121T1900 a mo:Performance ;
     schema:startDate "2027-01-21T19:00:00"^^xsd:dateTime ;
     schema:url "https://yle.fi/aihe/a/20-10009470"^^xsd:anyURI .
 
-cmk:helsinki-music-centre-paavo-hall a cmo:ConcertHall,
-        cmo:Venue ;
-    rdfs:label "The Helsinki Music Centre, Paavo Hall" .
-
-cmk:host a cmo:musical-identity .
-
-cmk:king-roger a cmo:Programme ;
-    rdfs:label "King Roger" .
-
 cmk:liederhalle-stuttgart-20261117T0000 a mo:Performance ;
     schema:name "Guest Performance: Stuttgart" ;
     schema:organizer cmk:rso ;
     schema:startDate "2026-11-17T00:00:00"^^xsd:dateTime ;
     schema:url "https://yle.fi/aihe/a/20-10009497"^^xsd:anyURI .
 
-cmk:narrator a cmo:musical-identity .
+cmk:organist a cmo:musical-identity .
 
-cmk:nicholas-collon-jussen-brothers a cmo:Programme ;
-    rdfs:label "Nicholas Collon & Jussen Brothers" .
-
-cmk:nicholas-collon-new-helsinki-quartet a cmo:Programme ;
-    rdfs:label "Nicholas Collon & New Helsinki Quartet" .
-
-cmk:oboe a cmo:musical-identity .
-
-cmk:piano a cmo:musical-identity .
-
-cmk:ryan-bancroft-alisa-weilerstein a cmo:Programme ;
-    rdfs:label "Ryan Bancroft & Alisa Weilerstein" .
+cmk:percussionist a cmo:musical-identity .
 
 cmk:the-helsinki-music-centre-20261007T1900 a mo:Performance ;
     schema:name "Nicholas Collon & Ava Bahari" ;
@@ -1422,25 +2294,15 @@ cmk:the-helsinki-music-centre-concert-hall-20270513T1900 a mo:Performance ;
     schema:startDate "2027-05-13T19:00:00"^^xsd:dateTime ;
     schema:url "https://yle.fi/aihe/a/20-10009494"^^xsd:anyURI .
 
-cmk:viola a cmo:musical-identity .
-
-cmk:violin a cmo:musical-identity .
-
-cmk:bass a cmo:musical-identity .
-
-cmk:bassoonist a cmo:musical-identity .
-
-cmk:clarinetist a cmo:musical-identity .
-
 cmk:helsinki-music-centre-concert-hall-20261210T1000 a mo:Performance ;
     schema:name "Fairytale Concert (in Finnish)" ;
     schema:organizer cmk:rso ;
     schema:startDate "2026-12-10T10:00:00"^^xsd:dateTime ;
     schema:url "https://yle.fi/aihe/a/20-10009464"^^xsd:anyURI .
 
-cmk:organist a cmo:musical-identity .
+cmk:mezzo-soprano a cmo:musical-identity .
 
-cmk:percussionist a cmo:musical-identity .
+cmk:tenor a cmo:musical-identity .
 
 cmk:the-helsinki-music-centre-20261002T1900 a mo:Performance ;
     schema:name "Il prete rosso - Hommage à Antonio Vivaldi" ;
@@ -1489,9 +2351,7 @@ cmk:helsinki-music-centre-paavo-hall-20270221T1500 a mo:Performance ;
     schema:startDate "2027-02-21T15:00:00"^^xsd:dateTime ;
     schema:url "https://yle.fi/aihe/a/20-10009505"^^xsd:anyURI .
 
-cmk:mezzo-soprano a cmo:musical-identity .
-
-cmk:tenor a cmo:musical-identity .
+cmk:baritone a cmo:musical-identity .
 
 cmk:helsinki-music-centre-concert-hall-20261211T1900 a mo:Performance ;
     schema:name "Nil Venditti & Marianna Bednarska" ;
@@ -1533,7 +2393,7 @@ cmk:the-helsinki-music-centre-paavo-hall-20260913T1500 a mo:Performance ;
     schema:startDate "2026-09-13T15:00:00"^^xsd:dateTime ;
     schema:url "https://yle.fi/aihe/a/20-10009499"^^xsd:anyURI .
 
-cmk:baritone a cmo:musical-identity .
+cmk:violist a cmo:musical-identity .
 
 cmk:helsinki-music-centre-concert-hall-20270129T1900 a mo:Performance ;
     cmo:has-programme cmk:frso-antoine-tamestit ;
@@ -1555,13 +2415,17 @@ cmk:the-helsinki-music-centre-paavo-hall-20270314T1500 a mo:Performance ;
     schema:startDate "2027-03-14T15:00:00"^^xsd:dateTime ;
     schema:url "https://yle.fi/aihe/a/20-10009506"^^xsd:anyURI .
 
-cmk:violist a cmo:musical-identity .
+cmk:helsinki-music-centre-concert-hall a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "The Helsinki Music Centre, Concert Hall" .
 
 cmk:helsinki-music-centre-concert-hall-20261206T1500 a mo:Performance ;
     schema:name "Independence Day Gala Concert" ;
     schema:organizer cmk:rso ;
     schema:startDate "2026-12-06T15:00:00"^^xsd:dateTime ;
     schema:url "https://yle.fi/aihe/a/20-10009463"^^xsd:anyURI .
+
+cmk:soprano a cmo:musical-identity .
 
 cmk:the-helsinki-music-centre-20261030T1900 a mo:Performance ;
     schema:name "Anja Bihlmaier & Sergei Krylov" ;
@@ -1582,17 +2446,13 @@ cmk:the-helsinki-music-centre-concert-hall-20270507T1900 a mo:Performance ;
     schema:startDate "2027-05-07T19:00:00"^^xsd:dateTime ;
     schema:url "https://yle.fi/aihe/a/20-10009492"^^xsd:anyURI .
 
-cmk:helsinki-music-centre-concert-hall a cmo:ConcertHall,
-        cmo:Venue ;
-    rdfs:label "The Helsinki Music Centre, Concert Hall" .
-
-cmk:soprano a cmo:musical-identity .
-
 cmk:the-helsinki-music-centre-paavo-hall-20261108T1500 a mo:Performance ;
     schema:name "Chamber Music Concert: Insights" ;
     schema:organizer cmk:rso ;
     schema:startDate "2026-11-08T15:00:00"^^xsd:dateTime ;
     schema:url "https://yle.fi/aihe/a/20-10009501"^^xsd:anyURI .
+
+cmk:cellist a cmo:musical-identity .
 
 cmk:helsinki-music-centre-concert-hall-20270203T1900 a mo:Performance ;
     cmo:has-programme cmk:king-roger ;
@@ -1610,15 +2470,13 @@ cmk:helsinki-music-centre-concert-hall-20270204T1900 a mo:Performance ;
     schema:startDate "2027-02-04T19:00:00"^^xsd:dateTime ;
     schema:url "https://yle.fi/aihe/a/20-10009473"^^xsd:anyURI .
 
+cmk:pianist a cmo:musical-identity .
+
 cmk:the-helsinki-music-centre-concert-hall-20270409T1900 a mo:Performance ;
     schema:name "Anna-Maria Helsing & Behzod Abduraimov" ;
     schema:organizer cmk:rso ;
     schema:startDate "2027-04-09T19:00:00"^^xsd:dateTime ;
     schema:url "https://yle.fi/aihe/a/20-10009487"^^xsd:anyURI .
-
-cmk:cellist a cmo:musical-identity .
-
-cmk:pianist a cmo:musical-identity .
 
 cmk:the-helsinki-music-centre-20261113T1900 a mo:Performance ;
     schema:name "Nicholas Collon & Steven Osborne" ;

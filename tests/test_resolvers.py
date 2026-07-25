@@ -99,17 +99,20 @@ def test_programme_without_label_leaves_programme_field_null(store):
     assert concerts[0]["programme"] is None
 
 
-def test_composer_populates_when_contains_music_by_present(store):
-    """cmo:contains-music-by is declared in the ontology but not emitted
-    by the pipeline today -- this exercises the OPTIONAL so it's ready the
-    moment the pipeline starts producing it."""
+def test_composer_populates_via_composition(store):
+    """Composers come from programme_agent.py's schema:hasPart ->
+    MusicComposition -> schema:composer chain, not cmo:contains-music-by
+    (declared in the ontology but never emitted by the pipeline)."""
     upload(store, """
     cmk:c1 a mo:Performance ;
         schema:name "C1" ;
         schema:startDate "2026-01-01T19:00:00"^^xsd:dateTime ;
         cmo:has-programme cmk:p1 .
     cmk:p1 rdfs:label "Programme One" ;
-        cmo:contains-music-by cmk:composer1 .
+        schema:hasPart cmk:work1 .
+    cmk:work1 a schema:MusicComposition ;
+        schema:name "Symphony No. 2" ;
+        schema:composer cmk:composer1 .
     cmk:composer1 foaf:firstName "Jean" ; foaf:familyName "Sibelius" .
     """)
 
@@ -123,8 +126,10 @@ def test_composer_deduplicated_across_rows(store):
         schema:name "C1" ;
         schema:startDate "2026-01-01T19:00:00"^^xsd:dateTime ;
         cmo:has-programme cmk:p1, cmk:p2 .
-    cmk:p1 cmo:contains-music-by cmk:composer1 .
-    cmk:p2 cmo:contains-music-by cmk:composer1 .
+    cmk:p1 schema:hasPart cmk:work1 .
+    cmk:p2 schema:hasPart cmk:work2 .
+    cmk:work1 schema:composer cmk:composer1 .
+    cmk:work2 schema:composer cmk:composer1 .
     cmk:composer1 foaf:firstName "Jean" ; foaf:familyName "Sibelius" .
     """)
 

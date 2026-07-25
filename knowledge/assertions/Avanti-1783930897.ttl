@@ -28,7 +28,33 @@ cmk:joonas-ahonen a foaf:Person ;
     cmo:plays-in cmk:art-factory-porvoo-20260625T1900 .
 
 cmk:manic-lines a cmo:Programme ;
-    rdfs:label "Summer Sounds 2026: Opening Concert \"Manic Lines\"" .
+    rdfs:label "Summer Sounds 2026: Opening Concert \"Manic Lines\"" ;
+    cmo:is-performed-at cmk:art-factory-porvoo-20260625T1900 ;
+    schema:hasPart cmk:composition-gretchen-am-spinnrade-eric-wubbels,
+        cmk:composition-kamarisinfonia-nr-1-arnold-schoenberg,
+        cmk:composition-sacrifice-suite-sarah-nemtsov,
+        cmk:composition-scene-polidimensionali-xv-mániákus-vonalak-manic-lines-márton-illés .
+
+cmk:composition-gretchen-am-spinnrade-eric-wubbels a schema:MusicComposition ;
+    schema:composer cmk:eric-wubbels ;
+    schema:dateCreated "2016"^^xsd:gYear ;
+    schema:name "gretchen am spinnrade" .
+
+cmk:composition-kamarisinfonia-nr-1-arnold-schoenberg a schema:MusicComposition ;
+    schema:composer cmk:arnold-schoenberg ;
+    schema:dateCreated "1906"^^xsd:gYear ;
+    schema:name "Kamarisinfonia Nr. 1" .
+
+cmk:composition-sacrifice-suite-sarah-nemtsov a schema:MusicComposition ;
+    schema:composer cmk:sarah-nemtsov ;
+    schema:dateCreated "2016"^^xsd:gYear,
+        "2022"^^xsd:gYear ;
+    schema:name "Sacrifice Suite" .
+
+cmk:composition-scene-polidimensionali-xv-mániákus-vonalak-manic-lines-márton-illés a schema:MusicComposition ;
+    schema:composer cmk:márton-illés ;
+    schema:dateCreated "2008"^^xsd:gYear ;
+    schema:name "Scene polidimensionali XV „Mániákus vonalak” (Manic Lines)" .
 
 cmk:conductor a cmo:musical-identity .
 

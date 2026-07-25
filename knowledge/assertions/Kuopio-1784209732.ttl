@@ -1,0 +1,558 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:aku-sorensen a foaf:Person ;
+    foaf:familyName "Sorensen" ;
+    foaf:firstName "Aku" ;
+    cmo:conducts-in cmk:ukko-luoston-ulkoilmalava-20260808T1300 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:amminkaiset a cmo:Programme ;
+    rdfs:label "ÄMMINKÄISET" .
+
+cmk:antti-auvinen a foaf:Person ;
+    foaf:familyName "Auvinen" ;
+    foaf:firstName "Antti" ;
+    cmo:known-as-a cmk:composer ;
+    cmo:performs-in cmk:kuopion-musiikkikeskuksen-konserttisali-20261119T1800 .
+
+cmk:atso-almila a foaf:Person ;
+    foaf:familyName "Almila" ;
+    foaf:firstName "Atso" ;
+    cmo:conducts-in cmk:kuopion-musiikkikeskuksen-konserttisali-20261217T1500,
+        cmk:kuopion-musiikkikeskuksen-konserttisali-20261217T1800 ;
+    cmo:known-as-a cmk:conductor,
+        cmk:interviewer ;
+    cmo:performs-in cmk:kuopion-musiikkikeskuksen-konserttisali-20261106T1900 .
+
+cmk:baritone-voice a cmo:musical-identity .
+
+cmk:cecile-orblin a foaf:Person ;
+    foaf:familyName "Orblin" ;
+    foaf:firstName "Cécile" ;
+    cmo:known-as-a cmk:narrator ;
+    cmo:narrates-in cmk:kuopion-musiikkikeskuksen-konserttisali-20261119T1800 .
+
+cmk:christoffer-sundqvist a foaf:Person ;
+    foaf:familyName "Sundqvist" ;
+    foaf:firstName "Christoffer" ;
+    cmo:known-as-a cmk:clarinetist ;
+    cmo:plays-in cmk:kuopion-musiikkikeskuksen-konserttisali-20261203T1800 .
+
+cmk:elisar-riddelin a foaf:Person ;
+    foaf:familyName "Riddelin" ;
+    foaf:firstName "Elisar" ;
+    cmo:conducts-in cmk:kuopion-musiikkikeskuksen-konserttisali-20261119T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:erik-ochsner a foaf:Person ;
+    foaf:familyName "Ochsner" ;
+    foaf:firstName "Erik" ;
+    cmo:conducts-in cmk:kuopion-musiikkikeskuksen-konserttisali-20260827T1800,
+        cmk:kuopion-musiikkikeskuksen-konserttisali-20260828T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:eugene-tzigane a foaf:Person ;
+    foaf:familyName "Tzigane" ;
+    foaf:firstName "Eugene" ;
+    cmo:conducts-in cmk:kuopion-musiikkikeskuksen-konserttisali-20261203T1200,
+        cmk:kuopion-musiikkikeskuksen-konserttisali-20261203T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:gabriel-kivivuori-sereno a foaf:Person ;
+    foaf:familyName "Kivivuori Sereno" ;
+    foaf:firstName "Gabriel" ;
+    cmo:known-as-a cmk:baritone ;
+    cmo:sings-in cmk:ukko-luoston-ulkoilmalava-20260808T1300 .
+
+cmk:huuliharppuyhtye-svang a foaf:Person ;
+    foaf:familyName "Sväng" ;
+    foaf:firstName "Huuliharppuyhtye" ;
+    cmo:known-as-a cmk:ensemble ;
+    cmo:performs-in cmk:kuopion-musiikkikeskuksen-konserttisali-20261001T1800 .
+
+cmk:ilta-marzi-nymanin-kanssa a cmo:Programme ;
+    rdfs:label "ILTA MARZI NYMANIN KANSSA" .
+
+cmk:isabelle-van-keulen a foaf:Person ;
+    foaf:familyName "van Keulen" ;
+    foaf:firstName "Isabelle" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:kuopion-musiikkikeskuksen-konserttisali-20260910T1800 .
+
+cmk:janne-nisonen a foaf:Person ;
+    foaf:familyName "Nisonen" ;
+    foaf:firstName "Janne" ;
+    cmo:conducts-in cmk:kuopion-musiikkikeskuksen-konserttisali-20261001T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:jascha-von-der-goltz a foaf:Person ;
+    foaf:familyName "von der Goltz" ;
+    foaf:firstName "Jascha" ;
+    cmo:conducts-in cmk:kuopion-musiikkikeskuksen-konserttisali-20261126T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:jessica-cottis a foaf:Person ;
+    foaf:familyName "Cottis" ;
+    foaf:firstName "Jessica" ;
+    cmo:conducts-in cmk:kuopion-musiikkikeskuksen-konserttisali-20261210T1200,
+        cmk:kuopion-musiikkikeskuksen-konserttisali-20261210T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:joululauluista-kauneimmat a cmo:Programme .
+
+cmk:juho-pohjonen a foaf:Person ;
+    foaf:familyName "Pohjonen" ;
+    foaf:firstName "Juho" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:kuopion-musiikkikeskuksen-konserttisali-20261210T1800 .
+
+cmk:jukka-eskola a foaf:Person ;
+    foaf:familyName "Eskola" ;
+    foaf:firstName "Jukka" ;
+    cmo:known-as-a cmk:trumpeter ;
+    cmo:plays-in cmk:kuopion-musiikkikeskuksen-konserttisali-20261106T1900 .
+
+cmk:jyva-ensemble-neaa-performer a foaf:Person ;
+    foaf:familyName "Lauluyhtyeet" ;
+    foaf:firstName "Jyvä Ensemble ja NEÅ" ;
+    cmo:known-as-a cmk:ensemble-identity ;
+    cmo:performs-in cmk:kuopion-musiikkikeskuksen-konserttisali-20261217T1500,
+        cmk:kuopion-musiikkikeskuksen-konserttisali-20261217T1800 .
+
+cmk:karen-kamensek a foaf:Person ;
+    foaf:familyName "Kamensek" ;
+    foaf:firstName "Karen" ;
+    cmo:conducts-in cmk:kuopion-musiikkikeskuksen-konserttisali-20260910T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:kausikonsertti-4-kolja-blacher-mayumi-kanagawa a cmo:Programme ;
+    rdfs:label "KAUSIKONSERTTI 4: KOLJA BLACHER & MAYUMI KANAGAWA" ;
+    cmo:is-performed-at cmk:kuopion-musiikkikeskuksen-konserttisali-20261022T1800 ;
+    schema:hasPart cmk:composition-paganini-variaatiot-op-26-boris-blacher,
+        cmk:composition-sinfonia-nro-6-h-molli-op-74-pateettinen-pyotr-ilyich-tchaikovsky,
+        cmk:composition-viulukonsertto-igor-stravinsky .
+
+cmk:kausikonsertti-5-sota-ja-rauha a cmo:Programme ;
+    rdfs:label "KAUSIKONSERTTI 5: SOTA JA RAUHA" ;
+    cmo:is-performed-at cmk:kuopion-musiikkikeskuksen-konserttisali-20261029T1800 ;
+    schema:hasPart cmk:composition-battalia-à-10-heinrich-biber,
+        cmk:composition-die-fechtschule-johann-heinrich-schmelzer,
+        cmk:composition-ilotulitusmusiikkia-d-duuri-george-frideric-handel,
+        cmk:composition-turcaria-partita-c-duuri-k331-johann-joseph-fux .
+
+cmk:kausikonsertti-6-crusell-tommi-hyytinen a cmo:Programme ;
+    rdfs:label "KAUSIKONSERTTI 6: CRUSELL & TOMMI HYYTINEN" ;
+    cmo:is-performed-at cmk:kuopion-musiikkikeskuksen-konserttisali-20261126T1800 ;
+    schema:hasPart cmk:composition-kamarisinfonia-nro-2-op-77-richard-dubugnon,
+        cmk:composition-käyrätorvikonsertto-bernhard-crusell,
+        cmk:composition-sinfonia-nro-4-d-molli-op-120-robert-schumann .
+
+cmk:kausikonsertti-7-sebastian-fagerlund-christoffer-sundqvist a cmo:Programme ;
+    rdfs:label "KAUSIKONSERTTI 7: SEBASTIAN FAGERLUND & CHRISTOFFER SUNDQVIST" ;
+    cmo:is-performed-at cmk:kuopion-musiikkikeskuksen-konserttisali-20261203T1800 ;
+    schema:hasPart cmk:composition-klarinettikonsertto-nro-2-sebastian-fagerlund,
+        cmk:composition-sinfonia-nro-1-c-molli-op-68-johannes-brahms,
+        cmk:composition-wiima-op-27-jaakko-kuusisto .
+
+cmk:kausikonsertti-8-beethoven-juho-pohjonen a cmo:Programme ;
+    rdfs:label "KAUSIKONSERTTI 8: BEETHOVEN & JUHO POHJONEN" ;
+    cmo:is-performed-at cmk:kuopion-musiikkikeskuksen-konserttisali-20261210T1800 ;
+    schema:hasPart cmk:composition-fidelio-alkusoitto-op-72-ludwig-van-beethoven,
+        cmk:composition-pianokonsertto-nro-1-c-duuri-op-15-ludwig-van-beethoven,
+        cmk:composition-sinfonia-nro-5-d-duuri-ralph-vaughan-williams .
+
+cmk:kolja-blacher a foaf:Person ;
+    foaf:familyName "Blacher" ;
+    foaf:firstName "Kolja" ;
+    cmo:conducts-in cmk:kuopion-musiikkikeskuksen-konserttisali-20261022T1200,
+        cmk:kuopion-musiikkikeskuksen-konserttisali-20261022T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:kreeta-maria-kentala a foaf:Person ;
+    foaf:familyName "Kentala" ;
+    foaf:firstName "Kreeta-Maria" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:kuopion-musiikkikeskuksen-konserttisali-20261029T1800 .
+
+cmk:kuopion-kaupungin-itsenaisyyspaivan-juhla a cmo:Programme ;
+    rdfs:label "KUOPION KAUPUNGIN ITSENÄISYYSPÄIVÄN JUHLA" .
+
+cmk:kuopion-musiikkikeskuksen-konserttisali a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Kuopion Musiikkikeskuksen Konserttisali" .
+
+cmk:kuopion-musiikkikeskuksen-konserttisali-20261206T1300 a mo:Performance ;
+    schema:name "KUOPION KAUPUNGIN ITSENÄISYYSPÄIVÄN JUHLA" ;
+    schema:organizer cmk:kuopionkaupunginorkesteri ;
+    schema:startDate "2026-12-06T13:00:00"^^xsd:dateTime ;
+    schema:url "https://www.kuopionkaupunginorkesteri.fi/ohjelmisto/kuopion-kaupungin-itsenaisyyspaivan-juhla-5/29111"^^xsd:anyURI .
+
+cmk:kuopion-sinfoniakuoro a foaf:Person ;
+    foaf:familyName "sinfoniakuoro" ;
+    foaf:firstName "Kuopion" ;
+    cmo:known-as-a cmk:choir ;
+    cmo:performs-in cmk:kuopion-musiikkikeskuksen-konserttisali-20260827T1800,
+        cmk:kuopion-musiikkikeskuksen-konserttisali-20260828T1900 .
+
+cmk:marzena-diakun a foaf:Person ;
+    foaf:familyName "Diakun" ;
+    foaf:firstName "Marzena" ;
+    cmo:conducts-in cmk:kuopion-musiikkikeskuksen-konserttisali-20261008T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:marzi-nyman a foaf:Person ;
+    foaf:familyName "Nyman" ;
+    foaf:firstName "Marzi" ;
+    cmo:conducts-in cmk:kuopion-musiikkikeskuksen-konserttisali-20261106T1900 ;
+    cmo:known-as-a cmk:conductor,
+        cmk:guitarist ;
+    cmo:plays-in cmk:kuopion-musiikkikeskuksen-konserttisali-20261106T1900 .
+
+cmk:mayumi-kanagawa a foaf:Person ;
+    foaf:familyName "Kanagawa" ;
+    foaf:firstName "Mayumi" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:kuopion-musiikkikeskuksen-konserttisali-20261022T1800 .
+
+cmk:mikael-kemppainen a foaf:Person ;
+    foaf:familyName "Kemppainen" ;
+    foaf:firstName "Mikael" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:kuopion-musiikkikeskuksen-konserttisali-20260827T1800,
+        cmk:kuopion-musiikkikeskuksen-konserttisali-20260828T1900 .
+
+cmk:tommi-hyytinen a foaf:Person ;
+    foaf:familyName "Hyytinen" ;
+    foaf:firstName "Tommi" ;
+    cmo:known-as-a cmk:hornist ;
+    cmo:plays-in cmk:kuopion-musiikkikeskuksen-konserttisali-20261126T1800 .
+
+cmk:torleif-thedeen a foaf:Person ;
+    foaf:familyName "Thedeen" ;
+    foaf:firstName "Torleif" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:kuopion-musiikkikeskuksen-konserttisali-20261008T1800 .
+
+cmk:tuomas-karkkainen a foaf:Person ;
+    foaf:familyName "Kärkkäinen" ;
+    foaf:firstName "Tuomas" ;
+    cmo:known-as-a cmk:writer ;
+    cmo:performs-in cmk:kuopion-musiikkikeskuksen-konserttisali-20261119T1800 .
+
+cmk:ukko-luoston-ulkoilmalava a cmo:Venue ;
+    rdfs:label "Ukko-Luoston ulkoilmalava" .
+
+cmk:vuokko-lahtinen a foaf:Person ;
+    foaf:familyName "Lahtinen" ;
+    foaf:firstName "Vuokko" ;
+    cmo:conducts-in cmk:kuopion-musiikkikeskuksen-konserttisali-20260904T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:baritone a cmo:musical-identity .
+
+cmk:cellist a cmo:musical-identity .
+
+cmk:choir a cmo:ensemble-identity .
+
+cmk:clarinetist a cmo:musical-identity .
+
+cmk:composer a cmo:musical-identity .
+
+cmk:composition-battalia-à-10-heinrich-biber a schema:MusicComposition ;
+    schema:composer cmk:heinrich-biber ;
+    schema:name "Battalia à 10" .
+
+cmk:composition-die-fechtschule-johann-heinrich-schmelzer a schema:MusicComposition ;
+    schema:composer cmk:johann-heinrich-schmelzer ;
+    schema:name "Die Fechtschule" .
+
+cmk:composition-fidelio-alkusoitto-op-72-ludwig-van-beethoven a schema:MusicComposition ;
+    schema:composer cmk:ludwig-van-beethoven ;
+    schema:name "Fidelio-alkusoitto op. 72" .
+
+cmk:composition-ilotulitusmusiikkia-d-duuri-george-frideric-handel a schema:MusicComposition ;
+    schema:composer cmk:george-frideric-handel ;
+    schema:dateCreated "1749"^^xsd:gYear ;
+    schema:name "Ilotulitusmusiikkia D-duuri" .
+
+cmk:composition-jäätyivät-umpeen-levottomat-vedet-kalevi-aho a schema:MusicComposition ;
+    schema:composer cmk:kalevi-aho ;
+    schema:name "… jäätyivät umpeen levottomat vedet" .
+
+cmk:composition-kamarisinfonia-nro-2-op-77-richard-dubugnon a schema:MusicComposition ;
+    schema:composer cmk:richard-dubugnon ;
+    schema:dateCreated "2017"^^xsd:gYear ;
+    schema:name "Kamarisinfonia nro 2 op. 77" .
+
+cmk:composition-klarinettikonsertto-nro-2-sebastian-fagerlund a schema:MusicComposition ;
+    schema:composer cmk:sebastian-fagerlund ;
+    schema:dateCreated "2025"^^xsd:gYear ;
+    schema:name "Klarinettikonsertto nro 2" .
+
+cmk:composition-käyrätorvikonsertto-bernhard-crusell a schema:MusicComposition ;
+    schema:composer cmk:bernhard-crusell ;
+    schema:name "Käyrätorvikonsertto" .
+
+cmk:composition-matkalauluja-ralph-vaughan-williams a schema:MusicComposition ;
+    schema:composer cmk:ralph-vaughan-williams ;
+    schema:name "Matkalauluja" .
+
+cmk:composition-näyttelykuvia-orkestraatio-maurice-ravel-modest-petrovich-mussorgsky a schema:MusicComposition ;
+    schema:composer cmk:modest-petrovich-mussorgsky ;
+    schema:dateCreated "1922"^^xsd:gYear ;
+    schema:name "Näyttelykuvia (orkestraatio Maurice Ravel)" .
+
+cmk:composition-paganini-variaatiot-op-26-boris-blacher a schema:MusicComposition ;
+    schema:composer cmk:boris-blacher ;
+    schema:dateCreated "1947"^^xsd:gYear ;
+    schema:name "Paganini-variaatiot op. 26" .
+
+cmk:composition-pianokonsertto-nro-1-c-duuri-op-15-ludwig-van-beethoven a schema:MusicComposition ;
+    schema:composer cmk:ludwig-van-beethoven ;
+    schema:name "Pianokonsertto nro 1 C-duuri op. 15" .
+
+cmk:composition-sellokonsertto-nro-2-nykyisyys-peteris-vasks a schema:MusicComposition ;
+    schema:composer cmk:peteris-vasks ;
+    schema:dateCreated "2012"^^xsd:gYear ;
+    schema:name "Sellokonsertto nro 2 \"Nykyisyys\"" .
+
+cmk:composition-sinfonia-nro-1-c-molli-op-68-johannes-brahms a schema:MusicComposition ;
+    schema:composer cmk:johannes-brahms ;
+    schema:dateCreated "1876"^^xsd:gYear ;
+    schema:name "Sinfonia nro 1 c-molli op. 68" .
+
+cmk:composition-sinfonia-nro-3-a-molli-op-56-skottilainen-felix-mendelssohn a schema:MusicComposition ;
+    schema:composer cmk:felix-mendelssohn ;
+    schema:name "Sinfonia nro 3 a-molli op. 56 ”Skottilainen”" .
+
+cmk:composition-sinfonia-nro-4-d-molli-op-120-robert-schumann a schema:MusicComposition ;
+    schema:composer cmk:robert-schumann ;
+    schema:dateCreated "1841"^^xsd:gYear ;
+    schema:name "Sinfonia nro 4 d-molli op. 120" .
+
+cmk:composition-sinfonia-nro-5-d-duuri-ralph-vaughan-williams a schema:MusicComposition ;
+    schema:composer cmk:ralph-vaughan-williams ;
+    schema:name "Sinfonia nro 5 D-duuri" .
+
+cmk:composition-sinfonia-nro-6-a-duuri-wab-106-anton-bruckner a schema:MusicComposition ;
+    schema:composer cmk:anton-bruckner ;
+    schema:dateCreated "1879"^^xsd:gYear,
+        "1881"^^xsd:gYear ;
+    schema:name "Sinfonia nro 6 A-duuri WAB 106" .
+
+cmk:composition-sinfonia-nro-6-h-molli-op-74-pateettinen-pyotr-ilyich-tchaikovsky a schema:MusicComposition ;
+    schema:composer cmk:pyotr-ilyich-tchaikovsky ;
+    schema:dateCreated "1893"^^xsd:gYear ;
+    schema:name "Sinfonia nro 6 h-molli op. 74 ”Pateettinen”" .
+
+cmk:composition-this-midnight-hour-anna-clyne a schema:MusicComposition ;
+    schema:composer cmk:anna-clyne ;
+    schema:dateCreated "2015"^^xsd:gYear ;
+    schema:name "This Midnight Hour" .
+
+cmk:composition-turcaria-partita-c-duuri-k331-johann-joseph-fux a schema:MusicComposition ;
+    schema:composer cmk:johann-joseph-fux ;
+    schema:name "Turcaria – Partita C-duuri K331" .
+
+cmk:composition-viulukonsertto-igor-stravinsky a schema:MusicComposition ;
+    schema:composer cmk:igor-stravinsky ;
+    schema:dateCreated "1931"^^xsd:gYear ;
+    schema:name "Viulukonsertto" .
+
+cmk:composition-viulukonsertto-op-35-d-duuri-erich-wolfgang-korngold a schema:MusicComposition ;
+    schema:composer cmk:erich-wolfgang-korngold ;
+    schema:dateCreated "1945"^^xsd:gYear ;
+    schema:name "Viulukonsertto op. 35 D-duuri" .
+
+cmk:composition-wiima-op-27-jaakko-kuusisto a schema:MusicComposition ;
+    schema:composer cmk:jaakko-kuusisto ;
+    schema:dateCreated "2008"^^xsd:gYear,
+        "2011"^^xsd:gYear ;
+    schema:name "Wiima op. 27" .
+
+cmk:ensemble a cmo:ensemble-identity .
+
+cmk:ensemble-identity a cmo:musical-identity .
+
+cmk:guitarist a cmo:musical-identity .
+
+cmk:hornist a cmo:musical-identity .
+
+cmk:ilmaiskonsertti a cmo:Programme ;
+    rdfs:label "ILMAISKONSERTTI" .
+
+cmk:interviewer a cmo:musical-identity .
+
+cmk:kausikonsertti-1-nayttelykuvia a cmo:Programme ;
+    rdfs:label "KAUSIKONSERTTI 1: NÄYTTELYKUVIA" ;
+    cmo:is-performed-at cmk:kuopion-musiikkikeskuksen-konserttisali-20260910T1800 ;
+    schema:hasPart cmk:composition-näyttelykuvia-orkestraatio-maurice-ravel-modest-petrovich-mussorgsky,
+        cmk:composition-this-midnight-hour-anna-clyne,
+        cmk:composition-viulukonsertto-op-35-d-duuri-erich-wolfgang-korngold .
+
+cmk:kausikonsertti-2-svangfonia a cmo:Programme ;
+    rdfs:label "KAUSIKONSERTTI 2: SVÄNGFONIA" .
+
+cmk:kausikonsertti-3-vasks-bruckner a cmo:Programme ;
+    rdfs:label "KAUSIKONSERTTI 3: VASKS & BRUCKNER" ;
+    cmo:is-performed-at cmk:kuopion-musiikkikeskuksen-konserttisali-20261008T1800 ;
+    schema:hasPart cmk:composition-sellokonsertto-nro-2-nykyisyys-peteris-vasks,
+        cmk:composition-sinfonia-nro-6-a-duuri-wab-106-anton-bruckner .
+
+cmk:kuopion-kaupunginorkesterin-avoin-harjoitus a cmo:Programme ;
+    rdfs:label "KUOPION KAUPUNGINORKESTERIN AVOIN HARJOITUS" .
+
+cmk:kuopion-musiikkikeskuksen-konserttisali-20260904T1800 a mo:Performance ;
+    cmo:performs-in-programme cmk:ilmaiskonsertti ;
+    schema:name "ILMAISKONSERTTI" ;
+    schema:organizer cmk:kuopionkaupunginorkesteri ;
+    schema:startDate "2026-09-04T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.kuopionkaupunginorkesteri.fi/ohjelmisto/ilmaiskonsertti/28587"^^xsd:anyURI .
+
+cmk:kuopion-musiikkikeskuksen-konserttisali-20261022T1200 a mo:Performance ;
+    cmo:performs-in-programme cmk:kuopion-kaupunginorkesterin-avoin-harjoitus ;
+    schema:name "KUOPION KAUPUNGINORKESTERIN AVOIN HARJOITUS" ;
+    schema:organizer cmk:kuopionkaupunginorkesteri ;
+    schema:startDate "2026-10-22T12:00:00"^^xsd:dateTime ;
+    schema:url "https://www.kuopionkaupunginorkesteri.fi/ohjelmisto/kuopion-kaupunginorkesterin-avoin-harjoitus-20/28591"^^xsd:anyURI .
+
+cmk:kuopion-musiikkikeskuksen-konserttisali-20261203T1200 a mo:Performance ;
+    schema:name "KUOPION KAUPUNGINORKESTERIN AVOIN HARJOITUS" ;
+    schema:organizer cmk:kuopionkaupunginorkesteri ;
+    schema:startDate "2026-12-03T12:00:00"^^xsd:dateTime ;
+    schema:url "https://www.kuopionkaupunginorkesteri.fi/ohjelmisto/kuopion-kaupunginorkesterin-avoin-harjoitus-21/28594"^^xsd:anyURI .
+
+cmk:kuopion-musiikkikeskuksen-konserttisali-20261210T1200 a mo:Performance ;
+    schema:name "KUOPION KAUPUNGINORKESTERIN AVOIN HARJOITUS" ;
+    schema:organizer cmk:kuopionkaupunginorkesteri ;
+    schema:startDate "2026-12-10T12:00:00"^^xsd:dateTime ;
+    schema:url "https://www.kuopionkaupunginorkesteri.fi/ohjelmisto/kuopion-kaupunginorkesterin-avoin-harjoitus-22/28597"^^xsd:anyURI .
+
+cmk:luosto-soi-matkalauluja-paakonsertti a cmo:Programme ;
+    rdfs:label "LUOSTO SOI! MATKALAULUJA–PÄÄKONSERTTI" ;
+    cmo:is-performed-at cmk:ukko-luoston-ulkoilmalava-20260808T1300 ;
+    schema:hasPart cmk:composition-jäätyivät-umpeen-levottomat-vedet-kalevi-aho,
+        cmk:composition-matkalauluja-ralph-vaughan-williams,
+        cmk:composition-sinfonia-nro-3-a-molli-op-56-skottilainen-felix-mendelssohn .
+
+cmk:narrator a cmo:musical-identity .
+
+cmk:trumpeter a cmo:musical-identity .
+
+cmk:writer a cmo:musical-identity .
+
+cmk:amadeus-live a cmo:Programme ;
+    rdfs:label "AMADEUS LIVE" .
+
+cmk:kuopion-musiikkikeskuksen-konserttisali-20261001T1800 a mo:Performance ;
+    cmo:performs-in-programme cmk:kausikonsertti-2-svangfonia ;
+    schema:name "KAUSIKONSERTTI 2: SVÄNGFONIA" ;
+    schema:organizer cmk:kuopionkaupunginorkesteri ;
+    schema:startDate "2026-10-01T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.kuopionkaupunginorkesteri.fi/ohjelmisto/kausikonsertti-2-svangfonia/28559"^^xsd:anyURI .
+
+cmk:kuopion-musiikkikeskuksen-konserttisali-20261029T1800 a mo:Performance ;
+    schema:name "KAUSIKONSERTTI 5: SOTA JA RAUHA" ;
+    schema:organizer cmk:kuopionkaupunginorkesteri ;
+    schema:startDate "2026-10-29T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.kuopionkaupunginorkesteri.fi/ohjelmisto/kausikonsertti-1-sota-ja-rauha/28550"^^xsd:anyURI .
+
+cmk:kuopion-musiikkikeskuksen-konserttisali-20261217T1500 a mo:Performance ;
+    schema:name "JOULULAULUISTA KAUNEIMMAT" ;
+    schema:organizer cmk:kuopionkaupunginorkesteri ;
+    schema:startDate "2026-12-17T15:00:00"^^xsd:dateTime ;
+    schema:url "https://www.kuopionkaupunginorkesteri.fi/ohjelmisto/joululauluista-kauneimmat-3/28639"^^xsd:anyURI .
+
+cmk:kuopion-musiikkikeskuksen-konserttisali-20261217T1800 a mo:Performance ;
+    schema:name "JOULULAULUISTA KAUNEIMMAT" ;
+    schema:organizer cmk:kuopionkaupunginorkesteri ;
+    schema:startDate "2026-12-17T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.kuopionkaupunginorkesteri.fi/ohjelmisto/joululauluista-kauneimmat-4/28643"^^xsd:anyURI .
+
+cmk:pianist a cmo:musical-identity .
+
+cmk:kuopion-musiikkikeskuksen-konserttisali-20260827T1800 a mo:Performance ;
+    cmo:performs-in-programme cmk:amadeus-live ;
+    schema:name "AMADEUS LIVE" ;
+    schema:organizer cmk:kuopionkaupunginorkesteri ;
+    schema:startDate "2026-08-27T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.kuopionkaupunginorkesteri.fi/ohjelmisto/amadeus-live/28576"^^xsd:anyURI .
+
+cmk:kuopion-musiikkikeskuksen-konserttisali-20260828T1900 a mo:Performance ;
+    cmo:performs-in-programme cmk:amadeus-live ;
+    schema:name "AMADEUS LIVE" ;
+    schema:organizer cmk:kuopionkaupunginorkesteri ;
+    schema:startDate "2026-08-28T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.kuopionkaupunginorkesteri.fi/ohjelmisto/amadeus-live-2/28583"^^xsd:anyURI .
+
+cmk:kuopion-musiikkikeskuksen-konserttisali-20260910T1800 a mo:Performance ;
+    cmo:performs-in-programme cmk:kausikonsertti-1-nayttelykuvia ;
+    schema:name "KAUSIKONSERTTI 1: NÄYTTELYKUVIA" ;
+    schema:organizer cmk:kuopionkaupunginorkesteri ;
+    schema:startDate "2026-09-10T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.kuopionkaupunginorkesteri.fi/ohjelmisto/kausikonsertti-1-nayttelykuvia/28545"^^xsd:anyURI .
+
+cmk:kuopion-musiikkikeskuksen-konserttisali-20261008T1800 a mo:Performance ;
+    cmo:performs-in-programme cmk:kausikonsertti-3-vasks-bruckner ;
+    schema:name "KAUSIKONSERTTI 3: VASKS & BRUCKNER" ;
+    schema:organizer cmk:kuopionkaupunginorkesteri ;
+    schema:startDate "2026-10-08T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.kuopionkaupunginorkesteri.fi/ohjelmisto/kausikonsertti-3-vasks-bruckner/28547"^^xsd:anyURI .
+
+cmk:kuopion-musiikkikeskuksen-konserttisali-20261022T1800 a mo:Performance ;
+    schema:name "KAUSIKONSERTTI 4: KOLJA BLACHER & MAYUMI KANAGAWA" ;
+    schema:organizer cmk:kuopionkaupunginorkesteri ;
+    schema:startDate "2026-10-22T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.kuopionkaupunginorkesteri.fi/ohjelmisto/kausikonsertti-4-kolja-blacher-mayumi-kanagawa/28565"^^xsd:anyURI .
+
+cmk:kuopion-musiikkikeskuksen-konserttisali-20261126T1800 a mo:Performance ;
+    schema:name "KAUSIKONSERTTI 6: CRUSELL & TOMMI HYYTINEN" ;
+    schema:organizer cmk:kuopionkaupunginorkesteri ;
+    schema:startDate "2026-11-26T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.kuopionkaupunginorkesteri.fi/ohjelmisto/kausikonsertti-6-crusell-tommi-hyytinen/28569"^^xsd:anyURI .
+
+cmk:kuopion-musiikkikeskuksen-konserttisali-20261203T1800 a mo:Performance ;
+    schema:name "KAUSIKONSERTTI 7: SEBASTIAN FAGERLUND & CHRISTOFFER SUNDQVIST" ;
+    schema:organizer cmk:kuopionkaupunginorkesteri ;
+    schema:startDate "2026-12-03T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.kuopionkaupunginorkesteri.fi/ohjelmisto/kausikonsertti-7-sebastian-fagerlund-christoffer-sundqvist/28556"^^xsd:anyURI .
+
+cmk:kuopion-musiikkikeskuksen-konserttisali-20261210T1800 a mo:Performance ;
+    schema:name "KAUSIKONSERTTI 8: BEETHOVEN & JUHO POHJONEN" ;
+    schema:organizer cmk:kuopionkaupunginorkesteri ;
+    schema:startDate "2026-12-10T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.kuopionkaupunginorkesteri.fi/ohjelmisto/kausikonsertti-6-crusell-tommi-hyytinen-2/28572"^^xsd:anyURI .
+
+cmk:ukko-luoston-ulkoilmalava-20260808T1300 a mo:Performance ;
+    cmo:performs-in-programme cmk:luosto-soi-matkalauluja-paakonsertti ;
+    schema:name "LUOSTO SOI! MATKALAULUJA–PÄÄKONSERTTI" ;
+    schema:organizer cmk:kuopionkaupunginorkesteri ;
+    schema:startDate "2026-08-08T13:00:00"^^xsd:dateTime ;
+    schema:url "https://www.kuopionkaupunginorkesteri.fi/ohjelmisto/luosto-soi-matkalauluja-paakonsertti/28223"^^xsd:anyURI .
+
+cmk:violinist a cmo:musical-identity .
+
+cmk:kuopion-musiikkikeskuksen-konserttisali-20261106T1900 a mo:Performance ;
+    schema:name "ILTA MARZI NYMANIN KANSSA" ;
+    schema:organizer cmk:kuopionkaupunginorkesteri ;
+    schema:startDate "2026-11-06T19:00:00"^^xsd:dateTime ;
+    schema:url "https://www.kuopionkaupunginorkesteri.fi/ohjelmisto/ilta-marzi-nymanin-kanssa/28631"^^xsd:anyURI .
+
+cmk:kuopion-musiikkikeskuksen-konserttisali-20261119T1800 a mo:Performance ;
+    schema:name "ÄMMINKÄISET" ;
+    schema:organizer cmk:kuopionkaupunginorkesteri ;
+    schema:startDate "2026-11-19T18:00:00"^^xsd:dateTime ;
+    schema:url "https://www.kuopionkaupunginorkesteri.fi/ohjelmisto/amminkaiset/28636"^^xsd:anyURI .
+
+cmk:conductor a cmo:musical-identity .
+
+cmk:kuopionkaupunginorkesteri a mo:MusicGroup,
+        foaf:Organization ;
+    rdfs:label "Kuopion kaupunginorkesteri" .
+

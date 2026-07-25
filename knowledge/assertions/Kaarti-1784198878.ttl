@@ -1,0 +1,220 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:helsingin-musiikkitalo a cmo:ConcertHall ;
+    rdfs:label "Helsingin Musiikkitalo"@fi .
+
+cmk:jaakko-nurila a foaf:Person ;
+    foaf:familyName "Nurila" ;
+    foaf:firstName "Jaakko" ;
+    cmo:conducts-in cmk:helsingin-musiikkitalo-20261117T1900,
+        cmk:lammin-kirkko-20260821T1800,
+        cmk:lauttasaaren-kirkko-20260820T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:johanneksenkirkko a cmo:Venue ;
+    rdfs:label "Johanneksenkirkko"@fi .
+
+cmk:jussi-vokkolainen a foaf:Person ;
+    foaf:familyName "Vokkolainen" ;
+    foaf:firstName "Jussi" ;
+    cmo:conducts-in cmk:senaatintori-20260731T1220,
+        cmk:senaatintori-20260807T1220,
+        cmk:senaatintori-20260814T1220 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:lammin-kirkko a cmo:Venue ;
+    rdfs:label "Lammin kirkko"@fi .
+
+cmk:lauttasaaren-kirkko a cmo:Venue ;
+    rdfs:label "Lauttasaaren kirkko"@fi .
+
+cmk:mika-nisula a foaf:Person ;
+    foaf:familyName "Nisula" ;
+    foaf:firstName "Mika" ;
+    cmo:known-as-a cmk:soloist ;
+    cmo:performs-in cmk:lammin-kirkko-20260821T1800,
+        cmk:lauttasaaren-kirkko-20260820T1900 .
+
+cmk:olli-tapio-tikkanen a foaf:Person ;
+    foaf:familyName "Tikkanen" ;
+    foaf:firstName "Olli-Tapio" ;
+    cmo:known-as-a cmk:soloist ;
+    cmo:sings-in cmk:helsingin-musiikkitalo-20261117T1900 .
+
+cmk:paula-suhonen a foaf:Person ;
+    foaf:familyName "Suhonen" ;
+    foaf:firstName "Paula" ;
+    cmo:known-as-a cmk:soloist ;
+    cmo:performs-in cmk:lammin-kirkko-20260821T1800,
+        cmk:lauttasaaren-kirkko-20260820T1900 .
+
+cmk:risto-sojakka a foaf:Person ;
+    foaf:familyName "Sojakka" ;
+    foaf:firstName "Risto" ;
+    cmo:conducts-in cmk:johanneksenkirkko-20261211T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:ritarihuone a cmo:Venue ;
+    rdfs:label "Ritarihuone, Helsinki"@fi .
+
+cmk:senaatintori a cmo:Venue ;
+    rdfs:label "Senaatintori, Helsinki"@fi .
+
+cmk:tamas-paraczky a foaf:Person ;
+    foaf:familyName "Paraczky" ;
+    foaf:firstName "Tamas" ;
+    cmo:conducts-in cmk:ritarihuone-20261105T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:timo-kotilainen a foaf:Person ;
+    foaf:familyName "Kotilainen" ;
+    foaf:firstName "Timo" ;
+    cmo:conducts-in cmk:helsingin-musiikkitalo-20261117T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:timo-riihonen a foaf:Person ;
+    foaf:familyName "Riihonen" ;
+    foaf:firstName "Timo" ;
+    cmo:known-as-a cmk:singer ;
+    cmo:sings-in cmk:johanneksenkirkko-20261211T1900 .
+
+cmk:composition-concertino-cécile-chaminade a schema:MusicComposition ;
+    schema:composer cmk:cécile-chaminade ;
+    schema:name "Concertino" .
+
+cmk:composition-concerto-pour-sol-osa-2-adagio-maurice-ravel a schema:MusicComposition ;
+    schema:composer cmk:maurice-ravel ;
+    schema:name "Concerto pour Sol, osa 2 Adagio" .
+
+cmk:composition-elegia-leevi-madetoja a schema:MusicComposition ;
+    schema:composer cmk:leevi-madetoja ;
+    schema:name "Elegia" .
+
+cmk:composition-guldet-blev-till-sand-björn-ulvaeusbenny-andersson a schema:MusicComposition ;
+    schema:composer cmk:björn-ulvaeusbenny-andersson ;
+    schema:name "Guldet blev till sand" .
+
+cmk:composition-hurtti-ukko-karl-collan a schema:MusicComposition ;
+    schema:composer cmk:karl-collan ;
+    schema:name "Hurtti-Ukko" .
+
+cmk:composition-nuijamiesten-marssi-toivo-kuula a schema:MusicComposition ;
+    schema:composer cmk:toivo-kuula ;
+    schema:name "Nuijamiesten marssi" .
+
+cmk:composition-ratsuväen-marssi a schema:MusicComposition ;
+    schema:name "Ratsuväen marssi" .
+
+cmk:composition-sotilaspoika-fredrik-pacius a schema:MusicComposition ;
+    schema:composer cmk:fredrik-pacius ;
+    schema:name "Sotilaspoika" .
+
+cmk:composition-sydämeni-laulu-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:name "Sydämeni laulu" .
+
+cmk:composition-vid-dagens-slut-virsi-552-owe-green a schema:MusicComposition ;
+    schema:composer cmk:owe-green ;
+    schema:name "Vid dagens slut (Virsi 552)" .
+
+cmk:composition-virsi-125-kosketa-minua-henki a schema:MusicComposition ;
+    schema:name "Virsi 125: Kosketa minua henki" .
+
+cmk:joulukonsertti a cmo:Programme ;
+    rdfs:label "Joulukonsertti"@fi .
+
+cmk:juhlamarssi-isanmaalle a cmo:Programme ;
+    rdfs:label "Juhlamarssi isänmaalle"@fi .
+
+cmk:rannikkosotilaskotiyhdistyksen-konsertti a cmo:Programme ;
+    rdfs:label "Rannikkosotilaskotiyhdistyksen konsertti"@fi .
+
+cmk:ritarihuone-20261105T1900 a mo:Performance ;
+    cmo:has-programme cmk:rannikkosotilaskotiyhdistyksen-konsertti ;
+    schema:name "Rannikkosotilaskotiyhdistyksen konsertti" ;
+    schema:organizer cmk:kaartin-soittokunta ;
+    schema:startDate "2026-11-05T19:00:00"^^xsd:dateTime ;
+    schema:url "https://konserttikalenteri.puolustusvoimat.fi/kaartin-soittokunta/ritarihuone/"^^xsd:anyURI .
+
+cmk:senaatintori-20260731T1220 a mo:Performance ;
+    cmo:has-programme cmk:vartioparaati-kaartin-soittokunta ;
+    schema:name "Vartioparaati: Kaartin soittokunta" ;
+    schema:organizer cmk:kaartin-soittokunta ;
+    schema:startDate "2026-07-31T12:20:00"^^xsd:dateTime ;
+    schema:url "https://konserttikalenteri.puolustusvoimat.fi/vartioparaatit/vartioparaati-kaartin-soittokunta-2/"^^xsd:anyURI .
+
+cmk:senaatintori-20260807T1220 a mo:Performance ;
+    cmo:has-programme cmk:vartioparaati-kaartin-soittokunta ;
+    schema:name "Vartioparaati: Kaartin soittokunta" ;
+    schema:organizer cmk:kaartin-soittokunta ;
+    schema:startDate "2026-08-07T12:20:00"^^xsd:dateTime ;
+    schema:url "https://konserttikalenteri.puolustusvoimat.fi/vartioparaatit/vartioparaati-ja-mil-espa-kaartin-soittokunta/"^^xsd:anyURI .
+
+cmk:senaatintori-20260814T1220 a mo:Performance ;
+    cmo:has-programme cmk:vartioparaati-kaartin-soittokunta ;
+    schema:name "Vartioparaati: Kaartin soittokunta" ;
+    schema:organizer cmk:kaartin-soittokunta ;
+    schema:startDate "2026-08-14T12:20:00"^^xsd:dateTime ;
+    schema:url "https://konserttikalenteri.puolustusvoimat.fi/vartioparaatit/vartioparaati-kaartin-soittokunta-3/"^^xsd:anyURI .
+
+cmk:singer a cmo:musical-identity .
+
+cmk:iltasoitto a cmo:Programme ;
+    rdfs:label "Iltasoitto"@fi ;
+    cmo:is-performed-at cmk:lammin-kirkko-20260821T1800,
+        cmk:lauttasaaren-kirkko-20260820T1900 ;
+    schema:hasPart cmk:composition-concertino-cécile-chaminade,
+        cmk:composition-concerto-pour-sol-osa-2-adagio-maurice-ravel,
+        cmk:composition-elegia-leevi-madetoja,
+        cmk:composition-guldet-blev-till-sand-björn-ulvaeusbenny-andersson,
+        cmk:composition-hurtti-ukko-karl-collan,
+        cmk:composition-nuijamiesten-marssi-toivo-kuula,
+        cmk:composition-ratsuväen-marssi,
+        cmk:composition-sotilaspoika-fredrik-pacius,
+        cmk:composition-sydämeni-laulu-jean-sibelius,
+        cmk:composition-vid-dagens-slut-virsi-552-owe-green,
+        cmk:composition-virsi-125-kosketa-minua-henki .
+
+cmk:johanneksenkirkko-20261211T1900 a mo:Performance ;
+    cmo:has-programme cmk:joulukonsertti ;
+    schema:name "Joulukonsertti" ;
+    schema:organizer cmk:kaartin-soittokunta ;
+    schema:startDate "2026-12-11T19:00:00"^^xsd:dateTime ;
+    schema:url "https://konserttikalenteri.puolustusvoimat.fi/kaartin-soittokunta/joulukonsertti-5/"^^xsd:anyURI .
+
+cmk:helsingin-musiikkitalo-20261117T1900 a mo:Performance ;
+    cmo:has-programme cmk:juhlamarssi-isanmaalle ;
+    schema:name "Juhlamarssi isänmaalle" ;
+    schema:organizer cmk:kaartin-soittokunta ;
+    schema:startDate "2026-11-17T19:00:00"^^xsd:dateTime ;
+    schema:url "https://konserttikalenteri.puolustusvoimat.fi/kaartin-soittokunta/sotilasmusiikin-perinnepaivan-konsertti/"^^xsd:anyURI .
+
+cmk:soloist a cmo:musical-identity .
+
+cmk:vartioparaati-kaartin-soittokunta a cmo:Programme ;
+    rdfs:label "Vartioparaati: Kaartin soittokunta"@fi .
+
+cmk:lammin-kirkko-20260821T1800 a mo:Performance ;
+    cmo:has-programme cmk:iltasoitto ;
+    schema:name "Iltasoitto" ;
+    schema:organizer cmk:kaartin-soittokunta ;
+    schema:startDate "2026-08-21T18:00:00"^^xsd:dateTime ;
+    schema:url "https://konserttikalenteri.puolustusvoimat.fi/kaartin-soittokunta/iltasoitto-2/"^^xsd:anyURI .
+
+cmk:lauttasaaren-kirkko-20260820T1900 a mo:Performance ;
+    cmo:has-programme cmk:iltasoitto ;
+    schema:name "Iltasoitto" ;
+    schema:organizer cmk:kaartin-soittokunta ;
+    schema:startDate "2026-08-20T19:00:00"^^xsd:dateTime ;
+    schema:url "https://konserttikalenteri.puolustusvoimat.fi/kaartin-soittokunta/iltasoitto/"^^xsd:anyURI .
+
+cmk:conductor a cmo:musical-identity .
+
+cmk:kaartin-soittokunta a cmo:Venue .
+

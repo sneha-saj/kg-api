@@ -1,0 +1,669 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:aili-jarvela a foaf:Person ;
+    foaf:familyName "Järvelä" ;
+    foaf:firstName "Aili" ;
+    cmo:known-as-a cmk:singer-songwriter ;
+    cmo:performs-in cmk:suvilahti-helsinki-20260816T1400,
+        cmk:turku-concert-hall-20260808T1800 .
+
+cmk:alena-baeva a foaf:Person ;
+    foaf:familyName "Baeva" ;
+    foaf:firstName "Alena" ;
+    cmo:known-as-a cmk:violinist-leader ;
+    cmo:plays-in cmk:snellman-hall-20261022T1900 .
+
+cmk:all-saints-eve-concert-metamorphoses a cmo:Programme ;
+    rdfs:label "All Saints' Eve Concert - Metamorphoses" ;
+    cmo:is-performed-at cmk:snellman-hall-20261030T1900 ;
+    schema:hasPart cmk:composition-cello-concerto-no-2-klātbūtne-peteris-vasks,
+        cmk:composition-chaconne-from-partita-for-solo-violin-in-d-minor-bwv-1004-johann-sebastian-bach,
+        cmk:composition-liminal-space-milda-venckutė,
+        cmk:composition-metamorphosen-for-23-solo-strings-richard-strauss .
+
+cmk:anton-mejias a foaf:Person ;
+    foaf:familyName "Mejias" ;
+    foaf:firstName "Anton" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:snellman-hall-20261126T1900 .
+
+cmk:atte-kilpelainen a foaf:Person ;
+    foaf:familyName "Kilpeläinen" ;
+    foaf:firstName "Atte" ;
+    cmo:known-as-a cmk:violist ;
+    cmo:plays-in cmk:church-of-vora-20261105T1900,
+        cmk:kaustisen-kirkko-20261106T1900 .
+
+cmk:candle-light-concert-kaustinen a cmo:Programme ;
+    rdfs:label "Candle Light Concert / Kaustinen" ;
+    cmo:is-performed-at cmk:kaustisen-kirkko-20261106T1900 ;
+    schema:hasPart cmk:composition-adagio-sinfoniasta-nro-7-anton-bruckner,
+        cmk:composition-fleurs-de-neige-kaija-saariaho,
+        cmk:composition-nimrod-enigma-variaatioista-op-36-edward-elgar,
+        cmk:composition-sabina-andrew-norman,
+        cmk:composition-vor-deinen-thron-tret-ich-hiermit-bwv-668-johann-sebastian-bach .
+
+cmk:candle-light-concert-vora a cmo:Programme ;
+    rdfs:label "Candle Light Concert / Vörå" ;
+    cmo:is-performed-at cmk:church-of-vora-20261105T1900 ;
+    schema:hasPart cmk:composition-adagio-from-symphony-no-7-anton-bruckner,
+        cmk:composition-fleurs-de-neige-kaija-saariaho,
+        cmk:composition-nimrod-from-the-enigma-variations-op-36-edward-elgar,
+        cmk:composition-sabina-andrew-norman,
+        cmk:composition-vor-deinen-thron-tret-ich-hiermit-bwv-668-johann-sebastian-bach .
+
+cmk:church-of-kokkola a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Church of Kokkola" .
+
+cmk:church-of-vora a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Church of Vörå" .
+
+cmk:family-concert-the-magic-carpet-ride a cmo:Programme ;
+    rdfs:label "Family concert: The Magic Carpet Ride" .
+
+cmk:fordell-hall a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Fordell Hall/ Music Center Snellman, Kokkola" .
+
+cmk:handel-arias a cmo:Programme ;
+    rdfs:label "Handel - Arias" .
+
+cmk:iris-candelaria a foaf:Person ;
+    foaf:familyName "Candelaria" ;
+    foaf:firstName "Iris" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:church-of-kokkola-20261217T1900 .
+
+cmk:janne-nisonen a foaf:Person ;
+    foaf:familyName "Nisonen" ;
+    foaf:firstName "Janne" ;
+    cmo:conducts-in cmk:snellman-hall-20261113T1900,
+        cmk:temppeliaukio-church-20261114T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:kaapo-ijas a foaf:Person ;
+    foaf:familyName "Ijas" ;
+    foaf:firstName "Kaapo" ;
+    cmo:conducts-in cmk:suvilahti-helsinki-20260816T1400,
+        cmk:turku-concert-hall-20260808T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:kasmir-uusitupa a foaf:Person ;
+    foaf:familyName "Uusitupa" ;
+    foaf:firstName "Kasmir" ;
+    cmo:conducts-in cmk:church-of-kokkola-20261217T1900,
+        cmk:fordell-hall-20261203T1900,
+        cmk:snellman-hall-20260911T1900,
+        cmk:snellman-hall-20260925T1900,
+        cmk:snellman-hall-20261030T1900,
+        cmk:vaasa-city-hall-20260729T1900 ;
+    cmo:known-as-a cmk:conductor,
+        cmk:violin-and-conductor ;
+    cmo:plays-in cmk:church-of-kokkola-20261217T1900 .
+
+cmk:kaustisen-kirkko a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Kaustisen kirkko" .
+
+cmk:laura-hynninen a foaf:Person ;
+    foaf:familyName "Hynninen" ;
+    foaf:firstName "Laura" ;
+    cmo:known-as-a cmk:harpist ;
+    cmo:plays-in cmk:suvilahti-helsinki-20260816T1400,
+        cmk:turku-concert-hall-20260808T1800 .
+
+cmk:lento-lilja-haatainen a cmo:Programme ;
+    rdfs:label "Lento - Lilja Haatainen" ;
+    cmo:is-performed-at cmk:snellman-hall-20260925T1900 ;
+    schema:hasPart cmk:composition-hover-sally-beamish,
+        cmk:composition-lento-assai-cantate-e-tranquillo-from-string-quartet-no-1-ludwig-van-beethoven,
+        cmk:composition-symphony-no-1-in-d-major-joseph-haydn,
+        cmk:composition-violin-concerto-in-d-major-k-218-wa-mozart .
+
+cmk:lilja-haatainen a foaf:Person ;
+    foaf:familyName "Haatainen" ;
+    foaf:firstName "Lilja" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:snellman-hall-20260925T1900 .
+
+cmk:maarten-engeltjes a foaf:Person ;
+    foaf:familyName "Engeltjes" ;
+    foaf:firstName "Maarten" ;
+    cmo:known-as-a cmk:countertenor ;
+    cmo:sings-in cmk:snellman-hall-20261113T1900,
+        cmk:temppeliaukio-church-20261114T1900 .
+
+cmk:mackenzie-melemed a foaf:Person ;
+    foaf:familyName "Melemed" ;
+    foaf:firstName "Mackenzie" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:vaasa-city-hall-20260729T1900 .
+
+cmk:mari-palo a foaf:Person ;
+    foaf:familyName "Palo" ;
+    foaf:firstName "Mari" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:snellman-hall-20260911T1900 .
+
+cmk:mikael-loponen a foaf:Person ;
+    foaf:familyName "Loponen" ;
+    foaf:firstName "Mikael" ;
+    cmo:conducts-in cmk:the-conservatory-hall-20261204T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:mojca-lavrencic a foaf:Person ;
+    foaf:familyName "Lavrenčič" ;
+    foaf:firstName "Mojca" ;
+    cmo:conducts-in cmk:snellman-hall-20261126T1900 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:nicholas-daniel a foaf:Person ;
+    foaf:familyName "Daniel" ;
+    foaf:firstName "Nicholas" ;
+    cmo:known-as-a cmk:oboist ;
+    cmo:plays-in cmk:vaasa-city-hall-20260729T1900 .
+
+cmk:programme-snellman-hall-20261113T1900 a cmo:Programme ;
+    rdfs:label "Handel - Arias / Kokkola" ;
+    cmo:is-performed-at cmk:snellman-hall-20261113T1900 ;
+    schema:hasPart cmk:composition-arias-george-frideric-handel,
+        cmk:composition-concerto-grosso-in-a-major-op-6-no-11-george-frideric-handel,
+        cmk:composition-dead-wasps-in-the-jam-jar-ii-clara-iannotta,
+        cmk:composition-sinfonietta-bernard-herrmann .
+
+cmk:programme-temppeliaukio-church-20261114T1900 a cmo:Programme ;
+    rdfs:label "Handel - Arias / Helsinki" ;
+    cmo:is-performed-at cmk:temppeliaukio-church-20261114T1900 ;
+    schema:hasPart cmk:composition-arias-george-frideric-handel,
+        cmk:composition-concerto-grosso-in-a-major-op-6-no-11-george-frideric-handel,
+        cmk:composition-dead-wasps-in-the-jam-jar-ii-clara-iannotta,
+        cmk:composition-sinfonietta-bernard-herrmann .
+
+cmk:roberts-balanas a foaf:Person ;
+    foaf:familyName "Balanas" ;
+    foaf:firstName "Roberts" ;
+    cmo:known-as-a cmk:electric-violinist ;
+    cmo:plays-in cmk:snellman-hall-20261008T1900 .
+
+cmk:sami-koskela a foaf:Person ;
+    foaf:familyName "Koskela" ;
+    foaf:firstName "Sami" ;
+    cmo:known-as-a cmk:percussionist ;
+    cmo:plays-in cmk:suvilahti-helsinki-20260816T1400,
+        cmk:turku-concert-hall-20260808T1800 .
+
+cmk:satu-sopanen a foaf:Person ;
+    foaf:familyName "Sopanen" ;
+    foaf:firstName "Satu" ;
+    cmo:known-as-a cmk:singer ;
+    cmo:performs-in cmk:snellman-hall-20261119T1800 .
+
+cmk:snellman-hall a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Snellman Hall / Music Center Snellman, Kokkola" .
+
+cmk:stream-roberts-balanas a cmo:Programme ;
+    rdfs:label "Stream – Roberts Balanas" ;
+    cmo:is-performed-at cmk:snellman-hall-20261008T1900 ;
+    schema:hasPart cmk:composition-bohemian-rhapsody-freddie-mercury,
+        cmk:composition-concerto-for-two-violins-bwv-1043-johann-sebastian-bach,
+        cmk:composition-duet-steve-reich,
+        cmk:composition-new-work-for-violin-electronics-and-string-orchestra-jabeau,
+        cmk:composition-new-york-counterpoint-arr-r-balanas-steve-reich .
+
+cmk:suvilahti-helsinki a cmo:Venue ;
+    rdfs:label "Suvilahti, Helsinki" .
+
+cmk:temppeliaukio-church a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Temppeliaukio church, Helsinki" .
+
+cmk:terra-memoria a cmo:Programme ;
+    rdfs:label "Terra memoria" ;
+    cmo:is-performed-at cmk:snellman-hall-20261126T1900 ;
+    schema:hasPart cmk:composition-fretus-op-78-cecilia-damström,
+        cmk:composition-piano-concerto-no-1-in-d-minor-johann-sebastian-bach,
+        cmk:composition-symphony-for-strings-no-9-felix-mendelssohn,
+        cmk:composition-terra-memoria-kaija-saariaho .
+
+cmk:the-conservatory-hall a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "The Conservatory Hall, Kokkola" .
+
+cmk:thrill-alena-baeva a cmo:Programme ;
+    rdfs:label "Thrill - Alena Baeva" ;
+    cmo:is-performed-at cmk:snellman-hall-20261022T1900 ;
+    schema:hasPart cmk:composition-andante-quasi-recitativo-elfrida-andrée,
+        cmk:composition-humoresques-nos-3-4-arr-for-string-orchestra-jean-sibelius,
+        cmk:composition-string-quartet-in-g-minor-arr-a-årdal-arr-for-string-or-edvard-grieg,
+        cmk:composition-violin-concerto-in-d-minor-mwv-o-3-felix-mendelssohn .
+
+cmk:torleif-thedeen a foaf:Person ;
+    foaf:familyName "Thedéen" ;
+    foaf:firstName "Torleif" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:snellman-hall-20261030T1900 .
+
+cmk:turku-concert-hall a cmo:Venue ;
+    rdfs:label "Turku Concert Hall" .
+
+cmk:vaasa-city-hall a cmo:ConcertHall,
+        cmo:Venue ;
+    rdfs:label "Vaasa City Hall" .
+
+cmk:aili-jarvela-vuori a cmo:Programme ;
+    rdfs:label "Aili Järvelä: VUORI" ;
+    cmo:is-performed-at cmk:suvilahti-helsinki-20260816T1400 ;
+    schema:hasPart cmk:composition-vuori-aili-järvelä .
+
+cmk:cellist a cmo:musical-identity .
+
+cmk:christmas-concert-iris-candelaria a cmo:Programme ;
+    rdfs:label "Christmas concert - Iris Candelaria" ;
+    cmo:is-performed-at cmk:church-of-kokkola-20261217T1900 ;
+    schema:hasPart cmk:composition-arioso-op-3-jean-sibelius,
+        cmk:composition-baïlèro-from-chants-dauvergne-joseph-canteloube,
+        cmk:composition-concerto-grosso-op-68-christmas-concerto-arcangelo-corelli,
+        cmk:composition-en-etsi-valtaa-loistoa-jean-sibelius,
+        cmk:composition-la-delaissado-from-chants-dauvergne-joseph-canteloube,
+        cmk:composition-maa-on-niin-kaunis,
+        cmk:composition-oi-jouluyö-adolphe-adam,
+        cmk:composition-pavane-pour-une-infante-défunte-m19-maurice-ravel .
+
+cmk:composition-adagio-for-strings-samuel-barber a schema:MusicComposition ;
+    schema:composer cmk:samuel-barber ;
+    schema:name "Adagio for Strings" .
+
+cmk:composition-adagio-from-symphony-no-7-anton-bruckner a schema:MusicComposition ;
+    schema:composer cmk:anton-bruckner ;
+    schema:name "Adagio from Symphony No. 7" .
+
+cmk:composition-adagio-sinfoniasta-nro-7-anton-bruckner a schema:MusicComposition ;
+    schema:composer cmk:anton-bruckner ;
+    schema:name "Adagio sinfoniasta nro 7" .
+
+cmk:composition-andante-quasi-recitativo-elfrida-andrée a schema:MusicComposition ;
+    schema:composer cmk:elfrida-andrée ;
+    schema:name "Andante quasi recitativo" .
+
+cmk:composition-ariettes-oubliées-arr-t-broström-claude-debussy a schema:MusicComposition ;
+    schema:composer cmk:claude-debussy ;
+    schema:dateCreated "2018"^^xsd:gYear,
+        "2020"^^xsd:gYear ;
+    schema:name "Ariettes oubliées (arr. T. Broström)" .
+
+cmk:composition-arioso-op-3-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:name "Arioso Op. 3" .
+
+cmk:composition-baïlèro-from-chants-dauvergne-joseph-canteloube a schema:MusicComposition ;
+    schema:composer cmk:joseph-canteloube ;
+    schema:name "Baïlèro (from Chants d'Auvergne)" .
+
+cmk:composition-bohemian-rhapsody-freddie-mercury a schema:MusicComposition ;
+    schema:composer cmk:freddie-mercury ;
+    schema:name "Bohemian Rhapsody" .
+
+cmk:composition-cello-concerto-no-2-klātbūtne-peteris-vasks a schema:MusicComposition ;
+    schema:composer cmk:peteris-vasks ;
+    schema:dateCreated "2011"^^xsd:gYear,
+        "2012"^^xsd:gYear ;
+    schema:name "Cello Concerto No. 2, \"Klātbūtne\"" .
+
+cmk:composition-chaconne-from-partita-for-solo-violin-in-d-minor-bwv-1004-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Chaconne, from Partita for solo violin in D minor BWV 1004 (arr. K. Uusitupa)" .
+
+cmk:composition-concerto-for-two-violins-bwv-1043-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Concerto for two violins, BWV 1043" .
+
+cmk:composition-concerto-grosso-op-68-christmas-concerto-arcangelo-corelli a schema:MusicComposition ;
+    schema:composer cmk:arcangelo-corelli ;
+    schema:name "Concerto grosso Op. 6/8, 'Christmas Concerto'" .
+
+cmk:composition-der-klang-der-offenbarung-des-göttlichen-kjartan-sveinsson a schema:MusicComposition ;
+    schema:composer cmk:kjartan-sveinsson ;
+    schema:name "Der Klang der Offenbarung des Göttlichen" .
+
+cmk:composition-duet-steve-reich a schema:MusicComposition ;
+    schema:composer cmk:steve-reich ;
+    schema:name "Duet" .
+
+cmk:composition-en-etsi-valtaa-loistoa-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:name "En etsi valtaa, loistoa" .
+
+cmk:composition-fretus-op-78-cecilia-damström a schema:MusicComposition ;
+    schema:composer cmk:cecilia-damström ;
+    schema:dateCreated "2021"^^xsd:gYear ;
+    schema:name "Fretus Op. 78" .
+
+cmk:composition-hover-sally-beamish a schema:MusicComposition ;
+    schema:composer cmk:sally-beamish ;
+    schema:dateCreated "2018"^^xsd:gYear,
+        "2019"^^xsd:gYear ;
+    schema:name "Hover" .
+
+cmk:composition-humoresques-nos-3-4-arr-for-string-orchestra-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:name "Humoresques Nos. 3 & 4 (arr. for string orchestra)" .
+
+cmk:composition-klangi a schema:MusicComposition ;
+    schema:name "Klangi" .
+
+cmk:composition-la-delaissado-from-chants-dauvergne-joseph-canteloube a schema:MusicComposition ;
+    schema:composer cmk:joseph-canteloube ;
+    schema:name "La Delaissado (from Chants d'Auvergne)" .
+
+cmk:composition-lento-assai-cantate-e-tranquillo-from-string-quartet-no-1-ludwig-van-beethoven a schema:MusicComposition ;
+    schema:composer cmk:ludwig-van-beethoven ;
+    schema:name "Lento assai, cantate e tranquillo, from String Quartet No. 16 Op. 135 (arr. L. Bernstein)" .
+
+cmk:composition-liminal-space-milda-venckutė a schema:MusicComposition ;
+    schema:composer cmk:milda-venckutė ;
+    schema:dateCreated "2024"^^xsd:gYear ;
+    schema:name "Liminal Space" .
+
+cmk:composition-maa-on-niin-kaunis a schema:MusicComposition ;
+    schema:name "Maa on niin kaunis" .
+
+cmk:composition-metamorphosen-for-23-solo-strings-richard-strauss a schema:MusicComposition ;
+    schema:composer cmk:richard-strauss ;
+    schema:name "Metamorphosen for 23 solo strings" .
+
+cmk:composition-montagues-and-capulets-from-the-ballet-romeo-and-juliet-arr-sergei-prokofiev a schema:MusicComposition ;
+    schema:composer cmk:sergei-prokofiev ;
+    schema:name "Montagues and Capulets from the ballet Romeo and Juliet (arr. for string orchestra)" .
+
+cmk:composition-new-work-for-violin-electronics-and-string-orchestra-jabeau a schema:MusicComposition ;
+    schema:composer cmk:jabeau ;
+    schema:dateCreated "2026"^^xsd:gYear ;
+    schema:name "New work for violin, electronics and string orchestra" .
+
+cmk:composition-new-york-counterpoint-arr-r-balanas-steve-reich a schema:MusicComposition ;
+    schema:composer cmk:steve-reich ;
+    schema:name "New York Counterpoint (arr. R. Balanas)" .
+
+cmk:composition-nimrod-enigma-variaatioista-op-36-edward-elgar a schema:MusicComposition ;
+    schema:composer cmk:edward-elgar ;
+    schema:name "Nimrod, Enigma-variaatioista op. 36" .
+
+cmk:composition-nimrod-from-the-enigma-variations-op-36-edward-elgar a schema:MusicComposition ;
+    schema:composer cmk:edward-elgar ;
+    schema:name "Nimrod, from the Enigma variations Op. 36" .
+
+cmk:composition-oboe-concerto-ralph-vaughan-williams a schema:MusicComposition ;
+    schema:composer cmk:ralph-vaughan-williams ;
+    schema:name "Oboe Concerto" .
+
+cmk:composition-oi-jouluyö-adolphe-adam a schema:MusicComposition ;
+    schema:composer cmk:adolphe-adam ;
+    schema:name "Oi jouluyö" .
+
+cmk:composition-pavane-pour-une-infante-défunte-m19-maurice-ravel a schema:MusicComposition ;
+    schema:composer cmk:maurice-ravel ;
+    schema:name "Pavane pour une infante défunte M.19" .
+
+cmk:composition-piano-concerto-if-you-love-for-beauty-nicky-sohn a schema:MusicComposition ;
+    schema:composer cmk:nicky-sohn ;
+    schema:name "Piano Concerto, 'If You Love for Beauty'" .
+
+cmk:composition-piano-concerto-no-1-in-d-minor-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Piano Concerto No. 1 in D minor" .
+
+cmk:composition-serenade-for-strings-c-major-op-48-pyotr-ilyich-tchaikovsky a schema:MusicComposition ;
+    schema:composer cmk:pyotr-ilyich-tchaikovsky ;
+    schema:name "Serenade for Strings C Major, Op. 48" .
+
+cmk:composition-string-quartet-in-g-minor-arr-a-årdal-arr-for-string-or-edvard-grieg a schema:MusicComposition ;
+    schema:composer cmk:edvard-grieg ;
+    schema:name "String Quartet in G minor (arr. A. Årdal, arr. for string orchestra)" .
+
+cmk:composition-symphony-for-strings-no-9-felix-mendelssohn a schema:MusicComposition ;
+    schema:composer cmk:felix-mendelssohn ;
+    schema:name "Symphony for Strings No. 9" .
+
+cmk:composition-symphony-no-1-in-d-major-joseph-haydn a schema:MusicComposition ;
+    schema:composer cmk:joseph-haydn ;
+    schema:name "Symphony No. 1 in D Major" .
+
+cmk:composition-terra-memoria-kaija-saariaho a schema:MusicComposition ;
+    schema:composer cmk:kaija-saariaho ;
+    schema:dateCreated "2007"^^xsd:gYear,
+        "2009"^^xsd:gYear ;
+    schema:name "Terra Memoria" .
+
+cmk:composition-the-two-childhoods-leevi-räsänen a schema:MusicComposition ;
+    schema:composer cmk:leevi-räsänen ;
+    schema:dateCreated "2022"^^xsd:gYear,
+        "2026"^^xsd:gYear ;
+    schema:name "the two childhoods" .
+
+cmk:composition-violin-concerto-in-d-major-k-218-wa-mozart a schema:MusicComposition ;
+    schema:composer cmk:wa-mozart ;
+    schema:name "Violin Concerto in D Major, K. 218" .
+
+cmk:composition-violin-concerto-in-d-minor-mwv-o-3-felix-mendelssohn a schema:MusicComposition ;
+    schema:composer cmk:felix-mendelssohn ;
+    schema:name "Violin concerto in D minor MWV O 3" .
+
+cmk:composition-visions-fugitives-for-string-orchestra-sergei-prokofiev a schema:MusicComposition ;
+    schema:composer cmk:sergei-prokofiev ;
+    schema:name "Visions fugitives for string orchestra" .
+
+cmk:countertenor a cmo:musical-identity .
+
+cmk:electric-violinist a cmo:musical-identity .
+
+cmk:final-concert-romeo-and-juliet a cmo:Programme ;
+    rdfs:label "Final Concert - Romeo and Juliet" ;
+    cmo:is-performed-at cmk:vaasa-city-hall-20260729T1900 ;
+    schema:hasPart cmk:composition-adagio-for-strings-samuel-barber,
+        cmk:composition-montagues-and-capulets-from-the-ballet-romeo-and-juliet-arr-sergei-prokofiev,
+        cmk:composition-oboe-concerto-ralph-vaughan-williams,
+        cmk:composition-piano-concerto-if-you-love-for-beauty-nicky-sohn,
+        cmk:composition-visions-fugitives-for-string-orchestra-sergei-prokofiev .
+
+cmk:fordell-hall-20261203T1900 a mo:Performance ;
+    cmo:hasProgramme cmk:grand-string-orchestra-concert ;
+    schema:name "Grand String Orchestra Concert" ;
+    schema:organizer cmk:kamariorkesteri ;
+    schema:startDate "2026-12-03T19:00:00"^^xsd:dateTime ;
+    schema:url "https://kamariorkesteri.fi/grand-string-orchestra-concert/"^^xsd:anyURI .
+
+cmk:grand-string-orchestra-concert a cmo:Programme ;
+    rdfs:label "Grand String Orchestra Concert" .
+
+cmk:harpist a cmo:musical-identity .
+
+cmk:kjartain-sveinsson-ja-aili-järvelä-icelands-and-finlands-mountains a cmo:Programme ;
+    rdfs:label "Kjartain Sveinsson & Aili Järvelä: Iceland's and Finland's mountains" ;
+    cmo:is-performed-at cmk:turku-concert-hall-20260808T1800 ;
+    schema:hasPart cmk:composition-der-klang-der-offenbarung-des-göttlichen-kjartan-sveinsson,
+        cmk:composition-klangi,
+        cmk:composition-vuori-aili-järvelä .
+
+cmk:oboist a cmo:musical-identity .
+
+cmk:percussionist a cmo:musical-identity .
+
+cmk:season-opening-concert-encore a cmo:Programme ;
+    rdfs:label "Season opening concert - Encore?" ;
+    cmo:is-performed-at cmk:snellman-hall-20260911T1900 ;
+    schema:hasPart cmk:composition-ariettes-oubliées-arr-t-broström-claude-debussy,
+        cmk:composition-serenade-for-strings-c-major-op-48-pyotr-ilyich-tchaikovsky,
+        cmk:composition-the-two-childhoods-leevi-räsänen .
+
+cmk:singer a cmo:musical-identity .
+
+cmk:singer-songwriter a cmo:musical-identity .
+
+cmk:snellman-hall-20261119T1800 a mo:Performance ;
+    schema:name "Family concert: The Magic Carpet Ride" ;
+    schema:organizer cmk:kamariorkesteri ;
+    schema:startDate "2026-11-19T18:00:00"^^xsd:dateTime ;
+    schema:url "https://kamariorkesteri.fi/family-concert-the-magic-carpet-ride/"^^xsd:anyURI .
+
+cmk:the-conservatory-hall-20261204T1900 a mo:Performance ;
+    cmo:hasProgramme cmk:young-talents ;
+    schema:name "Young Talents" ;
+    schema:organizer cmk:kamariorkesteri ;
+    schema:startDate "2026-12-04T19:00:00"^^xsd:dateTime ;
+    schema:url "https://kamariorkesteri.fi/young-talents/"^^xsd:anyURI .
+
+cmk:violin-and-conductor a cmo:musical-identity .
+
+cmk:violinist a cmo:musical-identity .
+
+cmk:violinist-leader a cmo:musical-identity .
+
+cmk:violist a cmo:musical-identity .
+
+cmk:young-talents a cmo:Programme ;
+    rdfs:label "Young Talents" .
+
+cmk:church-of-vora-20261105T1900 a mo:Performance ;
+    schema:name "Candle Light Concert / Vörå" ;
+    schema:organizer cmk:kamariorkesteri ;
+    schema:startDate "2026-11-05T19:00:00"^^xsd:dateTime ;
+    schema:url "https://kamariorkesteri.fi/candle-light-concert-/-vörå/"^^xsd:anyURI .
+
+cmk:composition-arias-george-frideric-handel a schema:MusicComposition ;
+    schema:composer cmk:george-frideric-handel ;
+    schema:name "Arias" .
+
+cmk:composition-concerto-grosso-in-a-major-op-6-no-11-george-frideric-handel a schema:MusicComposition ;
+    schema:composer cmk:george-frideric-handel ;
+    schema:name "Concerto grosso in A major Op. 6 No. 11" .
+
+cmk:composition-dead-wasps-in-the-jam-jar-ii-clara-iannotta a schema:MusicComposition ;
+    schema:composer cmk:clara-iannotta ;
+    schema:dateCreated "2016"^^xsd:gYear ;
+    schema:name "dead wasps in the jam-jar (ii)" .
+
+cmk:composition-fleurs-de-neige-kaija-saariaho a schema:MusicComposition ;
+    schema:composer cmk:kaija-saariaho ;
+    schema:dateCreated "1997"^^xsd:gYear,
+        "2013"^^xsd:gYear ;
+    schema:name "Fleurs de neige" .
+
+cmk:composition-sabina-andrew-norman a schema:MusicComposition ;
+    schema:composer cmk:andrew-norman ;
+    schema:dateCreated "2006"^^xsd:gYear,
+        "2020"^^xsd:gYear ;
+    schema:name "Sabina" .
+
+cmk:composition-sinfonietta-bernard-herrmann a schema:MusicComposition ;
+    schema:composer cmk:bernard-herrmann ;
+    schema:name "Sinfonietta" .
+
+cmk:composition-vor-deinen-thron-tret-ich-hiermit-bwv-668-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Vor deinen Thron tret’ ich hiermit, BWV 668" .
+
+cmk:composition-vuori-aili-järvelä a schema:MusicComposition ;
+    schema:composer cmk:aili-järvelä ;
+    schema:name "Vuori" .
+
+cmk:kaustisen-kirkko-20261106T1900 a mo:Performance ;
+    schema:name "Candle Light Concert / Kaustinen" ;
+    schema:organizer cmk:kamariorkesteri ;
+    schema:startDate "2026-11-06T19:00:00"^^xsd:dateTime ;
+    schema:url "https://kamariorkesteri.fi/candle-light-concert-/-kaustinen/"^^xsd:anyURI .
+
+cmk:pianist a cmo:musical-identity .
+
+cmk:snellman-hall-20261008T1900 a mo:Performance ;
+    schema:name "Stream – Roberts Balanas" ;
+    schema:organizer cmk:kamariorkesteri ;
+    schema:startDate "2026-10-08T19:00:00"^^xsd:dateTime ;
+    schema:url "https://kamariorkesteri.fi/stream-–-roberts-balanas/"^^xsd:anyURI .
+
+cmk:snellman-hall-20261022T1900 a mo:Performance ;
+    schema:name "Thrill - Alena Baeva" ;
+    schema:organizer cmk:kamariorkesteri ;
+    schema:startDate "2026-10-22T19:00:00"^^xsd:dateTime ;
+    schema:url "https://kamariorkesteri.fi/alena-baeva/"^^xsd:anyURI .
+
+cmk:soprano a cmo:musical-identity .
+
+cmk:snellman-hall-20260911T1900 a mo:Performance ;
+    cmo:has-programme cmk:season-opening-concert-encore ;
+    schema:name "Season opening concert - Encore?" ;
+    schema:organizer cmk:kamariorkesteri ;
+    schema:startDate "2026-09-11T19:00:00"^^xsd:dateTime ;
+    schema:url "https://kamariorkesteri.fi/season-opening-concert-encore/"^^xsd:anyURI .
+
+cmk:snellman-hall-20260925T1900 a mo:Performance ;
+    schema:name "Lento - Lilja Haatainen" ;
+    schema:organizer cmk:kamariorkesteri ;
+    schema:startDate "2026-09-25T19:00:00"^^xsd:dateTime ;
+    schema:url "https://kamariorkesteri.fi/lento-–-lilja-haatainen-en/"^^xsd:anyURI .
+
+cmk:snellman-hall-20261030T1900 a mo:Performance ;
+    schema:name "All Saints' Eve Concert - Metamorphoses" ;
+    schema:organizer cmk:kamariorkesteri ;
+    schema:startDate "2026-10-30T19:00:00"^^xsd:dateTime ;
+    schema:url "https://kamariorkesteri.fi/all-saints-eve-concert-metamorphosen/"^^xsd:anyURI .
+
+cmk:snellman-hall-20261113T1900 a mo:Performance ;
+    schema:name "Handel - Arias / Kokkola" ;
+    schema:organizer cmk:kamariorkesteri ;
+    schema:startDate "2026-11-13T19:00:00"^^xsd:dateTime ;
+    schema:url "https://kamariorkesteri.fi/handel-arias-/-kokkola/"^^xsd:anyURI .
+
+cmk:snellman-hall-20261126T1900 a mo:Performance ;
+    schema:name "Terra memoria" ;
+    schema:organizer cmk:kamariorkesteri ;
+    schema:startDate "2026-11-26T19:00:00"^^xsd:dateTime ;
+    schema:url "https://kamariorkesteri.fi/terra-memoria-en/"^^xsd:anyURI .
+
+cmk:temppeliaukio-church-20261114T1900 a mo:Performance ;
+    schema:name "Handel - Arias / Helsinki" ;
+    schema:organizer cmk:kamariorkesteri ;
+    schema:startDate "2026-11-14T19:00:00"^^xsd:dateTime ;
+    schema:url "https://kamariorkesteri.fi/handel-arias-/-helsinki/"^^xsd:anyURI .
+
+cmk:church-of-kokkola-20261217T1900 a mo:Performance ;
+    cmo:hasProgramme cmk:christmas-concert-iris-candelaria ;
+    schema:name "Christmas concert - Iris Candelaria" ;
+    schema:organizer cmk:kamariorkesteri ;
+    schema:startDate "2026-12-17T19:00:00"^^xsd:dateTime ;
+    schema:url "https://kamariorkesteri.fi/christmas-concert-iris-candelaria/"^^xsd:anyURI .
+
+cmk:vaasa-city-hall-20260729T1900 a mo:Performance ;
+    cmo:has-programme cmk:final-concert-romeo-and-juliet ;
+    schema:name "Final Concert - Romeo and Juliet" ;
+    schema:organizer cmk:kamariorkesteri ;
+    schema:startDate "2026-07-29T19:00:00"^^xsd:dateTime ;
+    schema:url "https://kamariorkesteri.fi/final-concert-romeo-and-juliet/"^^xsd:anyURI .
+
+cmk:conductor a cmo:musical-identity .
+
+cmk:suvilahti-helsinki-20260816T1400 a mo:Performance ;
+    cmo:has-programme cmk:aili-jarvela-vuori ;
+    schema:name "Aili Järvelä: VUORI" ;
+    schema:organizer cmk:kamariorkesteri ;
+    schema:startDate "2026-08-16T14:00:00"^^xsd:dateTime ;
+    schema:url "https://kamariorkesteri.fi/aili-jarvela-vuorien/"^^xsd:anyURI .
+
+cmk:turku-concert-hall-20260808T1800 a mo:Performance ;
+    cmo:has-programme cmk:kjartain-sveinsson-ja-aili-järvelä-icelands-and-finlands-mountains ;
+    schema:name "Kjartain Sveinsson & Aili Järvelä: Iceland's and Finland's mountains" ;
+    schema:organizer cmk:kamariorkesteri ;
+    schema:startDate "2026-08-08T18:00:00"^^xsd:dateTime ;
+    schema:url "https://kamariorkesteri.fi/kjartain-sveinsson-ja-aili-järvelä-icelands-and-finlands-mountains/"^^xsd:anyURI .
+
+cmk:kamariorkesteri a foaf:Organization ;
+    rdfs:label "Keski-Pohjanmaan kamariorkesteri" .
+

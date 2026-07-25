@@ -162,7 +162,9 @@ cmk:yrjonkatu-17-20261210T1900 a mo:Performance ;
     schema:startDate "2026-12-10T19:00:00"^^xsd:dateTime .
 
 cmk:aalto-rokokoo a cmo:Programme ;
-    rdfs:label "Aalto & Rokokoo" .
+    rdfs:label "Aalto & Rokokoo" ;
+    cmo:is-performed-at cmk:yrjonkatu-17-20261105T1830 ;
+    schema:hasPart cmk:composition-rokokoo-muunnelmat-pyotr-ilyich-tchaikovsky .
 
 cmk:avain-hukassa a cmo:Programme ;
     rdfs:label "Avain hukassa" .
@@ -176,11 +178,21 @@ cmk:bass-baritone a cmo:musical-identity .
 
 cmk:cellist a cmo:musical-identity .
 
+cmk:composition-requiem-maurice-duruflé a schema:MusicComposition ;
+    schema:composer cmk:maurice-duruflé ;
+    schema:name "Requiem" .
+
+cmk:composition-rokokoo-muunnelmat-pyotr-ilyich-tchaikovsky a schema:MusicComposition ;
+    schema:composer cmk:pyotr-ilyich-tchaikovsky ;
+    schema:name "Rokokoo-muunnelmat" .
+
 cmk:die-walkure-1-naytos a cmo:Programme ;
     rdfs:label "Die Walküre, 1. näytös" .
 
 cmk:durufle-requiem a cmo:Programme ;
-    rdfs:label "Duruflé: Requiem" .
+    rdfs:label "Duruflé: Requiem" ;
+    cmo:is-performed-at cmk:hallituskatu-1a-20261029T1830 ;
+    schema:hasPart cmk:composition-requiem-maurice-duruflé .
 
 cmk:enkeleita-ja-demoneita a cmo:Programme ;
     rdfs:label "Enkeleitä ja demoneita" .
@@ -250,12 +262,6 @@ cmk:yrjonkatu-17-20261015T1830 a mo:Performance ;
     schema:organizer cmk:sinfonietta-pori ;
     schema:startDate "2026-10-15T18:30:00"^^xsd:dateTime .
 
-cmk:yrjonkatu-17-20261105T1830 a mo:Performance ;
-    cmo:has-programme cmk:aalto-rokokoo ;
-    schema:name "Aalto & Rokokoo" ;
-    schema:organizer cmk:sinfonietta-pori ;
-    schema:startDate "2026-11-05T18:30:00"^^xsd:dateTime .
-
 cmk:yrjonkatu-17-20261112T1800 a mo:Performance ;
     cmo:has-programme cmk:avain-hukassa ;
     schema:name "Koko perheen konsertti: Avain hukassa" ;
@@ -264,12 +270,18 @@ cmk:yrjonkatu-17-20261112T1800 a mo:Performance ;
 
 cmk:conductor a cmo:musical-identity .
 
+cmk:pori-sinfonietta-menopaal a cmo:Programme ;
+    rdfs:label "Pori Sinfonietta menopääl!" .
+
+cmk:yrjonkatu-17-20261105T1830 a mo:Performance ;
+    cmo:has-programme cmk:aalto-rokokoo ;
+    schema:name "Aalto & Rokokoo" ;
+    schema:organizer cmk:sinfonietta-pori ;
+    schema:startDate "2026-11-05T18:30:00"^^xsd:dateTime .
+
 cmk:hallituskatu-1a-20261029T1830 a mo:Performance ;
     cmo:has-programme cmk:durufle-requiem ;
     schema:name "Duruflé: Requiem" ;
     schema:organizer cmk:sinfonietta-pori ;
     schema:startDate "2026-10-29T18:30:00"^^xsd:dateTime .
-
-cmk:pori-sinfonietta-menopaal a cmo:Programme ;
-    rdfs:label "Pori Sinfonietta menopääl!" .
 

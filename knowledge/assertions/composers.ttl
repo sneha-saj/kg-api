@@ -1,0 +1,1932 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:adolphe-adam a foaf:Person ;
+    owl:sameAs wd:Q189544 ;
+    foaf:familyName "Adam" ;
+    foaf:firstName "Adolphe" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1803-07-24"^^xsd:date ;
+    schema:deathDate "1856-05-03"^^xsd:date .
+
+cmk:aili-järvelä a foaf:Person ;
+    owl:sameAs wd:Q108920402 ;
+    foaf:familyName "Järvelä" ;
+    foaf:firstName "Aili" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1985-11-01"^^xsd:date .
+
+cmk:aina-korhonen a foaf:Person ;
+    foaf:familyName "Korhonen" ;
+    foaf:firstName "Aina" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:alban-berg a foaf:Person ;
+    owl:sameAs wd:Q78475 ;
+    foaf:familyName "Berg" ;
+    foaf:firstName "Alban" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1885-02-09"^^xsd:date ;
+    schema:deathDate "1935-12-24"^^xsd:date .
+
+cmk:alberto-ginastera a foaf:Person ;
+    owl:sameAs wd:Q311389 ;
+    foaf:familyName "Ginastera" ;
+    foaf:firstName "Alberto" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1916-04-11"^^xsd:date ;
+    schema:deathDate "1983-06-25"^^xsd:date .
+
+cmk:alexander-arutiunian a foaf:Person ;
+    owl:sameAs wd:Q463194 ;
+    foaf:familyName "Arutiunian" ;
+    foaf:firstName "Alexander" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1920-09-23"^^xsd:date ;
+    schema:deathDate "2012-03-28"^^xsd:date .
+
+cmk:alexandre-tansman a foaf:Person ;
+    owl:sameAs wd:Q550218 ;
+    foaf:familyName "Tansman" ;
+    foaf:firstName "Alexandre" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1897-06-12"^^xsd:date ;
+    schema:deathDate "1986-11-15"^^xsd:date .
+
+cmk:alfred-schnittke a foaf:Person ;
+    owl:sameAs wd:Q158078 ;
+    foaf:familyName "Schnittke" ;
+    foaf:firstName "Alfred" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1934-11-24"^^xsd:date ;
+    schema:deathDate "1998-08-03"^^xsd:date .
+
+cmk:amanda-röntgen-maier a foaf:Person ;
+    owl:sameAs wd:Q273661 ;
+    foaf:familyName "Röntgen-Maier" ;
+    foaf:firstName "Amanda" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1853-02-20"^^xsd:date ;
+    schema:deathDate "1894-06-15"^^xsd:date .
+
+cmk:amy-beach a foaf:Person ;
+    owl:sameAs wd:Q235699 ;
+    foaf:familyName "Beach" ;
+    foaf:firstName "Amy" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1867-09-05"^^xsd:date ;
+    schema:deathDate "1944-12-27"^^xsd:date .
+
+cmk:anahita-abbasi a foaf:Person ;
+    owl:sameAs wd:Q137706861 ;
+    foaf:familyName "Abbasi" ;
+    foaf:firstName "Anahita" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1985-01-01"^^xsd:date .
+
+cmk:anatoly-lyadov a foaf:Person ;
+    owl:sameAs wd:Q348282 ;
+    foaf:familyName "Lyadov" ;
+    foaf:firstName "Anatoly" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1855-05-11"^^xsd:date ;
+    schema:deathDate "1914-08-28"^^xsd:date .
+
+cmk:andreas-kirchoff a foaf:Person ;
+    foaf:familyName "Kirchoff" ;
+    foaf:firstName "Andreas" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:andrew-norman a foaf:Person ;
+    owl:sameAs wd:Q22007191 ;
+    foaf:familyName "Norman" ;
+    foaf:firstName "Andrew" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1979-10-31"^^xsd:date .
+
+cmk:anna-clyne a foaf:Person ;
+    owl:sameAs wd:Q4766925 ;
+    foaf:familyName "Clyne" ;
+    foaf:firstName "Anna" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1980-03-09"^^xsd:date .
+
+cmk:anna-s-þorvaldsdóttir a foaf:Person ;
+    owl:sameAs wd:Q4767456 ;
+    foaf:familyName "Þorvaldsdóttir" ;
+    foaf:firstName "Anna S." ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1977-07-11"^^xsd:date .
+
+cmk:anton-bruckner a foaf:Person ;
+    owl:sameAs wd:Q81752 ;
+    foaf:familyName "Bruckner" ;
+    foaf:firstName "Anton" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1824-09-04"^^xsd:date ;
+    schema:deathDate "1896-10-11"^^xsd:date .
+
+cmk:antonio-casimir-cartellieri a foaf:Person ;
+    owl:sameAs wd:Q601356 ;
+    foaf:familyName "Cartellieri" ;
+    foaf:firstName "Antonio Casimir" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1772-09-27"^^xsd:date ;
+    schema:deathDate "1807-09-02"^^xsd:date .
+
+cmk:antonio-vivaldi a foaf:Person ;
+    owl:sameAs wd:Q1340 ;
+    foaf:familyName "Vivaldi" ;
+    foaf:firstName "Antonio" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1678-03-04"^^xsd:date ;
+    schema:deathDate "1741-07-28"^^xsd:date .
+
+cmk:antonín-dvořák a foaf:Person ;
+    owl:sameAs wd:Q7298 ;
+    foaf:familyName "Dvořák" ;
+    foaf:firstName "Antonín" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1841-09-08"^^xsd:date ;
+    schema:deathDate "1904-05-01"^^xsd:date .
+
+cmk:antti-auvinen a foaf:Person ;
+    foaf:familyName "Auvinen" ;
+    foaf:firstName "Antti" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:arcangelo-corelli a foaf:Person ;
+    owl:sameAs wd:Q164475 ;
+    foaf:familyName "Corelli" ;
+    foaf:firstName "Arcangelo" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1653-02-17"^^xsd:date ;
+    schema:deathDate "1713-01-08"^^xsd:date .
+
+cmk:arnold-schoenberg a foaf:Person ;
+    owl:sameAs wd:Q154770 ;
+    foaf:familyName "Schoenberg" ;
+    foaf:firstName "Arnold" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1874-09-13"^^xsd:date ;
+    schema:deathDate "1951-07-13"^^xsd:date .
+
+cmk:arvo-pärt a foaf:Person ;
+    owl:sameAs wd:Q189534 ;
+    foaf:familyName "Pärt" ;
+    foaf:firstName "Arvo" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1935-09-11"^^xsd:date .
+
+cmk:ash-fure a foaf:Person ;
+    foaf:familyName "Fure" ;
+    foaf:firstName "Ash" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:astor-piazzolla a foaf:Person ;
+    owl:sameAs wd:Q172505 ;
+    foaf:familyName "Piazzolla" ;
+    foaf:firstName "Astor" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1921-03-11"^^xsd:date ;
+    schema:deathDate "1992-07-04"^^xsd:date .
+
+cmk:aulis-sallinen a foaf:Person ;
+    owl:sameAs wd:Q542194 ;
+    foaf:familyName "Sallinen" ;
+    foaf:firstName "Aulis" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1935-04-09"^^xsd:date .
+
+cmk:baldassare-galuppi a foaf:Person ;
+    owl:sameAs wd:Q208338 ;
+    foaf:familyName "Galuppi" ;
+    foaf:firstName "Baldassare" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1706-10-18"^^xsd:date ;
+    schema:deathDate "1785-01-03"^^xsd:date .
+
+cmk:benjamin-britten a foaf:Person ;
+    owl:sameAs wd:Q150767 ;
+    foaf:familyName "Britten" ;
+    foaf:firstName "Benjamin" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1913-11-22"^^xsd:date ;
+    schema:deathDate "1976-12-04"^^xsd:date .
+
+cmk:bernard-herrmann a foaf:Person ;
+    owl:sameAs wd:Q296804 ;
+    foaf:familyName "Herrmann" ;
+    foaf:firstName "Bernard" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1911-06-29"^^xsd:date ;
+    schema:deathDate "1975-12-24"^^xsd:date .
+
+cmk:bernhard-crusell a foaf:Person ;
+    owl:sameAs wd:Q708911 ;
+    foaf:familyName "Crusell" ;
+    foaf:firstName "Bernhard" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1775-10-15"^^xsd:date ;
+    schema:deathDate "1838-07-28"^^xsd:date .
+
+cmk:bernhard-romberg a foaf:Person ;
+    owl:sameAs wd:Q213914 ;
+    foaf:familyName "Romberg" ;
+    foaf:firstName "Bernhard" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1767-11-12"^^xsd:date ;
+    schema:deathDate "1841-08-13"^^xsd:date .
+
+cmk:betsy-jolas a foaf:Person ;
+    owl:sameAs wd:Q262420 ;
+    foaf:familyName "Jolas" ;
+    foaf:firstName "Betsy" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1926-08-05"^^xsd:date .
+
+cmk:biagio-marini a foaf:Person ;
+    owl:sameAs wd:Q369787 ;
+    foaf:familyName "Marini" ;
+    foaf:firstName "Biagio" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1594-02-03"^^xsd:date ;
+    schema:deathDate "1663-11-17"^^xsd:date .
+
+cmk:björn-ulvaeusbenny-andersson a foaf:Person ;
+    foaf:familyName "Ulvaeus/Benny Andersson" ;
+    foaf:firstName "Björn" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:bohuslav-martinů a foaf:Person ;
+    owl:sameAs wd:Q223258 ;
+    foaf:familyName "Martinů" ;
+    foaf:firstName "Bohuslav" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1890-12-08"^^xsd:date ;
+    schema:deathDate "1959-08-28"^^xsd:date .
+
+cmk:boris-blacher a foaf:Person ;
+    owl:sameAs wd:Q455307 ;
+    foaf:familyName "Blacher" ;
+    foaf:firstName "Boris" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1903-01-19"^^xsd:date ;
+    schema:deathDate "1975-01-30"^^xsd:date .
+
+cmk:borys-liatoshynsky a foaf:Person ;
+    owl:sameAs wd:Q504426 ;
+    foaf:familyName "Liatoshynsky" ;
+    foaf:firstName "Borys" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1894-12-22"^^xsd:date ;
+    schema:deathDate "1968-04-15"^^xsd:date .
+
+cmk:béla-bartók a foaf:Person ;
+    owl:sameAs wd:Q83326 ;
+    foaf:familyName "Bartók" ;
+    foaf:firstName "Béla" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1881-03-25"^^xsd:date ;
+    schema:deathDate "1945-09-26"^^xsd:date .
+
+cmk:camille-pépin a foaf:Person ;
+    owl:sameAs wd:Q23021179 ;
+    foaf:familyName "Pépin" ;
+    foaf:firstName "Camille" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1990-11-17"^^xsd:date .
+
+cmk:camille-saint-saëns a foaf:Person ;
+    owl:sameAs wd:Q150445 ;
+    foaf:familyName "Saint-Saëns" ;
+    foaf:firstName "Camille" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1835-10-09"^^xsd:date ;
+    schema:deathDate "1921-12-16"^^xsd:date .
+
+cmk:carl-nielsen a foaf:Person ;
+    owl:sameAs wd:Q205139 ;
+    foaf:familyName "Nielsen" ;
+    foaf:firstName "Carl" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1865-06-09"^^xsd:date ;
+    schema:deathDate "1931-10-03"^^xsd:date .
+
+cmk:carl-philipp-emanuel-bach a foaf:Person ;
+    owl:sameAs wd:Q76428 ;
+    foaf:familyName "Bach" ;
+    foaf:firstName "Carl Philipp Emanuel" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1714-03-08"^^xsd:date ;
+    schema:deathDate "1788-12-14"^^xsd:date .
+
+cmk:caroline-shaw a foaf:Person ;
+    owl:sameAs wd:Q15430653 ;
+    foaf:familyName "Shaw" ;
+    foaf:firstName "Caroline" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1982-08-01"^^xsd:date .
+
+cmk:casimir-anton-cartellieri a foaf:Person ;
+    foaf:familyName "Cartellieri" ;
+    foaf:firstName "Casimir Anton" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:cecilia-damström a foaf:Person ;
+    owl:sameAs wd:Q24701054 ;
+    foaf:familyName "Damström" ;
+    foaf:firstName "Cecilia" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1988-07-28"^^xsd:date .
+
+cmk:clara-iannotta a foaf:Person ;
+    owl:sameAs wd:Q18331994 ;
+    foaf:familyName "Iannotta" ;
+    foaf:firstName "Clara" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1983-04-19"^^xsd:date .
+
+cmk:clara-schumann a foaf:Person ;
+    owl:sameAs wd:Q132232 ;
+    foaf:familyName "Schumann" ;
+    foaf:firstName "Clara" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1819-09-13"^^xsd:date ;
+    schema:deathDate "1896-05-20"^^xsd:date .
+
+cmk:claude-debussy a foaf:Person ;
+    owl:sameAs wd:Q4700 ;
+    foaf:familyName "Debussy" ;
+    foaf:firstName "Claude" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1862-08-22"^^xsd:date ;
+    schema:deathDate "1918-03-25"^^xsd:date .
+
+cmk:claude-vivier a foaf:Person ;
+    owl:sameAs wd:Q650551 ;
+    foaf:familyName "Vivier" ;
+    foaf:firstName "Claude" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1948-04-14"^^xsd:date ;
+    schema:deathDate "1983-03-07"^^xsd:date .
+
+cmk:claudio-monteverdi a foaf:Person ;
+    owl:sameAs wd:Q53068 ;
+    foaf:familyName "Monteverdi" ;
+    foaf:firstName "Claudio" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1567-05-15"^^xsd:date ;
+    schema:deathDate "1643-11-29"^^xsd:date .
+
+cmk:cécile-chaminade a foaf:Person ;
+    owl:sameAs wd:Q236438 ;
+    foaf:familyName "Chaminade" ;
+    foaf:firstName "Cécile" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1857-08-08"^^xsd:date ;
+    schema:deathDate "1944-04-13"^^xsd:date .
+
+cmk:césar-franck a foaf:Person ;
+    owl:sameAs wd:Q50187 ;
+    foaf:familyName "Franck" ;
+    foaf:firstName "César" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1822-12-10"^^xsd:date ;
+    schema:deathDate "1890-11-08"^^xsd:date .
+
+cmk:david-popper a foaf:Person ;
+    owl:sameAs wd:Q354927 ;
+    foaf:familyName "Popper" ;
+    foaf:firstName "David" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1843-06-18"^^xsd:date ;
+    schema:deathDate "1913-08-07"^^xsd:date .
+
+cmk:dmitri-shostakovich a foaf:Person ;
+    owl:sameAs wd:Q80135 ;
+    foaf:familyName "Shostakovich" ;
+    foaf:firstName "Dmitri" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1906-09-25"^^xsd:date ;
+    schema:deathDate "1975-08-09"^^xsd:date .
+
+cmk:dobrinka-tabakova a foaf:Person ;
+    owl:sameAs wd:Q4449195 ;
+    foaf:familyName "Tabakova" ;
+    foaf:firstName "Dobrinka" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1980-01-01"^^xsd:date .
+
+cmk:dora-pejačević a foaf:Person ;
+    owl:sameAs wd:Q455515 ;
+    foaf:familyName "Pejačević" ;
+    foaf:firstName "Dora" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1885-09-10"^^xsd:date ;
+    schema:deathDate "1923-03-05"^^xsd:date .
+
+cmk:eddie-lewis a foaf:Person ;
+    foaf:familyName "Lewis" ;
+    foaf:firstName "Eddie" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:edgard-varèse a foaf:Person ;
+    owl:sameAs wd:Q57247 ;
+    foaf:familyName "Varèse" ;
+    foaf:firstName "Edgard" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1883-12-22"^^xsd:date ;
+    schema:deathDate "1965-11-06"^^xsd:date .
+
+cmk:edvard-grieg a foaf:Person ;
+    owl:sameAs wd:Q80621 ;
+    foaf:familyName "Grieg" ;
+    foaf:firstName "Edvard" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1843-06-15"^^xsd:date ;
+    schema:deathDate "1907-09-04"^^xsd:date .
+
+cmk:edward-elgar a foaf:Person ;
+    owl:sameAs wd:Q179631 ;
+    foaf:familyName "Elgar" ;
+    foaf:firstName "Edward" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1857-06-02"^^xsd:date ;
+    schema:deathDate "1934-02-23"^^xsd:date .
+
+cmk:einar-englund a foaf:Person ;
+    owl:sameAs wd:Q918402 ;
+    foaf:familyName "Englund" ;
+    foaf:firstName "Einar" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1916-06-17"^^xsd:date ;
+    schema:deathDate "1999-06-27"^^xsd:date .
+
+cmk:einojuhani-rautavaara a foaf:Person ;
+    owl:sameAs wd:Q433592 ;
+    foaf:familyName "Rautavaara" ;
+    foaf:firstName "Einojuhani" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1928-10-09"^^xsd:date ;
+    schema:deathDate "2016-07-27"^^xsd:date .
+
+cmk:elena-kats-chernin a foaf:Person ;
+    owl:sameAs wd:Q273213 ;
+    foaf:familyName "Kats-Chernin" ;
+    foaf:firstName "Elena" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1957-11-04"^^xsd:date .
+
+cmk:elfrida-andrée a foaf:Person ;
+    owl:sameAs wd:Q451495 ;
+    foaf:familyName "Andrée" ;
+    foaf:firstName "Elfrida" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1841-02-19"^^xsd:date ;
+    schema:deathDate "1929-01-11"^^xsd:date .
+
+cmk:elizabeth-ogonek a foaf:Person ;
+    owl:sameAs wd:Q43198571 ;
+    foaf:familyName "Ogonek" ;
+    foaf:firstName "Elizabeth" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1989-05-26"^^xsd:date .
+
+cmk:elliott-carter a foaf:Person ;
+    owl:sameAs wd:Q318835 ;
+    foaf:familyName "Carter" ;
+    foaf:firstName "Elliott" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1908-12-11"^^xsd:date ;
+    schema:deathDate "2012-11-05"^^xsd:date .
+
+cmk:eric-ewazen a foaf:Person ;
+    owl:sameAs wd:Q509955 ;
+    foaf:familyName "Ewazen" ;
+    foaf:firstName "Eric" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1954-03-01"^^xsd:date .
+
+cmk:eric-wubbels a foaf:Person ;
+    owl:sameAs wd:Q139188102 ;
+    foaf:familyName "Wubbels" ;
+    foaf:firstName "Eric" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1980-01-01"^^xsd:date .
+
+cmk:erich-wolfgang-korngold a foaf:Person ;
+    owl:sameAs wd:Q313371 ;
+    foaf:familyName "Korngold" ;
+    foaf:firstName "Erich Wolfgang" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1897-05-29"^^xsd:date ;
+    schema:deathDate "1957-11-29"^^xsd:date .
+
+cmk:erkki-melartin a foaf:Person ;
+    owl:sameAs wd:Q534960 ;
+    foaf:familyName "Melartin" ;
+    foaf:firstName "Erkki" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1875-02-07"^^xsd:date ;
+    schema:deathDate "1937-02-14"^^xsd:date .
+
+cmk:ernesto-de-curtis a foaf:Person ;
+    owl:sameAs wd:Q1356854 ;
+    foaf:familyName "Curtis" ;
+    foaf:firstName "Ernesto De" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1875-10-04"^^xsd:date ;
+    schema:deathDate "1937-12-31"^^xsd:date .
+
+cmk:ernst-mielck a foaf:Person ;
+    owl:sameAs wd:Q4761 ;
+    foaf:familyName "Mielck" ;
+    foaf:firstName "Ernst" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1877-10-24"^^xsd:date ;
+    schema:deathDate "1899-10-22"^^xsd:date .
+
+cmk:ernst-pingoud a foaf:Person ;
+    foaf:familyName "Pingoud" ;
+    foaf:firstName "Ernst" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:esa-pekka-salonen a foaf:Person ;
+    owl:sameAs wd:Q314587 ;
+    foaf:familyName "Salonen" ;
+    foaf:firstName "Esa-Pekka" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1958-06-30"^^xsd:date .
+
+cmk:ethel-smyth a foaf:Person ;
+    owl:sameAs wd:Q236599 ;
+    foaf:familyName "Smyth" ;
+    foaf:firstName "Ethel" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1858-04-22"^^xsd:date ;
+    schema:deathDate "1944-05-08"^^xsd:date .
+
+cmk:felix-mendelssohn a foaf:Person ;
+    owl:sameAs wd:Q46096 ;
+    foaf:familyName "Mendelssohn" ;
+    foaf:firstName "Felix" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1809-02-03"^^xsd:date ;
+    schema:deathDate "1847-11-04"^^xsd:date .
+
+cmk:ferruccio-busoni a foaf:Person ;
+    owl:sameAs wd:Q219551 ;
+    foaf:familyName "Busoni" ;
+    foaf:firstName "Ferruccio" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1866-04-01"^^xsd:date ;
+    schema:deathDate "1924-07-27"^^xsd:date .
+
+cmk:francesca-caccini a foaf:Person ;
+    owl:sameAs wd:Q232035 ;
+    foaf:familyName "Caccini" ;
+    foaf:firstName "Francesca" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1587-09-18"^^xsd:date ;
+    schema:deathDate "1641-01-01"^^xsd:date .
+
+cmk:francesco-filidei a foaf:Person ;
+    owl:sameAs wd:Q610529 ;
+    foaf:familyName "Filidei" ;
+    foaf:firstName "Francesco" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1973-05-05"^^xsd:date .
+
+cmk:francis-poulenc a foaf:Person ;
+    owl:sameAs wd:Q191408 ;
+    foaf:familyName "Poulenc" ;
+    foaf:firstName "Francis" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1899-01-07"^^xsd:date ;
+    schema:deathDate "1963-01-30"^^xsd:date .
+
+cmk:frank-bridge a foaf:Person ;
+    owl:sameAs wd:Q366636 ;
+    foaf:familyName "Bridge" ;
+    foaf:firstName "Frank" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1879-02-26"^^xsd:date ;
+    schema:deathDate "1941-01-10"^^xsd:date .
+
+cmk:franz-lehár a foaf:Person ;
+    owl:sameAs wd:Q191917 ;
+    foaf:familyName "Lehár" ;
+    foaf:firstName "Franz" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1870-04-30"^^xsd:date ;
+    schema:deathDate "1948-10-24"^^xsd:date .
+
+cmk:franz-liszt a foaf:Person ;
+    owl:sameAs wd:Q41309 ;
+    foaf:familyName "Liszt" ;
+    foaf:firstName "Franz" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1811-10-22"^^xsd:date ;
+    schema:deathDate "1886-07-31"^^xsd:date .
+
+cmk:franz-schreker a foaf:Person ;
+    owl:sameAs wd:Q78528 ;
+    foaf:familyName "Schreker" ;
+    foaf:firstName "Franz" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1878-03-23"^^xsd:date ;
+    schema:deathDate "1934-03-21"^^xsd:date .
+
+cmk:franz-schubert a foaf:Person ;
+    owl:sameAs wd:Q7312 ;
+    foaf:familyName "Schubert" ;
+    foaf:firstName "Franz" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1797-01-31"^^xsd:date ;
+    schema:deathDate "1828-11-19"^^xsd:date .
+
+cmk:franz-schubert-hans-zender a foaf:Person ;
+    foaf:familyName "Schubert / Hans Zender" ;
+    foaf:firstName "Franz" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:françois-colin-de-blamont a foaf:Person ;
+    owl:sameAs wd:Q1450982 ;
+    foaf:familyName "Blamont" ;
+    foaf:firstName "François Colin de" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1690-11-22"^^xsd:date ;
+    schema:deathDate "1760-02-14"^^xsd:date .
+
+cmk:françois-devienne a foaf:Person ;
+    owl:sameAs wd:Q711034 ;
+    foaf:familyName "Devienne" ;
+    foaf:firstName "François" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1759-01-31"^^xsd:date ;
+    schema:deathDate "1803-09-05"^^xsd:date .
+
+cmk:françois-joseph-gossec a foaf:Person ;
+    owl:sameAs wd:Q313667 ;
+    foaf:familyName "Gossec" ;
+    foaf:firstName "François Joseph" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1734-01-17"^^xsd:date ;
+    schema:deathDate "1829-02-16"^^xsd:date .
+
+cmk:freddie-mercury a foaf:Person ;
+    owl:sameAs wd:Q15869 ;
+    foaf:familyName "Mercury" ;
+    foaf:firstName "Freddie" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1946-09-05"^^xsd:date ;
+    schema:deathDate "1991-11-24"^^xsd:date .
+
+cmk:fredrik-pacius a foaf:Person ;
+    owl:sameAs wd:Q327024 ;
+    foaf:familyName "Pacius" ;
+    foaf:firstName "Fredrik" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1809-03-19"^^xsd:date ;
+    schema:deathDate "1891-01-08"^^xsd:date .
+
+cmk:frédéric-chopin a foaf:Person ;
+    owl:sameAs wd:Q1268 ;
+    foaf:familyName "Chopin" ;
+    foaf:firstName "Frédéric" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1810-03-01"^^xsd:date ;
+    schema:deathDate "1849-10-17"^^xsd:date .
+
+cmk:gabriel-fauré a foaf:Person ;
+    owl:sameAs wd:Q104919 ;
+    foaf:familyName "Fauré" ;
+    foaf:firstName "Gabriel" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1845-05-12"^^xsd:date ;
+    schema:deathDate "1924-11-04"^^xsd:date .
+
+cmk:gabriela-ortiz a foaf:Person ;
+    owl:sameAs wd:Q531997 ;
+    foaf:familyName "Ortiz" ;
+    foaf:firstName "Gabriela" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1964-12-20"^^xsd:date .
+
+cmk:garth-knox a foaf:Person ;
+    owl:sameAs wd:Q5524355 ;
+    foaf:familyName "Knox" ;
+    foaf:firstName "Garth" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1956-10-08"^^xsd:date .
+
+cmk:georg-philipp-telemann a foaf:Person ;
+    owl:sameAs wd:Q75854 ;
+    foaf:familyName "Telemann" ;
+    foaf:firstName "Georg Philipp" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1681-03-24"^^xsd:date ;
+    schema:deathDate "1767-06-25"^^xsd:date .
+
+cmk:george-benjamin a foaf:Person ;
+    owl:sameAs wd:Q945633 ;
+    foaf:familyName "Benjamin" ;
+    foaf:firstName "George" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1960-01-31"^^xsd:date .
+
+cmk:george-frideric-handel a foaf:Person ;
+    owl:sameAs wd:Q7302 ;
+    foaf:familyName "Handel" ;
+    foaf:firstName "George Frideric" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1685-03-05"^^xsd:date ;
+    schema:deathDate "1759-04-14"^^xsd:date .
+
+cmk:george-gershwin a foaf:Person ;
+    owl:sameAs wd:Q123829 ;
+    foaf:familyName "Gershwin" ;
+    foaf:firstName "George" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1898-09-26"^^xsd:date ;
+    schema:deathDate "1937-07-11"^^xsd:date .
+
+cmk:georges-bizet a foaf:Person ;
+    owl:sameAs wd:Q56158 ;
+    foaf:familyName "Bizet" ;
+    foaf:firstName "Georges" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1838-10-25"^^xsd:date ;
+    schema:deathDate "1875-06-03"^^xsd:date .
+
+cmk:georges-bizet-rodion-štšedrin a foaf:Person ;
+    foaf:familyName "Bizet – Rodion Štšedrin" ;
+    foaf:firstName "Georges" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:georges-lentz a foaf:Person ;
+    owl:sameAs wd:Q1298330 ;
+    foaf:familyName "Lentz" ;
+    foaf:firstName "Georges" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1965-10-22"^^xsd:date .
+
+cmk:giacomo-puccini a foaf:Person ;
+    owl:sameAs wd:Q7311 ;
+    foaf:familyName "Puccini" ;
+    foaf:firstName "Giacomo" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1858-12-22"^^xsd:date ;
+    schema:deathDate "1924-11-29"^^xsd:date .
+
+cmk:gioachino-rossini a foaf:Person ;
+    owl:sameAs wd:Q9726 ;
+    foaf:familyName "Rossini" ;
+    foaf:firstName "Gioachino" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1792-02-29"^^xsd:date ;
+    schema:deathDate "1868-11-13"^^xsd:date .
+
+cmk:giovanni-battista-pergolesi a foaf:Person ;
+    owl:sameAs wd:Q185312 ;
+    foaf:familyName "Pergolesi" ;
+    foaf:firstName "Giovanni Battista" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1710-01-04"^^xsd:date ;
+    schema:deathDate "1736-03-16"^^xsd:date .
+
+cmk:girolamo-frescobaldi a foaf:Person ;
+    owl:sameAs wd:Q209212 ;
+    foaf:familyName "Frescobaldi" ;
+    foaf:firstName "Girolamo" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1583-09-12"^^xsd:date ;
+    schema:deathDate "1643-03-01"^^xsd:date .
+
+cmk:giuseppe-verdi a foaf:Person ;
+    owl:sameAs wd:Q7317 ;
+    foaf:familyName "Verdi" ;
+    foaf:firstName "Giuseppe" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1813-10-10"^^xsd:date ;
+    schema:deathDate "1901-01-27"^^xsd:date .
+
+cmk:gottfried-wilhelm-palschau a foaf:Person ;
+    foaf:familyName "Palschau" ;
+    foaf:firstName "Gottfried Wilhelm" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:guillaume-de-machaut a foaf:Person ;
+    owl:sameAs wd:Q200580 ;
+    foaf:familyName "Machaut" ;
+    foaf:firstName "Guillaume de" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1300-01-01"^^xsd:date ;
+    schema:deathDate "1377-01-01"^^xsd:date .
+
+cmk:gustav-mahler a foaf:Person ;
+    owl:sameAs wd:Q7304 ;
+    foaf:familyName "Mahler" ;
+    foaf:firstName "Gustav" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1860-07-07"^^xsd:date ;
+    schema:deathDate "1911-05-18"^^xsd:date .
+
+cmk:györgy-kurtág a foaf:Person ;
+    owl:sameAs wd:Q48184 ;
+    foaf:familyName "Kurtág" ;
+    foaf:firstName "György" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1926-02-19"^^xsd:date .
+
+cmk:györgy-ligeti a foaf:Person ;
+    owl:sameAs wd:Q154331 ;
+    foaf:familyName "Ligeti" ;
+    foaf:firstName "György" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1923-05-28"^^xsd:date ;
+    schema:deathDate "2006-06-12"^^xsd:date .
+
+cmk:harri-vuori a foaf:Person ;
+    owl:sameAs wd:Q11861637 ;
+    foaf:familyName "Vuori" ;
+    foaf:firstName "Harri" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1957-01-10"^^xsd:date .
+
+cmk:hector-berlioz a foaf:Person ;
+    owl:sameAs wd:Q1151 ;
+    foaf:familyName "Berlioz" ;
+    foaf:firstName "Hector" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1803-12-11"^^xsd:date ;
+    schema:deathDate "1869-03-08"^^xsd:date .
+
+cmk:heinrich-biber a foaf:Person ;
+    owl:sameAs wd:Q153455 ;
+    foaf:familyName "Biber" ;
+    foaf:firstName "Heinrich" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1644-08-12"^^xsd:date ;
+    schema:deathDate "1704-05-03"^^xsd:date .
+
+cmk:heitor-villa-lobos a foaf:Person ;
+    owl:sameAs wd:Q203514 ;
+    foaf:familyName "Villa-Lobos" ;
+    foaf:firstName "Heitor" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1887-03-05"^^xsd:date ;
+    schema:deathDate "1959-11-17"^^xsd:date .
+
+cmk:helen-grime a foaf:Person ;
+    owl:sameAs wd:Q5702416 ;
+    foaf:familyName "Grime" ;
+    foaf:firstName "Helen" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1981-01-01"^^xsd:date .
+
+cmk:helvi-leiviskä a foaf:Person ;
+    owl:sameAs wd:Q11862227 ;
+    foaf:familyName "Leiviskä" ;
+    foaf:firstName "Helvi" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1902-05-25"^^xsd:date ;
+    schema:deathDate "1982-08-12"^^xsd:date .
+
+cmk:henri-dutilleux a foaf:Person ;
+    owl:sameAs wd:Q318829 ;
+    foaf:familyName "Dutilleux" ;
+    foaf:firstName "Henri" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1916-01-22"^^xsd:date ;
+    schema:deathDate "2013-05-22"^^xsd:date .
+
+cmk:henry-purcell a foaf:Person ;
+    owl:sameAs wd:Q9695 ;
+    foaf:familyName "Purcell" ;
+    foaf:firstName "Henry" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1659-09-10"^^xsd:date ;
+    schema:deathDate "1695-11-21"^^xsd:date .
+
+cmk:heraclio-fernández a foaf:Person ;
+    owl:sameAs wd:Q5732532 ;
+    foaf:familyName "Fernández" ;
+    foaf:firstName "Heraclio" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1851-01-01"^^xsd:date ;
+    schema:deathDate "1886-01-01"^^xsd:date .
+
+cmk:heta-aho a foaf:Person ;
+    foaf:familyName "Aho" ;
+    foaf:firstName "Heta" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:hildegard-of-bingen a foaf:Person ;
+    owl:sameAs wd:Q70991 ;
+    foaf:familyName "Bingen" ;
+    foaf:firstName "Hildegard of" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1098-01-01"^^xsd:date ;
+    schema:deathDate "1179-09-24"^^xsd:date .
+
+cmk:howard-blake a foaf:Person ;
+    owl:sameAs wd:Q731371 ;
+    foaf:familyName "Blake" ;
+    foaf:firstName "Howard" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1938-10-28"^^xsd:date .
+
+cmk:hugo-wolf a foaf:Person ;
+    owl:sameAs wd:Q215747 ;
+    foaf:familyName "Wolf" ;
+    foaf:firstName "Hugo" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1860-03-13"^^xsd:date ;
+    schema:deathDate "1903-02-22"^^xsd:date .
+
+cmk:igor-stravinsky a foaf:Person ;
+    owl:sameAs wd:Q7314 ;
+    foaf:familyName "Stravinsky" ;
+    foaf:firstName "Igor" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1882-06-17"^^xsd:date ;
+    schema:deathDate "1971-04-06"^^xsd:date .
+
+cmk:ildebrando-pizzetti a foaf:Person ;
+    owl:sameAs wd:Q379267 ;
+    foaf:familyName "Pizzetti" ;
+    foaf:firstName "Ildebrando" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1880-09-20"^^xsd:date ;
+    schema:deathDate "1968-02-13"^^xsd:date .
+
+cmk:ilkka-hammo a foaf:Person ;
+    foaf:familyName "Hammo" ;
+    foaf:firstName "Ilkka" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:jaakko-kuusisto a foaf:Person ;
+    owl:sameAs wd:Q11865493 ;
+    foaf:familyName "Kuusisto" ;
+    foaf:firstName "Jaakko" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1974-01-17"^^xsd:date ;
+    schema:deathDate "2022-02-23"^^xsd:date .
+
+cmk:jabeau a foaf:Person ;
+    foaf:familyName "Jabeau" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:jacques-ibert a foaf:Person ;
+    owl:sameAs wd:Q296828 ;
+    foaf:familyName "Ibert" ;
+    foaf:firstName "Jacques" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1890-08-15"^^xsd:date ;
+    schema:deathDate "1962-02-05"^^xsd:date .
+
+cmk:jakub-jan-ryba a foaf:Person ;
+    owl:sameAs wd:Q727629 ;
+    foaf:familyName "Ryba" ;
+    foaf:firstName "Jakub Jan" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1765-10-26"^^xsd:date ;
+    schema:deathDate "1815-04-08"^^xsd:date .
+
+cmk:james-macmillan a foaf:Person ;
+    owl:sameAs wd:Q714541 ;
+    foaf:familyName "MacMillan" ;
+    foaf:firstName "James" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1959-07-16"^^xsd:date .
+
+cmk:jan-dismas-zelenka a foaf:Person ;
+    owl:sameAs wd:Q157777 ;
+    foaf:familyName "Zelenka" ;
+    foaf:firstName "Jan Dismas" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1679-10-16"^^xsd:date ;
+    schema:deathDate "1745-12-23"^^xsd:date .
+
+cmk:jean-baptiste-édouard-du-puy a foaf:Person ;
+    owl:sameAs wd:Q3365684 ;
+    foaf:familyName "Puy" ;
+    foaf:firstName "Jean Baptiste Édouard Du" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1770-01-01"^^xsd:date ;
+    schema:deathDate "1822-04-03"^^xsd:date .
+
+cmk:jean-féry-rebel a foaf:Person ;
+    owl:sameAs wd:Q954589 ;
+    foaf:familyName "Rebel" ;
+    foaf:firstName "Jean-Féry" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1666-04-18"^^xsd:date ;
+    schema:deathDate "1747-01-02"^^xsd:date .
+
+cmk:jean-gilles a foaf:Person ;
+    owl:sameAs wd:Q715368 ;
+    foaf:familyName "Gilles" ;
+    foaf:firstName "Jean" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1668-01-08"^^xsd:date ;
+    schema:deathDate "1705-02-05"^^xsd:date .
+
+cmk:jean-michel-damase a foaf:Person ;
+    owl:sameAs wd:Q912479 ;
+    foaf:familyName "Damase" ;
+    foaf:firstName "Jean-Michel" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1928-01-27"^^xsd:date ;
+    schema:deathDate "2013-04-21"^^xsd:date .
+
+cmk:jean-philippe-rameau a foaf:Person ;
+    owl:sameAs wd:Q1145 ;
+    foaf:familyName "Rameau" ;
+    foaf:firstName "Jean-Philippe" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1683-09-25"^^xsd:date ;
+    schema:deathDate "1764-09-12"^^xsd:date .
+
+cmk:jean-sibelius a foaf:Person ;
+    owl:sameAs wd:Q45682 ;
+    foaf:familyName "Sibelius" ;
+    foaf:firstName "Jean" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1865-12-08"^^xsd:date ;
+    schema:deathDate "1957-09-20"^^xsd:date .
+
+cmk:joan-tower a foaf:Person ;
+    owl:sameAs wd:Q293218 ;
+    foaf:familyName "Tower" ;
+    foaf:firstName "Joan" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1938-09-06"^^xsd:date .
+
+cmk:johan-halvorsen a foaf:Person ;
+    owl:sameAs wd:Q449172 ;
+    foaf:familyName "Halvorsen" ;
+    foaf:firstName "Johan" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1864-03-15"^^xsd:date ;
+    schema:deathDate "1935-12-04"^^xsd:date .
+
+cmk:johan-helmich-roman a foaf:Person ;
+    owl:sameAs wd:Q349352 ;
+    foaf:familyName "Roman" ;
+    foaf:firstName "Johan Helmich" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1694-10-26"^^xsd:date ;
+    schema:deathDate "1758-11-20"^^xsd:date .
+
+cmk:johann-adam-reincken a foaf:Person ;
+    owl:sameAs wd:Q168832 ;
+    foaf:familyName "Reincken" ;
+    foaf:firstName "Johann Adam" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1643-01-01"^^xsd:date ;
+    schema:deathDate "1722-11-24"^^xsd:date .
+
+cmk:johann-david-heinichen a foaf:Person ;
+    owl:sameAs wd:Q506627 ;
+    foaf:familyName "Heinichen" ;
+    foaf:firstName "Johann David" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1683-04-17"^^xsd:date ;
+    schema:deathDate "1729-07-16"^^xsd:date .
+
+cmk:johann-friedrich-reichardt a foaf:Person ;
+    owl:sameAs wd:Q213742 ;
+    foaf:familyName "Reichardt" ;
+    foaf:firstName "Johann Friedrich" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1736-03-01"^^xsd:date ;
+    schema:deathDate "1814-06-27"^^xsd:date .
+
+cmk:johann-heinrich-schmelzer a foaf:Person ;
+    owl:sameAs wd:Q701274 ;
+    foaf:familyName "Schmelzer" ;
+    foaf:firstName "Johann Heinrich" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1620-01-01"^^xsd:date ;
+    schema:deathDate "1680-03-20"^^xsd:date .
+
+cmk:johann-hermann-schein a foaf:Person ;
+    owl:sameAs wd:Q57827 ;
+    foaf:familyName "Schein" ;
+    foaf:firstName "Johann Hermann" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1586-01-20"^^xsd:date ;
+    schema:deathDate "1630-11-19"^^xsd:date .
+
+cmk:johann-joseph-fux a foaf:Person ;
+    owl:sameAs wd:Q311378 ;
+    foaf:familyName "Fux" ;
+    foaf:firstName "Johann Joseph" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1660-01-01"^^xsd:date ;
+    schema:deathDate "1741-02-13"^^xsd:date .
+
+cmk:johann-sebastian-bach a foaf:Person ;
+    owl:sameAs wd:Q1339 ;
+    foaf:familyName "Bach" ;
+    foaf:firstName "Johann Sebastian" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1685-03-31"^^xsd:date ;
+    schema:deathDate "1750-07-28"^^xsd:date .
+
+cmk:johann-wilhelm-hässler a foaf:Person ;
+    owl:sameAs wd:Q455105 ;
+    foaf:familyName "Hässler" ;
+    foaf:firstName "Johann Wilhelm" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1747-03-29"^^xsd:date ;
+    schema:deathDate "1822-03-29"^^xsd:date .
+
+cmk:johanna-almark a foaf:Person ;
+    foaf:familyName "Almark" ;
+    foaf:firstName "Johanna" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:johannes-brahms a foaf:Person ;
+    owl:sameAs wd:Q7294 ;
+    foaf:familyName "Brahms" ;
+    foaf:firstName "Johannes" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1833-05-07"^^xsd:date ;
+    schema:deathDate "1897-04-03"^^xsd:date .
+
+cmk:john-adams a foaf:Person ;
+    owl:sameAs wd:Q84114 ;
+    foaf:familyName "Adams" ;
+    foaf:firstName "John" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1947-02-15"^^xsd:date .
+
+cmk:jorma-panula a foaf:Person ;
+    owl:sameAs wd:Q718059 ;
+    foaf:familyName "Panula" ;
+    foaf:firstName "Jorma" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1930-08-10"^^xsd:date .
+
+cmk:josef-suk a foaf:Person ;
+    owl:sameAs wd:Q312700 ;
+    foaf:familyName "Suk" ;
+    foaf:firstName "Josef" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1874-01-04"^^xsd:date ;
+    schema:deathDate "1935-05-29"^^xsd:date .
+
+cmk:josef-werner a foaf:Person ;
+    foaf:familyName "Werner" ;
+    foaf:firstName "Josef" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:joseph-canteloube a foaf:Person ;
+    owl:sameAs wd:Q561141 ;
+    foaf:familyName "Canteloube" ;
+    foaf:firstName "Joseph" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1879-10-21"^^xsd:date ;
+    schema:deathDate "1957-11-04"^^xsd:date .
+
+cmk:joseph-haydn a foaf:Person ;
+    owl:sameAs wd:Q7349 ;
+    foaf:familyName "Haydn" ;
+    foaf:firstName "Joseph" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1732-03-31"^^xsd:date ;
+    schema:deathDate "1809-05-31"^^xsd:date .
+
+cmk:jouni-hirvelä a foaf:Person ;
+    foaf:familyName "Hirvelä" ;
+    foaf:firstName "Jouni" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:jouni-kaipainen a foaf:Person ;
+    owl:sameAs wd:Q613637 ;
+    foaf:familyName "Kaipainen" ;
+    foaf:firstName "Jouni" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1956-11-24"^^xsd:date ;
+    schema:deathDate "2015-11-23"^^xsd:date .
+
+cmk:jukka-tiensuu a foaf:Person ;
+    owl:sameAs wd:Q332207 ;
+    foaf:familyName "Tiensuu" ;
+    foaf:firstName "Jukka" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1948-08-30"^^xsd:date .
+
+cmk:jules-demersseman-felix-charles-berthélemy a foaf:Person ;
+    foaf:familyName "Demersseman & Felix Charles Berthélemy" ;
+    foaf:firstName "Jules" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:kaija-saariaho a foaf:Person ;
+    owl:sameAs wd:Q241432 ;
+    foaf:familyName "Saariaho" ;
+    foaf:firstName "Kaija" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1952-10-14"^^xsd:date ;
+    schema:deathDate "2023-06-02"^^xsd:date .
+
+cmk:kaj-chydenius a foaf:Person ;
+    owl:sameAs wd:Q3075062 ;
+    foaf:familyName "Chydenius" ;
+    foaf:firstName "Kaj" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1939-10-16"^^xsd:date ;
+    schema:deathDate "2024-04-20"^^xsd:date .
+
+cmk:kalevi-aho a foaf:Person ;
+    owl:sameAs wd:Q521079 ;
+    foaf:familyName "Aho" ;
+    foaf:firstName "Kalevi" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1949-03-09"^^xsd:date .
+
+cmk:karl-collan a foaf:Person ;
+    owl:sameAs wd:Q1730669 ;
+    foaf:familyName "Collan" ;
+    foaf:firstName "Karl" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1828-01-03"^^xsd:date ;
+    schema:deathDate "1871-09-12"^^xsd:date .
+
+cmk:karl-pilss a foaf:Person ;
+    foaf:familyName "Pilss" ;
+    foaf:firstName "Karl" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:karol-szymanowski a foaf:Person ;
+    owl:sameAs wd:Q295400 ;
+    foaf:familyName "Szymanowski" ;
+    foaf:firstName "Karol" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1882-10-03"^^xsd:date ;
+    schema:deathDate "1937-03-29"^^xsd:date .
+
+cmk:kjartan-sveinsson a foaf:Person ;
+    owl:sameAs wd:Q2363917 ;
+    foaf:familyName "Sveinsson" ;
+    foaf:firstName "Kjartan" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1978-01-02"^^xsd:date .
+
+cmk:lasse-mårtenson a foaf:Person ;
+    owl:sameAs wd:Q1806663 ;
+    foaf:familyName "Mårtenson" ;
+    foaf:firstName "Lasse" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1934-09-24"^^xsd:date ;
+    schema:deathDate "2016-05-14"^^xsd:date .
+
+cmk:lasse-thoresen a foaf:Person ;
+    owl:sameAs wd:Q3738209 ;
+    foaf:familyName "Thoresen" ;
+    foaf:firstName "Lasse" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1949-10-18"^^xsd:date .
+
+cmk:leevi-madetoja a foaf:Person ;
+    owl:sameAs wd:Q713467 ;
+    foaf:familyName "Madetoja" ;
+    foaf:firstName "Leevi" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1887-02-17"^^xsd:date ;
+    schema:deathDate "1947-10-06"^^xsd:date .
+
+cmk:leevi-räsänen a foaf:Person ;
+    foaf:familyName "Räsänen" ;
+    foaf:firstName "Leevi" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:leif-segerstam a foaf:Person ;
+    owl:sameAs wd:Q381726 ;
+    foaf:familyName "Segerstam" ;
+    foaf:firstName "Leif" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1944-03-02"^^xsd:date ;
+    schema:deathDate "2024-10-09"^^xsd:date .
+
+cmk:leonard-bernstein a foaf:Person ;
+    owl:sameAs wd:Q152505 ;
+    foaf:familyName "Bernstein" ;
+    foaf:firstName "Leonard" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1918-08-25"^^xsd:date ;
+    schema:deathDate "1990-10-14"^^xsd:date .
+
+cmk:leoš-janáček a foaf:Person ;
+    owl:sameAs wd:Q184933 ;
+    foaf:familyName "Janáček" ;
+    foaf:firstName "Leoš" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1854-07-03"^^xsd:date ;
+    schema:deathDate "1928-08-12"^^xsd:date .
+
+cmk:lili-boulanger a foaf:Person ;
+    owl:sameAs wd:Q230412 ;
+    foaf:familyName "Boulanger" ;
+    foaf:firstName "Lili" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1893-08-21"^^xsd:date ;
+    schema:deathDate "1918-03-15"^^xsd:date .
+
+cmk:liza-lim a foaf:Person ;
+    owl:sameAs wd:Q6660407 ;
+    foaf:familyName "Lim" ;
+    foaf:firstName "Liza" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1966-08-30"^^xsd:date .
+
+cmk:lotta-wennäkoski a foaf:Person ;
+    owl:sameAs wd:Q11876265 ;
+    foaf:familyName "Wennäkoski" ;
+    foaf:firstName "Lotta" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1970-02-08"^^xsd:date .
+
+cmk:luciano-berio a foaf:Person ;
+    owl:sameAs wd:Q221450 ;
+    foaf:familyName "Berio" ;
+    foaf:firstName "Luciano" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1925-10-24"^^xsd:date ;
+    schema:deathDate "2003-05-27"^^xsd:date .
+
+cmk:ludwig-van-beethoven a foaf:Person ;
+    owl:sameAs wd:Q255 ;
+    foaf:familyName "Beethoven" ;
+    foaf:firstName "Ludwig van" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1770-12-16"^^xsd:date ;
+    schema:deathDate "1827-03-26"^^xsd:date .
+
+cmk:luigi-cherubini a foaf:Person ;
+    owl:sameAs wd:Q20721 ;
+    foaf:familyName "Cherubini" ;
+    foaf:firstName "Luigi" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1760-09-08"^^xsd:date ;
+    schema:deathDate "1842-03-15"^^xsd:date .
+
+cmk:madeleine-dring a foaf:Person ;
+    owl:sameAs wd:Q11340661 ;
+    foaf:familyName "Dring" ;
+    foaf:firstName "Madeleine" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1923-09-07"^^xsd:date ;
+    schema:deathDate "1977-03-26"^^xsd:date .
+
+cmk:magnus-lindberg a foaf:Person ;
+    owl:sameAs wd:Q503672 ;
+    foaf:familyName "Lindberg" ;
+    foaf:firstName "Magnus" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1958-06-27"^^xsd:date .
+
+cmk:maja-s-k-ratkje a foaf:Person ;
+    owl:sameAs wd:Q6737336 ;
+    foaf:familyName "Ratkje" ;
+    foaf:firstName "Maja S. K." ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1973-12-29"^^xsd:date .
+
+cmk:manuel-de-falla a foaf:Person ;
+    owl:sameAs wd:Q193283 ;
+    foaf:familyName "Falla" ;
+    foaf:firstName "Manuel de" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1876-11-23"^^xsd:date ;
+    schema:deathDate "1946-11-14"^^xsd:date .
+
+cmk:marc-andré-dalbavie a foaf:Person ;
+    owl:sameAs wd:Q328560 ;
+    foaf:familyName "Dalbavie" ;
+    foaf:firstName "Marc-André" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1961-02-10"^^xsd:date .
+
+cmk:marc-neikrug a foaf:Person ;
+    owl:sameAs wd:Q1892728 ;
+    foaf:familyName "Neikrug" ;
+    foaf:firstName "Marc" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1946-09-24"^^xsd:date .
+
+cmk:mario-venzago a foaf:Person ;
+    foaf:familyName "Venzago" ;
+    foaf:firstName "Mario" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:mary-kouyoumdjian a foaf:Person ;
+    owl:sameAs wd:Q107304099 ;
+    foaf:familyName "Kouyoumdjian" ;
+    foaf:firstName "Mary" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1983-01-01"^^xsd:date .
+
+cmk:maurice-duruflé a foaf:Person ;
+    owl:sameAs wd:Q183256 ;
+    foaf:familyName "Duruflé" ;
+    foaf:firstName "Maurice" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1902-01-11"^^xsd:date ;
+    schema:deathDate "1986-06-16"^^xsd:date .
+
+cmk:maurice-ravel a foaf:Person ;
+    owl:sameAs wd:Q1178 ;
+    foaf:familyName "Ravel" ;
+    foaf:firstName "Maurice" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1875-03-07"^^xsd:date ;
+    schema:deathDate "1937-12-28"^^xsd:date .
+
+cmk:max-bruch a foaf:Person ;
+    owl:sameAs wd:Q106434 ;
+    foaf:familyName "Bruch" ;
+    foaf:firstName "Max" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1838-01-06"^^xsd:date ;
+    schema:deathDate "1920-10-02"^^xsd:date .
+
+cmk:michael-daugherty a foaf:Person ;
+    owl:sameAs wd:Q2251665 ;
+    foaf:familyName "Daugherty" ;
+    foaf:firstName "Michael" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1954-04-28"^^xsd:date .
+
+cmk:michael-jarrell a foaf:Person ;
+    owl:sameAs wd:Q124148 ;
+    foaf:familyName "Jarrell" ;
+    foaf:firstName "Michael" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1958-10-08"^^xsd:date .
+
+cmk:mikołaj-górecki a foaf:Person ;
+    owl:sameAs wd:Q1933774 ;
+    foaf:familyName "Górecki" ;
+    foaf:firstName "Mikołaj" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1971-02-01"^^xsd:date .
+
+cmk:milda-venckutė a foaf:Person ;
+    foaf:familyName "Venckutė" ;
+    foaf:firstName "Milda" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:minna-leinonen a foaf:Person ;
+    owl:sameAs wd:Q102117347 ;
+    foaf:familyName "Leinonen" ;
+    foaf:firstName "Minna" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1977-01-01"^^xsd:date .
+
+cmk:mioko-yokoyama a foaf:Person ;
+    foaf:familyName "Yokoyama" ;
+    foaf:firstName "Mioko" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:modest-petrovich-mussorgsky a foaf:Person ;
+    owl:sameAs wd:Q132682 ;
+    foaf:familyName "Mussorgsky" ;
+    foaf:firstName "Modest Petrovich" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1839-03-21"^^xsd:date ;
+    schema:deathDate "1881-03-28"^^xsd:date .
+
+cmk:márton-illés a foaf:Person ;
+    owl:sameAs wd:Q873543 ;
+    foaf:familyName "Illés" ;
+    foaf:firstName "Márton" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1975-12-12"^^xsd:date .
+
+cmk:mélanie-bonis a foaf:Person ;
+    owl:sameAs wd:Q467452 ;
+    foaf:familyName "Bonis" ;
+    foaf:firstName "Mélanie" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1858-01-21"^^xsd:date ;
+    schema:deathDate "1937-03-18"^^xsd:date .
+
+cmk:nicky-sohn a foaf:Person ;
+    foaf:familyName "Sohn" ;
+    foaf:firstName "Nicky" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:olivier-messiaen a foaf:Person ;
+    owl:sameAs wd:Q151593 ;
+    foaf:familyName "Messiaen" ;
+    foaf:firstName "Olivier" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1908-12-10"^^xsd:date ;
+    schema:deathDate "1992-04-27"^^xsd:date .
+
+cmk:olli-mustonen a foaf:Person ;
+    owl:sameAs wd:Q1386576 ;
+    foaf:familyName "Mustonen" ;
+    foaf:firstName "Olli" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1967-06-07"^^xsd:date .
+
+cmk:olli-virtaperko a foaf:Person ;
+    foaf:familyName "Virtaperko" ;
+    foaf:firstName "Olli" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:oskar-böhme a foaf:Person ;
+    owl:sameAs wd:Q3430849 ;
+    foaf:familyName "Böhme" ;
+    foaf:firstName "Oskar" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1870-02-24"^^xsd:date ;
+    schema:deathDate "1938-10-03"^^xsd:date .
+
+cmk:ottorino-respighi a foaf:Person ;
+    owl:sameAs wd:Q243837 ;
+    foaf:familyName "Respighi" ;
+    foaf:firstName "Ottorino" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1879-07-09"^^xsd:date ;
+    schema:deathDate "1936-04-18"^^xsd:date .
+
+cmk:outi-tarkiainen a foaf:Person ;
+    owl:sameAs wd:Q11886158 ;
+    foaf:familyName "Tarkiainen" ;
+    foaf:firstName "Outi" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1985-02-07"^^xsd:date .
+
+cmk:owe-green a foaf:Person ;
+    foaf:familyName "Green" ;
+    foaf:firstName "Owe" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:pablo-de-sarasate a foaf:Person ;
+    owl:sameAs wd:Q204503 ;
+    foaf:familyName "Sarasate" ;
+    foaf:firstName "Pablo de" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1844-03-10"^^xsd:date ;
+    schema:deathDate "1908-09-20"^^xsd:date .
+
+cmk:paul-dukas a foaf:Person ;
+    owl:sameAs wd:Q215556 ;
+    foaf:familyName "Dukas" ;
+    foaf:firstName "Paul" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1865-10-01"^^xsd:date ;
+    schema:deathDate "1935-05-17"^^xsd:date .
+
+cmk:paul-hindemith a foaf:Person ;
+    owl:sameAs wd:Q57244 ;
+    foaf:familyName "Hindemith" ;
+    foaf:firstName "Paul" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1895-11-16"^^xsd:date ;
+    schema:deathDate "1963-12-28"^^xsd:date .
+
+cmk:peteris-vasks a foaf:Person ;
+    owl:sameAs wd:Q368449 ;
+    foaf:familyName "Vasks" ;
+    foaf:firstName "Peteris" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1946-04-16"^^xsd:date .
+
+cmk:philippe-gaubert a foaf:Person ;
+    owl:sameAs wd:Q959431 ;
+    foaf:familyName "Gaubert" ;
+    foaf:firstName "Philippe" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1879-07-03"^^xsd:date ;
+    schema:deathDate "1941-07-08"^^xsd:date .
+
+cmk:pyotr-ilyich-tchaikovsky a foaf:Person ;
+    owl:sameAs wd:Q7315 ;
+    foaf:familyName "Tchaikovsky" ;
+    foaf:firstName "Pyotr Ilyich" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1840-05-07"^^xsd:date ;
+    schema:deathDate "1893-11-06"^^xsd:date .
+
+cmk:péter-eötvös a foaf:Person ;
+    owl:sameAs wd:Q389851 ;
+    foaf:familyName "Eötvös" ;
+    foaf:firstName "Péter" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1944-01-02"^^xsd:date ;
+    schema:deathDate "2024-03-24"^^xsd:date .
+
+cmk:ralph-vaughan-williams a foaf:Person ;
+    owl:sameAs wd:Q207947 ;
+    foaf:familyName "Williams" ;
+    foaf:firstName "Ralph Vaughan" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1872-10-12"^^xsd:date ;
+    schema:deathDate "1958-08-26"^^xsd:date .
+
+cmk:reinhold-glière a foaf:Person ;
+    owl:sameAs wd:Q316795 ;
+    foaf:familyName "Glière" ;
+    foaf:firstName "Reinhold" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1875-01-11"^^xsd:date ;
+    schema:deathDate "1956-06-23"^^xsd:date .
+
+cmk:richard-ayres a foaf:Person ;
+    owl:sameAs wd:Q2401483 ;
+    foaf:familyName "Ayres" ;
+    foaf:firstName "Richard" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1965-10-29"^^xsd:date .
+
+cmk:richard-dubugnon a foaf:Person ;
+    owl:sameAs wd:Q18642575 ;
+    foaf:familyName "Dubugnon" ;
+    foaf:firstName "Richard" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1968-01-01"^^xsd:date .
+
+cmk:richard-strauss a foaf:Person ;
+    owl:sameAs wd:Q13894 ;
+    foaf:familyName "Strauss" ;
+    foaf:firstName "Richard" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1864-06-11"^^xsd:date ;
+    schema:deathDate "1949-09-08"^^xsd:date .
+
+cmk:richard-wagner a foaf:Person ;
+    owl:sameAs wd:Q1511 ;
+    foaf:familyName "Wagner" ;
+    foaf:firstName "Richard" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1813-05-22"^^xsd:date ;
+    schema:deathDate "1883-02-13"^^xsd:date .
+
+cmk:robert-schumann a foaf:Person ;
+    owl:sameAs wd:Q7351 ;
+    foaf:familyName "Schumann" ;
+    foaf:firstName "Robert" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1810-06-08"^^xsd:date ;
+    schema:deathDate "1856-07-29"^^xsd:date .
+
+cmk:rodion-shchedrin a foaf:Person ;
+    owl:sameAs wd:Q165706 ;
+    foaf:familyName "Shchedrin" ;
+    foaf:firstName "Rodion" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1932-12-16"^^xsd:date ;
+    schema:deathDate "2025-08-29"^^xsd:date .
+
+cmk:roope-mäenpää a foaf:Person ;
+    foaf:familyName "Mäenpää" ;
+    foaf:firstName "Roope" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:rufus-wainwright a foaf:Person ;
+    owl:sameAs wd:Q192402 ;
+    foaf:familyName "Wainwright" ;
+    foaf:firstName "Rufus" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1973-07-22"^^xsd:date .
+
+cmk:ruth-crawford-seeger a foaf:Person ;
+    owl:sameAs wd:Q451393 ;
+    foaf:familyName "Seeger" ;
+    foaf:firstName "Ruth Crawford" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1901-07-03"^^xsd:date ;
+    schema:deathDate "1953-11-18"^^xsd:date .
+
+cmk:sally-beamish a foaf:Person ;
+    owl:sameAs wd:Q2680514 ;
+    foaf:familyName "Beamish" ;
+    foaf:firstName "Sally" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1956-08-26"^^xsd:date .
+
+cmk:samuel-barber a foaf:Person ;
+    owl:sameAs wd:Q216870 ;
+    foaf:familyName "Barber" ;
+    foaf:firstName "Samuel" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1910-03-09"^^xsd:date ;
+    schema:deathDate "1981-01-23"^^xsd:date .
+
+cmk:samuel-coleridge-taylor a foaf:Person ;
+    owl:sameAs wd:Q739229 ;
+    foaf:familyName "Coleridge-Taylor" ;
+    foaf:firstName "Samuel" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1875-08-15"^^xsd:date ;
+    schema:deathDate "1912-09-01"^^xsd:date .
+
+cmk:sarah-nemtsov a foaf:Person ;
+    owl:sameAs wd:Q2224459 ;
+    foaf:familyName "Nemtsov" ;
+    foaf:firstName "Sarah" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1980-05-28"^^xsd:date .
+
+cmk:sauli-zinovjev a foaf:Person ;
+    owl:sameAs wd:Q16991453 ;
+    foaf:familyName "Zinovjev" ;
+    foaf:firstName "Sauli" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1988-01-01"^^xsd:date .
+
+cmk:sebastian-fagerlund a foaf:Person ;
+    owl:sameAs wd:Q18175513 ;
+    foaf:familyName "Fagerlund" ;
+    foaf:firstName "Sebastian" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1972-12-06"^^xsd:date .
+
+cmk:sergei-prokofiev a foaf:Person ;
+    owl:sameAs wd:Q49481 ;
+    foaf:familyName "Prokofiev" ;
+    foaf:firstName "Sergei" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1891-04-23"^^xsd:date ;
+    schema:deathDate "1953-03-05"^^xsd:date .
+
+cmk:sergei-rachmaninoff a foaf:Person ;
+    owl:sameAs wd:Q131861 ;
+    foaf:familyName "Rachmaninoff" ;
+    foaf:firstName "Sergei" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1873-04-01"^^xsd:date ;
+    schema:deathDate "1943-03-28"^^xsd:date .
+
+cmk:sofia-gubaidulina a foaf:Person ;
+    owl:sameAs wd:Q165668 ;
+    foaf:familyName "Gubaidulina" ;
+    foaf:firstName "Sofia" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1931-10-24"^^xsd:date ;
+    schema:deathDate "2025-03-13"^^xsd:date .
+
+cmk:steve-reich a foaf:Person ;
+    owl:sameAs wd:Q262791 ;
+    foaf:familyName "Reich" ;
+    foaf:firstName "Steve" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1936-10-03"^^xsd:date .
+
+cmk:terry-riley a foaf:Person ;
+    owl:sameAs wd:Q365243 ;
+    foaf:familyName "Riley" ;
+    foaf:firstName "Terry" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1935-06-24"^^xsd:date .
+
+cmk:thomas-adès a foaf:Person ;
+    owl:sameAs wd:Q439572 ;
+    foaf:familyName "Adès" ;
+    foaf:firstName "Thomas" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1971-03-01"^^xsd:date .
+
+cmk:toivo-kuula a foaf:Person ;
+    owl:sameAs wd:Q494964 ;
+    foaf:familyName "Kuula" ;
+    foaf:firstName "Toivo" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1883-07-07"^^xsd:date ;
+    schema:deathDate "1918-05-18"^^xsd:date .
+
+cmk:tomaso-albinoni a foaf:Person ;
+    owl:sameAs wd:Q174606 ;
+    foaf:familyName "Albinoni" ;
+    foaf:firstName "Tomaso" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1671-06-08"^^xsd:date ;
+    schema:deathDate "1751-01-17"^^xsd:date .
+
+cmk:tuomas-turriago a foaf:Person ;
+    owl:sameAs wd:Q16991015 ;
+    foaf:familyName "Turriago" ;
+    foaf:firstName "Tuomas" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1979-01-01"^^xsd:date .
+
+cmk:unsuk-chin a foaf:Person ;
+    owl:sameAs wd:Q272236 ;
+    foaf:familyName "Chin" ;
+    foaf:firstName "Unsuk" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1961-07-14"^^xsd:date .
+
+cmk:veli-kujala a foaf:Person ;
+    foaf:familyName "Kujala" ;
+    foaf:firstName "Veli" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:victoria-poleva a foaf:Person ;
+    owl:sameAs wd:Q4369600 ;
+    foaf:familyName "Poleva" ;
+    foaf:firstName "Victoria" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1962-09-11"^^xsd:date .
+
+cmk:viktor-ullmann a foaf:Person ;
+    owl:sameAs wd:Q78530 ;
+    foaf:familyName "Ullmann" ;
+    foaf:firstName "Viktor" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1898-01-01"^^xsd:date ;
+    schema:deathDate "1944-10-18"^^xsd:date .
+
+cmk:vincent-dindy a foaf:Person ;
+    owl:sameAs wd:Q313584 ;
+    foaf:familyName "d'Indy" ;
+    foaf:firstName "Vincent" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1851-03-27"^^xsd:date ;
+    schema:deathDate "1931-12-02"^^xsd:date .
+
+cmk:väinö-raitio a foaf:Person ;
+    owl:sameAs wd:Q961063 ;
+    foaf:familyName "Raitio" ;
+    foaf:firstName "Väinö" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1891-04-15"^^xsd:date ;
+    schema:deathDate "1945-09-10"^^xsd:date .
+
+cmk:wa-mozart a foaf:Person ;
+    owl:sameAs wd:Q254 ;
+    foaf:familyName "Mozart" ;
+    foaf:firstName "Wolfgang Amadeus" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1756-01-27"^^xsd:date ;
+    schema:deathDate "1791-12-05"^^xsd:date .
+
+cmk:wilhelm-fitzenhagen a foaf:Person ;
+    owl:sameAs wd:Q4485111 ;
+    foaf:familyName "Fitzenhagen" ;
+    foaf:firstName "Wilhelm" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1848-09-15"^^xsd:date ;
+    schema:deathDate "1890-02-14"^^xsd:date .
+
+cmk:wilhelm-friedemann-bach a foaf:Person ;
+    owl:sameAs wd:Q107277 ;
+    foaf:familyName "Bach" ;
+    foaf:firstName "Wilhelm Friedemann" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1710-11-22"^^xsd:date ;
+    schema:deathDate "1784-07-01"^^xsd:date .
+
+cmk:witold-lutosławski a foaf:Person ;
+    owl:sameAs wd:Q156472 ;
+    foaf:familyName "Lutosławski" ;
+    foaf:firstName "Witold" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1913-01-25"^^xsd:date ;
+    schema:deathDate "1994-02-07"^^xsd:date .
+
+cmk:wojciech-kilar a foaf:Person ;
+    owl:sameAs wd:Q319777 ;
+    foaf:familyName "Kilar" ;
+    foaf:firstName "Wojciech" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1932-07-17"^^xsd:date ;
+    schema:deathDate "2013-12-29"^^xsd:date .
+
+cmk:wolfgang-mitterer a foaf:Person ;
+    owl:sameAs wd:Q365817 ;
+    foaf:familyName "Mitterer" ;
+    foaf:firstName "Wolfgang" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1958-06-06"^^xsd:date .
+
+cmk:yiqing-zhu a foaf:Person ;
+    foaf:familyName "Zhu" ;
+    foaf:firstName "Yiqing" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:zoltán-kodály a foaf:Person ;
+    foaf:familyName "Kodály" ;
+    foaf:firstName "Zoltán" ;
+    cmo:known-as-a cmk:composer .
+
+cmk:ülo-krigul a foaf:Person ;
+    owl:sameAs wd:Q12379613 ;
+    foaf:familyName "Krigul" ;
+    foaf:firstName "Ülo" ;
+    cmo:known-as-a cmk:composer ;
+    schema:birthDate "1978-11-07"^^xsd:date .
+

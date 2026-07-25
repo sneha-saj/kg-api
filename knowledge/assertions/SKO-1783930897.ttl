@@ -40,17 +40,6 @@ cmk:jan-soderblom a foaf:Person ;
     cmo:plays-in cmk:bio-forum-20260802T1400,
         cmk:chappe-taiteentalo-meren-aarella-20260802T1300 .
 
-cmk:johanna-almark a foaf:Person ;
-    foaf:familyName "Almark" ;
-    foaf:firstName "Johanna" ;
-    cmo:conducts-in cmk:tammisaaren-kirkko-20260730T1900 ;
-    cmo:known-as-a cmk:composer,
-        cmk:conductor,
-        cmk:soprano,
-        cmk:violinist ;
-    cmo:performs-in cmk:tammisaaren-kirkko-20260730T1600 ;
-    cmo:sings-in cmk:tammisaaren-kirkko-20260730T1900 .
-
 cmk:maja-mannila a foaf:Person ;
     foaf:familyName "Mannila" ;
     foaf:firstName "Maja" ;
@@ -59,6 +48,31 @@ cmk:maja-mannila a foaf:Person ;
     cmo:performs-in cmk:tammisaaren-kirkko-20260730T1600 ;
     cmo:plays-in cmk:tammisaaren-kirkko-20260730T1900 ;
     cmo:sings-in cmk:tammisaaren-kirkko-20260730T1900 .
+
+cmk:programme-tammisaaren-kirkko-20260730T1900 a cmo:Programme ;
+    rdfs:label "Hommage à Lasse" ;
+    cmo:is-performed-at cmk:tammisaaren-kirkko-20260730T1900 ;
+    schema:hasPart cmk:composition-aftonpsalm-iltalaulu-lasse-mårtenson,
+        cmk:composition-come-september-lasse-mårtenson,
+        cmk:composition-hebridit-alkusoitto-op-26-fingalin-luola-felix-mendelssohn,
+        cmk:composition-kaikki-paitsi-purjehdus-on-turhaa-lasse-mårtenson,
+        cmk:composition-la-mer-claude-debussy,
+        cmk:composition-morgondimma-aamu-usva-lasse-mårtenson,
+        cmk:composition-natt-vid-havet-yö-merellä-lasse-mårtenson,
+        cmk:composition-nocturne-lasse-mårtenson,
+        cmk:composition-prästkragen-päivänkakkara-lasse-mårtenson,
+        cmk:composition-romans-romanssi-lasse-mårtenson,
+        cmk:composition-sellokonsertto-jaakko-kuusisto,
+        cmk:composition-septemberstorm-lasse-mårtenson,
+        cmk:composition-stormskärs-maja-myrskyluodon-maija-lasse-mårtenson,
+        cmk:composition-sång-i-soluppgång-hommage-à-lasse-johanna-almark,
+        cmk:composition-sång-om-väntan-odottavan-laulu-lasse-mårtenson,
+        cmk:composition-teema-tv-sarjasta-vihan-päivät-lasse-mårtenson .
+
+cmk:programme-tammisaaren-vierasvenesatama-20260730T2100 a cmo:Programme ;
+    rdfs:label "Jatkot laiturilla" ;
+    cmo:is-performed-at cmk:tammisaaren-vierasvenesatama-20260730T2100 ;
+    schema:hasPart cmk:composition-lasse-mårtensonin-musiikkia-lasse-mårtenson .
 
 cmk:saara-kurki a foaf:Person ;
     foaf:familyName "Kurki" ;
@@ -73,29 +87,11 @@ cmk:tammisaaren-kirkko a cmo:ConcertHall,
 cmk:tammisaaren-vierasvenesatama a cmo:Venue ;
     rdfs:label "Tammisaaren vierasvenesatama" .
 
-cmk:tammisaaren-vierasvenesatama-20260730T2100 a mo:Performance ;
-    cmo:has-programme cmk:jatkot-laiturilla ;
-    schema:name "Jatkot laiturilla" ;
-    schema:organizer cmk:finnchamber ;
-    schema:startDate "2026-07-30T21:00:00"^^xsd:dateTime .
-
 cmk:tatu-kauppinen a foaf:Person ;
     foaf:familyName "Kauppinen" ;
     foaf:firstName "Tatu" ;
     cmo:known-as-a cmk:cellist ;
     cmo:plays-in cmk:chappe-taiteentalo-meren-aarella-20260801T1200 .
-
-cmk:bio-forum-20260801T1400 a mo:Performance ;
-    cmo:has-programme cmk:myrskyluodon-maija ;
-    schema:name "Myrskyluodon Maija" ;
-    schema:organizer cmk:finnchamber ;
-    schema:startDate "2026-08-01T14:00:00"^^xsd:dateTime .
-
-cmk:bio-forum-20260802T1400 a mo:Performance ;
-    cmo:has-programme cmk:myrskyluodon-maija ;
-    schema:name "Myrskyluodon Maija" ;
-    schema:organizer cmk:finnchamber ;
-    schema:startDate "2026-08-02T14:00:00"^^xsd:dateTime .
 
 cmk:chappe-taiteentalo-meren-aarella-20260801T1200 a mo:Performance ;
     cmo:has-programme cmk:soolo-ohjelma-tatu-kauppinen ;
@@ -113,6 +109,62 @@ cmk:clarinetist a cmo:musical-identity .
 
 cmk:composer a cmo:musical-identity .
 
+cmk:composition-aftonpsalm-iltalaulu-lasse-mårtenson a schema:MusicComposition ;
+    schema:composer cmk:lasse-mårtenson ;
+    schema:name "Aftonpsalm (Iltalaulu)" .
+
+cmk:composition-come-september-lasse-mårtenson a schema:MusicComposition ;
+    schema:composer cmk:lasse-mårtenson ;
+    schema:name "Come September" .
+
+cmk:composition-kaikki-paitsi-purjehdus-on-turhaa-lasse-mårtenson a schema:MusicComposition ;
+    schema:composer cmk:lasse-mårtenson ;
+    schema:name "Kaikki paitsi purjehdus on turhaa" .
+
+cmk:composition-lasse-mårtensonin-musiikkia-lasse-mårtenson a schema:MusicComposition ;
+    schema:composer cmk:lasse-mårtenson ;
+    schema:name "Lasse Mårtensonin musiikkia" .
+
+cmk:composition-morgondimma-aamu-usva-lasse-mårtenson a schema:MusicComposition ;
+    schema:composer cmk:lasse-mårtenson ;
+    schema:name "Morgondimma (Aamu-usva)" .
+
+cmk:composition-natt-vid-havet-yö-merellä-lasse-mårtenson a schema:MusicComposition ;
+    schema:composer cmk:lasse-mårtenson ;
+    schema:name "Natt vid havet (Yö merellä)" .
+
+cmk:composition-nocturne-lasse-mårtenson a schema:MusicComposition ;
+    schema:composer cmk:lasse-mårtenson ;
+    schema:name "Nocturne" .
+
+cmk:composition-prästkragen-päivänkakkara-lasse-mårtenson a schema:MusicComposition ;
+    schema:composer cmk:lasse-mårtenson ;
+    schema:name "Prästkragen (Päivänkakkara)" .
+
+cmk:composition-romans-romanssi-lasse-mårtenson a schema:MusicComposition ;
+    schema:composer cmk:lasse-mårtenson ;
+    schema:name "Romans (Romanssi)" .
+
+cmk:composition-septemberstorm-lasse-mårtenson a schema:MusicComposition ;
+    schema:composer cmk:lasse-mårtenson ;
+    schema:name "Septemberstorm" .
+
+cmk:composition-stormskärs-maja-myrskyluodon-maija-lasse-mårtenson a schema:MusicComposition ;
+    schema:composer cmk:lasse-mårtenson ;
+    schema:name "Stormskärs Maja (Myrskyluodon Maija)" .
+
+cmk:composition-sång-i-soluppgång-hommage-à-lasse-johanna-almark a schema:MusicComposition ;
+    schema:composer cmk:johanna-almark ;
+    schema:name "Sång i soluppgång (Hommage à Lasse)" .
+
+cmk:composition-sång-om-väntan-odottavan-laulu-lasse-mårtenson a schema:MusicComposition ;
+    schema:composer cmk:lasse-mårtenson ;
+    schema:name "Sång om väntan (Odottavan laulu)" .
+
+cmk:composition-teema-tv-sarjasta-vihan-päivät-lasse-mårtenson a schema:MusicComposition ;
+    schema:composer cmk:lasse-mårtenson ;
+    schema:name "Teema TV-sarjasta Vihan päivät" .
+
 cmk:duo-ohjelma-chappessa a cmo:Programme ;
     rdfs:label "Duo-ohjelma Chappessa" .
 
@@ -122,11 +174,26 @@ cmk:hommage-a-lasse a cmo:Programme ;
 cmk:jatkot-laiturilla a cmo:Programme ;
     rdfs:label "Jatkot laiturilla - Lasse Mårtensonin musiikkia" .
 
+cmk:johanna-almark a foaf:Person ;
+    foaf:familyName "Almark" ;
+    foaf:firstName "Johanna" ;
+    cmo:conducts-in cmk:tammisaaren-kirkko-20260730T1900 ;
+    cmo:known-as-a cmk:composer,
+        cmk:conductor,
+        cmk:soprano,
+        cmk:violinist ;
+    cmo:performs-in cmk:tammisaaren-kirkko-20260730T1600 ;
+    cmo:sings-in cmk:tammisaaren-kirkko-20260730T1900 .
+
 cmk:makupaloja-festivaalin-ohjelmasta a cmo:Programme ;
     rdfs:label "Makupaloja festivaalin ohjelmasta" .
 
 cmk:mendelssohn-kuusisto-debussy a cmo:Programme ;
-    rdfs:label "Mendelssohn, Kuusisto, Debussy" .
+    rdfs:label "Mendelssohn, Kuusisto, Debussy" ;
+    cmo:is-performed-at cmk:tammisaaren-kirkko-20260731T1900 ;
+    schema:hasPart cmk:composition-hebridit-alkusoitto-op-26-fingalin-luola-felix-mendelssohn,
+        cmk:composition-la-mer-claude-debussy,
+        cmk:composition-sellokonsertto-jaakko-kuusisto .
 
 cmk:pianist a cmo:musical-identity .
 
@@ -140,7 +207,25 @@ cmk:soolo-ohjelma-tatu-kauppinen a cmo:Programme ;
 
 cmk:soprano a cmo:musical-identity .
 
+cmk:tammisaaren-vierasvenesatama-20260730T2100 a mo:Performance ;
+    cmo:has-programme cmk:jatkot-laiturilla ;
+    schema:name "Jatkot laiturilla" ;
+    schema:organizer cmk:finnchamber ;
+    schema:startDate "2026-07-30T21:00:00"^^xsd:dateTime .
+
 cmk:violist a cmo:musical-identity .
+
+cmk:bio-forum-20260801T1400 a mo:Performance ;
+    cmo:has-programme cmk:myrskyluodon-maija ;
+    schema:name "Myrskyluodon Maija" ;
+    schema:organizer cmk:finnchamber ;
+    schema:startDate "2026-08-01T14:00:00"^^xsd:dateTime .
+
+cmk:bio-forum-20260802T1400 a mo:Performance ;
+    cmo:has-programme cmk:myrskyluodon-maija ;
+    schema:name "Myrskyluodon Maija" ;
+    schema:organizer cmk:finnchamber ;
+    schema:startDate "2026-08-02T14:00:00"^^xsd:dateTime .
 
 cmk:cellist a cmo:musical-identity .
 
@@ -153,19 +238,36 @@ cmk:chappe-taiteentalo-meren-aarella-20260731T1400 a mo:Performance ;
 cmk:conductor a cmo:musical-identity .
 
 cmk:myrskyluodon-maija a cmo:Programme ;
-    rdfs:label "Myrskyluodon Maija" .
+    rdfs:label "Myrskyluodon Maija" ;
+    cmo:is-performed-at cmk:bio-forum-20260801T1400,
+        cmk:bio-forum-20260802T1400 ;
+    schema:hasPart cmk:composition-hebridit-alkusoitto-op-26-fingalin-luola-felix-mendelssohn,
+        cmk:composition-la-mer-claude-debussy,
+        cmk:composition-sellokonsertto-jaakko-kuusisto .
 
-cmk:tammisaaren-kirkko-20260731T1900 a mo:Performance ;
-    cmo:has-programme cmk:mendelssohn-kuusisto-debussy ;
-    schema:name "Mendelssohn, Kuusisto, Debussy" ;
-    schema:organizer cmk:finnchamber ;
-    schema:startDate "2026-07-31T19:00:00"^^xsd:dateTime .
+cmk:composition-hebridit-alkusoitto-op-26-fingalin-luola-felix-mendelssohn a schema:MusicComposition ;
+    schema:composer cmk:felix-mendelssohn ;
+    schema:name "Hebridit-alkusoitto op. 26 (Fingalin luola)" .
+
+cmk:composition-la-mer-claude-debussy a schema:MusicComposition ;
+    schema:composer cmk:claude-debussy ;
+    schema:name "La mer" .
+
+cmk:composition-sellokonsertto-jaakko-kuusisto a schema:MusicComposition ;
+    schema:composer cmk:jaakko-kuusisto ;
+    schema:name "Sellokonsertto" .
 
 cmk:tammisaaren-kirkko-20260730T1600 a mo:Performance ;
     cmo:has-programme cmk:makupaloja-festivaalin-ohjelmasta ;
     schema:name "Makupaloja festivaalin ohjelmasta" ;
     schema:organizer cmk:finnchamber ;
     schema:startDate "2026-07-30T16:00:00"^^xsd:dateTime .
+
+cmk:tammisaaren-kirkko-20260731T1900 a mo:Performance ;
+    cmo:has-programme cmk:mendelssohn-kuusisto-debussy ;
+    schema:name "Mendelssohn, Kuusisto, Debussy" ;
+    schema:organizer cmk:finnchamber ;
+    schema:startDate "2026-07-31T19:00:00"^^xsd:dateTime .
 
 cmk:violinist a cmo:musical-identity .
 

@@ -7,7 +7,11 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 cmk:400-years-of-the-house-of-nobility-en-saga a cmo:Programme ;
-    rdfs:label "400 Years of the House of Nobility: En saga" .
+    rdfs:label "400 Years of the House of Nobility: En saga" ;
+    cmo:is-performed-at cmk:house-of-nobility-20260917T1900 ;
+    schema:hasPart cmk:composition-clarinet-quartet-in-d-major-op-7-bernhard-crusell,
+        cmk:composition-divertimento-over-a-finnish-melody-bernhard-romberg,
+        cmk:composition-en-saga-jean-sibelius .
 
 cmk:ach-so a cmo:Programme .
 
@@ -24,7 +28,12 @@ cmk:alexei-lubimov a foaf:Person ;
     cmo:plays-in cmk:temppeliaukio-church-20180120T1500 .
 
 cmk:alla-guerra-damor a cmo:Programme ;
-    rdfs:label "Alla guerra d'amor" .
+    rdfs:label "Alla guerra d'amor" ;
+    cmo:is-performed-at cmk:church-of-st-lawrence-20260811T1830 ;
+    schema:hasPart cmk:composition-donna-siam-rei-di-morte-girolamo-frescobaldi,
+        cmk:composition-fantasia-biagio-marini,
+        cmk:composition-io-che-nellotio-nacqui-e-dotio-vissi-claudio-monteverdi,
+        cmk:composition-nisi-dominus-heinrich-biber .
 
 cmk:almi-hall a cmo:ConcertHall,
         cmo:Venue ;
@@ -57,7 +66,9 @@ cmk:antti-tikkanen a foaf:Person ;
         cmk:house-of-nobility-20261025T1800 .
 
 cmk:aria-borealis-final a cmo:Programme ;
-    rdfs:label "Aria Borealis (FINAL)" .
+    rdfs:label "Aria Borealis (FINAL)" ;
+    cmo:is-performed-at cmk:musiikkitalo-concert-hall-20261004T1800 ;
+    schema:hasPart cmk:composition-the-transforming-fire-george-frideric-handel .
 
 cmk:aria-borealis-semifinal a cmo:Programme ;
     rdfs:label "Aria Borealis (SEMIFINAL)" .
@@ -71,7 +82,12 @@ cmk:arttu-kataja a foaf:Person ;
     cmo:sings-in cmk:cathedral-tampere-20180325T1800 .
 
 cmk:bo-carpelan-100-carte-blanche a cmo:Programme ;
-    rdfs:label "Bo Carpelan 100: Carte blanche" .
+    rdfs:label "Bo Carpelan 100: Carte blanche" ;
+    cmo:is-performed-at cmk:house-of-nobility-20261025T1800 ;
+    schema:hasPart cmk:composition-suite-for-violin-and-string-orchestra-op-117-jean-sibelius,
+        cmk:composition-symphony-no-1-wa-mozart,
+        cmk:composition-symphony-no-22-the-philosopher-joseph-haydn,
+        cmk:composition-violin-concerto-in-a-minor-bwv-1041-johann-sebastian-bach .
 
 cmk:cathedral-espoo a cmo:Venue .
 
@@ -91,7 +107,14 @@ cmk:church-of-st-lawrence-vantaa a cmo:Venue ;
 cmk:dancing-queen a cmo:Programme .
 
 cmk:earth-water-air-fire a cmo:Programme ;
-    rdfs:label "Earth, water, air, fire" .
+    rdfs:label "Earth, water, air, fire" ;
+    cmo:is-performed-at cmk:olari-church-20260723T2000 ;
+    schema:hasPart cmk:composition-bassoon-concerto-in-g-major-rv-493-antonio-vivaldi,
+        cmk:composition-orchestral-suite-no-1-in-c-major-bwv-1066-johann-sebastian-bach,
+        cmk:composition-orchestral-suite-no-2-in-b-minor-bwv-1067-johann-sebastian-bach,
+        cmk:composition-violin-concerto-in-d-major-st-antonio-rv-212-antonio-vivaldi,
+        cmk:composition-violin-concerto-no-2-in-e-major-bwv-1042-johann-sebastian-bach,
+        cmk:composition-water-music-hamburger-ebb-und-fluth-twv-55c3-georg-philipp-telemann .
 
 cmk:eero-palviainen a foaf:Person ;
     foaf:familyName "Palviainen" ;
@@ -455,6 +478,17 @@ cmk:petri-ainali a foaf:Person ;
 
 cmk:prinzregententheater-munich a cmo:Venue .
 
+cmk:programme-cathedral-espoo-20180322T1900 a cmo:Programme ;
+    rdfs:label "St. John Passion" ;
+    cmo:is-performed-at cmk:cathedral-espoo-20180322T1900,
+        cmk:cathedral-tampere-20180325T1800 ;
+    schema:hasPart cmk:composition-st-john-passion-johann-sebastian-bach .
+
+cmk:programme-turku-cathedral-20180210T1900 a cmo:Programme ;
+    rdfs:label "Vergnügte Ruh, beliebte Seelenlust" ;
+    cmo:is-performed-at cmk:turku-cathedral-20180210T1900 ;
+    schema:hasPart cmk:composition-vergnügte-ruh-beliebte-seelenlust-johann-hermann-schein .
+
 cmk:riku-laurikka a foaf:Person ;
     foaf:familyName "Laurikka" ;
     foaf:firstName "Riku" ;
@@ -479,7 +513,12 @@ cmk:sofia-majanen a foaf:Person ;
         cmk:jarvenpaa-talo-20261209T1900 .
 
 cmk:soulmaidens a cmo:Programme ;
-    rdfs:label "Soulmaidens" .
+    rdfs:label "Soulmaidens" ;
+    cmo:is-performed-at cmk:almi-hall-20261008T1830,
+        cmk:almi-hall-20261009T1830,
+        cmk:almi-hall-20261010T1430 ;
+    schema:hasPart cmk:composition-il-ballo-delle-ingrate-claudio-monteverdi,
+        cmk:composition-larianna-claudio-monteverdi .
 
 cmk:st-henrys-church-pyhtaa a cmo:Venue .
 
@@ -518,7 +557,14 @@ cmk:teppo-lampela a foaf:Person ;
     cmo:sings-in cmk:cathedral-espoo-20180322T1900 .
 
 cmk:the-heart-of-the-baroque a cmo:Programme ;
-    rdfs:label "The Heart of the Baroque" .
+    rdfs:label "The Heart of the Baroque" ;
+    cmo:is-performed-at cmk:jarvenpaa-church-20260811T1900,
+        cmk:musiikkitalo-patio-20260530T1700 ;
+    schema:hasPart cmk:composition-burlesque-de-quixotte-georg-philipp-telemann,
+        cmk:composition-concerto-in-c-major-rv-114-antonio-vivaldi,
+        cmk:composition-concerto-in-g-minor-rv-156-antonio-vivaldi,
+        cmk:composition-orchestral-suite-no-1-in-c-major-bwv-1066-johann-sebastian-bach,
+        cmk:composition-symphony-a-cinque-in-b-flat-tomaso-albinoni .
 
 cmk:tiina-penttinen a foaf:Person ;
     foaf:familyName "Penttinen" ;
@@ -569,6 +615,146 @@ cmk:clarinetist a cmo:musical-identity .
 
 cmk:coloratura-soprano a cmo:musical-identity .
 
+cmk:composition-bassoon-concerto-in-g-major-rv-493-antonio-vivaldi a schema:MusicComposition ;
+    schema:composer cmk:antonio-vivaldi ;
+    schema:name "Bassoon Concerto in G major, RV 493" .
+
+cmk:composition-burlesque-de-quixotte-georg-philipp-telemann a schema:MusicComposition ;
+    schema:composer cmk:georg-philipp-telemann ;
+    schema:name "Burlesque de Quixotte" .
+
+cmk:composition-clarinet-quartet-in-d-major-op-7-bernhard-crusell a schema:MusicComposition ;
+    schema:composer cmk:bernhard-crusell ;
+    schema:dateCreated "1823"^^xsd:gYear ;
+    schema:name "Clarinet Quartet in D major Op. 7" .
+
+cmk:composition-concerto-in-c-major-rv-114-antonio-vivaldi a schema:MusicComposition ;
+    schema:composer cmk:antonio-vivaldi ;
+    schema:name "Concerto in C major (RV 114)" .
+
+cmk:composition-concerto-in-g-minor-rv-156-antonio-vivaldi a schema:MusicComposition ;
+    schema:composer cmk:antonio-vivaldi ;
+    schema:name "Concerto in G minor (RV 156)" .
+
+cmk:composition-credo-in-d-minor-jan-dismas-zelenka a schema:MusicComposition ;
+    schema:composer cmk:jan-dismas-zelenka ;
+    schema:dateCreated "1740"^^xsd:gYear ;
+    schema:name "Credo in D minor" .
+
+cmk:composition-die-hirten-an-der-krippe-zu-bethlehem-the-shepherds-at-the-georg-philipp-telemann a schema:MusicComposition ;
+    schema:composer cmk:georg-philipp-telemann ;
+    schema:dateCreated "1759"^^xsd:gYear ;
+    schema:name "Die Hirten an der Krippe zu Bethlehem (The Shepherds at the Manger in Bethlehem)" .
+
+cmk:composition-divertimento-over-a-finnish-melody-bernhard-romberg a schema:MusicComposition ;
+    schema:composer cmk:bernhard-romberg ;
+    schema:dateCreated "1817"^^xsd:gYear ;
+    schema:name "Divertimento over a Finnish melody" .
+
+cmk:composition-donna-siam-rei-di-morte-girolamo-frescobaldi a schema:MusicComposition ;
+    schema:composer cmk:girolamo-frescobaldi ;
+    schema:name "Donna siam rei di morte" .
+
+cmk:composition-en-saga-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:dateCreated "1891"^^xsd:gYear ;
+    schema:name "En saga" .
+
+cmk:composition-fantasia-biagio-marini a schema:MusicComposition ;
+    schema:composer cmk:biagio-marini ;
+    schema:name "Fantasia" .
+
+cmk:composition-il-ballo-delle-ingrate-claudio-monteverdi a schema:MusicComposition ;
+    schema:composer cmk:claudio-monteverdi ;
+    schema:dateCreated "1608"^^xsd:gYear ;
+    schema:name "Il ballo delle ingrate" .
+
+cmk:composition-il-riposo-per-il-santissimo-natale-antonio-vivaldi a schema:MusicComposition ;
+    schema:composer cmk:antonio-vivaldi ;
+    schema:name "Il riposo, per il Santissimo Natale" .
+
+cmk:composition-io-che-nellotio-nacqui-e-dotio-vissi-claudio-monteverdi a schema:MusicComposition ;
+    schema:composer cmk:claudio-monteverdi ;
+    schema:name "Io che nell'otio nacqui e d'otio vissi" .
+
+cmk:composition-larianna-claudio-monteverdi a schema:MusicComposition ;
+    schema:composer cmk:claudio-monteverdi ;
+    schema:dateCreated "1608"^^xsd:gYear ;
+    schema:name "L'Arianna" .
+
+cmk:composition-nisi-dominus-heinrich-biber a schema:MusicComposition ;
+    schema:composer cmk:heinrich-biber ;
+    schema:name "Nisi Dominus" .
+
+cmk:composition-orchestral-suite-no-2-in-b-minor-bwv-1067-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Orchestral Suite No. 2 in B minor, BWV 1067" .
+
+cmk:composition-orchestral-suite-no-3-in-d-major-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Orchestral Suite No 3 in D major" .
+
+cmk:composition-pastorale-per-la-notte-di-natale-johann-david-heinichen a schema:MusicComposition ;
+    schema:composer cmk:johann-david-heinichen ;
+    schema:name "Pastorale per la Notte di Natale" .
+
+cmk:composition-prayer-arvo-pärt a schema:MusicComposition ;
+    schema:composer cmk:arvo-pärt ;
+    schema:name "Prayer" .
+
+cmk:composition-requiem-wa-mozart a schema:MusicComposition ;
+    schema:composer cmk:wa-mozart ;
+    schema:name "Requiem" .
+
+cmk:composition-st-john-passion-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "St. John Passion" .
+
+cmk:composition-suite-for-violin-and-string-orchestra-op-117-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:dateCreated "1929"^^xsd:gYear ;
+    schema:name "Suite for violin and string orchestra, op. 117" .
+
+cmk:composition-symphony-a-cinque-in-b-flat-tomaso-albinoni a schema:MusicComposition ;
+    schema:composer cmk:tomaso-albinoni ;
+    schema:dateCreated "1700"^^xsd:gYear ;
+    schema:name "Symphony a cinque in B-flat" .
+
+cmk:composition-symphony-no-1-wa-mozart a schema:MusicComposition ;
+    schema:composer cmk:wa-mozart ;
+    schema:dateCreated "1764"^^xsd:gYear ;
+    schema:name "Symphony No. 1" .
+
+cmk:composition-symphony-no-22-the-philosopher-joseph-haydn a schema:MusicComposition ;
+    schema:composer cmk:joseph-haydn ;
+    schema:dateCreated "1764"^^xsd:gYear ;
+    schema:name "Symphony No. 22 'The Philosopher'" .
+
+cmk:composition-the-transforming-fire-george-frideric-handel a schema:MusicComposition ;
+    schema:composer cmk:george-frideric-handel ;
+    schema:name "The Transforming Fire" .
+
+cmk:composition-vergnügte-ruh-beliebte-seelenlust-johann-hermann-schein a schema:MusicComposition ;
+    schema:composer cmk:johann-hermann-schein ;
+    schema:name "Vergnügte Ruh, beliebte Seelenlust" .
+
+cmk:composition-violin-concerto-in-a-minor-bwv-1041-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Violin Concerto in A minor, BWV 1041" .
+
+cmk:composition-violin-concerto-in-d-major-st-antonio-rv-212-antonio-vivaldi a schema:MusicComposition ;
+    schema:composer cmk:antonio-vivaldi ;
+    schema:name "Violin Concerto in D major, \"St. Antonio\", RV 212" .
+
+cmk:composition-violin-concerto-no-2-in-e-major-bwv-1042-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Violin Concerto No. 2 in E major, BWV 1042" .
+
+cmk:composition-water-music-hamburger-ebb-und-fluth-twv-55c3-georg-philipp-telemann a schema:MusicComposition ;
+    schema:composer cmk:georg-philipp-telemann ;
+    schema:dateCreated "1732"^^xsd:gYear ;
+    schema:name "Water Music (Hamburger Ebb und Fluth), TWV 55:C3" .
+
 cmk:countertenor a cmo:musical-identity .
 
 cmk:double-bassist a cmo:musical-identity .
@@ -578,21 +764,9 @@ cmk:flutist a cmo:musical-identity .
 cmk:harpsichordist a cmo:instrumentalist-identity,
         cmo:musical-identity .
 
-cmk:jarvenpaa-church-20260811T1900 a mo:Performance ;
-    schema:name "The Heart of the Baroque" ;
-    schema:organizer cmk:fibo ;
-    schema:startDate "2026-08-11T19:00:00"^^xsd:dateTime ;
-    schema:url "https://fibo.fi/en/concerts/2026/the-heart-of-the-baroque/"^^xsd:anyURI .
-
 cmk:lutenist a cmo:musical-identity .
 
 cmk:mezzo-soprano a cmo:musical-identity .
-
-cmk:musiikkitalo-patio-20260530T1700 a mo:Performance ;
-    schema:name "The Heart of the Baroque" ;
-    schema:organizer cmk:fibo ;
-    schema:startDate "2026-05-30T17:00:00"^^xsd:dateTime ;
-    schema:url "https://fibo.fi/en/concerts/2026/the-heart-of-the-baroque/"^^xsd:anyURI .
 
 cmk:recorder-traverso a cmo:instrumentalist-identity,
         cmo:musical-identity .
@@ -604,12 +778,6 @@ cmk:traverso a cmo:instrumentalist-identity,
 
 cmk:traverso-player a cmo:musical-identity .
 
-cmk:turku-cathedral-20180210T1900 a mo:Performance ;
-    schema:name "Vergnügte Ruh, beliebte Seelenlust" ;
-    schema:organizer cmk:fibo ;
-    schema:startDate "2018-02-10T19:00:00"^^xsd:dateTime ;
-    schema:url "https://fibo.fi/en/concerts/earlier-years/"^^xsd:anyURI .
-
 cmk:violist a cmo:musical-identity .
 
 cmk:bass-baritone a cmo:musical-identity .
@@ -617,29 +785,57 @@ cmk:bass-baritone a cmo:musical-identity .
 cmk:cellist a cmo:instrumentalist-identity,
         cmo:musical-identity .
 
-cmk:church-of-st-lawrence-20260811T1830 a mo:Performance ;
-    schema:name "Alla guerra d'amor" ;
-    schema:organizer cmk:fibo ;
-    schema:startDate "2026-08-11T18:30:00"^^xsd:dateTime ;
-    schema:url "https://fibo.fi/en/concerts/2026/alla-guerra-damor/"^^xsd:anyURI .
+cmk:composition-orchestral-suite-no-1-in-c-major-bwv-1066-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Orchestral Suite No. 1 in C major (BWV 1066)" .
 
 cmk:fortepiano a cmo:instrumentalist-identity,
         cmo:musical-identity .
 
 cmk:from-christmas-night-to-celebration a cmo:Programme ;
-    rdfs:label "From Christmas Night to Celebration" .
+    rdfs:label "From Christmas Night to Celebration" ;
+    cmo:is-performed-at cmk:house-of-nobility-helsinki-20261212T1800,
+        cmk:jarvenpaa-talo-20261209T1900 ;
+    schema:hasPart cmk:composition-die-hirten-an-der-krippe-zu-bethlehem-the-shepherds-at-the-georg-philipp-telemann,
+        cmk:composition-il-riposo-per-il-santissimo-natale-antonio-vivaldi,
+        cmk:composition-orchestral-suite-no-3-in-d-major-johann-sebastian-bach,
+        cmk:composition-pastorale-per-la-notte-di-natale-johann-david-heinichen .
 
-cmk:house-of-nobility-20261025T1800 a mo:Performance ;
-    schema:name "Bo Carpelan 100: Carte blanche" ;
+cmk:jarvenpaa-church-20260811T1900 a mo:Performance ;
+    schema:name "The Heart of the Baroque" ;
     schema:organizer cmk:fibo ;
-    schema:startDate "2026-10-25T18:00:00"^^xsd:dateTime ;
-    schema:url "https://fibo.fi/en/concerts/2026/bo-carpelan-100-carte-blanche/"^^xsd:anyURI .
+    schema:startDate "2026-08-11T19:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/the-heart-of-the-baroque/"^^xsd:anyURI .
+
+cmk:musiikkitalo-patio-20260530T1700 a mo:Performance ;
+    schema:name "The Heart of the Baroque" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2026-05-30T17:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/the-heart-of-the-baroque/"^^xsd:anyURI .
 
 cmk:temppeliaukio-church-20180120T1500 a mo:Performance ;
     schema:name "Zeitgeist" ;
     schema:organizer cmk:fibo ;
     schema:startDate "2018-01-20T15:00:00"^^xsd:dateTime ;
     schema:url "https://fibo.fi/en/concerts/earlier-years/"^^xsd:anyURI .
+
+cmk:turku-cathedral-20180210T1900 a mo:Performance ;
+    schema:name "Vergnügte Ruh, beliebte Seelenlust" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2018-02-10T19:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/earlier-years/"^^xsd:anyURI .
+
+cmk:church-of-st-lawrence-20260811T1830 a mo:Performance ;
+    schema:name "Alla guerra d'amor" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2026-08-11T18:30:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/alla-guerra-damor/"^^xsd:anyURI .
+
+cmk:house-of-nobility-20261025T1800 a mo:Performance ;
+    schema:name "Bo Carpelan 100: Carte blanche" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2026-10-25T18:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/bo-carpelan-100-carte-blanche/"^^xsd:anyURI .
 
 cmk:musiikkitalo-patio-20260718T1700 a mo:Performance ;
     schema:name "On the Battlefield of Love" ;
@@ -669,6 +865,8 @@ cmk:church-of-st-lawrence-vantaa-20261122T1900 a mo:Performance ;
     schema:startDate "2026-11-22T19:00:00"^^xsd:dateTime ;
     schema:url "https://fibo.fi/en/concerts/2026/requiem/"^^xsd:anyURI .
 
+cmk:conductor a cmo:musical-identity .
+
 cmk:hattula-church-20261120T1900 a mo:Performance ;
     cmo:has-programme cmk:requiem ;
     schema:name "Requiem" ;
@@ -696,15 +894,6 @@ cmk:olari-church-20260723T2000 a mo:Performance ;
     schema:startDate "2026-07-23T20:00:00"^^xsd:dateTime ;
     schema:url "https://fibo.fi/en/concerts/2026/earth-wind-water-and-fire/"^^xsd:anyURI .
 
-cmk:varkaus-main-church-20261117T1900 a mo:Performance ;
-    cmo:has-programme cmk:requiem ;
-    schema:name "Requiem" ;
-    schema:organizer cmk:fibo ;
-    schema:startDate "2026-11-17T19:00:00"^^xsd:dateTime ;
-    schema:url "https://fibo.fi/en/concerts/2026/requiem/"^^xsd:anyURI .
-
-cmk:conductor a cmo:musical-identity .
-
 cmk:prinzregententheater-munich-20180311T2000 a mo:Performance ;
     schema:name "Dancing Queen" ;
     schema:organizer cmk:fibo ;
@@ -712,7 +901,26 @@ cmk:prinzregententheater-munich-20180311T2000 a mo:Performance ;
     schema:url "https://fibo.fi/en/concerts/earlier-years/"^^xsd:anyURI .
 
 cmk:requiem a cmo:Programme ;
-    rdfs:label "Requiem" .
+    rdfs:label "Requiem" ;
+    cmo:is-performed-at cmk:church-of-st-lawrence-vantaa-20261122T1900,
+        cmk:hattula-church-20261120T1900,
+        cmk:kajaani-church-20261118T1900,
+        cmk:kirkkonummi-church-20261121T1900,
+        cmk:varkaus-main-church-20261117T1900 ;
+    schema:hasPart cmk:composition-credo-in-d-minor-jan-dismas-zelenka,
+        cmk:composition-prayer-arvo-pärt,
+        cmk:composition-requiem-wa-mozart .
+
+cmk:varkaus-main-church-20261117T1900 a mo:Performance ;
+    cmo:has-programme cmk:requiem ;
+    schema:name "Requiem" ;
+    schema:organizer cmk:fibo ;
+    schema:startDate "2026-11-17T19:00:00"^^xsd:dateTime ;
+    schema:url "https://fibo.fi/en/concerts/2026/requiem/"^^xsd:anyURI .
+
+cmk:alto a cmo:musical-identity .
+
+cmk:bass a cmo:musical-identity .
 
 cmk:almi-hall-20261008T1830 a mo:Performance ;
     schema:name "Soulmaidens" ;
@@ -731,10 +939,6 @@ cmk:almi-hall-20261010T1430 a mo:Performance ;
     schema:organizer cmk:fibo ;
     schema:startDate "2026-10-10T14:30:00"^^xsd:dateTime ;
     schema:url "https://fibo.fi/en/concerts/2026/soulmaidens/"^^xsd:anyURI .
-
-cmk:alto a cmo:musical-identity .
-
-cmk:bass a cmo:musical-identity .
 
 cmk:cathedral-espoo-20180322T1900 a mo:Performance ;
     schema:name "St. John Passion" ;
@@ -762,6 +966,8 @@ cmk:musiikkitalo-hall-paavo-20261002T1830 a mo:Performance ;
 
 cmk:tenor a cmo:musical-identity .
 
+cmk:soprano a cmo:musical-identity .
+
 cmk:house-of-nobility-helsinki-20261212T1800 a mo:Performance ;
     cmo:has-programme cmk:from-christmas-night-to-celebration ;
     schema:name "From Christmas Night to Celebration" ;
@@ -775,8 +981,6 @@ cmk:jarvenpaa-talo-20261209T1900 a mo:Performance ;
     schema:organizer cmk:fibo ;
     schema:startDate "2026-12-09T19:00:00"^^xsd:dateTime ;
     schema:url "https://fibo.fi/en/concerts/2026/from-christmas-night-to-celebration/"^^xsd:anyURI .
-
-cmk:soprano a cmo:musical-identity .
 
 cmk:musiikkitalo-concert-hall-20261004T1800 a mo:Performance ;
     schema:name "Aria Borealis (FINAL)" ;

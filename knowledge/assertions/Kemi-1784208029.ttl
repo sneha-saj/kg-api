@@ -1,0 +1,549 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmk:aineen-taidemuseo a cmo:Venue ;
+    rdfs:label "Aineen taidemuseo, Tornio" .
+
+cmk:aki-alamikkotervo a foaf:Person ;
+    foaf:familyName "Alamikkotervo" ;
+    foaf:firstName "Aki" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:kemin-kirkko-20250910T1900 .
+
+cmk:anna-maria-jurvelin a foaf:Person ;
+    foaf:familyName "Jurvelin" ;
+    foaf:firstName "Anna-Maria" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:kemin-kirkko-20260329T1800 .
+
+cmk:elokuinen-musiikki-ilta a cmo:Programme ;
+    rdfs:label "Elokuinen musiikki-ilta" ;
+    cmo:is-performed-at cmk:karungin-kirkko-20250830T1800 ;
+    schema:hasPart cmk:composition-die-kunst-der-fuge-osia-contrapunctus-i-ix-ja-x-johann-sebastian-bach,
+        cmk:composition-jousikvartetto-no-3-op-19-aspekteja-peltoniemen-hintrik-aulis-sallinen,
+        cmk:composition-summa-arvo-pärt .
+
+cmk:four-for-tango a cmo:Programme ;
+    rdfs:label "Four, for tango" ;
+    cmo:is-performed-at cmk:aineen-taidemuseo-20250927T1400,
+        cmk:kemin-taidemuseo-20250926T1800,
+        cmk:paanukirkko-20250923T1800,
+        cmk:simon-kirjasto-20250924T1800,
+        cmk:tervolan-nuorisoseurantalo-20250925T1800 ;
+    schema:hasPart cmk:composition-ave-maria-astor-piazzolla,
+        cmk:composition-chador-astor-piazzolla,
+        cmk:composition-chant-et-fugue-astor-piazzolla,
+        cmk:composition-four-for-tango-astor-piazzolla,
+        cmk:composition-libertango-astor-piazzolla,
+        cmk:composition-oblivion-astor-piazzolla,
+        cmk:composition-quartet-1-heitor-villa-lobos,
+        cmk:composition-tango-ballet-astor-piazzolla .
+
+cmk:ida-elina a foaf:Person ;
+    foaf:familyName "Elina" ;
+    foaf:firstName "Ida" ;
+    cmo:known-as-a cmk:ensemble ;
+    cmo:performs-in cmk:kemin-kulttuurikeskus-20250920T1600,
+        cmk:lappia-musiikkitalo-20250919T1800 .
+
+cmk:ida-elina-kaikuja-kalevalasta a cmo:Programme ;
+    rdfs:label "Ida Elina – Kaikuja Kalevalasta" .
+
+cmk:janne-hovi a foaf:Person ;
+    foaf:familyName "Hovi" ;
+    foaf:firstName "Janne" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:kemin-kirkko-20260508T1800 .
+
+cmk:jari-haekkinen a foaf:Person ;
+    foaf:familyName "Häkkinen" ;
+    foaf:firstName "Jari" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:kemin-kirkko-20250910T1900 .
+
+cmk:joentalo a cmo:Venue ;
+    rdfs:label "Joentalo, Tornio" .
+
+cmk:juhana-inkinen a foaf:Person ;
+    foaf:familyName "Inkinen" ;
+    foaf:firstName "Juhana" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:karungin-kirkko-20250830T1800 .
+
+cmk:jyrki-anttila a foaf:Person ;
+    foaf:familyName "Anttila" ;
+    foaf:firstName "Jyrki" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:kemin-kirkko-20260508T1800 .
+
+cmk:jyrki-anttila-60v-juhlakonsertti a cmo:Programme ;
+    rdfs:label "Jyrki Anttila 60 v Juhlakonsertti" .
+
+cmk:kari-tikkala a foaf:Person ;
+    foaf:familyName "Tikkala" ;
+    foaf:firstName "Kari" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:joentalo-20251003T1900,
+        cmk:kemin-taidemuseo-20251004T1600 .
+
+cmk:karungin-kirkko a cmo:Venue ;
+    rdfs:label "Karungin kirkko" .
+
+cmk:keisarinnan-hovissa a cmo:Programme ;
+    rdfs:label "Keisarinnan hovissa" .
+
+cmk:kemin-kirkko a cmo:ConcertHall ;
+    rdfs:label "Kemin kirkko" .
+
+cmk:kemin-kulttuurikeskus a cmo:Venue ;
+    rdfs:label "Kemin kulttuurikeskus" .
+
+cmk:kemin-taidemuseo a cmo:Venue ;
+    rdfs:label "Kemin taidemuseo" .
+
+cmk:kohtaamisia-ajassa a cmo:Programme ;
+    rdfs:label "Kohtaamisia ajassa" ;
+    cmo:is-performed-at cmk:joentalo-20251003T1900,
+        cmk:kemin-taidemuseo-20251004T1600 ;
+    schema:hasPart cmk:composition-aikojen-lopun-kvartetto-olivier-messiaen,
+        cmk:composition-kvartetto-klarinetille-ja-jousille-bernhard-crusell,
+        cmk:composition-play-jaakko-kuusisto .
+
+cmk:kristian-heberg a foaf:Person ;
+    foaf:familyName "Heberg" ;
+    foaf:firstName "Kristian" ;
+    cmo:conducts-in cmk:kemin-kirkko-20260329T1800 ;
+    cmo:known-as-a cmk:conductor .
+
+cmk:lappia-musiikkitalo a cmo:Venue ;
+    rdfs:label "Lappia musiikkitalo" .
+
+cmk:leena-ylipiessa a foaf:Person ;
+    foaf:familyName "Ylipiessa" ;
+    foaf:firstName "Leena" ;
+    cmo:known-as-a cmk:soprano ;
+    cmo:sings-in cmk:kemin-kirkko-20250910T1900 .
+
+cmk:matti-adolfsen a foaf:Person ;
+    foaf:familyName "Adolfsen" ;
+    foaf:firstName "Matti" ;
+    cmo:known-as-a cmk:tenor ;
+    cmo:sings-in cmk:kemin-kirkko-20250910T1900 .
+
+cmk:meri-lapin-jousikvartetti a foaf:Person ;
+    foaf:familyName "Jousikvartetti" ;
+    foaf:firstName "Meri-Lapin" ;
+    cmo:known-as-a cmk:ensemble ;
+    cmo:performs-in cmk:aineen-taidemuseo-20250927T1400,
+        cmk:aineen-taidemuseo-20260129T1800,
+        cmk:aineen-taidemuseo-20260222T1400,
+        cmk:aineen-taidemuseo-20260416T1800,
+        cmk:joentalo-20251003T1900,
+        cmk:karungin-kirkko-20250830T1800,
+        cmk:kemin-kirkko-20250910T1900,
+        cmk:kemin-kirkko-20260508T1800,
+        cmk:kemin-kulttuurikeskus-20250920T1600,
+        cmk:kemin-taidemuseo-20250926T1800,
+        cmk:kemin-taidemuseo-20251004T1600,
+        cmk:kemin-taidemuseo-20260130T1800,
+        cmk:kemin-taidemuseo-20260221T1500,
+        cmk:kemin-taidemuseo-20260411T1500,
+        cmk:kemin-taidemuseo-20260425T1500,
+        cmk:lappia-musiikkitalo-20250919T1800,
+        cmk:paanukirkko-20250923T1800,
+        cmk:paanukirkko-20260205T1800,
+        cmk:paanukirkko-20260415T1800,
+        cmk:simon-kirjasto-20250924T1800,
+        cmk:tervolan-nuorisoseurantalo-20250925T1800,
+        cmk:tervolan-nuorisoseurantalo-20260206T1800,
+        cmk:tervolan-nuorisoseurantalo-20260417T1800,
+        cmk:toivon-tupa-20260204T1800,
+        cmk:toivon-tupa-20260410T1800 .
+
+cmk:mikko-raasakka a foaf:Person ;
+    foaf:familyName "Raasakka" ;
+    foaf:firstName "Mikko" ;
+    cmo:known-as-a cmk:clarinetist ;
+    cmo:plays-in cmk:joentalo-20251003T1900,
+        cmk:kemin-taidemuseo-20251004T1600 .
+
+cmk:mikko-sorri a foaf:Person ;
+    foaf:familyName "Sorri" ;
+    foaf:firstName "Mikko" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:kemin-kirkko-20250910T1900 .
+
+cmk:niko-maenalanen a foaf:Person ;
+    foaf:familyName "Mäenalanen" ;
+    foaf:firstName "Niko" ;
+    cmo:known-as-a cmk:pianist ;
+    cmo:plays-in cmk:kemin-kirkko-20250910T1900 .
+
+cmk:olli-pekka-kajasviita a foaf:Person ;
+    foaf:familyName "Kajasviita" ;
+    foaf:firstName "Olli-Pekka" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:kemin-kirkko-20250910T1900 .
+
+cmk:osmo-palmu a foaf:Person ;
+    foaf:familyName "Palmu" ;
+    foaf:firstName "Osmo" ;
+    cmo:known-as-a cmk:guitarist ;
+    cmo:performs-in cmk:aineen-taidemuseo-20260222T1400,
+        cmk:kemin-taidemuseo-20260221T1500 .
+
+cmk:paanukirkko a cmo:Venue ;
+    rdfs:label "Paanukirkko, Keminmaa" .
+
+cmk:paivi-vaara a foaf:Person ;
+    foaf:familyName "Vaara" ;
+    foaf:firstName "Päivi" ;
+    cmo:known-as-a cmk:alto ;
+    cmo:sings-in cmk:kemin-kirkko-20260329T1800 .
+
+cmk:pergolesi-stabat-mater a cmo:Programme ;
+    rdfs:label "Pergolesi: Stabat Mater" .
+
+cmk:petra-keinanen a foaf:Person ;
+    foaf:familyName "Keinänen" ;
+    foaf:firstName "Petra" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:karungin-kirkko-20250830T1800 .
+
+cmk:pietari-willey a foaf:Person ;
+    foaf:familyName "Willey" ;
+    foaf:firstName "Pietari" ;
+    cmo:known-as-a cmk:cellist ;
+    cmo:plays-in cmk:karungin-kirkko-20250830T1800 .
+
+cmk:risto-nordell a foaf:Person ;
+    foaf:familyName "Nordell" ;
+    foaf:firstName "Risto" ;
+    cmo:known-as-a cmk:narrator ;
+    cmo:narrates-in cmk:karungin-kirkko-20250830T1800 .
+
+cmk:sami-junnonen a foaf:Person ;
+    foaf:familyName "Junnonen" ;
+    foaf:firstName "Sami" ;
+    cmo:known-as-a cmk:flutist ;
+    cmo:plays-in cmk:kemin-kirkko-20250910T1900 .
+
+cmk:serioso a cmo:Programme ;
+    rdfs:label "Serioso" ;
+    cmo:is-performed-at cmk:aineen-taidemuseo-20260416T1800,
+        cmk:kemin-taidemuseo-20260411T1500,
+        cmk:paanukirkko-20260415T1800,
+        cmk:tervolan-nuorisoseurantalo-20260417T1800,
+        cmk:toivon-tupa-20260410T1800 ;
+    schema:hasPart cmk:composition-jousikvartetto-d-molli-no-14-tyttö-ja-kuolema-franz-schubert,
+        cmk:composition-jousikvartetto-f-molli-no-11-op-95-serioso-ludwig-van-beethoven .
+
+cmk:sevillana-iltapaeivae-espanjan-vaereissae a cmo:Programme ;
+    rdfs:label "Sevillana – Iltapäivä Espanjan väreissä" .
+
+cmk:simon-kirjasto a cmo:Venue ;
+    rdfs:label "Simon kirjasto" .
+
+cmk:suomalainen-ilta a cmo:Programme ;
+    rdfs:label "Suomalainen ilta" ;
+    cmo:is-performed-at cmk:aineen-taidemuseo-20260129T1800,
+        cmk:kemin-taidemuseo-20260130T1800,
+        cmk:paanukirkko-20260205T1800,
+        cmk:tervolan-nuorisoseurantalo-20260206T1800,
+        cmk:toivon-tupa-20260204T1800 ;
+    schema:hasPart cmk:composition-jousikvartetto-b-duuri-op-4-jean-sibelius,
+        cmk:composition-jousikvartetto-no-1-quartettino-einojuhani-rautavaara,
+        cmk:composition-jousikvartetto-no-3-aspekteja-peltoniemen-hintriikin-surum-aulis-sallinen .
+
+cmk:teija-haekkinen a foaf:Person ;
+    foaf:familyName "Häkkinen" ;
+    foaf:firstName "Teija" ;
+    cmo:known-as-a cmk:violinist ;
+    cmo:plays-in cmk:kemin-kirkko-20250910T1900 .
+
+cmk:tervolan-nuorisoseurantalo a cmo:Venue ;
+    rdfs:label "Tervolan Nuorisoseurantalo" .
+
+cmk:timo-kakko a foaf:Person ;
+    foaf:familyName "Kakko" ;
+    foaf:firstName "Timo" ;
+    cmo:known-as-a cmk:bass ;
+    cmo:plays-in cmk:kemin-kirkko-20250910T1900 .
+
+cmk:toivon-tupa a cmo:Venue ;
+    rdfs:label "Toivon tupa, Simo" .
+
+cmk:venla-maentyranta a foaf:Person ;
+    foaf:familyName "Mäntyranta" ;
+    foaf:firstName "Venla" ;
+    cmo:known-as-a cmk:horn-player ;
+    cmo:plays-in cmk:kemin-kirkko-20250910T1900 .
+
+cmk:ville-mankkinen a foaf:Person ;
+    foaf:familyName "Mankkinen" ;
+    foaf:firstName "Ville" ;
+    cmo:known-as-a cmk:choir-conductor,
+        cmk:violinist ;
+    cmo:plays-in cmk:kemin-kirkko-20250910T1900 .
+
+cmk:virpi-raeisaenen a foaf:Person ;
+    foaf:familyName "Räisänen" ;
+    foaf:firstName "Virpi" ;
+    cmo:known-as-a cmk:mezzo-soprano ;
+    cmo:sings-in cmk:kemin-kirkko-20250910T1900 .
+
+cmk:weronika-skowronska a foaf:Person ;
+    foaf:familyName "Skowronska" ;
+    foaf:firstName "Weronika" ;
+    cmo:known-as-a cmk:violist ;
+    cmo:plays-in cmk:karungin-kirkko-20250830T1800 .
+
+cmk:ystaevaen-ja-yhteistyoekumppanin-muistolle a cmo:Programme ;
+    rdfs:label "Ystävän ja yhteistyökumppanin muistolle – Esajuha Posti 1960-2024" ;
+    cmo:is-performed-at cmk:kemin-kirkko-20250910T1900 .
+
+cmk:alto a cmo:musical-identity .
+
+cmk:bass a cmo:musical-identity .
+
+cmk:choir-conductor a cmo:musical-identity .
+
+cmk:clarinetist a cmo:musical-identity .
+
+cmk:composition-aikojen-lopun-kvartetto-olivier-messiaen a schema:MusicComposition ;
+    schema:composer cmk:olivier-messiaen ;
+    schema:name "Aikojen lopun kvartetto" .
+
+cmk:composition-ave-maria-astor-piazzolla a schema:MusicComposition ;
+    schema:composer cmk:astor-piazzolla ;
+    schema:name "Ave Maria" .
+
+cmk:composition-chador-astor-piazzolla a schema:MusicComposition ;
+    schema:composer cmk:astor-piazzolla ;
+    schema:name "Chador" .
+
+cmk:composition-chant-et-fugue-astor-piazzolla a schema:MusicComposition ;
+    schema:composer cmk:astor-piazzolla ;
+    schema:name "Chant et fugue" .
+
+cmk:composition-die-kunst-der-fuge-osia-contrapunctus-i-ix-ja-x-johann-sebastian-bach a schema:MusicComposition ;
+    schema:composer cmk:johann-sebastian-bach ;
+    schema:name "Die Kunst der Fuge (osia: Contrapunctus I, IX ja X)" .
+
+cmk:composition-four-for-tango-astor-piazzolla a schema:MusicComposition ;
+    schema:composer cmk:astor-piazzolla ;
+    schema:name "Four for Tango" .
+
+cmk:composition-jousikvartetto-b-duuri-op-4-jean-sibelius a schema:MusicComposition ;
+    schema:composer cmk:jean-sibelius ;
+    schema:name "Jousikvartetto, B-duuri op. 4" .
+
+cmk:composition-jousikvartetto-d-molli-no-14-tyttö-ja-kuolema-franz-schubert a schema:MusicComposition ;
+    schema:composer cmk:franz-schubert ;
+    schema:name "Jousikvartetto d-molli no. 14 \"Tyttö ja kuolema\"" .
+
+cmk:composition-jousikvartetto-f-molli-no-11-op-95-serioso-ludwig-van-beethoven a schema:MusicComposition ;
+    schema:composer cmk:ludwig-van-beethoven ;
+    schema:name "Jousikvartetto f-molli no. 11 Op. 95 \"Serioso\"" .
+
+cmk:composition-jousikvartetto-no-1-quartettino-einojuhani-rautavaara a schema:MusicComposition ;
+    schema:composer cmk:einojuhani-rautavaara ;
+    schema:name "Jousikvartetto no 1. \"Quartettino\"" .
+
+cmk:composition-jousikvartetto-no-3-aspekteja-peltoniemen-hintriikin-surum-aulis-sallinen a schema:MusicComposition ;
+    schema:composer cmk:aulis-sallinen ;
+    schema:name "Jousikvartetto no. 3 \"Aspekteja Peltoniemen Hintriikin surumarssista\"" .
+
+cmk:composition-jousikvartetto-no-3-op-19-aspekteja-peltoniemen-hintrik-aulis-sallinen a schema:MusicComposition ;
+    schema:composer cmk:aulis-sallinen ;
+    schema:name "Jousikvartetto No. 3, Op. 19, \"Aspekteja Peltoniemen Hintrikin Surumarssista\"" .
+
+cmk:composition-kvartetto-klarinetille-ja-jousille-bernhard-crusell a schema:MusicComposition ;
+    schema:composer cmk:bernhard-crusell ;
+    schema:name "Kvartetto klarinetille ja jousille" .
+
+cmk:composition-libertango-astor-piazzolla a schema:MusicComposition ;
+    schema:composer cmk:astor-piazzolla ;
+    schema:name "Libertango" .
+
+cmk:composition-oblivion-astor-piazzolla a schema:MusicComposition ;
+    schema:composer cmk:astor-piazzolla ;
+    schema:name "Oblivion" .
+
+cmk:composition-play-jaakko-kuusisto a schema:MusicComposition ;
+    schema:composer cmk:jaakko-kuusisto ;
+    schema:name "Play" .
+
+cmk:composition-quartet-1-heitor-villa-lobos a schema:MusicComposition ;
+    schema:composer cmk:heitor-villa-lobos ;
+    schema:name "Quartet #1" .
+
+cmk:composition-summa-arvo-pärt a schema:MusicComposition ;
+    schema:composer cmk:arvo-pärt ;
+    schema:name "Summa" .
+
+cmk:composition-tango-ballet-astor-piazzolla a schema:MusicComposition ;
+    schema:composer cmk:astor-piazzolla ;
+    schema:name "Tango Ballet" .
+
+cmk:conductor a cmo:musical-identity .
+
+cmk:flutist a cmo:musical-identity .
+
+cmk:guitarist a cmo:musical-identity .
+
+cmk:horn-player a cmo:musical-identity .
+
+cmk:kemin-taidemuseo-20260425T1500 a mo:Performance ;
+    schema:name "Keisarinnan hovissa" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2026-04-25T15:00:00"^^xsd:dateTime .
+
+cmk:mezzo-soprano a cmo:musical-identity .
+
+cmk:narrator a cmo:musical-identity .
+
+cmk:violist a cmo:musical-identity .
+
+cmk:aineen-taidemuseo-20250927T1400 a mo:Performance ;
+    schema:name "Four, for tango" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2025-09-27T14:00:00"^^xsd:dateTime .
+
+cmk:aineen-taidemuseo-20260129T1800 a mo:Performance ;
+    schema:name "Suomalainen ilta" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2026-01-29T18:00:00"^^xsd:dateTime .
+
+cmk:aineen-taidemuseo-20260222T1400 a mo:Performance ;
+    schema:name "Sevillana – Iltapäivä Espanjan väreissä" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2026-02-22T14:00:00"^^xsd:dateTime .
+
+cmk:aineen-taidemuseo-20260416T1800 a mo:Performance ;
+    schema:name "Serioso" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2026-04-16T18:00:00"^^xsd:dateTime .
+
+cmk:cellist a cmo:musical-identity .
+
+cmk:ensemble a cmo:ensemble-identity .
+
+cmk:kemin-kulttuurikeskus-20250920T1600 a mo:Performance ;
+    schema:name "Ida Elina – Kaikuja Kalevalasta" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2025-09-20T16:00:00"^^xsd:dateTime .
+
+cmk:kemin-taidemuseo-20250926T1800 a mo:Performance ;
+    schema:name "Four, for tango" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2025-09-26T18:00:00"^^xsd:dateTime .
+
+cmk:kemin-taidemuseo-20260130T1800 a mo:Performance ;
+    schema:name "Suomalainen ilta" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2026-01-30T18:00:00"^^xsd:dateTime .
+
+cmk:kemin-taidemuseo-20260221T1500 a mo:Performance ;
+    schema:name "Sevillana – Iltapäivä Espanjan väreissä" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2026-02-21T15:00:00"^^xsd:dateTime .
+
+cmk:kemin-taidemuseo-20260411T1500 a mo:Performance ;
+    schema:name "Serioso" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2026-04-11T15:00:00"^^xsd:dateTime .
+
+cmk:lappia-musiikkitalo-20250919T1800 a mo:Performance ;
+    schema:name "Ida Elina – Kaikuja Kalevalasta" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2025-09-19T18:00:00"^^xsd:dateTime .
+
+cmk:paanukirkko-20250923T1800 a mo:Performance ;
+    schema:name "Four, for tango" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2025-09-23T18:00:00"^^xsd:dateTime .
+
+cmk:paanukirkko-20260205T1800 a mo:Performance ;
+    schema:name "Suomalainen ilta" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2026-02-05T18:00:00"^^xsd:dateTime .
+
+cmk:paanukirkko-20260415T1800 a mo:Performance ;
+    schema:name "Serioso" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2026-04-15T18:00:00"^^xsd:dateTime .
+
+cmk:simon-kirjasto-20250924T1800 a mo:Performance ;
+    schema:name "Four, for tango" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2025-09-24T18:00:00"^^xsd:dateTime .
+
+cmk:soprano a cmo:musical-identity .
+
+cmk:tervolan-nuorisoseurantalo-20250925T1800 a mo:Performance ;
+    schema:name "Four, for tango" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2025-09-25T18:00:00"^^xsd:dateTime .
+
+cmk:tervolan-nuorisoseurantalo-20260206T1800 a mo:Performance ;
+    schema:name "Suomalainen ilta" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2026-02-06T18:00:00"^^xsd:dateTime .
+
+cmk:tervolan-nuorisoseurantalo-20260417T1800 a mo:Performance ;
+    schema:name "Serioso" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2026-04-17T18:00:00"^^xsd:dateTime .
+
+cmk:toivon-tupa-20260204T1800 a mo:Performance ;
+    schema:name "Suomalainen ilta" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2026-02-04T18:00:00"^^xsd:dateTime .
+
+cmk:toivon-tupa-20260410T1800 a mo:Performance ;
+    schema:name "Serioso" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2026-04-10T18:00:00"^^xsd:dateTime .
+
+cmk:kemin-kirkko-20260329T1800 a mo:Performance ;
+    schema:name "Giovanni Battista Pergolesi: Stabat Mater" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2026-03-29T18:00:00"^^xsd:dateTime .
+
+cmk:kemin-kirkko-20260508T1800 a mo:Performance ;
+    schema:name "Jyrki Anttila 60 v Juhlakonsertti" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2026-05-08T18:00:00"^^xsd:dateTime .
+
+cmk:pianist a cmo:musical-identity .
+
+cmk:tenor a cmo:musical-identity .
+
+cmk:joentalo-20251003T1900 a mo:Performance ;
+    schema:name "Kohtaamisia ajassa" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2025-10-03T19:00:00"^^xsd:dateTime .
+
+cmk:kemin-taidemuseo-20251004T1600 a mo:Performance ;
+    schema:name "Kohtaamisia ajassa" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2025-10-04T16:00:00"^^xsd:dateTime .
+
+cmk:violinist a cmo:musical-identity .
+
+cmk:karungin-kirkko-20250830T1800 a mo:Performance ;
+    schema:name "Elokuinen musiikki-ilta" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2025-08-30T18:00:00"^^xsd:dateTime .
+
+cmk:kemin-kirkko-20250910T1900 a mo:Performance ;
+    schema:name "Ystävän ja yhteistyökumppanin muistolle – Esajuha Posti 1960-2024" ;
+    schema:organizer cmk:keminkaupunginorkesteri ;
+    schema:startDate "2025-09-10T19:00:00"^^xsd:dateTime .
+

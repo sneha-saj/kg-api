@@ -29,7 +29,8 @@ WHERE {
         { ?concert cmo:has-programme ?programme } UNION { ?concert cmo:hasProgramme ?programme }
         OPTIONAL { ?programme rdfs:label ?programmeTitle }
         OPTIONAL {
-            ?programme cmo:contains-music-by ?composer .
+            ?programme schema:hasPart ?composition .
+            ?composition schema:composer ?composer .
             OPTIONAL { ?composer foaf:firstName ?composerFirst }
             OPTIONAL { ?composer foaf:familyName ?composerLast }
         }
@@ -40,8 +41,9 @@ ORDER BY ?date
 
 
 def get_concerts(store) -> list[dict]:
-    """Returns a list of concerts with venue, programme, and (once the
-    pipeline populates cmo:contains-music-by) composer info.
+    """Returns a list of concerts with venue, programme, and composer info
+    (composers come from programme_agent.py's schema:hasPart -> MusicComposition
+    -> schema:composer chain, not the unused cmo:contains-music-by predicate).
     e.g. [{"id": ..., "title": ..., "date": ..., "venue": ..., "programme": ...,
            "composers": ["Jean Sibelius", ...]}]
     """

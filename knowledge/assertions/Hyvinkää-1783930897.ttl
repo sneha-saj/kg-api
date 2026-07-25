@@ -90,9 +90,69 @@ cmk:tuomas-pirila a foaf:Person ;
 
 cmk:chamber-ensemble a cmo:musical-identity .
 
+cmk:composition-adagio-pianosonaatista-jousiorkesterisovitus-viktor-ullmann a schema:MusicComposition ;
+    schema:composer cmk:viktor-ullmann ;
+    schema:name "Adagio (pianosonaatista, jousiorkesterisovitus)" .
+
+cmk:composition-des-knaben-wunderhorn-gustav-mahler a schema:MusicComposition ;
+    schema:composer cmk:gustav-mahler ;
+    schema:dateCreated "1887"^^xsd:gYear ;
+    schema:name "Des Knaben Wunderhorn" .
+
+cmk:composition-hamlet-franz-liszt a schema:MusicComposition ;
+    schema:composer cmk:franz-liszt ;
+    schema:name "Hamlet" .
+
+cmk:composition-huilukvartetto-nro-1-d-duuri-wa-mozart a schema:MusicComposition ;
+    schema:composer cmk:wa-mozart ;
+    schema:name "Huilukvartetto nro 1 D-duuri" .
+
+cmk:composition-intermezzo-op-161-helvi-leiviskä a schema:MusicComposition ;
+    schema:composer cmk:helvi-leiviskä ;
+    schema:dateCreated "1940"^^xsd:gYear ;
+    schema:name "Intermezzo op. 16/1" .
+
+cmk:composition-kamarisinfonia-op-73a-dmitri-shostakovich a schema:MusicComposition ;
+    schema:composer cmk:dmitri-shostakovich ;
+    schema:name "Kamarisinfonia op. 73a" .
+
+cmk:composition-klarinettikvintetto-op-115-johannes-brahms a schema:MusicComposition ;
+    schema:composer cmk:johannes-brahms ;
+    schema:name "Klarinettikvintetto op. 115" .
+
+cmk:composition-rising-joan-tower a schema:MusicComposition ;
+    schema:composer cmk:joan-tower ;
+    schema:dateCreated "2009"^^xsd:gYear ;
+    schema:name "Rising" .
+
+cmk:composition-sinfonia-nro-4-ludwig-van-beethoven a schema:MusicComposition ;
+    schema:composer cmk:ludwig-van-beethoven ;
+    schema:name "Sinfonia nro 4" .
+
+cmk:composition-symphony-no-4-pyotr-ilyich-tchaikovsky a schema:MusicComposition ;
+    schema:composer cmk:pyotr-ilyich-tchaikovsky ;
+    schema:name "Symphony No. 4" .
+
+cmk:composition-terral-sebastian-fagerlund a schema:MusicComposition ;
+    schema:composer cmk:sebastian-fagerlund ;
+    schema:dateCreated "2021"^^xsd:gYear ;
+    schema:name "Terral" .
+
+cmk:composition-vier-temperamente-neljä-temperamenttia-paul-hindemith a schema:MusicComposition ;
+    schema:composer cmk:paul-hindemith ;
+    schema:name "Vier Temperamente (Neljä temperamenttia)" .
+
 cmk:flautist a cmo:musical-identity .
 
 cmk:flutist a cmo:musical-identity .
+
+cmk:pianist a cmo:musical-identity .
+
+cmk:soloist a cmo:musical-identity .
+
+cmk:soprano a cmo:musical-identity .
+
+cmk:violinist a cmo:musical-identity .
 
 cmk:hameenlinnan-raatihuone-20250827T1800 a mo:Performance ;
     cmo:performed-work cmk:kamarimusiikkia-kesaillassa ;
@@ -108,20 +168,71 @@ cmk:hyvinkaan-kaupungintalo-20250826T1900 a mo:Performance ;
     schema:startDate "2025-08-26T19:00:00"^^xsd:dateTime ;
     schema:url "https://hyvinkaanorkesteri.fi/kamarimusiikkia-kesäillassa/"^^xsd:anyURI .
 
-cmk:pianist a cmo:musical-identity .
-
-cmk:soloist a cmo:musical-identity .
-
-cmk:soprano a cmo:musical-identity .
-
-cmk:violinist a cmo:musical-identity .
-
 cmk:hyvinkaasali-20250912T1900 a mo:Performance ;
     cmo:performed-work cmk:sydan-vasta-puolillaan ;
     schema:name "Sydän vasta puolillaan" ;
     schema:organizer cmk:hyvinkaanorkesteri ;
     schema:startDate "2025-09-12T19:00:00"^^xsd:dateTime ;
     schema:url "https://hyvinkaanorkesteri.fi/sydän-vasta-puolillaan/"^^xsd:anyURI .
+
+cmk:hyvinkaasali-20251231T1800 a mo:Performance ;
+    cmo:performed-work cmk:uv-a-la-francaise ;
+    schema:name "UV! À la française" ;
+    schema:organizer cmk:hyvinkaanorkesteri ;
+    schema:startDate "2025-12-31T18:00:00"^^xsd:dateTime ;
+    schema:url "https://hyvinkaanorkesteri.fi/uv!-à-la-française/"^^xsd:anyURI .
+
+cmk:hyvinkaasali-20260912T1900 a mo:Performance ;
+    cmo:has-programme cmk:sydan-vasta-puolillaan ;
+    schema:name "Sydän vasta puolillaan" ;
+    schema:organizer cmk:hyvinkaanorkesteri ;
+    schema:startDate "2026-09-12T19:00:00"^^xsd:dateTime ;
+    schema:url "https://hyvinkaanorkesteri.fi/konsertit/"^^xsd:anyURI .
+
+cmk:hyvinkaasali-20261231T1800 a mo:Performance ;
+    cmo:has-programme cmk:uv-a-la-francaise ;
+    schema:name "UV! À la française" ;
+    schema:organizer cmk:hyvinkaanorkesteri ;
+    schema:startDate "2026-12-31T18:00:00"^^xsd:dateTime ;
+    schema:url "https://hyvinkaanorkesteri.fi/konsertit/"^^xsd:anyURI .
+
+cmk:kamarimusiikkia-kesaillassa a cmo:Programme ;
+    rdfs:label "Kamarimusiikkia kesäillassa" ;
+    cmo:is-performed-at cmk:hameenlinnan-raatihuone-20250827T1800,
+        cmk:hyvinkaan-kaupungintalo-20250826T1900 ;
+    schema:hasPart cmk:composition-huilukvartetto-nro-1-d-duuri-wa-mozart,
+        cmk:composition-klarinettikvintetto-op-115-johannes-brahms,
+        cmk:composition-rising-joan-tower .
+
+cmk:sydan-vasta-puolillaan a cmo:Programme ;
+    rdfs:label "Sydän vasta puolillaan" .
+
+cmk:tarinoita a cmo:Programme ;
+    rdfs:label "Tarinoita" ;
+    cmo:is-performed-at cmk:hyvinkaasali-20251119T1900,
+        cmk:hyvinkaasali-20261119T1900 ;
+    schema:hasPart cmk:composition-des-knaben-wunderhorn-gustav-mahler,
+        cmk:composition-hamlet-franz-liszt,
+        cmk:composition-symphony-no-4-pyotr-ilyich-tchaikovsky .
+
+cmk:terral-maa-kutsuu a cmo:Programme ;
+    rdfs:label "Terral - Maa kutsuu" ;
+    cmo:is-performed-at cmk:hyvinkaasali-20251022T1900,
+        cmk:hyvinkaasali-20261022T1900 ;
+    schema:hasPart cmk:composition-intermezzo-op-161-helvi-leiviskä,
+        cmk:composition-sinfonia-nro-4-ludwig-van-beethoven,
+        cmk:composition-terral-sebastian-fagerlund .
+
+cmk:uv-a-la-francaise a cmo:Programme ;
+    rdfs:label "UV! À la française" .
+
+cmk:vaiennetut-aanet a cmo:Programme ;
+    rdfs:label "Vaiennetut äänet" ;
+    cmo:is-performed-at cmk:hyvinkaasali-20250924T1900,
+        cmk:hyvinkaasali-20260924T1900 ;
+    schema:hasPart cmk:composition-adagio-pianosonaatista-jousiorkesterisovitus-viktor-ullmann,
+        cmk:composition-kamarisinfonia-op-73a-dmitri-shostakovich,
+        cmk:composition-vier-temperamente-neljä-temperamenttia-paul-hindemith .
 
 cmk:hyvinkaasali-20250924T1900 a mo:Performance ;
     cmo:performed-work cmk:vaiennetut-aanet ;
@@ -144,20 +255,6 @@ cmk:hyvinkaasali-20251119T1900 a mo:Performance ;
     schema:startDate "2025-11-19T19:00:00"^^xsd:dateTime ;
     schema:url "https://hyvinkaanorkesteri.fi/tarinoita/"^^xsd:anyURI .
 
-cmk:hyvinkaasali-20251231T1800 a mo:Performance ;
-    cmo:performed-work cmk:uv-a-la-francaise ;
-    schema:name "UV! À la française" ;
-    schema:organizer cmk:hyvinkaanorkesteri ;
-    schema:startDate "2025-12-31T18:00:00"^^xsd:dateTime ;
-    schema:url "https://hyvinkaanorkesteri.fi/uv!-à-la-française/"^^xsd:anyURI .
-
-cmk:hyvinkaasali-20260912T1900 a mo:Performance ;
-    cmo:has-programme cmk:sydan-vasta-puolillaan ;
-    schema:name "Sydän vasta puolillaan" ;
-    schema:organizer cmk:hyvinkaanorkesteri ;
-    schema:startDate "2026-09-12T19:00:00"^^xsd:dateTime ;
-    schema:url "https://hyvinkaanorkesteri.fi/konsertit/"^^xsd:anyURI .
-
 cmk:hyvinkaasali-20260924T1900 a mo:Performance ;
     cmo:has-programme cmk:vaiennetut-aanet ;
     schema:name "Vaiennetut äänet" ;
@@ -178,31 +275,6 @@ cmk:hyvinkaasali-20261119T1900 a mo:Performance ;
     schema:organizer cmk:hyvinkaanorkesteri ;
     schema:startDate "2026-11-19T19:00:00"^^xsd:dateTime ;
     schema:url "https://hyvinkaanorkesteri.fi/konsertit/"^^xsd:anyURI .
-
-cmk:hyvinkaasali-20261231T1800 a mo:Performance ;
-    cmo:has-programme cmk:uv-a-la-francaise ;
-    schema:name "UV! À la française" ;
-    schema:organizer cmk:hyvinkaanorkesteri ;
-    schema:startDate "2026-12-31T18:00:00"^^xsd:dateTime ;
-    schema:url "https://hyvinkaanorkesteri.fi/konsertit/"^^xsd:anyURI .
-
-cmk:kamarimusiikkia-kesaillassa a cmo:Programme ;
-    rdfs:label "Kamarimusiikkia kesäillassa" .
-
-cmk:sydan-vasta-puolillaan a cmo:Programme ;
-    rdfs:label "Sydän vasta puolillaan" .
-
-cmk:tarinoita a cmo:Programme ;
-    rdfs:label "Tarinoita" .
-
-cmk:terral-maa-kutsuu a cmo:Programme ;
-    rdfs:label "Terral - Maa kutsuu" .
-
-cmk:uv-a-la-francaise a cmo:Programme ;
-    rdfs:label "UV! À la française" .
-
-cmk:vaiennetut-aanet a cmo:Programme ;
-    rdfs:label "Vaiennetut äänet" .
 
 cmk:conductor a cmo:musical-identity .
 

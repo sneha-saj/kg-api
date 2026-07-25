@@ -47,7 +47,7 @@ cmk:hyvinkaanorkesteri a schema:Organization ;
     skos:hiddenLabel "Hyvinkään O" ;
     cmo:acronym "Hyvinkää" ;
     schema:name "Hyvinkään orkesteri" ;
-    cmo:concertLinkPattern "/" ;
+    cmo:concertLinkPattern "*" ;
     schema:url "https://hyvinkaanorkesteri.fi/konsertit/"^^xsd:anyURI .
 
 cmk:joensuunkaupunginorkesteri a schema:Organization ;
@@ -65,6 +65,8 @@ cmk:jyvaskylasinfonia a schema:Organization ;
 cmk:kaartin-soittokunta a schema:Organization ;
     skos:hiddenLabel "Kaartin soittokunta" ;
     cmo:acronym "Kaarti" ;
+    cmo:concertLinkPattern "/",
+        "/vartioparaatit/vartioparaati-" ;
     schema:name "Kaartin soittokunta" ;
     schema:url "https://konserttikalenteri.puolustusvoimat.fi/kaartin-soittokunta/"^^xsd:anyURI .
 
@@ -72,6 +74,7 @@ cmk:kamariorkesteri a schema:Organization ;
     skos:hiddenLabel "K-Pohjanmaan KamO" ;
     cmo:acronym "KPKO" ;
     schema:name "Keski-Pohjanmaan kamariorkesteri" ;
+    cmo:concertLinkPattern "*" ;
     schema:url "https://kamariorkesteri.fi/all/"^^xsd:anyURI .
 
 cmk:kansallisoopperan-orkesteri a schema:Organization ;
@@ -84,13 +87,14 @@ cmk:keminkaupunginorkesteri a schema:Organization ;
     skos:hiddenLabel "Kemin KO" ;
     cmo:acronym "Kemi" ;
     schema:name "Kemin kaupunginorkesteri" ;
-    schema:url "https://www.keminkaupunginorkesteri.fi/en/concerts/"^^xsd:anyURI .
+    schema:url "https://www.keminkaupunginorkesteri.fi/konsertit/"^^xsd:anyURI .
 
 cmk:kuopionkaupunginorkesteri a schema:Organization ;
     skos:hiddenLabel "Kuopion KO" ;
     cmo:acronym "Kuopio" ;
     schema:name "Kuopion kaupunginorkesteri" ;
-    schema:url "https://www.kuopionkaupunginorkesteri.fi/en/concerts/"^^xsd:anyURI .
+    cmo:concertLinkPattern "/" ;
+    schema:url "https://www.kuopionkaupunginorkesteri.fi/ohjelmisto/"^^xsd:anyURI .
 
 cmk:kymisinfonietta a schema:Organization ;
     skos:hiddenLabel "Kymi Sinfonietta" ;
