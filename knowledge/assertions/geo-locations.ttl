@@ -1,0 +1,625 @@
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+cmk:archduchy-of-austria a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q699964 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Archduchy of Austria"@en ;
+    schema:name "Archduchy of Austria" .
+
+cmk:argentina a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q414 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Argentina"@en ;
+    schema:name "Argentina" .
+
+cmk:armenia a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q399 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Armenia"@en ;
+    schema:name "Armenia" .
+
+cmk:australia a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q408 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Australia"@en ;
+    schema:name "Australia" .
+
+cmk:austria a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q40 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Austria"@en ;
+    schema:name "Austria" .
+
+cmk:austriahungary a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q28513 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Austria–Hungary"@en ;
+    schema:name "Austria–Hungary" .
+
+cmk:austrian-empire a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q131964 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Austrian Empire"@en ;
+    schema:name "Austrian Empire" .
+
+cmk:belgium a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q31 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Belgium"@en ;
+    schema:name "Belgium" .
+
+cmk:brandenburg-prussia a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q157367 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Brandenburg-Prussia"@en ;
+    schema:name "Brandenburg-Prussia" .
+
+cmk:brazil a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q155 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Brazil"@en ;
+    schema:name "Brazil" .
+
+cmk:bulgaria a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q219 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Bulgaria"@en ;
+    schema:name "Bulgaria" .
+
+cmk:canada a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q16 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Canada"@en ;
+    schema:name "Canada" .
+
+cmk:cisleithania a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q533534 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Cisleithania"@en ;
+    schema:name "Cisleithania" .
+
+cmk:congress-poland a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q221457 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Congress Poland"@en ;
+    schema:name "Congress Poland" .
+
+cmk:czech-republic a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q213 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Czech Republic"@en ;
+    schema:name "Czech Republic" .
+
+cmk:czechoslovakia a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q33946 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Czechoslovakia"@en ;
+    schema:name "Czechoslovakia" .
+
+cmk:denmark a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q35 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Denmark"@en ;
+    schema:name "Denmark" .
+
+cmk:duchy-of-brunswick a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q326029 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Duchy of Brunswick"@en ;
+    schema:name "Duchy of Brunswick" .
+
+cmk:duchy-of-ferrara a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q693570 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Duchy of Ferrara"@en ;
+    schema:name "Duchy of Ferrara" .
+
+cmk:duchy-of-warsaw a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q152115 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Duchy of Warsaw"@en ;
+    schema:name "Duchy of Warsaw" .
+
+cmk:dutch-republic a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q170072 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Dutch Republic"@en ;
+    schema:name "Dutch Republic" .
+
+cmk:electorate-of-cologne a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q7904317 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Electorate of Cologne"@en ;
+    schema:name "Electorate of Cologne" .
+
+cmk:electorate-of-mainz a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q284667 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Electorate of Mainz"@en ;
+    schema:name "Electorate of Mainz" .
+
+cmk:electorate-of-saxony a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q156199 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Electorate of Saxony"@en ;
+    schema:name "Electorate of Saxony" .
+
+cmk:estonia a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q191 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Estonia"@en ;
+    schema:name "Estonia" .
+
+cmk:finland a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q33 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Finland"@en ;
+    schema:name "Finland" .
+
+cmk:first-czechoslovak-republic a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q140359 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "First Czechoslovak Republic"@en ;
+    schema:name "First Czechoslovak Republic" .
+
+cmk:france a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q142 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "France"@en ;
+    schema:name "France" .
+
+cmk:german-empire a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q43287 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "German Empire"@en ;
+    schema:name "German Empire" .
+
+cmk:german-reich a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q1206012 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "German Reich"@en ;
+    schema:name "German Reich" .
+
+cmk:germany a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q183 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Germany"@en ;
+    schema:name "Germany" .
+
+cmk:grand-duchy-of-finland a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q62633 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Grand Duchy of Finland"@en ;
+    schema:name "Grand Duchy of Finland" .
+
+cmk:grand-duchy-of-oldenburg a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q693669 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Grand Duchy of Oldenburg"@en ;
+    schema:name "Grand Duchy of Oldenburg" .
+
+cmk:grand-duchy-of-tuscany a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q154849 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Grand Duchy of Tuscany"@en ;
+    schema:name "Grand Duchy of Tuscany" .
+
+cmk:hamburg a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q1055 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Hamburg"@en ;
+    schema:name "Hamburg" .
+
+cmk:holy-roman-empire a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q12548 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Holy Roman Empire"@en ;
+    schema:name "Holy Roman Empire" .
+
+cmk:hungary a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q28 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Hungary"@en ;
+    schema:name "Hungary" .
+
+cmk:iceland a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q189 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Iceland"@en ;
+    schema:name "Iceland" .
+
+cmk:iran a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q794 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Iran"@en ;
+    schema:name "Iran" .
+
+cmk:ireland a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q27 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Ireland"@en ;
+    schema:name "Ireland" .
+
+cmk:italy a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q38 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Italy"@en ;
+    schema:name "Italy" .
+
+cmk:kingdom-of-bohemia a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q42585 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Kingdom of Bohemia"@en ;
+    schema:name "Kingdom of Bohemia" .
+
+cmk:kingdom-of-denmark a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q756617 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Kingdom of Denmark"@en ;
+    schema:name "Kingdom of Denmark" .
+
+cmk:kingdom-of-england a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q179876 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Kingdom of England"@en ;
+    schema:name "Kingdom of England" .
+
+cmk:kingdom-of-france a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q70972 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Kingdom of France"@en ;
+    schema:name "Kingdom of France" .
+
+cmk:kingdom-of-great-britain a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q161885 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Kingdom of Great Britain"@en ;
+    schema:name "Kingdom of Great Britain" .
+
+cmk:kingdom-of-italy a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q172579 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Kingdom of Italy"@en ;
+    schema:name "Kingdom of Italy" .
+
+cmk:kingdom-of-prussia a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q27306 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Kingdom of Prussia"@en ;
+    schema:name "Kingdom of Prussia" .
+
+cmk:kingdom-of-saxony a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q153015 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Kingdom of Saxony"@en ;
+    schema:name "Kingdom of Saxony" .
+
+cmk:kingdom-of-the-netherlands a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q29999 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Kingdom of the Netherlands"@en ;
+    schema:name "Kingdom of the Netherlands" .
+
+cmk:lands-of-the-bohemian-crown a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q686971 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Lands of the Bohemian Crown"@en ;
+    schema:name "Lands of the Bohemian Crown" .
+
+cmk:latvia a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q211 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Latvia"@en ;
+    schema:name "Latvia" .
+
+cmk:lithuania a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q37 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Lithuania"@en ;
+    schema:name "Lithuania" .
+
+cmk:luxembourg a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q32 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Luxembourg"@en ;
+    schema:name "Luxembourg" .
+
+cmk:mexico a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q96 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Mexico"@en ;
+    schema:name "Mexico" .
+
+cmk:monaco a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q235 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Monaco"@en ;
+    schema:name "Monaco" .
+
+cmk:nazi-germany a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q7318 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Nazi Germany"@en ;
+    schema:name "Nazi Germany" .
+
+cmk:netherlands a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q55 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Netherlands"@en ;
+    schema:name "Netherlands" .
+
+cmk:norway a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q20 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Norway"@en ;
+    schema:name "Norway" .
+
+cmk:papal-states a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q170174 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Papal States"@en ;
+    schema:name "Papal States" .
+
+cmk:peoples-republic-of-china a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q148 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "People's Republic of China"@en ;
+    schema:name "People's Republic of China" .
+
+cmk:poland a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q36 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Poland"@en ;
+    schema:name "Poland" .
+
+cmk:polishlithuanian-commonwealth a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q172107 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Polish–Lithuanian Commonwealth"@en ;
+    schema:name "Polish–Lithuanian Commonwealth" .
+
+cmk:prince-archbishopric-of-salzburg a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q701614 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Prince-Archbishopric of Salzburg"@en ;
+    schema:name "Prince-Archbishopric of Salzburg" .
+
+cmk:prussia a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q38872 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Prussia"@en ;
+    schema:name "Prussia" .
+
+cmk:republic-of-venice a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q4948 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Republic of Venice"@en ;
+    schema:name "Republic of Venice" .
+
+cmk:romania a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q218 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Romania"@en ;
+    schema:name "Romania" .
+
+cmk:russia a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q159 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Russia"@en ;
+    schema:name "Russia" .
+
+cmk:russian-empire a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q34266 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Russian Empire"@en ;
+    schema:name "Russian Empire" .
+
+cmk:saxe-eisenach a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q696651 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Saxe-Eisenach"@en ;
+    schema:name "Saxe-Eisenach" .
+
+cmk:second-polish-republic a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q207272 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Second Polish Republic"@en ;
+    schema:name "Second Polish Republic" .
+
+cmk:slovenia a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q215 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Slovenia"@en ;
+    schema:name "Slovenia" .
+
+cmk:south-korea a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q884 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "South Korea"@en ;
+    schema:name "South Korea" .
+
+cmk:soviet-union a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q15180 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Soviet Union"@en ;
+    schema:name "Soviet Union" .
+
+cmk:spain a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q29 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Spain"@en ;
+    schema:name "Spain" .
+
+cmk:sultanate-of-zanzibar a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q157904 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Sultanate of Zanzibar"@en ;
+    schema:name "Sultanate of Zanzibar" .
+
+cmk:sweden a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q34 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Sweden"@en ;
+    schema:name "Sweden" .
+
+cmk:swedish-empire a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q215443 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Swedish Empire"@en ;
+    schema:name "Swedish Empire" .
+
+cmk:switzerland a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q39 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Switzerland"@en ;
+    schema:name "Switzerland" .
+
+cmk:tanzania a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q924 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Tanzania"@en ;
+    schema:name "Tanzania" .
+
+cmk:ukraine a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q212 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Ukraine"@en ;
+    schema:name "Ukraine" .
+
+cmk:united-kingdom a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q145 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "United Kingdom"@en ;
+    schema:name "United Kingdom" .
+
+cmk:united-kingdom-of-great-britain-and-ireland a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q174193 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "United Kingdom of Great Britain and Ireland"@en ;
+    schema:name "United Kingdom of Great Britain and Ireland" .
+
+cmk:united-kingdom-of-the-netherlands a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q15864 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "United Kingdom of the Netherlands"@en ;
+    schema:name "United Kingdom of the Netherlands" .
+
+cmk:united-states a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q30 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "United States"@en ;
+    schema:name "United States" .
+
+cmk:uzbekistan a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q265 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Uzbekistan"@en ;
+    schema:name "Uzbekistan" .
+
+cmk:venezuela a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q717 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "Venezuela"@en ;
+    schema:name "Venezuela" .
+
+cmk:west-germany a skos:Concept,
+        schema:Country ;
+    owl:sameAs wd:Q713750 ;
+    skos:inScheme cmk:geo-locations ;
+    skos:prefLabel "West Germany"@en ;
+    schema:name "West Germany" .
+
+cmk:geo-locations a skos:ConceptScheme ;
+    skos:prefLabel "Geographic locations"@en .
+

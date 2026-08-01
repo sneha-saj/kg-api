@@ -506,7 +506,6 @@ cmk:antonio-vivaldi a schema:Person ;
         cmk:jarvenpaa-talo-20261209T1900,
         cmk:jarvenpaan-kirkko-20260825T1900,
         cmk:musiikkitalo-20261222T1900,
-        cmk:olari-church-20260723T2000,
         cmk:tampere-talo-20260920T1500,
         cmk:tampere-talo-20261112T1900,
         cmk:the-helsinki-music-centre-20261002T1900,
@@ -1699,7 +1698,7 @@ cmk:finlandia-hall a schema:MusicVenue .
 cmk:finlandia-hall-20211121T1600 a schema:MusicEvent ;
     schema:description "Colin de Blamont: Two Operas for Louis XV · Helsingin barokkiorkesteri (2021-11-21)" .
 
-cmk:finnish-baroque-orchestra cmo:performs-next cmk:olari-church-20260723T2000 .
+cmk:finnish-baroque-orchestra cmo:performs-next cmk:church-of-st-lawrence-20260811T1830 .
 
 cmk:finnish-national-opera-almi-hall a schema:MusicVenue .
 
@@ -1862,7 +1861,6 @@ cmk:georg-philipp-telemann a schema:Person ;
     cmo:featured-at cmk:house-of-nobility-helsinki-20261212T1800,
         cmk:jarvenpaa-church-20260811T1900,
         cmk:jarvenpaa-talo-20261209T1900,
-        cmk:olari-church-20260723T2000,
         cmk:tampere-talo-20261112T1900 ;
     schema:description "composer Georg Philipp Telemann" ;
     schema:name "Georg Philipp Telemann" .
@@ -2824,7 +2822,6 @@ cmk:johann-sebastian-bach a schema:Person ;
         cmk:musiikkitalo-concert-hall-20270407T1900,
         cmk:musiikkitalo-concert-hall-20270408T1900,
         cmk:myyrmaen-kirkko-20261201T1900,
-        cmk:olari-church-20260723T2000,
         cmk:paavalinkirkko-20261020T1900,
         cmk:porvoon-tuomiokirkko-20261028T1900,
         cmk:pyhan-laurin-kirkko-20260809T1830,
@@ -5090,7 +5087,6 @@ cmk:nick-davies a schema:Person ;
     schema:name "Nick Davies" .
 
 cmk:nicky-sohn a schema:Person ;
-    cmo:featured-at cmk:vaasa-city-hall-20260729T1900 ;
     schema:description "composer Nicky Sohn" ;
     schema:name "Nicky Sohn" .
 
@@ -5170,6 +5166,9 @@ cmk:núria-rial a schema:Person ;
     schema:name "Núria Rial" .
 
 cmk:olari-church a schema:MusicVenue .
+
+cmk:olari-church-20260723T2000 a schema:MusicEvent ;
+    schema:description "Earth, water, air, fire · Suomalainen barokkiorkesteri (2026-07-23)" .
 
 cmk:olari-elts a schema:Person ;
     schema:description "conductor Olari Elts" ;
@@ -5641,8 +5640,7 @@ cmk:ralph-vaughan-williams a schema:Person ;
         cmk:music-centre-fuuga-20261217T1830,
         cmk:the-helsinki-music-centre-20261007T1900,
         cmk:the-helsinki-music-centre-20261008T1900,
-        cmk:ukko-luoston-ulkoilmalava-20260808T1300,
-        cmk:vaasa-city-hall-20260729T1900 ;
+        cmk:ukko-luoston-ulkoilmalava-20260808T1300 ;
     schema:description "composer Ralph Vaughan Williams" ;
     schema:name "Ralph Vaughan Williams" .
 
@@ -5743,7 +5741,6 @@ cmk:risto-kupiainen a schema:Person ;
     schema:name "Risto Kupiainen" .
 
 cmk:risto-nordell a schema:Person ;
-    cmo:performs-next cmk:temppeliaukion-kirkko-20260720T1900 ;
     cmo:performs-with cmk:ensemblenylandia ;
     schema:description "narrator Risto Nordell",
         "presenter Risto Nordell" ;
@@ -5939,7 +5936,6 @@ cmk:sampo-pyhala a schema:Person ;
     schema:name "Sampo Pyhälä" .
 
 cmk:samuel-barber a schema:Person ;
-    cmo:featured-at cmk:vaasa-city-hall-20260729T1900 ;
     schema:description "composer Samuel Barber" ;
     schema:name "Samuel Barber" .
 
@@ -6151,8 +6147,7 @@ cmk:sergei-prokofiev a schema:Person ;
         cmk:sibelius-hall-20261008T1830,
         cmk:tampere-talo-20260911T1900,
         cmk:the-helsinki-music-centre-concert-hall-20260909T1900,
-        cmk:the-helsinki-music-centre-concert-hall-20260910T1900,
-        cmk:vaasa-city-hall-20260729T1900 ;
+        cmk:the-helsinki-music-centre-concert-hall-20260910T1900 ;
     schema:description "composer Sergei Prokofiev" ;
     schema:name "Sergei Prokofiev" .
 
@@ -6618,6 +6613,9 @@ cmk:temppeliaukion-kirkko a schema:MusicVenue .
 cmk:temppeliaukion-kirkko-20250809T0000 a schema:MusicEvent ;
     schema:description "Jorma Panula 95v Var det en dröm · Vantaan viihdeorkesteri (2025-08-09)" .
 
+cmk:temppeliaukion-kirkko-20260720T1900 a schema:MusicEvent ;
+    schema:description "EUBO & Alfredo Bernardini: Tunteiden virrassa - Matka Euroopan halki · Ensemble Nylandia (2026-07-20)" .
+
 cmk:teppo-lampela a schema:Person ;
     cmo:performs-with cmk:hebo ;
     schema:description "alto Teppo Lampela",
@@ -6991,6 +6989,9 @@ cmk:vaasa-city-hall-20251113T1800 a schema:MusicEvent ;
 
 cmk:vaasa-city-hall-20251210T1800 a schema:MusicEvent ;
     schema:description "Suomalaisen musiikin viikko · Vaasan kaupunginorkesteri (2025-12-10)" .
+
+cmk:vaasa-city-hall-20260729T1900 a schema:MusicEvent ;
+    schema:description "Final Concert - Romeo and Juliet · Keski-Pohjanmaan kamariorkesteri (2026-07-29)" .
 
 cmk:vaasan-kaupunginorkesteri a schema:MusicGroup .
 
@@ -7485,9 +7486,6 @@ cmk:tampere-hall-20260903T1900 a schema:MusicEvent ;
 cmk:tampere-talo-20261120T1800 a schema:MusicEvent ;
     schema:description "Tchaikovsky: The Nutcracker – A Christmas Carol · Tampere Filharmonia (2026-11-20)" .
 
-cmk:temppeliaukion-kirkko-20260720T1900 a schema:MusicEvent ;
-    schema:description "EUBO & Alfredo Bernardini: Tunteiden virrassa - Matka Euroopan halki · Ensemble Nylandia (2026-07-20)" .
-
 cmk:the-helsinki-music-centre-20261002T1900 a schema:MusicEvent ;
     schema:description "Il prete rosso - Hommage à Antonio Vivaldi · Radion sinfoniaorkesteri (2026-10-02)" .
 
@@ -7970,9 +7968,6 @@ cmk:carelia-sali-20261105T1800 a schema:MusicEvent ;
 cmk:carelia-sali-20261210T1800 a schema:MusicEvent ;
     schema:description "Elämäni joulubiisi · Joensuun kaupunginorkesteri (2026-12-10)" .
 
-cmk:church-of-st-lawrence-20260811T1830 a schema:MusicEvent ;
-    schema:description "Alla guerra d'amor · Suomalainen barokkiorkesteri (2026-08-11)" .
-
 cmk:helsinki-music-centre-concert-hall-20261118T1900 a schema:MusicEvent ;
     schema:description "Guest Performance: Turku Philharmonic Orchestra · Radion sinfoniaorkesteri (2026-11-18)" .
 
@@ -8054,9 +8049,6 @@ cmk:musiikkitalo-concert-hall-20270505T1900 a schema:MusicEvent ;
 cmk:musiikkitalo-fuuga-ateljee-20261208T1800 a schema:MusicEvent ;
     schema:description "Finnish Music Day · Turun filharmoninen orkesteri (2026-12-08)" .
 
-cmk:olari-church-20260723T2000 a schema:MusicEvent ;
-    schema:description "Earth, water, air, fire · Suomalainen barokkiorkesteri (2026-07-23)" .
-
 cmk:sibelius-hall-20261126T1830 a schema:MusicEvent ;
     schema:description "PARISIAN DREAMS · Sinfonia Lahti (2026-11-26)" .
 
@@ -8111,14 +8103,14 @@ cmk:turku-concert-hall-20260903T1830 a schema:MusicEvent ;
 cmk:turku-concert-hall-20260917T1830 a schema:MusicEvent ;
     schema:description "Restless Oceans · Turun filharmoninen orkesteri (2026-09-17)" .
 
-cmk:vaasa-city-hall-20260729T1900 a schema:MusicEvent ;
-    schema:description "Final Concert - Romeo and Juliet · Keski-Pohjanmaan kamariorkesteri (2026-07-29)" .
-
 cmk:varkaus-main-church-20261117T1900 a schema:MusicEvent ;
     schema:description "Requiem · Suomalainen barokkiorkesteri (2026-11-17)" .
 
 cmk:church-of-kokkola-20261217T1900 a schema:MusicEvent ;
     schema:description "Christmas concert - Iris Candelaria · Keski-Pohjanmaan kamariorkesteri (2026-12-17)" .
+
+cmk:church-of-st-lawrence-20260811T1830 a schema:MusicEvent ;
+    schema:description "Alla guerra d'amor · Suomalainen barokkiorkesteri (2026-08-11)" .
 
 cmk:church-of-vora-20261105T1900 a schema:MusicEvent ;
     schema:description "Candle Light Concert / Vörå · Keski-Pohjanmaan kamariorkesteri (2026-11-05)" .
