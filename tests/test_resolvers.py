@@ -181,8 +181,8 @@ def test_search_concerts_supports_reverse_programme_link(store):
     assert concerts[0]["composers"] == [{
         "id": "https://knowledge.semanticscore.net/knowledge/composer1",
         "name": "Kaija Saariaho",
-        "gender": ["Female"],
-        "birthPlace": [{"id": "https://knowledge.semanticscore.net/knowledge/finland", "label": "Finland"}],
+        "gender": {"id": None, "label": "Female"},
+        "birthPlace": {"id": "https://knowledge.semanticscore.net/knowledge/finland", "label": "Finland"},
         "birthDate": None,
         "deathDate": None,
     }]

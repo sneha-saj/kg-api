@@ -175,56 +175,6 @@ WHERE {
 ORDER BY ?date
 """
 
-SEARCH_CONCERT_COMPOSER_QUERY = """
-PREFIX cmo: <https://knowledge.semanticscore.net/ontology/>
-PREFIX mo: <http://purl.org/ontology/mo/>
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX schema: <https://schema.org/>
-PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-
-SELECT ?concert ?composer ?composerFirst ?composerLast ?composerGender ?birthDate ?deathDate ?birthPlace ?birthPlaceLabel
-WHERE {
-    ?concert a mo:Performance ;
-                     schema:startDate ?date .
-
-    {
-        {
-            { ?concert cmo:has-programme ?programme }
-            UNION
-            { ?concert cmo:hasProgramme ?programme }
-            UNION
-            { ?programme cmo:is-performed-at ?concert }
-        }
-        {
-            {
-                ?programme schema:hasPart ?composition .
-                ?composition schema:composer ?composer .
-            }
-            UNION
-            {
-                ?programme cmo:contains-music-by ?composer .
-            }
-        }
-    }
-    UNION
-    {
-        ?composer cmo:featured-at ?concert .
-    }
-
-    OPTIONAL { ?composer foaf:firstName ?composerFirst }
-    OPTIONAL { ?composer foaf:familyName ?composerLast }
-    OPTIONAL { ?composer schema:gender ?composerGender }
-    OPTIONAL { ?composer schema:birthDate ?birthDate }
-    OPTIONAL { ?composer schema:deathDate ?deathDate }
-    OPTIONAL {
-        ?composer schema:birthPlace ?birthPlace .
-        OPTIONAL { ?birthPlace skos:prefLabel ?birthPlaceLabel }
-    }
-}
-ORDER BY ?date
-"""
-
-
 def _clean_uri(value):
     """maplib returns URI columns as their raw N-Triples form, e.g.
     "<https://knowledge.semanticscore.net/knowledge/finland>" -- strip the
@@ -336,7 +286,6 @@ def search_concerts(
     server-side so callers do not need to maintain large SPARQL query strings.
     """
     rows = store.query(SEARCH_CONCERT_CORE_QUERY).to_dicts()
-    composer_rows = store.query(SEARCH_CONCERT_COMPOSER_QUERY).to_dicts()
 
     concerts: dict[str, dict] = {}
     for row in rows:
@@ -380,6 +329,22 @@ def search_concerts(
         if concerts[cid].get("programme") is None and row_programme is not None:
             concerts[cid]["programme"] = row_programme
 
+    concert_ids = [
+        _clean_uri(row.get("concert"))
+        for row in rows
+        if row.get("concert")
+    ]
+    composer_rows = []
+    if concert_ids:
+        composer_query = _build_search_concerts_composer_query(concert_ids)
+        composer_rows = store.query(composer_query).to_dicts()
+
+    composer_metadata = {
+        composer["id"]: composer
+        for composer in get_composers(store)
+        if composer.get("id")
+    }
+
     composer_map: dict[str, dict[str, dict]] = {}
     for row in composer_rows:
         cid_raw = row.get("concert")
@@ -399,8 +364,8 @@ def search_concerts(
         composer_entry = composer_bucket.setdefault(composer_key, {
             "id": composer_iri,
             "name": composer_name or _iri_tail(composer_iri),
-            "gender": [],
-            "birthPlace": [],
+            "gender": None,
+            "birthPlace": None,
             "birthDate": None,
             "deathDate": None,
         })
@@ -410,23 +375,26 @@ def search_concerts(
         if composer_name and not composer_entry.get("name"):
             composer_entry["name"] = composer_name
 
-        gender = row.get("composerGender")
-        if gender:
-            label = _gender_label(gender)
-            if label not in composer_entry["gender"]:
-                composer_entry["gender"].append(label)
-
-        composer_entry["birthDate"] = row.get("birthDate") or composer_entry.get("birthDate")
-        composer_entry["deathDate"] = row.get("deathDate") or composer_entry.get("deathDate")
-
-        birth_place_iri = _clean_uri(row.get("birthPlace"))
-        if birth_place_iri:
-            birth_place_value = {
-                "id": birth_place_iri,
-                "label": _clean_literal(row.get("birthPlaceLabel")),
+        metadata = composer_metadata.get(composer_iri, {})
+        if row.get("composerGender"):
+            composer_entry["gender"] = {
+                "id": None,
+                "label": _gender_label(row.get("composerGender")),
             }
-            if birth_place_value not in composer_entry["birthPlace"]:
-                composer_entry["birthPlace"].append(birth_place_value)
+        elif metadata.get("gender"):
+            gender_values = metadata.get("gender", [])
+            if gender_values:
+                composer_entry["gender"] = {
+                    "id": None,
+                    "label": gender_values[0],
+                }
+
+        composer_entry["birthDate"] = row.get("birthDate") or metadata.get("birthDate") or composer_entry.get("birthDate")
+        composer_entry["deathDate"] = row.get("deathDate") or metadata.get("deathDate") or composer_entry.get("deathDate")
+
+        birth_places = metadata.get("birthPlace", [])
+        if birth_places:
+            composer_entry["birthPlace"] = birth_places[0]
 
     for cid, composer_bucket in composer_map.items():
         if cid in concerts:
@@ -449,6 +417,54 @@ def search_concerts(
     if safe_limit == 0:
         return []
     return filtered[safe_offset : safe_offset + safe_limit]
+
+
+def _build_search_concerts_composer_query(concert_ids: list[str]) -> str:
+    values_clause = " ".join(f"<{concert_id}>" for concert_id in concert_ids if concert_id)
+    return f"""
+PREFIX cmo: <https://knowledge.semanticscore.net/ontology/>
+PREFIX mo: <http://purl.org/ontology/mo/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <https://schema.org/>
+
+SELECT ?concert ?composer ?composerFirst ?composerLast ?composerGender ?birthDate ?deathDate
+WHERE {{
+    VALUES ?concert {{ {values_clause} }}
+    ?concert a mo:Performance ;
+                     schema:startDate ?date .
+
+    {{
+        {{
+            {{ ?concert cmo:has-programme ?programme }}
+            UNION
+            {{ ?concert cmo:hasProgramme ?programme }}
+            UNION
+            {{ ?programme cmo:is-performed-at ?concert }}
+        }}
+        {{
+            {{
+                ?programme schema:hasPart ?composition .
+                ?composition schema:composer ?composer .
+            }}
+            UNION
+            {{
+                ?programme cmo:contains-music-by ?composer .
+            }}
+        }}
+    }}
+    UNION
+    {{
+        ?composer cmo:featured-at ?concert .
+    }}
+
+    OPTIONAL {{ ?composer foaf:firstName ?composerFirst }}
+    OPTIONAL {{ ?composer foaf:familyName ?composerLast }}
+    OPTIONAL {{ ?composer schema:gender ?composerGender }}
+    OPTIONAL {{ ?composer schema:birthDate ?birthDate }}
+    OPTIONAL {{ ?composer schema:deathDate ?deathDate }}
+}}
+ORDER BY ?date
+"""
 
 
 def _best_label(*values):

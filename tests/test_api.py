@@ -119,8 +119,8 @@ def test_concerts_search_endpoint_reflects_uploaded_data(client):
     assert data[0]["composers"] == [{
         "id": "https://knowledge.semanticscore.net/knowledge/composer1",
         "name": "Jean Sibelius",
-        "gender": ["Male"],
-        "birthPlace": [{"id": "https://knowledge.semanticscore.net/knowledge/finland", "label": "Finland"}],
+        "gender": {"id": None, "label": "Male"},
+        "birthPlace": {"id": "https://knowledge.semanticscore.net/knowledge/finland", "label": "Finland"},
         "birthDate": None,
         "deathDate": None,
     }]

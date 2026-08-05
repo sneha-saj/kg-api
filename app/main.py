@@ -10,6 +10,8 @@ Endpoints:
 Run:
   uvicorn app.main:app --reload --workers 1
 """
+import logging
+import time
 from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Optional
@@ -24,7 +26,10 @@ from .resolvers import get_composers, get_concerts, search_concerts
 ASSERTIONS_DIR = Path(__file__).resolve().parent.parent / "knowledge" / "assertions"
 ASSERTIONS_DIR.mkdir(parents=True, exist_ok=True)
 
+logging.basicConfig(level=logging.INFO)
+
 store = KnowledgeGraphStore(ASSERTIONS_DIR)
+logger = logging.getLogger("kg_api")
 
 
 @asynccontextmanager
@@ -35,6 +40,20 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(title="Knowledge Graph API", lifespan=lifespan)
+
+@app.middleware("http")
+async def log_requests(request, call_next):
+    start = time.perf_counter()
+    logger.info("request %s %s", request.method, request.url.path)
+    try:
+        response = await call_next(request)
+    except Exception:
+        logger.exception("request failed %s %s", request.method, request.url.path)
+        raise
+
+    duration_ms = int((time.perf_counter() - start) * 1000)
+    logger.info("response %s %s %s %dms", request.method, request.url.path, response.status_code, duration_ms)
+    return response
 
 # Wide open for now so the frontend dev can hit this from localhost/any origin.
 # Tighten allow_origins to your actual frontend URL before this goes anywhere near prod.
