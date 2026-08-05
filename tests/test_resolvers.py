@@ -168,10 +168,24 @@ def test_search_concerts_supports_reverse_programme_link(store):
     cmk:composer1 foaf:firstName "Kaija" ; foaf:familyName "Saariaho" .
     """)
 
+    upload(store, """
+    cmk:composer1 foaf:firstName "Kaija" ; foaf:familyName "Saariaho" ;
+        schema:gender schema:Female ;
+        schema:birthPlace cmk:finland .
+    cmk:finland skos:prefLabel "Finland"@en .
+    """)
+
     concerts = search_concerts(store)
     assert len(concerts) == 1
     assert concerts[0]["programme"] == "Reverse Programme"
-    assert concerts[0]["composers"] == [{"id": "https://knowledge.semanticscore.net/knowledge/composer1", "name": "Kaija Saariaho"}]
+    assert concerts[0]["composers"] == [{
+        "id": "https://knowledge.semanticscore.net/knowledge/composer1",
+        "name": "Kaija Saariaho",
+        "gender": ["Female"],
+        "birthPlace": [{"id": "https://knowledge.semanticscore.net/knowledge/finland", "label": "Finland"}],
+        "birthDate": None,
+        "deathDate": None,
+    }]
 
 
 def test_search_concerts_supports_schema_location_venue(store):

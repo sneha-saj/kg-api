@@ -18,6 +18,7 @@ CONCERT_TTL = b"""
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix schema: <https://schema.org/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 cmk:c1 a mo:Performance ;
@@ -29,7 +30,10 @@ cmk:p1 rdfs:label "Programme One" ;
     schema:hasPart cmk:work1 .
 
 cmk:work1 schema:composer cmk:composer1 .
-cmk:composer1 foaf:firstName "Jean" ; foaf:familyName "Sibelius" .
+cmk:composer1 foaf:firstName "Jean" ; foaf:familyName "Sibelius" ;
+    schema:gender schema:Male ;
+    schema:birthPlace cmk:finland .
+cmk:finland skos:prefLabel "Finland"@en .
 """
 
 
@@ -112,7 +116,14 @@ def test_concerts_search_endpoint_reflects_uploaded_data(client):
     assert len(data) == 1
     assert data[0]["title"] == "Test Concert"
     assert data[0]["programme"] == "Programme One"
-    assert data[0]["composers"] == [{"id": "https://knowledge.semanticscore.net/knowledge/composer1", "name": "Jean Sibelius"}]
+    assert data[0]["composers"] == [{
+        "id": "https://knowledge.semanticscore.net/knowledge/composer1",
+        "name": "Jean Sibelius",
+        "gender": ["Male"],
+        "birthPlace": [{"id": "https://knowledge.semanticscore.net/knowledge/finland", "label": "Finland"}],
+        "birthDate": None,
+        "deathDate": None,
+    }]
 
 
 def test_concerts_search_endpoint_filters_by_composer(client):

@@ -180,8 +180,9 @@ PREFIX cmo: <https://knowledge.semanticscore.net/ontology/>
 PREFIX mo: <http://purl.org/ontology/mo/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-SELECT ?concert ?composer ?composerFirst ?composerLast
+SELECT ?concert ?composer ?composerFirst ?composerLast ?composerGender ?birthDate ?deathDate ?birthPlace ?birthPlaceLabel
 WHERE {
     ?concert a mo:Performance ;
                      schema:startDate ?date .
@@ -212,6 +213,13 @@ WHERE {
 
     OPTIONAL { ?composer foaf:firstName ?composerFirst }
     OPTIONAL { ?composer foaf:familyName ?composerLast }
+    OPTIONAL { ?composer schema:gender ?composerGender }
+    OPTIONAL { ?composer schema:birthDate ?birthDate }
+    OPTIONAL { ?composer schema:deathDate ?deathDate }
+    OPTIONAL {
+        ?composer schema:birthPlace ?birthPlace .
+        OPTIONAL { ?birthPlace skos:prefLabel ?birthPlaceLabel }
+    }
 }
 ORDER BY ?date
 """
@@ -372,7 +380,7 @@ def search_concerts(
         if concerts[cid].get("programme") is None and row_programme is not None:
             concerts[cid]["programme"] = row_programme
 
-    composer_map: dict[str, list[dict]] = {}
+    composer_map: dict[str, dict[str, dict]] = {}
     for row in composer_rows:
         cid_raw = row.get("concert")
         if not cid_raw:
@@ -386,17 +394,43 @@ def search_concerts(
         if not composer_name and not composer_iri:
             continue
 
-        composer_entry = {
+        composer_key = composer_iri or composer_name or ""
+        composer_bucket = composer_map.setdefault(cid, {})
+        composer_entry = composer_bucket.setdefault(composer_key, {
             "id": composer_iri,
             "name": composer_name or _iri_tail(composer_iri),
-        }
-        composer_list = composer_map.setdefault(cid, [])
-        if composer_entry not in composer_list:
-            composer_list.append(composer_entry)
+            "gender": [],
+            "birthPlace": [],
+            "birthDate": None,
+            "deathDate": None,
+        })
 
-    for cid, composers in composer_map.items():
+        if composer_iri and composer_entry.get("id") != composer_iri:
+            composer_entry["id"] = composer_iri
+        if composer_name and not composer_entry.get("name"):
+            composer_entry["name"] = composer_name
+
+        gender = row.get("composerGender")
+        if gender:
+            label = _gender_label(gender)
+            if label not in composer_entry["gender"]:
+                composer_entry["gender"].append(label)
+
+        composer_entry["birthDate"] = row.get("birthDate") or composer_entry.get("birthDate")
+        composer_entry["deathDate"] = row.get("deathDate") or composer_entry.get("deathDate")
+
+        birth_place_iri = _clean_uri(row.get("birthPlace"))
+        if birth_place_iri:
+            birth_place_value = {
+                "id": birth_place_iri,
+                "label": _clean_literal(row.get("birthPlaceLabel")),
+            }
+            if birth_place_value not in composer_entry["birthPlace"]:
+                composer_entry["birthPlace"].append(birth_place_value)
+
+    for cid, composer_bucket in composer_map.items():
         if cid in concerts:
-            concerts[cid]["composers"] = composers
+            concerts[cid]["composers"] = list(composer_bucket.values())
 
     filtered = [concert for concert in concerts.values() if _matches_filters(
         concert=concert,
