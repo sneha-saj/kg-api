@@ -6,6 +6,7 @@ A small FastAPI server that holds a knowledge graph in memory (via [maplib](http
 - `POST /sparql` — run a SPARQL query, get JSON rows back
 - `GET  /sparql?query=...` — same, for quick testing in a browser or Yasgui
 - `GET  /health` — basic liveness check
+- `GET  /concerts/search` — optimized shaped concert search with server-side filters
 
 Every `.ttl` file is loaded into a single shared default graph. An upload
 writes the file to `knowledge/assertions/` and then rebuilds the whole in-memory graph from
@@ -99,6 +100,24 @@ Or in a browser, for a quick eyeball check:
 ```
 http://127.0.0.1:8000/sparql?query=SELECT * WHERE { ?s ?p ?o } LIMIT 10
 ```
+
+Optimized concert search:
+
+```bash
+curl "http://127.0.0.1:8000/concerts/search?q=sibelius&start_date=2025-09-01&limit=50"
+```
+
+Supported query params for `/concerts/search`:
+
+- `q` (free text over title, venue, programme, composer)
+- `venue` (exact, case-insensitive)
+- `programme` (exact, case-insensitive)
+- `composer` (exact full-name match, case-insensitive)
+- `start_date` (`YYYY-MM-DD`)
+- `end_date` (`YYYY-MM-DD`)
+- `min_date` (`YYYY-MM-DD`, defaults to `2025-09-01`)
+- `limit` (1..1000, default 250)
+- `offset` (>=0, default 0)
 
 ## Testing
 

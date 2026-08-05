@@ -1,4 +1,4 @@
-from app.resolvers import get_composers, get_concerts
+from app.resolvers import get_composers, get_concerts, search_concerts
 
 PREFIXES = """
 @prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
@@ -154,6 +154,75 @@ def test_multiple_concerts_ordered_by_date(store):
 
 def test_no_data_returns_empty_list(store):
     assert get_concerts(store) == []
+
+
+def test_search_concerts_supports_reverse_programme_link(store):
+    upload(store, """
+    cmk:c1 a mo:Performance ;
+        schema:name "Reverse Link Concert" ;
+        schema:startDate "2026-01-01T19:00:00"^^xsd:dateTime .
+    cmk:p1 cmo:is-performed-at cmk:c1 ;
+        rdfs:label "Reverse Programme" ;
+        schema:hasPart cmk:work1 .
+    cmk:work1 schema:composer cmk:composer1 .
+    cmk:composer1 foaf:firstName "Kaija" ; foaf:familyName "Saariaho" .
+    """)
+
+    concerts = search_concerts(store)
+    assert len(concerts) == 1
+    assert concerts[0]["programme"] == "Reverse Programme"
+    assert concerts[0]["composers"] == ["Kaija Saariaho"]
+
+
+def test_search_concerts_supports_schema_location_venue(store):
+    upload(store, """
+    cmk:c1 a mo:Performance ;
+        schema:name "Location Venue Concert" ;
+        schema:startDate "2026-01-01T19:00:00"^^xsd:dateTime ;
+        schema:location cmk:v1 .
+    cmk:v1 rdfs:label "Location Venue" .
+    """)
+
+    concerts = search_concerts(store)
+    assert len(concerts) == 1
+    assert concerts[0]["venue"] == "Location Venue"
+
+
+def test_search_concerts_supports_featured_at_composer_fallback(store):
+    upload(store, """
+    cmk:c1 a mo:Performance ;
+        schema:name "Featured Concert" ;
+        schema:startDate "2026-01-01T19:00:00"^^xsd:dateTime .
+    cmk:composer1 foaf:firstName "Einojuhani" ;
+        foaf:familyName "Rautavaara" ;
+        cmo:featured-at cmk:c1 .
+    """)
+
+    concerts = search_concerts(store)
+    assert len(concerts) == 1
+    assert concerts[0]["composers"] == ["Einojuhani Rautavaara"]
+
+
+def test_search_concerts_text_and_composer_filters(store):
+    upload(store, """
+    cmk:c1 a mo:Performance ;
+        schema:name "Nordic Gala" ;
+        schema:startDate "2026-01-01T19:00:00"^^xsd:dateTime ;
+        cmo:has-programme cmk:p1 .
+    cmk:p1 rdfs:label "Winter Programme" ;
+        schema:hasPart cmk:work1 .
+    cmk:work1 schema:composer cmk:composer1 .
+    cmk:composer1 foaf:firstName "Jean" ; foaf:familyName "Sibelius" .
+    """)
+
+    by_text = search_concerts(store, search_text="nordic")
+    assert len(by_text) == 1
+
+    by_composer = search_concerts(store, composer="Jean Sibelius")
+    assert len(by_composer) == 1
+
+    no_match = search_concerts(store, composer="Unknown")
+    assert no_match == []
 
 
 def test_composer_basic_fields(store):

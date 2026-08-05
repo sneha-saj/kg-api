@@ -14,12 +14,12 @@ from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Optional
 
-from fastapi import FastAPI, File, HTTPException, UploadFile
+from fastapi import FastAPI, File, HTTPException, Query, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 from .store import KnowledgeGraphStore
-from .resolvers import get_concerts, get_composers
+from .resolvers import get_composers, get_concerts, search_concerts
 
 ASSERTIONS_DIR = Path(__file__).resolve().parent.parent / "knowledge" / "assertions"
 ASSERTIONS_DIR.mkdir(parents=True, exist_ok=True)
@@ -70,6 +70,36 @@ async def upload_ttl(file: UploadFile = File(...)):
 def concerts():
     """Shaped endpoint: nested JSON, no SPARQL knowledge needed by the caller."""
     return get_concerts(store)
+
+
+@app.get("/concerts/search")
+def concerts_search(
+    q: Optional[str] = None,
+    venue: Optional[str] = None,
+    programme: Optional[str] = None,
+    composer: Optional[str] = None,
+    start_date: Optional[str] = None,
+    end_date: Optional[str] = None,
+    min_date: Optional[str] = "2025-09-01",
+    limit: int = Query(default=250, ge=1, le=1000),
+    offset: int = Query(default=0, ge=0),
+):
+    """Optimized shaped search endpoint for concert browsing.
+
+    Server-side filtering keeps frontend query logic simple and resilient.
+    """
+    return search_concerts(
+        store,
+        search_text=q,
+        venue=venue,
+        programme=programme,
+        composer=composer,
+        start_date=start_date,
+        end_date=end_date,
+        min_date=min_date,
+        limit=limit,
+        offset=offset,
+    )
 
 
 @app.get("/composers")

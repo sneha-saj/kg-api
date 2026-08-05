@@ -7,6 +7,9 @@ Pattern: one function per endpoint. Each function
   3. groups those rows into nested JSON keyed by concert
 """
 
+from datetime import datetime, timezone
+from typing import Optional
+
 CONCERT_QUERY = """
 PREFIX cmo: <https://knowledge.semanticscore.net/ontology/>
 PREFIX mo: <http://purl.org/ontology/mo/>
@@ -125,6 +128,94 @@ WHERE {
 }
 """
 
+SEARCH_CONCERT_CORE_QUERY = """
+PREFIX cmo: <https://knowledge.semanticscore.net/ontology/>
+PREFIX mo: <http://purl.org/ontology/mo/>
+PREFIX schema: <https://schema.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT
+    ?concert ?title ?date
+    ?venue ?venueLabel ?venueSchemaName ?venuePrefLabel
+    ?programmeForward ?programmeForwardLabel ?programmeForwardSchemaName ?programmeForwardPrefLabel
+    ?programmeReverse ?programmeReverseLabel ?programmeReverseSchemaName ?programmeReversePrefLabel
+WHERE {
+    ?concert a mo:Performance ;
+                     schema:name ?title ;
+                     schema:startDate ?date .
+
+    OPTIONAL {
+        { ?concert cmo:has-venue ?venue }
+        UNION
+        { ?concert cmo:takes-place-at ?venue }
+        UNION
+        { ?concert schema:location ?venue }
+        OPTIONAL { ?venue rdfs:label ?venueLabel }
+        OPTIONAL { ?venue schema:name ?venueSchemaName }
+        OPTIONAL { ?venue skos:prefLabel ?venuePrefLabel }
+    }
+
+    OPTIONAL {
+        { ?concert cmo:has-programme ?programmeForward }
+        UNION
+        { ?concert cmo:hasProgramme ?programmeForward }
+        OPTIONAL { ?programmeForward rdfs:label ?programmeForwardLabel }
+        OPTIONAL { ?programmeForward schema:name ?programmeForwardSchemaName }
+        OPTIONAL { ?programmeForward skos:prefLabel ?programmeForwardPrefLabel }
+    }
+
+    OPTIONAL {
+        ?programmeReverse cmo:is-performed-at ?concert .
+        OPTIONAL { ?programmeReverse rdfs:label ?programmeReverseLabel }
+        OPTIONAL { ?programmeReverse schema:name ?programmeReverseSchemaName }
+        OPTIONAL { ?programmeReverse skos:prefLabel ?programmeReversePrefLabel }
+    }
+}
+ORDER BY ?date
+"""
+
+SEARCH_CONCERT_COMPOSER_QUERY = """
+PREFIX cmo: <https://knowledge.semanticscore.net/ontology/>
+PREFIX mo: <http://purl.org/ontology/mo/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <https://schema.org/>
+
+SELECT ?concert ?composer ?composerFirst ?composerLast
+WHERE {
+    ?concert a mo:Performance ;
+                     schema:startDate ?date .
+
+    {
+        {
+            { ?concert cmo:has-programme ?programme }
+            UNION
+            { ?concert cmo:hasProgramme ?programme }
+            UNION
+            { ?programme cmo:is-performed-at ?concert }
+        }
+        {
+            {
+                ?programme schema:hasPart ?composition .
+                ?composition schema:composer ?composer .
+            }
+            UNION
+            {
+                ?programme cmo:contains-music-by ?composer .
+            }
+        }
+    }
+    UNION
+    {
+        ?composer cmo:featured-at ?concert .
+    }
+
+    OPTIONAL { ?composer foaf:firstName ?composerFirst }
+    OPTIONAL { ?composer foaf:familyName ?composerLast }
+}
+ORDER BY ?date
+"""
+
 
 def _clean_uri(value):
     """maplib returns URI columns as their raw N-Triples form, e.g.
@@ -217,6 +308,206 @@ def get_composers(store) -> list[dict]:
         })
 
     return list(composers.values())
+
+
+def search_concerts(
+    store,
+    search_text: Optional[str] = None,
+    venue: Optional[str] = None,
+    programme: Optional[str] = None,
+    composer: Optional[str] = None,
+    start_date: Optional[str] = None,
+    end_date: Optional[str] = None,
+    min_date: Optional[str] = "2025-09-01",
+    limit: int = 250,
+    offset: int = 0,
+) -> list[dict]:
+    """Return concert search results with robust fallback predicate coverage.
+
+    This endpoint is intended for frontend search and keeps filtering logic
+    server-side so callers do not need to maintain large SPARQL query strings.
+    """
+    rows = store.query(SEARCH_CONCERT_CORE_QUERY).to_dicts()
+    composer_rows = store.query(SEARCH_CONCERT_COMPOSER_QUERY).to_dicts()
+
+    concerts: dict[str, dict] = {}
+    for row in rows:
+        cid_raw = row.get("concert")
+        if not cid_raw:
+            continue
+
+        cid = _clean_uri(cid_raw)
+        row_venue = _best_label(
+            row.get("venueLabel"),
+            row.get("venueSchemaName"),
+            row.get("venuePrefLabel"),
+            row.get("venue"),
+        )
+        row_programme = _best_label(
+            row.get("programmeForwardLabel"),
+            row.get("programmeForwardSchemaName"),
+            row.get("programmeForwardPrefLabel"),
+            row.get("programmeForward"),
+            row.get("programmeReverseLabel"),
+            row.get("programmeReverseSchemaName"),
+            row.get("programmeReversePrefLabel"),
+            row.get("programmeReverse"),
+        )
+
+        if cid not in concerts:
+            concerts[cid] = {
+                "id": cid,
+                "title": row.get("title"),
+                "date": row.get("date"),
+                "venue": row_venue,
+                "programme": row_programme,
+                "composers": [],
+            }
+            continue
+
+        # Some result rows for the same concert may miss optional labels.
+        # Backfill from later rows when we discover a concrete value.
+        if concerts[cid].get("venue") is None and row_venue is not None:
+            concerts[cid]["venue"] = row_venue
+        if concerts[cid].get("programme") is None and row_programme is not None:
+            concerts[cid]["programme"] = row_programme
+
+    composer_map: dict[str, list[str]] = {}
+    for row in composer_rows:
+        cid_raw = row.get("concert")
+        if not cid_raw:
+            continue
+
+        cid = _clean_uri(cid_raw)
+        composer_name = _composer_name(
+            row.get("composerFirst"), row.get("composerLast"), row.get("composer")
+        )
+        if not composer_name:
+            continue
+
+        composer_list = composer_map.setdefault(cid, [])
+        if composer_name not in composer_list:
+            composer_list.append(composer_name)
+
+    for cid, names in composer_map.items():
+        if cid in concerts:
+            concerts[cid]["composers"] = names
+
+    filtered = [concert for concert in concerts.values() if _matches_filters(
+        concert=concert,
+        search_text=search_text,
+        venue=venue,
+        programme=programme,
+        composer=composer,
+        start_date=start_date,
+        end_date=end_date,
+        min_date=min_date,
+    )]
+
+    filtered.sort(key=lambda c: (_sortable_date(c.get("date")) is None, _sortable_date(c.get("date"))))
+    safe_offset = max(0, offset)
+    safe_limit = max(0, min(limit, 1000))
+    if safe_limit == 0:
+        return []
+    return filtered[safe_offset : safe_offset + safe_limit]
+
+
+def _best_label(*values):
+    for value in values:
+        if value is None:
+            continue
+        cleaned = _clean_literal(_clean_uri(value))
+        if isinstance(cleaned, str) and cleaned.strip():
+            return cleaned.strip()
+    return None
+
+
+def _iri_tail(value: str) -> str:
+    if not value:
+        return value
+    cleaned = _clean_uri(value)
+    tail = cleaned.rstrip("/").split("/")[-1].split("#")[-1]
+    return tail or cleaned
+
+
+def _composer_name(first, last, fallback_iri) -> Optional[str]:
+    parts = [part for part in (first, last) if part]
+    if parts:
+        return " ".join(parts)
+    if fallback_iri:
+        return _iri_tail(fallback_iri)
+    return None
+
+
+def _sortable_date(value):
+    if value is None:
+        return None
+    if isinstance(value, datetime):
+        if value.tzinfo is not None:
+            return value.astimezone(timezone.utc).replace(tzinfo=None)
+        return value
+    text = str(value)
+    # maplib dateTime values can use trailing Z, normalize for fromisoformat.
+    normalized = text.replace("Z", "+00:00")
+    try:
+        parsed = datetime.fromisoformat(normalized)
+        if parsed.tzinfo is not None:
+            return parsed.astimezone(timezone.utc).replace(tzinfo=None)
+        return parsed
+    except ValueError:
+        return None
+
+
+def _matches_filters(
+    concert: dict,
+    search_text: Optional[str],
+    venue: Optional[str],
+    programme: Optional[str],
+    composer: Optional[str],
+    start_date: Optional[str],
+    end_date: Optional[str],
+    min_date: Optional[str],
+) -> bool:
+    date_value = _sortable_date(concert.get("date"))
+
+    min_dt = _sortable_date(f"{min_date}T00:00:00") if min_date else None
+    start_dt = _sortable_date(f"{start_date}T00:00:00") if start_date else None
+    end_dt = _sortable_date(f"{end_date}T23:59:59") if end_date else None
+
+    if min_dt and date_value and date_value < min_dt:
+        return False
+    if start_dt and date_value and date_value < start_dt:
+        return False
+    if end_dt and date_value and date_value > end_dt:
+        return False
+
+    if venue:
+        if (concert.get("venue") or "").strip().lower() != venue.strip().lower():
+            return False
+
+    if programme:
+        if (concert.get("programme") or "").strip().lower() != programme.strip().lower():
+            return False
+
+    if composer:
+        composer_target = composer.strip().lower()
+        if not any(name.lower() == composer_target for name in concert.get("composers", [])):
+            return False
+
+    if search_text:
+        target = search_text.strip().lower()
+        haystack = " ".join(
+            [
+                str(concert.get("title") or ""),
+                str(concert.get("venue") or ""),
+                str(concert.get("programme") or ""),
+                " ".join(concert.get("composers", [])),
+            ]
+        ).lower()
+        if target not in haystack:
+            return False
+
+    return True
 
 
 # --- Filtering safely ---

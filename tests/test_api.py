@@ -13,13 +13,23 @@ ex:a ex:knows ex:b .
 
 CONCERT_TTL = b"""
 @prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
 @prefix mo: <http://purl.org/ontology/mo/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix schema: <https://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 cmk:c1 a mo:Performance ;
     schema:name "Test Concert" ;
-    schema:startDate "2026-01-01T19:00:00"^^xsd:dateTime .
+    schema:startDate "2026-01-01T19:00:00"^^xsd:dateTime ;
+    cmo:has-programme cmk:p1 .
+
+cmk:p1 rdfs:label "Programme One" ;
+    schema:hasPart cmk:work1 .
+
+cmk:work1 schema:composer cmk:composer1 .
+cmk:composer1 foaf:firstName "Jean" ; foaf:familyName "Sibelius" .
 """
 
 
@@ -89,6 +99,31 @@ def test_concerts_endpoint_reflects_uploaded_data(client):
 
 def test_concerts_endpoint_empty_when_no_data(client):
     res = client.get("/concerts")
+    assert res.status_code == 200
+    assert res.json() == []
+
+
+def test_concerts_search_endpoint_reflects_uploaded_data(client):
+    client.post("/upload", files={"file": ("concerts.ttl", CONCERT_TTL, "text/turtle")})
+
+    res = client.get("/concerts/search")
+    assert res.status_code == 200
+    data = res.json()
+    assert len(data) == 1
+    assert data[0]["title"] == "Test Concert"
+    assert data[0]["programme"] == "Programme One"
+    assert data[0]["composers"] == ["Jean Sibelius"]
+
+
+def test_concerts_search_endpoint_filters_by_composer(client):
+    client.post("/upload", files={"file": ("concerts.ttl", CONCERT_TTL, "text/turtle")})
+
+    res = client.get("/concerts/search", params={"composer": "Jean Sibelius"})
+    assert res.status_code == 200
+    data = res.json()
+    assert len(data) == 1
+
+    res = client.get("/concerts/search", params={"composer": "Unknown Composer"})
     assert res.status_code == 200
     assert res.json() == []
 
