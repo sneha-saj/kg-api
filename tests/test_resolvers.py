@@ -171,7 +171,7 @@ def test_search_concerts_supports_reverse_programme_link(store):
     concerts = search_concerts(store)
     assert len(concerts) == 1
     assert concerts[0]["programme"] == "Reverse Programme"
-    assert concerts[0]["composers"] == ["Kaija Saariaho"]
+    assert concerts[0]["composers"] == [{"id": "https://knowledge.semanticscore.net/knowledge/composer1", "name": "Kaija Saariaho"}]
 
 
 def test_search_concerts_supports_schema_location_venue(store):
@@ -200,7 +200,7 @@ def test_search_concerts_supports_featured_at_composer_fallback(store):
 
     concerts = search_concerts(store)
     assert len(concerts) == 1
-    assert concerts[0]["composers"] == ["Einojuhani Rautavaara"]
+    assert concerts[0]["composers"] == [{"id": "https://knowledge.semanticscore.net/knowledge/composer1", "name": "Einojuhani Rautavaara"}]
 
 
 def test_search_concerts_text_and_composer_filters(store):

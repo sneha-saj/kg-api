@@ -112,7 +112,7 @@ def test_concerts_search_endpoint_reflects_uploaded_data(client):
     assert len(data) == 1
     assert data[0]["title"] == "Test Concert"
     assert data[0]["programme"] == "Programme One"
-    assert data[0]["composers"] == ["Jean Sibelius"]
+    assert data[0]["composers"] == [{"id": "https://knowledge.semanticscore.net/knowledge/composer1", "name": "Jean Sibelius"}]
 
 
 def test_concerts_search_endpoint_filters_by_composer(client):

@@ -372,26 +372,31 @@ def search_concerts(
         if concerts[cid].get("programme") is None and row_programme is not None:
             concerts[cid]["programme"] = row_programme
 
-    composer_map: dict[str, list[str]] = {}
+    composer_map: dict[str, list[dict]] = {}
     for row in composer_rows:
         cid_raw = row.get("concert")
         if not cid_raw:
             continue
 
         cid = _clean_uri(cid_raw)
+        composer_iri = _clean_uri(row.get("composer"))
         composer_name = _composer_name(
-            row.get("composerFirst"), row.get("composerLast"), row.get("composer")
+            row.get("composerFirst"), row.get("composerLast"), composer_iri
         )
-        if not composer_name:
+        if not composer_name and not composer_iri:
             continue
 
+        composer_entry = {
+            "id": composer_iri,
+            "name": composer_name or _iri_tail(composer_iri),
+        }
         composer_list = composer_map.setdefault(cid, [])
-        if composer_name not in composer_list:
-            composer_list.append(composer_name)
+        if composer_entry not in composer_list:
+            composer_list.append(composer_entry)
 
-    for cid, names in composer_map.items():
+    for cid, composers in composer_map.items():
         if cid in concerts:
-            concerts[cid]["composers"] = names
+            concerts[cid]["composers"] = composers
 
     filtered = [concert for concert in concerts.values() if _matches_filters(
         concert=concert,
@@ -491,7 +496,10 @@ def _matches_filters(
 
     if composer:
         composer_target = composer.strip().lower()
-        if not any(name.lower() == composer_target for name in concert.get("composers", [])):
+        if not any(
+            (composer_entry.get("name") or "").strip().lower() == composer_target
+            for composer_entry in concert.get("composers", [])
+        ):
             return False
 
     if search_text:
@@ -501,7 +509,9 @@ def _matches_filters(
                 str(concert.get("title") or ""),
                 str(concert.get("venue") or ""),
                 str(concert.get("programme") or ""),
-                " ".join(concert.get("composers", [])),
+                " ".join(
+                    [str(composer_entry.get("name") or "") for composer_entry in concert.get("composers", [])]
+                ),
             ]
         ).lower()
         if target not in haystack:
