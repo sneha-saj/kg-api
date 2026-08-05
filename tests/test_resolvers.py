@@ -1,4 +1,4 @@
-from app.resolvers import get_concerts
+from app.resolvers import get_composers, get_concerts
 
 PREFIXES = """
 @prefix cmo: <https://knowledge.semanticscore.net/ontology/> .
@@ -7,6 +7,7 @@ PREFIXES = """
 @prefix schema: <https://schema.org/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 """
 
@@ -153,3 +154,103 @@ def test_multiple_concerts_ordered_by_date(store):
 
 def test_no_data_returns_empty_list(store):
     assert get_concerts(store) == []
+
+
+def test_composer_basic_fields(store):
+    """birthDate/deathDate come back as native date objects, same as
+    get_concerts' ?date column -- FastAPI serializes them to ISO strings at
+    the HTTP boundary (see test_composers_endpoint_reflects_uploaded_data)."""
+    import datetime
+
+    upload(store, """
+    cmk:composer1 a foaf:Person ;
+        foaf:firstName "Jean" ; foaf:familyName "Sibelius" ;
+        schema:birthDate "1865-12-08"^^xsd:date ;
+        schema:deathDate "1957-09-20"^^xsd:date .
+    """)
+
+    composers = get_composers(store)
+    assert len(composers) == 1
+    assert composers[0]["name"] == "Jean Sibelius"
+    assert composers[0]["birthDate"] == datetime.date(1865, 12, 8)
+    assert composers[0]["deathDate"] == datetime.date(1957, 9, 20)
+    assert composers[0]["nationality"] == []
+    assert composers[0]["featuredAt"] == []
+
+
+def test_composer_year_only_precision(store):
+    """KANTO/FINAF-sourced composers may only have year precision -- see
+    cmo:birthYear/deathYear in source-ontology.ttl."""
+    upload(store, """
+    cmk:composer1 a foaf:Person ;
+        foaf:firstName "Antti" ; foaf:familyName "Auvinen" ;
+        cmo:birthYear "1974"^^xsd:gYear .
+    """)
+
+    composers = get_composers(store)
+    assert composers[0]["birthYear"] == "1974"
+    assert composers[0]["birthDate"] is None
+
+
+def test_composer_gender_prefers_schema_org_label(store):
+    """schema:gender can carry both a schema.org individual (labelled) and a
+    GSSO ontology concept (no label in our data) for the same composer."""
+    upload(store, """
+    cmk:composer1 a foaf:Person ;
+        foaf:firstName "Jean" ; foaf:familyName "Sibelius" ;
+        schema:gender schema:Male, <http://purl.obolibrary.org/obo/GSSO_000090> .
+    """)
+
+    composers = get_composers(store)
+    assert "Male" in composers[0]["gender"]
+    assert "http://purl.obolibrary.org/obo/GSSO_000090" in composers[0]["gender"]
+
+
+def test_composer_nationality_and_birthplace_with_labels(store):
+    upload(store, """
+    cmk:composer1 a foaf:Person ;
+        foaf:firstName "Jean" ; foaf:familyName "Sibelius" ;
+        schema:nationality cmk:finland ;
+        schema:birthPlace cmk:finland .
+    cmk:finland skos:prefLabel "Finland"@en .
+    """)
+
+    composers = get_composers(store)
+    assert composers[0]["nationality"] == [{"id": "https://knowledge.semanticscore.net/knowledge/finland", "label": "Finland"}]
+    assert composers[0]["birthPlace"] == [{"id": "https://knowledge.semanticscore.net/knowledge/finland", "label": "Finland"}]
+
+
+def test_composer_multiple_nationalities_not_deduplicated_away(store):
+    """A composer born under a since-dissolved polity can legitimately carry
+    more than one schema:nationality (see FIXES.md's Crusell note)."""
+    upload(store, """
+    cmk:composer1 a foaf:Person ;
+        foaf:firstName "Bernhard" ; foaf:familyName "Crusell" ;
+        schema:nationality cmk:finland, cmk:grand-duchy-of-finland .
+    """)
+
+    composers = get_composers(store)
+    assert len(composers[0]["nationality"]) == 2
+
+
+def test_composer_featured_at_performance(store):
+    """cmo:featured-at is a materialized inference-layer fact, not raw
+    extracted data -- see knowledge/rules/composer-featured-at.sparql."""
+    upload(store, """
+    cmk:composer1 a foaf:Person ;
+        foaf:firstName "Jean" ; foaf:familyName "Sibelius" ;
+        cmo:featured-at cmk:concert1 .
+    cmk:concert1 schema:name "Sibelius Night" ;
+        schema:startDate "2026-01-01T19:00:00"^^xsd:dateTime .
+    """)
+
+    composers = get_composers(store)
+    assert len(composers[0]["featuredAt"]) == 1
+    featured = composers[0]["featuredAt"][0]
+    assert featured["performance"] == "https://knowledge.semanticscore.net/knowledge/concert1"
+    assert featured["title"] == "Sibelius Night"
+    assert featured["date"].isoformat() == "2026-01-01T19:00:00+00:00"
+
+
+def test_composers_no_data_returns_empty_list(store):
+    assert get_composers(store) == []

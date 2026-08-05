@@ -91,3 +91,31 @@ def test_concerts_endpoint_empty_when_no_data(client):
     res = client.get("/concerts")
     assert res.status_code == 200
     assert res.json() == []
+
+
+COMPOSER_TTL = b"""
+@prefix cmk: <https://knowledge.semanticscore.net/knowledge/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+
+cmk:composer1 a foaf:Person ;
+    foaf:firstName "Jean" ; foaf:familyName "Sibelius" ;
+    schema:gender schema:Male .
+"""
+
+
+def test_composers_endpoint_reflects_uploaded_data(client):
+    client.post("/upload", files={"file": ("composers.ttl", COMPOSER_TTL, "text/turtle")})
+
+    res = client.get("/composers")
+    assert res.status_code == 200
+    data = res.json()
+    assert len(data) == 1
+    assert data[0]["name"] == "Jean Sibelius"
+    assert data[0]["gender"] == ["Male"]
+
+
+def test_composers_endpoint_empty_when_no_data(client):
+    res = client.get("/composers")
+    assert res.status_code == 200
+    assert res.json() == []

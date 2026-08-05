@@ -19,7 +19,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 from .store import KnowledgeGraphStore
-from .resolvers import get_concerts
+from .resolvers import get_concerts, get_composers
 
 ASSERTIONS_DIR = Path(__file__).resolve().parent.parent / "knowledge" / "assertions"
 ASSERTIONS_DIR.mkdir(parents=True, exist_ok=True)
@@ -70,6 +70,14 @@ async def upload_ttl(file: UploadFile = File(...)):
 def concerts():
     """Shaped endpoint: nested JSON, no SPARQL knowledge needed by the caller."""
     return get_concerts(store)
+
+
+@app.get("/composers")
+def composers():
+    """Shaped endpoint: every composer with enrichment attributes (gender,
+    nationality, birthplace, birth/death dates) and the performances they're
+    featured at (materialized inference-layer fact, cmo:featured-at)."""
+    return get_composers(store)
 
 
 class SparqlRequest(BaseModel):
