@@ -10,11 +10,10 @@ Pattern: one function per endpoint. Each function
 CONCERT_QUERY = """
 PREFIX cmo: <https://knowledge.semanticscore.net/ontology/>
 PREFIX mo: <http://purl.org/ontology/mo/>
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX schema: <https://schema.org/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT ?concert ?title ?date ?venueName ?programmeTitle ?composerFirst ?composerLast
+SELECT ?concert ?title ?date ?venueName ?programmeTitle
 WHERE {
     ?concert a mo:Performance ;
              schema:name ?title ;
@@ -28,46 +27,49 @@ WHERE {
     OPTIONAL {
         { ?concert cmo:has-programme ?programme } UNION { ?concert cmo:hasProgramme ?programme }
         OPTIONAL { ?programme rdfs:label ?programmeTitle }
-        OPTIONAL {
-            ?programme schema:hasPart ?composition .
-            ?composition schema:composer ?composer .
-            OPTIONAL { ?composer foaf:firstName ?composerFirst }
-            OPTIONAL { ?composer foaf:familyName ?composerLast }
-        }
     }
 }
 ORDER BY ?date
 """
 
+CONCERT_COMPOSER_QUERY = """
+PREFIX cmo: <https://knowledge.semanticscore.net/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+SELECT ?concert ?composerFirst ?composerLast
+WHERE {
+    ?composer cmo:featured-at ?concert .
+    OPTIONAL { ?composer foaf:firstName ?composerFirst }
+    OPTIONAL { ?composer foaf:familyName ?composerLast }
+}
+"""
+
 
 def get_concerts(store) -> list[dict]:
-    """Returns a list of concerts with venue, programme, and composer info
-    (composers come from programme_agent.py's schema:hasPart -> MusicComposition
-    -> schema:composer chain, not the unused cmo:contains-music-by predicate).
+    """Returns a list of concerts with venue, programme, and composer info.
     e.g. [{"id": ..., "title": ..., "date": ..., "venue": ..., "programme": ...,
            "composers": ["Jean Sibelius", ...]}]
     """
-    df = store.query(CONCERT_QUERY)
-    rows = df.to_dicts()
-
     concerts: dict[str, dict] = {}
-    for row in rows:
-        cid = row["concert"]
-        if cid not in concerts:
-            concerts[cid] = {
-                "id": cid,
-                "title": row.get("title"),
-                "date": row.get("date"),
-                "venue": row.get("venueName"),
-                "programme": row.get("programmeTitle"),
-                "composers": [],
-            }
+    for row in store.query(CONCERT_QUERY).to_dicts():
+        concerts[row["concert"]] = {
+            "id": row["concert"],
+            "title": row.get("title"),
+            "date": row.get("date"),
+            "venue": row.get("venueName"),
+            "programme": row.get("programmeTitle"),
+            "composers": [],
+        }
 
+    for row in store.query(CONCERT_COMPOSER_QUERY).to_dicts():
+        entry = concerts.get(row["concert"])
+        if entry is None:
+            continue
         composer_name = " ".join(
             part for part in (row.get("composerFirst"), row.get("composerLast")) if part
         )
-        if composer_name and composer_name not in concerts[cid]["composers"]:
-            concerts[cid]["composers"].append(composer_name)
+        if composer_name and composer_name not in entry["composers"]:
+            entry["composers"].append(composer_name)
 
     return list(concerts.values())
 
