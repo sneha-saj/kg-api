@@ -10,11 +10,13 @@ Endpoints:
 Run:
   uvicorn app.main:app --reload --workers 1
 """
+import os
+import secrets
 from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Optional
 
-from fastapi import FastAPI, File, HTTPException, UploadFile
+from fastapi import Depends, FastAPI, File, Header, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
@@ -23,6 +25,18 @@ from .resolvers import get_concerts, get_composers
 
 ASSERTIONS_DIR = Path(__file__).resolve().parent.parent / "knowledge" / "assertions"
 ASSERTIONS_DIR.mkdir(parents=True, exist_ok=True)
+
+UPLOAD_TOKEN = os.environ.get("UPLOAD_TOKEN", "")
+
+
+def require_upload_token(authorization: str = Header(default="")):
+    """Guards /upload: anyone with the network path to this API could
+    otherwise overwrite the knowledge graph, since maplib has no auth
+    of its own. /sparql doesn't need this - maplib's query() rejects
+    SPARQL Update forms, so it can't be used to write data."""
+    token = authorization.removeprefix("Bearer ").strip()
+    if not UPLOAD_TOKEN or not secrets.compare_digest(token, UPLOAD_TOKEN):
+        raise HTTPException(401, "Missing or invalid bearer token")
 
 store = KnowledgeGraphStore(ASSERTIONS_DIR)
 
@@ -51,7 +65,7 @@ def health():
     return {"status": "ok", "assertions_dir": str(ASSERTIONS_DIR)}
 
 
-@app.post("/upload")
+@app.post("/upload", dependencies=[Depends(require_upload_token)])
 async def upload_ttl(file: UploadFile = File(...)):
     if not file.filename.endswith(".ttl"):
         raise HTTPException(400, "Only .ttl files are accepted")

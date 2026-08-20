@@ -22,12 +22,16 @@ cmk:c1 a mo:Performance ;
     schema:startDate "2026-01-01T19:00:00"^^xsd:dateTime .
 """
 
+TEST_TOKEN = "test-token"
+AUTH = {"Authorization": f"Bearer {TEST_TOKEN}"}
+
 
 @pytest.fixture
 def client(tmp_path: Path, monkeypatch):
     """TestClient wired to a store backed by a scratch directory, so tests
     never touch the real knowledge/assertions/ data."""
     monkeypatch.setattr(main, "store", KnowledgeGraphStore(tmp_path))
+    monkeypatch.setattr(main, "UPLOAD_TOKEN", TEST_TOKEN)
     with TestClient(main.app) as c:
         yield c
 
@@ -38,13 +42,20 @@ def test_health(client):
     assert res.json()["status"] == "ok"
 
 
+def test_upload_requires_auth(client):
+    res = client.post("/upload", files={"file": ("t.ttl", SIMPLE_TTL, "text/turtle")})
+    assert res.status_code == 401
+
+
 def test_upload_rejects_non_ttl_extension(client):
-    res = client.post("/upload", files={"file": ("data.txt", b"hello", "text/plain")})
+    res = client.post(
+        "/upload", files={"file": ("data.txt", b"hello", "text/plain")}, headers=AUTH
+    )
     assert res.status_code == 400
 
 
 def test_upload_and_query_round_trip(client):
-    res = client.post("/upload", files={"file": ("t.ttl", SIMPLE_TTL, "text/turtle")})
+    res = client.post("/upload", files={"file": ("t.ttl", SIMPLE_TTL, "text/turtle")}, headers=AUTH)
     assert res.status_code == 200
     assert res.json() == {"filename": "t.ttl", "status": "loaded", "total_files_loaded": 1}
 
@@ -55,13 +66,15 @@ def test_upload_and_query_round_trip(client):
 
 def test_upload_bad_turtle_returns_422(client):
     res = client.post(
-        "/upload", files={"file": ("bad.ttl", b"this is not { valid turtle", "text/turtle")}
+        "/upload",
+        files={"file": ("bad.ttl", b"this is not { valid turtle", "text/turtle")},
+        headers=AUTH,
     )
     assert res.status_code == 422
 
 
 def test_sparql_get_query_param(client):
-    client.post("/upload", files={"file": ("t.ttl", SIMPLE_TTL, "text/turtle")})
+    client.post("/upload", files={"file": ("t.ttl", SIMPLE_TTL, "text/turtle")}, headers=AUTH)
     res = client.get("/sparql", params={"query": "SELECT * WHERE { ?s ?p ?o }"})
     assert res.status_code == 200
     assert len(res.json()["rows"]) == 1
@@ -78,7 +91,7 @@ def test_sparql_bad_query_returns_400(client):
 
 
 def test_concerts_endpoint_reflects_uploaded_data(client):
-    client.post("/upload", files={"file": ("concerts.ttl", CONCERT_TTL, "text/turtle")})
+    client.post("/upload", files={"file": ("concerts.ttl", CONCERT_TTL, "text/turtle")}, headers=AUTH)
 
     res = client.get("/concerts")
     assert res.status_code == 200
@@ -105,7 +118,7 @@ cmk:composer1 a foaf:Person ;
 
 
 def test_composers_endpoint_reflects_uploaded_data(client):
-    client.post("/upload", files={"file": ("composers.ttl", COMPOSER_TTL, "text/turtle")})
+    client.post("/upload", files={"file": ("composers.ttl", COMPOSER_TTL, "text/turtle")}, headers=AUTH)
 
     res = client.get("/composers")
     assert res.status_code == 200
