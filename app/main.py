@@ -50,11 +50,13 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title="Knowledge Graph API", lifespan=lifespan)
 
-# Wide open for now so the frontend dev can hit this from localhost/any origin.
-# Tighten allow_origins to your actual frontend URL before this goes anywhere near prod.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "https://views.semanticscore.net",
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+    ],
     allow_methods=["*"],
     allow_headers=["*"],
 )
