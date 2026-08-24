@@ -2,10 +2,18 @@
 
 A small FastAPI server that holds a knowledge graph in memory (via [maplib](https://github.com/DataTreehouse/maplib)) and exposes:
 
-- `POST /upload` — upload a `.ttl` file, merges it into the graph
+- `GET  /concerts` — shaped JSON: every concert with venue, programme, and full composer profiles
+- `GET  /composers` — shaped JSON: every composer with enrichment data (gender, nationality,
+  birthplace, birth/death dates, performances)
+- `POST /upload` — upload a `.ttl` file (bearer token required), merges it into the graph
 - `POST /sparql` — run a SPARQL query, get JSON rows back
 - `GET  /sparql?query=...` — same, for quick testing in a browser or Yasgui
 - `GET  /health` — basic liveness check
+
+`/concerts` and `/composers` are "shaped" endpoints — fixed SPARQL queries wrapped into
+predictable, nested JSON. `/sparql` is the
+low-level escape hatch for anything the shaped endpoints don't cover. See
+[Shaped endpoints](#shaped-endpoints-concerts--composers) below for exact response shapes.
 
 Every `.ttl` file is loaded into a single shared default graph. An upload
 writes the file to `knowledge/assertions/` and then rebuilds the whole in-memory graph from
@@ -72,6 +80,15 @@ You should see:
 INFO:     Uvicorn running on http://127.0.0.1:8000
 ```
 
+`/upload` is bearer-token protected — without `UPLOAD_TOKEN` set, every upload gets `401` regardless
+of what token (if any) you send:
+
+```bash
+UPLOAD_TOKEN=dev-token python3 -m uvicorn app.main:app --reload --workers 1
+```
+
+`/concerts`, `/composers`, and `/sparql` need no token.
+
 ## Trying it out
 
 Health check:
@@ -80,10 +97,19 @@ Health check:
 curl http://127.0.0.1:8000/health
 ```
 
-Upload a file:
+Shaped endpoints — no SPARQL needed:
 
 ```bash
-curl -F "file=@yourfile.ttl" http://127.0.0.1:8000/upload
+curl http://127.0.0.1:8000/concerts
+curl http://127.0.0.1:8000/composers
+```
+
+Upload a file (requires `UPLOAD_TOKEN` to be set when the server starts — see below):
+
+```bash
+curl -F "file=@yourfile.ttl" \
+  -H "Authorization: Bearer $UPLOAD_TOKEN" \
+  http://127.0.0.1:8000/upload
 ```
 
 Run a query:
@@ -113,29 +139,105 @@ real data to be loaded.
 
 - `tests/test_store.py` — unit tests on `KnowledgeGraphStore` (upload, reload-from-disk, re-upload
   replacing only that file's triples, bad Turtle raising).
-- `tests/test_resolvers.py` — unit tests on `get_concerts`, using synthetic `.ttl` fixtures that
-  exercise the real predicate variants found in the data (`cmo:has-venue` vs `cmo:takes-place-at`,
-  `cmo:has-programme` vs `cmo:hasProgramme`), plus the not-yet-populated `cmo:contains-music-by`
-  composer path.
+- `tests/test_resolvers.py` — unit tests on `get_concerts` and `get_composers`, using synthetic
+  `.ttl` fixtures that exercise the real predicate variants found in the data (`cmo:has-venue` vs
+  `cmo:takes-place-at`, `cmo:has-programme` vs `cmo:hasProgramme`), the composer join
+  (`schema:hasPart`/`schema:composer`), and that a concert's composer entries match `/composers`'
+  output exactly.
 - `tests/test_api.py` — integration tests against the actual HTTP endpoints via FastAPI's
   `TestClient`, with `app.main.store` monkeypatched to a scratch-backed store so nothing depends on
   or mutates real data.
 
+## Shaped endpoints (`/concerts` / `/composers`)
+
+Both are read-only, no query params, no pagination — they return every concert or composer
+currently in the graph. Defined in `app/resolvers.py`.
+
+### `GET /concerts`
+
+Array of concert objects:
+
+| Field | Type | Notes |
+|---|---|---|
+| `id` | `string` | Concert URI |
+| `title` | `string \| null` | |
+| `date` | `string \| null` | ISO datetime |
+| `venue` | `string \| null` | |
+| `programme` | `string \| null` | |
+| `composers` | `Composer[]` | Full profile per composer — same shape as `/composers` below |
+
+Composers are joined via the raw extraction chain (`schema:hasPart` → `schema:composer`), not
+`cmo:featured-at` — that predicate is a time-dependent fact from `xclam-pipeline`'s materialized
+inference layer, not part of the assertions this API loads, so it would silently under-report.
+
+```json
+{
+  "id": "https://knowledge.semanticscore.net/knowledge/musiikkitalo-20230926T1900",
+  "title": "Rameau: Les Boréades",
+  "date": "2023-09-26T19:00:00+00:00",
+  "venue": "Musiikkitalo, Concert Hall",
+  "programme": "\"Rameau: Les Boréades\"",
+  "composers": [
+    {
+      "id": "https://knowledge.semanticscore.net/knowledge/jean-philippe-rameau",
+      "name": "Jean-Philippe Rameau",
+      "gender": ["Male"],
+      "nationality": [{ "id": "...", "label": "France" }],
+      "birthPlace": [{ "id": "...", "label": "France" }],
+      "birthDate": "1683-09-25",
+      "deathDate": "1764-09-12",
+      "birthYear": null,
+      "deathYear": null,
+      "featuredAt": [
+        { "performance": "...", "title": "...", "date": "..." }
+      ]
+    }
+  ]
+}
+```
+
+### `GET /composers`
+
+Array of composer objects — the exact shape embedded in `/concerts`:
+
+| Field | Type | Notes |
+|---|---|---|
+| `id` | `string` | Composer URI |
+| `name` | `string \| null` | |
+| `gender` | `string[]` | Multi-valued; a clean label (`"Male"`) or, for some KANTO-sourced composers with no label triples, the raw GSSO ontology URI |
+| `nationality` | `{id, label}[]` | Multi-valued — a composer can legitimately have more than one |
+| `birthPlace` | `{id, label}[]` | Multi-valued |
+| `birthDate` / `deathDate` | `string \| null` | Full ISO date, when known precisely |
+| `birthYear` / `deathYear` | `string \| null` | Year-only precision (KANTO/FINAF-sourced composers) |
+| `featuredAt` | `{performance, title, date}[]` | Every performance this composer is linked to, not just one concert |
+
+Both `/concerts` and `/composers` return the *same* composer dicts (by id) — a composer's profile
+is guaranteed identical however you fetched it, so the frontend never needs a second lookup to
+render a composer's details from a concert card.
+
 ## How to use this from a frontend
 
-There's no REST resource model here (no `/entities`, `/nodes`, etc.) — the only way to read data
-is by sending a SPARQL query to `/sparql`. Treat this less like a typical CRUD API and more like a
-database with one query endpoint.
+Fetching every concert or composer:
+
+```js
+const concerts = await fetch("http://127.0.0.1:8000/concerts").then((r) => r.json());
+const composers = await fetch("http://127.0.0.1:8000/composers").then((r) => r.json());
+```
 
 Uploading a file:
 
 ```js
 const form = new FormData();
 form.append("file", fileInput.files[0]); // must end in .ttl
-await fetch("http://127.0.0.1:8000/upload", { method: "POST", body: form });
+await fetch("http://127.0.0.1:8000/upload", {
+  method: "POST",
+  headers: { Authorization: "Bearer " + uploadToken },
+  body: form,
+});
 ```
 
-Querying data (the endpoint you'll actually build the app on):
+For anything the shaped endpoints don't cover, `/sparql` is the escape hatch — send a SPARQL
+query, get JSON rows back:
 
 ```js
 const res = await fetch("http://127.0.0.1:8000/sparql", {
@@ -148,14 +250,13 @@ const { rows } = await res.json(); // array of plain objects, one per row
 
 ### Things to know before writing queries
 
-- **CORS is wide open** (`allow_origins=["*"]`) in `app/main.py` right now, so you can hit it from
-  `localhost` with zero config. That will get locked down to a specific origin before deploying
-  anywhere beyond your own machine, so don't hardcode assumptions around it staying open.
+- **CORS is locked to a specific allowlist** in `app/main.py` (`views.semanticscore.net` plus local
+  dev ports) — hitting this from a new origin needs that origin added there first.
 - **It's a single shared graph**, not scoped per file/session — every uploaded file's triples are
   queryable together, all the time.
 - **State is in-memory**, backed by `.ttl` files on disk for persistence across restarts. There's
-  no database, no auth, no pagination on `/sparql` — if you need paging, add `LIMIT`/`OFFSET` in
-  your SPARQL yourself.
+  no database and no pagination on `/sparql`, `/concerts`, or `/composers` — if you need paging,
+  add `LIMIT`/`OFFSET` in your SPARQL yourself, or slice the shaped-endpoint arrays client-side.
 - **Errors**: `/sparql` returns `400` with `SPARQL error: ...` on a bad query (syntax error,
   unknown prefix, etc.) — good to surface in dev tooling.
 

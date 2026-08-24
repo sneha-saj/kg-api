@@ -100,6 +100,18 @@ def test_programme_without_label_leaves_programme_field_null(store):
     assert concerts[0]["programme"] is None
 
 
+MINIMAL_COMPOSER_PROFILE = {
+    "gender": [],
+    "nationality": [],
+    "birthPlace": [],
+    "birthDate": None,
+    "deathDate": None,
+    "birthYear": None,
+    "deathYear": None,
+    "featuredAt": [],
+}
+
+
 def test_composer_populates_via_composition(store):
     """Composers come from programme_agent.py's schema:hasPart ->
     MusicComposition -> schema:composer chain, not cmo:contains-music-by
@@ -114,11 +126,42 @@ def test_composer_populates_via_composition(store):
     cmk:work1 a schema:MusicComposition ;
         schema:name "Symphony No. 2" ;
         schema:composer cmk:composer1 .
-    cmk:composer1 foaf:firstName "Jean" ; foaf:familyName "Sibelius" .
+    cmk:composer1 a foaf:Person ;
+        foaf:firstName "Jean" ; foaf:familyName "Sibelius" .
     """)
 
     concerts = get_concerts(store)
-    assert concerts[0]["composers"] == ["Jean Sibelius"]
+    assert concerts[0]["composers"] == [
+        {
+            "id": "https://knowledge.semanticscore.net/knowledge/composer1",
+            "name": "Jean Sibelius",
+            **MINIMAL_COMPOSER_PROFILE,
+        }
+    ]
+
+
+def test_composer_via_camel_case_programme_predicate(store):
+    """Kemi's cmo:hasProgramme feed must also join composers, same as it
+    does for the programme label itself."""
+    upload(store, """
+    cmk:c1 a mo:Performance ;
+        schema:name "C1" ;
+        schema:startDate "2026-01-01T19:00:00"^^xsd:dateTime ;
+        cmo:hasProgramme cmk:p1 .
+    cmk:p1 schema:hasPart cmk:work1 .
+    cmk:work1 schema:composer cmk:composer1 .
+    cmk:composer1 a foaf:Person ;
+        foaf:firstName "Jean" ; foaf:familyName "Sibelius" .
+    """)
+
+    concerts = get_concerts(store)
+    assert concerts[0]["composers"] == [
+        {
+            "id": "https://knowledge.semanticscore.net/knowledge/composer1",
+            "name": "Jean Sibelius",
+            **MINIMAL_COMPOSER_PROFILE,
+        }
+    ]
 
 
 def test_composer_deduplicated_across_rows(store):
@@ -131,11 +174,57 @@ def test_composer_deduplicated_across_rows(store):
     cmk:p2 schema:hasPart cmk:work2 .
     cmk:work1 schema:composer cmk:composer1 .
     cmk:work2 schema:composer cmk:composer1 .
-    cmk:composer1 foaf:firstName "Jean" ; foaf:familyName "Sibelius" .
+    cmk:composer1 a foaf:Person ;
+        foaf:firstName "Jean" ; foaf:familyName "Sibelius" .
     """)
 
     concerts = get_concerts(store)
-    assert concerts[0]["composers"] == ["Jean Sibelius"]
+    assert concerts[0]["composers"] == [
+        {
+            "id": "https://knowledge.semanticscore.net/knowledge/composer1",
+            "name": "Jean Sibelius",
+            **MINIMAL_COMPOSER_PROFILE,
+        }
+    ]
+
+
+def test_concert_composer_carries_full_enrichment_profile(store):
+    """/concerts composer entries must carry the same enrichment fields as
+    /composers (gender, nationality, birth/death info, ...), not just
+    id/name -- so the frontend can render a concert card without a second
+    /composers lookup."""
+    upload(store, """
+    cmk:c1 a mo:Performance ;
+        schema:name "C1" ;
+        schema:startDate "2026-01-01T19:00:00"^^xsd:dateTime ;
+        cmo:has-programme cmk:p1 .
+    cmk:p1 schema:hasPart cmk:work1 .
+    cmk:work1 schema:composer cmk:composer1 .
+    cmk:composer1 a foaf:Person ;
+        foaf:firstName "Jean" ; foaf:familyName "Sibelius" ;
+        schema:gender schema:Male ;
+        schema:nationality cmk:finland ;
+        schema:birthDate "1865-12-08"^^xsd:date ;
+        schema:deathDate "1957-09-20"^^xsd:date .
+    cmk:finland skos:prefLabel "Finland"@en .
+    """)
+
+    concerts = get_concerts(store)
+    composer = concerts[0]["composers"][0]
+    assert composer["id"] == "https://knowledge.semanticscore.net/knowledge/composer1"
+    assert composer["name"] == "Jean Sibelius"
+    assert "Male" in composer["gender"]
+    assert composer["nationality"] == [
+        {"id": "https://knowledge.semanticscore.net/knowledge/finland", "label": "Finland"}
+    ]
+    import datetime
+
+    assert composer["birthDate"] == datetime.date(1865, 12, 8)
+    assert composer["deathDate"] == datetime.date(1957, 9, 20)
+
+    # Same dict a direct /composers call would return for this composer.
+    composers = get_composers(store)
+    assert composer == composers[0]
 
 
 def test_multiple_concerts_ordered_by_date(store):

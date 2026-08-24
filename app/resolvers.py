@@ -35,10 +35,13 @@ ORDER BY ?date
 CONCERT_COMPOSER_QUERY = """
 PREFIX cmo: <https://knowledge.semanticscore.net/ontology/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <https://schema.org/>
 
-SELECT ?concert ?composerFirst ?composerLast
+SELECT ?concert ?composer ?composerFirst ?composerLast
 WHERE {
-    ?composer cmo:featured-at ?concert .
+    { ?concert cmo:has-programme ?programme } UNION { ?concert cmo:hasProgramme ?programme }
+    ?programme schema:hasPart ?work .
+    ?work schema:composer ?composer .
     OPTIONAL { ?composer foaf:firstName ?composerFirst }
     OPTIONAL { ?composer foaf:familyName ?composerLast }
 }
@@ -48,12 +51,31 @@ WHERE {
 def get_concerts(store) -> list[dict]:
     """Returns a list of concerts with venue, programme, and composer info.
     e.g. [{"id": ..., "title": ..., "date": ..., "venue": ..., "programme": ...,
-           "composers": ["Jean Sibelius", ...]}]
+           "composers": [<full composer profile>, ...]}]
+
+    Each concert's composers carry the *same* profile fields as get_composers()
+    (gender, nationality, birthPlace, birth/death dates or year, featuredAt) --
+    literally the same dicts, keyed by composer id, so a composer's data is
+    identical whether read via /concerts or /composers and the frontend never
+    needs a second lookup to render a concert card. A composer joined here but
+    missing from get_composers() (not typed foaf:Person -- shouldn't happen for
+    registry composers, see composers.ttl) falls back to just id/name with
+    empty/null enrichment fields rather than being dropped.
+
+    Composers are joined via the raw schema:hasPart/schema:composer extraction
+    chain, not cmo:featured-at -- that predicate is a time-dependent
+    materialized-inference-layer fact (see get_composers' FEATURED_AT_QUERY and
+    knowledge/rules/composer-featured-at.sparql in xclam-pipeline), so it can
+    silently omit composers for concerts outside whatever window it was last
+    generated for.
     """
+    composer_index = {c["id"]: c for c in get_composers(store)}
+
     concerts: dict[str, dict] = {}
     for row in store.query(CONCERT_QUERY).to_dicts():
-        concerts[row["concert"]] = {
-            "id": row["concert"],
+        concert_id = _clean_uri(row["concert"])
+        concerts[concert_id] = {
+            "id": concert_id,
             "title": row.get("title"),
             "date": row.get("date"),
             "venue": row.get("venueName"),
@@ -62,14 +84,29 @@ def get_concerts(store) -> list[dict]:
         }
 
     for row in store.query(CONCERT_COMPOSER_QUERY).to_dicts():
-        entry = concerts.get(row["concert"])
+        entry = concerts.get(_clean_uri(row["concert"]))
         if entry is None:
             continue
-        composer_name = " ".join(
-            part for part in (row.get("composerFirst"), row.get("composerLast")) if part
-        )
-        if composer_name and composer_name not in entry["composers"]:
-            entry["composers"].append(composer_name)
+        composer_id = _clean_uri(row["composer"])
+        composer = composer_index.get(composer_id)
+        if composer is None:
+            composer_name = " ".join(
+                part for part in (row.get("composerFirst"), row.get("composerLast")) if part
+            ) or None
+            composer = {
+                "id": composer_id,
+                "name": composer_name,
+                "gender": [],
+                "nationality": [],
+                "birthPlace": [],
+                "birthDate": None,
+                "deathDate": None,
+                "birthYear": None,
+                "deathYear": None,
+                "featuredAt": [],
+            }
+        if composer not in entry["composers"]:
+            entry["composers"].append(composer)
 
     return list(concerts.values())
 
