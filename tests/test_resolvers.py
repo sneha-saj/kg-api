@@ -323,14 +323,14 @@ def test_composer_multiple_nationalities_not_deduplicated_away(store):
 
 
 def test_composer_featured_at_performance(store):
-    """cmo:featured-at is a materialized inference-layer fact, not raw
+    """cmo:features is a materialized inference-layer fact, not raw
     extracted data -- see knowledge/rules/composer-featured-at.sparql."""
     upload(store, """
     cmk:composer1 a foaf:Person ;
-        foaf:firstName "Jean" ; foaf:familyName "Sibelius" ;
-        cmo:featured-at cmk:concert1 .
+        foaf:firstName "Jean" ; foaf:familyName "Sibelius" .
     cmk:concert1 schema:name "Sibelius Night" ;
-        schema:startDate "2026-01-01T19:00:00"^^xsd:dateTime .
+        schema:startDate "2026-01-01T19:00:00"^^xsd:dateTime ;
+        cmo:features cmk:composer1 .
     """)
 
     composers = get_composers(store)

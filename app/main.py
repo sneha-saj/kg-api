@@ -92,7 +92,7 @@ def concerts():
 def composers():
     """Shaped endpoint: every composer with enrichment attributes (gender,
     nationality, birthplace, birth/death dates) and the performances they're
-    featured at (materialized inference-layer fact, cmo:featured-at)."""
+    featured at (materialized inference-layer fact, cmo:features)."""
     return get_composers(store)
 
 

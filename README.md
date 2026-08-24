@@ -167,7 +167,7 @@ Array of concert objects:
 | `composers` | `Composer[]` | Full profile per composer — same shape as `/composers` below |
 
 Composers are joined via the raw extraction chain (`schema:hasPart` → `schema:composer`), not
-`cmo:featured-at` — that predicate is a time-dependent fact from `xclam-pipeline`'s materialized
+`cmo:features` — that predicate is a time-dependent fact from `xclam-pipeline`'s materialized
 inference layer, not part of the assertions this API loads, so it would silently under-report.
 
 ```json

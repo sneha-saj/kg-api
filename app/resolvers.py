@@ -63,7 +63,7 @@ def get_concerts(store) -> list[dict]:
     empty/null enrichment fields rather than being dropped.
 
     Composers are joined via the raw schema:hasPart/schema:composer extraction
-    chain, not cmo:featured-at -- that predicate is a time-dependent
+    chain, not cmo:features -- that predicate is a time-dependent
     materialized-inference-layer fact (see get_composers' FEATURED_AT_QUERY and
     knowledge/rules/composer-featured-at.sparql in xclam-pipeline), so it can
     silently omit composers for concerts outside whatever window it was last
@@ -158,7 +158,7 @@ PREFIX schema: <https://schema.org/>
 
 SELECT ?composer ?performance ?title ?date
 WHERE {
-    ?composer cmo:featured-at ?performance .
+    ?performance cmo:features ?composer .
     OPTIONAL { ?performance schema:name ?title }
     OPTIONAL { ?performance schema:startDate ?date }
 }
