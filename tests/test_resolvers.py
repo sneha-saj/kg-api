@@ -27,8 +27,42 @@ def test_basic_fields_with_no_venue_or_programme(store):
     assert len(concerts) == 1
     assert concerts[0]["title"] == "Test Concert"
     assert concerts[0]["venue"] is None
+    assert concerts[0]["organizer"] is None
     assert concerts[0]["programme"] is None
     assert concerts[0]["composers"] == []
+
+
+def test_organizer(store):
+    upload(store, """
+    cmk:c1 a mo:Performance ;
+        schema:name "C1" ;
+        schema:startDate "2026-01-01T19:00:00"^^xsd:dateTime ;
+        schema:organizer cmk:org1 .
+    cmk:org1 a schema:Organization ;
+        schema:name "Avanti! kamariorkesteri" .
+    """)
+
+    concerts = get_concerts(store)
+    assert concerts[0]["organizer"] == {
+        "id": "https://knowledge.semanticscore.net/knowledge/org1",
+        "name": "Avanti! kamariorkesteri",
+    }
+
+
+def test_organizer_without_name_still_returns_id(store):
+    upload(store, """
+    cmk:c1 a mo:Performance ;
+        schema:name "C1" ;
+        schema:startDate "2026-01-01T19:00:00"^^xsd:dateTime ;
+        schema:organizer cmk:org1 .
+    cmk:org1 a schema:Organization .
+    """)
+
+    concerts = get_concerts(store)
+    assert concerts[0]["organizer"] == {
+        "id": "https://knowledge.semanticscore.net/knowledge/org1",
+        "name": None,
+    }
 
 
 def test_venue_via_has_venue_predicate(store):

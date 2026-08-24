@@ -163,6 +163,7 @@ Array of concert objects:
 | `title` | `string \| null` | |
 | `date` | `string \| null` | ISO datetime |
 | `venue` | `string \| null` | |
+| `organizer` | `{id, name} \| null` | `schema:organizer` — the presenting organisation |
 | `programme` | `string \| null` | |
 | `composers` | `Composer[]` | Full profile per composer — same shape as `/composers` below |
 
@@ -176,6 +177,7 @@ inference layer, not part of the assertions this API loads, so it would silently
   "title": "Rameau: Les Boréades",
   "date": "2023-09-26T19:00:00+00:00",
   "venue": "Musiikkitalo, Concert Hall",
+  "organizer": { "id": "https://knowledge.semanticscore.net/knowledge/helsinginkaupunginorkesteri", "name": "Helsingin kaupunginorkesteri" },
   "programme": "\"Rameau: Les Boréades\"",
   "composers": [
     {

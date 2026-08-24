@@ -13,7 +13,7 @@ PREFIX mo: <http://purl.org/ontology/mo/>
 PREFIX schema: <https://schema.org/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT ?concert ?title ?date ?venueName ?programmeTitle
+SELECT ?concert ?title ?date ?venueName ?programmeTitle ?organizer ?organizerName
 WHERE {
     ?concert a mo:Performance ;
              schema:name ?title ;
@@ -27,6 +27,11 @@ WHERE {
     OPTIONAL {
         { ?concert cmo:has-programme ?programme } UNION { ?concert cmo:hasProgramme ?programme }
         OPTIONAL { ?programme rdfs:label ?programmeTitle }
+    }
+
+    OPTIONAL {
+        ?concert schema:organizer ?organizer .
+        OPTIONAL { ?organizer schema:name ?organizerName }
     }
 }
 ORDER BY ?date
@@ -49,8 +54,10 @@ WHERE {
 
 
 def get_concerts(store) -> list[dict]:
-    """Returns a list of concerts with venue, programme, and composer info.
-    e.g. [{"id": ..., "title": ..., "date": ..., "venue": ..., "programme": ...,
+    """Returns a list of concerts with venue, organizer, programme, and composer
+    info.
+    e.g. [{"id": ..., "title": ..., "date": ..., "venue": ...,
+           "organizer": {"id": ..., "name": ...}, "programme": ...,
            "composers": [<full composer profile>, ...]}]
 
     Each concert's composers carry the *same* profile fields as get_composers()
@@ -74,11 +81,16 @@ def get_concerts(store) -> list[dict]:
     concerts: dict[str, dict] = {}
     for row in store.query(CONCERT_QUERY).to_dicts():
         concert_id = _clean_uri(row["concert"])
+        organizer_id = row.get("organizer")
         concerts[concert_id] = {
             "id": concert_id,
             "title": row.get("title"),
             "date": row.get("date"),
             "venue": row.get("venueName"),
+            "organizer": {
+                "id": _clean_uri(organizer_id),
+                "name": row.get("organizerName"),
+            } if organizer_id else None,
             "programme": row.get("programmeTitle"),
             "composers": [],
         }
