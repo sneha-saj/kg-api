@@ -623,3 +623,4 @@ cmk:west-germany a skos:Concept,
 cmk:geo-locations a skos:ConceptScheme ;
     skos:prefLabel "Geographic locations"@en .
 
+# test: trigger sync-assertions workflow after no-fork change
