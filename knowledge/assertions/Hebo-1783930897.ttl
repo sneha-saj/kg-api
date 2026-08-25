@@ -2712,7 +2712,8 @@ cmk:chorus-master a cmo:musical-identity .
 cmk:chorusmaster a cmo:musical-identity .
 
 cmk:christmas-concert-bach-bassani-mazzocchi a cmo:Programme ;
-    rdfs:label "Christmas Concert: Bach, Bassani, Mazzocchi" .
+    rdfs:label "Christmas Concert: Bach, Bassani, Mazzocchi" ;
+    cmo:features cmk:johann-sebastian-bach .
 
 cmk:christmas-concert-gilles a cmo:Programme ;
     rdfs:label "Christmas Concert: Gilles" ;
